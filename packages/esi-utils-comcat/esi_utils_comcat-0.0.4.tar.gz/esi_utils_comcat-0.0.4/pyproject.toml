@@ -1,0 +1,57 @@
+[project]
+name = "esi-utils-comcat"
+dynamic = ["version"]
+description = "USGS ComCat/Geoserve convenience functionality"
+authors = [
+    {name = "Mike Hearne", email="mhearne@usgs.gov"},
+]
+license = {file = "LICENSE.md"}
+readme = "README.md"
+requires-python = ">=3.9"
+
+keywords = ["losses", "earthquake"]
+
+dependencies = [
+    "requests>=2.32.3",
+    "urllib3>=2.2.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build>=0.9.0",
+    "black>=22.12.0",
+    "flake8>=6.0.0",
+    "ipython>=8.8.0",
+    "notebook>=6.5.2",
+    "twine>=4.0.2"
+]
+test = [
+    "pytest>=7.2.0",
+    "pytest-cov>=4.0.0",
+    "vcrpy>=6.0.2",
+]
+build = [
+    "build",
+    "twine",
+]
+
+
+[build-system]
+requires = [
+  "setuptools>=42",
+  "wheel",
+  "setuptools_scm[toml]>=3.4",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["esi_utils_comcat*"]
+exclude = ["tests*"]
+
+
+
+[tool.setuptools_scm]
