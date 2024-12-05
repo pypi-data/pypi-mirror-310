@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+aaudd/__init__.py
+aaudd/aaudd.py
+aaudd.egg-info/PKG-INFO
+aaudd.egg-info/SOURCES.txt
+aaudd.egg-info/dependency_links.txt
+aaudd.egg-info/entry_points.txt
+aaudd.egg-info/requires.txt
+aaudd.egg-info/top_level.txt
