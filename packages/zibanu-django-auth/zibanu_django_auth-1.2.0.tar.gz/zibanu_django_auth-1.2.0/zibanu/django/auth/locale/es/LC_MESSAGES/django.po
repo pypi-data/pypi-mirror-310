@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-29 12:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: zibanu/django/auth/admin_views.py:24
+msgid "Group level admin"
+msgstr "Administración de Niveles de Grupo"
+
+#: zibanu/django/auth/api/serializers/token.py:70
+msgid ""
+"The user does not have allowed multiple login. Please close previous "
+"sessions."
+msgstr ""
+"El usuario no tiene permitido iniciar múltiples sesiones. Por favor cierre "
+"las sesiones abiertas previamente."
+
+#: zibanu/django/auth/api/serializers/token.py:71
+msgid "The token does not have associated user."
+msgstr "El token no tiene un usuario asociado."
+
+#: zibanu/django/auth/api/serializers/token.py:72
+#, fuzzy
+#| msgid "The token does not have associated user."
+msgid "The user does not have associated profile."
+msgstr "El usuario no tiene un perfil válido asociado."
+
+#: zibanu/django/auth/api/serializers/token.py:73
+msgid "Critical Error! Not controlled exception."
+msgstr "Error Crítico! Excepción no controlada."
+
+#: zibanu/django/auth/api/serializers/token.py:262
+msgid "You're trying to refresh and invalid token."
+msgstr "Está tratando de refrescar un token inválido."
+
+#: zibanu/django/auth/api/serializers/user.py:123
+#, fuzzy
+#| msgid "Email is already registered in our database."
+msgid "Email already in use"
+msgstr "El correo ya se encuentra registrado con nosotros."
+
+#: zibanu/django/auth/api/serializers/user.py:144
+msgid "The password is required."
+msgstr "La clave es obligatoria."
+
+#: zibanu/django/auth/api/serializers/user.py:155
+msgid "Email is already registered in our database."
+msgstr "El correo ya se encuentra registrado con nosotros."
+
+#: zibanu/django/auth/api/services/user.py:174
+msgid "Error creating user"
+msgstr "Error creando el usuario"
+
+#: zibanu/django/auth/api/services/user.py:206
+msgid "New User"
+msgstr "Nuevo Usuario"
+
+#: zibanu/django/auth/api/services/user.py:260
+msgid "'email' or 'id' not found in request data"
+msgstr "Los valores de 'email' o 'id' son requeridos."
+
+#: zibanu/django/auth/api/services/user.py:262
+#, fuzzy
+#| msgid "User does not exists."
+msgid "User does not exist."
+msgstr "El usuario no existe."
+
+#: zibanu/django/auth/api/services/user.py:320
+msgid "Only staff or superuser can delete another superuser or staff."
+msgstr ""
+"Solo un usuario administrador o superusuario puede eliminar a otro "
+"administrador o superusuario."
+
+#: zibanu/django/auth/api/services/user.py:323
+msgid "Cannot delete yourself."
+msgstr "No se puede eliminar a si mismo."
+
+#: zibanu/django/auth/api/services/user.py:336
+msgid "User has protected child records. Cannot delete."
+msgstr "El usuario tiene registros dependientes. No se puede eliminar."
+
+#: zibanu/django/auth/api/services/user.py:415
+msgid "The old and new password must be different"
+msgstr "El nuevo password debe ser diferente del antiguo"
+
+#: zibanu/django/auth/api/services/user.py:423
+msgid "Password change"
+msgstr "Cambio de clave"
+
+#: zibanu/django/auth/api/services/user.py:427
+msgid "Old password does not match."
+msgstr "La clave antigua no coincide."
+
+#: zibanu/django/auth/api/services/user.py:430
+msgid "Old/New password are required."
+msgstr "Se requiere la clave antigua y la nueva."
+
+#: zibanu/django/auth/api/services/user.py:476
+msgid "Request password."
+msgstr "Solicitar clave."
+
+#: zibanu/django/auth/api/services/user.py:480
+#, fuzzy
+#| msgid "Email is not registered."
+msgid "Email is not registered or user is not active."
+msgstr "El correo no está registrado con nosotros."
+
+#: zibanu/django/auth/apps.py:22
+msgid "Zibanu Auth for Django"
+msgstr "Módulo de autenticación Zibanu"
+
+#: zibanu/django/auth/lib/enums.py:25
+msgid "Superuser"
+msgstr "Super Usuario"
+
+#: zibanu/django/auth/lib/enums.py:26
+msgid "Staff"
+msgstr "Ejecutivos"
+
+#: zibanu/django/auth/lib/enums.py:27
+msgid "Super Administrator"
+msgstr "Super Administrador"
+
+#: zibanu/django/auth/lib/enums.py:28
+msgid "Administrator"
+msgstr "Administrador"
+
+#: zibanu/django/auth/lib/enums.py:29
+msgid "Supervisor"
+msgstr "Supervisor"
+
+#: zibanu/django/auth/lib/enums.py:30
+msgid "Operator"
+msgstr "Operador"
+
+#: zibanu/django/auth/lib/enums.py:31
+msgid "Guest"
+msgstr "Invitado"
+
+#: zibanu/django/auth/models.py:69
+msgid "Time Zone"
+msgstr "Zona Horaria"
+
+#: zibanu/django/auth/models.py:71
+msgid "User Theme"
+msgstr "Tema de Usuario"
+
+#: zibanu/django/auth/models.py:72
+msgid "Language"
+msgstr "Lenguaje"
+
+#: zibanu/django/auth/models.py:73
+msgid "Avatar"
+msgstr "Avatar"
+
+#: zibanu/django/auth/models.py:74
+msgid "Message's Timeout"
+msgstr "Tiempo de espera de mensajes"
+
+#: zibanu/django/auth/models.py:75
+msgid "Keep Logged In"
+msgstr "Mantener sesión abierta"
+
+#: zibanu/django/auth/models.py:76
+msgid "Allow multiple login"
+msgstr "Permite acceso múltiple"
+
+#: zibanu/django/auth/models.py:78
+#, fuzzy
+#| msgid "Request password."
+msgid "Force secure password"
+msgstr "Solicitar clave."
+
+#: zibanu/django/auth/models.py:79
+msgid "Custom Application Profile"
+msgstr "Perfil de aplicación"
+
+#: zibanu/django/auth/models.py:120
+msgid "Group"
+msgstr "Grupo"
+
+#: zibanu/django/auth/models.py:121
+msgid "Group to assign level"
+msgstr "Grupo al que se le asigna el nivel"
+
+#: zibanu/django/auth/models.py:122
+msgid "Group level"
+msgstr "Nivel del grupo"
+
+#: zibanu/django/auth/models.py:123
+msgid "Level assigned to the group"
+msgstr "Nivel asignado al grupo"
+
+#: zibanu/django/auth/templates/change_password.html:8
+#: zibanu/django/auth/templates/change_password.txt:2
+#: zibanu/django/auth/templates/new_user.html:8
+#: zibanu/django/auth/templates/new_user.txt:2
+#: zibanu/django/auth/templates/request_password.html:8
+#: zibanu/django/auth/templates/request_password.txt:2
+msgid "Hello"
+msgstr "Hola"
+
+#: zibanu/django/auth/templates/change_password.html:9
+#: zibanu/django/auth/templates/change_password.txt:4
+msgid "You have changed your password successfully."
+msgstr "Su clave ha sido cambiada de manera exitosa."
+
+#: zibanu/django/auth/templates/change_password.html:13
+#: zibanu/django/auth/templates/change_password.txt:7
+#: zibanu/django/auth/templates/new_user.txt:9
+#: zibanu/django/auth/templates/request_password.html:15
+#: zibanu/django/auth/templates/request_password.txt:9
+#, python-format
+msgid ""
+"This email was generated automatically at %(email_datetime)s with id "
+"%(email_id)s. Please do not answer it."
+msgstr ""
+"Este correo ha sido generado automaticamente a las %(email_datetime)s con el "
+"id %(email_id)s. Por favor no lo responda."
+
+#: zibanu/django/auth/templates/new_user.html:9
+#: zibanu/django/auth/templates/new_user.txt:4
+msgid ""
+"A new user has been created for your email. To login to the system, use the "
+"password found below."
+msgstr ""
+"Un nuevo usuario ha sido creado para su correo electrónico. Para ingresar al "
+"sistem, utilice la contraseña que encuentra a continuación."
+
+#: zibanu/django/auth/templates/new_user.html:15
+#, fuzzy, python-format
+#| msgid ""
+#| "This email was generated automatically at %(email_datetime)s with id "
+#| "%(email_id)s. Please do not answer it."
+msgid ""
+"This email was generated automatically at %(email_datetime)s with id "
+"%(email_id)s.\n"
+"            Please do not answer it."
+msgstr ""
+"Este correo ha sido generado automaticamente a las %(email_datetime)s con el "
+"id %(email_id)s. Por favor no lo responda."
+
+#: zibanu/django/auth/templates/request_password.html:9
+#: zibanu/django/auth/templates/request_password.txt:4
+msgid "The system has generated a new password for you:"
+msgstr "El sistema ha generado un nuevo password para usted:"
+
+#~ msgid "Could not load import serializer class: "
+#~ msgstr "No se puede importar la clase serializador: "
