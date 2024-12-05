@@ -1,0 +1,11 @@
+
+### **6. Include a License File (Optional)**
+
+If you wish to include a license, create a `LICENSE` file and add the appropriate license text.
+
+### **7. Install the Package Locally for Testing**
+
+Navigate to your project's root directory in the terminal and run:
+
+```bash
+pip install .

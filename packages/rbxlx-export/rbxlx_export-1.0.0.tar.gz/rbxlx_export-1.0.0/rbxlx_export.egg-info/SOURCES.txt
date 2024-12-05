@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rbxlx_export/__init__.py
+rbxlx_export/extractor.py
+rbxlx_export.egg-info/PKG-INFO
+rbxlx_export.egg-info/SOURCES.txt
+rbxlx_export.egg-info/dependency_links.txt
+rbxlx_export.egg-info/requires.txt
+rbxlx_export.egg-info/top_level.txt
