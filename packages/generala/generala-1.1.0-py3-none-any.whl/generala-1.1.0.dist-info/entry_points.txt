@@ -1,0 +1,2 @@
+[console_scripts]
+generala = generala.__main__:main
