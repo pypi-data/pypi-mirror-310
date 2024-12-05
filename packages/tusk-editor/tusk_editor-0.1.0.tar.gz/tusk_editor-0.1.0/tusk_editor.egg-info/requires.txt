@@ -1,0 +1,4 @@
+textual>=0.79.1
+Markdown>=3.7
+pypandoc>=1.14
+GitPython>=3.1.40
