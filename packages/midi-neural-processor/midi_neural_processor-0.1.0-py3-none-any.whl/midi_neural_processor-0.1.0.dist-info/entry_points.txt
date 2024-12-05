@@ -1,0 +1,2 @@
+[console_scripts]
+midi-neural-processor = midi_neural_processor:main
