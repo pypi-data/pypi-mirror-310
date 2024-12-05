@@ -1,0 +1,9 @@
+schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemas/agent.py,sha256=LjTgBlFwVgL_8psN-tzp91d5QOMCOXAf4sPrEwkhoKk,4058
+schemas/chatbot.py,sha256=hkbPkQkRhcjbjEScIbw2MhdpXkccedZcsaPitRQigyc,2072
+schemas/user.py,sha256=LTgCkU5VThi96pt-c6s7N-ZhzdQyMe7ZAFRbXahLsS4,1270
+agents_client-0.1.1.dist-info/LICENSE,sha256=ti-VQDw2ga8XYhcwUYUXQDy6RA3aXTlxxH9fcNb2KqM,11350
+agents_client-0.1.1.dist-info/METADATA,sha256=3GxqR45OUUXff_ZUgO-XMq9k81YRWneiC3vqcUPT7jk,13351
+agents_client-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+agents_client-0.1.1.dist-info/top_level.txt,sha256=JarOYhT5kA4r0Ipm2HfPIekTLa5Iv15leGAQZTQR2ug,8
+agents_client-0.1.1.dist-info/RECORD,,
