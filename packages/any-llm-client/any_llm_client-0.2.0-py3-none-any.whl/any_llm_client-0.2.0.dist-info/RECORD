@@ -1,0 +1,11 @@
+any_llm_client/__init__.py,sha256=G7CPBFCPsbJG6YLndQZ09i9tNRbvdXXOSg0M29hzcc8,683
+any_llm_client/abc.py,sha256=aikkHDxGbyPcAFcwm-Au_qPhDzpmVC52aC1W6Q5Q5-0,919
+any_llm_client/main.py,sha256=FwlQKCu_WDuXSA0gEs7ZWQ-3dEEjSSu_0KjWTz_Mf78,1247
+any_llm_client/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+any_llm_client/clients/mock.py,sha256=ZItyIC5pvJLZapYHm5V9IIQUacHARPyrDfJZMHGthtw,1011
+any_llm_client/clients/openai.py,sha256=oFriwZav81WUZVZYa6sYfg3fWl0jZs2ANxbANdn4PfI,6393
+any_llm_client/clients/yandexgpt.py,sha256=SruwRAGJfH3e-SnYYykGmUV0IE2-vdkDZUJo1KXGdbs,4846
+any_llm_client-0.2.0.dist-info/METADATA,sha256=YHacsx2DcKaao4FpSBbBaMTm9FcEhf-fNdKXItg20rQ,753
+any_llm_client-0.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+any_llm_client-0.2.0.dist-info/licenses/LICENSE,sha256=smei831b0nYGj6h31hhVBf1yRnNiEF9yzA6_-e_g41I,1076
+any_llm_client-0.2.0.dist-info/RECORD,,

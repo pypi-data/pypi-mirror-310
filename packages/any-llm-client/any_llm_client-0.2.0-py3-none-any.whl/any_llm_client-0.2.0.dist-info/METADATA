@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: any-llm-client
+Version: 0.2.0
+Summary: Add your description here
+Author-email: Lev Vereshchagin <mail@vrslev.com>
+Keywords: llm,llm-client,openai,yandex,yandexgpt
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Networking
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: httpx-sse>=0.4.0
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: pydantic>=2.9.2
+Requires-Dist: stamina>=24.3.0
+Description-Content-Type: text/markdown
+
+TODO
