@@ -1,0 +1,9 @@
+pyxote/__init__.py,sha256=NIIuvMGVuDzGdnlgFIf0XVBNfunnVn6i5KcavIllI1s,123
+pyxote/command_serializer.py,sha256=tOwCkUywXJVEQ19aB2XzdvFmiU1BgMjcKz4bgUgDsHA,456
+pyxote/installer.py,sha256=cnzSF1WGSNSu9kbY1tQSpVl-r6eO4tvnhyVq7rXcjQI,355
+pyxote/package_checker.py,sha256=9FfReEH5UsJzqy6AWwQfSKG4iBplF_Y5580ws1SlBis,429
+pyxote/package_installer.py,sha256=W-OaKnB5FyPbZak8wOz6EzaUZ5R4fzyWBuxR8FnUxvo,608
+pyxote-0.1.0.dist-info/LICENSE,sha256=ctQOT1suztKkbUdNhh5JcmqrhSB6G1I1fiYozPW4TUo,1078
+pyxote-0.1.0.dist-info/METADATA,sha256=_eMgd37zPbpfeoZUOtS0oXoRxKp350necFE7ajNTLEI,1640
+pyxote-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pyxote-0.1.0.dist-info/RECORD,,
