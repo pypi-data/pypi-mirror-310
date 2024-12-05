@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+easy_plot/__init__.py
+easy_plot_nass.egg-info/PKG-INFO
+easy_plot_nass.egg-info/SOURCES.txt
+easy_plot_nass.egg-info/dependency_links.txt
+easy_plot_nass.egg-info/requires.txt
+easy_plot_nass.egg-info/top_level.txt
