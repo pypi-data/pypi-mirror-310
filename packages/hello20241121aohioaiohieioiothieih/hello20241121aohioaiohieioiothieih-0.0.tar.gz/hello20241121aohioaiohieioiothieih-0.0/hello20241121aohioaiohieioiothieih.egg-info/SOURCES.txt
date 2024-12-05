@@ -1,0 +1,6 @@
+README.txt
+setup.py
+hello20241121aohioaiohieioiothieih.egg-info/PKG-INFO
+hello20241121aohioaiohieioiothieih.egg-info/SOURCES.txt
+hello20241121aohioaiohieioiothieih.egg-info/dependency_links.txt
+hello20241121aohioaiohieioiothieih.egg-info/top_level.txt
