@@ -1,0 +1,9 @@
+medchemfilters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+medchemfilters/__main__.py,sha256=8ANjEVJJZfg6RLEUA899nTWsKDbA-0N4okoI3fOXJcc,2510
+medchemfilters/ADMET/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+medchemfilters/ADMET/filters.py,sha256=YwpMHDWMjNCHf_jWW24ihkV72Us7slK9RaVxNd2KT08,13051
+medchemfilters/ADMET/mc_filter.py,sha256=GJgrWjwPggaRHHPHsZipUPWDYwJbvL7-FVajYcxpJaw,3849
+medchemfilters-0.0.1.dist-info/METADATA,sha256=GtsA3vIz7JUbWObp88YCBN-hgG4FbW7J2FnncXCG2TE,2839
+medchemfilters-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+medchemfilters-0.0.1.dist-info/licenses/LICENSE,sha256=9mcSQKt0BaFT1K5AKa9RAxAMcKS_f94nWEFjwV2yqBI,1069
+medchemfilters-0.0.1.dist-info/RECORD,,
