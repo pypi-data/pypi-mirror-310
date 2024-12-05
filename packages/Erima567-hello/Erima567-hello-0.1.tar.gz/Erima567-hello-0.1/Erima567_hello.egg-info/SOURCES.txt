@@ -1,0 +1,7 @@
+setup.py
+Erima567_hello.egg-info/PKG-INFO
+Erima567_hello.egg-info/SOURCES.txt
+Erima567_hello.egg-info/dependency_links.txt
+Erima567_hello.egg-info/top_level.txt
+erima567/__init__.py
+erima567/main.py
