@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+xlwinxx/__init__.py
+xlwinxx/xlwinxx.py
+xlwinxx.egg-info/PKG-INFO
+xlwinxx.egg-info/SOURCES.txt
+xlwinxx.egg-info/dependency_links.txt
+xlwinxx.egg-info/not-zip-safe
+xlwinxx.egg-info/top_level.txt
