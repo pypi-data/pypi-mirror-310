@@ -1,0 +1,8 @@
+lib/geometry-central.lib,sha256=3A2ZGbf4jI6lyqixFm1amO7SLDLFpHFkS9DDMaGz7Ok,17920072
+robust_laplacian/__init__.py,sha256=MHJ0oX-IN6YG4lMSQJU21W-BRapcY_5_qi114Nowq58,37
+robust_laplacian/core.py,sha256=yKJwxy0b8akwATykF25T67esLPAdo6WXdme6euSW_nk,1346
+robust_laplacian_bindings.cp37-win32.pyd,sha256=KaFR-ulqDpgnRANlDinL3s0PmPzYmkyTfwwvtJZ-_R0,422912
+robust_laplacian-1.0.0.dist-info/METADATA,sha256=Ml651N1mgAb4aRUphZGY_Dox352YNNBViWFNdm6nFyQ,9315
+robust_laplacian-1.0.0.dist-info/WHEEL,sha256=0jqwLq1QEQxAxQ8s6kub4lrGP70AxxK4kIUHpH0xAdM,101
+robust_laplacian-1.0.0.dist-info/licenses/LICENSE,sha256=EO_1o4thufJJrTsbuutRY9980PNtsvaeaC9Mc577ZiU,1092
+robust_laplacian-1.0.0.dist-info/RECORD,,
