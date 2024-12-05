@@ -1,0 +1,9 @@
+maf_counter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maf_counter/cli.py,sha256=UIE0YF1nB6XSJflnZopcENjw87oCsu8G2DTVOZHt7KE,1886
+maf_counter/bin/maf_counter,sha256=dqlcf5goveOOLHaBWd93uv6buXi2A5-j6lk13nsaof4,322272
+maf_counter-0.2.dist-info/LICENSE.md,sha256=SeV4tXsKISnPxSiWs6S6VYGMUxlwYM5p-cwdeBPrpSA,35140
+maf_counter-0.2.dist-info/METADATA,sha256=2fQQCqAKf4C2WqpJ_qv9MbNrh9zLFoZobgG5QnzWXzs,3106
+maf_counter-0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+maf_counter-0.2.dist-info/entry_points.txt,sha256=N7eHR_TgF6yEJFmwd4V1z3l_KsstaxfQfXtxCzAvvrA,53
+maf_counter-0.2.dist-info/top_level.txt,sha256=Z8Ii7Le4aMhqM4He8uCeojvnLMnQytzsbPvDAAKz0-c,12
+maf_counter-0.2.dist-info/RECORD,,
