@@ -1,0 +1,9 @@
+docfusion/__init__.py,sha256=v-rRiDOgZ3sQSMQKq0vgUQZvpeOkoHFXissAx6Ktg84,61
+docfusion/_version.py,sha256=qqukpMRkG4IHjElzdx_U2y1-uIdtnD24vf2J_wFXJcU,359
+docfusion/tasks/layout_detection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docfusion/tasks/layout_detection/doclayout_yolo.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docfusion/tasks/layout_detection/layoutlm_v3.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docfusion_ai-0.1.0.dist-info/LICENSE.md,sha256=PrMwR3YLuTnmQSpbCY6X1jUODQGoPOhj4QJAqqPX4OA,1370
+docfusion_ai-0.1.0.dist-info/METADATA,sha256=zoFk9jAUznJKcLMDWxZJo7Iyj6qhInYv2N9534DLyGE,4532
+docfusion_ai-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+docfusion_ai-0.1.0.dist-info/RECORD,,
