@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+crab_lib.egg-info/PKG-INFO
+crab_lib.egg-info/SOURCES.txt
+crab_lib.egg-info/dependency_links.txt
+crab_lib.egg-info/requires.txt
+crab_lib.egg-info/top_level.txt
+tests/test_all.py
