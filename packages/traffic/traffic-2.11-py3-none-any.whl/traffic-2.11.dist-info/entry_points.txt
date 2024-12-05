@@ -1,0 +1,2 @@
+[console_scripts]
+traffic = traffic.console:main
