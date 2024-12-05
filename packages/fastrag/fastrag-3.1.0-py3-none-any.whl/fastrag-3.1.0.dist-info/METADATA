@@ -1,0 +1,225 @@
+Metadata-Version: 2.1
+Name: fastrag
+Version: 3.1.0
+Summary: An Efficient Retrieval Augmentation and Generation Framework for Intel Hardware.
+Home-page: https://github.com/IntelLabs/fastRAG
+Author: Intel Labs
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8, <3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: haystack-ai>=2.1.2
+Requires-Dist: transformers>=4.35.2
+Requires-Dist: datasets
+Requires-Dist: evaluate
+Requires-Dist: pandas
+Requires-Dist: nltk
+Requires-Dist: tqdm
+Requires-Dist: numba
+Requires-Dist: openpyxl
+Requires-Dist: numpy
+Requires-Dist: protobuf>=5.28.3
+Requires-Dist: ujson
+Requires-Dist: accelerate
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: Pillow>=10.1.0
+Requires-Dist: chainlit>=1.0.506
+Requires-Dist: sentence-transformers>=2.3.0
+Requires-Dist: events
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: elastic
+Requires-Dist: elasticsearch-haystack; extra == "elastic"
+Provides-Extra: colbert
+Requires-Dist: colbert-ai; extra == "colbert"
+Provides-Extra: faiss-gpu
+Requires-Dist: faiss-gpu; extra == "faiss-gpu"
+Provides-Extra: faiss-cpu
+Requires-Dist: faiss-cpu; extra == "faiss-cpu"
+Provides-Extra: qdrant
+Requires-Dist: qdrant-haystack>=3.2.0; extra == "qdrant"
+Provides-Extra: quantize-reranker
+Requires-Dist: opencv-python-headless; extra == "quantize-reranker"
+Requires-Dist: intel-extension-for-transformers==1.1; extra == "quantize-reranker"
+Requires-Dist: neural_compressor==2.1.1; extra == "quantize-reranker"
+Requires-Dist: pytrec_eval; extra == "quantize-reranker"
+Requires-Dist: transformers>=4.28.1; extra == "quantize-reranker"
+Requires-Dist: datasets>=1.8.0; extra == "quantize-reranker"
+Requires-Dist: sentencepiece!=0.1.92; extra == "quantize-reranker"
+Requires-Dist: protobuf==5.28.3; extra == "quantize-reranker"
+Requires-Dist: torch==1.13.1; extra == "quantize-reranker"
+Requires-Dist: onnx==1.14.0; extra == "quantize-reranker"
+Requires-Dist: onnxruntime==1.13.1; extra == "quantize-reranker"
+Requires-Dist: onnxruntime-extensions==0.8.0; extra == "quantize-reranker"
+Requires-Dist: sentence-transformers==2.2.2; extra == "quantize-reranker"
+Provides-Extra: intel
+Requires-Dist: intel-extension-for-pytorch; extra == "intel"
+Requires-Dist: optimum[ipex,neural-compressor]; extra == "intel"
+Provides-Extra: llama-cpp
+Requires-Dist: llama-cpp-python; extra == "llama-cpp"
+Provides-Extra: openvino
+Requires-Dist: optimum[nncf,openvino]; extra == "openvino"
+Requires-Dist: openvino; extra == "openvino"
+Provides-Extra: llmlingua
+Requires-Dist: llmlingua; extra == "llmlingua"
+Provides-Extra: habana
+Requires-Dist: optimum[habana]; extra == "habana"
+
+<div align="center">
+    <img src="assets/fastrag_header.png" width="300"/>
+
+---
+
+<h4 align="center">
+    <p>Build and explore efficient retrieval-augmented generative models and applications</p>
+</h4>
+
+![PyPI - Version](https://img.shields.io/pypi/v/fastrag)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/fastrag)
+
+:round_pushpin: <a href="#round_pushpin-installation">Installation</a> • :rocket: <a href="components.md">Components</a> • :books: <a href="examples.md">Examples</a> • :red_car: <a href="getting_started.md">Getting Started</a> • :pill: <a href="Demo.md">Demos</a> • :pencil2: <a href="scripts/README.md">Scripts</a> • :bar_chart: <a href="benchmarks/README.md">Benchmarks</a>
+
+</div>
+
+fast**RAG** is a research framework for ***efficient*** and ***optimized*** retrieval augmented generative pipelines,
+incorporating state-of-the-art LLMs and Information Retrieval. fastRAG is designed to empower researchers and developers
+with a comprehensive tool-set for advancing retrieval augmented generation.
+
+Comments, suggestions, issues and pull-requests are welcomed! :heart:
+
+> [!IMPORTANT]
+> Now compatible with Haystack v2+. Please report any possible issues you find.
+
+## :mega: Updates
+
+- **2024-05**: fastRAG V3 is Haystack 2.0 compatible :fire:
+- **2023-12**: Gaudi2 and ONNX runtime support; Optimized Embedding models; Multi-modality and Chat demos; [REPLUG](https://arxiv.org/abs/2301.12652) text generation.
+- **2023-06**: ColBERT index modification: adding/removing documents; see [IndexUpdater](libs/colbert/colbert/index_updater.py).
+- **2023-05**: [RAG with LLM and dynamic prompt synthesis example](examples/rag-prompt-hf.ipynb).
+- **2023-04**: Qdrant `DocumentStore` support.
+
+## Key Features
+
+- **Optimized RAG**: Build RAG pipelines with SOTA efficient components for greater compute efficiency.
+- **Optimized for Intel Hardware**: Leverage [Intel extensions for PyTorch (IPEX)](https://github.com/intel/intel-extension-for-pytorch), [🤗 Optimum Intel](https://github.com/huggingface/optimum-intel) and [🤗 Optimum-Habana](https://github.com/huggingface/optimum-habana) for *running as optimal as possible* on Intel® Xeon® Processors and Intel® Gaudi® AI accelerators.
+- **Customizable**: fastRAG is built using [Haystack](https://github.com/deepset-ai/haystack) and HuggingFace. All of fastRAG's components are 100% Haystack compatible.
+
+## :rocket: Components
+
+For a brief overview of the various unique components in fastRAG refer to the [Components Overview](components.md) page.
+
+<div class="tg-wrap" align="center">
+<table style="undefined;table-layout: fixed; width: 600px; text-align: center;">
+<colgroup>
+<!-- <col style="width: 229px"> -->
+<!-- <col style="width: 238px"> -->
+</colgroup>
+<tbody>
+  <tr>
+    <td colspan="2"><strong><em>LLM Backends</em></td>
+  </tr>
+  <tr>
+    <td><a href="components.md#fastrag-running-llms-with-habana-gaudi-(dl1)-and-gaudi-2">Intel Gaudi Accelerators</a></td>
+    <td><em>Running LLMs on Gaudi 2</td>
+  </tr>
+  <tr>
+    <td><a href="components.md#fastrag-running-llms-with-onnx-runtime">ONNX Runtime</a></td>
+    <td><em>Running LLMs with optimized ONNX-runtime</td>
+  </tr>
+  <tr>
+    <td><a href="components.md#fastrag-running-quantized-llms-using-openvino">OpenVINO</a></td>
+    <td><em>Running quantized LLMs using OpenVINO</td>
+  </tr>
+  <tr>
+    <td><a href="components.md#fastrag-running-rag-pipelines-with-llms-on-a-llama-cpp-backend">Llama-CPP</a></td>
+    <td><em>Running RAG Pipelines with LLMs on a Llama CPP backend</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><em>Optimized Components</em></td>
+  </tr>
+  <tr>
+    <td><a href="scripts/optimizations/embedders/README.md">Embedders</a></td>
+    <td>Optimized int8 bi-encoders</td>
+  </tr>
+  <tr>
+    <td><a href="scripts/optimizations/reranker_quantization/quantization.md">Rankers</a></td>
+    <td>Optimized/sparse cross-encoders</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><em>RAG-efficient Components</em></td>
+  </tr>
+  <tr>
+    <td><a href="components.md#ColBERT-v2-with-PLAID-Engine">ColBERT</a></td>
+    <td>Token-based late interaction</td>
+  </tr>
+  <tr>
+    <td><a href="components.md#Fusion-In-Decoder">Fusion-in-Decoder (FiD)</a></td>
+    <td>Generative multi-document encoder-decoder</td>
+  </tr>
+  <tr>
+    <td><a href="components.md#REPLUG">REPLUG</a></td>
+    <td>Improved multi-document decoder</td>
+  </tr>
+  <tr>
+    <td><a href="components.md#ColBERT-v2-with-PLAID-Engine">PLAID</a></td>
+    <td>Incredibly efficient indexing engine</td>
+  </tr>
+</tbody>
+</table></div>
+
+## :round_pushpin: Installation
+
+Preliminary requirements:
+
+- **Python** 3.8 or higher.
+- **PyTorch** 2.0 or higher.
+
+To set up the software, install from `pip` or clone the project for the bleeding-edge updates. Run the following, preferably in a newly created virtual environment:
+
+```bash
+pip install fastrag
+```
+
+### Extra Packages
+
+There are additional dependencies that you can install based on your specific usage of fastRAG:
+
+```bash
+# Additional engines/components
+pip install fastrag[intel]               # Intel optimized backend [Optimum-intel, IPEX]
+pip install fastrag[openvino]            # Intel optimized backend using OpenVINO
+pip install fastrag[elastic]             # Support for ElasticSearch store
+pip install fastrag[qdrant]              # Support for Qdrant store
+pip install fastrag[colbert]             # Support for ColBERT+PLAID; requires FAISS
+pip install fastrag[faiss-cpu]           # CPU-based Faiss library
+pip install fastrag[faiss-gpu]           # GPU-based Faiss library
+```
+
+To work with the latest version of fastRAG, you can install it using the following command:
+
+```bash
+pip install .
+```
+
+### Development tools
+
+```bash
+pip install .[dev]
+```
+
+## License
+
+The code is licensed under the [Apache 2.0 License](LICENSE).
+
+## Disclaimer
+
+This is not an official Intel product.
