@@ -1,0 +1,5 @@
+PyYAML
+data-manipulation-utilities
+
+[dev]
+pytest
