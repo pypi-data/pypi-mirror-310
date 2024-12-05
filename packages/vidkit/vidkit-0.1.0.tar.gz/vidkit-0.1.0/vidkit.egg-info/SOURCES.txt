@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+vidkit/__init__.py
+vidkit/core.py
+vidkit.egg-info/PKG-INFO
+vidkit.egg-info/SOURCES.txt
+vidkit.egg-info/dependency_links.txt
+vidkit.egg-info/requires.txt
+vidkit.egg-info/top_level.txt
