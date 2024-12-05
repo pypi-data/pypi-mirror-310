@@ -1,0 +1,14 @@
+jinja2
+pyyaml
+pydantic
+libclang~=14.0.1
+
+[all]
+yace[dev]
+
+[dev]
+coverage
+kmdo
+pudb
+sphinx
+wheel
