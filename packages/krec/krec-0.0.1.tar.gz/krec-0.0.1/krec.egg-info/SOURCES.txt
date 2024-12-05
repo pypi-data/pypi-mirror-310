@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+krec/__init__.py
+krec/py.typed
+krec/requirements-dev.txt
+krec/requirements.txt
+krec.egg-info/PKG-INFO
+krec.egg-info/SOURCES.txt
+krec.egg-info/dependency_links.txt
+krec.egg-info/requires.txt
+krec.egg-info/top_level.txt
+tests/test_dummy.py
