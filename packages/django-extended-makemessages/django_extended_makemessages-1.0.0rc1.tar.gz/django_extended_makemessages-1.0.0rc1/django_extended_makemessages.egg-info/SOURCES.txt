@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+build-package.sh
+pyproject.toml
+.github/workflows/publish-to-pypi.yaml
+django_extended_makemessages/__init__.py
+django_extended_makemessages/apps.py
+django_extended_makemessages.egg-info/PKG-INFO
+django_extended_makemessages.egg-info/SOURCES.txt
+django_extended_makemessages.egg-info/dependency_links.txt
+django_extended_makemessages.egg-info/requires.txt
+django_extended_makemessages.egg-info/top_level.txt
+django_extended_makemessages/management/commands/extendedmakemessages.py
+images/disabling-fuzzy-translations-1.png
+images/disabling-fuzzy-translations-2.png
+images/sorting-messages-by-msgid.png
