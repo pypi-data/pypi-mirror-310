@@ -1,0 +1,5 @@
+rust_pyfunc-0.5.0.dist-info/METADATA,sha256=JzEJHDrLl_rSYpsVFatTqv0CEzIvR8ofPjxZHTuT-k0,6420
+rust_pyfunc-0.5.0.dist-info/WHEEL,sha256=lukeIsDTsE1YVI71QKxojI1jBuBmCbLW3hTRwIrKSOQ,94
+rust_pyfunc/__init__.py,sha256=pT7m3kc-__1noD66lb45YidBcH2VtoLfk48SGvNsrdM,127
+rust_pyfunc/rust_pyfunc.cp39-win_amd64.pyd,sha256=EAx0AL6L08rW_U26uFRQ22aZF4bjEfxtRHGJATwcUII,412672
+rust_pyfunc-0.5.0.dist-info/RECORD,,
