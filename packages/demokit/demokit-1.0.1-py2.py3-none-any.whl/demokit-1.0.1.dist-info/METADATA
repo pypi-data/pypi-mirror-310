@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: demokit
+Version: 1.0.1
+Summary: Demokit: A demo kit for Python projects.
+Home-page: https://github.com/guillaumefe
+Author: guillaumefe
+Author-email: guillaume.ferron@gmail.com
+Requires-Dist: click
