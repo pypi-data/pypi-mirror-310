@@ -1,0 +1,13 @@
+meteocat/__init__.py,sha256=I5O75OUM4DXDcd7ork03qBKUSpL0B1ePOl3WGtUrZ84,3717
+meteocat/assets/icon.png,sha256=VWDbzDVQGPAOfQHI3qNmOkEDCPKYW7rMF1WieofaAEc,8888
+meteocat/assets/icon.svg,sha256=-KBbjubqu7QvgtIWSvLx86DWGIXFUk3p8Cma6aDlDic,18723
+meteocat/config_flow.py,sha256=qc3RYu0cERp3DaDL1Cm8mxRFnqlMi1VQ2pjtJLk-0IY,6172
+meteocat/const.py,sha256=RGmkyrzi4tkBI2_gs8iVyD_9HNRc5KNXBRIctBai0co,55
+meteocat/files/municipi.json,sha256=uP7P20WVzqLrj5GNKJK1e7iWrtzsZ11k6DiSvRtDpUs,143
+meteocat/files/municipis_list.json,sha256=nqeuwsNQaPy1F-MG6xO7q0F0O9G-iNoXf8Y4-0YgfcE,284069
+meteocat/manifest.json,sha256=uHcXREDDeDNz073q1DzPorSsJtLhTrdvXPyEaDI9zkQ,364
+meteocat/version.py,sha256=ty1jXQnW_uXB62rkrMd5VJCkckAcFmjAl7nSiok7PdU,93
+meteocat-0.1.12.dist-info/AUTHORS.md,sha256=2ADkuS50Y4zXuy8P-__VTV2-GQ0XQpUvUrxAEQRa-Bo,239
+meteocat-0.1.12.dist-info/METADATA,sha256=eg66Ft2XmOPtXagPKoqkXgrqeiOab3gUBI9T_GSioCM,2429
+meteocat-0.1.12.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+meteocat-0.1.12.dist-info/RECORD,,
