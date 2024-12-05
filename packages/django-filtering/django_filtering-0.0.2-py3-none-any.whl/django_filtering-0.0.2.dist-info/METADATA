@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: django-filtering
+Version: 0.0.2
+Summary: Allows users to filter Django models
+Project-URL: Homepage, https://github.com/mmulich/django-filtering
+Project-URL: Issues, https://github.com/mmulich/django-filtering/issues
+Author: The Shadowserver Foundation
+Author-email: Michael Mulich <michael@mulich.com>
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: django>=4.2
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-django; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# Django Filtering
+
+A library for filtering Django Models.
+
+The original usecase for this project required the following:
+
+- provides a means of allowing users to filter modeled data
+- provides the ability to `AND`, `OR` and `NOT` filters (i.e. operators)
+- provides the ability to group filters by operator
+- serializes, validates, etc.
+
+## License
+
+GPL v3 (see `LICENSE` file)
+
+## Copyright
+
+© 2024 The Shadowserver Foundation
