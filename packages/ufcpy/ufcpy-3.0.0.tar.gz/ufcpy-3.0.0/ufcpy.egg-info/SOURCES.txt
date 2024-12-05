@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+ufcpy/Champion.py
+ufcpy/Fighter.py
+ufcpy/__init__.py
+ufcpy/core.py
+ufcpy/exceptions.py
+ufcpy/utils.py
+ufcpy.egg-info/PKG-INFO
+ufcpy.egg-info/SOURCES.txt
+ufcpy.egg-info/dependency_links.txt
+ufcpy.egg-info/requires.txt
+ufcpy.egg-info/top_level.txt
