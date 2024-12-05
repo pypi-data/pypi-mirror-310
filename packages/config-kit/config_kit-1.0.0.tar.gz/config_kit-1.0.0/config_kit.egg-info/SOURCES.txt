@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+config_kit/__init__.py
+config_kit/bin.py
+config_kit/core.py
+config_kit/util.py
+config_kit/version.json
+config_kit.egg-info/PKG-INFO
+config_kit.egg-info/SOURCES.txt
+config_kit.egg-info/dependency_links.txt
+config_kit.egg-info/entry_points.txt
+config_kit.egg-info/requires.txt
+config_kit.egg-info/top_level.txt
