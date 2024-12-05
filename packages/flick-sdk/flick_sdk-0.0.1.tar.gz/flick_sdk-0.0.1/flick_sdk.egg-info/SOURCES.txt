@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+flick_sdk/__init__.py
+flick_sdk/test.py
+flick_sdk.egg-info/PKG-INFO
+flick_sdk.egg-info/SOURCES.txt
+flick_sdk.egg-info/dependency_links.txt
+flick_sdk.egg-info/top_level.txt
