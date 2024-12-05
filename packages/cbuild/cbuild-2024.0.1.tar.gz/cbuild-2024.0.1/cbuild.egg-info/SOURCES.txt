@@ -1,0 +1,6 @@
+README.md
+setup.py
+cbuild.egg-info/PKG-INFO
+cbuild.egg-info/SOURCES.txt
+cbuild.egg-info/dependency_links.txt
+cbuild.egg-info/top_level.txt

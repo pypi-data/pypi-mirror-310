@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cbuild
+Version: 2024.0.1
+Summary: An Easy To Use CLI Build Tool For C
+Home-page: https://github.com/d34d0s/cbuild
+Author: Izaiyah Stokes
+Author-email: zeroth.bat@gmail.com
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Cbuild CLI Build Tool
