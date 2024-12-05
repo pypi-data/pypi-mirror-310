@@ -1,0 +1,2 @@
+[workspace]
+members = ["rsca", "pyrsca"]
