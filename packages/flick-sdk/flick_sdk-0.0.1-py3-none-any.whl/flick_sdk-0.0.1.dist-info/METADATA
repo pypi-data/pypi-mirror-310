@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flick_sdk
+Version: 0.0.1
+Summary: Flick Python SDK
+Author: Quraba inc
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+source .venv/Scripts/activate
+pip install twine wheel setuptools
