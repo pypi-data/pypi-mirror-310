@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+.snakemake/
+__pycache__/
+*.egg-info/
+build/
+data/

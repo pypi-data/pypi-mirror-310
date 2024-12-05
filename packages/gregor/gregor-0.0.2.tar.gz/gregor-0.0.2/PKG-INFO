@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: gregor
+Version: 0.0.2
+Summary: A library for spatial aggregation and disaggregation
+Author-email: Jann Launer <j.a.c.launer@tudelft.nl>
+Project-URL: changelog, https://github.com/jnnr/gregor/blob/main/CHANGELOG.md
+Project-URL: homepage, https://gregor.readthedocs.io/en/latest/
+Project-URL: repository, https://github.com/jnnr/gregor.git
+Keywords: gis
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas>=1.2
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: geopandas
+Requires-Dist: xarray
+Requires-Dist: rasterio
+Requires-Dist: rioxarray
+Requires-Dist: rasterstats
+Requires-Dist: click
+
+# Gregor: Aggregation and disaggregation of spatial data
+
+Gregor is a tool that makes your life easier when aggregating and dis-aggregating spatial data. It has been developed in the context of preparing data for energy system modeling, but can be applied in any situation involving spatial data.
+
+<img src="https://raw.githubusercontent.com/jnnr/gregor/refs/heads/main/docs/img/polygons-to-raster-and-back.png" width=850>
+
+## Installation
+
+Install the latest release from pypi using pip.
+
+    pip install gregor
+
+Alternatively, install an editable local version in an environment by cloning the repository and running:
+
+    pip install -e <path-to-repo>
+
+## Usage
+
+Please have a look at the examples presented in the [documentation](https://gregor.readthedocs.io/en/latest/). 
+
+## Development
+
+If you encounter a bug, consider opening an issue on [GitHub](https://github.com/jnnr/gregor/issues).

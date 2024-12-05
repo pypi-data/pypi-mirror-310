@@ -1,0 +1,71 @@
+[project]
+name = "gregor"
+authors = [
+  {name = "Jann Launer", email = "j.a.c.launer@tudelft.nl"},
+]
+description = "A library for spatial aggregation and disaggregation"
+readme = "README.md"
+version = "0.0.2"
+dynamic = ["dependencies"]
+
+# complete classifier list:
+# http://pypi.org/classifiers/
+classifiers = [
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+]
+
+keywords = [
+  'gis',
+]
+
+requires-python = ">=3.8, <4"
+
+[project.urls]
+changelog = "https://github.com/jnnr/gregor/blob/main/CHANGELOG.md"
+homepage = "https://gregor.readthedocs.io/en/latest/"
+repository = "https://github.com/jnnr/gregor.git"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=6.2"]
+
+[project.scripts]
+gregor = "gregor.cli:cli"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements/base.txt"] }
+
+[tool.ruff]
+builtins = ["ellipsis"]
+target-version = "py38"
+
+[tool.ruff.lint]
+exclude = [
+  ".eggs",
+  "doc",
+  "_typed_ops.pyi",
+]
+ignore = [
+  "E402",
+  "E501",
+  "E731",
+  "E741",
+]
+select = [
+  "F", # Pyflakes
+  "E", # Pycodestyle
+  "W", # isort
+  "I",
+  "UP", # Pyupgrade
+]
+
+[tool.ruff.lint.per-file-ignores]
+# F401: imported but unsued
+"__init__.py" = ["F401"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["sampleproject"]
+lines-after-imports = 2

@@ -1,0 +1,14 @@
+version: 2
+conda:
+  environment: requirements/base.txt
+build:
+  os: ubuntu-22.04
+  tools:
+    python: mambaforge-4.10
+  jobs:
+    post_create_environment:
+      - conda install python=3.12 --file requirements/dev.txt
+      - pip install --no-deps .
+
+mkdocs:
+  configuration: mkdocs.yml
