@@ -1,0 +1,11 @@
+Pillow
+opencv-python
+imageio
+numpy
+numba
+imagecorruptions
+openslide-python
+opencv-contrib-python
+scipy
+imgaug
+scikit-image
