@@ -1,0 +1,8 @@
+{
+    "prog": "config_kit",
+    "desc": "A convenient utility for managing configurations.",
+    "url": "https://github.com/suqingdong/config_kit",
+    "author": "suqingdong",
+    "author_email": "suqingdong1114@gmail.com",
+    "version": "1.0.0"
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+config_kit = config_kit.bin:main
+
