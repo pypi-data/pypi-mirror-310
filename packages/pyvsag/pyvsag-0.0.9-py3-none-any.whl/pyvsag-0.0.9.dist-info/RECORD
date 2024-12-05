@@ -1,0 +1,8 @@
+pyvsag/__init__.py,sha256=292S-bS0IoD3tlq9vtU1GWCzMVFP4uPpsHJ2p2as3xA,160
+pyvsag/_pyvsag.cpython-310-x86_64-linux-gnu.so,sha256=AshTeIyIj-tr_JkFA7gBr5LWfDI75NrAtMYFz2XO8J4,204600
+pyvsag/libgfortran.so.5,sha256=D94wJSmb5WvcLQ9G47J3VVAd45qKPT6i2GApz3v1WsY,3041225
+pyvsag/libvsag.so,sha256=A_Ypu1vwkLvjE8q1-A_9D5ts0csywe2U1Gf1a7TDx5w,141255712
+pyvsag-0.0.9.dist-info/METADATA,sha256=Fk4wq6gRaTEP9OPejDub0_kpC1E6TbBUjkM6_C465oA,812
+pyvsag-0.0.9.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+pyvsag-0.0.9.dist-info/top_level.txt,sha256=mM3KGpGtVXllavkTAS7KRDONl99TnZ2pnIntKHAaYLE,7
+pyvsag-0.0.9.dist-info/RECORD,,
