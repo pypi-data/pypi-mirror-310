@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/stochastipy/__init__.py
+src/stochastipy.egg-info/PKG-INFO
+src/stochastipy.egg-info/SOURCES.txt
+src/stochastipy.egg-info/dependency_links.txt
+src/stochastipy.egg-info/requires.txt
+src/stochastipy.egg-info/top_level.txt

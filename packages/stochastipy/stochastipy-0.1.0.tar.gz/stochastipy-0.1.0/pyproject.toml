@@ -1,0 +1,36 @@
+[project]
+name = "stochastipy"
+version = "0.1.0"
+description = "Interactive learning through stochastic simulations and modeling."
+readme = "README.md"
+authors = [
+  { name="Kieran Mackle", email="kemackle98@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/kieran-mackle/StochastiPy"
+"Bug Tracker" = "https://github.com/kieran-mackle/StochastiPy/issues"
+
+[project.optional-dependencies]
+dev = [
+    "ruff >= 0.7.4",
+    "commitizen >= 3.31.0",
+    "pre-commit >= 3.4.0",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "v$version"
+version_provider = "pep621"
+version_files = [
+    "pyproject.toml:^version",
+]
+update_changelog_on_bump = true
