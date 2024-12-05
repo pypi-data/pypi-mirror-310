@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+DopeSQL/DopeSQL.py
+DopeSQL/__init__.py
+DopeSQL.egg-info/PKG-INFO
+DopeSQL.egg-info/SOURCES.txt
+DopeSQL.egg-info/dependency_links.txt
+DopeSQL.egg-info/top_level.txt
