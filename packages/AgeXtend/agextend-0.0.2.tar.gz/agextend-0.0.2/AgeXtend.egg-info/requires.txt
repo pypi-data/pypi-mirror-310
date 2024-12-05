@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+rdkit-pypi
+scikit-learn
+signaturizer
+lime
+joblib
+importlib-resources
+seaborn
+xgboost
+cloudpickle

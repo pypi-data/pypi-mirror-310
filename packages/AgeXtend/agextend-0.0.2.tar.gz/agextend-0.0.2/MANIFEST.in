@@ -1,0 +1,6 @@
+include AgeXtend/*.py
+include AgeXtend/*.pkl
+include AgeXtend/*.csv
+include AgeXtend/*.html
+include AgeXtend/*.png
+include AgeXtend/license.lic
