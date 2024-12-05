@@ -1,0 +1,6 @@
+README.md
+setup.py
+pepecoin.egg-info/PKG-INFO
+pepecoin.egg-info/SOURCES.txt
+pepecoin.egg-info/dependency_links.txt
+pepecoin.egg-info/top_level.txt
