@@ -1,0 +1,36 @@
+name: Code style checks
+
+on: [pull_request]
+
+jobs:
+  black:
+    name: Check black compliance.
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+
+      - name: Black
+        uses: psf/black@stable
+        with:
+          options: "--config pyproject.toml --check"
+          src: "."
+          # use_pyproject: true
+
+  docstring:
+    name: Check docstring compliance.
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+
+      - name: Interrogate
+        uses: JackMcKew/python-interrogate-check@main
