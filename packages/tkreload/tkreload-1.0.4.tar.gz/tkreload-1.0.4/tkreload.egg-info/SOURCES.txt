@@ -1,0 +1,41 @@
+.gitignore
+CODE_OF_CONDUCT.md
+LICENSE
+README.md
+pyproject.toml
+.assets/communism.png
+.assets/with.gif
+.assets/without.gif
+.assets/logo/png/banner_dark.png
+.assets/logo/png/banner_light.png
+.assets/logo/previews/Banner (Dark).png
+.assets/logo/previews/Banner (Light).png
+.assets/logo/previews/Main (Dark.png
+.assets/logo/previews/Main (Light).png
+.assets/logo/svg/logo_dark.svg
+.assets/logo/svg/logo_light.svg
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/custom.md
+.github/ISSUE_TEMPLATE/feature_request.md
+.github/workflows/publish.yaml
+.github/workflows/test.yml
+example/README.md
+example/sample_app.py
+tests/__init__.py
+tests/test_app_event_handler.py
+tests/test_auto_reload.py
+tests/test_file_utils.py
+tests/test_main.py
+tkreload/__init__.py
+tkreload/app_event_handler.py
+tkreload/auto_reload.py
+tkreload/file_utils.py
+tkreload/help.py
+tkreload/main.py
+tkreload/progress.py
+tkreload.egg-info/PKG-INFO
+tkreload.egg-info/SOURCES.txt
+tkreload.egg-info/dependency_links.txt
+tkreload.egg-info/entry_points.txt
+tkreload.egg-info/requires.txt
+tkreload.egg-info/top_level.txt
