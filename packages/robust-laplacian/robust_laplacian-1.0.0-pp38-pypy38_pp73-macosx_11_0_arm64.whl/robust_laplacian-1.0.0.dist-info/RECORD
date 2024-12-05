@@ -1,0 +1,8 @@
+robust_laplacian_bindings.pypy38-pp73-darwin.so,sha256=9F4rMdpF6oOksNcgi8lCvPBuzp6fmO-Kkz9EzCOJlcA,891776
+lib/libgeometry-central.a,sha256=ly3oXatUdfEcKa4SOhPX9dRs9GSFE4rLW-6GBa6EnSg,8305360
+robust_laplacian/__init__.py,sha256=pQFIZjCIKCj05u_LiIBuEkwQamYjZZr6Hk_8fWFOExQ,36
+robust_laplacian/core.py,sha256=JbzaWq_KKv0Q_heGOpSuOWIPl9yGLIUbMqH6oVJerQE,1310
+robust_laplacian-1.0.0.dist-info/RECORD,,
+robust_laplacian-1.0.0.dist-info/WHEEL,sha256=FJrgAkxR-9YRXPjzJQtRPf73kV80udo_o186Z8l6f_k,119
+robust_laplacian-1.0.0.dist-info/METADATA,sha256=Ml651N1mgAb4aRUphZGY_Dox352YNNBViWFNdm6nFyQ,9315
+robust_laplacian-1.0.0.dist-info/licenses/LICENSE,sha256=L165AuD4B-jFMITy8qYhasHaKknt-Bfbm59REHFeBk0,1071
