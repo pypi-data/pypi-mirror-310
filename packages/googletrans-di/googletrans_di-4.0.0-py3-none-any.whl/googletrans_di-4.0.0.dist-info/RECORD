@@ -1,0 +1,11 @@
+googletrans_di/__init__.py,sha256=F-C3pixOhafEdLbQMRkdIAXTNlD5D0XeESM2JVXELNg,232
+googletrans_di/client.py,sha256=TGil8d2eu9fno5LSktg2Xirrq5_Tgezja9NeDuieJiQ,11522
+googletrans_di/constants.py,sha256=4K7FAaxodxmP5CcA0-ye0ZsGo9Q9MNDH_hpMTeCqy1U,12444
+googletrans_di/gtoken.py,sha256=MP7dsckzboIRgNIGxENHZYCDMrNC5YJ4WTV45l40npk,7053
+googletrans_di/models.py,sha256=wJejA2QJr0QMnBmA9cIowCdvEQaxllR_FX5qYDq8FUE,1797
+googletrans_di/urls.py,sha256=tKUbbC05UDGqQ8VgM65l1ECLwjolgVD3T5hAWJaqYtM,174
+googletrans_di/utils.py,sha256=FoOQaymewI5xlwxibVYlt9D42SbbhvrhtrKb3cbmuD8,1950
+googletrans_di-4.0.0.dist-info/METADATA,sha256=mfD2PMtT-sgTaVqpCQLB0iUKAalACP7GuRfa5oSn8Yk,9852
+googletrans_di-4.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+googletrans_di-4.0.0.dist-info/licenses/LICENSE,sha256=WBM2Ad-P6SHHkQtDIQ1yTaFnUDezNlLZDd4QGp_NoZc,1077
+googletrans_di-4.0.0.dist-info/RECORD,,
