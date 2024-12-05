@@ -1,0 +1,23 @@
+[project]
+name = "flightdata"
+version = "v0.2.24"
+description = "Python tools for handling flight data"
+readme = "README.md"
+authors = [{ name = "Thomas David", email = "thomasdavid0@gmail.com" }]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.1.3",
+    "pandas>=2.2.3",
+    "pfc-geometry>=0.2.13",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+pfc-geometry = { path = "../geometry" , editable = true }
+ardupilot_log_reader = { path = "../ArdupilotLogReader" , editable = true  }
+
+[dependency-groups]
+dev = ["ardupilot_log_reader>=0.3.5", "pymavlink>=2.4.42", "pytest>=8.3.3"]
