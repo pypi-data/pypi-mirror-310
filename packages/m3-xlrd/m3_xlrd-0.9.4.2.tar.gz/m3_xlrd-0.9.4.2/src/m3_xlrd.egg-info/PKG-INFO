@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: m3_xlrd
+Version: 0.9.4.2
+Summary: Патч официальной библиотеки xlrd для работы с excel-файлами
+Home-page: https://stash.bars-open.ru/projects/M3/repos/m3-xlrd/browse
+Author: BARS Group
+Author-email: a.morozov@bars.group
+License: Apache License, Version 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
