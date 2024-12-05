@@ -1,0 +1,12 @@
+aravis/__init__.py,sha256=qcwsLAWG2KCbI8Znh25wGh9ci43xyzj_wlUaqdCZgNU,696
+aravis/version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+aravis/lib/Aravis-0.8.typelib,sha256=iAHTuAAl-b5UNcNdGM3DO8darI0CXOxN--da5xtsVY4,108540
+aravis/lib/README.md,sha256=_k2C-pHf_j6uNkF_41vcCm386mR1-S5UJ9mxOgXkKQg,47
+aravis/lib/libaravis-0.8.so,sha256=1I9P5JwfH6DRT2WkvuGOAUdXaQ2lMGflkx19vTzkSi4,789064
+aravis/lib/libaravis-0.8.so.0,sha256=1I9P5JwfH6DRT2WkvuGOAUdXaQ2lMGflkx19vTzkSi4,789064
+aravis/lib/libaravis-0.8.so.0.8.31,sha256=1I9P5JwfH6DRT2WkvuGOAUdXaQ2lMGflkx19vTzkSi4,789064
+aravis_python-0.8.31.post1.dist-info/COPYING.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+aravis_python-0.8.31.post1.dist-info/METADATA,sha256=r38tx__c0RXfNjFU-9Cl8aU2YC8kC7zBPvrkBaopnjA,1194
+aravis_python-0.8.31.post1.dist-info/WHEEL,sha256=XYu_VHmNEf2noKVYzlVp01ZZWTe1ziZKv6CHbJf921s,106
+aravis_python-0.8.31.post1.dist-info/top_level.txt,sha256=Z6OTshLkhpVH2BcVEXwFmm2lWoV-G3KcmhQ4BcmjU9Q,7
+aravis_python-0.8.31.post1.dist-info/RECORD,,
