@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: unity-sps-ogc-processes-api-python-client
+Version: 2.0.1
+Summary: Unity Processing API conforming to the Draft of OGC API - Processes - Part 2: Deploy, Replace, Undeploy
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Unity Processing API conforming to the Draft of OGC API - Processes - Part 2: Deploy, Replace, Undeploy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3<2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+
+    This document is an API definition document provided alongside the OGC API - Processes standard. The OGC API - Processes Standard specifies a processing interface to communicate over a RESTful protocol using JavaScript Object Notation (JSON) encodings. The specification allows for the wrapping of computational tasks into executable processes that can be offered by a server and be invoked by a client application.
+    
