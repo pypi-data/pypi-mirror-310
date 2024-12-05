@@ -1,0 +1,16 @@
+hmmCNV/__init__.py,sha256=0poQ_YmgUvS1rPhLJVmmmHPkYAFhwZu49Pm1APuyGsE,175
+hmmCNV/em_utilities.py,sha256=VcpOn9UoVB9W7FQAjPjR0oBPv7FhGS7iTK3z7MuAco8,19145
+hmmCNV/hmm/__init__.py,sha256=orJKWBorr_7HcFODzldKuUGiVaCde42Vdka03YVly48,215
+hmmCNV/hmm/hmm.c,sha256=Y46ee9jiG6mDOiKplnHOuFy_GGFI0wLGFPkFBWacAqE,1330122
+hmmCNV/hmm/hmm.cpython-310-darwin.so,sha256=4RGrxSbUdFM8A66-Tu4kxYzWGUSGy8blY39ifQXznpc,242104
+hmmCNV/hmm/hmm.cpython-311-darwin.so,sha256=TR_EIhca8JWeNlZDNJkSTCrrFYCoGvIpKcLnVVdu0x4,270552
+hmmCNV/hmm/hmm.cpython-312-darwin.so,sha256=aIAGd13uwfk8N-lN6DBW0hzhosZ8WTt8KnVeTOmdW1c,264032
+hmmCNV/hmm/hmm.cpython-313-darwin.so,sha256=hJiuJa3VTpqc4Y9nuCqE3-tO8XIoHKr_2LXor0ZsrU8,260184
+hmmCNV/hmm/hmm.pyx,sha256=TBe2PCuq519jqdZtqXfVg8zfxv2_5V-PkcQdjXKxVvc,8824
+hmmCNV/hmm/utilities.c,sha256=QCdnJgNmh--Bdql2kT-u5Rw9TgyMBo3icdWhBeJAvd0,2201
+hmmCNV/hmmCNV.py,sha256=Dh-Hoa4C-oqykbUivphonf98w5aPx_GXEHKuAjQTGi8,10930
+hmmCNV/hmm_utilities.py,sha256=ubVUo5bvhtmwHzJ1Xn_OtsgPduKaLVBGFKctceUJ8fQ,18587
+hmmcnv-1.1.6.dist-info/LICENSE.md,sha256=rvi0Iit50Nv2vxfP_3HJCmpruJF6QWKr5Be0ae0i2i4,17895
+hmmcnv-1.1.6.dist-info/METADATA,sha256=jdtQafiOP49AKqRGwN8MhEptXzc_R8-QTe6vQZsmPdo,2911
+hmmcnv-1.1.6.dist-info/WHEEL,sha256=Ox6q-b8ItaPQqXor5in3vdN_xBuPE0RwbNCvnokC0xE,107
+hmmcnv-1.1.6.dist-info/RECORD,,
