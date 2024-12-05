@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: Dimensia
+Version: 0.1.1
+Summary: A custom vector storage and search solution
+Home-page: https://github.com/aniruddhasalve/dimensia/
+Author: Aniruddha Salve
+Author-email: salveaniruddha180@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sentence-transformers==3.3.1
+Requires-Dist: torch==2.2.2
+Requires-Dist: numpy==1.26.4
+
+# Dimensia
+
+`Dimensia` is a high-performance vector database designed for efficient semantic search and storage of vector embeddings. It supports adding documents, performing searches, and managing collections using customizable embedding models. Dimensia is ideal for use cases like information retrieval, recommendation systems, and other machine learning tasks that require fast and efficient access to high-dimensional vector data.
+
+## Features
+
+- **Collections**: Create and manage multiple collections of documents with associated metadata.
+- **Similarity Search**: Perform semantic search to find the most similar documents in a collection.
+- **Document Management**: Add, retrieve, and manage documents by ID within collections.
+- **Embedding Model Support**: Easily integrate with models from `sentence-transformers` for generating vector embeddings.
+- **Efficient Indexing**: Uses HNSW (Hierarchical Navigable Small World) index for fast nearest-neighbor search.
+
+## Installation
+
+To install Dimensia, simply run the following command:
+```bash
+pip install dimensia
+```
+
+### Usage
+
+```python
+
+from dimensia import Dimensia
+
+# Initialize the database
+db = Dimensia(db_path="dimensia_db")
+
+# Set the embedding model
+db.set_embedding_model("sentence-transformers/paraphrase-MiniLM-L6-v2")
+print("Embedding model set successfully.")
+
+# Create collections
+db.create_collection("collection_1", metadata_schema={"field1": "type1", "field2": "type2"})
+db.create_collection("collection_2", metadata_schema={"field1": "type1", "field2": "type2"})
+print("Collections created successfully.")
+
+# Verify collections
+collections = db.get_collections()
+print(f"Collections: {collections}")
+
+# Add documents to the collections
+documents_1 = [
+    {"id": "1", "content": "This is a document about deep learning."},
+    {"id": "2", "content": "This document covers natural language processing."}
+]
+
+documents_2 = [
+    {"id": "3", "content": "This document is about reinforcement learning."},
+    {"id": "4", "content": "This document discusses machine learning in general."}
+]
+
+db.add_documents("collection_1", documents_1)
+db.add_documents("collection_2", documents_2)
+print("Documents added successfully.")
+
+# Perform searches in collections
+print("\nPerforming search in Collection 1:")
+query_1 = "Tell me about NLP"
+results_1 = db.search(query_1, "collection_1", top_k=2)
+for result in results_1:
+    print(f"Document ID: {result['document']['id']}, Similarity: {result['score']}")
+
+print("\nPerforming search in Collection 2:")
+query_2 = "What is reinforcement learning?"
+results_2 = db.search(query_2, "collection_2", top_k=2)
+for result in results_2:
+    print(f"Document ID: {result['document']['id']}, Similarity: {result['score']}")
+
+# Retrieve collection schema
+schema_1 = db.get_collection_schema("collection_1")
+print(f"Schema for Collection 1: {schema_1}")
+
+# Retrieve a document by ID
+doc_1 = db.get_document("collection_1", "1")
+print(f"Retrieved Document from Collection 1: {doc_1}")
+
+# Get vector size (dimension of the embedding)
+vector_size = db.get_vector_size()
+print(f"Vector size: {vector_size}")
+
+```
+### Requirements
+`Dimensia` requires the following dependencies:
+- **`numpy==1.26.4`**
+- **`torch==2.2.2`**
+- **`sentence-transformers==3.3.1`**
+
+## Contributing
+
+We welcome contributions to improve Dimensia! Please fork the repository, make your changes, and submit a pull request.
+
+## Support
+
+If you encounter any issues or have questions, please don't hesitate to open an issue on our [GitHub repository](https://github.com/aniruddhasalve/dimensia/). We welcome feedback, bug reports, and feature requests!
+
+We strive to respond as quickly as possible to all issues and questions.
