@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: django-pagination-utils
+Version: 0.1.0
+Summary: Django paginations utils
+Home-page: https://github.com/cristhianCEM/django-paginations-utils
+Author: cristianCEM
+Author-email: cristianbcer27@gmail.com
+License: MIT
+Keywords: Django,Paginations,Utils,Filters
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=5.0.0
+Requires-Dist: django-filter>=2.4.0
+
+# Django Pagination Utils
+
+To install the package, run the following command:
+
+```bash
+pip install django-pagination-utils
+```
+
+Pending Documentation
