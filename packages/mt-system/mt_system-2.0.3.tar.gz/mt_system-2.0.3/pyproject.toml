@@ -1,0 +1,83 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mt-system"
+version = "2.0.3"
+description = "Python library of MT system."
+authors = [
+    { name = "Shota Fukuda", email = "st_fukuda@outlook.jp" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "scikit-learn>=1.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/stfukuda/mt-system.git"
+Documentation = "https://stfukuda.github.io/mt-system/"
+Source = "https://github.com/stfukuda/mt-system.git"
+Issues = "https://github.com/stfukuda/mt-system/issues"
+# Changelog = "None"
+
+[dependency-groups]
+dev = [
+    "pre-commit",
+    "pandas",
+]
+lint = [
+    "ruff",
+    "bandit[toml]",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-include-markdown-plugin",
+    "mkdocstrings[python]",
+]
+
+[tool.ruff]
+target-version = "py39"
+extend-include = [".git"]
+
+[tool.bandit]
+skips = ["B101", "B601"]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "src/",
+  "tests/",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mts"]
