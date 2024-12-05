@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: surfer-protocol
+Version: 0.1.0
+Summary: Python client for the Surfer Protocol desktop app
+Home-page: https://github.com/Surfer-Org/Protocol
+Author: Sahil Lalani
+Author-email: lihas1002@gmail.com
+License: MIT
+Keywords: surfer-protocol,client,local-first,ai-agent,ai-agent-framework,langchain,langsmith,streamlit,ollama,vector-database,weaviate,personal-data,personal-data-warehouse
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
