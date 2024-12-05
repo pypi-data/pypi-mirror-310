@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Minner
+Version: 0.0.5
+Author: QiFuMin
+Author-email: qifumin2017@163.com
+Requires-Dist: requests
+Requires-Dist: importlib-metadata; python_version < "3.10"
