@@ -1,0 +1,2 @@
+include README.md
+recursive-include audrius_m_mod1_atsiskaitymas/ *

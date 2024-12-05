@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+audrius_m_mod1_atsiskaitymas/__init__.py
+audrius_m_mod1_atsiskaitymas/crawler.py
+audrius_m_mod1_atsiskaitymas/audrius_m_mod1_atsiskaitymas.egg-info/PKG-INFO
+audrius_m_mod1_atsiskaitymas/audrius_m_mod1_atsiskaitymas.egg-info/SOURCES.txt
+audrius_m_mod1_atsiskaitymas/audrius_m_mod1_atsiskaitymas.egg-info/dependency_links.txt
+audrius_m_mod1_atsiskaitymas/audrius_m_mod1_atsiskaitymas.egg-info/top_level.txt
+tests/test_crawler.py
