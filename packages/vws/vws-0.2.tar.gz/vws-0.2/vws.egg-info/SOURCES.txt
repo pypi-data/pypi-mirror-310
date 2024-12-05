@@ -1,0 +1,9 @@
+README.md
+setup.py
+tests/test_workspace.py
+vws/__init__.py
+vws/workspace.py
+vws.egg-info/PKG-INFO
+vws.egg-info/SOURCES.txt
+vws.egg-info/dependency_links.txt
+vws.egg-info/top_level.txt
