@@ -1,0 +1,2 @@
+[console_scripts]
+minner = minner.cmdline:execute
