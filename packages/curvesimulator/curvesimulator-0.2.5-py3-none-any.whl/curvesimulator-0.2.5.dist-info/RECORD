@@ -1,0 +1,12 @@
+curvesimulator/__init__.py,sha256=Fn4QFuJmveRithiuWXPcRlPcf3vgA2hdlZSDEKCHwfM,301
+curvesimulator/cs_animation.py,sha256=eQ7pgwveE4YOCvydZ6_bIiXGaDxGrEePfEBfgsYIhek,6749
+curvesimulator/cs_bodies.py,sha256=_4S-rHzrZvd89TL69JeZKWj0T9Dk6Hw65Fq5aRMs87o,11315
+curvesimulator/cs_body.py,sha256=PSLTPveSBSdYmiSjbwZTX1-I2YAHI7BbJZVvtO9APOg,40772
+curvesimulator/cs_lightcurve.py,sha256=ozN5QQ4GCiVuSSYuXd_qBhjNzaCTvar9Be9eq_n1Ock,334
+curvesimulator/cs_parameters.py,sha256=4f7LMzSD-bl7IkFTXDikLqjDOdPDCrz3fKP8BV3fHY4,5824
+curvesimulator/cs_physics.py,sha256=MXwEQjxW-ahUSYb5pyYMjX0pkTATpb_gGHFWvOcs6CA,6074
+curvesimulator/curvesim.py,sha256=PjiLhc6MuiBeeItS31vvsnrzB1UQI86iWiXb1rqoFHY,3146
+curvesimulator-0.2.5.dist-info/METADATA,sha256=LhTzQW2ISIFRUdtT0AnVoGszYDG9EFZysDygsXS0bOo,2359
+curvesimulator-0.2.5.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+curvesimulator-0.2.5.dist-info/top_level.txt,sha256=qAXzK6DnP98oM3x9PaQ3_74GN_T8FuLSTtFAMgGOWO0,15
+curvesimulator-0.2.5.dist-info/RECORD,,
