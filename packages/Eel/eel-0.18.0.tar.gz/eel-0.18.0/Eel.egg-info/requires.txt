@@ -1,0 +1,7 @@
+bottle
+bottle-websocket
+future
+pyparsing
+
+[jinja2]
+jinja2>=2.10
