@@ -1,0 +1,126 @@
+name: docs
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "00 12 * * 0" # Every Sunday noon (preserve the cache folders)
+  workflow_dispatch:
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: |
+          git fetch --prune --unshallow --tags
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Download extra data from private repository
+        uses: actions/checkout@v4
+        with:
+          repository: xoolive/traffic_data
+          token: ${{ secrets.PRIVATE_TOKEN }}
+          persist-credentials: false
+          path: ./traffic_data
+
+      - name: Create LFS file list (private repository)
+        working-directory: ./traffic_data
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+        shell: bash
+
+      - name: Restore LFS cache (private repository)
+        uses: actions/cache@v4
+        id: lfs-cache
+        with:
+          path: ./traffic_data/.git/lfs
+          key: lfs-${{ hashFiles('./traffic_data/.lfs-assets-id') }}-v1
+
+      - name: Git LFS Pull (private repository)
+        working-directory: ./traffic_data
+        run: |
+          git remote set-url origin https://xoolive:${{ secrets.PRIVATE_TOKEN }}@github.com/xoolive/traffic_data.git
+          git lfs pull
+          unzip ENV_PostOPS_AIRAC_2111_04NOV2021_With_Airspace_Closure.zip -d airac_2111
+        shell: bash
+
+      - name: Cache folder for traffic
+        uses: actions/cache@v4
+        id: cache-folder
+        with:
+          path: |
+            ~/.cache/traffic/
+            ~/.cache/opensky/
+            ~/.cache/cartes/
+          key: traffic-${{ hashFiles('uv.lock') }}
+
+      - name: Cache folder for documentation
+        uses: actions/cache@v4
+        id: docs-folder
+        with:
+          path: |
+            docs/_build/
+          key: docs-${{ hashFiles('uv.lock') }}
+
+      - name: Ubuntu system dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y libgdal-dev libgeos-dev libproj-dev proj-bin proj-data libarchive-dev npm fonts-ubuntu
+          # Weird issue with libarchive-dev
+          sudo ln -s -f /usr/lib/x86_64-linux-gnu/libarchive.a /usr/lib/x86_64-linux-gnu/liblibarchive.a
+
+      - name: npm dependencies
+        run: |
+          npm install vega-lite vega-cli canvas  # necessary dependency for altair-save
+
+      - name: Install the project
+        run: |
+          uv sync --dev --all-extras
+
+      - name: Build pages
+        env:
+          LD_LIBRARY_PATH: /usr/local/lib
+          OPENSKY_USERNAME: ${{ secrets.OPENSKY_USERNAME }}
+          OPENSKY_PASSWORD: ${{ secrets.OPENSKY_PASSWORD }}
+          # PKCS12_PASSWORD: ${{ secrets.PKCS12_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRAFFIC_NOPLUGIN: ""
+          TRAFFIC_CACHE_NO_EXPIRE: ""
+        run: |
+          # This downloads the cache for cartes atlas
+          uv run python -c "from cartes.atlas import default, world_atlas"
+          # This downloads files to have in cache first
+          uv run traffic cache --fill
+
+          export TRAFFIC_CONFIG=$(uv run python -c "from traffic import config_file; print(config_file)")
+
+          sed -i "/tqdm_style =/ s,auto,silent," $TRAFFIC_CONFIG
+
+          sed -i "/nm_path =/ s,=$,= $PWD/traffic_data/airac_2111," $TRAFFIC_CONFIG
+          # sed -i "/pkcs12_filename =/ s,=.*$,= $PWD/traffic_data/CC0000007011_501_openssl.p12," $TRAFFIC_CONFIG
+          # sed -i "/pkcs12_password =/ s,=$,= $PKCS12_PASSWORD," $TRAFFIC_CONFIG
+
+          # Run the documentation
+          cd docs && CARTES_CACHE=./cache uv run make html
+
+      - name: Deploy pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: traffic-viz/traffic-viz.github.io
+          publish_branch: master
+          publish_dir: docs/_build/html

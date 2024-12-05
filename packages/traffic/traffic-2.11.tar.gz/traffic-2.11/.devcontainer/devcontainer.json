@@ -1,0 +1,16 @@
+{
+  "name": "traffic development environment",
+  "image": "ghcr.io/xoolive/traffic/uv:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.mypy-type-checker",
+        "charliermarsh.ruff",
+        "valentjn.vscode-ltex",
+        "ritwickdey.LiveServer"
+      ]
+    }
+  },
+  "postCreateCommand": "uv sync --dev --all-extras"
+}

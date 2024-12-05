@@ -1,0 +1,51 @@
+name: docker
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag"
+        required: true
+        type: string
+
+env:
+  TRAFFIC_JUPYTER_URL: ghcr.io/xoolive/traffic/jupyter
+  TRAFFIC_UV_URL: ghcr.io/xoolive/traffic/uv
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # jupyter Docker image for users
+      - name: Build jupyter docker image
+        run: docker build --file docker/jupyter.Dockerfile --tag ${{ env.TRAFFIC_JUPYTER_URL }}:${{ inputs.tag }} --tag ${{ env.TRAFFIC_JUPYTER_URL }}:latest docker
+
+      - name: Test jupyter image
+        run: docker run ${{ env.TRAFFIC_JUPYTER_URL }}:latest python -c "import traffic; print(traffic.__version__)"
+
+      - name: Push jupyter docker image
+        run: |
+          docker push ${{ env.TRAFFIC_JUPYTER_URL }}:${{ inputs.tag }}
+          docker push ${{ env.TRAFFIC_JUPYTER_URL }}:latest
+
+      # uv Docker image
+      - name: Build uv docker image
+        run: docker build --file docker/uv.Dockerfile --tag ${{ env.TRAFFIC_UV_URL }}:${{ inputs.tag }} --tag ${{ env.TRAFFIC_UV_URL }}:latest .
+
+      - name: Test uv docker image
+        run: docker run ${{ env.TRAFFIC_UV_URL }}:latest /bin/bash -c "pip install traffic; python -c \"import traffic; print(traffic.__version__)\""
+
+      - name: Push uv image
+        run: |
+          docker push ${{ env.TRAFFIC_UV_URL }}:${{ inputs.tag }}
+          docker push ${{ env.TRAFFIC_UV_URL }}:latest
