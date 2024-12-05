@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "medchemfilters"
+version = "0.0.1"
+authors = [
+    {name="Van-Thinh To", email="tvthinhd19@gmail.com"}
+]
+description = "Utility for reaction modeling using graph grammar"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas>=2.2.2",
+    "joblib>=1.4.2",
+    "rdkit>=2024.3.3",
+    "scopy>=1.2.5",
+]
+
+[project.urls]
+homepage = "https://github.com/ThinhUMP/medchemfilters"
+source = "https://github.com/ThinhUMP/medchemfilters"
+issues = "https://github.com/ThinhUMP/medchemfilters/issues"
