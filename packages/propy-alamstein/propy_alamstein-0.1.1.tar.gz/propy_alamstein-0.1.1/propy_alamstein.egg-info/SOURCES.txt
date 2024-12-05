@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+propy_alamstein/small_language_model.py
+propy_alamstein.egg-info/PKG-INFO
+propy_alamstein.egg-info/SOURCES.txt
+propy_alamstein.egg-info/dependency_links.txt
+propy_alamstein.egg-info/requires.txt
+propy_alamstein.egg-info/top_level.txt
+tests/test_small_language_model.py
