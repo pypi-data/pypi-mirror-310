@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+edgenextapisdk/__init__.py
+edgenextapisdk/signer.py
+edgenextapisdk.egg-info/PKG-INFO
+edgenextapisdk.egg-info/SOURCES.txt
+edgenextapisdk.egg-info/dependency_links.txt
+edgenextapisdk.egg-info/top_level.txt
