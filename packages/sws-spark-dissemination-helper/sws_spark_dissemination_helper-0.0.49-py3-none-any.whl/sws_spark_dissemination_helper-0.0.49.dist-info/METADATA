@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sws-spark-dissemination-helper
+Version: 0.0.49
+Summary: A Python helper package providing streamlined Spark functions for efficient data dissemination processes
+License: MIT
+Author: Daniele Mansillo
+Author-email: danielemansillo@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: annotated-types (==0.7.0)
+Requires-Dist: boto3 (==1.34.147)
+Requires-Dist: botocore (==1.34.147)
+Requires-Dist: certifi (==2024.7.4)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: idna (==3.7)
+Requires-Dist: jmespath (==1.0.1)
+Requires-Dist: py4j (==0.10.9.7)
+Requires-Dist: pydantic (==2.8.2)
+Requires-Dist: pydantic-core (==2.20.1)
+Requires-Dist: pyspark (==3.5.1)
+Requires-Dist: python-dateutil (==2.9.0.post0)
+Requires-Dist: python-dotenv (==1.0.1)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: s3transfer (==0.10.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sws-api-client (==1.0.7b0)
+Requires-Dist: typing-extensions (==4.12.2)
+Requires-Dist: urllib3 (==1.26.19)
+Description-Content-Type: text/markdown
+
+# Upload a new version
+
+To upload a new version update the version in the [pyproject.toml](./pyproject.toml) file and execute the following command from the terminal:
+
+```bash
+python -m build
+python -m twine upload --repository pypi dist/*
+```
+
