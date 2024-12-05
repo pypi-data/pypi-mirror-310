@@ -1,0 +1,1 @@
+cdef bint negate_if_necessary(str flag, bint flag_value)
