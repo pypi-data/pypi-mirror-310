@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+package_hilariogao_talk/__init__.py
+url666.egg-info/PKG-INFO
+url666.egg-info/SOURCES.txt
+url666.egg-info/dependency_links.txt
+url666.egg-info/top_level.txt
