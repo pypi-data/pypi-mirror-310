@@ -1,0 +1,9 @@
+kinfer
+krec
+
+[dev]
+black
+darglint
+mypy
+pytest
+ruff

@@ -1,0 +1,1 @@
+recursive-include kdatagen/ *.py *.txt py.typed MANIFEST.in
