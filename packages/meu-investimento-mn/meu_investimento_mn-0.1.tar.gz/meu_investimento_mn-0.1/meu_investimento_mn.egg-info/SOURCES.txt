@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+investimentos/__init__.py
+investimentos/investimentos.py
+investimentos/main.py
+meu_investimento_mn.egg-info/PKG-INFO
+meu_investimento_mn.egg-info/SOURCES.txt
+meu_investimento_mn.egg-info/dependency_links.txt
+meu_investimento_mn.egg-info/top_level.txt
