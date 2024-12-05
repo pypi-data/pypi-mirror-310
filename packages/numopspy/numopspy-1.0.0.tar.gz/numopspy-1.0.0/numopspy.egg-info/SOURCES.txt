@@ -1,0 +1,8 @@
+LICENSE
+README.md
+numopspy.py
+setup.py
+numopspy.egg-info/PKG-INFO
+numopspy.egg-info/SOURCES.txt
+numopspy.egg-info/dependency_links.txt
+numopspy.egg-info/top_level.txt
