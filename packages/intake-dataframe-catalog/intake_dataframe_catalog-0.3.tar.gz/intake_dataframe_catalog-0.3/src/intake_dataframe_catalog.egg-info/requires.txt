@@ -1,0 +1,7 @@
+intake>=0.7.0
+pandas
+
+[test]
+pytest
+pytest-cov
+tox
