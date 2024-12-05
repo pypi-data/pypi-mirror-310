@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "docfusion-ai"
+version = "0.1.1"
+description = ""
+authors = ["adithya-s-k <adithyaskolavi@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "docfusion" }  # This tells Poetry where to find the actual code
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+huggingface-hub = "^0.26.2"
+transformers = "^4.46.3"
+doclayout-yolo = "^0.0.2"
+
+[tool.poetry.dev-dependencies]
+bump2version = "^1.0.1"
+poetry-dynamic-versioning = "^1.4.1"
+toml = "^0.10.2"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
