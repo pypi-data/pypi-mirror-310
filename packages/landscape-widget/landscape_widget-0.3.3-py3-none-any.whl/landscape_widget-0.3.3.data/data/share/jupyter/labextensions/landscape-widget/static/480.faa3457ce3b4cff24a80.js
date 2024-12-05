@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklandscape_widget=self.webpackChunklandscape_widget||[]).push([[480],{480:(e,t,a)=>{a.r(t),a.d(t,{default:()=>d});var i=a(829),s=a(921),r=a(657);const d={id:"landscape-widget:plugin",requires:[i.IJupyterWidgetRegistry],activate:function(e,t){t.registerWidget({name:r.o,version:r.Y,exports:s})},autoStart:!0}}}]);
