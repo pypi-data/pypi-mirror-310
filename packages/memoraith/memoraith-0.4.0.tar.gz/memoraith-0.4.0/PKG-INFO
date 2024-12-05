@@ -1,0 +1,197 @@
+Metadata-Version: 2.1
+Name: memoraith
+Version: 0.4.0
+Summary: Advanced lightweight model profiler for deep learning frameworks
+Home-page: https://github.com/mehdi342/Memoraith
+Author: Mehdi El Jouhfi
+Author-email: midojouhfi@gmail.com
+Project-URL: Bug Reports, https://github.com/mehdi342/Memoraith/issues
+Project-URL: Source, https://github.com/mehdi342/Memoraith/
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=1.7.0
+Requires-Dist: tensorflow>=2.4.0
+Requires-Dist: matplotlib>=3.3.0
+Requires-Dist: seaborn>=0.11.0
+Requires-Dist: plotly>=4.14.0
+Requires-Dist: pandas>=1.2.0
+Requires-Dist: jinja2>=2.11.0
+Requires-Dist: pdfkit>=0.6.0
+Requires-Dist: psutil>=5.8.0
+Requires-Dist: pynvml>=8.0.0
+Requires-Dist: colorama>=0.4.4
+Requires-Dist: tqdm>=4.60.0
+Requires-Dist: aiofiles>=0.6.0
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: networkx>=2.5
+Requires-Dist: python-dotenv>=0.19.0
+Requires-Dist: pyyaml>=5.4.0
+Provides-Extra: full
+Requires-Dist: torch>=1.7.0; extra == "full"
+Requires-Dist: tensorflow>=2.4.0; extra == "full"
+Requires-Dist: tensorboard>=2.4.0; extra == "full"
+Requires-Dist: optuna>=2.3.0; extra == "full"
+Requires-Dist: ray>=1.2.0; extra == "full"
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.14.0; extra == "dev"
+Requires-Dist: black>=20.8b1; extra == "dev"
+Requires-Dist: isort>=5.7.0; extra == "dev"
+Requires-Dist: flake8>=3.8.0; extra == "dev"
+Requires-Dist: mypy>=0.800; extra == "dev"
+Requires-Dist: tox>=3.20.0; extra == "dev"
+Requires-Dist: sphinx>=3.4.3; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=0.5.1; extra == "dev"
+
+<div align="center">
+  <img src="assets/logo.png" alt="Memoraith Logo" width="600"/>
+
+# Memoraith
+
+[![PyPI version](https://badge.fury.io/py/memoraith.svg)](https://badge.fury.io/py/memoraith)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![Documentation Status](https://readthedocs.org/projects/memoraith/badge/?version=latest)](https://memoraith.readthedocs.io/en/latest/?badge=latest)
+
+**Advanced Lightweight Model Profiler for Deep Learning**
+</div>
+
+## Overview
+
+Memoraith is a cutting-edge, lightweight model profiler for deep learning frameworks, providing unparalleled insights into neural network performance. Developed with precision and efficiency in mind, it helps developers and researchers optimize their models through detailed performance analysis.
+
+## ✨ Key Features
+
+- 🔍 **Advanced Profiling**
+    - High-precision memory tracking (CPU & GPU)
+    - Microsecond-accurate computation timing
+    - Layer-by-layer performance analysis
+
+- 🎯 **Intelligent Analysis**
+    - Sophisticated bottleneck detection
+    - Anomaly identification
+    - Optimization recommendations
+
+- 📊 **Rich Visualization**
+    - Interactive dashboards
+    - Real-time monitoring
+    - Comprehensive reports
+
+- 🛠 **Framework Support**
+    - PyTorch integration
+    - TensorFlow support
+    - Extensible architecture
+
+## 🚀 Installation
+
+Basic installation:
+```bash
+pip install memoraith
+```
+
+Full installation with GPU support and extra features:
+```bash
+pip install memoraith[full]
+```
+
+## 🎮 Quick Start
+
+Here's a simple example using PyTorch:
+
+```python
+from memoraith import profile_model, set_output_path
+import torch
+import torch.nn as nn
+
+# Set output directory for profiling results
+set_output_path('profiling_results/')
+
+# Define your model
+class AdvancedNet(nn.Module):
+    def __init__(self):
+        super(AdvancedNet, self).__init__()
+        self.conv1 = nn.Conv2d(3, 64, kernel_size=3, padding=1)
+        self.conv2 = nn.Conv2d(64, 128, kernel_size=3, padding=1)
+        self.fc = nn.Linear(128 * 8 * 8, 10)
+
+    def forward(self, x):
+        x = torch.relu(self.conv1(x))
+        x = torch.relu(self.conv2(x))
+        x = x.view(x.size(0), -1)
+        return self.fc(x)
+
+# Add profiling decorator
+@profile_model(memory=True, computation=True, gpu=True)
+def train_model(model):
+    optimizer = torch.optim.Adam(model.parameters())
+    for _ in range(100):
+        input_data = torch.randn(32, 3, 32, 32)
+        output = model(input_data)
+        loss = output.sum()
+        loss.backward()
+        optimizer.step()
+
+if __name__ == "__main__":
+    model = AdvancedNet()
+    train_model(model)
+```
+
+## 📚 Documentation
+
+Visit our [comprehensive documentation](https://memoraith.readthedocs.io) for:
+- Detailed API reference
+- Advanced usage examples
+- Best practices
+- Troubleshooting guides
+
+## 🤝 Contributing
+
+We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for:
+- Code of conduct
+- Development setup
+- Submission guidelines
+- Testing procedures
+
+## 📝 License
+
+Memoraith is released under the MIT License. See [LICENSE](LICENSE) file for details.
+
+## 🆘 Support
+
+Need help?
+- 📋 [GitHub Issues](https://github.com/mehdi342/Memoraith/issues)
+- 📚 [Documentation](https://memoraith.readthedocs.io)
+- 📧 [Email Support](mailto:midojouhfi@gmail.com)
+
+## 📖 Citation
+
+If you use Memoraith in your research, please cite:
+
+```bibtex
+@software{memoraith,
+    author = {El Jouhfi, Mehdi},
+    title = {Memoraith: Advanced Lightweight Model Profiler for Deep Learning},
+    year = {2024},
+    url = {https://github.com/mehdi342/Memoraith},
+    version = {0.5.0}
+}
+```
+
+## 📬 Contact
+
+For inquiries, reach out to [Mehdi El Jouhfi](mailto:midojouhfi@gmail.com)
+
+---
+<div align="center">
+  Made with ❤️ and sweat by Mehdi El Jouhfi
+</div>
