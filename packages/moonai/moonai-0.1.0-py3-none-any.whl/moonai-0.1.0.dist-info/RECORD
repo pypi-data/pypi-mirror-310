@@ -1,0 +1,11 @@
+moonai/__init__.py,sha256=AxisfQESIvxHFC9g_DFaSYcdNUf058ULrOx64xcnv9s,315
+moonai/agents.py,sha256=J0F2teUsmRu1PVFt0do38o9mLAoC7YRrwP0WBFptv70,7837
+moonai/missions.py,sha256=VFpQU0Bv3gAZAlPsqsURLOL-sqoFGSsC2uCce89N8So,2403
+moonai/squad.py,sha256=IaRuNCd6e4_sgZRfpnkjxpZyGv1f9WhoJ8TX0u5_RC0,4225
+moonai/tools.py,sha256=-mMk8lozWPuD9D3zkh3TObR9nxqJZDJmePcEH0lgF84,3922
+moonai-0.1.0.dist-info/LICENCE,sha256=tcWcmCxqaXZXDHPUEtD17Hj2D9UjG81oKMpeC5Yx_vA,517
+moonai-0.1.0.dist-info/METADATA,sha256=PKqt3nqEumQlQnezIVbSKjwx7mI7zrickjGnvjaTthk,1835
+moonai-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+moonai-0.1.0.dist-info/entry_points.txt,sha256=KHmclOdLKmZtE3oLFElQdUdeuFOuLugkhJyCiI9iGrk,45
+moonai-0.1.0.dist-info/top_level.txt,sha256=-Zq2eO1BuYVPuPDYVJoEETplhxqKuoeG6rWg-PBWxn8,7
+moonai-0.1.0.dist-info/RECORD,,
