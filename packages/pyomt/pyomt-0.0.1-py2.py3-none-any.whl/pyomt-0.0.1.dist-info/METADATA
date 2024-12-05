@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pyomt
+Version: 0.0.1
+Summary: An Optimization Modulo Theory Solver.
+Home-page: https://github.com/ZJU-Automated-Reasoning-Group/pyomt
+Author: rainoftime
+Author-email: rainoftime@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PySMT (==0.9.6)
+Requires-Dist: z3-solver (==4.8.10)
+Requires-Dist: psutil (~=5.9.0)
+Requires-Dist: Cython (~=0.29.34)
+Requires-Dist: python-sat (==0.1.8.dev1)
+Requires-Dist: tqdm (~=4.65.0)
+Requires-Dist: meson (>=0.64)
+
+
+# A library for OMT(BV) Solving
+
+
+## The Problem
+
+## The Engines
+
+### Reduce to Quantified SMT
+
+- Z3
+- CVC5
+- Yices-QS
+- Bitwuzla
+
+### Reduce to Weighted MaxSAT
+
+
+- The OBV-BS algorithm
+- The FM algorithm
+- The RC2 algorithm
+- Off-the-shelf MaxSAT solvers
+~~~~
+https://github.com/FlorentAvellaneda/EvalMaxSAT
+
+~~~~
+
+### Exiting OMT Solver
+- Z3 (to MaxSAT?)
+- OptimathSAT
+- ...
+
+### SMT-based Iterative Search
+
+- Linear search
+- Binary search
+
+## TBD
+- Differential testing?
+
+~~~~
+pysmt.exceptions.ConvertExpressionError: Unsupported expression: bvxnor(bv_41-0, bv_41-0)
+
+~~~~
+## References
