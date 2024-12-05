@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/ni_vision.egg-info/PKG-INFO
+src/ni_vision.egg-info/SOURCES.txt
+src/ni_vision.egg-info/dependency_links.txt
+src/ni_vision.egg-info/top_level.txt

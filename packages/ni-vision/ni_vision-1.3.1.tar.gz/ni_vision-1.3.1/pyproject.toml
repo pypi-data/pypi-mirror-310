@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ni-vision"
+version = "1.3.1"
+authors = [
+  { name="Cem Entok", email="cem.entok@nordicinertial.com" },
+]
+description = "Estimation of Joint Points with Tracking and Camera Calibration and Optimization"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+Homepage = "https://github.com/CemEntok/ni-vision"
+Issues = "https://github.com/CemEntok/issues"
