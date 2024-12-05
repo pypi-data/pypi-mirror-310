@@ -1,0 +1,4 @@
+reportlab
+django-sequences
+celery
+redis
