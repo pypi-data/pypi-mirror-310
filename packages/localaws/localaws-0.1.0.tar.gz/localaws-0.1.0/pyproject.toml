@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localaws"
+version = "0.1.0"
+description = "Run local Python scripts with AWS profiles - perfect for local testing with different AWS environments"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Sourav Padhi", email = "ssupsourav@gmail.com"}
+]
+dependencies = [
+    "click>=8.0.0",
+    "boto3>=1.26.0"
+]
+
+[project.scripts]
+localaws = "localaws.cli:main"
