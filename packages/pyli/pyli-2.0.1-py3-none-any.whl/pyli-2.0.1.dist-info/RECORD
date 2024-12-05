@@ -1,0 +1,12 @@
+pyli/__init__.py,sha256=1OHvo6fMZTrdXOKAMSr28G2mru2XYeRNrdJxyNS-3q8,3932
+pyli/main.py,sha256=BB1XLmVjqMxiNsg366eiEcOWkYFHaYsqwhwpvpzAtW0,3353
+pyli/preamble.py,sha256=bOc1Zol8ONYkH-vtonKK5WvRgEhYDqLLgJ1rNRcrZc0,2525
+pyli/refs.py,sha256=Zn95UWg4YRny_5TA5hfsrAjnRzpLkOWfV5OOnyjHhH0,19391
+pyli/spec.py,sha256=ucdVGzMqv7zMQwRqBAZmKL0_XvxKXhJChhHP7dyuuOE,15448
+pyli/util.py,sha256=TCrkdWCJLBsqbIpE032iRa4uHz43MFQ96wLt482eAfc,1725
+pyli-2.0.1.dist-info/LICENSE,sha256=nZHdiqJfbL8xtKKWSoxQiAvr-fa6kj6vNlGvHoWs_Fo,1060
+pyli-2.0.1.dist-info/METADATA,sha256=4eglDYGAUvR7yXkT1NtgxfL0CWqhGQugLrz7fNZ8594,5916
+pyli-2.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyli-2.0.1.dist-info/entry_points.txt,sha256=qMBO9eK3RXc7HvaYhTz7OQ-CHRizAobQ3_I4VdP6ewU,49
+pyli-2.0.1.dist-info/top_level.txt,sha256=uHj8EWAHu4Cja3bDYenDHhc-c_N3BjPCXLHiYBxXehM,5
+pyli-2.0.1.dist-info/RECORD,,
