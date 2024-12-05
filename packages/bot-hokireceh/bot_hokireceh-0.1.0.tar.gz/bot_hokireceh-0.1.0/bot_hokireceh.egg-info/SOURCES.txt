@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+bot_hokireceh.egg-info/PKG-INFO
+bot_hokireceh.egg-info/SOURCES.txt
+bot_hokireceh.egg-info/dependency_links.txt
+bot_hokireceh.egg-info/requires.txt
+bot_hokireceh.egg-info/top_level.txt
