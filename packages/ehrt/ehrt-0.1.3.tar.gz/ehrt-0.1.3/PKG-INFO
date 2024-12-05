@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ehrt
+Version: 0.1.3
+Summary: EHR Processing Toolkit
+Author: Vidul Ayakulangara Panickan
+Requires-Python: >=3.6
