@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+requirements.txt
+src/__init__.py
+src/ycg.py
+src/ycg.egg-info/PKG-INFO
+src/ycg.egg-info/SOURCES.txt
+src/ycg.egg-info/dependency_links.txt
+src/ycg.egg-info/entry_points.txt
+src/ycg.egg-info/requires.txt
+src/ycg.egg-info/top_level.txt
