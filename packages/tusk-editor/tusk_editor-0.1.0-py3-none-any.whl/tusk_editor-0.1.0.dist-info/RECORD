@@ -1,0 +1,10 @@
+tusk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tusk/app.py,sha256=durdBIo76WMd_6k4hkpD1X-4A_kriPd-U4J2NkWkDaY,9076
+tusk/auto_save.py,sha256=6aikx79bcOEFw4t21uTFSfg3lRjdIV0SriqpuRNLKIE,1403
+tusk/cli.py,sha256=yNcKq64R7QQGP4fVsdUKdICMxub14SRVDGmR8hx0xc4,1125
+tusk_editor-0.1.0.dist-info/LICENSE,sha256=IOJGz2PVUyBOvr5igkDDmeHvjaklLam3AP83iP9Rzzg,1069
+tusk_editor-0.1.0.dist-info/METADATA,sha256=Kgd5tL70N9nWo8beefP0qL2mj4qvBK1Cen6iRdMbDZk,1691
+tusk_editor-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tusk_editor-0.1.0.dist-info/entry_points.txt,sha256=gIET6sqY5NezPU4IyIGX1P5qcWn9HPD7tCYxoninYTA,39
+tusk_editor-0.1.0.dist-info/top_level.txt,sha256=kOXJh4-7A-I2DYc-AdbnYsm6P0UjxIh2oOoTLhRq4fw,5
+tusk_editor-0.1.0.dist-info/RECORD,,
