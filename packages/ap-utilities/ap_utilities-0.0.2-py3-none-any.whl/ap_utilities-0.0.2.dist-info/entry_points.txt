@@ -1,0 +1,2 @@
+[console_scripts]
+check_samples = ap_utilities_scripts.check_samples:main

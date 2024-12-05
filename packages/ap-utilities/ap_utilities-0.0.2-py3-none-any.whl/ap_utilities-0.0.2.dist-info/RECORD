@@ -1,0 +1,9 @@
+ap_utilities/bookkeeping/bkk_checker.py,sha256=2INhxKvLwC54lvNVZB_B3bbnytJ2ruKxrJbS-M-GN9g,3724
+ap_utilities_data/conf_rename.toml,sha256=7gLVYDLR-xE7ynEqUHeDvqQR2EAwv7l3TD5v1VRyvb0,992
+ap_utilities_data/main_rename.toml,sha256=5sJjKopzGZcIDP54IiLnbRYq8XFYd12qsCCRzD0fBU0,1000
+ap_utilities_scripts/check_samples.py,sha256=mXCp9Lv3qC-e8G-GfYSDHg_FrYBKGQXqdPK2g2IsPRw,1726
+ap_utilities-0.0.2.dist-info/METADATA,sha256=rLSruvA0acWPnJBFIxrGCPUlOYT_5hAC2ueuZ8UCyNA,1457
+ap_utilities-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ap_utilities-0.0.2.dist-info/entry_points.txt,sha256=CewpBLuNNdnbbu50PEHOnCRPFFMG0fPmegJundOFr0o,74
+ap_utilities-0.0.2.dist-info/top_level.txt,sha256=LQ3x3ZoLThgyrpom-26gzqDZrcrxeP9MPwYwhP2TT0s,52
+ap_utilities-0.0.2.dist-info/RECORD,,
