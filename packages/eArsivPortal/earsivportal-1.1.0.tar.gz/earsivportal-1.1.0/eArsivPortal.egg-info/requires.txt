@@ -1,0 +1,8 @@
+setuptools
+wheel
+urllib3
+requests
+pydantic
+parsel
+cssselect
+xmltodict
