@@ -1,0 +1,11 @@
+README.md
+setup.py
+Audio_files_organizer_for_iphone/Audio_organizer.py
+Audio_files_organizer_for_iphone/__init__.py
+audio_files_organizer_iphone.egg-info/PKG-INFO
+audio_files_organizer_iphone.egg-info/SOURCES.txt
+audio_files_organizer_iphone.egg-info/dependency_links.txt
+audio_files_organizer_iphone.egg-info/entry_points.txt
+audio_files_organizer_iphone.egg-info/not-zip-safe
+audio_files_organizer_iphone.egg-info/requires.txt
+audio_files_organizer_iphone.egg-info/top_level.txt
