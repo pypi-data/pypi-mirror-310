@@ -1,0 +1,16 @@
+dlpx/__init__.py,sha256=FkEOnwVdgF4wu_hX8EgEj8sbpchY711xYCdkW03_IZ4,145
+dlpx/virtualization/__init__.py,sha256=FkEOnwVdgF4wu_hX8EgEj8sbpchY711xYCdkW03_IZ4,145
+dlpx/virtualization/api/VERSION,sha256=MPRhE4OqMKFXU3ifQO_96BMy8vhxTm07KUC_D8RZI3c,6
+dlpx/virtualization/api/__init__.py,sha256=T3VURvkX4UVFl5q8AODqNgV3KczPKtjALwBRx7O3lI8,243
+dlpx/virtualization/api/common_pb2.py,sha256=Usjj1KM6pxCAM2jqFQwze55NiZe5Y-AN-KJagp4E2PY,11397
+dlpx/virtualization/api/libs_pb2.py,sha256=XiFUqlMvUeCGm_RflTA-tUYufwzKPbCTfm7w-V8jvy4,21000
+dlpx/virtualization/api/libs_service_pb2.py,sha256=HMiC8PqXXb7G0IbJgNwezeKQa2qgABXxCZ7sWVNool0,2052
+dlpx/virtualization/api/libs_service_pb2_grpc.py,sha256=wcs4V6ReYo6vdkC3Fzrn14t-3f-ztS7zrMq60C5fEFU,13181
+dlpx/virtualization/api/platform_pb2.py,sha256=Y9I7wclAFpcW_dv4HRn6QjkE6rKdP8q-bSd6ntJaZVE,67937
+dlpx/virtualization/api/platform_service_pb2.py,sha256=zpM8eX1Vpam3qsGQ3OvGbS5hKAZDcolp0j7MPzme-Vc,6283
+dlpx/virtualization/api/platform_service_pb2_grpc.py,sha256=UwRN6W_u-6b0Z4PlWQKVFtwDNdC9ckhZgSJw4yV22o4,56161
+dvp_api-1.9.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+dvp_api-1.9.0.dist-info/METADATA,sha256=QkRC7Dja9ZEUwlhuSh-JHFuz9vagChpph2T7sr2EynY,1478
+dvp_api-1.9.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+dvp_api-1.9.0.dist-info/top_level.txt,sha256=DHV0Y6ey7Lf4xGizuzm03Sn2Gb0yukm-th9ZG238il4,5
+dvp_api-1.9.0.dist-info/RECORD,,
