@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jrpymlbestprac
+Version: 0.1.1
+Summary: Jumping Rivers: Python Best Practices for Machine Learning
+Author: Jumping Rivers
+Author-email: info@jumpingrivers.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: jrpybestprac (>=0.1.2)
