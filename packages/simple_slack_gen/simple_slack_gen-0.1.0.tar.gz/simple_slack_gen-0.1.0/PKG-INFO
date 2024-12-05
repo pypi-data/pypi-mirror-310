@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: simple_slack_gen
+Version: 0.1.0
+Summary: 
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.26.0,<0.27.0)
+Requires-Dist: pydantic (>=2.5.0,<3.0.0)
+Requires-Dist: typing_extensions (>=4.0.0)
+Description-Content-Type: text/markdown
+
+
+# Slack Python SDK
+
+## Overview
+One way to interact with the Slack platform is its HTTP RPC-based Web API, a collection of methods requiring OAuth 2.0-based user, bot, or workspace tokens blessed with related OAuth scopes.
+
+### Synchronous Client
+
+```python
+from simple_slack_gen import Client
+from os import getenv
+
+client = Client(oauth_token=getenv("API_TOKEN"))
+```
+
+### Asynchronous Client
+
+```python
+from simple_slack_gen import AsyncClient
+from os import getenv
+
+client = AsyncClient(oauth_token=getenv("API_TOKEN"))
+```
+
+## Module Documentation and Snippets
+
+### [conversations](simple_slack_gen/resources/conversations/README.md)
+
+* [list](simple_slack_gen/resources/conversations/README.md#list) - 
+
+<!-- MODULE DOCS END -->
+
