@@ -1,0 +1,3 @@
+[console_scripts]
+agent=docs_agent.interfaces.cli.cli:cli
+
