@@ -1,0 +1,6 @@
+hello.py
+pyproject.toml
+example_package_lekha_01.egg-info/PKG-INFO
+example_package_lekha_01.egg-info/SOURCES.txt
+example_package_lekha_01.egg-info/dependency_links.txt
+example_package_lekha_01.egg-info/top_level.txt
