@@ -1,0 +1,8 @@
+latch_aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latch_aws/aws.py,sha256=XLgj5Ktl4VElIryvfwBkfIYGhiHhBvczgwQmrUryxwI,10264
+latch_aws/client_pool.py,sha256=j6p-ch4tCneeTUTOD8Rm-JASnR6tbJ-ufI_OmOdu0GA,4167
+latch_aws/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latch_aws-0.2.1.dist-info/LICENSE,sha256=wh3JZu6ITG7ceN-1g404ekupj5JXAw4pnQ_Qr4sJfew,7052
+latch_aws-0.2.1.dist-info/METADATA,sha256=SLCK1XtKyUo68n2FyLiLzbpXDnbZng2HHNA8NNXnIvk,743
+latch_aws-0.2.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+latch_aws-0.2.1.dist-info/RECORD,,
