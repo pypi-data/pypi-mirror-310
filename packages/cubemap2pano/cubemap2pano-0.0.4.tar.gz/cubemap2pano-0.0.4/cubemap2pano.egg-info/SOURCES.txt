@@ -1,0 +1,10 @@
+README.md
+setup.py
+cubemap2pano/__init__.py
+cubemap2pano/c2e.py
+cubemap2pano.egg-info/PKG-INFO
+cubemap2pano.egg-info/SOURCES.txt
+cubemap2pano.egg-info/dependency_links.txt
+cubemap2pano.egg-info/not-zip-safe
+cubemap2pano.egg-info/requires.txt
+cubemap2pano.egg-info/top_level.txt
