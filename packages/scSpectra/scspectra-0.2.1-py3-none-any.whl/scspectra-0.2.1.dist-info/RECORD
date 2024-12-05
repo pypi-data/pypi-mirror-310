@@ -1,0 +1,17 @@
+Spectra/K_est.py,sha256=dz-2RnQa24ULs15Lans7xcp-xCDAaOa0pHEHsLIuVwA,7367
+Spectra/Spectra.py,sha256=ax4IsX7CNnoGhSPUVjr6EdyM5ocRjynvzEwsf4zP6Lc,68756
+Spectra/Spectra_attn.py,sha256=WOO-XHoJhNfiq7RfLJ2acKbF0Ao8MrwDTXiYtaWNIs8,56338
+Spectra/Spectra_gpu.py,sha256=LMIf_VPE8BYqi2z1DPNrlcu-MH1S2Ex0mSTNjUxXUcI,48725
+Spectra/Spectra_util.py,sha256=Qs2mkA51Ku2C0XMeEd9iPTz4EzeDFjweP7j5CxCw0mY,15200
+Spectra/__init__.py,sha256=a-uCeUm2XvpjKM3LP_Tq_1n2uy5dLth3pIBRvzUogjM,302
+Spectra/attend.py,sha256=0NQSAUWy9rSe-DVHRkW7jPSfhPqwN6GaXfjh9hS1ND4,4428
+Spectra/data/default_gene_sets.json,sha256=Gp_vQG1NfE7AoUQVwjGoBbcD1YV00bxggRdbzz9DV_I,76894
+Spectra/data/sample_data.h5ad,sha256=4VrJR3Anc29ZD1DKppE4CDJTOB9hC2uiy9L-LTwtPKs,6930953
+Spectra/initialization.py,sha256=uSjjp-Zs5XecPN7nNpqRj1Gyd_HYTHdGZRobTVR7KC8,1743
+Spectra/load/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Spectra/load/default_gene_sets.py,sha256=o8MNsRHk6KpDQu84fIM-13GBktqG12C4T2i-RcigHVA,294
+Spectra/load/sample_data.py,sha256=OqGbjN5ehFpOWDqTf3iP6I8qZk-HIpfJOJLwL2-XB-c,288
+scspectra-0.2.1.dist-info/LICENSE.md,sha256=J7I-fICg5_HUtjQuBLeNR9z6bGjn6ioeqkZB3aJp5OA,1110
+scspectra-0.2.1.dist-info/METADATA,sha256=gb8CRo1tK_Yjt7gXh7Km4ajoahr7_bo1AmcffCBO2nM,1169
+scspectra-0.2.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+scspectra-0.2.1.dist-info/RECORD,,
