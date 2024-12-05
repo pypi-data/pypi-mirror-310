@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: ardupilot_log_reader
+Version: 0.3.5
+Summary: module to read ardupilot binary logs to memory
+Author-email: Thomas David <thomasdavid0@gmail.com>
+Requires-Python: >=3.12
+Requires-Dist: numpy>=2.1.3
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pymavlink>=2.4.42
+Description-Content-Type: text/markdown
+
+# Ardupilot Log Reader
+
+This package is a bit like mavlogdump in pymavlink. It reads an ardupilot log to a pandas dataframe.
+
+## usage
+
+set up the parser
+```
+from ArdupilotLogReader import Ardupilot
+parser = Ardupilot(
+    log_file, # the log file, .bin
+    types = ['ARSP', 'ATT', 'BARO', 'GPS', 'IMU', 'RCIN', 'RCOU', 'BAT', 'MODE', 'NKF1', 'STAT', 'XKF1'],  # fields to read from the log
+    )
+
+print(parser.dfs) # a dict containing a dataframes of log data for each field requested.
+print(parser.join_logs(['ARSP', 'ATT'])) #returns a pandas dataframe containing the ARSP and ATT data joined on time
+print(parser.parms) # returns the parameters read from the top of the log
+
+```
