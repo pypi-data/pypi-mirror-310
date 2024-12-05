@@ -1,0 +1,14 @@
+uniface/__init__.py,sha256=A2uuCCVJd4vkNfPjVJwQfqHgzMN70IJubU49mVWPjaE,911
+uniface/alignment.py,sha256=SqJUaVNjaFWgBs1WcSjc-SRmVKVgD6alGKg4hbffXas,3015
+uniface/common.py,sha256=LWYzRirNksu578-FSccQyDrZBWt4xmz-2Q5KVZx2R6E,6007
+uniface/constants.py,sha256=G6p3-AY-ijLLVglT6h3jtHrV63RjeNSSUzpAkHCDzRM,1430
+uniface/log.py,sha256=-uclgWzmlbsFWU5-KcbNNV0-HUnVe3BI0Lq0rhmRxJ4,156
+uniface/model_store.py,sha256=of8lMewl-1HdyxPWooh49P57C0pPWRO6h3eHwFb_Aa0,3894
+uniface/retinaface.py,sha256=Hr_VgGeD4XHCHUmJU8Mw3gb1fPSkAjzEhIEt7jKy1zc,11154
+uniface/version.py,sha256=cfMN_CQuAMAg9io8cGr5YLa9Vn8iOTb8CtAsFTWFSBE,543
+uniface/visualization.py,sha256=ltD0uE-LqwxUsBy5GlPfll66pHBgOQoiVUskYA29bVU,1262
+uniface-0.1.4.dist-info/LICENSE,sha256=pPeZj-tckFVdquQynbYcr3BJ5rJwaZHcHZ6yoJI4R64,1080
+uniface-0.1.4.dist-info/METADATA,sha256=ZQJ677x3_yERGmdZ_cEYRyfJY-UmVeccTcjR-8o0QQA,8745
+uniface-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+uniface-0.1.4.dist-info/top_level.txt,sha256=5bIJ6Cs2-rs-_V60hLhIi6OeoJpUYQEo0ZmmcYzn6Eo,8
+uniface-0.1.4.dist-info/RECORD,,
