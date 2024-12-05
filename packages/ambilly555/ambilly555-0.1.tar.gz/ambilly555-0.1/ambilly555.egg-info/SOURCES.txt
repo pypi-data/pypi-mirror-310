@@ -1,0 +1,7 @@
+setup.py
+ambilly555/__init__.py
+ambilly555/main.py
+ambilly555.egg-info/PKG-INFO
+ambilly555.egg-info/SOURCES.txt
+ambilly555.egg-info/dependency_links.txt
+ambilly555.egg-info/top_level.txt
