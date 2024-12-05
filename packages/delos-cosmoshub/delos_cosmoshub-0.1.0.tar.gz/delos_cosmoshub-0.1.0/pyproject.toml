@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "delos-cosmoshub"
+version = "0.1.0"
+description = "CosmosHub client."
+authors = ["Maria <mariaibanez@delosintelligence.fr>"]
+readme = "README.md"
+keywords = ["AI", "LLM", "generative"]
+packages = [
+    { include = "cosmoshub", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

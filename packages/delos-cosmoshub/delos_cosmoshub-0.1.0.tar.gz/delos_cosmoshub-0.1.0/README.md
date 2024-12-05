@@ -1,0 +1,267 @@
+# Delos CosmosHub
+
+CosmosHub client for interacting with the CosmosHub API.
+
+## Installation
+
+To install the package, use `pip`:
+
+```bash
+pip install delos-cosmoshub
+```
+
+Or if you are using `poetry`:
+
+```bash
+poetry add delos-cosmoshub
+```
+
+## Client Initialization
+
+You can create an API key in CosmosPlatform `https://platform.cosmos-suite.ai/dashboard/keys`.
+
+To create a `CosmosHub` client instance, you need to initialize it with your API key, and optionally the server URL:
+
+```python
+from delos_cosmoshub import CosmosHubClient
+
+client = CosmosHubClient("your-api-key") # will be equivalent to:
+client = CosmosHubClient("your-api-key", "https://platform.cosmos-suite.ai", debug_mode=False)
+```
+
+## Endpoints
+
+This `delos-cosmoshub` client provides access to the following endpoints:
+
+**Status Endpoints**
+
+- `status_health_request`: Check the health of the server.
+
+**Translate Endpoints**
+
+- `translate_text_request`: Translate text.
+- `translate_file_request`: Translate a file.
+
+**Web Endpoints**
+
+- `web_search_request`: Perform a web search.
+
+**LLM Endpoints**
+
+- `chat`: Chat with the LLM.
+- `embed`: Embed data into the LLM.
+
+**Files Endpoints**
+
+- `files_chunker_request`: Chunk a file.
+- `files_index_operation_request`: Index group a set of files in order to be able to query them using natural language.
+- `files_index_operation_request`: Ask a question about the index documents (it requires that your
+  `index.status.vectorized` is set to `True`).
+- `files_index_operation_request`: Embed data into an index.
+- `files_index_operation_request`: List all indexes.
+- `files_index_operation_request`: Get details of an index.
+
+These endpoints are accessible through `delos-cosmoshub` client methods.
+
+> ℹ️ **Info:** For all the **endpoints**, there are specific **models** that structure the data to be sent to the API.
+>
+> They may contain the `text` or `files` to operate with, the `output_language` for your result, the `index_uuid` that
+> identifies the set of documents, the `model` to use for the LLM operations, etc.
+>
+> You can find them in the `delos_cosmoshub.models` module.
+
+### Status Endpoints
+
+#### Status Health Request
+
+To **check the health** of the server:
+
+```python
+response = client.status_health_request()
+if response:
+    print(f"Response: {response}")
+```
+
+> ⚠️ **Warning:** For all the endpoints, there are specific models that structure the data to be sent to the API.
+>
+> They may contain the `text` or `files` to operate with, the `output_language` for your result, the `index_uuid` that
+> identifies the set of documents, the `model` to use for the LLM operations, etc.
+>
+> You can find them in the `delos_cosmoshub.models` module.
+
+### Translate Endpoints
+
+#### Translate Text Request
+
+To **translate text**, you can use the `translate_text_request` method:
+
+```python
+from delos_cosmoshub.models import TranslateTextData
+
+translate_data = TranslateTextData(text="Hello, world!", target_language="fr")
+response = client.translate_text_request(translate_data)
+if response:
+    print(f"Translated Text: {response}")
+```
+
+#### Translate File Request
+
+To **translate a file**, use the `translate_file_request` method:
+
+```python
+from delos_cosmoshub.models import TranslateFileData
+
+translate_file_data = TranslateFileData(file=my_file, target_language="es")
+response = client.translate_file_request(translate_file_data)
+if response:
+    print(f"Translated File Response: {response}")
+```
+
+### Web Endpoints
+
+#### Web Search Request
+
+To perform a web search:
+
+```python
+from delos_cosmoshub.models import SearchData
+
+search_data = SearchData(query="CosmosHub")
+response = client.web_search_request(search_data)
+if response:
+    print(f"Search Results: {response}")
+```
+
+### Files Endpoints
+
+#### Files Chunker Request
+
+Universal reader and parser. To chunk a file:
+
+```python
+from delos_cosmoshub.models import ChunkerData
+
+chunker_data = ChunkerData(file=my_file)
+response = client.files_chunker_request(chunker_data)
+if response:
+    print(f"Chunked File Response: {response}")
+```
+
+#### Files Index Operation Request
+
+Index group a set of files in order to be able to query them using natural language. The following operations are
+available:
+
+- `INDEX_CREATE`: Create a new index and parse files.
+- `INDEX_ADD_FILES`: Add files to an existing index.
+- `INDEX_DELETE_FILES`: Delete files from an index.
+- `INDEX_DELETE`: Delete an index. **Warning: This is a delayed (2h) operation, allowed to be reverted with
+  `INDEX_RESTORE`. After 2h, it will be deleted and not recoverable.**
+- `INDEX_RESTORE`: Restore a deleted index.
+- `INDEX_EMBED`: Embed data into an index.
+- `INDEX_ASK`: Ask a question to the index. It requires that `INDEX_EMBED` is performed to allow index contents
+  querying.
+- `INDEX_LIST`: List all indexes.
+- `INDEX_DETAILS`: Get details of an index.
+
+#### Examples
+
+To **create a new index** and parse files:
+
+```python
+from delos_cosmoshub.data import IndexOperationData, FileEndpoints
+
+index_operation_data = IndexOperationData(files=[my_file], index_uuid="new-index-uuid")
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_CREATE)
+if response:
+    print(f"Index Create Response: {response}")
+```
+
+To **add files** to an existing index:
+
+```python
+index_operation_data = IndexOperationData(files=[my_file], index_uuid="existing-index-uuid")
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_ADD_FILES)
+if response:
+    print(f"Add Files to Index Response: {response}")
+```
+
+To **delete files** from an existing index:
+
+```python
+index_operation_data = IndexOperationData(files=[my_file], index_uuid="existing-index-uuid")
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_DELETE_FILES)
+if response:
+    print(f"Delete Files from Index Response: {response}")
+```
+
+To **delete an index** (it will be marked for deletion which will become effective after 2h):
+
+```python
+index_operation_data = IndexOperationData(index_uuid="index-to-delete-uuid")
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_DELETE)
+if response:
+    print(f"Delete Index Response: {response}")
+```
+
+To **restore an index** marked for deletion (only possible during the 2h after the `INDEX_DELETE` was requested):
+
+```python
+index_operation_data = IndexOperationData(index_uuid="index-to-restore-uuid")
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_RESTORE)
+if response:
+    print(f"Restore Index Response: {response}")
+```
+
+To **embed** or **vectorize index contents** in order to allow the query operations:
+
+```python
+index_operation_data = IndexOperationData(index_uuid="index-uuid", data_to_embed=my_data)
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_EMBED)
+if response:
+    print(f"Embed Data Response: {response}")
+```
+
+To **ask a question** about the index documents (it requires that your `index.status.vectorized` is set to `True`):
+
+```python
+index_operation_data = IndexOperationData(index_uuid="index-uuid", question="What is CosmosHub?")
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_ASK)
+if response:
+    print(f"Ask Index Response: {response}")
+```
+
+To **list all indexes** in your organization, files included and storage details:
+
+```python
+response = client.files_index_operation_request(None, FileEndpoints.INDEX_LIST)
+if response:
+    print(f"List Indexes Response: {response}")
+```
+
+To **get details** of an index:
+
+```python
+index_operation_data = IndexOperationData(index_uuid="index-uuid")
+response = client.files_index_operation_request(index_operation_data, FileEndpoints.INDEX_DETAILS)
+if response:
+    print(f"Index Details Response: {response}")
+```
+
+## Development
+
+To contribute to the project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/yourusername/delos-cosmoshub.git
+cd delos-cosmoshub
+poetry install
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any inquiries, please contact the project maintainers at support@cosmos-suite.ai.
