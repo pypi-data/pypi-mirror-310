@@ -1,0 +1,11 @@
+LICENSE
+README.md
+llm_inference.py
+pyproject.toml
+llm_inference_cloud.egg-info/PKG-INFO
+llm_inference_cloud.egg-info/SOURCES.txt
+llm_inference_cloud.egg-info/dependency_links.txt
+llm_inference_cloud.egg-info/entry_points.txt
+llm_inference_cloud.egg-info/requires.txt
+llm_inference_cloud.egg-info/top_level.txt
+tests/test_inference.py
