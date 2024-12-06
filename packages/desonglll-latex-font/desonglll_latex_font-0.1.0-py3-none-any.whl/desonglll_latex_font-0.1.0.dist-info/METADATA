@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: desonglll_latex_font
+Version: 0.1.0
+Summary: Font installation for my latex template requirement.
+Author-email: Lin Desong <lindesong666@gmail.com>
+Maintainer-email: Lin Desong <lindesong666@gmail.com>
+License: MIT license
+Project-URL: bugs, https://github.com/desonglll/desonglll_latex_font/issues
+Project-URL: changelog, https://github.com/desonglll/desonglll_latex_font/blob/master/changelog.md
+Project-URL: homepage, https://github.com/desonglll/desonglll_latex_font
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+====================
+desonglll-latex-font
+====================
+
+
+.. image:: https://img.shields.io/pypi/v/desonglll_latex_font.svg
+        :target: https://pypi.python.org/pypi/desonglll_latex_font
+
+.. image:: https://img.shields.io/travis/desonglll/desonglll_latex_font.svg
+        :target: https://travis-ci.com/desonglll/desonglll_latex_font
+
+.. image:: https://readthedocs.org/projects/desonglll-latex-font/badge/?version=latest
+        :target: https://desonglll-latex-font.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Font installation for my latex template requirement.
+
+
+* Free software: MIT license
+* Documentation: https://desonglll-latex-font.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
