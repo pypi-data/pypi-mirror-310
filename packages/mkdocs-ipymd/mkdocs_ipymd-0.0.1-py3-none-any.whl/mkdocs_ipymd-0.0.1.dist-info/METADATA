@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mkdocs-ipymd
+Version: 0.0.1
+Summary: 
+Author: Felipe Angelim
+Author-email: felipeangelim@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: dev
+Requires-Dist: ipykernel (>=6.29.5,<7.0.0)
+Requires-Dist: markdown (>=3)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0) ; extra == "dev"
+Requires-Dist: mkdocs (>=1)
+Requires-Dist: mkdocs-material (>=9.5.45,<10.0.0) ; extra == "dev"
+Requires-Dist: nbclient (>=0.10.0)
+Requires-Dist: nbconvert (>=7.15)
+Requires-Dist: nbformat (>=5.10.4)
+Requires-Dist: numpy (>2.0) ; extra == "dev"
+Requires-Dist: pandas (>=2.2.3,<3.0.0) ; extra == "dev"
+Requires-Dist: pygments (>=2.0.0)
+Requires-Dist: pymdown-extensions (>=10.12,<11.0) ; extra == "dev"
+Requires-Dist: pytest (>=8.3.3,<9.0.0) ; extra == "dev"
+Requires-Dist: pytest-cov (>=6.0.0,<7.0.0) ; extra == "dev"
+Description-Content-Type: text/markdown
+
+
