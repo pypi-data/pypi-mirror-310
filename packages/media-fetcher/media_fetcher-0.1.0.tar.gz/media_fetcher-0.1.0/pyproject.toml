@@ -1,0 +1,99 @@
+[tool.poetry]
+name = "media-fetcher"
+version = "0.1.0"
+description = "A Python package for fetching media details from Instagram, TikTok, and other platforms."
+authors = ["xl_spooky <spkydevelopment@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/xl-spooky/media-fetcher"
+homepage = "https://github.com/xl-spooky/media-fetcher"
+keywords = ["media", "fetcher", "instagram", "tiktok", "social media"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twine = "^5.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+src = ["media-fetcher"]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+preview = true
+explicit-preview-rules = true
+
+select = [
+    "I",    # isort
+    "E",
+    "F",
+    "A",    # shadowing built-ins
+    "RUF",
+    "UP",
+    "PL",   # pylint
+
+    "D",    # docstrings
+    "D212", # multi-line docstring summary start
+
+    "Q",    # consistent string quotes
+    "FLY",  # static joins
+    "ISC",  # string concatenation
+
+    "SIM",  # simplifiable logic
+    "C4",   # simplifiable comprehensions
+    "PIE",  # misc
+
+    "G",    # avoid formatting in logging
+    "LOG",  # logging-related rules
+
+    "TRY",  # try-except pitfalls
+    "RSE",  # skip parens on empty exceptions
+
+    "ANN",  # annotations
+    "ASYNC", # blocking calls in async context
+    "TCH004", # runtime use of TYPE_CHECKING imports
+    "TCH005", # empty TYPE_CHECKING block
+    "TCH010",
+    "FURB",
+    "PTH",  # prefer pathlib > os.path / open
+    "ERA",  # avoid commented-out code
+
+    # preview
+    "RUF022" # sort __all__
+]
+ignore = [
+    "ANN101", # missing type of self
+    "ANN102", # missing type of cls
+    "ANN401", # Any used as annotation
+    "TRY003", # exception messages
+    "PLR09",  # parameter, expression counts
+    "D1",     # don't require docstrings for every function
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+split-on-trailing-comma = false
+
+[tool.ruff.lint.flake8-builtins]
+builtins-ignorelist = ["id", "format", "input"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.pyright]
+pythonVersion = "3.11"
+include = ["media-fetcher"]
+typeCheckingMode = "strict"
+
+reportMissingTypeStubs = false
+reportUnknownVariableType = false
+reportUnknownMemberType = false
+
+reportIncompatibleMethodOverride = false
