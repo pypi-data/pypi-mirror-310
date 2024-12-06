@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: pygentree
+Version: 1.0.4
+Summary: A Python package to generate ASCII tree representation of directory structures
+Home-page: https://github.com/taeefnajib/pygentree
+Author: Taeef Najib
+Author-email: Taeef Najib <taeefnajib@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Taeef Najib
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/taeefnajib/pygentree
+Keywords: directory,tree,filesystem,ascii
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyGenTree
+
+[![PyPI version](https://img.shields.io/pypi/v/pygentree.svg?style=for-the-badge)](https://pypi.org/project/pygentree/)
+[![License](https://img.shields.io/pypi/l/pygentree.svg?style=for-the-badge)](https://github.com/taeefnajib/pygentree/blob/main/LICENSE)
+[![Python versions](https://img.shields.io/pypi/pyversions/pygentree.svg?style=for-the-badge)](https://pypi.org/project/pygentree/)
+
+A Python package to generate ASCII tree representation of directory structures.
+
+<img src="https://i.postimg.cc/HsPP8RRL/Screenshot-from-2024-10-24-23-45-17.png"/>
+
+## Requirements
+
+- Python 3.6 or higher
+
+## Installation
+
+```bash
+pip install pygentree
+```
+
+## Usage
+
+```bash
+# Basic usage (current directory)
+pygentree
+
+# Specify a directory
+pygentree /path/to/directory
+
+# Limit depth level
+pygentree -l 2
+
+# Sort files and folders
+pygentree -s asc   # ascending order
+pygentree -s desc  # descending order
+pygentree -s standard  # default: folders first, then files
+
+# Show only directories
+pygentree -d
+
+# Ignore hidden files and directories, e.g. .git, .env, etc.
+pygentree --ignore-hidden
+
+# Exclude specific files or directories (comma-separated)
+pygentree -e "node_modules,venv,dist"
+
+# Save output to file
+pygentree -o tree.txt
+
+# Show version
+pygentree -v
+
+# Show help
+pygentree -h
+```
+
+## Features
+
+- Generate ASCII tree representation of directory structures
+- Customize maximum depth level
+- Multiple sorting options
+- Option to show only directories
+- Option to ignore hidden files and directories
+- Exclude specific files and directories
+- Save output to file
+- Handle permission errors gracefully
+- Cross-platform compatibility
+
+## Supported Python Versions
+
+- Python 3.6
+- Python 3.7
+- Python 3.8
+- Python 3.9
+- Python 3.10
+- Python 3.11
+- Python 3.12
+
+## License
+
+MIT License

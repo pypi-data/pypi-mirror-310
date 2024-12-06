@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pygentree/__init__.py
+src/pygentree/__main__.py
+src/pygentree/tree_generator.py
+src/pygentree.egg-info/PKG-INFO
+src/pygentree.egg-info/SOURCES.txt
+src/pygentree.egg-info/dependency_links.txt
+src/pygentree.egg-info/entry_points.txt
+src/pygentree.egg-info/top_level.txt
