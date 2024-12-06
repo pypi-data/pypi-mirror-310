@@ -1,0 +1,10 @@
+Django
+celery
+django-waffle
+djangorestframework
+edx-codejail
+edx-drf-extensions
+edx-toggles
+edx_django_utils
+jsonschema
+setuptools
