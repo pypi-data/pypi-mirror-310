@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "learn-genai"
+version = "0.1.14"
+description = "A package to learn Generative AI through practical examples"
+authors = ["Tony Esposito <peppedda4@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+txt = "^2020.11.12"
+streamlit = "^1.40.1"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+langchain-ollama = "^0.2.0"
+langgraph = "^0.2.50"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+chromadb = "^0.5.18"
+ollama = "^0.3.3"
+transformers = "^4.46.2"
+faiss-cpu = "^1.7.4"
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.40.1"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+langchain-ollama = "^0.2.0"
+langgraph = "^0.2.50"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+chromadb = "^0.5.18"
+ollama = "^0.3.3"
+transformers = "^4.46.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# Aggiungi questa sezione
+[tool.poetry.scripts]
+learn_genai = "learn_genai.run_app:main"
