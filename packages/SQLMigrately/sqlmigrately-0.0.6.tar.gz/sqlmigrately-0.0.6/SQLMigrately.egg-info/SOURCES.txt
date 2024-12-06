@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+test.ipynb
+.github/workflows/publish.yml
+SQLMigrately.egg-info/PKG-INFO
+SQLMigrately.egg-info/SOURCES.txt
+SQLMigrately.egg-info/dependency_links.txt
+SQLMigrately.egg-info/requires.txt
+SQLMigrately.egg-info/top_level.txt
+sqlmigrately/__init__.py
+sqlmigrately/exceptions.py
+sqlmigrately/main.py
+sqlmigrately/types.py
+sqlmigrately/utils.py
