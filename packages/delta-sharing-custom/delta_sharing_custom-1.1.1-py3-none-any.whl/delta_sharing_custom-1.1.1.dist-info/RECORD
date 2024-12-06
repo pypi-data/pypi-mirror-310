@@ -1,0 +1,14 @@
+python/delta_sharing/__init__.py,sha256=97qVkYyZkF44qMtwTyoEWtH2NF7CyyQZ1FIgxKIeqxg,1274
+python/delta_sharing/_internal_auth.py,sha256=rT6Db1LqhQWA-zTc5bkulbyj5yaTcP0LtMYuBHxn3fY,9040
+python/delta_sharing/_yarl_patch.py,sha256=5ZLceh2x7uG6ArYNnykNMhzRkkyPN5GGUTPitHvavIE,855
+python/delta_sharing/converter.py,sha256=98EO9G1hdGdqMZ8xB0XNQYOVzSWKyUqnzaMVp-eQa80,5066
+python/delta_sharing/delta_sharing.py,sha256=Yeh1thDBppfuyZTk_Q-2aHqdjwo6MVDhu9kwmcEK9GA,13454
+python/delta_sharing/protocol.py,sha256=or4BESdLsBAqq1WJqSK_sQ3TawOFDn_3eVU_mO2_u18,10387
+python/delta_sharing/reader.py,sha256=gZeFU0et8SP2RwG5T3CwmUlgnxndImtfk9WErzrLya8,13200
+python/delta_sharing/rest_client.py,sha256=-LlVG3JgpgTtcnl0FID2jKFtXFfilKwQkHx9CBMeg-A,18873
+python/delta_sharing/version.py,sha256=TnmhEHIkUQ7nUTTzAIIOVy4sINipTfmOUo2npXEgTQc,626
+delta_sharing_custom-1.1.1.dist-info/LICENSE.txt,sha256=WirmNL5oRk5Ae4Db7OnY2CKSbJssvbHoAfXSeSlYmAI,33484
+delta_sharing_custom-1.1.1.dist-info/METADATA,sha256=VqcUZGsUyD0ccr1wzyMNGJpA4NZuRU5DxuIW9_06Gj4,2781
+delta_sharing_custom-1.1.1.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+delta_sharing_custom-1.1.1.dist-info/top_level.txt,sha256=NgZuLIHK-efdgs-ITaJtJEkCvKLb-omPDyb51GXLEBg,21
+delta_sharing_custom-1.1.1.dist-info/RECORD,,
