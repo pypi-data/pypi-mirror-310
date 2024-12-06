@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gitai
+Version: 0.1.6
+Requires-Dist: langchain
+Requires-Dist: python-dotenv
+Requires-Dist: click
+Requires-Dist: langchain-openai
+Requires-Dist: langchainhub
+Requires-Dist: asyncio
+
