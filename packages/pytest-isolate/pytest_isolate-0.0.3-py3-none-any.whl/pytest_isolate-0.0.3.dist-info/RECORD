@@ -1,0 +1,8 @@
+pytest_isolate/__about__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+pytest_isolate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_isolate/plugin.py,sha256=grrSIqPbGz5OG-b4wF4e34GTl5_jxjhx7X1U3LsbkEM,18416
+pytest_isolate-0.0.3.dist-info/METADATA,sha256=gxZklkWxI8kdGFvIyUnWdVv71vrzWPg4YFCzu2ASnBM,3568
+pytest_isolate-0.0.3.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+pytest_isolate-0.0.3.dist-info/entry_points.txt,sha256=xRfxqeOju8mSl3hyR8uNEab_KzlUx05gPAyStfHfR6M,50
+pytest_isolate-0.0.3.dist-info/licenses/LICENSE.txt,sha256=YBuA6HswtHx7U4nTB3_aZ6N-fLayAEBeRSQheYnB_pI,1045
+pytest_isolate-0.0.3.dist-info/RECORD,,
