@@ -1,0 +1,13 @@
+README.md,sha256=esmnIoobiwgvb3rpn0WzcRXRss0mEVPuAb2DJ6UrC0E,3808
+gensh/__init__.py,sha256=-dIaTpXwwA68GXE4e7AQ6HFFAXHqK152Hr8IObr_c0A,92
+gensh/processor.py,sha256=v4JcDg9UPHOW1Eo3-SKiq-aD8zUCqAX1tCl1HX60tFQ,19051
+templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/architect_template.yml,sha256=E9hM59-PGEoBNEe6umUqb5D3Mbhojjhe9biAo-hPc2g,547
+templates/book_summary_template.yml,sha256=-uO-a9ebQESXO0bFVZVeleub_lpW_GcXG7E8TXoldQA,1415
+templates/links_summary_template.yml,sha256=mtf13W5ZHFTjb2KcFpsYrSdlhS4L1_937EaHhcF8qsI,1018
+templates/python_template.yml,sha256=sL82JRlxqOZc-uq1mytJlD_ic6XwVRAGZa6JJ5S2CrA,632
+templates/shell_template.yml,sha256=jihW9qK3S1alRl0z1vxJt-FJ8ldXDxzGyPYeewCzZg8,634
+gensh-0.1.4.dist-info/METADATA,sha256=XVUVppbX0jNvabzhY6Yio0fEvWxKvRwbViy5sJh44dg,4646
+gensh-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gensh-0.1.4.dist-info/entry_points.txt,sha256=rxHd7ocMF-x4DX_s-k2ezSqQu_YoHZzww0SYUTxROKo,46
+gensh-0.1.4.dist-info/RECORD,,
