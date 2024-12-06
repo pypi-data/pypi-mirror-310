@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+duino/__init__.py
+duino/common.py
+duino/install_from_git.py
+duino/install_from_zip.py
+duino/libs.py
+duino/make_readme_table.py
+duino/version.py
+duino.egg-info/PKG-INFO
+duino.egg-info/SOURCES.txt
+duino.egg-info/dependency_links.txt
+duino.egg-info/entry_points.txt
+duino.egg-info/requires.txt
+duino.egg-info/top_level.txt

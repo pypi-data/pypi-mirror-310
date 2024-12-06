@@ -1,0 +1,5 @@
+duino_cli
+duino_bus
+duino_littlefs
+gitpython
+wget
