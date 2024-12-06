@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: python-telegram-framework
+Version: 1.0.0
+Summary: Small framework to create bots with python-telegram-bot
+Author-email: Víctor Martínez Amador <vmartineza33@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 VICTOR MARTINEZ AMADOR
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Repository, https://github.com/vmartinez33/python-telegram-framework
+Project-URL: Documentation, https://vmartinez33.github.io/python-telegram-framework/
+Keywords: telegram,bot,framework
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: packaging
+Requires-Dist: python-telegram-bot[all]
+Requires-Dist: pyngrok
+
+# python-telegram-framework
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+Small framework to create bots around the python-telegram-bot library.
+
+A project designed to learn how to manage and create Python packages, driven by the desire to experience building a framework from the ground up.
+
+Expected features:
+- Commands to quickly initiate projects and easly expand their structure
+- Effortlessly run your bot using a comprehensive settings file that includes all necessary configurations
+- Programming based on a handler-callback structure
+- HTML template engine for crafting sophisticated bot responses
+- Built-in i18n translation system
+- Simple database configuration with built-in support for models and migrations
+
+:construction: UNDER CONSTRUCTION :construction:

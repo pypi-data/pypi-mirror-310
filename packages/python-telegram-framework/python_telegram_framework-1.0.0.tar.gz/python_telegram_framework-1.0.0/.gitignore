@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.idea/
+.vscode/
+dist/
+build/
+*.egg-info/
+/telegram_framework/_version.py
+.coverage

@@ -1,0 +1,2 @@
+[console_scripts]
+python-telegram-framework = telegram_framework.management:execute_from_command_line

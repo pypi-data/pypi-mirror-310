@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+packaging = "*"
+python-telegram-bot = {extras = ["all"], version = "*"}
+pyngrok = "*"
+pytest = "*"
+pytest-cov = "*"
+setuptools-scm = "*"
+python-telegram-framework = {editable = true, path = "."}
+
+[dev-packages]
+
+[requires]

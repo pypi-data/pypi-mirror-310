@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm>=8", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-telegram-framework"
+dynamic = ["version"]
+description = "Small framework to create bots with python-telegram-bot"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Víctor Martínez Amador", email = "vmartineza33@gmail.com"}
+]
+keywords = ["telegram", "bot", "framework"]
+dependencies = [
+    "packaging",
+    "python-telegram-bot[all]",
+    "pyngrok"
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.scripts]
+python-telegram-framework = "telegram_framework.management:execute_from_command_line"
+
+[project.urls]
+Repository = "https://github.com/vmartinez33/python-telegram-framework"
+Documentation = "https://vmartinez33.github.io/python-telegram-framework/"
+
+[tool.setuptools_scm]
+version_file = "telegram_framework/_version.py"
