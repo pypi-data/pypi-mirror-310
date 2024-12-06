@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Pollypocket.egg-info/PKG-INFO
+Pollypocket.egg-info/SOURCES.txt
+Pollypocket.egg-info/dependency_links.txt
+Pollypocket.egg-info/requires.txt
+Pollypocket.egg-info/top_level.txt
+pollypocket/__init__.py
+pollypocket/lagrange_interpolation.py
+tests/test_lagrange_interpolation.py
