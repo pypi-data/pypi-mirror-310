@@ -1,0 +1,11 @@
+colorflow/__init__.py,sha256=WLl75X-0H4XGNBtZaOah5OqA5j1MOFPtbqHIJBS_0KE,442
+colorflow/core/color.py,sha256=aa9u5TVB5YOMIgAJeYoEQib3_9QN2HpanOcFFjfRjgE,753
+colorflow/core/sequence.py,sha256=Lm4wiIeFO5Oe07yRvh6eGsICvPVJGaL5sdq25ki-jX8,3082
+colorflow/enum.py,sha256=G-cd4jcvCIJHqJ6RUueKo6cVZUjHl4-S1SfZEEq9aFk,72
+colorflow/parser/color_parser.py,sha256=_DU7LS5A31XaaPzH7oQZelGgqXO8gIK2BY_D_2lZHiw,1248
+colorflow/utils/color_presets.py,sha256=xgYhNvwcHuhC7JjvO_HbyCckQQ4gYApwh5BYAW1-g8U,3021
+colorflow/utils/mapper.py,sha256=D1GwdVzw4iZpkD_GbWERh2XBx5xDnhivY8mykkyQMyc,1376
+colorflow-1.0.1.dist-info/LICENSE,sha256=F7zcVp5oLGr4ZE_shGCIk0MyitT8wHTKLGv3my16Aes,1063
+colorflow-1.0.1.dist-info/METADATA,sha256=2pjQJ9_M9c2tzCH_MamIZqYusHLNEVF0G9D4V1oGTxY,5279
+colorflow-1.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+colorflow-1.0.1.dist-info/RECORD,,
