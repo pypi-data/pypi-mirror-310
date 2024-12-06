@@ -1,0 +1,12 @@
+awx_plugins/interfaces/_temporary_private_api.py,sha256=F8eilk6Rj_wP3GLkCqF6KDLuUri5LA5czeUBrwvnrgo,1531
+awx_plugins/interfaces/_temporary_private_container_api.py,sha256=8Mszb8el7_JrRlqHUPXKE-qbMaNWMUySAujchCqKnWc,1740
+awx_plugins/interfaces/_temporary_private_credential_api.py,sha256=HnTGFq8mgKuxCn4ptLX8MYBmUKFKsoHLP8s4U1PKNlU,1685
+awx_plugins/interfaces/_temporary_private_django_api.py,sha256=YytuPge4BIiSKdDO8UKsOwI3PbPJb0peTx_YLmuLjx0,1946
+awx_plugins/interfaces/_temporary_private_licensing_api.py,sha256=JX5MvAYHgYekgszLEWKgIEQnhivapowYFln3R_79yyA,542
+awx_plugins/interfaces/api.py,sha256=9IjO3tNAlKdR8s9BfIkHBF8YmT3v7j3VrgDPGHhk05I,73
+awx_plugins/interfaces/py.typed,sha256=BThsjm5AHSdjVyCDr_RTxj3LJvDigUbQdEQi-gjuA9w,339
+awx_plugins.interfaces-0.0.1a2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+awx_plugins.interfaces-0.0.1a2.dist-info/METADATA,sha256=SZqPvvcw12HXKIcofSrEdZ1SNuQpHv_pdtLPRGS4KUg,16684
+awx_plugins.interfaces-0.0.1a2.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+awx_plugins.interfaces-0.0.1a2.dist-info/top_level.txt,sha256=o3y73R8--sgZFQrvrDeWtR377I7pXy0NSGzfjPRrQA4,12
+awx_plugins.interfaces-0.0.1a2.dist-info/RECORD,,
