@@ -1,0 +1,233 @@
+Metadata-Version: 2.1
+Name: apikee
+Version: 1.0.3
+Summary: ApiKee - A lightweight API key validation library for FastAPI
+Home-page: https://github.com/apikee-dev/apikee-python
+Author: usmhic
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.68.0
+Requires-Dist: aiohttp>=3.8.0
+
+# **ApiKee Python**
+
+## **Table of Contents**
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+   - [Initialization](#initialization)
+   - [Local Validation](#local-validation)
+   - [Server Validation](#server-validation)
+4. [Framework Examples](#framework-examples)
+   - [FastAPI Example](#fastapi-example)
+   - [Flask Example](#flask-example)
+   - [Generic Integration](#generic-integration)
+5. [Building Your Own Validation Server](#building-your-own-validation-server)
+6. [Using ApiKee Premium Server](#using-apikee-premium-server)
+7. [Contributing](#contributing)
+8. [License](#license)
+
+---
+
+## **Introduction**
+
+The **ApiKee** Python package provides a simple way to manage and protect your API endpoints using API keys. It supports **local validation** and **server validation**, ensuring flexibility and security for your application.
+
+- **Local Validation**: Validates API keys directly in your application using a pre-configured key.
+- **Server Validation**: Sends requests to a server for validation, useful for centralized management and analytics.
+
+The package works with any Python API framework, such as **FastAPI**, **Flask**, and **Django**.
+
+---
+
+## **Installation**
+
+Install the package via pip:
+
+```bash
+pip install apikee
+```
+
+---
+
+## **Usage**
+
+### **Initialization**
+
+Initialize the package using `init_apikee()` in your application setup. This configures local and/or server validation.
+
+```python
+from apikee import init_apikee
+
+# Example with local validation only
+init_apikee(local_key="my-local-key")
+
+# Example with server validation
+init_apikee(
+    local_key="my-local-key",
+    server_url="https://api.apikee.com",
+    project_id="12345",
+    env="production",
+    api_key="my-server-api-key",
+)
+```
+
+You can also use environment variables instead of hardcoding:
+
+- `APIKEE_LOCAL_KEY`
+- `APIKEE_SERVER_URL`
+- `APIKEE_PROJECT_ID`
+- `APIKEE_ENV`
+- `APIKEE_API_KEY`
+
+---
+
+### **Local Validation**
+
+Local validation checks the API key against a pre-configured value. Use the `@apikey()` decorator to protect any route.
+
+```python
+from apikee import apikey
+
+@app.get("/local-protected")
+@apikey()  # Local validation
+async def local_protected():
+    return {"message": "Access granted via local key validation"}
+```
+
+---
+
+### **Server Validation**
+
+Server validation sends the API key and endpoint details to a server for verification. Use the `endpoint_id` parameter in the `@apikey()` decorator.
+
+```python
+from apikee import apikey
+
+@app.get("/server-protected")
+@apikey(endpoint_id="endpoint-123")  # Server validation
+async def server_protected():
+    return {"message": "Access granted via server validation"}
+```
+
+---
+
+## **Framework Examples**
+
+### **FastAPI Example**
+
+FastAPI users can integrate ApiKee with Swagger documentation to include the **API key header**.
+
+```python
+from fastapi import FastAPI, Request
+from apikee import apikey, init_apikee
+
+# Initialize ApiKee
+init_apikee(local_key="my-local-key")
+
+app = FastAPI()
+
+# Add OpenAPI schema customization for API key header
+def customize_openapi():
+    if app.openapi_schema:
+        return app.openapi_schema
+    openapi_schema = app.openapi()
+    openapi_schema["components"]["securitySchemes"] = {
+        "ApiKeyAuth": {
+            "type": "apiKey",
+            "name": "X-Api-Key",
+            "in": "header",
+        }
+    }
+    openapi_schema["security"] = [{"ApiKeyAuth": []}]
+    app.openapi_schema = openapi_schema
+    return openapi_schema
+
+app.openapi = customize_openapi
+
+@app.get("/local-protected")
+@apikey()
+async def local_protected(request: Request):
+    return {"message": "Access granted via local key validation"}
+
+@app.get("/server-protected")
+@apikey(endpoint_id="endpoint-123")
+async def server_protected(request: Request):
+    return {"message": "Access granted via server validation"}
+```
+
+Access the FastAPI Swagger UI, and you'll see the **`X-Api-Key`** input field in the documentation.
+
+---
+
+### **Flask Example**
+
+```python
+from flask import Flask, request
+from apikee import apikey, init_apikee
+
+# Initialize ApiKee
+init_apikee(local_key="my-local-key")
+
+app = Flask(__name__)
+
+@app.route("/local-protected")
+@apikey()
+def local_protected():
+    return {"message": "Access granted via local key validation"}
+
+@app.route("/server-protected")
+@apikey(endpoint_id="endpoint-123")
+def server_protected():
+    return {"message": "Access granted via server validation"}
+```
+
+---
+
+### **Generic Integration**
+
+For other frameworks, you can use the `@apikey()` decorator. Ensure the `request` object contains headers accessible via `request.headers`.
+
+```python
+from apikee import apikey, init_apikee
+
+# Initialize ApiKee
+init_apikee(local_key="my-local-key")
+
+# Generic route protection example
+@apikey()
+def protected_route(request):
+    return {"message": "Access granted"}
+```
+
+---
+
+## **Building Your Own Validation Server**
+
+If you choose server validation, you can build your own validation server by following the specifications provided in the [ApiKee Documentation](https://apikee.com/docs/server).
+
+---
+
+## **Using ApiKee Premium Server**
+
+Alternatively, you can use the ApiKee Premium Server, which provides a fully managed solution with advanced features such as:
+- Centralized API key management
+- Analytics and monitoring
+- UI platform for endpoint management
+
+Learn more at [ApiKee.com](https://www.apikee.com).
+
+---
+
+## **Contributing**
+
+We welcome contributions to improve the ApiKee Python package! Feel free to submit pull requests or report issues on our [GitHub repository](https://github.com/apikee-dev/apikee-python).
+
+---
+
+## **License**
+
+This package is open-source under the MIT License. However, the ApiKee Premium Server is a paid feature.
+
+You are free to build your own validation server following the provided specifications or use the managed ApiKee Premium Server at [ApiKee.com](https://www.apikee.com).
