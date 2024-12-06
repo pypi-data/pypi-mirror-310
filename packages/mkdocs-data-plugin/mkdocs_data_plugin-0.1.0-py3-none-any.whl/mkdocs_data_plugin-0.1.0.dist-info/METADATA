@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: mkdocs-data-plugin
+Version: 0.1.0
+Summary: MkDocs plugin that allows to read data from markup files
+Project-URL: Documentation, https://joapuiib.github.io/mkdocs-data-plugin
+Project-URL: Download, https://github.com/joapuiib/mkdocs-data-plugin/releases
+Project-URL: Homepage, https://joapuiib.github.io/mkdocs-data-plugin
+Project-URL: Source, https://github.com/joapuiib/mkdocs-data-plugin
+Project-URL: Tracker, https://github.com/joapuiib/mkdocs-data-plugin/issues
+Author-email: Joan Puigcerver <joapuiib@gmail.com>
+License: MIT
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: mkdocs-macros-plugin>=1.2.0
+Requires-Dist: mkdocs>=1.5.2
+Description-Content-Type: text/markdown
+
+# mkdocs-data-plugin
+MkDocs plugin that allows to read data from markup files
+
+Currently supported formats:
+
+- JSON
+- YAML
+
+## Documentation
+This plugin documentation can be found here: https://joapuiib.github.io/mkdocs-data-plugin/
+
+## Installation
+This plugin can be installed via pip:
+
+```bash
+pip install mkdocs-data-plugin
+```
+
+## Configuration
+Activate the plugin in your `mkdocs.yml`:
+
+```yaml
+plugins:
+  - data
+```
