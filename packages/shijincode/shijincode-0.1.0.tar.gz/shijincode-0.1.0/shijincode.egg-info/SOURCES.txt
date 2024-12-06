@@ -1,0 +1,7 @@
+setup.py
+shijincode/__init__.py
+shijincode/pythonmath.py
+shijincode.egg-info/PKG-INFO
+shijincode.egg-info/SOURCES.txt
+shijincode.egg-info/dependency_links.txt
+shijincode.egg-info/top_level.txt
