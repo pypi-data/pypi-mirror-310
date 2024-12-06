@@ -1,0 +1,2 @@
+[console_scripts]
+audio_files_organizer_iphone = Audio_files_organizer_for_iphone.Audio_organizer:processit
