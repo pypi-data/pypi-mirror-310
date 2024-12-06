@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=58.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wat_the_duck_is_going_on_red_green_blume"
+version = "0.0.6"
+authors = [
+  { name="red-green-blume", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"

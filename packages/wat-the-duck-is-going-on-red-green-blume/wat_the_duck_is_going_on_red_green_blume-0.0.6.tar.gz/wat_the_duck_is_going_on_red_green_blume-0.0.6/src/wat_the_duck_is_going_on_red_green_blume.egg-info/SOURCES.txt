@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/wat_the_duck_is_going_on_red_green_blume/__init__.py
+src/wat_the_duck_is_going_on_red_green_blume/another_module.py
+src/wat_the_duck_is_going_on_red_green_blume/func.py
+src/wat_the_duck_is_going_on_red_green_blume.egg-info/PKG-INFO
+src/wat_the_duck_is_going_on_red_green_blume.egg-info/SOURCES.txt
+src/wat_the_duck_is_going_on_red_green_blume.egg-info/dependency_links.txt
+src/wat_the_duck_is_going_on_red_green_blume.egg-info/top_level.txt
