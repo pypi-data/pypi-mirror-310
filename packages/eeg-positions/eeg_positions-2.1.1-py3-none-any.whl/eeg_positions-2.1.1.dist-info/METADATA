@@ -1,0 +1,107 @@
+Metadata-Version: 2.3
+Name: eeg_positions
+Version: 2.1.1
+Summary: Compute and plot standard EEG electrode positions.
+Project-URL: Bug Reports, https://github.com/sappelhoff/eeg_positions/issues
+Project-URL: Source, https://github.com/sappelhoff/eeg_positions
+Author: eeg_positions developers
+Maintainer-email: Stefan Appelhoff <stefan.appelhoff@mailbox.org>
+License: Copyright 2018 eeg_positions developers
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Keywords: 10-05 system,10-10 system,10-20 system,EEG,coordinate,electrode,electrophysiology,location,neuroscience,position,sensor,xyz
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: ipykernel; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: mne; extra == 'dev'
+Requires-Dist: numpydoc; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-sugar; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-copybutton; extra == 'dev'
+Requires-Dist: sphinx-gallery; extra == 'dev'
+Requires-Dist: sphinx-github-role; extra == 'dev'
+Requires-Dist: sphinxcontrib-bibtex; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mne; extra == 'docs'
+Requires-Dist: numpydoc; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx-gallery; extra == 'docs'
+Requires-Dist: sphinx-github-role; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: build; extra == 'test'
+Requires-Dist: mne; extra == 'test'
+Requires-Dist: pre-commit; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-sugar; extra == 'test'
+Requires-Dist: ruff; extra == 'test'
+Requires-Dist: twine; extra == 'test'
+Description-Content-Type: text/markdown
+
+[![Python build](https://github.com/sappelhoff/eeg_positions/workflows/Python%20build/badge.svg)](https://github.com/sappelhoff/eeg_positions/actions?query=workflow%3A%22Python+build%22)
+[![Python tests](https://github.com/sappelhoff/eeg_positions/workflows/Python%20tests/badge.svg)](https://github.com/sappelhoff/eeg_positions/actions?query=workflow%3A%22Python+tests%22)
+[![Test coverage](https://codecov.io/gh/sappelhoff/eeg_positions/branch/main/graph/badge.svg)](https://codecov.io/gh/sappelhoff/eeg_positions)
+[![Documentation status](https://readthedocs.org/projects/eeg-positions/badge/?version=latest)](https://eeg-positions.readthedocs.io/en/latest/?badge=latest)
+[![PyPi version](https://img.shields.io/pypi/v/eeg_positions.svg)](https://pypi.org/project/eeg_positions/)
+[![Zenodo archive](https://zenodo.org/badge/136149692.svg)](https://zenodo.org/badge/latestdoi/136149692)
+
+# eeg_positions
+
+Compute and plot standard EEG electrode positions.
+
+Please see the [**Documentation**](https://eeg-positions.readthedocs.io/en/latest/).
+
+## Quickstart
+
+There are two common ways to make use of this repository:
+
+1. Go to the `data/` directory and download the EEG electrode position files you need
+   (see the [README](https://github.com/sappelhoff/eeg_positions/tree/main/data) there).
+
+1. Use `eeg_positions` as a Python package (install through `pip install eeg_positions`),
+   and then obtain the EEG electrode positions through the `get_elec_coords` function.
+   See the [Examples](https://eeg-positions.readthedocs.io/en/latest/auto_examples/index.html)
+   and [API documentation](https://eeg-positions.readthedocs.io/en/latest/api.html).
+
+## Contributing
+
+The development of `eeg_positions` is taking place on
+[GitHub](https://github.com/sappelhoff/eeg_positions).
+
+For more information, please see
+[CONTRIBUTING.md](https://github.com/sappelhoff/eeg_positions/blob/main/.github/CONTRIBUTING.md).
+
+## Cite
+
+If you find this repository useful and want to cite it in your work, please go
+to the [Zenodo record](https://doi.org/10.5281/zenodo.3718568) and obtain the
+appropriate citation from the *"Cite as"* section there.

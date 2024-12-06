@@ -1,0 +1,9 @@
+eeg_positions/__init__.py,sha256=KcKmpubQXtPIq7XnO82p0BQliimh2ZjK7LsBegJEx-Q,548
+eeg_positions/compute.py,sha256=-zjBuJX-jDlbgpgDZYYtb5cXkNNeHDcGJla96MKHJ4w,21398
+eeg_positions/config.py,sha256=jzoJ-lkJp2UBVpsHkHpIvDYH5vn6llhlUArBouXCqXI,7997
+eeg_positions/utils.py,sha256=YRyrAmcZFOcYjHPIki3eGo2l2fpS7XItbrilenBW0c0,9198
+eeg_positions/viz.py,sha256=OQFvZ1LpKAtwSiveS0UoTFYdxdnLVRK2G5_FOcEZhV4,5955
+eeg_positions-2.1.1.dist-info/METADATA,sha256=hhBUmffjLJmH7IMrhe8yv9bcpkgwyp8blc3pGG_-GuY,5867
+eeg_positions-2.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+eeg_positions-2.1.1.dist-info/licenses/LICENSE,sha256=KLBAdixYI562Rwa6A2VcqDxC8uw6kiHweWo1qLZTFRI,1072
+eeg_positions-2.1.1.dist-info/RECORD,,
