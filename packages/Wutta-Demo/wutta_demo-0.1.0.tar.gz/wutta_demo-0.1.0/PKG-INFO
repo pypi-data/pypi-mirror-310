@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: Wutta-Demo
+Version: 0.1.0
+Project-URL: Homepage, https://wuttaproject.org/
+Project-URL: Repository, https://forgejo.wuttaproject.org/wutta/wutta-demo
+Project-URL: Issues, https://forgejo.wuttaproject.org/wutta/wutta-demo/issues
+Project-URL: Changelog, https://forgejo.wuttaproject.org/wutta/wutta-demo/src/branch/master/CHANGELOG.md
+Author-email: Lance Edgar <lance@wuttaproject.org>
+License: GNU GPL v3+
+Keywords: Wutta
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Pyramid
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: psycopg2
+Requires-Dist: wutta-continuum
+Requires-Dist: wuttaweb
+Description-Content-Type: text/markdown
+
+
+# Wutta Demo
+
+This is a starter Python project.

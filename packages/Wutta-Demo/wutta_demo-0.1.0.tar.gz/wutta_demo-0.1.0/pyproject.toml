@@ -1,0 +1,57 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "Wutta-Demo"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = [{name = "Lance Edgar", email = "lance@wuttaproject.org"}]
+license = {text = "GNU GPL v3+"}
+keywords = ["Wutta"]
+classifiers = [
+        "Development Status :: 3 - Alpha",
+        "Environment :: Web Environment",
+        "Framework :: Pyramid",
+        "Intended Audience :: Developers",
+        "Natural Language :: English",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+]
+dependencies = [
+        "psycopg2",
+        "Wutta-Continuum",
+        "WuttaWeb",
+]
+
+
+[project.scripts]
+wuttademo = "wuttademo.commands:wuttademo_typer"
+
+
+[project.entry-points."wutta.config.extensions"]
+"wuttademo" = "wuttademo.config:WuttaDemoConfig"
+
+
+[project.entry-points."paste.app_factory"]
+"main" = "wuttademo.web.app:main"
+
+
+[project.urls]
+Homepage = "https://wuttaproject.org/"
+Repository = "https://forgejo.wuttaproject.org/wutta/wutta-demo"
+Issues = "https://forgejo.wuttaproject.org/wutta/wutta-demo/issues"
+Changelog = "https://forgejo.wuttaproject.org/wutta/wutta-demo/src/branch/master/CHANGELOG.md"
+
+
+[tool.commitizen]
+version_provider = "pep621"
+tag_format = "v$version"
+update_changelog_on_bump = true
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wuttademo"]
