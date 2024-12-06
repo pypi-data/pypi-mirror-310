@@ -1,0 +1,8 @@
+fastai
+sysbench_loader
+matplotlib
+nbdev>2
+ray[tune]
+
+[dev]
+nbdev>2
