@@ -1,0 +1,12 @@
+flatpaker/__init__.py,sha256=PsGR5gs45aoJvPD1NHYiyPzrqGJjlynQgcPzUULvCZs,534
+flatpaker/config.py,sha256=z3GFLh3It1qM1W_Brds1AjFojPDjqswPrxdGxkp7T94,882
+flatpaker/entry.py,sha256=u4o6U3rz75b-5M8pRJ0SeW5V3zXSYoGvcyeY8Jvq18c,2370
+flatpaker/util.py,sha256=Ulx6VKzVNEz_v2U5x5ORZnX6gaN0190H_WYSTk6JV8I,8105
+flatpaker/impl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flatpaker/impl/renpy.py,sha256=LooyGP4qM8-uwEtkRSpqAyxgEa805_wabc6D1SnfsAU,6076
+flatpaker/impl/rpgmaker.py,sha256=Kvy6Mb_iOjD-AmUfJphyvFUnJzIBxWYoGoEIAsrx7kk,2392
+flatpaker-0.0.1.dist-info/entry_points.txt,sha256=_6R4HPhjK68ou2LtVSgm26ltyMaQF4tCQT-L9ymdOgQ,50
+flatpaker-0.0.1.dist-info/LICENSE,sha256=QqvRDZzvUrvgv6CnNh5LdWCnoF19JuPUYzE-Qs8pNFY,1068
+flatpaker-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+flatpaker-0.0.1.dist-info/METADATA,sha256=awJgom54TVC5npmCQob03mQNnOLw0YsV1w0HJHmXAe0,5149
+flatpaker-0.0.1.dist-info/RECORD,,
