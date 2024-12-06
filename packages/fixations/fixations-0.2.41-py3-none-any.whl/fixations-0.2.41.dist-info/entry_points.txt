@@ -1,0 +1,6 @@
+[console_scripts]
+fix_explore=fixations.fix_explore:main
+fix_parse_log=fixations.fix_parse_log:main
+fix_tags=fixations.fix_tags:main
+webfix=fixations.webfix:main
+
