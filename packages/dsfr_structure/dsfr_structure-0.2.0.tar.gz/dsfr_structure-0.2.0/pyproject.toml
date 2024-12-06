@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dsfr_structure"
+version = "0.2.0"
+description = ""
+authors = ["ARTHAUD Geoffrey <geoffrey.artaud@developpement-durable.gouv.fr>", "CALDATO Alexandre <alexandre.caldato@sully-group.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.3"
+markdown = "^3.5.1"
+pymdown-extensions = "^10.12"
+
+[tool.poetry.dev-dependencies]
+beautifulsoup4 = "^4.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+test = "dsfr_structure.test_runner:run_tests"
+
+
