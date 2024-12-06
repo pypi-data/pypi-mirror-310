@@ -1,0 +1,10 @@
+*~
+*#
+Makefile
+docs/_build
+*.DS_Store
+*__pycache__
+*.vscode
+.tox
+dist
+qupled.egg-info
