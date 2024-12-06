@@ -1,0 +1,11 @@
+oidc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oidc/apps.py,sha256=vI8GeZx8a6zs1SX2_lx73a2oiDJRGVsYF3GNdEwqkjs,222
+oidc/constants.py,sha256=YaDcZgaqyz-PRZwVyqOSI_A0qYHijU2sSI-aPN9OvM4,1215
+oidc/provider.py,sha256=9Rk7tMUsF_XILRW3aW0FIsBQahNGlcPikFE3KkcZX-s,4544
+oidc/views.py,sha256=cOS8SlqoGV--WYfVvtnpRD-tPIw7zukJiMZfMduQYwY,2674
+kkauth_oidc-0.0.5.dist-info/LICENSE,sha256=SMCNJXEW5cIpaWgC_DwSy8QkWqmlWGYcLwRYm7A0Pkc,10848
+kkauth_oidc-0.0.5.dist-info/METADATA,sha256=HcUT81-UcSz7ATZyu5jFyNnzZ04b_EpWaw_tJ6nc--k,652
+kkauth_oidc-0.0.5.dist-info/WHEEL,sha256=pxeNX5JdtCe58PUSYP9upmc7jdRPgvT0Gm9kb1SHlVw,109
+kkauth_oidc-0.0.5.dist-info/entry_points.txt,sha256=tWDjkuNyiP5tYq9IJw3-fMLnhfJDieJNvjiY0X1jRBk,38
+kkauth_oidc-0.0.5.dist-info/top_level.txt,sha256=HicvOTwxQwzNKdTfkBXQKhmpxx-we5tL_7yTHcCqYvo,5
+kkauth_oidc-0.0.5.dist-info/RECORD,,
