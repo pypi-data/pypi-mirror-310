@@ -1,0 +1,18 @@
+# Essential files
+include README.md
+include LICENSE
+
+# Recursively include YAML files
+recursive-include exposor/intels *.yaml
+recursive-include exposor/intels *.json
+recursive-include exposor/data *
+
+exclude .env
+exclude .env.*
+exclude tests/*
+exclude examples/*
+exclude build/*
+exclude dist/*
+exclude *.egg-info/*
+exclude __pycache__/*
+exclude .DS_Store
