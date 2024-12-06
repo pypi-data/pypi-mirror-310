@@ -1,0 +1,1 @@
+from .cacherator import json_cache
