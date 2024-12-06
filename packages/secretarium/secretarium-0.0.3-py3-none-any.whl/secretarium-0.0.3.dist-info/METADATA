@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: secretarium
+Version: 0.0.3
+Summary: This package name is reserved by Secretarium Ltd
+Author-email: python@secretarium.org
+Maintainer-email: Florian Guitton <florian@secretarium.org>
+License: MIT
+Project-URL: Homepage, https://secretarium.com/python
+Keywords: Secretarium,Connector,Honest Computing
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# About Secretarium's Python package
+
+This is not a usable Python package, but the name is reserved by Secretarium Ltd.
+
+Visit secretarium.com/python for information about tools and products released by Secretarium for Python developers.
+
+You can find other packages published by Secretarium at [pypi.org/user/secretarium](pypi.org/user/secretarium)
+
+See [www.secretarium.com/trademarks](www.secretarium.com/trademarks) for full details on Secretarium’s trademarks and how you may use them correctly.
