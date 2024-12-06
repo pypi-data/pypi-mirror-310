@@ -1,0 +1,17 @@
+huscy/recruitment/__init__.py,sha256=x0jTVQcmCeAeyvWTVsW-heZiev7QJbfqZ8W7Fx19FnE,168
+huscy/recruitment/apps.py,sha256=bFnHI8ZCI33l65XxIF6jv7GzqjpdJfvvzUz0VpKJHxw,189
+huscy/recruitment/models.py,sha256=IRouUMksE76YCFmcdv1fWo0qjafcokzpC60fp8ZP6IU,1862
+huscy/recruitment/serializer.py,sha256=qbL15Sp9NmOxPsC6z8XfgL00OvDEbwMmqf_tHrYYXPU,2773
+huscy/recruitment/urls.py,sha256=2Xi_LINOwckR-QSs-8sfISYPNN3VnL1J9Mgikxf07So,928
+huscy/recruitment/views.py,sha256=GboAraR3tRO7YLjK9bUD2Z7VxM1BcteMEQGVn0LGrA0,4259
+huscy/recruitment/migrations/0001_initial.py,sha256=sZt0ibKRUzQFunnDEQ9EqqlvkbkJtNmij6ty2CCcbIY,2764
+huscy/recruitment/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huscy/recruitment/services/__init__.py,sha256=rSrio0FDHYS3EaQFsqEUMhs4-mYsrmncK0Y3SmxEdj4,804
+huscy/recruitment/services/attribute_filtersets.py,sha256=j--2AtFiozoTuGj7JUpDcevQUZg3onnBpbAv7kmSSUg,3399
+huscy/recruitment/services/participation_requests.py,sha256=s3OdQjII5WcGbBGU2qFPZT4EH-6PJRsngWOmaYUO1PA,3089
+huscy/recruitment/services/subject_group.py,sha256=yx3RSI9cygDbF5clWlEpk6b8M-tjxkvLnauH8YOpbv0,1467
+huscy.recruitment-0.10.1a35.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+huscy.recruitment-0.10.1a35.dist-info/METADATA,sha256=pCztIfH5IWcV9X7jxYp0yP0WewkFRvZw1EVo5BeT9qY,1312
+huscy.recruitment-0.10.1a35.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+huscy.recruitment-0.10.1a35.dist-info/top_level.txt,sha256=yP1xCBOAxbmweO3NrSrdrgzzsSyrcuj2pA4XvOekNAM,6
+huscy.recruitment-0.10.1a35.dist-info/RECORD,,
