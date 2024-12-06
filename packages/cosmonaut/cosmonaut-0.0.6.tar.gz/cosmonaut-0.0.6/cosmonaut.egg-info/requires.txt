@@ -1,0 +1,9 @@
+httpx
+pandas
+pydantic
+python-dotenv
+pyyaml
+questionary
+
+[dev]
+pytest
