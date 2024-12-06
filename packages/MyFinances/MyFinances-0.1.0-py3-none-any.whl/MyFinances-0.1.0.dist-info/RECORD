@@ -1,0 +1,16 @@
+myfinances/__init__.py,sha256=FkIQ8S32D7NFb62J1nlTHlYNRLIjP6FS8eA5gP7ZB_A,91
+myfinances/base_service.py,sha256=gWzrrmYQz_lQQ2aO9F9ZUF_wiQbaFe5I15A5ysPT_0w,157
+myfinances/client.py,sha256=wVi3rYuG0tU5hHpXyz7yBwonYIBPcxVjLnAAnxWRcRo,1280
+myfinances/models.py,sha256=U0dhf2DK5BYtQ7HWo5bE_b9NDNCNJameqBqIAuhFZks,1147
+myfinances/clients/__init__.py,sha256=ZTC9cyRQDkHFni1OjDG5mLXBeQOQ1JBB1rTjB-nsKg4,208
+myfinances/clients/models.py,sha256=3ou5cumI_3lhr4BWSZnBCD9rlXQtwIcy5ovXSDGJh_E,536
+myfinances/clients/service.py,sha256=CGl4SRP8K6oZUjpXvdgNRhvuhrAAAMtPBk1Lv1ac9sY,1675
+myfinances/finance/__init__.py,sha256=rdBwtemfNXlDeD6Rz0gnZHQeN4s6A9ujhBw5OZTycuU,167
+myfinances/finance/invoices/__init__.py,sha256=ZTC9cyRQDkHFni1OjDG5mLXBeQOQ1JBB1rTjB-nsKg4,208
+myfinances/finance/invoices/models.py,sha256=umkZUpUvVEkY9-qbH199kTkf0ethpGWsFPY6JmBy-B8,478
+myfinances/finance/invoices/service.py,sha256=RYoMAGc5MtCqv08n2yavCx9F4EBvr0HtArlKL_M-2XE,867
+MyFinances-0.1.0.dist-info/LICENSE,sha256=mP4X-O_WCPT-zfU2Mk0o6w7fnO4I47LS2g6ozSIKcfU,1063
+MyFinances-0.1.0.dist-info/METADATA,sha256=6W3we7mwOsXTBmdlhT3dkOEEB_0Fz33JYmDFpvN9NbY,2155
+MyFinances-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+MyFinances-0.1.0.dist-info/top_level.txt,sha256=W9EMf3JEb-_6bsLAR9yPUPouF5_M_6xVcDRisXKOM0U,11
+MyFinances-0.1.0.dist-info/RECORD,,
