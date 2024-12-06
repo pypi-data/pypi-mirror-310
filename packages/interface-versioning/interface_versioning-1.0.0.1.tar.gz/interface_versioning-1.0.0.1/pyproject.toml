@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "interface-versioning"
+description = "Interface Versioning"
+version = "1.0.0.1"
+authors = [
+    {name = "Charles C. D. Tolley", email = "charlescdtolley@protonmail.com"},
+]
+dependencies = []
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["version", "compatibility", "SemVer", "verification"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development",
+]
+
+[project.urls]
+Documentation = "https://python-versioning.readthedocs.io"
+Source = "https://github.com/charlestolley/python-versioning"
+
+[tool.flit.module]
+name = "versioning"
