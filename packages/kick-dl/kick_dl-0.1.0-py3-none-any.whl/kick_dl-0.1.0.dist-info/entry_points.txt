@@ -1,0 +1,3 @@
+[console_scripts]
+kick-dl=kick_dl:kick_dl.main
+
