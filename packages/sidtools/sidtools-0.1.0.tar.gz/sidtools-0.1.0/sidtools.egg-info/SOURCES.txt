@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+sidtools/__init__.py
+sidtools/s_make.py
+sidtools.egg-info/PKG-INFO
+sidtools.egg-info/SOURCES.txt
+sidtools.egg-info/dependency_links.txt
+sidtools.egg-info/entry_points.txt
+sidtools.egg-info/requires.txt
+sidtools.egg-info/top_level.txt
