@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyinterception-hotkeys"
+version = "0.1.8"
+description = "A hotkeys and keyboard input library using PyInterception"
+requires-python = ">=3.6"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Yoonu", email = "yoonu@yoonu.io" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "interception-python",
+    "pywin32",
+]
+
+[project.scripts]
+pyinterception-hotkeys = "pyinterception_hotkeys:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyInterception_hotkeys/__init__.py
+src/pyInterception_hotkeys/_hotkey.py
+src/pyInterception_hotkeys/_keyStateTracker.py
+src/pyInterception_hotkeys/_keyboard.py
+src/pyinterception_hotkeys.egg-info/PKG-INFO
+src/pyinterception_hotkeys.egg-info/SOURCES.txt
+src/pyinterception_hotkeys.egg-info/dependency_links.txt
+src/pyinterception_hotkeys.egg-info/entry_points.txt
+src/pyinterception_hotkeys.egg-info/requires.txt
+src/pyinterception_hotkeys.egg-info/top_level.txt
