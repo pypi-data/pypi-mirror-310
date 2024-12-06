@@ -1,0 +1,2 @@
+include ok/__init__.py
+recursive-include ok *.pyd
