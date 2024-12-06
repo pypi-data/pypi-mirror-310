@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fast-sufsd
+Version: 0.1
+Summary: When parsing different sites, you almost always have to copy+paste some functions; this module was created to make such code easier. It includes the most commonly used functions when parsing. In the future it will be very actively replenished.
+Home-page: https://github.com/Triram-2/sufsd
+Author: Twir
+Author-email: bobyyy239@gmail.com
+Keywords: utils selenium_driverless
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: selenium-driverless >=1.9.4
+
+Fast version sufsd
