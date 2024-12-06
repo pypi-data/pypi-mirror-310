@@ -1,0 +1,9 @@
+requests
+aiohttp
+aenum
+attr
+pycryptodome
+datetime
+munch
+websocket-client
+rel
