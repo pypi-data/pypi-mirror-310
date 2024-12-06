@@ -1,0 +1,2 @@
+[console_scripts]
+scrape_md = scrape.scrape:main
