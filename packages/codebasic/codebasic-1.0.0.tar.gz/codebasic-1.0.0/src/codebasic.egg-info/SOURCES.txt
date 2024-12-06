@@ -1,0 +1,11 @@
+pyproject.toml
+src/codebasic/__init__.py
+src/codebasic/__main__.py
+src/codebasic/cli.py
+src/codebasic/config.py
+src/codebasic.egg-info/PKG-INFO
+src/codebasic.egg-info/SOURCES.txt
+src/codebasic.egg-info/dependency_links.txt
+src/codebasic.egg-info/entry_points.txt
+src/codebasic.egg-info/requires.txt
+src/codebasic.egg-info/top_level.txt

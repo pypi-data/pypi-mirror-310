@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codebasic"
+version = "1.0.0"
+description = "A tool for managing deep learning environments"
+authors = [
+    {name = "codebasic", email = "dev@codebasic.co"}
+]
+license = {text = "BSD-3-Clause"}
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "packaging",
+]
+
+[project.urls]
+Homepage = "https://github.com/codebasic/codebasic"
+Documentation = "https://github.com/codebasic/codebasic#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+codebasic = "codebasic.cli:main"

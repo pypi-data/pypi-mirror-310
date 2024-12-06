@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: codebasic
+Version: 1.0.0
+Summary: A tool for managing deep learning environments
+Author-email: codebasic <dev@codebasic.co>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/codebasic/codebasic
+Project-URL: Documentation, https://github.com/codebasic/codebasic#readme
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: packaging
