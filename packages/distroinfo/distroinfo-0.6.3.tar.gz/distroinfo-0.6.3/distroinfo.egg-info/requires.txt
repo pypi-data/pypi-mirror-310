@@ -1,0 +1,8 @@
+pbr>=6.0.0
+PyYAML
+requests
+six
+
+[tests]
+pytest
+pycodestyle

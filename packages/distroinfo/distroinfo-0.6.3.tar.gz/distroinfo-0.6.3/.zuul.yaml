@@ -1,0 +1,67 @@
+---
+- job:
+    name: distroinfo-base
+    parent: tox
+    abstract: true
+    pre-run: playbooks/base.yaml
+    nodeset:
+      nodes:
+        - name: cloud-centos-9-stream
+          label: cloud-centos-9-stream
+
+- job:
+    name: distroinfo-py39
+    parent: distroinfo-base
+    description: distroinfo tests on py3.9
+    vars:
+      tox_envlist: py39
+
+- job:
+    name: distroinfo-py312
+    parent: distroinfo-base
+    description: distroinfo tests on py3.12
+    nodeset: fedora-latest-pod
+    vars:
+      tox_envlist: py312
+
+- job:
+    name: distroinfo-codestyle
+    parent: distroinfo-base
+    description: distroinfo code style checks
+    nodeset: fedora-latest-pod
+    vars:
+      tox_envlist: pycodestyle
+
+- job:
+    name: distroinfo-dlrn-master
+    parent: dlrn-base
+    description: distroinfo integration tests with DLRN master
+    run: playbooks/dlrn-master.yaml
+    nodeset:
+      nodes:
+        - name: cloud-centos-9-stream
+          label: cloud-centos-9-stream
+
+    required-projects:
+      - DLRN
+
+- project:
+    name: distroinfo
+    check:
+      jobs:
+        - distroinfo-py39
+        - distroinfo-py312
+        - distroinfo-codestyle
+        - distroinfo-dlrn-master
+    gate:
+      jobs:
+        - distroinfo-py39
+        - distroinfo-py312
+        - distroinfo-codestyle
+        - distroinfo-dlrn-master
+    release:
+      jobs:
+        - upload-pypi:
+            vars:
+              release_python: python3
+              twine_python: python3
