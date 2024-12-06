@@ -1,0 +1,7 @@
+README.md
+setup.py
+FastAuthX.egg-info/PKG-INFO
+FastAuthX.egg-info/SOURCES.txt
+FastAuthX.egg-info/dependency_links.txt
+FastAuthX.egg-info/requires.txt
+FastAuthX.egg-info/top_level.txt
