@@ -1,0 +1,9 @@
+xchainpy2_avalanche/__init__.py,sha256=ie-9xOSZquAPd7eOF5b346_iH_ZMfxYWAwfi-e5Qyeg,48
+xchainpy2_avalanche/avax_client.py,sha256=ritxRmOHKJvyL7i7TbpGPxsbqaT-Qb78njm59uQY4yI,903
+xchainpy2_avalanche/const.py,sha256=375IpQXTIqc50IzAfO-gPv5ubmYOrDkXrKEw5YnEKTA,1916
+xchainpy2_avalanche/data/avax_mainnet_latest.json,sha256=LmL991E17_pZcGIbXZKnkfuBXcSRufBrh1dfjns_50M,28875
+xchainpy2_avalanche-0.0.5.dist-info/LICENSE,sha256=48Sg1_m5WW7RgE4MEEUyBMr71g9YqB5boVDkTYTPZMg,2124
+xchainpy2_avalanche-0.0.5.dist-info/METADATA,sha256=rakiSDz3fG0DnCoekGqZanvZYbOfNCg6D79jF6ow0VM,1302
+xchainpy2_avalanche-0.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+xchainpy2_avalanche-0.0.5.dist-info/top_level.txt,sha256=qZgO3ZiPCxO6n6XvPJd06a_EvQLIYD5-hgRc_ncJh-w,20
+xchainpy2_avalanche-0.0.5.dist-info/RECORD,,
