@@ -1,0 +1,10 @@
+adam_atan2_pytorch/__init__.py,sha256=IB3-dB5Jij2TyKMgEgvargNNZm9t7See4ZpHI4-2zK0,113
+adam_atan2_pytorch/adam_atan2.py,sha256=EvX41XyLNzCfImMH8ALgEpNOvt-aPXxx4eDmbMELMZc,3448
+adam_atan2_pytorch/adam_atan2_with_wasserstein_reg.py,sha256=0BtvQ8Ooy5FQNxjItF5QqViVnwI7AbG1GQ3jSbqzX34,4136
+adam_atan2_pytorch/adopt.py,sha256=uTI5wWVp7LBZNL46IcfsfM1b0KhX8eOOe4bBTbKtl1o,2754
+adam_atan2_pytorch/adopt_atan2.py,sha256=0oy8TivwysHxQBMuAv0W4LHpfy-PWSaIRgCLmIit5qo,2795
+adam_atan2_pytorch/foreach.py,sha256=YkywkGjLQzaPN_2swTe5EmMImPqxQEY-PqFwlUxC2C8,4746
+adam_atan2_pytorch-0.1.6.dist-info/METADATA,sha256=5ceIdPie-W3UV70HR2sKRHT-JaEAM5h3_iy1uhYEJxo,4511
+adam_atan2_pytorch-0.1.6.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+adam_atan2_pytorch-0.1.6.dist-info/licenses/LICENSE,sha256=E7RGS7kpJIStk5za_-4DVhWEAamf65EU0CNML25mq4c,1066
+adam_atan2_pytorch-0.1.6.dist-info/RECORD,,
