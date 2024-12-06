@@ -1,0 +1,5 @@
+art==6.3
+colorama==0.4.6
+loguru==0.7.2
+setuptools==75.6.0
+win32-setctime==1.1.0

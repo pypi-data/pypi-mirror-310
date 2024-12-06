@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: UniBot-plugins-scaffold
+Version: 0.0.2
+Summary: UniBot的插件脚手架
+Home-page: https://github.com/PYmili/UniBot-plugins-scaffold
+Author: PYmili
+Author-email: mc2005wj@163.com
+Keywords: UniBot plugins
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: art==6.3
+Requires-Dist: colorama==0.4.6
+Requires-Dist: loguru==0.7.2
+Requires-Dist: setuptools==75.6.0
+Requires-Dist: win32-setctime==1.1.0
+
+# UniBot plugins scaffold
+
+```
+ _   _           _   ____            _             ____    ____  
+| | | |  _ __   (_) | __ )    ___   | |_          |  _ \  / ___| 
+| | | | | '_ \  | | |  _ \   / _ \  | __|  _____  | |_) | \___ \ 
+| |_| | | | | | | | | |_) | | (_) | | |_  |_____| |  __/   ___) |
+ \___/  |_| |_| |_| |____/   \___/   \__|         |_|     |____/
+```
+
+***UniBot*** QQ机器人的插件脚手架
+
+# 命令
+
+```
+unibot-ps
+```
