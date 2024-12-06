@@ -1,0 +1,16 @@
+aegis_framework/__init__.py,sha256=_xx94PHqj7a9pwrYjzmIwCo9iaetq4ndp7lZbdrunZw,358
+aegis_framework/__pycache__/__init__.cpython-312.pyc,sha256=ibywcuBm23yz_cHk3g_h8ecDK1ZMITtWnfiTerepsqg,529
+aegis_framework/public/__init__.py,sha256=FuZ4kISQdjQBi-KFT8NAMI-QOguVqCpldGYoZ-aVq2c,251
+aegis_framework/public/design_agent.py,sha256=R3F9e5dB1E_zakEPhSJa5iZ-MHyewqXxddlRoeuHrAM,1604
+aegis_framework/public/master_agent.py,sha256=mnmYwsxo42eu6CwdyqfIHc3tgpsz6Uk31w1p4MnwxNU,1647
+aegis_framework/public/ollama_model.py,sha256=Nihmgkb5j7GLBgn3KHShjQPQ1mOkKDfvEk2wBz00d8I,980
+aegis_framework/public/__pycache__/__init__.cpython-312.pyc,sha256=Xl87g96FddKhi0J-DgknBVOMhl5ES0Sk7DP7SyBsob0,423
+aegis_framework/public/__pycache__/design_agent.cpython-312.pyc,sha256=-qKKyizGKayf5mNEojV6RxRnyko0tSrkmYtEkQpTOjc,2663
+aegis_framework/public/__pycache__/master_agent.cpython-312.pyc,sha256=0U80Nu-W-uyAhWXA3LgdjO_0hCrClZ0HjmZFSBNj62o,2724
+aegis_framework/public/__pycache__/ollama_model.cpython-312.pyc,sha256=EpEZmnQ4RFMnL8543YfSJuuC7yk9RgHN_lS3Af16Mlc,1614
+aegis_framework/utils/helper_functions.py,sha256=xPz0nNgnmGKvN61-7eXgdqLrcSdGOQ-zoITh5TZjSPQ,217
+aegis_framework-0.1.15.dist-info/LICENSE,sha256=24CFutDZl-0MUxnNIE686qscepqOhdPMG5QrWYsvSYg,1072
+aegis_framework-0.1.15.dist-info/METADATA,sha256=zGH9Z-eTrRhXAy0srk6vHaih3Ltp4045ooWX57u4AFc,5591
+aegis_framework-0.1.15.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aegis_framework-0.1.15.dist-info/top_level.txt,sha256=8D6eiCKTqVZK4tKQWBYl_olqED26U-tpL-IbXsORu8U,16
+aegis_framework-0.1.15.dist-info/RECORD,,
