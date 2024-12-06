@@ -1,0 +1,8 @@
+agiverse/__init__.py,sha256=cdL-BdW85KY40y_1905rL3Q7nutOVe6OQ_mnqBUHqp0,103
+agiverse/smart_building/__init__.py,sha256=BAGz8icdEJDK7EwH-mO0Kd0mTVi9bdSCTwKT2zow8cg,123
+agiverse/smart_building/context.py,sha256=9mH-gSSSR00UydB6ile5FkjmRkhelqS2w40cfSiUplA,818
+agiverse/smart_building/smart_building.py,sha256=pJCzmeZopVBIT5a7KVatZXmy5veSaci8Z4xQ4wdE7xw,5509
+agiverse-0.0.1.dist-info/METADATA,sha256=YS566dH6N6pkVx9nHFtGdHlTIhh653yqMo0QpAKKU24,2333
+agiverse-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+agiverse-0.0.1.dist-info/licenses/LICENSE,sha256=VPXAV2Gq61IfQNOW9vg7FyZozizucnmIpzdizLHbu0U,1069
+agiverse-0.0.1.dist-info/RECORD,,
