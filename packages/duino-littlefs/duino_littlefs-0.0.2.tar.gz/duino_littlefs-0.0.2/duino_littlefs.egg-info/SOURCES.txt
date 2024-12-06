@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+duino_littlefs/__init__.py
+duino_littlefs/duino_littlefs.py
+duino_littlefs/version.py
+duino_littlefs.egg-info/PKG-INFO
+duino_littlefs.egg-info/SOURCES.txt
+duino_littlefs.egg-info/dependency_links.txt
+duino_littlefs.egg-info/entry_points.txt
+duino_littlefs.egg-info/requires.txt
+duino_littlefs.egg-info/top_level.txt
