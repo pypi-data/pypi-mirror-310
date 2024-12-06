@@ -1,0 +1,9 @@
+corner/__init__.py,sha256=G0xuMRSKRf10EjmSa6hcHb8ppCrETM5k-PRFw52Y1GA,263
+corner/arviz_corner.py,sha256=uiixcX5miVeEoYXuDOkBtHKiAH_UKeZMvPY6ipZY9G0,5091
+corner/core.py,sha256=uLBK91yJj8rAmG2aib3_DHhXHWkzJN4an5Qaeo7XPY0,30052
+corner/corner.py,sha256=4LdNN4LDpiVSRQi4M0x4G79ZsX5xXQp-alGRl1Nx6_Y,10202
+corner/version.py,sha256=NfGbUs-kKnSVEmVMeJ44ZXXzaPGs--vyj10l6gDNZIc,414
+corner-2.2.3rc1.dist-info/METADATA,sha256=JqC1QjuALSKKwGga76My2KipJWJFY6cc-9Qp69V7hfc,2179
+corner-2.2.3rc1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+corner-2.2.3rc1.dist-info/licenses/LICENSE,sha256=QkERnhDB8KilUsapOuymEuxV3LsoeX6BcAeoZsHIJyE,1311
+corner-2.2.3rc1.dist-info/RECORD,,
