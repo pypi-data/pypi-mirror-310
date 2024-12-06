@@ -1,0 +1,7 @@
+setup.py
+blobfish/__init__.py
+blobfish/main.py
+blobfish.egg-info/PKG-INFO
+blobfish.egg-info/SOURCES.txt
+blobfish.egg-info/dependency_links.txt
+blobfish.egg-info/top_level.txt
