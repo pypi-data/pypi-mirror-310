@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dsavinified
+Version: 0.1.0
+Summary: All programs related to DSA will be available here
+Home-page: https://github.com/khadye249/dsa
+Author: vinayak khadye
+Author-email: vinayak249@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE

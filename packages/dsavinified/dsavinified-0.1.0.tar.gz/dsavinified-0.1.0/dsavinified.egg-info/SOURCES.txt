@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dsavinified/__init__.py
+dsavinified/main.py
+dsavinified.egg-info/PKG-INFO
+dsavinified.egg-info/SOURCES.txt
+dsavinified.egg-info/dependency_links.txt
+dsavinified.egg-info/top_level.txt
