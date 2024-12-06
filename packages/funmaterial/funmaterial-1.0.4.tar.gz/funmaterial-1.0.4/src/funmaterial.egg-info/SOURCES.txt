@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/funmaterial.egg-info/PKG-INFO
+src/funmaterial.egg-info/SOURCES.txt
+src/funmaterial.egg-info/dependency_links.txt
+src/funmaterial.egg-info/requires.txt
+src/funmaterial.egg-info/top_level.txt
+src/funmatrial/__init__.py
+src/funmatrial/audio/__init__.py
+src/funmatrial/picture/__init__.py
+src/funmatrial/video/__init__.py
+src/funmatrial/video/download.py
+src/funmatrial/video/schema.py
