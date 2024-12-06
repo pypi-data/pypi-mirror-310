@@ -1,0 +1,14 @@
+sankhyaakaara/__init__.py,sha256=DHoh76xkp5d7w1rz8ZBmXDbh16PMI7RPv7LtRU-vEIs,101
+sankhyaakaara/components.py,sha256=rF30nXkWGRfSE2JhFXuuShMQ-JTlMP44CJVNNMtrfkM,1238
+sankhyaakaara/converter.py,sha256=S_q2m1ooDfPXr3nl9435JEcQHlIQIbP3Z7GvzRBW-CU,5467
+sankhyaakaara/languages.py,sha256=X6pE69NWaeab3WiVqUSfWNq4U3HHNDQyMSFmqEU4iyc,2457
+sankhyaakaara/numerals.py,sha256=3UEk1NCKgciQDKA82kbcp963kifdX8_QFyr-_m7UzPM,4978
+sankhyaakaara/sandhi.py,sha256=SwflndyeQjxRI1dBKu2bjwVJkAquc4a8kmQiuOZanvs,1849
+sankhyaakaara/data/large.csv,sha256=IRu4ZQX5adicqrjigADDVn8ZWPqefnWIZ54acFpx-Jw,286
+sankhyaakaara/data/sandhi.csv,sha256=WuufwnTzbZQoQUa3H5Td8YGK57XtguSKKNsFZ8PSuFs,438
+sankhyaakaara/data/two_digit.csv,sha256=OYq98y1ybGG0PFchKidaO5M3oylc45evp0--Ng5Zl3c,3054
+sankhyaakaara-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sankhyaakaara-0.1.1.dist-info/METADATA,sha256=n-5pTmH6k9u9mp-3NvTi1ky87euLT7-2ozhA-CgUNxA,1465
+sankhyaakaara-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sankhyaakaara-0.1.1.dist-info/top_level.txt,sha256=rlHEdgPpGdcEQeM2A4Wrrx8ojOaFaykGarou9qf0aTU,14
+sankhyaakaara-0.1.1.dist-info/RECORD,,
