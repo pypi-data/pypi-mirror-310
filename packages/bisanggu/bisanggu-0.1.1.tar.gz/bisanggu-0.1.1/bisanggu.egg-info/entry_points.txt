@@ -1,0 +1,2 @@
+[console_scripts]
+bisanggu = bisanggu.analyzer:crawl_website

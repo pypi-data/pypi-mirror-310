@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bisanggu
+Version: 0.1.1
+Summary: Phishing detection library
+Home-page: https://github.com/ZINH00/bisanggu
+Author: bisanggu
+Author-email: HitAnt.Exit@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: beautifulsoup4
+Requires-Dist: dnspython
+Requires-Dist: fastapi
+Requires-Dist: joblib
+Requires-Dist: pandas
+Requires-Dist: pydantic
+Requires-Dist: pymongo
+Requires-Dist: python_whois
+Requires-Dist: Requests
+Requires-Dist: selenium
+Requires-Dist: tldextract
+Requires-Dist: webdriver_manager
+Requires-Dist: xgboost
