@@ -1,0 +1,21 @@
+config:
+  # Rust source folder
+  rustSrcFolder: ${sourceDir}
+
+  # Rust source files
+  rustSrcFiles:
+    __resolver__: nmk_rust.resolvers.RustSourcesResolver
+    params:
+      folder: ${rustSrcFolder}
+
+  # Rust (cargo) target folder (for all stuff built by cargo)
+  rustTargetFolder: ${outputDir}/rust
+
+  # Rust (cargo) config folder
+  rustConfigFolder: ${PROJECTDIR}/.cargo
+
+  # Rust (cargo) config file
+  rustConfigFile: ${rustConfigFolder}/config.toml
+
+  # Rust (cargo) package manifest file
+  rustManifestFile: ${PROJECTDIR}/Cargo.toml

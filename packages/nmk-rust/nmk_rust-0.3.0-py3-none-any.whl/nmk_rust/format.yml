@@ -1,0 +1,57 @@
+config:
+  # Format config file
+  rustFormatFile: ${PROJECTDIR}/.rustfmt.toml
+
+  # Format config file fragments
+  rustFormatFileFragments:
+    - ${BASEDIR}/templates/rustfmt.toml.jinja
+
+  # Format config file items contributions
+  rustFormatFileItems: {}
+
+  # Max line length
+  rustLineLength: 160
+
+  # Format stamp file
+  rustFormatStampFile: ${outputDir}/.rustfmt
+
+  # Extra args for cargo fmt command
+  rustFormatExtraArgs: ["-v"]
+
+tasks:
+  # Format file generation
+  rust.fmtcfg:
+    description: Generate rustfmt config file
+    emoji: ":crab:.:briefcase:"
+    input:
+      - ${rustFormatFileFragments}
+    output:
+      - ${rustFormatFile}
+    appendToDeps: setup
+    if: ${rustSrcFiles}   # Only if rust source files are found
+    builder: nmk_base.common.TomlFileBuilder
+    params:
+      fragment_files: ${rustFormatFileFragments}
+      items: ${rustFormatFileItems}
+      plugin_name: nmk-rust
+
+  # Code format
+  rust.format:
+    description: Format rust code
+    emoji: ":crab:.:lipstick:"
+    input:
+      - ${rustFormatFile}
+      - ${rustSrcFiles}
+    output:
+      - ${rustFormatStampFile}
+    appendToDeps: build
+    deps:
+      - out
+      - rust.fmtcfg
+    if: ${rustSrcFiles}   # Only if rust source files are found
+    builder: nmk_base.common.ProcessBuilder
+    params:
+      cmd:
+        - cargo
+        - fmt
+        - ${rustFormatExtraArgs}
