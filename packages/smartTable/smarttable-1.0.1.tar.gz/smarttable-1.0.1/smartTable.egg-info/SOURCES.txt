@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+smartTable/__init__.py
+smartTable/codeTable.py
+smartTable.egg-info/PKG-INFO
+smartTable.egg-info/SOURCES.txt
+smartTable.egg-info/dependency_links.txt
+smartTable.egg-info/requires.txt
+smartTable.egg-info/top_level.txt
+tests/test_core.py
