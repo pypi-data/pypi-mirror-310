@@ -1,0 +1,7 @@
+setup.py
+melbageorge/__init__.py
+melbageorge/pythonmath.py
+melbageorge.egg-info/PKG-INFO
+melbageorge.egg-info/SOURCES.txt
+melbageorge.egg-info/dependency_links.txt
+melbageorge.egg-info/top_level.txt
