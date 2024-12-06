@@ -1,0 +1,35 @@
+
+#### `LICENSE`
+Use an MIT License or another appropriate one.
+
+---
+
+### **4. Build and Upload the Package**
+
+1. **Install build tools:**
+    ```bash
+    pip install setuptools wheel twine
+    ```
+
+2. **Build the package:**
+    ```bash
+    python setup.py sdist bdist_wheel
+    ```
+
+3. **Upload to PyPI:**
+    ```bash
+    twine upload dist/*
+    ```
+
+4. **Verify installation:**
+    ```bash
+    pip install password-generator
+    ```
+
+---
+
+### **5. Share and Maintain the Package**
+- Share the GitHub repository link for users to contribute.
+- Maintain the package by adding more features, fixing bugs, and responding to issues.
+
+Let me know if you need help setting up or publishing the package! 🚀
