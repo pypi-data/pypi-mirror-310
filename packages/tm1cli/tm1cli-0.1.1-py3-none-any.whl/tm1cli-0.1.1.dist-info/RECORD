@@ -1,0 +1,9 @@
+tm1cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tm1cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tm1cli/commands/process.py,sha256=PJ8Q0CIe3Co43Yf2q7QeiPHKp2xt_frAI1ome-IaKEU,2075
+tm1cli/main.py,sha256=WHpVuZ4plmaP1krrFJ7K_te2v9urucTv8eNlIl5rrR4,2051
+tm1cli/utils.py,sha256=lmWo-G8acZdZZ4GfQh5CfQEmBVPttbET03EX5hgcbX8,611
+tm1cli-0.1.1.dist-info/entry_points.txt,sha256=M4RAXamau5bc_XwDsamIkMQRrGopTXMPMrDzZy-9ynQ,42
+tm1cli-0.1.1.dist-info/METADATA,sha256=Wr6gVOZoJKP4vKTvSeEsNqpxd9-yH_LE1pFI07GB9y4,1885
+tm1cli-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tm1cli-0.1.1.dist-info/RECORD,,
