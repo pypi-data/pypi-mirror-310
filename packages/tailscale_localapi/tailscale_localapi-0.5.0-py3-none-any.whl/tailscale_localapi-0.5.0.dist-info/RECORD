@@ -1,0 +1,13 @@
+tailscale_localapi/__init__.py,sha256=n369J6S5kpRsGGT-nxAeDxEJwMebOEDcwjBjgLTH_SE,114
+tailscale_localapi/_util/error.py,sha256=c0Xm4A8bRnQRPETS8h3fYtqndvkOvG8QOopezBNFRxU,892
+tailscale_localapi/_util/sock.py,sha256=nZWSYPBaUR104Ow_m_HK2mJ6R8iuxPGPfCNX4U0ZJ7Q,991
+tailscale_localapi/api.py,sha256=g_m5xSk0e1ghJw1QFVUN4rtq3b8so-fK3ItrLM24LwI,654
+tailscale_localapi/v0/__init__.py,sha256=wMYgPhEP9m_Pbkb-2WKLuP4i1FdLo1f9mi-TUdcBJwQ,34
+tailscale_localapi/v0/api.py,sha256=5eOsV0E8Ajhldf-EHsxULY1dflxCi7iPRsxe-xCycy0,3843
+tailscale_localapi/v0/config.py,sha256=Mlok4Xqbht7gD1BZvWuZ9Y1ep5kTgR_lgyxzW1OGosE,1906
+tailscale_localapi/v0/peers.py,sha256=c4-KeDxQF3BNvVKqdp09M7YpF6ZWmjSkeH2Ru5jt7Hg,2419
+tailscale_localapi-0.5.0.dist-info/LICENSE,sha256=6JcaK0C1uv2jLyE8iOCfvDRrq3kv0o65Eid4dlrpJOY,1073
+tailscale_localapi-0.5.0.dist-info/METADATA,sha256=GH7iRwIPAcBTbIMuT9Bd8G2QurFgVzdOfZlZScZuqGY,923
+tailscale_localapi-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tailscale_localapi-0.5.0.dist-info/entry_points.txt,sha256=0NdMh5hKVlYO9DCklIckHLWwjrUReN8sGaA_Gt8wtZM,54
+tailscale_localapi-0.5.0.dist-info/RECORD,,
