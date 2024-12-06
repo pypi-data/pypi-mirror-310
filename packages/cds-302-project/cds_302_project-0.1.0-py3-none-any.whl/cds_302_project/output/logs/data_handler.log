@@ -1,0 +1,1263 @@
+2024-11-24 15:21:59,475 INFO:Reading data from sheet: ingredient
+2024-11-24 15:23:00,878 INFO:Reading data from sheet: ingredient
+2024-11-24 15:24:59,697 INFO:Reading data from sheet: ingredient
+2024-11-24 15:24:59,909 INFO:Reading data from sheet: dish
+2024-11-24 15:24:59,925 INFO:Reading data from sheet: dish_ingredient
+2024-11-24 15:24:59,964 INFO:Reading data from sheet: dietary_restriction
+2024-11-24 15:24:59,973 INFO:Reading data from sheet: ingredient_dietary_restriction
+2024-11-24 15:24:59,983 INFO:Reading data from sheet: meal_type
+2024-11-24 15:24:59,992 INFO:Reading data from sheet: dish_meal_type
+2024-11-24 15:25:00,130 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 57 as it already exists.
+2024-11-24 15:25:00,130 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 68 as it already exists.
+2024-11-24 15:25:00,195 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 31 as it already exists.
+2024-11-24 15:25:00,196 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 68 as it already exists.
+2024-11-24 15:25:00,260 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:07,986 INFO:Reading data from sheet: ingredient
+2024-11-24 15:26:08,136 INFO:Reading data from sheet: dish
+2024-11-24 15:26:08,150 INFO:Reading data from sheet: dish_ingredient
+2024-11-24 15:26:08,193 INFO:Reading data from sheet: dietary_restriction
+2024-11-24 15:26:08,202 INFO:Reading data from sheet: ingredient_dietary_restriction
+2024-11-24 15:26:08,212 INFO:Reading data from sheet: meal_type
+2024-11-24 15:26:08,221 INFO:Reading data from sheet: dish_meal_type
+2024-11-24 15:26:08,240 INFO:Skipping Ingredient with ID 1 as it already exists.
+2024-11-24 15:26:08,240 INFO:Skipping Ingredient with ID 2 as it already exists.
+2024-11-24 15:26:08,241 INFO:Skipping Ingredient with ID 3 as it already exists.
+2024-11-24 15:26:08,241 INFO:Skipping Ingredient with ID 4 as it already exists.
+2024-11-24 15:26:08,241 INFO:Skipping Ingredient with ID 5 as it already exists.
+2024-11-24 15:26:08,241 INFO:Skipping Ingredient with ID 6 as it already exists.
+2024-11-24 15:26:08,242 INFO:Skipping Ingredient with ID 7 as it already exists.
+2024-11-24 15:26:08,242 INFO:Skipping Ingredient with ID 8 as it already exists.
+2024-11-24 15:26:08,242 INFO:Skipping Ingredient with ID 9 as it already exists.
+2024-11-24 15:26:08,242 INFO:Skipping Ingredient with ID 10 as it already exists.
+2024-11-24 15:26:08,243 INFO:Skipping Ingredient with ID 11 as it already exists.
+2024-11-24 15:26:08,243 INFO:Skipping Ingredient with ID 12 as it already exists.
+2024-11-24 15:26:08,243 INFO:Skipping Ingredient with ID 13 as it already exists.
+2024-11-24 15:26:08,243 INFO:Skipping Ingredient with ID 14 as it already exists.
+2024-11-24 15:26:08,244 INFO:Skipping Ingredient with ID 15 as it already exists.
+2024-11-24 15:26:08,244 INFO:Skipping Ingredient with ID 16 as it already exists.
+2024-11-24 15:26:08,244 INFO:Skipping Ingredient with ID 17 as it already exists.
+2024-11-24 15:26:08,244 INFO:Skipping Ingredient with ID 18 as it already exists.
+2024-11-24 15:26:08,245 INFO:Skipping Ingredient with ID 19 as it already exists.
+2024-11-24 15:26:08,245 INFO:Skipping Ingredient with ID 20 as it already exists.
+2024-11-24 15:26:08,245 INFO:Skipping Ingredient with ID 21 as it already exists.
+2024-11-24 15:26:08,245 INFO:Skipping Ingredient with ID 22 as it already exists.
+2024-11-24 15:26:08,246 INFO:Skipping Ingredient with ID 23 as it already exists.
+2024-11-24 15:26:08,246 INFO:Skipping Ingredient with ID 24 as it already exists.
+2024-11-24 15:26:08,246 INFO:Skipping Ingredient with ID 25 as it already exists.
+2024-11-24 15:26:08,247 INFO:Skipping Ingredient with ID 26 as it already exists.
+2024-11-24 15:26:08,247 INFO:Skipping Ingredient with ID 27 as it already exists.
+2024-11-24 15:26:08,247 INFO:Skipping Ingredient with ID 28 as it already exists.
+2024-11-24 15:26:08,248 INFO:Skipping Ingredient with ID 29 as it already exists.
+2024-11-24 15:26:08,248 INFO:Skipping Ingredient with ID 30 as it already exists.
+2024-11-24 15:26:08,248 INFO:Skipping Ingredient with ID 31 as it already exists.
+2024-11-24 15:26:08,249 INFO:Skipping Ingredient with ID 32 as it already exists.
+2024-11-24 15:26:08,249 INFO:Skipping Ingredient with ID 33 as it already exists.
+2024-11-24 15:26:08,249 INFO:Skipping Ingredient with ID 34 as it already exists.
+2024-11-24 15:26:08,249 INFO:Skipping Ingredient with ID 35 as it already exists.
+2024-11-24 15:26:08,250 INFO:Skipping Ingredient with ID 36 as it already exists.
+2024-11-24 15:26:08,250 INFO:Skipping Ingredient with ID 37 as it already exists.
+2024-11-24 15:26:08,250 INFO:Skipping Ingredient with ID 38 as it already exists.
+2024-11-24 15:26:08,250 INFO:Skipping Ingredient with ID 39 as it already exists.
+2024-11-24 15:26:08,251 INFO:Skipping Ingredient with ID 40 as it already exists.
+2024-11-24 15:26:08,251 INFO:Skipping Ingredient with ID 41 as it already exists.
+2024-11-24 15:26:08,251 INFO:Skipping Ingredient with ID 42 as it already exists.
+2024-11-24 15:26:08,252 INFO:Skipping Ingredient with ID 43 as it already exists.
+2024-11-24 15:26:08,252 INFO:Skipping Ingredient with ID 44 as it already exists.
+2024-11-24 15:26:08,252 INFO:Skipping Ingredient with ID 45 as it already exists.
+2024-11-24 15:26:08,253 INFO:Skipping Ingredient with ID 46 as it already exists.
+2024-11-24 15:26:08,253 INFO:Skipping Ingredient with ID 47 as it already exists.
+2024-11-24 15:26:08,253 INFO:Skipping Ingredient with ID 48 as it already exists.
+2024-11-24 15:26:08,253 INFO:Skipping Ingredient with ID 49 as it already exists.
+2024-11-24 15:26:08,254 INFO:Skipping Ingredient with ID 50 as it already exists.
+2024-11-24 15:26:08,254 INFO:Skipping Ingredient with ID 51 as it already exists.
+2024-11-24 15:26:08,254 INFO:Skipping Ingredient with ID 52 as it already exists.
+2024-11-24 15:26:08,254 INFO:Skipping Ingredient with ID 53 as it already exists.
+2024-11-24 15:26:08,255 INFO:Skipping Ingredient with ID 54 as it already exists.
+2024-11-24 15:26:08,255 INFO:Skipping Ingredient with ID 55 as it already exists.
+2024-11-24 15:26:08,255 INFO:Skipping Ingredient with ID 56 as it already exists.
+2024-11-24 15:26:08,255 INFO:Skipping Ingredient with ID 57 as it already exists.
+2024-11-24 15:26:08,256 INFO:Skipping Ingredient with ID 58 as it already exists.
+2024-11-24 15:26:08,256 INFO:Skipping Ingredient with ID 59 as it already exists.
+2024-11-24 15:26:08,256 INFO:Skipping Ingredient with ID 60 as it already exists.
+2024-11-24 15:26:08,256 INFO:Skipping Ingredient with ID 61 as it already exists.
+2024-11-24 15:26:08,257 INFO:Skipping Ingredient with ID 62 as it already exists.
+2024-11-24 15:26:08,257 INFO:Skipping Ingredient with ID 63 as it already exists.
+2024-11-24 15:26:08,257 INFO:Skipping Ingredient with ID 64 as it already exists.
+2024-11-24 15:26:08,257 INFO:Skipping Ingredient with ID 65 as it already exists.
+2024-11-24 15:26:08,258 INFO:Skipping Ingredient with ID 66 as it already exists.
+2024-11-24 15:26:08,258 INFO:Skipping Ingredient with ID 67 as it already exists.
+2024-11-24 15:26:08,258 INFO:Skipping Ingredient with ID 68 as it already exists.
+2024-11-24 15:26:08,258 INFO:Skipping Ingredient with ID 69 as it already exists.
+2024-11-24 15:26:08,259 INFO:Skipping Ingredient with ID 70 as it already exists.
+2024-11-24 15:26:08,259 INFO:Skipping Ingredient with ID 71 as it already exists.
+2024-11-24 15:26:08,259 INFO:Skipping Ingredient with ID 72 as it already exists.
+2024-11-24 15:26:08,259 INFO:Skipping Ingredient with ID 73 as it already exists.
+2024-11-24 15:26:08,260 INFO:Skipping Ingredient with ID 74 as it already exists.
+2024-11-24 15:26:08,260 INFO:Skipping Ingredient with ID 75 as it already exists.
+2024-11-24 15:26:08,260 INFO:Skipping Ingredient with ID 76 as it already exists.
+2024-11-24 15:26:08,260 INFO:Skipping Ingredient with ID 77 as it already exists.
+2024-11-24 15:26:08,261 INFO:Skipping Ingredient with ID 78 as it already exists.
+2024-11-24 15:26:08,261 INFO:Skipping Ingredient with ID 79 as it already exists.
+2024-11-24 15:26:08,261 INFO:Skipping Ingredient with ID 80 as it already exists.
+2024-11-24 15:26:08,261 INFO:Skipping Ingredient with ID 81 as it already exists.
+2024-11-24 15:26:08,262 INFO:Skipping Ingredient with ID 82 as it already exists.
+2024-11-24 15:26:08,262 INFO:Skipping Ingredient with ID 83 as it already exists.
+2024-11-24 15:26:08,262 INFO:Skipping Ingredient with ID 84 as it already exists.
+2024-11-24 15:26:08,262 INFO:Skipping Ingredient with ID 85 as it already exists.
+2024-11-24 15:26:08,263 INFO:Skipping Ingredient with ID 86 as it already exists.
+2024-11-24 15:26:08,263 INFO:Skipping Ingredient with ID 87 as it already exists.
+2024-11-24 15:26:08,263 INFO:Skipping Ingredient with ID 88 as it already exists.
+2024-11-24 15:26:08,263 INFO:Skipping Ingredient with ID 89 as it already exists.
+2024-11-24 15:26:08,264 INFO:Skipping Ingredient with ID 90 as it already exists.
+2024-11-24 15:26:08,264 INFO:Skipping Ingredient with ID 91 as it already exists.
+2024-11-24 15:26:08,264 INFO:Skipping Ingredient with ID 92 as it already exists.
+2024-11-24 15:26:08,264 INFO:Skipping Ingredient with ID 93 as it already exists.
+2024-11-24 15:26:08,265 INFO:Skipping Ingredient with ID 94 as it already exists.
+2024-11-24 15:26:08,265 INFO:Skipping Ingredient with ID 95 as it already exists.
+2024-11-24 15:26:08,265 INFO:Skipping Ingredient with ID 96 as it already exists.
+2024-11-24 15:26:08,266 INFO:Skipping Ingredient with ID 97 as it already exists.
+2024-11-24 15:26:08,266 INFO:Skipping Ingredient with ID 98 as it already exists.
+2024-11-24 15:26:08,266 INFO:Skipping Ingredient with ID 99 as it already exists.
+2024-11-24 15:26:08,267 INFO:Skipping Ingredient with ID 100 as it already exists.
+2024-11-24 15:26:08,267 INFO:Skipping Ingredient with ID 101 as it already exists.
+2024-11-24 15:26:08,267 INFO:Skipping Ingredient with ID 102 as it already exists.
+2024-11-24 15:26:08,268 INFO:Skipping Ingredient with ID 103 as it already exists.
+2024-11-24 15:26:08,268 INFO:Skipping Ingredient with ID 104 as it already exists.
+2024-11-24 15:26:08,268 INFO:Skipping Ingredient with ID 105 as it already exists.
+2024-11-24 15:26:08,269 INFO:Skipping Ingredient with ID 106 as it already exists.
+2024-11-24 15:26:08,269 INFO:Skipping Ingredient with ID 107 as it already exists.
+2024-11-24 15:26:08,269 INFO:Skipping Ingredient with ID 108 as it already exists.
+2024-11-24 15:26:08,269 INFO:Skipping Ingredient with ID 109 as it already exists.
+2024-11-24 15:26:08,270 INFO:Skipping Ingredient with ID 110 as it already exists.
+2024-11-24 15:26:08,270 INFO:Skipping Ingredient with ID 111 as it already exists.
+2024-11-24 15:26:08,270 INFO:Skipping Ingredient with ID 112 as it already exists.
+2024-11-24 15:26:08,270 INFO:Skipping Ingredient with ID 113 as it already exists.
+2024-11-24 15:26:08,271 INFO:Skipping Ingredient with ID 114 as it already exists.
+2024-11-24 15:26:08,271 INFO:Skipping Ingredient with ID 115 as it already exists.
+2024-11-24 15:26:08,271 INFO:Skipping Ingredient with ID 116 as it already exists.
+2024-11-24 15:26:08,271 INFO:Skipping Ingredient with ID 117 as it already exists.
+2024-11-24 15:26:08,272 INFO:Skipping Ingredient with ID 118 as it already exists.
+2024-11-24 15:26:08,272 INFO:Skipping Ingredient with ID 119 as it already exists.
+2024-11-24 15:26:08,272 INFO:Skipping Ingredient with ID 120 as it already exists.
+2024-11-24 15:26:08,272 INFO:Skipping Ingredient with ID 121 as it already exists.
+2024-11-24 15:26:08,273 INFO:Skipping Ingredient with ID 122 as it already exists.
+2024-11-24 15:26:08,273 INFO:Skipping Ingredient with ID 123 as it already exists.
+2024-11-24 15:26:08,273 INFO:Skipping Ingredient with ID 124 as it already exists.
+2024-11-24 15:26:08,274 INFO:Skipping Ingredient with ID 125 as it already exists.
+2024-11-24 15:26:08,274 INFO:Skipping Ingredient with ID 126 as it already exists.
+2024-11-24 15:26:08,274 INFO:Skipping Ingredient with ID 127 as it already exists.
+2024-11-24 15:26:08,274 INFO:Skipping Ingredient with ID 128 as it already exists.
+2024-11-24 15:26:08,275 INFO:Skipping Ingredient with ID 129 as it already exists.
+2024-11-24 15:26:08,275 INFO:Skipping Ingredient with ID 130 as it already exists.
+2024-11-24 15:26:08,275 INFO:Skipping Ingredient with ID 131 as it already exists.
+2024-11-24 15:26:08,275 INFO:Skipping Ingredient with ID 132 as it already exists.
+2024-11-24 15:26:08,276 INFO:Skipping Ingredient with ID 133 as it already exists.
+2024-11-24 15:26:08,276 INFO:Skipping Ingredient with ID 134 as it already exists.
+2024-11-24 15:26:08,276 INFO:Skipping Ingredient with ID 135 as it already exists.
+2024-11-24 15:26:08,276 INFO:Skipping Ingredient with ID 136 as it already exists.
+2024-11-24 15:26:08,277 INFO:Skipping Ingredient with ID 137 as it already exists.
+2024-11-24 15:26:08,277 INFO:Skipping Ingredient with ID 138 as it already exists.
+2024-11-24 15:26:08,277 INFO:Skipping Ingredient with ID 139 as it already exists.
+2024-11-24 15:26:08,277 INFO:Skipping Ingredient with ID 140 as it already exists.
+2024-11-24 15:26:08,277 INFO:Skipping Ingredient with ID 141 as it already exists.
+2024-11-24 15:26:08,278 INFO:Skipping Ingredient with ID 142 as it already exists.
+2024-11-24 15:26:08,278 INFO:Skipping Ingredient with ID 143 as it already exists.
+2024-11-24 15:26:08,278 INFO:Skipping Ingredient with ID 144 as it already exists.
+2024-11-24 15:26:08,278 INFO:Skipping Ingredient with ID 145 as it already exists.
+2024-11-24 15:26:08,279 INFO:Skipping Ingredient with ID 146 as it already exists.
+2024-11-24 15:26:08,280 INFO:Skipping Dish with ID 1 as it already exists.
+2024-11-24 15:26:08,280 INFO:Skipping Dish with ID 2 as it already exists.
+2024-11-24 15:26:08,281 INFO:Skipping Dish with ID 3 as it already exists.
+2024-11-24 15:26:08,281 INFO:Skipping Dish with ID 4 as it already exists.
+2024-11-24 15:26:08,281 INFO:Skipping Dish with ID 5 as it already exists.
+2024-11-24 15:26:08,282 INFO:Skipping Dish with ID 6 as it already exists.
+2024-11-24 15:26:08,282 INFO:Skipping Dish with ID 7 as it already exists.
+2024-11-24 15:26:08,282 INFO:Skipping Dish with ID 8 as it already exists.
+2024-11-24 15:26:08,283 INFO:Skipping Dish with ID 9 as it already exists.
+2024-11-24 15:26:08,283 INFO:Skipping Dish with ID 10 as it already exists.
+2024-11-24 15:26:08,283 INFO:Skipping Dish with ID 11 as it already exists.
+2024-11-24 15:26:08,284 INFO:Skipping Dish with ID 12 as it already exists.
+2024-11-24 15:26:08,284 INFO:Skipping Dish with ID 13 as it already exists.
+2024-11-24 15:26:08,284 INFO:Skipping Dish with ID 14 as it already exists.
+2024-11-24 15:26:08,284 INFO:Skipping Dish with ID 15 as it already exists.
+2024-11-24 15:26:08,285 INFO:Skipping Dish with ID 16 as it already exists.
+2024-11-24 15:26:08,285 INFO:Skipping Dish with ID 17 as it already exists.
+2024-11-24 15:26:08,285 INFO:Skipping Dish with ID 18 as it already exists.
+2024-11-24 15:26:08,285 INFO:Skipping Dish with ID 19 as it already exists.
+2024-11-24 15:26:08,286 INFO:Skipping Dish with ID 20 as it already exists.
+2024-11-24 15:26:08,286 INFO:Skipping Dish with ID 21 as it already exists.
+2024-11-24 15:26:08,286 INFO:Skipping Dish with ID 22 as it already exists.
+2024-11-24 15:26:08,286 INFO:Skipping Dish with ID 23 as it already exists.
+2024-11-24 15:26:08,287 INFO:Skipping Dish with ID 24 as it already exists.
+2024-11-24 15:26:08,287 INFO:Skipping Dish with ID 25 as it already exists.
+2024-11-24 15:26:08,287 INFO:Skipping Dish with ID 26 as it already exists.
+2024-11-24 15:26:08,287 INFO:Skipping Dish with ID 27 as it already exists.
+2024-11-24 15:26:08,288 INFO:Skipping Dish with ID 28 as it already exists.
+2024-11-24 15:26:08,288 INFO:Skipping Dish with ID 29 as it already exists.
+2024-11-24 15:26:08,288 INFO:Skipping Dish with ID 30 as it already exists.
+2024-11-24 15:26:08,288 INFO:Skipping Dish with ID 31 as it already exists.
+2024-11-24 15:26:08,289 INFO:Skipping Dish with ID 32 as it already exists.
+2024-11-24 15:26:08,289 INFO:Skipping Dish with ID 33 as it already exists.
+2024-11-24 15:26:08,289 INFO:Skipping Dish with ID 34 as it already exists.
+2024-11-24 15:26:08,289 INFO:Skipping Dish with ID 35 as it already exists.
+2024-11-24 15:26:08,290 INFO:Skipping Dish with ID 36 as it already exists.
+2024-11-24 15:26:08,290 INFO:Skipping Dish with ID 37 as it already exists.
+2024-11-24 15:26:08,290 INFO:Skipping Dish with ID 38 as it already exists.
+2024-11-24 15:26:08,291 INFO:Skipping Dish with ID 39 as it already exists.
+2024-11-24 15:26:08,291 INFO:Skipping Dish with ID 40 as it already exists.
+2024-11-24 15:26:08,291 INFO:Skipping Dish with ID 41 as it already exists.
+2024-11-24 15:26:08,291 INFO:Skipping Dish with ID 42 as it already exists.
+2024-11-24 15:26:08,292 INFO:Skipping Dish with ID 43 as it already exists.
+2024-11-24 15:26:08,292 INFO:Skipping Dish with ID 44 as it already exists.
+2024-11-24 15:26:08,292 INFO:Skipping Dish with ID 45 as it already exists.
+2024-11-24 15:26:08,292 INFO:Skipping Dish with ID 46 as it already exists.
+2024-11-24 15:26:08,293 INFO:Skipping Dish with ID 47 as it already exists.
+2024-11-24 15:26:08,293 INFO:Skipping Dish with ID 48 as it already exists.
+2024-11-24 15:26:08,293 INFO:Skipping Dish with ID 49 as it already exists.
+2024-11-24 15:26:08,293 INFO:Skipping Dish with ID 50 as it already exists.
+2024-11-24 15:26:08,294 INFO:Skipping Dish with ID 51 as it already exists.
+2024-11-24 15:26:08,294 INFO:Skipping Dish with ID 52 as it already exists.
+2024-11-24 15:26:08,294 INFO:Skipping Dish with ID 53 as it already exists.
+2024-11-24 15:26:08,294 INFO:Skipping Dish with ID 54 as it already exists.
+2024-11-24 15:26:08,295 INFO:Skipping Dish with ID 55 as it already exists.
+2024-11-24 15:26:08,295 INFO:Skipping Dish with ID 56 as it already exists.
+2024-11-24 15:26:08,295 INFO:Skipping Dish with ID 57 as it already exists.
+2024-11-24 15:26:08,295 INFO:Skipping Dish with ID 58 as it already exists.
+2024-11-24 15:26:08,295 INFO:Skipping Dish with ID 59 as it already exists.
+2024-11-24 15:26:08,296 INFO:Skipping Dish with ID 60 as it already exists.
+2024-11-24 15:26:08,296 INFO:Skipping Dish with ID 61 as it already exists.
+2024-11-24 15:26:08,296 INFO:Skipping Dish with ID 62 as it already exists.
+2024-11-24 15:26:08,297 INFO:Skipping Dish with ID 63 as it already exists.
+2024-11-24 15:26:08,297 INFO:Skipping Dish with ID 64 as it already exists.
+2024-11-24 15:26:08,297 INFO:Skipping Dish with ID 65 as it already exists.
+2024-11-24 15:26:08,298 INFO:Skipping Dish with ID 66 as it already exists.
+2024-11-24 15:26:08,298 INFO:Skipping Dish with ID 67 as it already exists.
+2024-11-24 15:26:08,298 INFO:Skipping Dish with ID 68 as it already exists.
+2024-11-24 15:26:08,298 INFO:Skipping Dish with ID 69 as it already exists.
+2024-11-24 15:26:08,299 INFO:Skipping Dish with ID 70 as it already exists.
+2024-11-24 15:26:08,299 INFO:Skipping Dish with ID 71 as it already exists.
+2024-11-24 15:26:08,299 INFO:Skipping Dish with ID 72 as it already exists.
+2024-11-24 15:26:08,300 INFO:Skipping Dish with ID 73 as it already exists.
+2024-11-24 15:26:08,300 INFO:Skipping Dish with ID 74 as it already exists.
+2024-11-24 15:26:08,300 INFO:Skipping Dish with ID 75 as it already exists.
+2024-11-24 15:26:08,300 INFO:Skipping Dish with ID 76 as it already exists.
+2024-11-24 15:26:08,301 INFO:Skipping Dish with ID 77 as it already exists.
+2024-11-24 15:26:08,301 INFO:Skipping Dish with ID 78 as it already exists.
+2024-11-24 15:26:08,301 INFO:Skipping Dish with ID 79 as it already exists.
+2024-11-24 15:26:08,301 INFO:Skipping Dish with ID 80 as it already exists.
+2024-11-24 15:26:08,302 INFO:Skipping Dish with ID 81 as it already exists.
+2024-11-24 15:26:08,302 INFO:Skipping Dish with ID 82 as it already exists.
+2024-11-24 15:26:08,302 INFO:Skipping Dish with ID 83 as it already exists.
+2024-11-24 15:26:08,302 INFO:Skipping Dish with ID 84 as it already exists.
+2024-11-24 15:26:08,303 INFO:Skipping Dish with ID 85 as it already exists.
+2024-11-24 15:26:08,303 INFO:Skipping Dish with ID 86 as it already exists.
+2024-11-24 15:26:08,303 INFO:Skipping Dish with ID 87 as it already exists.
+2024-11-24 15:26:08,304 INFO:Skipping Dish with ID 88 as it already exists.
+2024-11-24 15:26:08,304 INFO:Skipping Dish with ID 89 as it already exists.
+2024-11-24 15:26:08,304 INFO:Skipping Dish with ID 90 as it already exists.
+2024-11-24 15:26:08,304 INFO:Skipping Dish with ID 91 as it already exists.
+2024-11-24 15:26:08,305 INFO:Skipping Dish with ID 92 as it already exists.
+2024-11-24 15:26:08,305 INFO:Skipping Dish with ID 93 as it already exists.
+2024-11-24 15:26:08,305 INFO:Skipping Dish with ID 94 as it already exists.
+2024-11-24 15:26:08,305 INFO:Skipping Dish with ID 95 as it already exists.
+2024-11-24 15:26:08,306 INFO:Skipping Dish with ID 96 as it already exists.
+2024-11-24 15:26:08,306 INFO:Skipping Dish with ID 97 as it already exists.
+2024-11-24 15:26:08,306 INFO:Skipping Dish with ID 98 as it already exists.
+2024-11-24 15:26:08,306 INFO:Skipping Dish with ID 99 as it already exists.
+2024-11-24 15:26:08,307 INFO:Skipping Dish with ID 100 as it already exists.
+2024-11-24 15:26:08,307 INFO:Skipping DietaryRestriction with ID 1 as it already exists.
+2024-11-24 15:26:08,308 INFO:Skipping DietaryRestriction with ID 2 as it already exists.
+2024-11-24 15:26:08,308 INFO:Skipping DietaryRestriction with ID 3 as it already exists.
+2024-11-24 15:26:08,308 INFO:Skipping DietaryRestriction with ID 4 as it already exists.
+2024-11-24 15:26:08,308 INFO:Skipping DietaryRestriction with ID 5 as it already exists.
+2024-11-24 15:26:08,309 INFO:Skipping DietaryRestriction with ID 6 as it already exists.
+2024-11-24 15:26:08,309 INFO:Skipping DietaryRestriction with ID 7 as it already exists.
+2024-11-24 15:26:08,310 INFO:Skipping MealType with ID 1 as it already exists.
+2024-11-24 15:26:08,310 INFO:Skipping MealType with ID 2 as it already exists.
+2024-11-24 15:26:08,310 INFO:Skipping MealType with ID 3 as it already exists.
+2024-11-24 15:26:08,310 INFO:Skipping MealType with ID 4 as it already exists.
+2024-11-24 15:26:08,311 INFO:Skipping MealType with ID 5 as it already exists.
+2024-11-24 15:26:08,312 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 60 as it already exists.
+2024-11-24 15:26:08,312 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,313 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,313 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,313 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 75 as it already exists.
+2024-11-24 15:26:08,314 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 73 as it already exists.
+2024-11-24 15:26:08,314 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 64 as it already exists.
+2024-11-24 15:26:08,314 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,315 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,315 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,316 INFO:Skipping DishIngredient with Dish ID 1 and Ingredient ID 36 as it already exists.
+2024-11-24 15:26:08,316 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,316 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 1 as it already exists.
+2024-11-24 15:26:08,316 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,317 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 80 as it already exists.
+2024-11-24 15:26:08,317 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,318 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 74 as it already exists.
+2024-11-24 15:26:08,318 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 53 as it already exists.
+2024-11-24 15:26:08,318 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 36 as it already exists.
+2024-11-24 15:26:08,319 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,319 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,319 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,319 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 16 as it already exists.
+2024-11-24 15:26:08,320 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 21 as it already exists.
+2024-11-24 15:26:08,320 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,320 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 50 as it already exists.
+2024-11-24 15:26:08,321 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 75 as it already exists.
+2024-11-24 15:26:08,321 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 46 as it already exists.
+2024-11-24 15:26:08,322 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 55 as it already exists.
+2024-11-24 15:26:08,322 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,322 INFO:Skipping DishIngredient with Dish ID 3 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,323 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 67 as it already exists.
+2024-11-24 15:26:08,323 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 26 as it already exists.
+2024-11-24 15:26:08,323 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 59 as it already exists.
+2024-11-24 15:26:08,324 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 30 as it already exists.
+2024-11-24 15:26:08,324 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,324 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 3 as it already exists.
+2024-11-24 15:26:08,324 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 27 as it already exists.
+2024-11-24 15:26:08,325 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 49 as it already exists.
+2024-11-24 15:26:08,325 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,325 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,326 INFO:Skipping DishIngredient with Dish ID 4 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,326 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,326 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 12 as it already exists.
+2024-11-24 15:26:08,327 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 11 as it already exists.
+2024-11-24 15:26:08,327 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,328 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 34 as it already exists.
+2024-11-24 15:26:08,328 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 76 as it already exists.
+2024-11-24 15:26:08,328 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 33 as it already exists.
+2024-11-24 15:26:08,328 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 70 as it already exists.
+2024-11-24 15:26:08,329 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 41 as it already exists.
+2024-11-24 15:26:08,329 INFO:Skipping DishIngredient with Dish ID 5 and Ingredient ID 69 as it already exists.
+2024-11-24 15:26:08,330 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,330 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 48 as it already exists.
+2024-11-24 15:26:08,331 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 66 as it already exists.
+2024-11-24 15:26:08,331 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 53 as it already exists.
+2024-11-24 15:26:08,331 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 59 as it already exists.
+2024-11-24 15:26:08,332 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 74 as it already exists.
+2024-11-24 15:26:08,332 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,332 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,333 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,333 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,333 INFO:Skipping DishIngredient with Dish ID 6 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,333 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 77 as it already exists.
+2024-11-24 15:26:08,334 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 63 as it already exists.
+2024-11-24 15:26:08,334 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,334 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,335 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 10 as it already exists.
+2024-11-24 15:26:08,335 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,335 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 76 as it already exists.
+2024-11-24 15:26:08,335 INFO:Skipping DishIngredient with Dish ID 7 and Ingredient ID 95 as it already exists.
+2024-11-24 15:26:08,336 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,336 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 72 as it already exists.
+2024-11-24 15:26:08,336 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,337 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,337 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 71 as it already exists.
+2024-11-24 15:26:08,337 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 50 as it already exists.
+2024-11-24 15:26:08,338 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 21 as it already exists.
+2024-11-24 15:26:08,338 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 75 as it already exists.
+2024-11-24 15:26:08,338 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 70 as it already exists.
+2024-11-24 15:26:08,338 INFO:Skipping DishIngredient with Dish ID 8 and Ingredient ID 69 as it already exists.
+2024-11-24 15:26:08,339 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 32 as it already exists.
+2024-11-24 15:26:08,339 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,339 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,340 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 52 as it already exists.
+2024-11-24 15:26:08,340 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 21 as it already exists.
+2024-11-24 15:26:08,340 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 59 as it already exists.
+2024-11-24 15:26:08,340 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,341 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,341 INFO:Skipping DishIngredient with Dish ID 9 and Ingredient ID 14 as it already exists.
+2024-11-24 15:26:08,341 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 121 as it already exists.
+2024-11-24 15:26:08,341 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,342 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,342 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,342 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 45 as it already exists.
+2024-11-24 15:26:08,343 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 59 as it already exists.
+2024-11-24 15:26:08,343 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,343 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,343 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,344 INFO:Skipping DishIngredient with Dish ID 10 and Ingredient ID 37 as it already exists.
+2024-11-24 15:26:08,344 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 25 as it already exists.
+2024-11-24 15:26:08,344 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 63 as it already exists.
+2024-11-24 15:26:08,345 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 20 as it already exists.
+2024-11-24 15:26:08,345 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,345 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 5 as it already exists.
+2024-11-24 15:26:08,346 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,346 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,346 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 52 as it already exists.
+2024-11-24 15:26:08,347 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 45 as it already exists.
+2024-11-24 15:26:08,347 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,348 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,348 INFO:Skipping DishIngredient with Dish ID 11 and Ingredient ID 38 as it already exists.
+2024-11-24 15:26:08,348 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 9 as it already exists.
+2024-11-24 15:26:08,349 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 54 as it already exists.
+2024-11-24 15:26:08,349 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,349 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,350 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,350 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,350 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 8 as it already exists.
+2024-11-24 15:26:08,350 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 70 as it already exists.
+2024-11-24 15:26:08,351 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 27 as it already exists.
+2024-11-24 15:26:08,351 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,351 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,352 INFO:Skipping DishIngredient with Dish ID 12 and Ingredient ID 29 as it already exists.
+2024-11-24 15:26:08,352 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,352 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 14 as it already exists.
+2024-11-24 15:26:08,352 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 59 as it already exists.
+2024-11-24 15:26:08,353 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,353 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 53 as it already exists.
+2024-11-24 15:26:08,354 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 122 as it already exists.
+2024-11-24 15:26:08,354 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,354 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,354 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,355 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,355 INFO:Skipping DishIngredient with Dish ID 13 and Ingredient ID 60 as it already exists.
+2024-11-24 15:26:08,355 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,356 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,356 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,356 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 61 as it already exists.
+2024-11-24 15:26:08,356 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,357 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 73 as it already exists.
+2024-11-24 15:26:08,357 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 8 as it already exists.
+2024-11-24 15:26:08,357 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 64 as it already exists.
+2024-11-24 15:26:08,358 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 63 as it already exists.
+2024-11-24 15:26:08,358 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,358 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 52 as it already exists.
+2024-11-24 15:26:08,358 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,359 INFO:Skipping DishIngredient with Dish ID 14 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,359 INFO:Skipping DishIngredient with Dish ID 15 and Ingredient ID 15 as it already exists.
+2024-11-24 15:26:08,359 INFO:Skipping DishIngredient with Dish ID 15 and Ingredient ID 21 as it already exists.
+2024-11-24 15:26:08,359 INFO:Skipping DishIngredient with Dish ID 15 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,360 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,360 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,360 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,361 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 8 as it already exists.
+2024-11-24 15:26:08,361 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 78 as it already exists.
+2024-11-24 15:26:08,361 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 40 as it already exists.
+2024-11-24 15:26:08,361 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 35 as it already exists.
+2024-11-24 15:26:08,362 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,362 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,362 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 38 as it already exists.
+2024-11-24 15:26:08,363 INFO:Skipping DishIngredient with Dish ID 16 and Ingredient ID 6 as it already exists.
+2024-11-24 15:26:08,363 INFO:Skipping DishIngredient with Dish ID 17 and Ingredient ID 15 as it already exists.
+2024-11-24 15:26:08,363 INFO:Skipping DishIngredient with Dish ID 17 and Ingredient ID 5 as it already exists.
+2024-11-24 15:26:08,364 INFO:Skipping DishIngredient with Dish ID 17 and Ingredient ID 50 as it already exists.
+2024-11-24 15:26:08,364 INFO:Skipping DishIngredient with Dish ID 17 and Ingredient ID 75 as it already exists.
+2024-11-24 15:26:08,365 INFO:Skipping DishIngredient with Dish ID 17 and Ingredient ID 51 as it already exists.
+2024-11-24 15:26:08,365 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 4 as it already exists.
+2024-11-24 15:26:08,365 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 54 as it already exists.
+2024-11-24 15:26:08,366 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,366 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,366 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 78 as it already exists.
+2024-11-24 15:26:08,366 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 23 as it already exists.
+2024-11-24 15:26:08,367 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 59 as it already exists.
+2024-11-24 15:26:08,367 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,367 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 57 as it already exists.
+2024-11-24 15:26:08,367 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,368 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,368 INFO:Skipping DishIngredient with Dish ID 18 and Ingredient ID 37 as it already exists.
+2024-11-24 15:26:08,368 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,369 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,369 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,369 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,369 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 5 as it already exists.
+2024-11-24 15:26:08,370 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 40 as it already exists.
+2024-11-24 15:26:08,370 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,370 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 45 as it already exists.
+2024-11-24 15:26:08,371 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 52 as it already exists.
+2024-11-24 15:26:08,371 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,371 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,372 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 56 as it already exists.
+2024-11-24 15:26:08,372 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,372 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,372 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,373 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 34 as it already exists.
+2024-11-24 15:26:08,373 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 65 as it already exists.
+2024-11-24 15:26:08,373 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 69 as it already exists.
+2024-11-24 15:26:08,374 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 21 as it already exists.
+2024-11-24 15:26:08,374 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 70 as it already exists.
+2024-11-24 15:26:08,374 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 41 as it already exists.
+2024-11-24 15:26:08,374 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 71 as it already exists.
+2024-11-24 15:26:08,375 INFO:Skipping DishIngredient with Dish ID 20 and Ingredient ID 50 as it already exists.
+2024-11-24 15:26:08,375 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 62 as it already exists.
+2024-11-24 15:26:08,375 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 7 as it already exists.
+2024-11-24 15:26:08,376 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 16 as it already exists.
+2024-11-24 15:26:08,376 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 18 as it already exists.
+2024-11-24 15:26:08,376 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,376 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 51 as it already exists.
+2024-11-24 15:26:08,377 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,377 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,377 INFO:Skipping DishIngredient with Dish ID 21 and Ingredient ID 28 as it already exists.
+2024-11-24 15:26:08,378 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,378 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 52 as it already exists.
+2024-11-24 15:26:08,378 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 21 as it already exists.
+2024-11-24 15:26:08,378 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 17 as it already exists.
+2024-11-24 15:26:08,379 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,379 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,380 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 123 as it already exists.
+2024-11-24 15:26:08,380 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 54 as it already exists.
+2024-11-24 15:26:08,380 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 12 as it already exists.
+2024-11-24 15:26:08,381 INFO:Skipping DishIngredient with Dish ID 22 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,381 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,381 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,382 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 20 as it already exists.
+2024-11-24 15:26:08,382 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,382 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,382 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 23 as it already exists.
+2024-11-24 15:26:08,383 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 29 as it already exists.
+2024-11-24 15:26:08,383 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 6 as it already exists.
+2024-11-24 15:26:08,383 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,384 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,384 INFO:Skipping DishIngredient with Dish ID 23 and Ingredient ID 37 as it already exists.
+2024-11-24 15:26:08,384 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,384 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,385 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,385 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 47 as it already exists.
+2024-11-24 15:26:08,385 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 75 as it already exists.
+2024-11-24 15:26:08,385 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 24 as it already exists.
+2024-11-24 15:26:08,386 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 43 as it already exists.
+2024-11-24 15:26:08,386 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,386 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,387 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 76 as it already exists.
+2024-11-24 15:26:08,387 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 11 as it already exists.
+2024-11-24 15:26:08,387 INFO:Skipping DishIngredient with Dish ID 24 and Ingredient ID 12 as it already exists.
+2024-11-24 15:26:08,388 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 42 as it already exists.
+2024-11-24 15:26:08,388 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 44 as it already exists.
+2024-11-24 15:26:08,388 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,389 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,389 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 14 as it already exists.
+2024-11-24 15:26:08,389 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,389 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 52 as it already exists.
+2024-11-24 15:26:08,390 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,390 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,390 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 46 as it already exists.
+2024-11-24 15:26:08,391 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 79 as it already exists.
+2024-11-24 15:26:08,391 INFO:Skipping DishIngredient with Dish ID 25 and Ingredient ID 55 as it already exists.
+2024-11-24 15:26:08,391 INFO:Skipping DishIngredient with Dish ID 100 and Ingredient ID 124 as it already exists.
+2024-11-24 15:26:08,391 INFO:Skipping DishIngredient with Dish ID 100 and Ingredient ID 118 as it already exists.
+2024-11-24 15:26:08,392 INFO:Skipping DishIngredient with Dish ID 100 and Ingredient ID 113 as it already exists.
+2024-11-24 15:26:08,392 INFO:Skipping DishIngredient with Dish ID 100 and Ingredient ID 125 as it already exists.
+2024-11-24 15:26:08,392 INFO:Skipping DishIngredient with Dish ID 100 and Ingredient ID 81 as it already exists.
+2024-11-24 15:26:08,392 INFO:Skipping DishIngredient with Dish ID 26 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,393 INFO:Skipping DishIngredient with Dish ID 26 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,393 INFO:Skipping DishIngredient with Dish ID 26 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,393 INFO:Skipping DishIngredient with Dish ID 26 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,393 INFO:Skipping DishIngredient with Dish ID 26 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,394 INFO:Skipping DishIngredient with Dish ID 26 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,394 INFO:Skipping DishIngredient with Dish ID 26 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,394 INFO:Skipping DishIngredient with Dish ID 27 and Ingredient ID 127 as it already exists.
+2024-11-24 15:26:08,395 INFO:Skipping DishIngredient with Dish ID 27 and Ingredient ID 128 as it already exists.
+2024-11-24 15:26:08,395 INFO:Skipping DishIngredient with Dish ID 27 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,395 INFO:Skipping DishIngredient with Dish ID 27 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,396 INFO:Skipping DishIngredient with Dish ID 27 and Ingredient ID 85 as it already exists.
+2024-11-24 15:26:08,396 INFO:Skipping DishIngredient with Dish ID 27 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,396 INFO:Skipping DishIngredient with Dish ID 28 and Ingredient ID 129 as it already exists.
+2024-11-24 15:26:08,397 INFO:Skipping DishIngredient with Dish ID 28 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,397 INFO:Skipping DishIngredient with Dish ID 28 and Ingredient ID 127 as it already exists.
+2024-11-24 15:26:08,397 INFO:Skipping DishIngredient with Dish ID 28 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,398 INFO:Skipping DishIngredient with Dish ID 28 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,398 INFO:Skipping DishIngredient with Dish ID 28 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,399 INFO:Skipping DishIngredient with Dish ID 28 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,399 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,399 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,399 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,400 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,400 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,400 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,400 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,401 INFO:Skipping DishIngredient with Dish ID 30 and Ingredient ID 130 as it already exists.
+2024-11-24 15:26:08,401 INFO:Skipping DishIngredient with Dish ID 30 and Ingredient ID 87 as it already exists.
+2024-11-24 15:26:08,401 INFO:Skipping DishIngredient with Dish ID 30 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,401 INFO:Skipping DishIngredient with Dish ID 30 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,402 INFO:Skipping DishIngredient with Dish ID 30 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,402 INFO:Skipping DishIngredient with Dish ID 30 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,402 INFO:Skipping DishIngredient with Dish ID 31 and Ingredient ID 131 as it already exists.
+2024-11-24 15:26:08,403 INFO:Skipping DishIngredient with Dish ID 31 and Ingredient ID 125 as it already exists.
+2024-11-24 15:26:08,403 INFO:Skipping DishIngredient with Dish ID 31 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,403 INFO:Skipping DishIngredient with Dish ID 31 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,403 INFO:Skipping DishIngredient with Dish ID 31 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,404 INFO:Skipping DishIngredient with Dish ID 31 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,404 INFO:Skipping DishIngredient with Dish ID 31 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,404 INFO:Skipping DishIngredient with Dish ID 32 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,404 INFO:Skipping DishIngredient with Dish ID 32 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,405 INFO:Skipping DishIngredient with Dish ID 32 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,405 INFO:Skipping DishIngredient with Dish ID 32 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,406 INFO:Skipping DishIngredient with Dish ID 32 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,406 INFO:Skipping DishIngredient with Dish ID 32 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,406 INFO:Skipping DishIngredient with Dish ID 33 and Ingredient ID 132 as it already exists.
+2024-11-24 15:26:08,406 INFO:Skipping DishIngredient with Dish ID 33 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,407 INFO:Skipping DishIngredient with Dish ID 33 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,407 INFO:Skipping DishIngredient with Dish ID 33 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,407 INFO:Skipping DishIngredient with Dish ID 33 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,408 INFO:Skipping DishIngredient with Dish ID 34 and Ingredient ID 129 as it already exists.
+2024-11-24 15:26:08,408 INFO:Skipping DishIngredient with Dish ID 34 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,408 INFO:Skipping DishIngredient with Dish ID 34 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,408 INFO:Skipping DishIngredient with Dish ID 34 and Ingredient ID 90 as it already exists.
+2024-11-24 15:26:08,409 INFO:Skipping DishIngredient with Dish ID 34 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,409 INFO:Skipping DishIngredient with Dish ID 34 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,409 INFO:Skipping DishIngredient with Dish ID 34 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,410 INFO:Skipping DishIngredient with Dish ID 35 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,410 INFO:Skipping DishIngredient with Dish ID 35 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,410 INFO:Skipping DishIngredient with Dish ID 35 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,410 INFO:Skipping DishIngredient with Dish ID 35 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,411 INFO:Skipping DishIngredient with Dish ID 35 and Ingredient ID 81 as it already exists.
+2024-11-24 15:26:08,411 INFO:Skipping DishIngredient with Dish ID 36 and Ingredient ID 109 as it already exists.
+2024-11-24 15:26:08,411 INFO:Skipping DishIngredient with Dish ID 36 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,412 INFO:Skipping DishIngredient with Dish ID 36 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,412 INFO:Skipping DishIngredient with Dish ID 36 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,412 INFO:Skipping DishIngredient with Dish ID 36 and Ingredient ID 81 as it already exists.
+2024-11-24 15:26:08,412 INFO:Skipping DishIngredient with Dish ID 37 and Ingredient ID 113 as it already exists.
+2024-11-24 15:26:08,413 INFO:Skipping DishIngredient with Dish ID 37 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,413 INFO:Skipping DishIngredient with Dish ID 37 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,414 INFO:Skipping DishIngredient with Dish ID 37 and Ingredient ID 133 as it already exists.
+2024-11-24 15:26:08,414 INFO:Skipping DishIngredient with Dish ID 37 and Ingredient ID 85 as it already exists.
+2024-11-24 15:26:08,415 INFO:Skipping DishIngredient with Dish ID 38 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,415 INFO:Skipping DishIngredient with Dish ID 38 and Ingredient ID 133 as it already exists.
+2024-11-24 15:26:08,415 INFO:Skipping DishIngredient with Dish ID 38 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,416 INFO:Skipping DishIngredient with Dish ID 38 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,416 INFO:Skipping DishIngredient with Dish ID 38 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,416 INFO:Skipping DishIngredient with Dish ID 38 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,416 INFO:Skipping DishIngredient with Dish ID 39 and Ingredient ID 132 as it already exists.
+2024-11-24 15:26:08,417 INFO:Skipping DishIngredient with Dish ID 39 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,417 INFO:Skipping DishIngredient with Dish ID 39 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,417 INFO:Skipping DishIngredient with Dish ID 39 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,418 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,418 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 129 as it already exists.
+2024-11-24 15:26:08,418 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,418 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,419 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 127 as it already exists.
+2024-11-24 15:26:08,419 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,419 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 134 as it already exists.
+2024-11-24 15:26:08,419 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 128 as it already exists.
+2024-11-24 15:26:08,420 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,420 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,420 INFO:Skipping DishIngredient with Dish ID 40 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,421 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,421 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 135 as it already exists.
+2024-11-24 15:26:08,422 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,422 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,422 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,422 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 91 as it already exists.
+2024-11-24 15:26:08,423 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 136 as it already exists.
+2024-11-24 15:26:08,423 INFO:Skipping DishIngredient with Dish ID 41 and Ingredient ID 14 as it already exists.
+2024-11-24 15:26:08,423 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 90 as it already exists.
+2024-11-24 15:26:08,423 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,424 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,424 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,424 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,425 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,425 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 128 as it already exists.
+2024-11-24 15:26:08,425 INFO:Skipping DishIngredient with Dish ID 42 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,425 INFO:Skipping DishIngredient with Dish ID 43 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,426 INFO:Skipping DishIngredient with Dish ID 43 and Ingredient ID 134 as it already exists.
+2024-11-24 15:26:08,426 INFO:Skipping DishIngredient with Dish ID 43 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,426 INFO:Skipping DishIngredient with Dish ID 43 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,426 INFO:Skipping DishIngredient with Dish ID 43 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,427 INFO:Skipping DishIngredient with Dish ID 43 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,427 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 129 as it already exists.
+2024-11-24 15:26:08,428 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 135 as it already exists.
+2024-11-24 15:26:08,428 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,428 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,428 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,429 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,429 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,430 INFO:Skipping DishIngredient with Dish ID 44 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,430 INFO:Skipping DishIngredient with Dish ID 45 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,430 INFO:Skipping DishIngredient with Dish ID 45 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,431 INFO:Skipping DishIngredient with Dish ID 45 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,431 INFO:Skipping DishIngredient with Dish ID 45 and Ingredient ID 133 as it already exists.
+2024-11-24 15:26:08,432 INFO:Skipping DishIngredient with Dish ID 45 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,432 INFO:Skipping DishIngredient with Dish ID 45 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,432 INFO:Skipping DishIngredient with Dish ID 46 and Ingredient ID 129 as it already exists.
+2024-11-24 15:26:08,432 INFO:Skipping DishIngredient with Dish ID 46 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,433 INFO:Skipping DishIngredient with Dish ID 46 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,433 INFO:Skipping DishIngredient with Dish ID 46 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,433 INFO:Skipping DishIngredient with Dish ID 46 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,433 INFO:Skipping DishIngredient with Dish ID 46 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,434 INFO:Skipping DishIngredient with Dish ID 46 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,434 INFO:Skipping DishIngredient with Dish ID 47 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,434 INFO:Skipping DishIngredient with Dish ID 47 and Ingredient ID 14 as it already exists.
+2024-11-24 15:26:08,434 INFO:Skipping DishIngredient with Dish ID 47 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,435 INFO:Skipping DishIngredient with Dish ID 47 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,435 INFO:Skipping DishIngredient with Dish ID 47 and Ingredient ID 137 as it already exists.
+2024-11-24 15:26:08,435 INFO:Skipping DishIngredient with Dish ID 48 and Ingredient ID 138 as it already exists.
+2024-11-24 15:26:08,436 INFO:Skipping DishIngredient with Dish ID 48 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,436 INFO:Skipping DishIngredient with Dish ID 48 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,436 INFO:Skipping DishIngredient with Dish ID 48 and Ingredient ID 83 as it already exists.
+2024-11-24 15:26:08,436 INFO:Skipping DishIngredient with Dish ID 48 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,437 INFO:Skipping DishIngredient with Dish ID 48 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,437 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,437 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,437 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,438 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 134 as it already exists.
+2024-11-24 15:26:08,438 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,439 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 86 as it already exists.
+2024-11-24 15:26:08,439 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,439 INFO:Skipping DishIngredient with Dish ID 49 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,439 INFO:Skipping DishIngredient with Dish ID 50 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,440 INFO:Skipping DishIngredient with Dish ID 50 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,440 INFO:Skipping DishIngredient with Dish ID 50 and Ingredient ID 139 as it already exists.
+2024-11-24 15:26:08,440 INFO:Skipping DishIngredient with Dish ID 50 and Ingredient ID 92 as it already exists.
+2024-11-24 15:26:08,441 INFO:Skipping DishIngredient with Dish ID 50 and Ingredient ID 96 as it already exists.
+2024-11-24 15:26:08,441 INFO:Skipping DishIngredient with Dish ID 50 and Ingredient ID 140 as it already exists.
+2024-11-24 15:26:08,441 INFO:Skipping DishIngredient with Dish ID 51 and Ingredient ID 130 as it already exists.
+2024-11-24 15:26:08,441 INFO:Skipping DishIngredient with Dish ID 51 and Ingredient ID 141 as it already exists.
+2024-11-24 15:26:08,442 INFO:Skipping DishIngredient with Dish ID 51 and Ingredient ID 142 as it already exists.
+2024-11-24 15:26:08,442 INFO:Skipping DishIngredient with Dish ID 51 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,442 INFO:Skipping DishIngredient with Dish ID 51 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,442 INFO:Skipping DishIngredient with Dish ID 51 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,443 INFO:Skipping DishIngredient with Dish ID 52 and Ingredient ID 127 as it already exists.
+2024-11-24 15:26:08,443 INFO:Skipping DishIngredient with Dish ID 52 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,443 INFO:Skipping DishIngredient with Dish ID 52 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,444 INFO:Skipping DishIngredient with Dish ID 52 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,444 INFO:Skipping DishIngredient with Dish ID 52 and Ingredient ID 92 as it already exists.
+2024-11-24 15:26:08,444 INFO:Skipping DishIngredient with Dish ID 52 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,445 INFO:Skipping DishIngredient with Dish ID 53 and Ingredient ID 143 as it already exists.
+2024-11-24 15:26:08,445 INFO:Skipping DishIngredient with Dish ID 53 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,445 INFO:Skipping DishIngredient with Dish ID 53 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,445 INFO:Skipping DishIngredient with Dish ID 53 and Ingredient ID 93 as it already exists.
+2024-11-24 15:26:08,446 INFO:Skipping DishIngredient with Dish ID 53 and Ingredient ID 94 as it already exists.
+2024-11-24 15:26:08,446 INFO:Skipping DishIngredient with Dish ID 54 and Ingredient ID 127 as it already exists.
+2024-11-24 15:26:08,447 INFO:Skipping DishIngredient with Dish ID 54 and Ingredient ID 134 as it already exists.
+2024-11-24 15:26:08,447 INFO:Skipping DishIngredient with Dish ID 54 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,447 INFO:Skipping DishIngredient with Dish ID 54 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,448 INFO:Skipping DishIngredient with Dish ID 54 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,448 INFO:Skipping DishIngredient with Dish ID 54 and Ingredient ID 95 as it already exists.
+2024-11-24 15:26:08,448 INFO:Skipping DishIngredient with Dish ID 55 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,449 INFO:Skipping DishIngredient with Dish ID 55 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,449 INFO:Skipping DishIngredient with Dish ID 55 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,449 INFO:Skipping DishIngredient with Dish ID 55 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,449 INFO:Skipping DishIngredient with Dish ID 55 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,450 INFO:Skipping DishIngredient with Dish ID 56 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,450 INFO:Skipping DishIngredient with Dish ID 56 and Ingredient ID 133 as it already exists.
+2024-11-24 15:26:08,450 INFO:Skipping DishIngredient with Dish ID 56 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,451 INFO:Skipping DishIngredient with Dish ID 56 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,451 INFO:Skipping DishIngredient with Dish ID 56 and Ingredient ID 29 as it already exists.
+2024-11-24 15:26:08,451 INFO:Skipping DishIngredient with Dish ID 56 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,451 INFO:Skipping DishIngredient with Dish ID 57 and Ingredient ID 129 as it already exists.
+2024-11-24 15:26:08,452 INFO:Skipping DishIngredient with Dish ID 57 and Ingredient ID 141 as it already exists.
+2024-11-24 15:26:08,452 INFO:Skipping DishIngredient with Dish ID 57 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,452 INFO:Skipping DishIngredient with Dish ID 57 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,452 INFO:Skipping DishIngredient with Dish ID 57 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,453 INFO:Skipping DishIngredient with Dish ID 57 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,453 INFO:Skipping DishIngredient with Dish ID 58 and Ingredient ID 131 as it already exists.
+2024-11-24 15:26:08,453 INFO:Skipping DishIngredient with Dish ID 58 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,454 INFO:Skipping DishIngredient with Dish ID 58 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,454 INFO:Skipping DishIngredient with Dish ID 58 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,454 INFO:Skipping DishIngredient with Dish ID 58 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,455 INFO:Skipping DishIngredient with Dish ID 59 and Ingredient ID 144 as it already exists.
+2024-11-24 15:26:08,455 INFO:Skipping DishIngredient with Dish ID 59 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,455 INFO:Skipping DishIngredient with Dish ID 59 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,456 INFO:Skipping DishIngredient with Dish ID 59 and Ingredient ID 92 as it already exists.
+2024-11-24 15:26:08,456 INFO:Skipping DishIngredient with Dish ID 59 and Ingredient ID 98 as it already exists.
+2024-11-24 15:26:08,456 INFO:Skipping DishIngredient with Dish ID 60 and Ingredient ID 145 as it already exists.
+2024-11-24 15:26:08,456 INFO:Skipping DishIngredient with Dish ID 60 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,457 INFO:Skipping DishIngredient with Dish ID 60 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,457 INFO:Skipping DishIngredient with Dish ID 60 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,457 INFO:Skipping DishIngredient with Dish ID 60 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,458 INFO:Skipping DishIngredient with Dish ID 61 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,458 INFO:Skipping DishIngredient with Dish ID 61 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,458 INFO:Skipping DishIngredient with Dish ID 61 and Ingredient ID 99 as it already exists.
+2024-11-24 15:26:08,458 INFO:Skipping DishIngredient with Dish ID 61 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,459 INFO:Skipping DishIngredient with Dish ID 61 and Ingredient ID 100 as it already exists.
+2024-11-24 15:26:08,459 INFO:Skipping DishIngredient with Dish ID 62 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,459 INFO:Skipping DishIngredient with Dish ID 62 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,460 INFO:Skipping DishIngredient with Dish ID 62 and Ingredient ID 92 as it already exists.
+2024-11-24 15:26:08,460 INFO:Skipping DishIngredient with Dish ID 62 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,460 INFO:Skipping DishIngredient with Dish ID 62 and Ingredient ID 23 as it already exists.
+2024-11-24 15:26:08,461 INFO:Skipping DishIngredient with Dish ID 63 and Ingredient ID 113 as it already exists.
+2024-11-24 15:26:08,461 INFO:Skipping DishIngredient with Dish ID 63 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,461 INFO:Skipping DishIngredient with Dish ID 63 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,461 INFO:Skipping DishIngredient with Dish ID 63 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,462 INFO:Skipping DishIngredient with Dish ID 63 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,462 INFO:Skipping DishIngredient with Dish ID 64 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,462 INFO:Skipping DishIngredient with Dish ID 64 and Ingredient ID 133 as it already exists.
+2024-11-24 15:26:08,463 INFO:Skipping DishIngredient with Dish ID 64 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,463 INFO:Skipping DishIngredient with Dish ID 64 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,464 INFO:Skipping DishIngredient with Dish ID 64 and Ingredient ID 99 as it already exists.
+2024-11-24 15:26:08,464 INFO:Skipping DishIngredient with Dish ID 65 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,464 INFO:Skipping DishIngredient with Dish ID 65 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,464 INFO:Skipping DishIngredient with Dish ID 65 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,465 INFO:Skipping DishIngredient with Dish ID 65 and Ingredient ID 29 as it already exists.
+2024-11-24 15:26:08,465 INFO:Skipping DishIngredient with Dish ID 65 and Ingredient ID 101 as it already exists.
+2024-11-24 15:26:08,465 INFO:Skipping DishIngredient with Dish ID 66 and Ingredient ID 127 as it already exists.
+2024-11-24 15:26:08,466 INFO:Skipping DishIngredient with Dish ID 66 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,466 INFO:Skipping DishIngredient with Dish ID 66 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,466 INFO:Skipping DishIngredient with Dish ID 66 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,466 INFO:Skipping DishIngredient with Dish ID 66 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,467 INFO:Skipping DishIngredient with Dish ID 67 and Ingredient ID 144 as it already exists.
+2024-11-24 15:26:08,467 INFO:Skipping DishIngredient with Dish ID 67 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,467 INFO:Skipping DishIngredient with Dish ID 67 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,467 INFO:Skipping DishIngredient with Dish ID 67 and Ingredient ID 92 as it already exists.
+2024-11-24 15:26:08,468 INFO:Skipping DishIngredient with Dish ID 67 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,468 INFO:Skipping DishIngredient with Dish ID 67 and Ingredient ID 13 as it already exists.
+2024-11-24 15:26:08,468 INFO:Skipping DishIngredient with Dish ID 68 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,468 INFO:Skipping DishIngredient with Dish ID 68 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,469 INFO:Skipping DishIngredient with Dish ID 68 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,469 INFO:Skipping DishIngredient with Dish ID 68 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,469 INFO:Skipping DishIngredient with Dish ID 68 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,470 INFO:Skipping DishIngredient with Dish ID 69 and Ingredient ID 22 as it already exists.
+2024-11-24 15:26:08,470 INFO:Skipping DishIngredient with Dish ID 69 and Ingredient ID 146 as it already exists.
+2024-11-24 15:26:08,470 INFO:Skipping DishIngredient with Dish ID 69 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,470 INFO:Skipping DishIngredient with Dish ID 69 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,471 INFO:Skipping DishIngredient with Dish ID 69 and Ingredient ID 92 as it already exists.
+2024-11-24 15:26:08,471 INFO:Skipping DishIngredient with Dish ID 70 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,471 INFO:Skipping DishIngredient with Dish ID 70 and Ingredient ID 2 as it already exists.
+2024-11-24 15:26:08,471 INFO:Skipping DishIngredient with Dish ID 70 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,472 INFO:Skipping DishIngredient with Dish ID 70 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,473 INFO:Skipping DishIngredient with Dish ID 70 and Ingredient ID 80 as it already exists.
+2024-11-24 15:26:08,473 INFO:Skipping DishIngredient with Dish ID 71 and Ingredient ID 130 as it already exists.
+2024-11-24 15:26:08,473 INFO:Skipping DishIngredient with Dish ID 71 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,473 INFO:Skipping DishIngredient with Dish ID 71 and Ingredient ID 92 as it already exists.
+2024-11-24 15:26:08,474 INFO:Skipping DishIngredient with Dish ID 71 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,474 INFO:Skipping DishIngredient with Dish ID 71 and Ingredient ID 84 as it already exists.
+2024-11-24 15:26:08,474 INFO:Skipping DishIngredient with Dish ID 72 and Ingredient ID 113 as it already exists.
+2024-11-24 15:26:08,474 INFO:Skipping DishIngredient with Dish ID 72 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,475 INFO:Skipping DishIngredient with Dish ID 72 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,475 INFO:Skipping DishIngredient with Dish ID 72 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,475 INFO:Skipping DishIngredient with Dish ID 72 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,476 INFO:Skipping DishIngredient with Dish ID 73 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,476 INFO:Skipping DishIngredient with Dish ID 73 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,476 INFO:Skipping DishIngredient with Dish ID 73 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,477 INFO:Skipping DishIngredient with Dish ID 73 and Ingredient ID 23 as it already exists.
+2024-11-24 15:26:08,477 INFO:Skipping DishIngredient with Dish ID 73 and Ingredient ID 98 as it already exists.
+2024-11-24 15:26:08,477 INFO:Skipping DishIngredient with Dish ID 74 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,477 INFO:Skipping DishIngredient with Dish ID 74 and Ingredient ID 141 as it already exists.
+2024-11-24 15:26:08,478 INFO:Skipping DishIngredient with Dish ID 74 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,478 INFO:Skipping DishIngredient with Dish ID 74 and Ingredient ID 29 as it already exists.
+2024-11-24 15:26:08,478 INFO:Skipping DishIngredient with Dish ID 74 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,478 INFO:Skipping DishIngredient with Dish ID 99 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,479 INFO:Skipping DishIngredient with Dish ID 99 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,479 INFO:Skipping DishIngredient with Dish ID 99 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,479 INFO:Skipping DishIngredient with Dish ID 99 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,480 INFO:Skipping DishIngredient with Dish ID 75 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,480 INFO:Skipping DishIngredient with Dish ID 75 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,480 INFO:Skipping DishIngredient with Dish ID 75 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,481 INFO:Skipping DishIngredient with Dish ID 76 and Ingredient ID 105 as it already exists.
+2024-11-24 15:26:08,481 INFO:Skipping DishIngredient with Dish ID 76 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,481 INFO:Skipping DishIngredient with Dish ID 76 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,482 INFO:Skipping DishIngredient with Dish ID 76 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,482 INFO:Skipping DishIngredient with Dish ID 77 and Ingredient ID 106 as it already exists.
+2024-11-24 15:26:08,482 INFO:Skipping DishIngredient with Dish ID 77 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,482 INFO:Skipping DishIngredient with Dish ID 77 and Ingredient ID 107 as it already exists.
+2024-11-24 15:26:08,483 INFO:Skipping DishIngredient with Dish ID 78 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,483 INFO:Skipping DishIngredient with Dish ID 78 and Ingredient ID 50 as it already exists.
+2024-11-24 15:26:08,483 INFO:Skipping DishIngredient with Dish ID 78 and Ingredient ID 108 as it already exists.
+2024-11-24 15:26:08,483 INFO:Skipping DishIngredient with Dish ID 79 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,484 INFO:Skipping DishIngredient with Dish ID 79 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,484 INFO:Skipping DishIngredient with Dish ID 79 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,484 INFO:Skipping DishIngredient with Dish ID 79 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,485 INFO:Skipping DishIngredient with Dish ID 79 and Ingredient ID 109 as it already exists.
+2024-11-24 15:26:08,485 INFO:Skipping DishIngredient with Dish ID 80 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,485 INFO:Skipping DishIngredient with Dish ID 80 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,485 INFO:Skipping DishIngredient with Dish ID 80 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,486 INFO:Skipping DishIngredient with Dish ID 80 and Ingredient ID 110 as it already exists.
+2024-11-24 15:26:08,486 INFO:Skipping DishIngredient with Dish ID 80 and Ingredient ID 126 as it already exists.
+2024-11-24 15:26:08,486 INFO:Skipping DishIngredient with Dish ID 81 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,487 INFO:Skipping DishIngredient with Dish ID 81 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,487 INFO:Skipping DishIngredient with Dish ID 81 and Ingredient ID 63 as it already exists.
+2024-11-24 15:26:08,487 INFO:Skipping DishIngredient with Dish ID 81 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,487 INFO:Skipping DishIngredient with Dish ID 81 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,488 INFO:Skipping DishIngredient with Dish ID 81 and Ingredient ID 111 as it already exists.
+2024-11-24 15:26:08,488 INFO:Skipping DishIngredient with Dish ID 82 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,489 INFO:Skipping DishIngredient with Dish ID 82 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,489 INFO:Skipping DishIngredient with Dish ID 82 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,490 INFO:Skipping DishIngredient with Dish ID 83 and Ingredient ID 62 as it already exists.
+2024-11-24 15:26:08,490 INFO:Skipping DishIngredient with Dish ID 83 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,490 INFO:Skipping DishIngredient with Dish ID 83 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,491 INFO:Skipping DishIngredient with Dish ID 83 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,491 INFO:Skipping DishIngredient with Dish ID 83 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,491 INFO:Skipping DishIngredient with Dish ID 84 and Ingredient ID 106 as it already exists.
+2024-11-24 15:26:08,492 INFO:Skipping DishIngredient with Dish ID 84 and Ingredient ID 110 as it already exists.
+2024-11-24 15:26:08,492 INFO:Skipping DishIngredient with Dish ID 84 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,492 INFO:Skipping DishIngredient with Dish ID 84 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,492 INFO:Skipping DishIngredient with Dish ID 85 and Ingredient ID 113 as it already exists.
+2024-11-24 15:26:08,493 INFO:Skipping DishIngredient with Dish ID 85 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,493 INFO:Skipping DishIngredient with Dish ID 85 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,493 INFO:Skipping DishIngredient with Dish ID 86 and Ingredient ID 63 as it already exists.
+2024-11-24 15:26:08,494 INFO:Skipping DishIngredient with Dish ID 86 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,494 INFO:Skipping DishIngredient with Dish ID 86 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,494 INFO:Skipping DishIngredient with Dish ID 86 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,494 INFO:Skipping DishIngredient with Dish ID 87 and Ingredient ID 114 as it already exists.
+2024-11-24 15:26:08,495 INFO:Skipping DishIngredient with Dish ID 87 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,495 INFO:Skipping DishIngredient with Dish ID 87 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,495 INFO:Skipping DishIngredient with Dish ID 88 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,496 INFO:Skipping DishIngredient with Dish ID 88 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,496 INFO:Skipping DishIngredient with Dish ID 88 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,497 INFO:Skipping DishIngredient with Dish ID 88 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,497 INFO:Skipping DishIngredient with Dish ID 89 and Ingredient ID 110 as it already exists.
+2024-11-24 15:26:08,497 INFO:Skipping DishIngredient with Dish ID 89 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,498 INFO:Skipping DishIngredient with Dish ID 89 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,498 INFO:Skipping DishIngredient with Dish ID 89 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,498 INFO:Skipping DishIngredient with Dish ID 90 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,499 INFO:Skipping DishIngredient with Dish ID 90 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,499 INFO:Skipping DishIngredient with Dish ID 90 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,499 INFO:Skipping DishIngredient with Dish ID 91 and Ingredient ID 115 as it already exists.
+2024-11-24 15:26:08,500 INFO:Skipping DishIngredient with Dish ID 91 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,500 INFO:Skipping DishIngredient with Dish ID 91 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,500 INFO:Skipping DishIngredient with Dish ID 91 and Ingredient ID 110 as it already exists.
+2024-11-24 15:26:08,501 INFO:Skipping DishIngredient with Dish ID 91 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,501 INFO:Skipping DishIngredient with Dish ID 91 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,501 INFO:Skipping DishIngredient with Dish ID 91 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,501 INFO:Skipping DishIngredient with Dish ID 92 and Ingredient ID 116 as it already exists.
+2024-11-24 15:26:08,502 INFO:Skipping DishIngredient with Dish ID 92 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,502 INFO:Skipping DishIngredient with Dish ID 92 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,502 INFO:Skipping DishIngredient with Dish ID 92 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,502 INFO:Skipping DishIngredient with Dish ID 92 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,503 INFO:Skipping DishIngredient with Dish ID 93 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,503 INFO:Skipping DishIngredient with Dish ID 93 and Ingredient ID 106 as it already exists.
+2024-11-24 15:26:08,503 INFO:Skipping DishIngredient with Dish ID 93 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,504 INFO:Skipping DishIngredient with Dish ID 94 and Ingredient ID 110 as it already exists.
+2024-11-24 15:26:08,504 INFO:Skipping DishIngredient with Dish ID 94 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,504 INFO:Skipping DishIngredient with Dish ID 94 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,504 INFO:Skipping DishIngredient with Dish ID 94 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,505 INFO:Skipping DishIngredient with Dish ID 94 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,505 INFO:Skipping DishIngredient with Dish ID 95 and Ingredient ID 117 as it already exists.
+2024-11-24 15:26:08,506 INFO:Skipping DishIngredient with Dish ID 95 and Ingredient ID 118 as it already exists.
+2024-11-24 15:26:08,506 INFO:Skipping DishIngredient with Dish ID 95 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,506 INFO:Skipping DishIngredient with Dish ID 95 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,507 INFO:Skipping DishIngredient with Dish ID 96 and Ingredient ID 103 as it already exists.
+2024-11-24 15:26:08,507 INFO:Skipping DishIngredient with Dish ID 96 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,507 INFO:Skipping DishIngredient with Dish ID 96 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,507 INFO:Skipping DishIngredient with Dish ID 96 and Ingredient ID 88 as it already exists.
+2024-11-24 15:26:08,508 INFO:Skipping DishIngredient with Dish ID 96 and Ingredient ID 104 as it already exists.
+2024-11-24 15:26:08,508 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,508 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 106 as it already exists.
+2024-11-24 15:26:08,508 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 112 as it already exists.
+2024-11-24 15:26:08,509 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 19 as it already exists.
+2024-11-24 15:26:08,509 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 119 as it already exists.
+2024-11-24 15:26:08,509 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 113 as it already exists.
+2024-11-24 15:26:08,510 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 31 as it already exists.
+2024-11-24 15:26:08,510 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,510 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 97 as it already exists.
+2024-11-24 15:26:08,510 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 82 as it already exists.
+2024-11-24 15:26:08,511 INFO:Skipping DishIngredient with Dish ID 97 and Ingredient ID 102 as it already exists.
+2024-11-24 15:26:08,511 INFO:Skipping DishIngredient with Dish ID 98 and Ingredient ID 111 as it already exists.
+2024-11-24 15:26:08,511 INFO:Skipping DishIngredient with Dish ID 98 and Ingredient ID 39 as it already exists.
+2024-11-24 15:26:08,511 INFO:Skipping DishIngredient with Dish ID 98 and Ingredient ID 58 as it already exists.
+2024-11-24 15:26:08,512 INFO:Skipping DishIngredient with Dish ID 98 and Ingredient ID 89 as it already exists.
+2024-11-24 15:26:08,512 INFO:Skipping DishIngredient with Dish ID 98 and Ingredient ID 80 as it already exists.
+2024-11-24 15:26:08,512 INFO:Skipping DishIngredient with Dish ID 98 and Ingredient ID 68 as it already exists.
+2024-11-24 15:26:08,513 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 2 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,514 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 3 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,514 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 3 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,514 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 5 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,515 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 5 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,515 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 10 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,515 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 10 and Restriction ID 7 as it already exists.
+2024-11-24 15:26:08,516 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 14 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,516 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 17 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,516 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 17 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,517 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 15 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,517 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 16 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,517 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 21 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,518 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 21 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,518 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 22 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,518 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 22 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,518 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 25 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,519 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 25 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,519 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 26 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,519 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 29 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,519 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 29 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,520 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 30 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,520 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 31 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,520 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 32 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,520 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 34 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,521 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 40 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,521 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 40 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,521 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 42 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,521 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 42 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,522 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 44 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,522 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 44 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,522 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 45 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,523 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 45 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,523 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 48 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,523 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 51 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,523 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 52 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,524 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 52 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,524 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 53 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,524 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 53 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,524 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 59 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,525 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 59 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,525 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 60 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,525 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 62 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,525 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 62 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,526 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 64 and Restriction ID 7 as it already exists.
+2024-11-24 15:26:08,526 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 65 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,526 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 66 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,527 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 66 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,527 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 70 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,527 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 70 and Restriction ID 3 as it already exists.
+2024-11-24 15:26:08,527 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 77 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,528 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 77 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,528 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 78 and Restriction ID 7 as it already exists.
+2024-11-24 15:26:08,528 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 79 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,528 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 79 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,529 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 81 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,529 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 82 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,529 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 83 and Restriction ID 7 as it already exists.
+2024-11-24 15:26:08,529 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 86 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,530 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 86 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,530 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 90 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,530 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 91 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,531 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 93 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,531 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 93 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,531 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 94 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,532 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 98 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,532 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 99 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,532 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 105 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,532 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 105 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,533 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 106 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,533 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 106 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,533 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 108 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,533 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 108 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,534 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 109 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,534 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 109 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,534 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 111 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,534 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 111 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,535 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 115 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,535 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 115 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,535 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 116 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,535 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 116 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,536 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 120 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,536 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 120 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,536 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 121 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,536 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 121 and Restriction ID 2 as it already exists.
+2024-11-24 15:26:08,537 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 123 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,537 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 123 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,537 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 129 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,537 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 129 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,538 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 130 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,538 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 130 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,538 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 131 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,539 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 131 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,539 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 132 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,539 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 132 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,539 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 138 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,540 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 138 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,540 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 142 and Restriction ID 4 as it already exists.
+2024-11-24 15:26:08,540 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 143 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,541 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 143 and Restriction ID 6 as it already exists.
+2024-11-24 15:26:08,541 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 144 and Restriction ID 1 as it already exists.
+2024-11-24 15:26:08,541 INFO:Skipping IngredientDietaryRestriction with Ingredient ID 144 and Restriction ID 5 as it already exists.
+2024-11-24 15:26:08,542 INFO:Skipping DishMealType with Dish ID 1 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,542 INFO:Skipping DishMealType with Dish ID 1 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,543 INFO:Skipping DishMealType with Dish ID 2 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,543 INFO:Skipping DishMealType with Dish ID 2 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,543 INFO:Skipping DishMealType with Dish ID 3 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,543 INFO:Skipping DishMealType with Dish ID 3 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,544 INFO:Skipping DishMealType with Dish ID 4 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,544 INFO:Skipping DishMealType with Dish ID 4 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,544 INFO:Skipping DishMealType with Dish ID 4 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,544 INFO:Skipping DishMealType with Dish ID 5 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,545 INFO:Skipping DishMealType with Dish ID 5 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,545 INFO:Skipping DishMealType with Dish ID 6 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,545 INFO:Skipping DishMealType with Dish ID 6 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,545 INFO:Skipping DishMealType with Dish ID 7 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,546 INFO:Skipping DishMealType with Dish ID 7 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,546 INFO:Skipping DishMealType with Dish ID 8 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,546 INFO:Skipping DishMealType with Dish ID 8 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,547 INFO:Skipping DishMealType with Dish ID 9 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,547 INFO:Skipping DishMealType with Dish ID 9 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,547 INFO:Skipping DishMealType with Dish ID 9 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,548 INFO:Skipping DishMealType with Dish ID 10 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,548 INFO:Skipping DishMealType with Dish ID 10 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,548 INFO:Skipping DishMealType with Dish ID 11 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,548 INFO:Skipping DishMealType with Dish ID 11 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,549 INFO:Skipping DishMealType with Dish ID 11 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,549 INFO:Skipping DishMealType with Dish ID 12 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,549 INFO:Skipping DishMealType with Dish ID 12 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,549 INFO:Skipping DishMealType with Dish ID 13 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,550 INFO:Skipping DishMealType with Dish ID 13 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,550 INFO:Skipping DishMealType with Dish ID 14 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,550 INFO:Skipping DishMealType with Dish ID 14 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,550 INFO:Skipping DishMealType with Dish ID 15 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,551 INFO:Skipping DishMealType with Dish ID 15 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,551 INFO:Skipping DishMealType with Dish ID 15 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,551 INFO:Skipping DishMealType with Dish ID 16 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,551 INFO:Skipping DishMealType with Dish ID 16 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,552 INFO:Skipping DishMealType with Dish ID 16 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,552 INFO:Skipping DishMealType with Dish ID 17 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,552 INFO:Skipping DishMealType with Dish ID 17 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,552 INFO:Skipping DishMealType with Dish ID 18 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,553 INFO:Skipping DishMealType with Dish ID 18 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,553 INFO:Skipping DishMealType with Dish ID 18 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,553 INFO:Skipping DishMealType with Dish ID 19 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,553 INFO:Skipping DishMealType with Dish ID 19 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,554 INFO:Skipping DishMealType with Dish ID 19 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,554 INFO:Skipping DishMealType with Dish ID 20 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,554 INFO:Skipping DishMealType with Dish ID 20 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,554 INFO:Skipping DishMealType with Dish ID 21 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,555 INFO:Skipping DishMealType with Dish ID 21 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,555 INFO:Skipping DishMealType with Dish ID 22 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,555 INFO:Skipping DishMealType with Dish ID 23 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,556 INFO:Skipping DishMealType with Dish ID 23 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,556 INFO:Skipping DishMealType with Dish ID 23 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,556 INFO:Skipping DishMealType with Dish ID 24 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,557 INFO:Skipping DishMealType with Dish ID 24 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,557 INFO:Skipping DishMealType with Dish ID 25 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,557 INFO:Skipping DishMealType with Dish ID 25 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,558 INFO:Skipping DishMealType with Dish ID 26 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,558 INFO:Skipping DishMealType with Dish ID 26 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,558 INFO:Skipping DishMealType with Dish ID 27 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,558 INFO:Skipping DishMealType with Dish ID 27 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,559 INFO:Skipping DishMealType with Dish ID 27 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,559 INFO:Skipping DishMealType with Dish ID 27 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,559 INFO:Skipping DishMealType with Dish ID 28 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,559 INFO:Skipping DishMealType with Dish ID 28 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,560 INFO:Skipping DishMealType with Dish ID 29 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,560 INFO:Skipping DishMealType with Dish ID 29 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,560 INFO:Skipping DishMealType with Dish ID 30 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,560 INFO:Skipping DishMealType with Dish ID 30 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,561 INFO:Skipping DishMealType with Dish ID 30 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,561 INFO:Skipping DishMealType with Dish ID 31 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,561 INFO:Skipping DishMealType with Dish ID 31 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,561 INFO:Skipping DishMealType with Dish ID 32 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,562 INFO:Skipping DishMealType with Dish ID 32 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,562 INFO:Skipping DishMealType with Dish ID 33 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,562 INFO:Skipping DishMealType with Dish ID 33 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,562 INFO:Skipping DishMealType with Dish ID 34 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,563 INFO:Skipping DishMealType with Dish ID 34 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,563 INFO:Skipping DishMealType with Dish ID 35 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,563 INFO:Skipping DishMealType with Dish ID 35 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,563 INFO:Skipping DishMealType with Dish ID 35 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,564 INFO:Skipping DishMealType with Dish ID 36 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,564 INFO:Skipping DishMealType with Dish ID 36 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,564 INFO:Skipping DishMealType with Dish ID 37 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,564 INFO:Skipping DishMealType with Dish ID 37 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,565 INFO:Skipping DishMealType with Dish ID 37 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,565 INFO:Skipping DishMealType with Dish ID 38 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,565 INFO:Skipping DishMealType with Dish ID 39 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,565 INFO:Skipping DishMealType with Dish ID 39 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,566 INFO:Skipping DishMealType with Dish ID 39 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,566 INFO:Skipping DishMealType with Dish ID 40 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,566 INFO:Skipping DishMealType with Dish ID 40 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,566 INFO:Skipping DishMealType with Dish ID 41 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,567 INFO:Skipping DishMealType with Dish ID 41 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,567 INFO:Skipping DishMealType with Dish ID 42 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,567 INFO:Skipping DishMealType with Dish ID 42 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,567 INFO:Skipping DishMealType with Dish ID 43 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,568 INFO:Skipping DishMealType with Dish ID 44 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,568 INFO:Skipping DishMealType with Dish ID 44 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,568 INFO:Skipping DishMealType with Dish ID 45 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,568 INFO:Skipping DishMealType with Dish ID 45 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,569 INFO:Skipping DishMealType with Dish ID 46 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,569 INFO:Skipping DishMealType with Dish ID 46 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,569 INFO:Skipping DishMealType with Dish ID 47 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,569 INFO:Skipping DishMealType with Dish ID 47 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,570 INFO:Skipping DishMealType with Dish ID 48 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,570 INFO:Skipping DishMealType with Dish ID 48 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,570 INFO:Skipping DishMealType with Dish ID 49 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,570 INFO:Skipping DishMealType with Dish ID 49 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,571 INFO:Skipping DishMealType with Dish ID 50 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,571 INFO:Skipping DishMealType with Dish ID 50 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,571 INFO:Skipping DishMealType with Dish ID 51 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,572 INFO:Skipping DishMealType with Dish ID 51 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,572 INFO:Skipping DishMealType with Dish ID 52 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,572 INFO:Skipping DishMealType with Dish ID 52 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,573 INFO:Skipping DishMealType with Dish ID 53 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,573 INFO:Skipping DishMealType with Dish ID 53 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,573 INFO:Skipping DishMealType with Dish ID 54 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,573 INFO:Skipping DishMealType with Dish ID 54 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,574 INFO:Skipping DishMealType with Dish ID 54 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,574 INFO:Skipping DishMealType with Dish ID 55 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,574 INFO:Skipping DishMealType with Dish ID 55 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,575 INFO:Skipping DishMealType with Dish ID 55 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,575 INFO:Skipping DishMealType with Dish ID 56 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,575 INFO:Skipping DishMealType with Dish ID 56 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,575 INFO:Skipping DishMealType with Dish ID 57 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,576 INFO:Skipping DishMealType with Dish ID 57 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,576 INFO:Skipping DishMealType with Dish ID 58 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,576 INFO:Skipping DishMealType with Dish ID 58 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,576 INFO:Skipping DishMealType with Dish ID 59 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,577 INFO:Skipping DishMealType with Dish ID 59 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,577 INFO:Skipping DishMealType with Dish ID 60 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,577 INFO:Skipping DishMealType with Dish ID 61 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,577 INFO:Skipping DishMealType with Dish ID 61 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,578 INFO:Skipping DishMealType with Dish ID 62 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,578 INFO:Skipping DishMealType with Dish ID 62 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,578 INFO:Skipping DishMealType with Dish ID 62 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,578 INFO:Skipping DishMealType with Dish ID 63 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,579 INFO:Skipping DishMealType with Dish ID 63 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,579 INFO:Skipping DishMealType with Dish ID 63 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,579 INFO:Skipping DishMealType with Dish ID 64 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,579 INFO:Skipping DishMealType with Dish ID 64 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,580 INFO:Skipping DishMealType with Dish ID 65 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,580 INFO:Skipping DishMealType with Dish ID 65 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,580 INFO:Skipping DishMealType with Dish ID 66 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,580 INFO:Skipping DishMealType with Dish ID 66 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,581 INFO:Skipping DishMealType with Dish ID 66 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,581 INFO:Skipping DishMealType with Dish ID 67 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,581 INFO:Skipping DishMealType with Dish ID 67 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,581 INFO:Skipping DishMealType with Dish ID 68 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,582 INFO:Skipping DishMealType with Dish ID 68 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,582 INFO:Skipping DishMealType with Dish ID 69 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,582 INFO:Skipping DishMealType with Dish ID 69 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,582 INFO:Skipping DishMealType with Dish ID 69 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,583 INFO:Skipping DishMealType with Dish ID 70 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,583 INFO:Skipping DishMealType with Dish ID 70 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,583 INFO:Skipping DishMealType with Dish ID 70 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,583 INFO:Skipping DishMealType with Dish ID 71 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,584 INFO:Skipping DishMealType with Dish ID 71 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,584 INFO:Skipping DishMealType with Dish ID 72 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,584 INFO:Skipping DishMealType with Dish ID 72 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,584 INFO:Skipping DishMealType with Dish ID 73 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,585 INFO:Skipping DishMealType with Dish ID 73 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,585 INFO:Skipping DishMealType with Dish ID 73 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,585 INFO:Skipping DishMealType with Dish ID 74 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,585 INFO:Skipping DishMealType with Dish ID 74 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,586 INFO:Skipping DishMealType with Dish ID 75 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,586 INFO:Skipping DishMealType with Dish ID 76 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,586 INFO:Skipping DishMealType with Dish ID 77 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,587 INFO:Skipping DishMealType with Dish ID 77 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,587 INFO:Skipping DishMealType with Dish ID 77 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,587 INFO:Skipping DishMealType with Dish ID 78 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,588 INFO:Skipping DishMealType with Dish ID 78 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,588 INFO:Skipping DishMealType with Dish ID 79 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,588 INFO:Skipping DishMealType with Dish ID 79 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,588 INFO:Skipping DishMealType with Dish ID 80 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,589 INFO:Skipping DishMealType with Dish ID 81 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,589 INFO:Skipping DishMealType with Dish ID 81 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,589 INFO:Skipping DishMealType with Dish ID 82 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,590 INFO:Skipping DishMealType with Dish ID 83 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,590 INFO:Skipping DishMealType with Dish ID 83 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,590 INFO:Skipping DishMealType with Dish ID 84 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,590 INFO:Skipping DishMealType with Dish ID 84 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,591 INFO:Skipping DishMealType with Dish ID 84 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,591 INFO:Skipping DishMealType with Dish ID 85 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,591 INFO:Skipping DishMealType with Dish ID 86 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,591 INFO:Skipping DishMealType with Dish ID 87 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,592 INFO:Skipping DishMealType with Dish ID 88 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,592 INFO:Skipping DishMealType with Dish ID 89 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,592 INFO:Skipping DishMealType with Dish ID 90 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,593 INFO:Skipping DishMealType with Dish ID 90 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,593 INFO:Skipping DishMealType with Dish ID 91 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,593 INFO:Skipping DishMealType with Dish ID 91 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,593 INFO:Skipping DishMealType with Dish ID 92 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,594 INFO:Skipping DishMealType with Dish ID 92 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,594 INFO:Skipping DishMealType with Dish ID 93 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,594 INFO:Skipping DishMealType with Dish ID 94 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,594 INFO:Skipping DishMealType with Dish ID 95 and Type ID 1 as it already exists.
+2024-11-24 15:26:08,595 INFO:Skipping DishMealType with Dish ID 95 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,595 INFO:Skipping DishMealType with Dish ID 96 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,595 INFO:Skipping DishMealType with Dish ID 97 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,595 INFO:Skipping DishMealType with Dish ID 97 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,596 INFO:Skipping DishMealType with Dish ID 98 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,596 INFO:Skipping DishMealType with Dish ID 98 and Type ID 3 as it already exists.
+2024-11-24 15:26:08,596 INFO:Skipping DishMealType with Dish ID 99 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,596 INFO:Skipping DishMealType with Dish ID 100 and Type ID 4 as it already exists.
+2024-11-24 15:26:08,597 INFO:Skipping DishMealType with Dish ID 100 and Type ID 5 as it already exists.
+2024-11-24 15:26:08,597 INFO:Skipping DishMealType with Dish ID 100 and Type ID 2 as it already exists.
+2024-11-24 15:26:08,597 INFO:Skipping DishMealType with Dish ID 100 and Type ID 3 as it already exists.
+2024-11-24 15:27:33,596 INFO:Reading data from sheet: ingredient
+2024-11-24 15:27:33,746 INFO:Reading data from sheet: dish
+2024-11-24 15:27:33,761 INFO:Reading data from sheet: dish_ingredient
+2024-11-24 15:27:33,801 INFO:Reading data from sheet: dietary_restriction
+2024-11-24 15:27:33,809 INFO:Reading data from sheet: ingredient_dietary_restriction
+2024-11-24 15:27:33,819 INFO:Reading data from sheet: meal_type
+2024-11-24 15:27:33,828 INFO:Reading data from sheet: dish_meal_type
+2024-11-24 15:27:33,962 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 57 as it already exists.
+2024-11-24 15:27:33,962 INFO:Skipping DishIngredient with Dish ID 2 and Ingredient ID 68 as it already exists.
+2024-11-24 15:27:34,025 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 31 as it already exists.
+2024-11-24 15:27:34,027 INFO:Skipping DishIngredient with Dish ID 19 and Ingredient ID 68 as it already exists.
+2024-11-24 15:27:34,087 INFO:Skipping DishIngredient with Dish ID 29 and Ingredient ID 86 as it already exists.

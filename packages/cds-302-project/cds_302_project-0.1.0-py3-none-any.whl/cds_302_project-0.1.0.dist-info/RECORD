@@ -1,0 +1,11 @@
+cds_302_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cds_302_project/config.py,sha256=GcNic0D5WJoj9uytPkwR2cLMLcL3_dKsv6T0xK4xz0Q,1129
+cds_302_project/data/cds302.db,sha256=j-yUWpUiNaTIX86YX1ARh8hi1CIkOT099cY_iH4Lj70,102400
+cds_302_project/data/food_data.xlsx,sha256=LHE1eiemkWXWAmaEqUma0ypdVguCecHFY2Re0TN1ndc,135716
+cds_302_project/data_handler.py,sha256=bwnAnvES4wP8E0Zm8fZj8DiraEX_YJheoiT9muZiUtU,4492
+cds_302_project/db.py,sha256=0Bb0Uj6xYtWuFyLkTV6rem824FbK-0CbPMYeHpwWWog,3810
+cds_302_project/main.py,sha256=FUB0XtMPr9TTjnuvPALbulmpnfbr-SriexlPZ3SUCXU,1439
+cds_302_project/output/logs/data_handler.log,sha256=dPPFGQf8yCD9q8sw9AvZLrHQfoM--CCU61f00tAl0nw,133691
+cds_302_project-0.1.0.dist-info/METADATA,sha256=dYb9HXiuxvXosMqHWqz5FqUJt82NmRs7pjxrP0Py1U0,2713
+cds_302_project-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+cds_302_project-0.1.0.dist-info/RECORD,,
