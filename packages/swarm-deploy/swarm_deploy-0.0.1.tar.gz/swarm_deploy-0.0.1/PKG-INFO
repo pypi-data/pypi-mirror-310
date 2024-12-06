@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: swarm-deploy
+Version: 0.0.1
+Summary: Swarm-Deploy - TGSC
+Home-page: https://github.com/The-Swarm-Corporation/SwarmDeploy
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: aiocache
+Requires-Dist: asyncio
+Requires-Dist: contextlib
+Requires-Dist: datetime
+Requires-Dist: fastapi
+Requires-Dist: orjson
+Requires-Dist: prometheus-client
+Requires-Dist: pydantic
+Requires-Dist: rich
+Requires-Dist: signal
+Requires-Dist: structlog
+Requires-Dist: swarms
+Requires-Dist: time
+Requires-Dist: typing
+Requires-Dist: uuid
+Project-URL: Documentation, https://github.com/The-Swarm-Corporation/SwarmDeploy
+Project-URL: Repository, https://github.com/The-Swarm-Corporation/SwarmDeploy
+Description-Content-Type: text/markdown
+
+# Swarm Deploy 1 Click Deploy
+
+[![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
+
