@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+msmathx.egg-info/PKG-INFO
+msmathx.egg-info/SOURCES.txt
+msmathx.egg-info/dependency_links.txt
+msmathx.egg-info/requires.txt
+msmathx.egg-info/top_level.txt
