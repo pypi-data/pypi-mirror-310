@@ -1,0 +1,7 @@
+include fuzzmatch/requirements.txt
+include fuzzmatch/thirdparty.json
+include fuzzmatch/uiev_compile.py
+include fuzzmatch/uiev.pyx
+include fuzzmatch/fuzzmatcher.h
+include fuzzmatch/LICENSE
+include fuzzmatch/README.MD
