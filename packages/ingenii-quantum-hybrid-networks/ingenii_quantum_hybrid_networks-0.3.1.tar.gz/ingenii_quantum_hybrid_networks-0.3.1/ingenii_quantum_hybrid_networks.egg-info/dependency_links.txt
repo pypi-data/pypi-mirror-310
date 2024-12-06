@@ -1,0 +1,16 @@
+qiskit>
+qiskit-aer>
+qiskit-ibmq-provider>
+qiskit-ibm-runtime>
+scikit-learn>
+scipy>
+h5py>
+matplotlib>
+pylatexenc>
+torch>
+torchaudio>
+torchvision>
+torch-geometric>
+pennylane>
+tensorflow>
+numpy>
