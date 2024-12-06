@@ -1,0 +1,8 @@
+getmyqr/__init__.py,sha256=QFguFon6y8p2hO3pOLjkvNu_IiSGOdQeAPvr149kaKg,40
+getmyqr/cli.py,sha256=kA7Ned2K0drNJslnC_V_xJGq4qMcHJaoq_Rsg6yAEpA,916
+getmyqr/generator.py,sha256=YEPaqmbN4oPTM5ZZ-cwksLQ3Q8Y5o2oHdwG_q0z6PeM,593
+getmyqr-1.0.dist-info/METADATA,sha256=DAXterA10xVNHQkwTpIjzKU5nr_d9nlE6zC0Wp5k8Ic,2427
+getmyqr-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+getmyqr-1.0.dist-info/entry_points.txt,sha256=ayb8v57eW_6FsiHRQ3qhJDTKtQr01SEaftWN1muuw98,45
+getmyqr-1.0.dist-info/top_level.txt,sha256=WTK5f3e7C-ZJlYIhkHK7flyt7UQor6lcaiyrdlhQvaM,8
+getmyqr-1.0.dist-info/RECORD,,

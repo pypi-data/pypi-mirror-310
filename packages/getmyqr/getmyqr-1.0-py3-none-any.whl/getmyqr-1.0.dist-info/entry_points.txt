@@ -1,0 +1,2 @@
+[console_scripts]
+getmyqr = getmyqr.cli:main
