@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+d2_python/__init__.py
+d2_python/bin/linux/d2-bin
+d2_python_wrapper.egg-info/PKG-INFO
+d2_python_wrapper.egg-info/SOURCES.txt
+d2_python_wrapper.egg-info/dependency_links.txt
+d2_python_wrapper.egg-info/top_level.txt
