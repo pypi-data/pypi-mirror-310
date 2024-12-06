@@ -1,0 +1,6 @@
+[console_scripts]
+mkdocs-pymd=mkdocs_ipymd.cli.main:cli
+
+[mkdocs.plugins]
+ipymd=mkdocs_ipymd.plugin:PyToMarkdownPlugin
+
