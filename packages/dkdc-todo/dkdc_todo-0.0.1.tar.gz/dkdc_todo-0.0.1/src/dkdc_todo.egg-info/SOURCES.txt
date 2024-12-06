@@ -1,0 +1,14 @@
+pyproject.toml
+readme.md
+src/dkdc_todo/__init__.py
+src/dkdc_todo/main.py
+src/dkdc_todo.egg-info/PKG-INFO
+src/dkdc_todo.egg-info/SOURCES.txt
+src/dkdc_todo.egg-info/dependency_links.txt
+src/dkdc_todo.egg-info/entry_points.txt
+src/dkdc_todo.egg-info/requires.txt
+src/dkdc_todo.egg-info/top_level.txt
+src/dkdc_todo/ui/cli.py
+src/dkdc_todo/ui/gui/__init__.py
+src/dkdc_todo/ui/gui/main.py
+src/dkdc_todo/ui/gui/todos.py

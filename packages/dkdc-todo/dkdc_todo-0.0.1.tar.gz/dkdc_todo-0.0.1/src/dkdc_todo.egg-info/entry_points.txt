@@ -1,0 +1,2 @@
+[console_scripts]
+dkdc-todo = dkdc_todo.ui.cli:app
