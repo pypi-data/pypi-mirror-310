@@ -1,0 +1,10 @@
+ezformer/__init__.py,sha256=NcFrPqDJNXb6nPRoL1mT8llhJ-Tq2Q1Yec-sbFkz7tg,84
+ezformer/models.py,sha256=uHRJ4T3aUAss8eXaJIYRsDcy_lyghXCuBXZL8N0zHSU,1071
+ezformer/predict.py,sha256=G9iR1PW62dK-lLpn8SQWFT5H6G-tmGkZFrXqE0aZdis,8423
+ezformer/process.py,sha256=MQbB7YPMrjB4V2u0LvlPtBAVU4BHtJ_o9j4lhRJ9o8I,2744
+ezformer/utils.py,sha256=zU6gW2AWficlKphyLvChKMCc_6ixzbVGrq1iYX_wnXQ,1185
+pyproject.toml,sha256=VNV6dlo96OA8pz-pUUpEcnNkkfT15eUBakyNDDeuQZo,780
+ezformer-0.0.1.dist-info/LICENSE,sha256=dRWeVThQ-TLK0bGiH0ncEHyZQvR66BGX4pSGr55gS3s,1071
+ezformer-0.0.1.dist-info/METADATA,sha256=gHuJ6V7rY4PUfmBVtMwWfM4nkcbR4RIkZFK-KP6QUrc,1084
+ezformer-0.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ezformer-0.0.1.dist-info/RECORD,,
