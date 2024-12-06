@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: fuzzy_context_finder
+Version: 0.1.1
+Summary: search for keywords and their context
+Home-page: https://github.com/sandeepmj/fuzzy_context_finder
+Author: Sandeep Junnarkar
+Author-email: sjnews@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fuzzy_keyword_context
+![Searching for context doesn't have to be a chore!](https://sandeepmj.github.io/image-host/keyword-logo.png)
+
+*Searching for context doesn't have to be a chore!*
+
+
+A Python utility that performs fuzzy keyword searching within documents and extracts customizable context around matched terms. Perfect for text analysis, document searching, and content exploration where approximate matches and surrounding context are important.
+
+## Installation
+
+```bash
+pip install fuzzy_keyword_context
+```
+
+Required dependencies:
+```bash
+pip install pandas regex rapidfuzz
+```
+
+## Quick Start
+
+```python
+from fuzzy_keyword_context import keyword_context
+
+# Example document
+text = "This is a sample document with some exemple text to search through."
+
+# Define search terms
+terms = ["example", "search"]
+
+# Search with default settings
+results = keyword_context(
+    content=text,
+    terms=terms,
+    file_name="sample.txt"
+)
+
+# Print results
+print(results)
+```
+
+## Features
+
+- 🔍 Fuzzy string matching for flexible term recognition
+- 📑 Customizable context windows before and after matches
+- 🎯 Adjustable similarity threshold
+- 📊 Returns results in a pandas DataFrame
+- 🚀 Simple, intuitive API
+
+## Detailed Usage
+
+### Parameters
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `content` | str | Required | Text content to search within |
+| `terms` | list | Required | List of search terms to find |
+| `file_name` | str | Required | Name of file being processed |
+| `words_before` | int | 250 | Words to capture before match |
+| `words_after` | int | 250 | Words to capture after match |
+| `words_around` | int | 50 | Words to capture around match |
+| `match_threshold` | int | 80 | Minimum similarity score (0-100) |
+
+### Return Value
+
+Returns a pandas DataFrame with the following columns:
+- `File Name`: Name of processed file
+- `Page Number`: Page where match was found
+- `Matched Term`: Actual word that matched
+- `Original Term`: Search term that was matched against
+- `Similarity Score`: Fuzzy matching score (0-100)
+- `Search Term with N Words Context`: N words around the match
+- `Previous N Words (Including Term)`: N words before + match
+- `Next N Words (Including Term)`: Match + N words after
+
+Returns `None` if no matches are found.
+
+### Examples
+
+#### Basic Usage
+```python
+results = keyword_context(
+    content="Some text to search through",
+    terms=["search"],
+    file_name="doc.txt"
+)
+```
+
+#### Custom Context Windows
+```python
+results = keyword_context(
+    content="Some text to search through",
+    terms=["search"],
+    file_name="doc.txt",
+    words_before=100,  # Capture 100 words before
+    words_after=50,    # Capture 50 words after
+    words_around=25    # Capture 25 words total around match
+)
+```
+
+#### Adjusting Match Sensitivity
+```python
+results = keyword_context(
+    content="Some text to serch through",  # Note misspelling
+    terms=["search"],
+    file_name="doc.txt",
+    match_threshold=70  # More lenient matching
+)
+```
+
+## How It Works
+
+1. The function splits the input text into words
+2. For each word, it compares against all search terms using fuzzy matching
+3. When a match exceeds the similarity threshold:
+   - Extracts specified number of words before the match
+   - Extracts specified number of words after the match
+   - Extracts specified number of words around the match
+4. All matches and their context are compiled into a DataFrame
+
+## Performance Considerations
+
+- Processing time scales with:
+  - Document length
+  - Number of search terms
+  - Context window sizes
+- Memory usage depends on:
+  - Document size
+  - Number of matches found
+  - Size of context windows
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+
+
