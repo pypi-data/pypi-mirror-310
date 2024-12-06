@@ -1,0 +1,94 @@
+---
+# THIS FILE IS GENERATED! DO NOT EDIT! Maintained by Pulumi
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: python release
+on:
+  push:
+    tags:
+      - '*'
+permissions: {}
+jobs:
+  changelog:
+    name: Generate changelog
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      release_body: ${{ steps.git-cliff.outputs.content }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate a changelog
+        id: git-cliff
+        uses: orhun/git-cliff-action@v4
+        with:
+          config: .github/cliff.toml
+          args: -vv --current
+        env:
+          OUTPUT: CHANGELOG.md
+          GITHUB_REPO: ${{ github.repository }}
+  create-draft-release:
+    name: Create release as draft
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: [changelog]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Create release as draft
+        run: gh release create ${{ github.ref_name }} -n "${{ needs.changelog.outputs.release_body }}" --draft
+        env:
+          GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN  }}
+  build-package:
+    name: Build package
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+        - uses: actions/checkout@v4
+        - name: Install uv
+          uses: astral-sh/setup-uv@v4
+        - name: Set up Python
+          uses: actions/setup-python@v5
+          with:
+            python-version-file: ".python-version"
+        - name: Install the project
+          run: uv sync --all-extras
+        - name: Build package
+          run: |
+            sed -i -e "s/0.0.0/${GITHUB_REF#refs/*/}/" pyproject.toml
+            uv build
+        - name: Upload artifacts
+          uses: actions/upload-artifact@v4
+          with:
+            name: artifacts
+            path: dist/
+  publish-package:
+    name: Publish package
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # needed for signing the images with GitHub OIDC Token
+    needs: [build-package]
+    steps:
+      - name: Downloads artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: artifacts
+          path: dist/
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+  publish_release:
+    name: Publish release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: [create-draft-release, publish-package]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Create release
+        run: gh release edit ${{ github.ref_name }} --draft=false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
