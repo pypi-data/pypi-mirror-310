@@ -1,0 +1,11 @@
+localemembers/__init__.py,sha256=nPXiZIcg4Duex4-gDj4rb7dMiylj86HAmSDCu8ZKNqg,69
+localemembers/gui.py,sha256=gLcLRwep6NCEFxYAd0q_CscPxDvlGYkly77expFeREk,3128
+localemembers/locale_members.py,sha256=Z9-1Krwnu_vum14OLq4HijIcBDe1QhBTpYRSC4EcDH4,5582
+tests/__init__.py,sha256=aEtu1-UmpWZg2lXb0VKJ2KilRTx1JM0yfs2pODG-Bd8,34
+tests/test_locale_members.py,sha256=GJGQnrOTMmHFXphNpPYNgqBAG7VISbVbbLM55k5NsJQ,604
+localemembers-1.0.0.dist-info/LICENSE,sha256=gck19w09WPTx_MV76whW2bmNpZLJl5nHqnmTi6_DO0U,1209
+localemembers-1.0.0.dist-info/METADATA,sha256=olrWbztNVoxSjGeqhhUinvNjuNpIlx6iMLDSOqERcvs,3690
+localemembers-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+localemembers-1.0.0.dist-info/entry_points.txt,sha256=2RebTt8gcqckDCK38QNteW3SGyEw6yd45OVJelCGMhg,68
+localemembers-1.0.0.dist-info/top_level.txt,sha256=WrJl6UlNDwjJXEtqkqQO45rEd2viremN41hMqho1XRQ,20
+localemembers-1.0.0.dist-info/RECORD,,
