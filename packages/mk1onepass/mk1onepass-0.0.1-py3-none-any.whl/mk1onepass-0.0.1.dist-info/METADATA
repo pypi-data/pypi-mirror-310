@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mk1onepass
+Version: 0.0.1
+Summary: Timebased one-time password generator.
+Author-email: Mike Turkey <voice@miketurkey.com>
+Maintainer-email: Mike Turkey <voice@miketurkey.com>
+Project-URL: Repository, https://github.com/MikeTurkey/mk1onepass
+Requires-Python: <=4.0,>=3.9
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+Requires-Dist: importlib-metadata; python_version < "3.8"

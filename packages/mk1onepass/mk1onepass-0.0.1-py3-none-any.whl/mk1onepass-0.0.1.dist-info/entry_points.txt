@@ -1,0 +1,2 @@
+[console_scripts]
+mk1onepass = mk1onepass:main_mk1onepass
