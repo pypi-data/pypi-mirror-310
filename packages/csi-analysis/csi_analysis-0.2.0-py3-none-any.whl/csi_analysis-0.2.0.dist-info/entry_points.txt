@@ -1,0 +1,2 @@
+[console_scripts]
+make_docs = csi_analysis.utils.make_docs:main
