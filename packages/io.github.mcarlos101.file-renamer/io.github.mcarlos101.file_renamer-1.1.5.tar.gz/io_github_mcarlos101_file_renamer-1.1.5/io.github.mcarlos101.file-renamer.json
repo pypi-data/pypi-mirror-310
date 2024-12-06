@@ -1,0 +1,43 @@
+{
+    "app-id": "io.github.mcarlos101.file-renamer",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "6.7",
+    "sdk": "org.kde.Sdk",
+    "base": "io.qt.PySide.BaseApp",
+    "base-version": "6.7",
+    "command": "file-renamer",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--filesystem=host",
+        "--device=dri",
+        "--socket=pulseaudio",
+        "--system-talk-name=org.freedesktop.UDisks2",
+        "--env=QTWEBENGINEPROCESS_PATH=/app/bin/QtWebEngineProcess"
+    ],
+    "modules": [
+        "python3-Unidecode.json",
+        {
+            "name": "file-renamer",
+            "buildsystem" : "simple",
+            "build-commands" : [
+                "python3 setup.py build",
+                "python3 setup.py install --prefix=/app --root=/",
+                "install -Dm644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml",
+                "install -Dm644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+                "install -Dm644 ${FLATPAK_ID}.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/mcarlos101/file-renamer/archive/refs/tags/v1.1.5.tar.gz",
+                    "sha256": "77349f0d549f14523c4b9b8a3981e58667c5738f58dfb0ea0bcb546be45ed05f"
+                }
+            ]
+        }
+    ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
+    ]
+}
