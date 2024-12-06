@@ -1,0 +1,4 @@
+litellm>=1.52.14
+Deprecated>=1.2.15
+requests
+numpydoc
