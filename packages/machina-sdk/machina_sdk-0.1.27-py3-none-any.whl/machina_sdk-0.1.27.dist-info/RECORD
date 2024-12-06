@@ -1,0 +1,10 @@
+machina/__init__.py,sha256=SaHxfDkLSx5bKXfLlzhH4jQ8I2AWjy0NkjfVPdpx824,63
+machina/main.py,sha256=-D3yWAMhUoK412JwLxDzmjcdTVLeoviEw_4saNySbCs,765
+machina/resources/__init__.py,sha256=NVHU_DPgRl5Zehsv4leA5krxeIzaXOrnQBGrYBYRyBA,152
+machina/resources/http_client.py,sha256=bjFALMTJj8H2D4_tgV0BtN28TS2fxBte_t7-rw98yvE,2074
+machina/resources/organization.py,sha256=5Moryar4Rles5SINsePMdgaoWPD64MBEh-n_9rZzhrI,223
+machina/resources/project.py,sha256=DPaUNdJmSdJnpreXlxhjq6aSTXRck0XSHWjsdfr2ZbY,213
+machina_sdk-0.1.27.dist-info/METADATA,sha256=uzS9iTaV-C50nKa6Cynp5ldQFxQzrNLmtx6N_Pa2uYA,865
+machina_sdk-0.1.27.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+machina_sdk-0.1.27.dist-info/top_level.txt,sha256=VfPelM9YN9sN7Lyc9oPpX_5ViMBPsqf-qhjZlLc09ZM,8
+machina_sdk-0.1.27.dist-info/RECORD,,
