@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: charizard-vla
+Version: 0.2.5
+Summary: VLA data processing package with polarization and self-calibration
+Home-page: https://github.com/arpanastrobot/charizard-vla
+Author: Arpan Pal
+Author-email: arpan522000@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Charizard-VLA
+
+Charizard-VLA is an automated package for VLA data processing with polarization calibration and self-calibration.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install charizard-vla
+
+## Usage
+charizard-vla config.ini
+
