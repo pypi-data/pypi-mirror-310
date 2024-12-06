@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+krec/__init__.py
+krec/bindings.pyi
+krec/py.typed
+krec.egg-info/PKG-INFO
+krec.egg-info/SOURCES.txt
+krec.egg-info/dependency_links.txt
+krec.egg-info/not-zip-safe
+krec.egg-info/top_level.txt
