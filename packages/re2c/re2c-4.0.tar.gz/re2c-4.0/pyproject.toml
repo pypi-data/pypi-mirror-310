@@ -1,0 +1,83 @@
+[build-system]
+requires = ["scikit-build-core"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "re2c"
+description = "re2c is a free and open-source lexer generator for C, C++, D, Go, Haskell, Java, JS, OCaml, Python, Rust, V and Zig with a focus on generating fast code."
+keywords = ["re2c", "build", "c", "c++", "d", "go", "haskell", "java", "js", "ocaml", "python", "rust", "v", "zig"]
+license = {text = "https://github.com/skvadrik/re2c/blob/master/LICENSE"}
+readme = "README.md"
+classifiers = [
+  "License :: Public Domain",
+  "Programming Language :: C",
+  "Programming Language :: C++",
+  "Programming Language :: D",
+  "Programming Language :: Go",
+  "Programming Language :: Haskell",
+  "Programming Language :: Java",
+  "Programming Language :: JavaScript",
+  "Programming Language :: OCaml",
+  "Programming Language :: Python",
+  "Programming Language :: Rust",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX :: Linux",
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Code Generators",
+  "Topic :: Software Development :: Pre-processors",
+]
+dynamic = ["version"]
+
+
+[tool.scikit-build]
+wheel.py-api = "py2.py3"
+wheel.expand-macos-universal-tags = true
+metadata.version.provider = "scikit_build_core.metadata.setuptools_scm"
+sdist.include = ["src/re2c/_version.py"]
+wheel.install-dir = "re2c/data"
+
+[tool.cibuildwheel]
+build = "cp39-*"
+test-command = [
+  "re2c --version",
+  "re2d --version",
+  "re2go --version",
+  "re2hs --version",
+  "re2java --version",
+  "re2js --version",
+  "re2ocaml --version",
+  "re2py --version",
+  "re2rust --version",
+  "re2v --version",
+  "re2zig --version",
+  "re2c --help",
+]
+environment.PIP_ONLY_BINARY = ":all:"
+
+[tool.cibuildwheel.linux]
+manylinux-x86_64-image = "manylinux2010"
+manylinux-i686-image = "manylinux2010"
+
+[project.scripts]
+re2c = "re2c:re2c"
+re2d = "re2c:re2d"
+re2go = "re2c:re2go"
+re2hs = "re2c:re2hs"
+re2java = "re2c:re2java"
+re2js = "re2c:re2js"
+re2ocaml = "re2c:re2ocaml"
+re2py = "re2c:re2py"
+re2rust = "re2c:re2rust"
+re2v = "re2c:re2v"
+re2zig = "re2c:re2zig"
+
+[project.urls]
+Homepage = "https://re2c.org/"
+"Source Code" = "https://github.com/skvadrik/re2c"
+"Bug Tracker" = "https://github.com/skvadrik/re2c/issues"
+
+[tool.setuptools_scm]
+version_file = "src/re2c/_version.py"
