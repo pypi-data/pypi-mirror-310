@@ -1,0 +1,7 @@
+.venv
+pytest.ini
+*.env
+__pycache__
+.vscode
+*.egg-info
+build
