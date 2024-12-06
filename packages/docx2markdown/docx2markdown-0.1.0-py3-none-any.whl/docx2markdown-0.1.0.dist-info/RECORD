@@ -1,0 +1,10 @@
+docx2markdown/__init__.py,sha256=DY65CThef5S2OQJn1-eU1vA22YAgLIgIL0YSNRy02gs,118
+docx2markdown/_docx_to_markdown.py,sha256=OFl1vHbI_F0XGpoK9TLRRpq7G2Kg7bNcG1HbIDz8eSk,5378
+docx2markdown/_markdown_to_docx.py,sha256=_Kwtdk1HBYyUvptWIk7F88sNXbdZ38IKAnhd1gvKN7o,7107
+docx2markdown/_terminal.py,sha256=vebH_2olWOAMe4sng4_vN7K3wKP3KlO9095JRAvbc3U,599
+docx2markdown-0.1.0.dist-info/LICENSE,sha256=LwcZXklk_wK4goUHx0hO2B97PklLqQb_CwL-Csob5so,1550
+docx2markdown-0.1.0.dist-info/METADATA,sha256=i1xHoLDkWF2lhoYBma8aWIZO5sKubBeRceCg2_mDuUQ,2133
+docx2markdown-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+docx2markdown-0.1.0.dist-info/entry_points.txt,sha256=I35ZZa9wfl8osGO51KX6dVmJfENhvs2J-WL2HOHXQWg,81
+docx2markdown-0.1.0.dist-info/top_level.txt,sha256=Bkkn-Vbqf54zyZBjblBN688G8NwsNJ5bQ6kVQcsr2u4,14
+docx2markdown-0.1.0.dist-info/RECORD,,
