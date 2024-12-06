@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+data_merge/__init__.py
+data_merge/file_merger.py
+data_merge.egg-info/PKG-INFO
+data_merge.egg-info/SOURCES.txt
+data_merge.egg-info/dependency_links.txt
+data_merge.egg-info/requires.txt
+data_merge.egg-info/top_level.txt
+tests/test_file_merger.py
