@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+pandas
+tqdm
+plotly
+statsmodels
+dash_cytoscape
+mpire
