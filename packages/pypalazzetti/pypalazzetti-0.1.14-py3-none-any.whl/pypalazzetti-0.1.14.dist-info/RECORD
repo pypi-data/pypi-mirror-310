@@ -1,0 +1,11 @@
+pypalazzetti/__init__.py,sha256=PIBqEOI-nqKFL9oJAWQQwlHuujG9Cd7EmdxDrThNQto,23
+pypalazzetti/client.py,sha256=tD5-w9ZjK4xwXiIKH3BqEYhEzcZI2MAEJi8Twem8YYo,11983
+pypalazzetti/const.py,sha256=DMh967n56EsTdTvn4yr83Ot68O9CA-K4078TjP5yv-E,2037
+pypalazzetti/exceptions.py,sha256=5-7cOn5OTFEawXWLlJENSWpJqvL3f42k79PfUU6SOuk,208
+pypalazzetti/state.py,sha256=35bjvtwHvUpkZFQ6jvOIDEV4QJif6sVa797TZ1SMKtU,10637
+pypalazzetti/temperature.py,sha256=tonitqYjTjV4VJA5x10ITipdEjAOUTBZniKnjAxiDWY,796
+pypalazzetti-0.1.14.dist-info/LICENSE,sha256=1wY3Wrq41PjRKJSzboA3D605lj0ITsv93o_eO5VCLDU,1063
+pypalazzetti-0.1.14.dist-info/METADATA,sha256=78cOV-AN7Y0Hn7cCBPzQeY3Ozc10a2mDy1z-_5rBlwY,1658
+pypalazzetti-0.1.14.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pypalazzetti-0.1.14.dist-info/top_level.txt,sha256=2nzAcTxWVgLae6RhimPimxIVuI7rwatSfQCWr5gNrXY,13
+pypalazzetti-0.1.14.dist-info/RECORD,,
