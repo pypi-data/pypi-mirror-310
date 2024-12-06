@@ -1,0 +1,2 @@
+[llmling.providers]
+llm = llmling_provider_llm:register_provider
