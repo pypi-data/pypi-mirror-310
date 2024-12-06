@@ -1,0 +1,3 @@
+[console_scripts]
+nwn-dg = nwn_dg.__main__:main
+nwn-dg-api = nwn_dg.api:main
