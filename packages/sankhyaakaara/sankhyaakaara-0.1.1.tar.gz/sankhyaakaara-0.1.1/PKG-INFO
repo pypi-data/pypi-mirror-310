@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sankhyaakaara
+Version: 0.1.1
+Summary: A package for Sanskrit numeral processing and sandhi.
+Author-email: Arindam Saha <arindamsaha1507@gmail.com>
+License: GPL-3.0
+Keywords: sanskrit,numerals,sandhi,language
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: akshara>=1.1.0
+Requires-Dist: aksharamukha>=0.1.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# Sankhyaakaara
+
+## Convert numbers to words in Sanskrit!
+
+### Installation
+
+```bash
+pip install sankhyaakaara
+```
+
+### Usage
+
+```python
+from sankhyaakaara import convert
+
+num = 123456789
+word = convert(num)
+print(word)
+```
+
+### Web App
+
+You can also use the web app to convert numbers to words in Sanskrit. [Sankhyaakaara Web App](https://sankhya.streamlit.app)
