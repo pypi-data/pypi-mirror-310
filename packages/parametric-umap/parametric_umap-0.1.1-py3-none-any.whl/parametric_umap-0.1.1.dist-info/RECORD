@@ -1,0 +1,15 @@
+parametric_umap/__init__.py,sha256=lBIpjo-5UnkRpC-TIPl_8g9T919zQM-_OV6ipw33C2s,84
+parametric_umap/core.py,sha256=Eb3KMP7fe8SXZSk0h_5gIQCuczcEBGIjFDrDdu0gky8,9940
+parametric_umap/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parametric_umap/datasets/covariates_datasets.py,sha256=E1JKwcmfCUXxyXVzptWvla89ucaTb_FfbXePW0jzC0I,2928
+parametric_umap/datasets/edge_dataset.py,sha256=0dBJ4kFEG4qBYHka-WuWitAOAamDrAcYL4aHVS7icng,8249
+parametric_umap/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parametric_umap/models/mlp.py,sha256=p5m4jnHVtKmn9j2OPyfySjlKuIPilbJdVqtesVmOQIE,2245
+parametric_umap/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parametric_umap/utils/graph.py,sha256=3NNs_EtZj9y1PBoXLbEMeZepyQpG-2hDJxjIKSuup3o,6385
+parametric_umap/utils/losses.py,sha256=IK44oKBRo6brz45ILhvjJN9AzEtBXzoMsUeQhQPhhmg,811
+parametric_umap-0.1.1.dist-info/LICENSE,sha256=rsBUNaVqXMb-DMkvsAFSsIgMfbJ0xPGc03DPAX007UU,1514
+parametric_umap-0.1.1.dist-info/METADATA,sha256=i7Xw91mg4xpUXp2CQnpPPGOSeTVdWjHDbigl6sU6Mko,3945
+parametric_umap-0.1.1.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+parametric_umap-0.1.1.dist-info/top_level.txt,sha256=3Yw3229OTzjFXZ7St5bOt0LbKl4Zx1zeFQSmqWdlfxA,16
+parametric_umap-0.1.1.dist-info/RECORD,,
