@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pycreep
+Version: 1.0.0
+Summary: Python package for correlating and extrapoling time dependent creep data
+Author-email: Mark Messner <messner@anl.gov>
+Project-URL: Homepage, https://github.com/applied-material-modeling/pycreep
+Project-URL: Issues, https://github.com/applied-material-modeling/pycreep/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pint
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+
+# pycreep
+
+This package correlates creep data using time-temperature parameters, including
+the Larson-Miller parameters.  It also serves as a test bed for developing
+alternative means to correlate and extrapolate creep rupture and creep
+deformation test data.
+
+The examples directory contains several examples correlating data against 
+synthetic rupture and deformation data.
+
+## License
+
+The package is provided under an MIT license found in the [LICENSE](LICENSE) 
+file.
