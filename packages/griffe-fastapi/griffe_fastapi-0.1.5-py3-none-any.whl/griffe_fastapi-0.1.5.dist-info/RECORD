@@ -1,0 +1,9 @@
+griffe_fastapi/__init__.py,sha256=SRb2YBYXC9LUZQyuZ88DtsyAYioC1mZjWRTAYfHcNt4,340
+griffe_fastapi/_extension.py,sha256=bVZEOTScsAN4WS3ZvIjsgsesBcijRkisK4fOton6XQc,6204
+griffe_fastapi/templates/material/_base/fastapi.html.jinja,sha256=7HLJJIZSxkcnRpz04iElc-ES2uPCdqGT10UPiWkapn4,2117
+griffe_fastapi/templates/material/fastapi.html.jinja,sha256=ACC6ZXaSeiEz0ur0xk5Cz8861ivOwe35MxVfI-QR5F0,41
+griffe_fastapi-0.1.5.dist-info/LICENSE,sha256=vaKA9-vzOQ6jqmfmVU4PHK1fhZYMHxcX-LkqMHiiBP8,1073
+griffe_fastapi-0.1.5.dist-info/METADATA,sha256=cf41Ly-rqwgV9Qarzi6nPf-JRTn2hwtEvJ9p79QAkkg,1295
+griffe_fastapi-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+griffe_fastapi-0.1.5.dist-info/entry_points.txt,sha256=3wMzwnU18W2t8Im5EcjMABY32UoQ7KBnCwkW6vxffAE,82
+griffe_fastapi-0.1.5.dist-info/RECORD,,
