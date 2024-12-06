@@ -1,0 +1,15 @@
+casual_inference/__init__.py,sha256=x-x8w3Q7zBMlGK5QdgiqAbzylrp_7BTQvL_I3bmYXTU,58
+casual_inference/dataset/__init__.py,sha256=DzEipctmA-kNznNQ9Ba3FkRVRSbaYYkLw70GaB89W8A,162
+casual_inference/dataset/sample_abtest.py,sha256=2B2JsTU4R9iMiY_DoGYezLtFwmV2oPUXHsKjaMXQ2P4,2243
+casual_inference/dataset/sample_biased.py,sha256=kbozexEzbhUxzYSRqlgDyi3SRmg6FnVwo0k22G2xPR4,2098
+casual_inference/evaluator/__init__.py,sha256=q0XXVuUQ-oxKOIoaBj9IdS7zHsCUyFeAujYj61mKfdw,275
+casual_inference/evaluator/aatest.py,sha256=uuQ8XVSq7GgyTVK-e4IZwZ3VMBGF1gjxrsIpt-uHzz4,5064
+casual_inference/evaluator/abtest.py,sha256=V7sS_bgJObzWTBCI3uLF2gXsv9bSzdZtFD63rCO-_ck,9265
+casual_inference/evaluator/base.py,sha256=Thb8e5l0hUmagbcdzwTYuXI7ZSggP27CZHwbXywZXFk,1240
+casual_inference/evaluator/linear_regression.py,sha256=t7EkVqA9Ok7reGct13jD1M4kd761hsiH6BYwZdPmxz0,4582
+casual_inference/evaluator/samplesize.py,sha256=Hy-AQEOBZCftWCI9UhUhoxyYARSouk-DvSC-hNv_UbA,3685
+casual_inference/statistical_testing.py,sha256=yZ62g2_Vw7pBeb2cGeVK6jov1rMckxCp3n6pWSsicb4,4500
+casual_inference-0.7.1.dist-info/LICENSE,sha256=iYtSLWPaqT33nsowYHtaEU6FRVdVuJJF12JV3eNf6nU,1066
+casual_inference-0.7.1.dist-info/METADATA,sha256=bFcJXMU2OFCbXWRaLZulPZQqm35YgoQ2Uf3khJW9mII,7281
+casual_inference-0.7.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+casual_inference-0.7.1.dist-info/RECORD,,
