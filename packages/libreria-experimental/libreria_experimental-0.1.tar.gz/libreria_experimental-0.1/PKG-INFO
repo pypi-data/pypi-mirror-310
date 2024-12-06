@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: libreria_experimental
+Version: 0.1
+Description-Content-Type: text/markdown
+Requires-Dist: sympy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: statistics
+Requires-Dist: scipy
+Requires-Dist: mathematica

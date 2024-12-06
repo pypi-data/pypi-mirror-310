@@ -1,0 +1,7 @@
+README.md
+setup.py
+libreria_experimental.egg-info/PKG-INFO
+libreria_experimental.egg-info/SOURCES.txt
+libreria_experimental.egg-info/dependency_links.txt
+libreria_experimental.egg-info/requires.txt
+libreria_experimental.egg-info/top_level.txt
