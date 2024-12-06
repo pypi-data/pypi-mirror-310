@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+indian_name_maker/__init__.py
+indian_name_maker/generator.py
+indian_name_maker/main.py
+indian_name_maker/name_generator.py
+indian_name_maker.egg-info/PKG-INFO
+indian_name_maker.egg-info/SOURCES.txt
+indian_name_maker.egg-info/dependency_links.txt
+indian_name_maker.egg-info/entry_points.txt
+indian_name_maker.egg-info/requires.txt
+indian_name_maker.egg-info/top_level.txt
+indian_name_maker/data/first_names.csv
+indian_name_maker/data/last_names.csv
+tests/test_name_generator.py

@@ -1,0 +1,2 @@
+[console_scripts]
+indian-name-maker = indian_name_maker.main:main
