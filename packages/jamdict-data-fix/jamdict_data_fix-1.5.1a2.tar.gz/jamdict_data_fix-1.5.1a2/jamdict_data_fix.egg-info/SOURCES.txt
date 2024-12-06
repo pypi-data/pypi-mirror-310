@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+jamdict_data/LICENSE.md
+jamdict_data/__init__.py
+jamdict_data/__version__.py
+jamdict_data/jamdict.db.xz
+jamdict_data_fix.egg-info/PKG-INFO
+jamdict_data_fix.egg-info/SOURCES.txt
+jamdict_data_fix.egg-info/dependency_links.txt
+jamdict_data_fix.egg-info/top_level.txt
+test/test_jamdict_data.py
