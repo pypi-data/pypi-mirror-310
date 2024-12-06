@@ -1,0 +1,15 @@
+PyNormaliz_cpp.cpython-310-i386-linux-gnu.so,sha256=BtuTauMy7qIAgF5-JehA4Wp5V94K2r81PEa0U-4g6Is,6992693
+PyNormaliz.py,sha256=P_8gw1iaCYIhLQx9VeMn6kgmJqrJjluJNCImWCCbBrQ,13894
+PyNormaliz.libs/libeanticxx-bfe23b80.so.3.0.2,sha256=9oPt5_niwubdZ2O06eDKm0xtjWaAGyyqx5a7QjTtyL8,1348609
+PyNormaliz.libs/libgmpxx-c50cda50.so.4.7.0,sha256=cy0OJDZ3p6sDsovL5uw3AmB4L_XL05ur4U3-Atym0aI,77293
+PyNormaliz.libs/libeantic-2996028c.so.3.0.2,sha256=ohSPIhceFIuDjg9ZrbuWHzPHLaac7k0MGuRbjdX9atw,476149
+PyNormaliz.libs/libgomp-65f46eca.so.1.0.0,sha256=Zagab9rFQS08rPfVDR82oGJr9kuKwgrJok-GGlFBdCo,172293
+PyNormaliz.libs/libnormaliz-54071e49.so.3.10.3,sha256=QaGyFWgwoYPA8ukMlA3URNEFWnqHEeMkhAY8jvRQ1tg,138285813
+PyNormaliz.libs/libgmp-cd4e19d5.so.10.5.0,sha256=FwysXA-5JeD7Pm50XJg2-u-o6oZXC4LYJmtMY4J5kcQ,2793765
+PyNormaliz.libs/libflint-fbb9af91.so.19.0.0,sha256=Gi3ZCIJTaR6Jy1dx6Ad11ryMfQ1NVt7DNUctcRJEsn0,52503553
+PyNormaliz.libs/libmpfr-1e236df3.so.6.2.1,sha256=ckxHjf-Rt2ZlYNOyn7Dcnt96oGjRroIzHG42OeRWHjA,2429433
+PyNormaliz-2.21.dist-info/top_level.txt,sha256=tif8zLkZEtG6LKWF4sr6AZZqjQLe-y1b6EHyhaYmuBQ,26
+PyNormaliz-2.21.dist-info/RECORD,,
+PyNormaliz-2.21.dist-info/METADATA,sha256=7dyY_2iJaoHC-e-HFfBsVZ6iYdI47I5eyxThXV6IbGs,5104
+PyNormaliz-2.21.dist-info/COPYING,sha256=WBVp5mhcvjL8zVp4fS7FULdJbNG7ltuRRvVHXhzjRd4,744
+PyNormaliz-2.21.dist-info/WHEEL,sha256=tDFmT83NnHPG11jqygDogll2TWLxupYvuM_c9cz7Stw,147
