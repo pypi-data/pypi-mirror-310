@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: codenames-parser
+Version: 1.0.0
+Summary: Codenames board game pictures parsers.
+Author: Asaf Kali
+Author-email: asaf.kali@mail.huji.ac.il
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: codenames (>=5.2,<6.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.1,<3.0)
+Requires-Dist: opencv-python (>=4.10,<5.0)
+Requires-Dist: platformdirs (>=4.3.6,<5.0.0)
+Requires-Dist: pytesseract (>=0.3.13,<0.4.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: scikit-learn (>=1.5.2,<2.0.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Project-URL: Homepage, https://github.com/asaf-kali/codenames-parser
+Project-URL: Issues, https://github.com/asaf-kali/codenames-parser/issues
+Project-URL: Repository, https://github.com/asaf-kali/codenames-parser
+Description-Content-Type: text/markdown
+
+# Codenames Parser
+
+A Python package to parse Codenames game boards from images.\
+Before we dive in, here are some examples:
+
+### Color map extraction
+
+Given `color_map.png`: \
+<img src="./tests/fixtures/color_maps/classic/top_view.png" width="400"/> \
+Running:
+
+```
+python -m codenames_parser/color_map/entrypoint.py color_map.png classic
+```
+
+Outputs:
+
+```
+Some parsing logs...
+
+# As emoji table
+⬜ 🟥 🟦 🟦 🟥
+⬜ 🟦 🟥 ⬜ 🟦
+🟦 🟥 🟥 🟦 ⬜
+🟦 🟥 🟥 ⬜ ⬜
+⬜ 🟦 💀 🟥 🟦
+
+# As list
+['NEUTRAL', 'RED', 'BLUE', 'BLUE', 'RED', 'NEUTRAL', 'BLUE', 'RED', 'NEUTRAL', 'BLUE', 'BLUE', 'RED', 'RED', 'BLUE', 'NEUTRAL', 'BLUE', 'RED', 'RED', 'NEUTRAL', 'NEUTRAL', 'NEUTRAL', 'BLUE', 'ASSASSIN', 'RED', 'BLUE']
+```
+
+### Board extraction
+
+"Life is not perfect, neither is OCR" (credit: Github Copilot)
+
+Given `board.png`: \
+<img src="./tests/fixtures/boards/heb/board3_top.jpg" width="400"/> \
+Running:
+
+```
+python -m codenames_parser/board/entrypoint.py board.png heb
+```
+
+Outputs:
+
+```
+Some parsing logs...
+
+# As table
++-------+---------+-------+-------+------+
+| ציבור | אוטובוס | ישראל |  מתח  |  גס  |
++-------+---------+-------+-------+------+
+| ברית  |   גוש   | איום  | מורח  | קנה  |
++-------+---------+-------+-------+------+
+| לידה  |  מבחן   | אודם  | שוקו  | חטיף |
++-------+---------+-------+-------+------+
+|  חוק  |   רץ    | חצות  | רדיו  | כתם  |
++-------+---------+-------+-------+------+
+|  גרם  |   כהן   | רושם  | אלמוג |      |
++-------+---------+-------+-------+------+
+
+# As list
+[
+    "ציבור",    "אוטובוס",    "ישראל",    "מתח",    "גס",
+    "ברית",    "גוש",    "איום",    "מורח",    "קנה",
+    "לידה",    "מבחן",    "אודם",    "שוקו",    "חטיף",
+    "חוק",    "רץ",    "חצות",    "רדיו",    "כתם",
+    "גרם",    "כהן",    "רושם",    "אלמוג",     "",
+]
+```
+
+\* It looks as if the direction of the board is flipped.
+This is a bug due to Hebrew being written from right to left, the list order is correct.
+
+### OCR
+
+1. Uses `pytesseract` to extract text from images.
+2. Requires `tesseract` to be installed on the system (
+   see [installing-tesseract](https://github.com/tesseract-ocr/tesseract/tree/main?tab=readme-ov-file#installing-tesseract)).
+3. Download more languages from: https://github.com/tesseract-ocr/tessdata
+
