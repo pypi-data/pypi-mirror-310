@@ -1,0 +1,19 @@
+include README.md
+include pfb/mini_data.txt
+include plot_block_dtw.ipynb
+include plot_profile.ipynb
+include plot_pulse_dtw.ipynb
+include plot_sub.ipynb
+
+# 排除文件夹及其内容
+prune pfb/_pycache__
+prune pfb/data
+prune pfb/img
+prune pfb/Jenny_Smith
+prune pfb/pfb_introduction-master
+prune pfb/pfb_win_venv
+prune pfb/PFB-main
+prune pfb/pfb-python_zyz_complex_process
+prune pfb/txt
+# 排除其他特定的文件
+#exclude funniest/*.log
