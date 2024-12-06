@@ -1,0 +1,26 @@
+name: Test a feature branch
+
+on:
+  push:
+    branches-ignore: ["master"]
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the stack
+        run: >
+          touch .env &&
+          docker network create server &&
+          docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+      - name: Check running containers
+        run: docker compose -f docker-compose.yml -f docker-compose.dev.yml ps -a
+      - name: Check logs
+        run: docker compose -f docker-compose.yml -f docker-compose.dev.yml logs
+      - name: Run test suite
+        run: >
+          docker compose -f docker-compose.yml -f docker-compose.dev.yml
+          run --rm -w "/usr/local/lib/python3.12/site-packages/quiz" anime_quiz
+          django-admin test -t "/usr/local/lib/python3.12/site-packages/quiz"

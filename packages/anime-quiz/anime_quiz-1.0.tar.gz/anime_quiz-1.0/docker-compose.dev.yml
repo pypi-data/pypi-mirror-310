@@ -1,0 +1,13 @@
+services:
+  anime_quiz:
+    environment:
+      - DJANGO_SETTINGS_MODULE=anime_quiz.settings
+    volumes:
+      - ./anime_quiz:/usr/local/lib/python3.12/site-packages/anime_quiz:ro
+      - ./quiz:/usr/local/lib/python3.12/site-packages/quiz:ro
+  tasks:
+    environment:
+      - DJANGO_SETTINGS_MODULE=anime_quiz.settings
+    volumes:
+      - ./anime_quiz:/usr/local/lib/python3.12/site-packages/anime_quiz:ro
+      - ./quiz:/usr/local/lib/python3.12/site-packages/quiz:ro

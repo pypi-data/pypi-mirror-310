@@ -1,0 +1,58 @@
+services:
+  anime_quiz:
+    build:
+      context: .
+    networks:
+      - anime_quiz
+      - server
+    ports:
+      - 8009:8009
+    depends_on:
+      redis:
+        condition: service_healthy
+      tasks:
+        condition: service_started
+    volumes:
+      - ./static:/usr/src/app/static:rw
+    restart: unless-stopped
+    environment:
+      - DJANGO_SETTINGS_MODULE=anime_quiz.settings_prod
+    env_file:
+      - .env
+  tasks:
+    build:
+      context: .
+    command: python -m quiz.tasks
+    networks:
+      - anime_quiz
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - DJANGO_SETTINGS_MODULE=anime_quiz.settings_prod
+    restart: unless-stopped
+    env_file:
+      - .env
+  redis:
+    image: valkey/valkey:8.0
+    command:
+      - "valkey-server"
+      - "--appendonly"
+      - "yes"
+      - "--appendfsync"
+      - "everysec"
+    volumes:
+      - redis_data:/data
+    networks:
+      - anime_quiz
+    healthcheck:
+      test: redis-cli ping | grep PONG
+    restart: unless-stopped
+
+networks:
+  server:
+    external: true
+  anime_quiz:
+
+volumes:
+  redis_data:

@@ -1,0 +1,61 @@
+[tool.setuptools]
+packages = ["quiz", "quiz.migrations", "quiz.templates.quiz", "quiz.static.quiz", "anime_quiz"]
+include-package-data = true
+
+[tool.setuptools_scm]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anime_quiz"
+version = "1.0"
+requires-python = ">=3.8"
+authors = [{name = "Przemysław Buczkowski", email = "prem@prem.moe"}]
+description = "Anime Themes Quiz for people with taste."
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Django",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Games/Entertainment",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Multimedia :: Video :: Display",
+]
+readme = "README.md"
+
+dependencies = [
+    "animelyrics==0.1.0",
+    "bugsnag~=4.7.1",
+    "Django~=5.1.3",
+    "django-redis~=5.4.0",
+    "first==2.0.2",
+    "redis[hiredis]~=5.2.0",
+    "requests~=2.32.3",
+    "uWSGI~=2.0.28",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build==1.2.2.post1",
+    "black==24.10.0"
+]
+gcp = [
+    "django-google-cloud-tasks~=2.17.0",
+    "google-cloud-logging"
+]
+opentelemetry = [
+    "aws-opentelemetry-distro",
+    "opentelemetry-instrumentation-django",
+    "opentelemetry-instrumentation-requests",
+    "opentelemetry-instrumentation-redis"
+]
+
+[project.scripts]
+anime_quiz-manage = "anime_quiz:django_manage"
+
+[project.urls]
+Homepage = "https://quiz.moe"
+Repository = "https://github.com/przemub/anime_quiz"
