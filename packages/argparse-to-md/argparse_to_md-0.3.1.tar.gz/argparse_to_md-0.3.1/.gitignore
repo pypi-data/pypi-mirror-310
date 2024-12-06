@@ -1,0 +1,9 @@
+*.egg-info
+dist
+build
+*.pyc
+.venv
+.idea
+.vscode
+.envrc
+_version.py
