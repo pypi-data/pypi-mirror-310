@@ -1,0 +1,15 @@
+jupyterlab_nasadaily/__init__.py,sha256=vxmDD3NfnMFjsrnmpqrt_X0aNWBPLaLJ6k0g8hsHTpo,598
+jupyterlab_nasadaily/_version.py,sha256=73xmj_rtt0boRuIZ0h5wqHItFsCNZHTC-Wa0tSeAxyY,171
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/package.json,sha256=-xQKXMuc7hW6Z2VQYygAVXCYFEcYvPRUglxks9CZMxk,5756
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/schemas/jupyterlab_nasadaily/package.json.orig,sha256=5EzrqzwtcmeKsuwRsGOhR1Q7dgR3st1BFHjKO57mcew,6492
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/schemas/jupyterlab_nasadaily/plugin.json,sha256=WgiDDdkBovGKrJ9DNyyZifjQTAR8ul1gG24czx3CFTM,627
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/static/509.e6e3426b17d25376d2b9.js,sha256=5uNCaxfSU3bSuYxR74vo--VHZbuj_8RW5Z4g9MOeHi8,8026
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/static/728.425f31184a251d165367.js,sha256=Ql8xGEolHRZTZ0kxVwPixNdncsnjxueIdmJNnOUDFtw,6945
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/static/remoteEntry.7a0bf1ffa338a4344d68.js,sha256=egvx_6M4pDRNaKKEoE4Jr2wTkacCNtjfIQmJwi4_s4E,7103
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/static/style.js,sha256=-GK5OrJNFCxpPw-NQew6clAzPIwTFz3G4qhc7HXVvwM,163
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/static/third-party-licenses.json,sha256=W6N2sSD7tQihMqQk64F9xMd1Flfr2KO97esAiHUOYdM,2453
+jupyterlab_nasadaily-0.2.0.data/data/share/jupyter/labextensions/jupyterlab_nasadaily/install.json,sha256=wkqrZpAhgy92xlQW7Dpvdc7FUEPo14X83kyzURaVy6U,201
+jupyterlab_nasadaily-0.2.0.dist-info/METADATA,sha256=UniqTLkGxvriR6h67pbKBkZx5alhypuEUoiZKpjtrmM,5382
+jupyterlab_nasadaily-0.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+jupyterlab_nasadaily-0.2.0.dist-info/licenses/LICENSE,sha256=OWjBym3dlK-V3CbKsyP7KPxc_oYxAM9MGB6ECjM_gfU,1513
+jupyterlab_nasadaily-0.2.0.dist-info/RECORD,,
