@@ -1,0 +1,9 @@
+pyproject.toml
+readme.md
+src/dkdc_vault/__init__.py
+src/dkdc_vault/main.py
+src/dkdc_vault.egg-info/PKG-INFO
+src/dkdc_vault.egg-info/SOURCES.txt
+src/dkdc_vault.egg-info/dependency_links.txt
+src/dkdc_vault.egg-info/requires.txt
+src/dkdc_vault.egg-info/top_level.txt

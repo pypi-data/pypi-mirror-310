@@ -1,0 +1,22 @@
+[project]
+name = "dkdc-vault"
+version = "0.0.1"
+authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
+description = "secrets and such"
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ['dkdc-state', 'dkdc-util']
+
+[project.optional-dependencies]
+dev = ["ruff", "ipython", "jupyter", "nbclient", "ipykernel"]
+test = ["pytest"]
+rich = ["rich"]
+
+[project.urls]
+"Homepage" = "https://github.com/dkdc-io/dkdc-vault"
+"Bug Tracker" = "https://github.com/dkdc-io/dkdc-vault/issues"
