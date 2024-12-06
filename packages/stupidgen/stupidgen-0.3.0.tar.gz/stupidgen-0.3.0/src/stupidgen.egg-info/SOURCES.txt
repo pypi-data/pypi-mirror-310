@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/stupidgen/__init__.py
+src/stupidgen/__main__.py
+src/stupidgen/basichandlers.py
+src/stupidgen/languages.py
+src/stupidgen/processor.py
+src/stupidgen/stringprocessing.py
+src/stupidgen.egg-info/PKG-INFO
+src/stupidgen.egg-info/SOURCES.txt
+src/stupidgen.egg-info/dependency_links.txt
+src/stupidgen.egg-info/entry_points.txt
+src/stupidgen.egg-info/top_level.txt
