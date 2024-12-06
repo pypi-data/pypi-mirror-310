@@ -1,0 +1,13 @@
+certbot_dns_duckdns/__init__.py,sha256=-phP3lhL5ctoAzZU1YT4Si96Ckc9rxqBxKhV8Ug0ozU,79
+certbot_dns_duckdns/cert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_duckdns/cert/client.py,sha256=C3vGbss_UBBsnDKq2XFoyEpSb8LgX-WVad9LUruAwxg,7553
+certbot_dns_duckdns/duckdns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_duckdns/duckdns/client.py,sha256=DmD3b5pIjbvJVGsHvq-dfPEA0y0gJ-mNfdNwFyGj-ug,5943
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/cert_client.py,sha256=UYFHRzRxr86ylZDqqxJ3LY9dpIipUo3vyiY9K4wOFKg,3953
+tests/duckdns_tests.py,sha256=jir_TUonQUl-8GhvtaaTEHOWUVpU7s4tYQtpjK0esTc,6163
+certbot_dns_duckdns-1.5.dist-info/METADATA,sha256=ej8fp5n9mPZNsHwuGcNajRnt_MooS7jY1_zO_xrfQrE,17241
+certbot_dns_duckdns-1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+certbot_dns_duckdns-1.5.dist-info/entry_points.txt,sha256=uN1D1Jl6H8KqgigANL_b-vdR_YAoRoPlBZzTm6zQ1Ik,78
+certbot_dns_duckdns-1.5.dist-info/top_level.txt,sha256=7wdSLxm8b1JvAnzilHGU8TYbsQ1wXYlM7GVgJlPv1Dc,26
+certbot_dns_duckdns-1.5.dist-info/RECORD,,
