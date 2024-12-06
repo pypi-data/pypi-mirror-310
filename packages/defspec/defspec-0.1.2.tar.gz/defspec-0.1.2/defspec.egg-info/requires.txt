@@ -1,0 +1,9 @@
+msgspec~=0.18.5
+
+[:python_version < "3.11"]
+typing_extensions~=4.9
+
+[dev]
+ruff~=0.8.0
+pytest~=7.4
+attrs~=23.2
