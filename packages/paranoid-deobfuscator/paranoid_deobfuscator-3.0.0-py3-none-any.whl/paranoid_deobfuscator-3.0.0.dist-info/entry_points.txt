@@ -1,0 +1,3 @@
+[console_scripts]
+paranoid-deobfuscator=paranoid_deobfuscator.__main__:cli
+
