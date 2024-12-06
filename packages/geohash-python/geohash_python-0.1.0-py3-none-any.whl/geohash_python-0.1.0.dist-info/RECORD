@@ -1,0 +1,10 @@
+geohash/__init__.py,sha256=DoXL0CGCwLvI1KT57RotcxNOq07navm8vsxmIqXqWJw,10424
+test/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/test_decode.py,sha256=vR2AvX7-FPxdsRAFMB3DSxgXpfI1nyFOiyWC8A81V8o,266
+test/test_encode.py,sha256=xJYh6TDICLkCOyMNnmn5N82Zy9WUPfASoOw0sDh5q3Y,1197
+test/test_geohash.py,sha256=m8SQmif5lqsYX3bJUsvNViUX4tKRK1e6FPErC8ECl3o,3270
+geohash_python-0.1.0.dist-info/LICENSE,sha256=ckVR9gJhM-8FN6TRx7Mo-BN4L7tYMPbKDE6MT7celJU,1067
+geohash_python-0.1.0.dist-info/METADATA,sha256=BrKvDh72NCLATFN78ywLj4rn_Pmvz3TpmhsItA-OTCE,5586
+geohash_python-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+geohash_python-0.1.0.dist-info/top_level.txt,sha256=1buhs6EYHFcf7k255DDJMtPUJ2QVHFw066NE6AFr0Wo,13
+geohash_python-0.1.0.dist-info/RECORD,,
