@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fedora-distro-aliases
+Version: 1.5
+Summary: Aliases for active Fedora releases
+Home-page: https://github.com/rpm-software-management/fedora-distro-aliases
+Author: Copr and Packit teams
+Author-email: copr-devel@lists.fedorahosted.org
+License: GPLv2+
+Requires-Dist: munch
+Requires-Dist: requests
+
+Some projects such as Tito, Packit,
+Fedora Review Service, etc operate over currently active Fedora releases.
+They can use this package to find their version numbers instead of manually
+defining a list.
+
+This package queries Bodhi to find the active releases and therefore requires an
+internet connection.

@@ -1,0 +1,2 @@
+cli
+fedora_distro_aliases
