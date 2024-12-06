@@ -1,0 +1,10 @@
+doc/sphinx/source/_build
+doc/sphinx/source/examples.rst
+tests/testdata
+tests/env
+tests/coverage
+tests/installation
+dist/
+build/
+build.env/
+*.egg-info
