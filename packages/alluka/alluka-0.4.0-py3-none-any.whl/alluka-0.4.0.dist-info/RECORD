@@ -1,0 +1,14 @@
+alluka/__init__.py,sha256=bL2c0lntEg9tK8XXFQ4vHW5bB8Ic73HYHQSWTw79E30,2690
+alluka/_client.py,sha256=ENnoFB8UlVFA0paCPw5KE1AxyoQ-ShYCkC3pa-fAPmY,11908
+alluka/_context.py,sha256=tsnv9kBd9DOAi3asPxojbrTdUAj3LhxijqTYCT_qigU,10108
+alluka/_errors.py,sha256=uUjLlVRno8DLLK3_BhPO2TYqeBPMhhUXD7CdC7MsyLo,2531
+alluka/_self_injecting.py,sha256=xapl2PFR1D8iNp3h0rL6oNKDhWKtL5YDO6Q-8nsIhLI,5824
+alluka/_types.py,sha256=6FGRnL-q_w2_MZ_qszLd1OLx6wDeYe0FewWSPZeTt14,9925
+alluka/_visitor.py,sha256=UYt9_L0J6XrKPpOtczhXZZNgQxEl4MTUQmQrhaBhlKg,9116
+alluka/abc.py,sha256=6j-WzTJoZ9ytlwv0D3azCSzBFqKo51Le9BW0fk8MLxc,22044
+alluka/local.py,sha256=b7-HARHrlKgv2MvzkC73tfzdRWUelZFKjLTZ3ISIWY8,12536
+alluka/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alluka-0.4.0.dist-info/LICENSE,sha256=Q8mlTEn5dS5R5H8-Zds6-NPOUsS3WQoS-fft0BaVllY,1520
+alluka-0.4.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+alluka-0.4.0.dist-info/METADATA,sha256=NUzS3muPj_sLu5Krjv4TSvR0O3c07_6yDbsEml-qtPo,1927
+alluka-0.4.0.dist-info/RECORD,,
