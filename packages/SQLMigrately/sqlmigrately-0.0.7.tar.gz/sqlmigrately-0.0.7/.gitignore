@@ -1,0 +1,10 @@
+**/**/__pycache__
+*.json
+.directory
+.vscode/
+*.db
+
+# package build
+dist/
+build/
+*.egg-info/
