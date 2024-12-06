@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: interface-versioning
+Version: 1.0.0.0
+Summary: Interface Versioning
+Keywords: version,compatibility,SemVer,verification
+Author-email: "Charles C. D. Tolley" <charlescdtolley@protonmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Project-URL: Documentation, https://python-versioning.readthedocs.io
+Project-URL: Source, https://github.com/charlestolley/python-versioning
+
+## Installation
+This library is available in PyPi under the name `versioning`:
+
+    pip install versioning
+
+## Documentation
+Documentation for this package is available in [ReadTheDocs](https://python-versioning.readthedocs.io).
+
