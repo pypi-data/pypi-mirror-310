@@ -1,0 +1,13 @@
+cobra==0.26.3
+python-libsbml<=5.20.1
+Biopython==1.80
+anyconfig<=0.13.0
+pyranges<=0.0.129
+XlsxWriter<=3.1.2
+openpyxl<=3.1.2
+numpy<=1.26.4
+scipy<=1.11.1
+sympy<=1.12
+pandas<=1.5.1
+jsonschema<=4.21.1
+tqdm<=4.62.3
