@@ -1,0 +1,5 @@
+setup.py
+new_setup_py_project_kek.egg-info/PKG-INFO
+new_setup_py_project_kek.egg-info/SOURCES.txt
+new_setup_py_project_kek.egg-info/dependency_links.txt
+new_setup_py_project_kek.egg-info/top_level.txt
