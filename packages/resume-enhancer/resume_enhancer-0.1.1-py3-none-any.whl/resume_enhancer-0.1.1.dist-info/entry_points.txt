@@ -1,0 +1,4 @@
+[console_scripts]
+format = app.scripts:format
+lint = app.scripts:lint
+resume-enhancer = app.resume_enhancer:main
