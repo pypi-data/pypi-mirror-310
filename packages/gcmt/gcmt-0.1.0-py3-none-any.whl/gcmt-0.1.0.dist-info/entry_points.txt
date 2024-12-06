@@ -1,0 +1,2 @@
+[console_scripts]
+gcmt = gcmt.cli:app

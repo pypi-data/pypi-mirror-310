@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: gcmt
+Version: 0.1.0
+Summary: A simple CLI tool that uses LLMs to automatically generate meaningful commit messages from your staged changes.
+Author-email: garrethlee <garreth.edderick@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: huggingface-hub>=0.26.2
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: ruff>=0.7.4
+Requires-Dist: typer>=0.13.1
+Description-Content-Type: text/markdown
+
+# gcmt - AI-Generated Commit Messages
+
+A simple CLI tool that uses LLMs to automatically generate meaningful commit messages from your staged changes.
+
+Using the [Hugging Face Inference API's](https://huggingface.co/docs/api-inference/rate-limits) generous free tier, you can generate commit messages without incurring additional \$\$\$.
+
+## Installation
+
+```bash
+pip install gcmt
+```
