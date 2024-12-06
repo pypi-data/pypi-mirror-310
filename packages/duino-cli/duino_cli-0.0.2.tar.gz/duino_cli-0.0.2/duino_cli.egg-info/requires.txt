@@ -1,0 +1,5 @@
+pyserial
+duino_bus
+
+[:sys_platform == "win32"]
+pyreadline
