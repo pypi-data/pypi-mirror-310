@@ -1,0 +1,13 @@
+dicomity/__about__.py,sha256=wmZmrRhYYZCxMEfVQMuiF3HjHD8B1Ot6herskolNVqg,137
+dicomity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dicomity/core.py,sha256=rqsmuK1L3f0XYSbCgyLKbF6X4QjCXFHtiffCG7WM3sI,338
+dicomity/dicom.py,sha256=vBcS-dCBKe9bbVDvo5iu-Aq0P_bqLX01uAnPxGK37eo,2087
+dicomity/dictionary.py,sha256=TV3NV6jLzY-mHBs_zlyd5tB6HoYvM_UtBW-dUOVEQbM,8580
+dicomity/group.py,sha256=1UDX5YI_0zORz_91EUsTirI_71WMWRC9XlxQaSuQkR8,15265
+dicomity/load.py,sha256=j72_6SH8atH_Mgu2QFCp2GjTaW2AKL2dqr4R7RUWhDw,7928
+dicomity/types.py,sha256=VeQufQaIZ85omEtE6ZhvG74n3XVN_Y_RuFXvfhVDZLc,4869
+dicomity/util.py,sha256=T72YxQHyx7_WbFuhabHiQEVoCBJeMcIXPlBms8nZuig,7309
+dicomity-0.0.4.dist-info/METADATA,sha256=rAnUmRM38b8WfhIaoxAtSTop69B4lJfbI1WDxCmNLBU,1202
+dicomity-0.0.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+dicomity-0.0.4.dist-info/licenses/LICENSE,sha256=yc_LjUkB1_eRmCfpAPvYlz4RspzISE2Liis6nxgvAsE,1083
+dicomity-0.0.4.dist-info/RECORD,,
