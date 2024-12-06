@@ -1,0 +1,10 @@
+orafmt/__init__.py,sha256=xUVSXJQvv1_s0_L4yJ6ktTDfYimHLNNnl8HrI0_u9Q0,71
+orafmt/cli.py,sha256=pTIqhGY3j4xjY_giR6PuBmcFuvZtustTmyyrNiKbwfA,3325
+orafmt/formatter/format.js,sha256=bsOnM2FJOg0GyKBTIp2OB3OxkH5bxB-5G4w8245s0bA,34949
+orafmt/formatter/trivadis_advanced_format.xml,sha256=4MShl0HaoUMlE7q4AUyHaOgyenZIkz9LE27VNJCMX08,1783
+orafmt/formatter/trivadis_custom_format.arbori,sha256=s0majSH2WE0zx-TYBXCq7zaj1mAtmGxan3GC2ZYxMME,154343
+orafmt-1.0.2.dist-info/entry_points.txt,sha256=F1zEaDyLUkFssh8pwum68kXgYDPFQ_67irmK6D--4ZM,42
+orafmt-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+orafmt-1.0.2.dist-info/METADATA,sha256=ZmEEJ-QfV3p3xSjX0SI-W-ttJZXNc3e7F_Rq58yJgmk,4729
+orafmt-1.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+orafmt-1.0.2.dist-info/RECORD,,
