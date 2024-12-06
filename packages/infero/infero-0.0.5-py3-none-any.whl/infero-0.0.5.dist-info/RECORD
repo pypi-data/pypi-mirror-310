@@ -1,0 +1,15 @@
+infero/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infero/convert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infero/convert/onnx.py,sha256=LRxu9tjd5t5jtKoRJgoWkN4shhCdCT5AlLYMtOSXLrg,1274
+infero/main.py,sha256=eL9kUjjvLP8UDZcBXiihHL7aJ9p-HFrfMxwKrWUeepg,717
+infero/pull/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infero/pull/download.py,sha256=47DRCOhOx4vAagfHHQBwKyWEaUbXNQamnEsfDDs5TE0,4425
+infero/pull/supported_architectures.yaml,sha256=guYLgJ5wXb_25mUp7vPuHIPSQ4JFXpFH9FjbwrFjv6Q,193
+infero/serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infero/serve/server.py,sha256=oZIBqynY0U3OSADQK6mppYIX1zamw8NP1Pl4mWRmxlw,1297
+infero/utils.py,sha256=kQGpnRKd1QbCg4qKrvKLRyrfy-If_WyxvyoNRzHcAiI,273
+infero-0.0.5.dist-info/LICENSE,sha256=oS4sHtn_p6kaCvIbPY-pTRCLL7JM9hYkvz5IYk7qWy0,1066
+infero-0.0.5.dist-info/METADATA,sha256=37q1i_5p9aH4JU7UbfRcbHMv7Lthv5oK0l5oJ25GtWg,1877
+infero-0.0.5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+infero-0.0.5.dist-info/entry_points.txt,sha256=7Oa-mP9WGiQKG2IfjII9uWUwwaVUT4pnp_bQ40_UTZo,42
+infero-0.0.5.dist-info/RECORD,,
