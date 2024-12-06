@@ -1,0 +1,14 @@
+MainServiceAPI/__init__.py,sha256=-xpxB2Y-XFhOFjIYd-jmZtdGzrqtancAOOo5Rvv3xrc,369
+MainServiceAPI/__main__.py,sha256=DG30CQIEH2QQYBrnEeenZpz4qdFvHujSFnrzE570PYo,2192
+MainServiceAPI/_module_info.py,sha256=na7HcNqf1EMmnjaoHpw5veMC2jAjlmPu_6tEiO_m6zE,42
+MainServiceAPI/android_termux/__init__.py,sha256=X-sNE8_CqEQmfrh-o3JIm2RWy30pyV8r0JByaNYWqb0,2627
+MainServiceAPI/info_blank.json,sha256=RwrmNDIZpmMF-EAqnzZYFMKFwLC99dq4ec4w8yL30dM,948
+MainServiceAPI/linux/__init__.py,sha256=A215efehBOf4I2yPO2v68lh8q-4bErw_qkIjHiIM8es,4082
+MainServiceAPI/linux/blank.service,sha256=C67QPKF9VSRvkR0mwA0rBtUIhH1IVwJYaOWpbUDQq8k,267
+MainServiceAPI/objects.py,sha256=uMQs2rlGlhPBqvgqr7RjYAFbgRmvzNRqA1C14d781iQ,611
+MainServiceAPI/wrapper.py,sha256=5PEA41R2QvHD2lW973efvh93ZlNnSI5HweirEnBcbYY,1409
+MainServiceAPI/wrapper_blank.json,sha256=ArCVjKu5c90axBsNoAICXQdElp4IMr8t32jXX7-uplo,1114
+mainserviceapi-0.0.4.dist-info/METADATA,sha256=IAdbmyyUbTsvQv3h7EJ4hOgpuvJCm-rqPRjm9vItAKo,765
+mainserviceapi-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mainserviceapi-0.0.4.dist-info/entry_points.txt,sha256=cTL8cvmSUqtXpFw4_eJZvNV03VpfcIH3b8ox_G5i2mo,131
+mainserviceapi-0.0.4.dist-info/RECORD,,
