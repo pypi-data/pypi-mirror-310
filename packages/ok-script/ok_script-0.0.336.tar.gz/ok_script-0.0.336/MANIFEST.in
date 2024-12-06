@@ -1,0 +1,6 @@
+recursive-include ok/binaries *
+recursive-include ok *.pyd
+recursive-include ok/__init__.py
+recursive-exclude ok *.pyx
+recursive-exclude ok *.cpp
+recursive-exclude ok *.py
