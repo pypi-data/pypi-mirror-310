@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% from "macros.html" import modal_editor, modal_editor_open %}
+{% block title %}PySkat - Players{% endblock %}
+{% block head %}{% endblock %}
+{% block content %}
+    <h1>Evaluation</h1>
+
+    {{ report_content | safe }}
+{% endblock %}
