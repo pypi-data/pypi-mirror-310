@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+readme.md
+numsy.egg-info/PKG-INFO
+numsy.egg-info/SOURCES.txt
+numsy.egg-info/dependency_links.txt
+numsy.egg-info/top_level.txt
+tests/test_algebra_utils.py
+tests/test_matrices.py
+tests/test_output.py
+tests/test_power.py
+tests/test_problems.py
+tests/test_utility.py
+tests/test_variables.py
