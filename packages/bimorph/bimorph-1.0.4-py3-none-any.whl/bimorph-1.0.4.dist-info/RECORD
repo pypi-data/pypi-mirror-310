@@ -1,0 +1,11 @@
+bimorph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bimorph/bimorph.py,sha256=d3pZseQG4Bd_58SpLlyZCsQLZsHvFktv7_ono0NWexQ,39
+bimorph/main.py,sha256=_bzw_CBBz446p5IOR6Yrlvqhu-4lRfScvkb1ROsznGU,54
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/bimorph.py,sha256=d3pZseQG4Bd_58SpLlyZCsQLZsHvFktv7_ono0NWexQ,39
+package/main.py,sha256=_bzw_CBBz446p5IOR6Yrlvqhu-4lRfScvkb1ROsznGU,54
+bimorph-1.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bimorph-1.0.4.dist-info/METADATA,sha256=-ZfU4gR264w8kRl0iBPOJifo8w2nbPLrkUHzoK1uazk,546
+bimorph-1.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bimorph-1.0.4.dist-info/top_level.txt,sha256=OKtlejFMuJNyNPKnqwh9ULytlEfnQElyDWlvrthHjL4,8
+bimorph-1.0.4.dist-info/RECORD,,
