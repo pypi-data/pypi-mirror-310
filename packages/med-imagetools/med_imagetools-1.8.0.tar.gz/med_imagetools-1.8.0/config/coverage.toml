@@ -1,0 +1,6 @@
+[tool.coverage.run]
+omit = [
+  "src/imgtools/logging/**/*.py",
+]
+
+[tool.coverage.report]
