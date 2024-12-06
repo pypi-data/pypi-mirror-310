@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "funcnodes-yolo"
+version = "0.1.1"
+description = ""
+authors = ["Julian Kimmig <julian.kimmig@gmx.net>"]
+readme = "README.md"
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+ultralytics = "*"
+funcnodes-opencv = "*"
+funcnodes = "*"
+torch =  {version = "*", allow-prereleases = true}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pre-commit = "*"
+funcnodes-module = "^0.1.19"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."funcnodes.module"]
+module = "funcnodes_yolo"
+shelf = "funcnodes_yolo:NODE_SHELF"
