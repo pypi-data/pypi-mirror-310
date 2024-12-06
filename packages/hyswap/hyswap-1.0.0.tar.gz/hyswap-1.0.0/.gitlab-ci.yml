@@ -1,0 +1,99 @@
+image: ${ARTIFACTORY_URL}/docker-official-mirror/python:3.11
+
+stages:
+  - build
+  - test-package
+  - build-docs
+  - deploy
+  - validate
+
+variables:
+  R_PROFILE: "$R_HOME/etc/Rprofile.site"
+
+Build Package:
+  stage: build
+  script:
+    - python -m pip install --upgrade pip
+    - pip install -r requirements.txt
+    - pip install .
+
+Test and Lint:
+  stage: test-package
+  script:
+    # Install dependencies
+    - apt-get update -y
+    - apt-get upgrade -y
+    - apt-get install -y xdg-utils
+    - apt-get install -y lynx
+    - apt-get install -y graphviz
+    - python -m pip install --upgrade pip
+    - pip install -r requirements.txt
+    - pip install -r requirements-dev.txt
+    - pip install .
+    # Test and report coverage
+    - coverage run -m pytest
+    - coverage report -m
+    - coverage html
+    # Lint
+    - flake8 .
+    - pydocstringformatter .
+    # Run pydeps
+    - pydeps hyswap -T png --max-bacon=3 --cluster
+    - mv hyswap.png docs/source/reference/hyswap.png  # move pydeps graph to docs
+  artifacts:
+    paths:
+      - htmlcov/
+      - docs/build/
+  coverage: '/TOTAL.*\s+(\d+\%)/'
+
+Build Documentation:
+  stage: build-docs
+  script:
+    # Install dependencies
+    - apt-get update -y
+    - apt-get upgrade -y
+    - apt-get install -y xdg-utils
+    - apt-get install -y lynx
+    - apt-get install -y graphviz
+    - apt-get install -y pandoc
+    - python -m pip install --upgrade pip
+    - pip install -r requirements.txt
+    - pip install -r requirements-dev.txt
+    - pip install .
+    # Test and build documentation
+    - cd docs
+    - make docs
+  artifacts:
+    paths:
+      - docs/build/
+  rules:
+    -  if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main" || $CI_COMMIT_BRANCH == "main"'
+
+Deploy Documentation:
+  image: ${ARTIFACTORY_URL}/docker-official-mirror/rocker/shiny-verse:4.1.2
+  stage: deploy
+  script:
+    # set Rprofile repositories
+    - echo "options(Ncpus=$(nproc --all), repos=c(GSPM='$GSPM', CRAN='$CRAN'))" >> $R_PROFILE
+    # install packages
+    - Rscript -e "install.packages(c('rsconnect', 'connectapi'))"
+    # create manifest file for deployment
+    - Rscript -e "rsconnect::writeManifest(appDir='$CI_PROJECT_DIR/docs/build')"
+    # deploy docs to RStudio Connect
+    - Rscript -e "task <- connectapi::deploy(connectapi::connect(), connectapi::bundle_dir('$CI_PROJECT_DIR/docs/build'), name='hyswap-docs') |> connectapi::set_vanity_url(url = 'hyswap-docs') |> connectapi::content_update_access_type('all')"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main" && $CONNECT_API_KEY != null && $CONNECT_SERVER != null'
+
+Validate Inventory:
+    stage: validate
+    image: ${INTERNAL_REGISTRY}software/software-management:latest
+    script:
+      - software-management review
+        --project "${CI_PROJECT_PATH}"
+        --ref "${CI_COMMIT_BRANCH}"
+        --type "provisional"
+        --token "${GITLAB_PAT}"
+    tags:
+        - chs-shared
+    rules:
+      - if: '$CI_COMMIT_BRANCH == "main" && $GITLAB_PAT != null'
