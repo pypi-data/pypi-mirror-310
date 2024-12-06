@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+whetstone/__init__.py
+whetstone/test.py
+whetstone/metrics/text/__init__.py
+whetstone/metrics/text/readability_metrics.py
+whetstone/utils/__init__.py
+whetstone/utils/text/__init__.py
+whetstone/utils/text/text_parsers.py
+whetstone_ml.egg-info/PKG-INFO
+whetstone_ml.egg-info/SOURCES.txt
+whetstone_ml.egg-info/dependency_links.txt
+whetstone_ml.egg-info/top_level.txt
