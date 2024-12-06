@@ -1,0 +1,7 @@
+README.md
+setup.py
+pygtknodesb/__init__.py
+pygtknodesb.egg-info/PKG-INFO
+pygtknodesb.egg-info/SOURCES.txt
+pygtknodesb.egg-info/dependency_links.txt
+pygtknodesb.egg-info/top_level.txt
