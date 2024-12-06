@@ -1,0 +1,8 @@
+README.md
+setup.py
+nisshi/__init__.py
+nisshi/main.py
+nisshi.egg-info/PKG-INFO
+nisshi.egg-info/SOURCES.txt
+nisshi.egg-info/dependency_links.txt
+nisshi.egg-info/top_level.txt
