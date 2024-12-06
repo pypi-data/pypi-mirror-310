@@ -1,0 +1,13 @@
+README.md
+setup.py
+pepecoin/__init__.py
+pepecoin/cli.py
+pepecoin/pepecoin.py
+pepecoin/pepecoin_rpc.py
+pepecoin/rpc_example.py
+pepecoin.egg-info/PKG-INFO
+pepecoin.egg-info/SOURCES.txt
+pepecoin.egg-info/dependency_links.txt
+pepecoin.egg-info/entry_points.txt
+pepecoin.egg-info/requires.txt
+pepecoin.egg-info/top_level.txt
