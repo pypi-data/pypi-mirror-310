@@ -1,0 +1,10 @@
+cs.dockerutils>=20240519
+cs.fstags>=20241122
+cs.lex>=20241122
+cs.logutils>=20241109
+cs.mappings>=20231129
+cs.pfx>=20240630
+cs.psutils>=20241122
+cs.tagset>=20241007
+ffmpeg-python
+typeguard
