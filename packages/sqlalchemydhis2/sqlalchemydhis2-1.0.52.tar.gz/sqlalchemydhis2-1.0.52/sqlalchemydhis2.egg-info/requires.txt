@@ -1,0 +1,4 @@
+SQLAlchemy==1.4.46
+duckdb>=0.5.0
+polars
+packaging>=21
