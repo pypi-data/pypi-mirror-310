@@ -1,0 +1,9 @@
+botchain/__init__.py,sha256=GGMLqZwjO0V9Cj5pWs1wkDVb-I6QV2u9JFEEETkSSIA,123
+botchain/attachment.py,sha256=wMDkUA0CEkkfjvg6waKQky3enTUkOm73muVVaDaL-58,231
+botchain/main.py,sha256=ci3mPDKA5yvg2wzCpJE0EzlXlmc5h09RahqgjMAFL9g,3179
+botchain/strings.py,sha256=D6BQPSSxakqUYPo9cabBiETBG9hXhzwNOM8Zi2xQZus,284
+botchain/utils.py,sha256=K7kSnIGzG0KCcAv1Qj47nUK6Yc0C3lXov4KCALOgYIA,2309
+botchain-0.0.2.dist-info/METADATA,sha256=mmBkC4j1M82KewDG6gt6A57jv3wQF8fgnv6w8qQ_Zf0,917
+botchain-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+botchain-0.0.2.dist-info/top_level.txt,sha256=Z9B33ybF6tQKrPdcSLH-GnXQKyz9w4D1BZF4MaFKK7g,9
+botchain-0.0.2.dist-info/RECORD,,
