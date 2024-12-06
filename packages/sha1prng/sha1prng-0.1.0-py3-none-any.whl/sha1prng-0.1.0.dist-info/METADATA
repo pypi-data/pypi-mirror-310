@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: sha1prng
+Version: 0.1.0
+Summary: SHA1PRNG在Python中的实现，与JAVA SecureRandom的生成结果保持一致。
+Author: rRR0VrFP
+Maintainer: rRR0VrFP
+License: Apache License, Version 2.0
+Keywords: sha1prng,hashprng
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sha1prng
+
+SHA1PRNG在Python中的实现，与JAVA SecureRandom的生成结果保持一致。
+
+## 安装
+
+```shell
+pip install sha1prng
+```
+
+## 使用
+
+### Python测试代码
+
+```python
+
+import binascii
+from sha1prng import SHA1PRNG
+
+gen = SHA1PRNG(b"pwd")
+for i in range(50):
+    value = gen.randbytes(7)
+    print(binascii.hexlify(value).decode())
+
+```
+
+### 测试代码输出结果
+
+```txt
+975b2cd4ff9ae554fe8a
+d33168fbfc326d2021dd
+25ad76226e84fecd44ec
+8410ccdf0fc320aebe0a
+9bdb251d6a1eaf62cba0
+7bd707b603c87ed78d4b
+7b41230345bea763d765
+6eb65c474080455599a6
+c6a0429b6ed9b927b50f
+c39d476505ebe8e7ce16
+fbe50b6a550322e4bca1
+4dcb5109c0de5ca9e704
+cbe78b1046c7352b169e
+0185612ee00213a5333f
+2b2ee782aa509f79fe9b
+3f92911bdcf250d0129d
+3960fbfc52281f5af14b
+2b0b1c824db557898125
+80c5e8d9a380a7369dd0
+a85227a13e5aa84afb0c
+ac0ea6a2aa933770b673
+51d3f6bb454ef7806f46
+60f98768834d1205696e
+75f491485a56913bf415
+20540ae17f66468d9f2e
+38566dfc7e00e5a0be8d
+51842708ba24c2092d66
+4e8d71a7fa9ab473a854
+88baf9a1b71f4726c7e2
+e9082e6b5930d35744fb
+0bba14eafa4aa2589a07
+f2909e7b76d528409032
+c6d6c4aa0d5e30ac0d33
+d8950862edfa5b3347f7
+79529e2098be91e7b9b2
+04b0bbbfc7b092639144
+d678d6af3188aecef436
+654f9b2c1ab9896c340d
+cc19e1564a68e484c2f5
+34af1ed78b1c14010826
+a174149923dfdfde8022
+383d6dfd8ae931debc53
+7883c16442772744885a
+1252262cd4a61f87eb3d
+c627078df3e7def3d809
+24e1688e47e50c7a687d
+c1af8efcaf3b6bfeb953
+14d1bfadafd92786922b
+582d90f5703f73cfabc3
+d952c02e90c0729ae495
+```
+
+## 保持输出序列一致时的JAVA代码
+
+```java
+import java.security.*; 
+import java.util.*; 
+
+class Main {
+    public static void main(String[] args) {
+        try {
+            byte[] output = new byte[10];
+            // 初始种子0x70 0x77 0x64即为b"pwd"
+            byte[] pwd = new byte[] { (byte)0x70, (byte)0x77, (byte)0x64 };
+            SecureRandom random = SecureRandom.getInstance("SHA1PRNG");
+            random.setSeed(pwd);
+            for(int i=0; i<50; i++){
+                random.nextBytes(output);
+                System.out.println(HexFormat.of().formatHex(output));
+            }
+        } catch (NoSuchAlgorithmException e){
+        }
+    }
+}
+```
+
+## 版本记录
+
+### 0.1.0
+
+- 版本首发。
