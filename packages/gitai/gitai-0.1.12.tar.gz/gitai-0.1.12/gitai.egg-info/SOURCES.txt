@@ -1,0 +1,12 @@
+README.md
+setup.py
+gitai/__init__.py
+gitai/agent.py
+gitai/main.py
+gitai/tools.py
+gitai.egg-info/PKG-INFO
+gitai.egg-info/SOURCES.txt
+gitai.egg-info/dependency_links.txt
+gitai.egg-info/entry_points.txt
+gitai.egg-info/requires.txt
+gitai.egg-info/top_level.txt
