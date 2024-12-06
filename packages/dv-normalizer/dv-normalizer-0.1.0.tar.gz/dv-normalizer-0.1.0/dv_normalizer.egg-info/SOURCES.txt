@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+dv_normalize/__init__.py
+dv_normalize/dv_num.py
+dv_normalize/dv_sentence.py
+dv_normalizer.egg-info/PKG-INFO
+dv_normalizer.egg-info/SOURCES.txt
+dv_normalizer.egg-info/dependency_links.txt
+dv_normalizer.egg-info/top_level.txt
