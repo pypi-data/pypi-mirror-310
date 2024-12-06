@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyidaungsu/__init__.py
+pyidaungsu/tokenize.py
+pyidaungsu/model/pdsdetect.ftz
+pyidaungsu/model/tokenizer.crfsuite
+pyidaungsu/model/lib/fasttext_pybind.cpython-38-x86_64-linux-gnu.so
+pyidaungsu_numpy2.egg-info/PKG-INFO
+pyidaungsu_numpy2.egg-info/SOURCES.txt
+pyidaungsu_numpy2.egg-info/dependency_links.txt
+pyidaungsu_numpy2.egg-info/requires.txt
+pyidaungsu_numpy2.egg-info/top_level.txt
