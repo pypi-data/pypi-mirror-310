@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ml_algorithms
+Version: 0.1.2
+Requires-Python: >=3.6
+Requires-Dist: matplotlib>=3.9.2
+Requires-Dist: numpy>=2.1.3
+
