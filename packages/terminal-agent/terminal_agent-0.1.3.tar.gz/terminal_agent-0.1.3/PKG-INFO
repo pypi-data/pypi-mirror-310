@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: terminal-agent
+Version: 0.1.3
+Summary: A lightweight, natural language Linux terminal assistant.
+Home-page: https://github.com/masterwithamza/terminal-agent
+Author: Hamza Rehman (CloudDev Technologies)
+Author-email: hamza.rehman.shaikh@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/masterwithamza/terminal-agent/issues
+Project-URL: Documentation, https://github.com/masterwithamza/terminal-agent/wiki
+Project-URL: Source Code, https://github.com/masterwithamza/terminal-agent
+Keywords: linux terminal assistant,natural language processing,command generator,AI assistant
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: transformers>=4.33.0
+Requires-Dist: torch>=1.10.0
