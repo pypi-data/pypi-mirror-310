@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dkdc-email
+Version: 0.0.1
+Summary: email utilities
+Author-email: Cody <cody@dkdc.dev>
+Project-URL: Homepage, https://github.com/dkdc-io/dkdc-email
+Project-URL: Bug Tracker, https://github.com/dkdc-io/dkdc-email/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: dkdc-util
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: googlesearch-python
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: nbclient; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# dkdc-email
+
+Email utilities.
+
+> [!WARNING]
+> Work in progress. Not intended for use yet.
+
+## why?
+
+simplicity.
+
+## setup
+
+TODO
