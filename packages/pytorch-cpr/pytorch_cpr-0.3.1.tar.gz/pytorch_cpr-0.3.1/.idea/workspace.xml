@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60852327-564f-4d83-a5ce-724056226229" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/train_cifar100_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/train_cifar100_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch_cpr/adamcpr.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_cpr/adamcpr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch_cpr/group_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_cpr/group_parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YcFUJAXPlyfrGXfS3Pg29dUZfA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_adamcpr.test_numerical_precision.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for tests.test_adamcpr.test_regularization_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_adamcpr.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_group_parameter.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python examples/train_grokking_task.py --optimizer adamcpr --kappa_init_method dependent --kappa_init_param 0.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_grokking_task.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.train_resnet.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/joerg/workspace/python/github/CPR/pytorch_cpr&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/home/joerg/workspace/python/github/GPTworkbench/workbench/train/optim/adamcpr.py&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pytorch_cpr" />
+      <recent name="$PROJECT_DIR$/figures" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pytorch_cpr" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train_grokking_task">
+    <configuration name="train_grokking_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CPR" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/train_grokking_task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_adamcpr.test_numerical_precision" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CPR" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_adamcpr.test_numerical_precision&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_adamcpr.test_regularization_functions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CPR" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_adamcpr.test_regularization_functions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_adamcpr.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CPR" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_adamcpr.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_group_parameter.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CPR" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_group_parameter.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.train_grokking_task" />
+      <item itemvalue="Python tests.pytest for test_adamcpr.test_numerical_precision" />
+      <item itemvalue="Python tests.pytest for tests.test_adamcpr.test_regularization_functions" />
+      <item itemvalue="Python tests.pytest in test_adamcpr.py" />
+      <item itemvalue="Python tests.pytest in test_group_parameter.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_grokking_task" />
+        <item itemvalue="Python tests.pytest in test_group_parameter.py" />
+        <item itemvalue="Python tests.pytest in test_adamcpr.py" />
+        <item itemvalue="Python tests.pytest for tests.test_adamcpr.test_regularization_functions" />
+        <item itemvalue="Python tests.pytest for test_adamcpr.test_numerical_precision" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60852327-564f-4d83-a5ce-724056226229" name="Changes" comment="" />
+      <created>1700816975022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700816975022</updated>
+      <workItem from="1700816976086" duration="17001000" />
+      <workItem from="1705003744508" duration="773000" />
+      <workItem from="1705049873366" duration="599000" />
+      <workItem from="1705132125072" duration="4000" />
+      <workItem from="1705132144155" duration="2025000" />
+      <workItem from="1705180051909" duration="599000" />
+      <workItem from="1705213331398" duration="599000" />
+      <workItem from="1705229953880" duration="599000" />
+      <workItem from="1705248905660" duration="627000" />
+      <workItem from="1705308601059" duration="599000" />
+      <workItem from="1705389508574" duration="599000" />
+      <workItem from="1705420280835" duration="599000" />
+      <workItem from="1705476488263" duration="599000" />
+      <workItem from="1705487545109" duration="599000" />
+      <workItem from="1705520221528" duration="599000" />
+      <workItem from="1705561214076" duration="1216000" />
+      <workItem from="1705681611661" duration="1369000" />
+      <workItem from="1705735968730" duration="599000" />
+      <workItem from="1705822334635" duration="599000" />
+      <workItem from="1705907576950" duration="599000" />
+      <workItem from="1705993668690" duration="599000" />
+      <workItem from="1706081014667" duration="599000" />
+      <workItem from="1706176593216" duration="599000" />
+      <workItem from="1706267391744" duration="599000" />
+      <workItem from="1706350642542" duration="599000" />
+      <workItem from="1706431712189" duration="599000" />
+      <workItem from="1706512894010" duration="599000" />
+      <workItem from="1706514779069" duration="599000" />
+      <workItem from="1706517989886" duration="599000" />
+      <workItem from="1706574423485" duration="599000" />
+      <workItem from="1706599441736" duration="599000" />
+      <workItem from="1706687370859" duration="3001000" />
+      <workItem from="1706773980177" duration="599000" />
+      <workItem from="1706860176582" duration="599000" />
+      <workItem from="1706945300568" duration="599000" />
+      <workItem from="1707032976979" duration="599000" />
+      <workItem from="1707302904236" duration="4949000" />
+      <workItem from="1707379396038" duration="2418000" />
+      <workItem from="1707464041521" duration="599000" />
+      <workItem from="1707547474073" duration="599000" />
+      <workItem from="1707722062049" duration="599000" />
+      <workItem from="1707751325008" duration="599000" />
+      <workItem from="1707779718199" duration="112000" />
+      <workItem from="1707780246532" duration="146000" />
+      <workItem from="1707810092392" duration="601000" />
+      <workItem from="1707898753738" duration="599000" />
+      <workItem from="1707981060951" duration="599000" />
+      <workItem from="1708066064808" duration="599000" />
+      <workItem from="1708529405552" duration="3132000" />
+      <workItem from="1708875507432" duration="2544000" />
+      <workItem from="1708955984659" duration="599000" />
+      <workItem from="1709020173928" duration="599000" />
+      <workItem from="1709059615029" duration="599000" />
+      <workItem from="1709148597685" duration="599000" />
+      <workItem from="1709625865955" duration="599000" />
+      <workItem from="1709736347133" duration="599000" />
+      <workItem from="1709801607387" duration="599000" />
+      <workItem from="1709847321644" duration="599000" />
+      <workItem from="1709881699038" duration="599000" />
+      <workItem from="1709927246799" duration="599000" />
+      <workItem from="1710002214774" duration="599000" />
+      <workItem from="1710093125064" duration="598000" />
+      <workItem from="1710142134506" duration="599000" />
+      <workItem from="1710146144123" duration="599000" />
+      <workItem from="1710620201286" duration="599000" />
+      <workItem from="1710674551154" duration="599000" />
+      <workItem from="1710746715542" duration="599000" />
+      <workItem from="1710836388194" duration="599000" />
+      <workItem from="1711040930568" duration="599000" />
+      <workItem from="1711091427151" duration="599000" />
+      <workItem from="1711216844672" duration="599000" />
+      <workItem from="1711267485604" duration="599000" />
+      <workItem from="1711383015350" duration="599000" />
+      <workItem from="1711437332639" duration="599000" />
+      <workItem from="1711462448160" duration="3892000" />
+      <workItem from="1711524533438" duration="599000" />
+      <workItem from="1711581161008" duration="599000" />
+      <workItem from="1711612593892" duration="599000" />
+      <workItem from="1711695407542" duration="599000" />
+      <workItem from="1711827843278" duration="599000" />
+      <workItem from="1711963918539" duration="599000" />
+      <workItem from="1712262199809" duration="599000" />
+      <workItem from="1712312998682" duration="599000" />
+      <workItem from="1712559696303" duration="599000" />
+      <workItem from="1712694250741" duration="599000" />
+      <workItem from="1712781750166" duration="599000" />
+      <workItem from="1712818890294" duration="599000" />
+      <workItem from="1712901071776" duration="599000" />
+      <workItem from="1712999658116" duration="599000" />
+      <workItem from="1713083826988" duration="599000" />
+      <workItem from="1713161756089" duration="599000" />
+      <workItem from="1713202005272" duration="599000" />
+      <workItem from="1713430536359" duration="599000" />
+      <workItem from="1713508697923" duration="599000" />
+      <workItem from="1713607369934" duration="599000" />
+      <workItem from="1713689836190" duration="599000" />
+      <workItem from="1713766812455" duration="599000" />
+      <workItem from="1713895788858" duration="599000" />
+      <workItem from="1713939317193" duration="599000" />
+      <workItem from="1714029596104" duration="467000" />
+      <workItem from="1714112756575" duration="599000" />
+      <workItem from="1714195093735" duration="1198000" />
+      <workItem from="1714295099941" duration="599000" />
+      <workItem from="1714371292916" duration="599000" />
+      <workItem from="1714419342439" duration="599000" />
+      <workItem from="1714457537829" duration="772000" />
+      <workItem from="1714483809442" duration="599000" />
+      <workItem from="1714674417787" duration="1200000" />
+      <workItem from="1714718097376" duration="1200000" />
+      <workItem from="1714762713501" duration="599000" />
+      <workItem from="1714811965166" duration="599000" />
+      <workItem from="1714918669363" duration="599000" />
+      <workItem from="1714979549865" duration="2294000" />
+      <workItem from="1715064170991" duration="599000" />
+      <workItem from="1715709251734" duration="1198000" />
+      <workItem from="1715754712515" duration="599000" />
+      <workItem from="1715841393006" duration="1198000" />
+      <workItem from="1715928719603" duration="599000" />
+      <workItem from="1716019340180" duration="599000" />
+      <workItem from="1716136454153" duration="1198000" />
+      <workItem from="1731145575533" duration="29616000" />
+      <workItem from="1731234403009" duration="3762000" />
+      <workItem from="1731314938059" duration="13214000" />
+      <workItem from="1732000628666" duration="3262000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1700844359461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700844359461</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove apply_lr, redesign CPR class, minor fixes">
+      <option name="closed" value="true" />
+      <created>1708532990295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708532990295</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update pip package">
+      <option name="closed" value="true" />
+      <created>1708877914897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708877914897</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update the code base with AdamCPR and for PyTorch v2.3.1+. Add figures and more detailed descriptions in README. Tests are not completed.">
+      <option name="closed" value="true" />
+      <created>1731185682600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731185682600</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update the code base with AdamCPR and for PyTorch v2.3.1+. Add figures and more detailed descriptions in README. Tests are not completed.">
+      <option name="closed" value="true" />
+      <created>1731185731881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731185731881</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update the code base with AdamCPR and for PyTorch v2.3.1+. Add figures and more detailed descriptions in README. Tests are not completed.">
+      <option name="closed" value="true" />
+      <created>1731185872702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731185872702</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update the code base with AdamCPR and for PyTorch v2.3.1+. Add figures and more detailed descriptions in README. Tests are not completed.">
+      <option name="closed" value="true" />
+      <created>1731185991364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731185991364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="remove apply_lr, redesign CPR class, minor fixes" />
+    <MESSAGE value="update pip package" />
+    <MESSAGE value="Update the code base with AdamCPR and for PyTorch v2.3.1+. Add figures and more detailed descriptions in README. Tests are not completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the code base with AdamCPR and for PyTorch v2.3.1+. Add figures and more detailed descriptions in README. Tests are not completed." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CPR$train_resnet.coverage" NAME="train_resnet Coverage Results" MODIFIED="1731172818664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CPR$pytest_in_test_group_parameter_py.coverage" NAME="pytest in test_group_parameter.py Coverage Results" MODIFIED="1731174848652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CPR$test_group_parameter.coverage" NAME="test_group_parameter Coverage Results" MODIFIED="1700822470142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/CPR$test_optim_cpr.coverage" NAME="test_optim_cpr Coverage Results" MODIFIED="1700824431732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/CPR$python_examples_train_grokking_task_py___optimizer_adamcpr___kappa_init_method_dependent___kappa_init_param_0_8.coverage" NAME="python examples/train_grokking_task.py --optimizer adamcpr --kappa_init_method dependent --kappa_init_param 0.8 Coverage Results" MODIFIED="1731172767879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CPR$pytest_for_test_adamcpr_test_numerical_precision.coverage" NAME="pytest for test_adamcpr.test_numerical_precision Coverage Results" MODIFIED="1731174400006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/CPR$pytest_for_tests_test_adamcpr_test_regularization_functions.coverage" NAME="pytest for tests.test_adamcpr.test_regularization_functions Coverage Results" MODIFIED="1731174763749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CPR$train_grokking_task.coverage" NAME="train_grokking_task Coverage Results" MODIFIED="1731185422433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CPR$pytest_in_test_adamcpr_py.coverage" NAME="pytest in test_adamcpr.py Coverage Results" MODIFIED="1731174844704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
