@@ -1,0 +1,8 @@
+Fiona
+geopandas
+libpysal
+pytest
+scipy
+shapely
+rdapy
+gerrychain
