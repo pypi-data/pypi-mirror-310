@@ -1,0 +1,7 @@
+pandas
+tushare
+pymysql
+sqlalchemy
+cryptography
+build
+twine
