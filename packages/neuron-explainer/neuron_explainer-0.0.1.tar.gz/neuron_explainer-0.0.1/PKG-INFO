@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: neuron_explainer
+Version: 0.0.1
+Summary: A package for neuron activations and explanations
+Home-page: 
+Author: OpenAI
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: httpx>=0.22
+Requires-Dist: scikit-learn
+Requires-Dist: boostedblob>=0.13.0
+Requires-Dist: tiktoken
+Requires-Dist: blobfile
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: orjson
