@@ -1,0 +1,16 @@
+setup.py
+PyMyMethod/__init__.py
+PyMyMethod.egg-info/PKG-INFO
+PyMyMethod.egg-info/SOURCES.txt
+PyMyMethod.egg-info/dependency_links.txt
+PyMyMethod.egg-info/requires.txt
+PyMyMethod.egg-info/top_level.txt
+PyMyMethod/code/__init__.py
+PyMyMethod/code/file_control.py
+PyMyMethod/code/mouse_control.py
+PyMyMethod/code/regedit.py
+PyMyMethod/code/screen_control.py
+PyMyMethod/code/system_control.py
+PyMyMethod/code/terminal_command.py
+PyMyMethod/doc/__init__.py
+PyMyMethod/doc/method_doc.py
