@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "rag-lib"
+version = "0.1.0"
+description = "Modular library for implementing Retrieval-Augmented Generation (RAG) pipelines."
+authors = ["None"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.9.0"
+llama-index = "^0.12.1"
+pypdf2 = "^3.0.1"
+docx2txt = "^0.8"
+numpy = "1.26.4"
+meson-python = "^0.17.1"
+langchain = "^0.3.7"
+pyjwt = "^2.10.0"
+pydantic-settings = "^2.6.1"
+llama-index-llms-openai-like = "^0.3.0"
+langchain-community = "^0.3.8"
+llama-index-embeddings-langchain = "^0.3.0"
+sentence-transformers = "^3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

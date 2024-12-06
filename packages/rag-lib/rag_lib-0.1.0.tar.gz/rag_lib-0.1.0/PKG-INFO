@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: rag-lib
+Version: 0.1.0
+Summary: Modular library for implementing Retrieval-Augmented Generation (RAG) pipelines.
+License: MIT
+Author: None
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: docx2txt (>=0.8,<0.9)
+Requires-Dist: langchain (>=0.3.7,<0.4.0)
+Requires-Dist: langchain-community (>=0.3.8,<0.4.0)
+Requires-Dist: llama-index (>=0.12.1,<0.13.0)
+Requires-Dist: llama-index-embeddings-langchain (>=0.3.0,<0.4.0)
+Requires-Dist: llama-index-llms-openai-like (>=0.3.0,<0.4.0)
+Requires-Dist: meson-python (>=0.17.1,<0.18.0)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: pydantic (>=2.9.0,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.6.1,<3.0.0)
+Requires-Dist: pyjwt (>=2.10.0,<3.0.0)
+Requires-Dist: pypdf2 (>=3.0.1,<4.0.0)
+Requires-Dist: sentence-transformers (>=3.3.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# rag_lib
+
+`rag_lib` — это библиотека для построения Retrieval-Augmented Generation (RAG) пайплайнов. Она предоставляет набор модулей для обработки данных, работы с языковыми моделями, генерации ответов и управления всем процессом.
+
+## Возможности
+
+- **Answer Generation:** Модуль генерации ответов, основанный на встроенных моделях.
+- **Chunker:** Разделение данных на блоки для дальнейшей обработки.
+- **Clearer:** Очистка данных и приведение их к стандартному формату.
+- **Converter:** Преобразование данных между форматами.
+- **Embedding:** Генерация эмбеддингов для текста с использованием моделей.
+- **Indexer:** Индексация данных для эффективного поиска.
+- **LLM:** Взаимодействие с крупными языковыми моделями (LLM).
+- **Pipeline:** Управление RAG-пайплайнами и их автоматизация.
+- **Prompt Augmentation:** Улучшение подсказок (prompts) для взаимодействия с LLM.
+- **Retriever:** Извлечение данных, релевантных запросу.
+
+## Установка
+
+Для использования библиотеки добавьте её в ваш проект через PyPI:
+
+```bash
+pip install rag_lib
+
