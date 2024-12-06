@@ -1,0 +1,9 @@
+pyproject.toml
+readme.md
+src/dkdc_lake/__init__.py
+src/dkdc_lake/main.py
+src/dkdc_lake.egg-info/PKG-INFO
+src/dkdc_lake.egg-info/SOURCES.txt
+src/dkdc_lake.egg-info/dependency_links.txt
+src/dkdc_lake.egg-info/requires.txt
+src/dkdc_lake.egg-info/top_level.txt
