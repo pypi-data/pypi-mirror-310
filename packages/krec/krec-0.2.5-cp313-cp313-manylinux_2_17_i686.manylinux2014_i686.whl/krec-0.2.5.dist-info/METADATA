@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: krec
+Version: 0.2.5
+Summary: Python bindings for K-Scale recordingss
+Home-page: https://github.com/kscalelabs/krec
+Author: K-Scale Labs
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# krec
+
+`krec` is a library for reading and writing K-Rec data.
+
+## Installation
+
+```bash
+pip install krec
+```
+
+See the [docs](https://docs.kscale.dev/models/krec) for more information.
