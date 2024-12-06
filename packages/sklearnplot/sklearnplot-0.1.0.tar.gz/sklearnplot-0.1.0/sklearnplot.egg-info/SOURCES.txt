@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+sklearnplot/__init__.py
+sklearnplot/adversial.py
+sklearnplot/informed.py
+sklearnplot/preprocessing.py
+sklearnplot/prolog.py
+sklearnplot/search.py
+sklearnplot/supervised.py
+sklearnplot/wumpus.py
+sklearnplot.egg-info/PKG-INFO
+sklearnplot.egg-info/SOURCES.txt
+sklearnplot.egg-info/dependency_links.txt
+sklearnplot.egg-info/top_level.txt
