@@ -1,0 +1,3 @@
+[console_scripts]
+cocoml=cocomltools.main_cli:main
+
