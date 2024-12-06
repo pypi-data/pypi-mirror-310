@@ -1,0 +1,11 @@
+dkdc_todo/__init__.py,sha256=p5rzdC77EIro9m2DvVIQiza9wvpXsq9prjOt87rh-iQ,52
+dkdc_todo/main.py,sha256=8DjrMNsbdJNwg9SxFvxMLWGUP_-u4r_KjTbOIlHEdaM,5264
+dkdc_todo/ui/cli.py,sha256=VN4lCNH4HinD2D3zbkqYsn3FqHCAvsdURm7urKlzQU4,996
+dkdc_todo/ui/gui/__init__.py,sha256=XytfC_qNeFOyv1budsZnU53KD7tvIr0klNxaJ_KNpwg,57
+dkdc_todo/ui/gui/main.py,sha256=29-QCHwEm85K6Arx5F6aryb0XcM1Xlmaot-Ud4m8paI,1040
+dkdc_todo/ui/gui/todos.py,sha256=WAurIidTCi8L0FTBk2Qc0SIbhKW0VkTQhOEr8k8bdn8,6150
+dkdc_todo-0.0.3.dist-info/METADATA,sha256=hkowrD1dKajT_IXQGENN8iGrQWWsviCd63Q0RGGCMvM,1099
+dkdc_todo-0.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dkdc_todo-0.0.3.dist-info/entry_points.txt,sha256=Bk35mON9qpPs8aEhBy2aheTYRhKQhpLd7X8keayOUJA,46
+dkdc_todo-0.0.3.dist-info/top_level.txt,sha256=BEpiRICfsDxEG1qLcrnHG4q3GG68-P9rne_2dohNSc8,10
+dkdc_todo-0.0.3.dist-info/RECORD,,
