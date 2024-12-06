@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: loluukok
+Version: 1.0
+Summary: A simple library for file and directory management.
+Home-page: https://pypi.org/loluukok/loluukok
+Author: Luuk M. Mastbroek
+Author-email: luukm@mastbroek.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This Python library provides simple tools for file and directory management.
+It includes functionality for reading, writing, deleting, renaming files, and working with directories (such as creating, deleting, and listing directories).
+
+- Read and write files.
+- Rename and delete files.
+- Check if files or directories exist.
+- Work with directories: create new directories, list their contents, and delete directories.
+
+
