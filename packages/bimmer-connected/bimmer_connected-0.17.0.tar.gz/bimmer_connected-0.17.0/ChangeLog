@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.17.0
+------
+
+* Add captcha for rest\_of\_world (#675)
