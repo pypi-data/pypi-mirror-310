@@ -1,0 +1,10 @@
+askchat/__init__.py,sha256=i_1HtfvLBT1Nm2RGt6aW0dHVR_XXzeIb2IafbcRBiqE,3067
+askchat/ask.py,sha256=0QaYgXE9kJuUTeNx0KgMd4kH5Widnb_Dk_eU0XwzhLI,458
+askchat/askenv.py,sha256=JJXMP4FKoqPuQ_fNFod2_DR7ykIGudNFmeHB2ZV_dkc,5701
+askchat/cli.py,sha256=SfPGKuVYQ6Tz5uG8lwIm2NRWGsTLr6yetX7jmABLqfw,9463
+askchat-1.2.3.dist-info/LICENSE,sha256=iXq3j8_2GfFh-1E6v_vbgO0Ng0H28tWvMfQl2Z0nx4I,1064
+askchat-1.2.3.dist-info/METADATA,sha256=s8nieWi0jgpjIwZuMO74ldDKfpFKNMFkCs2vONvzU-c,818
+askchat-1.2.3.dist-info/WHEEL,sha256=Kh9pAotZVRFj97E15yTA4iADqXdQfIVTHcNaZTjxeGM,110
+askchat-1.2.3.dist-info/entry_points.txt,sha256=wSeJt5PteM7J-1KTXUCWYDfvrpCMdlX1dvh8V6v7dgw,97
+askchat-1.2.3.dist-info/top_level.txt,sha256=ITiUjDQHEh_dp5ObuernKBxzPETxXqEr4c2AZdUbIqQ,8
+askchat-1.2.3.dist-info/RECORD,,
