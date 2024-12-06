@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: caeroc
+Version: 0.0.3b0
+Summary: Compressible aerodynamics calculator in Python
+Keywords: compressible aerodynamics,calculator,gas dynamics
+Author-Email: "Ashwin V. Mohanan" <dev@fluid.quest>
+License: GPL
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Project-URL: Homepage, https://github.org/ashwinvis/caeroc
+Requires-Python: >=3.10
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: qtpy
+Requires-Dist: skaero@ https://github.com/AeroPython/scikit-aero/archive/06958096c04183cde87a7e8a6cd7c016eb9140b3.zip
+Requires-Dist: scipy
+Provides-Extra: pyside
+Requires-Dist: PySide2; extra == "pyside"
+Provides-Extra: pyqt
+Requires-Dist: PyQt5; extra == "pyqt"
+Description-Content-Type: text/markdown
+
+# caeroc
