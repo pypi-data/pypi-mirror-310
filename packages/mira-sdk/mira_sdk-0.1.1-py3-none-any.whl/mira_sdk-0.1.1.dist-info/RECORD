@@ -1,0 +1,9 @@
+mira_sdk/__init__.py,sha256=vjDGqvwbGpWS5T5jarsWzDEUXuYnrRQ90jriGka0-do,98
+mira_sdk/client.py,sha256=xQmgTLGloMrXrws9smj6XXUNuZETHR8TsHJgjTlp2DM,327
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_async.py,sha256=3SQfpjFK8vLGllaCZC97NTGABU7kp4FVLN53ZnU8Z5U,4899
+tests/test_new.py,sha256=LgPRa_3an_uhYJ0J_CfiwIrUqUCmtMro_T-lJQ2tUUw,6850
+mira_sdk-0.1.1.dist-info/METADATA,sha256=-Sz0f4HKnICY1cwyGuVV5hd9SquxaAW7xFp2RquSUUs,3421
+mira_sdk-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mira_sdk-0.1.1.dist-info/top_level.txt,sha256=fTKWeDpUiE4J3sStE-m-AxEr-f6roQ87w9p7VY9dhCU,15
+mira_sdk-0.1.1.dist-info/RECORD,,
