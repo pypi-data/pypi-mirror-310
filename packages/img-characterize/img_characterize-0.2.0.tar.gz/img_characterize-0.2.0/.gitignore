@@ -1,0 +1,10 @@
+**/output
+**/dict_caracteres
+**/dist
+**/build
+**/main.spec
+**/.gitignore
+**/.vscode
+**/__pycache__
+.aider*
+.env
