@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+flareradio/__init__.py
+flareradio.egg-info/PKG-INFO
+flareradio.egg-info/SOURCES.txt
+flareradio.egg-info/dependency_links.txt
+flareradio.egg-info/requires.txt
+flareradio.egg-info/top_level.txt
+tests/test_flareradio.py

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flareradio
+Version: 1.0.0
+Summary: A module to interact with the Flare Radio API
+Author: Jack Dawson
+Requires-Python: >=3.6
+Requires-Dist: requests>=2.25.1
