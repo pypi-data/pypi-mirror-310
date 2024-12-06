@@ -1,0 +1,4 @@
+requests
+azure-identity
+click>=8.0.0
+tabulate

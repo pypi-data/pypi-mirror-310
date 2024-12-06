@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/azure_activation_service/__init__.py
+src/azure_activation_service/cli.py
+src/azure_activation_service/config.py
+src/azure_activation_service/pim_client.py
+src/azure_activation_service.egg-info/PKG-INFO
+src/azure_activation_service.egg-info/SOURCES.txt
+src/azure_activation_service.egg-info/dependency_links.txt
+src/azure_activation_service.egg-info/entry_points.txt
+src/azure_activation_service.egg-info/requires.txt
+src/azure_activation_service.egg-info/top_level.txt

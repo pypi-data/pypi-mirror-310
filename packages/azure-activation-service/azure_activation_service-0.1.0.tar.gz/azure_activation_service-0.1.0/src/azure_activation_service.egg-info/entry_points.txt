@@ -1,0 +1,3 @@
+[console_scripts]
+aas = azure_activation_service.cli:main
+azure-activate = azure_activation_service.cli:main
