@@ -1,0 +1,13 @@
+[console_scripts]
+re2c = re2c:re2c
+re2d = re2c:re2d
+re2go = re2c:re2go
+re2hs = re2c:re2hs
+re2java = re2c:re2java
+re2js = re2c:re2js
+re2ocaml = re2c:re2ocaml
+re2py = re2c:re2py
+re2rust = re2c:re2rust
+re2v = re2c:re2v
+re2zig = re2c:re2zig
+
