@@ -1,0 +1,16 @@
+psc_datalogger/__init__.py,sha256=v-rRiDOgZ3sQSMQKq0vgUQZvpeOkoHFXissAx6Ktg84,61
+psc_datalogger/__main__.py,sha256=_TvcSRsUX0Hj0tUEvxVx3d0nxExuNI6dcy8U0aWnNoc,1153
+psc_datalogger/_version.py,sha256=CqDGE4B1ZqZ-56mxeOFcXRTmlxrdOh4ayrjbcPjziE4,411
+psc_datalogger/connection.py,sha256=N1qZXxDKSjI_gU18CekjBiuctJUJAWKWzfrGZiGBVzY,20683
+psc_datalogger/gui.py,sha256=z8pbgRO9AWrcfGqcv7WBj1yM9fdZ5LdeSWzUtvZAYzg,10100
+psc_datalogger/multimeter.py,sha256=sOe5II296j8yBlPalJ4z88kTV64LQ1zvkibjS5CZ3h8,5785
+psc_datalogger/statusbar.py,sha256=KSzcJuUMl_7wIPNTU7YY4iHa_RGTN1jFhhJQlFrbzSk,1169
+psc_datalogger/testprog.py,sha256=EeH6e8Gn3GvJcluvPNwaBB2qYSMUsAb22kI2XjsoG74,1124
+psc_datalogger/temperature/__init__.py,sha256=OhOAzfxUOc1HuT0Wl8RGxP0vYH6OzzXaUNxlYs-NMnc,29
+psc_datalogger/temperature/converter.py,sha256=L0HrbjQvBf-Ld2qNJWbHsTk_SHfIVghvWZpsDyB3vcM,742
+psc_datalogger-1.1.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+psc_datalogger-1.1.0.dist-info/METADATA,sha256=k6gO-fkHyW8hrI3EWDqryodORDbSmoCVGArLeV2dN_A,17005
+psc_datalogger-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+psc_datalogger-1.1.0.dist-info/entry_points.txt,sha256=KoziIO18oczJ9bujTz0_QYXpdCuyRCFYbt0IbhZ2lJY,64
+psc_datalogger-1.1.0.dist-info/top_level.txt,sha256=9Ay7YS_N__FHs_Tk5XIHp3x9_qQ1N7vuJpvkxkXlhxU,15
+psc_datalogger-1.1.0.dist-info/RECORD,,
