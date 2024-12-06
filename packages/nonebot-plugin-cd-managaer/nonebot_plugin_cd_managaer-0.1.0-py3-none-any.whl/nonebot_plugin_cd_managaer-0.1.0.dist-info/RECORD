@@ -1,0 +1,10 @@
+nonebot_plugin_cd_managaer-0.1.0.dist-info/METADATA,sha256=cdYI1NBntBaVLtDXkEOZCJ_iBKFeDVrmr6yqZUyF9ao,3708
+nonebot_plugin_cd_managaer-0.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nonebot_plugin_cd_managaer-0.1.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+nonebot_plugin_cd_managaer-0.1.0.dist-info/licenses/LICENSE,sha256=yRSaB-wscSgivOcu656ThRyHhHhjd-2T4gLrXEZEUv4,1085
+nonebot_plugin_cd_manager/__init__.py,sha256=xs57dtV8H0UkaqxyiZ3iphSaUU0hpNZVNnXMTujFKHo,807
+nonebot_plugin_cd_manager/cd_manager.py,sha256=qqpNtxp_aFMDAnJAxlkWomqB8IoEpJ7pvssB2e84Mu8,2168
+nonebot_plugin_cd_manager/config.py,sha256=JObNRvqdFgD8-xy-ry0o33TXH3OqLJqdcK_YHmloqM8,357
+nonebot_plugin_cd_manager/data_manager.py,sha256=ZsBXiRM6m3PEP7-ZvINWMUednoEnBQrMd9Hk65xA7Eo,1871
+nonebot_plugin_cd_manager/matcher.py,sha256=8SKxEY-dXh6S1kFkVu_otYbqlQVZqN0cy9t3jUJAHjU,4641
+nonebot_plugin_cd_managaer-0.1.0.dist-info/RECORD,,
