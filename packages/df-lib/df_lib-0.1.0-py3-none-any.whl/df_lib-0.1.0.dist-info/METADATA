@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: df_lib
+Version: 0.1.0
+Summary: Desolate Frontiers open library
+Project-URL: Documentation, https://github.com/OoriData/df_lib
+Project-URL: Issues, https://github.com/OoriData/df_lib/issues
+Project-URL: Source, https://github.com/OoriData/df_lib/tree/main
+Author-email: Osi Ogbuji <osi@oori.dev>, Uche Ogbuji <uche@oori.dev>, Aidan Reese <aidan@oori.dev>, Jide Ogbuji <jide@oori.dev>, Udoka Ogbuji <udoka@oori.dev>
+License: LicenseRef-Proprietary
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.12
+Requires-Dist: pytest
+Description-Content-Type: text/markdown
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ ┏┳┓┏━┓┏━┓┏━┓┳  ┏━┓┏┳┓┏━┓  ┏━┓┳━┓┏━┓┏┓┏┏┳┓┳┏━┓┳━┓┏━┓  ┳  ┳┏┓ ┳━┓┏━┓┳━┓┳┏━┓┏━┓ ║
+║  ┃┃┣┫ ┗━┓┃ ┃┃  ┣━┫ ┃ ┣┫   ┣┫ ┣┳┛┃ ┃┃┃┃ ┃ ┃┣┫ ┣┳┛┗━┓  ┃  ┃┣┻┓┣┳┛┣━┫┣┳┛┃┣┫ ┗━┓ ║
+║ ━┻┛┗━┛┗━┛┗━┛┻━┛┻ ┻ ┻ ┗━┛  ┗  ┻┗━┗━┛┛┗┛ ┻ ┻┗━┛┻┗━┗━┛  ┻━┛┻┗━┛┻┗━┻ ┻┻┗━┻┗━┛┗━┛ ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+# Desolate Frontiers helper libraries

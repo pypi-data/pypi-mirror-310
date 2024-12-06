@@ -1,0 +1,10 @@
+pyproject.toml,sha256=DJHF1lOR_DUIscU-I-uWIZdwmx8ISZ7JQada8P2b-yw,4086
+df_lib/__about__.py,sha256=jeI3rms7ekuIKYLAD72v7pxwRVKXxukj0VkWe22PSYU,163
+df_lib/__init__.py,sha256=mmgQZhmwGDQpE5USBDcGjqWn2yMtPSi6SxiC3wctZQ8,121
+df_lib/datastruct.py,sha256=R6kPfZYxGr7czUZdPtF3AER5pUwz3T8CqS9rS8QVf5M,1442
+df_lib/map_struct.py,sha256=yczwKViPDk5LoonN0ugP_FqhoiUDSF_Q3AkocF9Sg6M,13797
+test/conftest.py,sha256=bnm0n8sg4-dBDerIXbKWl06fJWMfjcjlmHifjiAlxDc,7042
+test/test_basic_map_pack_unpack.py,sha256=H-szFZBZcrBjnzWyZcS-aCK4b4fqXnNxe4ChPSKLb2o,5330
+df_lib-0.1.0.dist-info/METADATA,sha256=WWrnxxZ6uR4_a_CYMr2Rvw2JGuju4I5A8JCkFwqXJVM,2098
+df_lib-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+df_lib-0.1.0.dist-info/RECORD,,
