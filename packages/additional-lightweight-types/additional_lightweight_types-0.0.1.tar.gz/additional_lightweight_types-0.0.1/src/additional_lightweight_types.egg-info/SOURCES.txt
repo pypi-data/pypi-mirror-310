@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/additional_lightweight_types.egg-info/PKG-INFO
+src/additional_lightweight_types.egg-info/SOURCES.txt
+src/additional_lightweight_types.egg-info/dependency_links.txt
+src/additional_lightweight_types.egg-info/top_level.txt
+src/additional_lightweight_types_minoupower554/__init__.py
+src/additional_lightweight_types_minoupower554/example.py
