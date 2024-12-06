@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chelydra
+Version: 0.0.10
+Summary: A zip based backup-restore tool
+Home-page: https://github.com/LostSavannah/chelydra
+Author: Erick Fernando Mora Ramirez
+Author-email: erickfernandomoraramirez@gmail.com
+Project-URL: Bug Tracker, https://github.com/LostSavannah/chelydra/issues
+Project-URL: Documentation, https://github.com/LostSavannah/chelydra/wiki
+Project-URL: Examples, https://github.com/LostSavannah/chelydra/wiki/Examples
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Chelydra
+
+_A zip based backup-restore tool_
