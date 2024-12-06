@@ -1,0 +1,9 @@
+django_utils_vish/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+django_utils_vish/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_utils_vish/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_utils_vish/management/commands/list_models.py,sha256=DsGNjMOZQ5wXRIzdI9zUzl-RdNtc7S1c_hTQ2zb4Kro,445
+django_utils_vish-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_utils_vish-0.1.1.dist-info/METADATA,sha256=0pqyCivHRBwzQxsngmN0c1-0rO0D9I_cQrQwgyZcR50,858
+django_utils_vish-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+django_utils_vish-0.1.1.dist-info/top_level.txt,sha256=yFWWzGnmB6yLNhM3hw4zjwL85rOjFa5hJUhr_5SZreU,18
+django_utils_vish-0.1.1.dist-info/RECORD,,
