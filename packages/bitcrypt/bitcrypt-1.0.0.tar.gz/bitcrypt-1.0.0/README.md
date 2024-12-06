@@ -1,0 +1,43 @@
+# BitCrypt
+
+**BitCrypt** is a Python library for encrypting and decrypting text strings at the bit level, with additional Base64 encoding for secure storage or transmission.
+
+---
+
+## Features
+
+- Encrypt strings by inverting their bits and encoding them with Base64.
+- Decrypt Base64-encoded strings back to their original form by restoring the inverted bits.
+- Simple API for integration into other projects.
+- CLI support for quick encryption and decryption.
+
+---
+
+## How It Works
+
+The library performs encryption and decryption through the following steps:
+
+### Encryption
+
+1. **Input**: A plaintext string.
+2. **Convert to Bytes**: The input string is converted to a byte sequence.
+3. **Invert Bits**: Each byte's bits are flipped (using the `~` operator).
+4. **Base64 Encoding**: The inverted bytes are encoded into a Base64 string for portability and security.
+5. **Output**: The resulting Base64 string.
+
+### Decryption
+
+1. **Input**: A Base64-encoded string.
+2. **Decode from Base64**: The string is decoded into its original inverted byte sequence.
+3. **Restore Bits**: The inverted bits are flipped back to their original state.
+4. **Convert to String**: The restored bytes are converted back into a plaintext string.
+5. **Output**: The original string.
+
+---
+
+## Installation
+
+Install the library via `pip`:
+
+```bash
+pip install bitcrypt

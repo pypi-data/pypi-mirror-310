@@ -1,0 +1,9 @@
+README.md
+setup.py
+bitcrypt/__init__.py
+bitcrypt/crypt.py
+bitcrypt.egg-info/PKG-INFO
+bitcrypt.egg-info/SOURCES.txt
+bitcrypt.egg-info/dependency_links.txt
+bitcrypt.egg-info/entry_points.txt
+bitcrypt.egg-info/top_level.txt
