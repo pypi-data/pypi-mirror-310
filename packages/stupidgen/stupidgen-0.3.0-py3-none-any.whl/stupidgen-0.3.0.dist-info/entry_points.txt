@@ -1,0 +1,2 @@
+[console_scripts]
+stupidgen = stupidgen.__main__:main
