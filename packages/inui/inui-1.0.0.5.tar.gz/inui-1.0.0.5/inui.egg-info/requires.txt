@@ -1,0 +1,7 @@
+
+[full]
+black
+bs4
+lxml
+watchdog
+websockets
