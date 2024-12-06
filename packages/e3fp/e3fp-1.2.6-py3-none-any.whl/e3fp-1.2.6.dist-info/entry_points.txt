@@ -1,0 +1,4 @@
+[console_scripts]
+e3fp-conformer=e3fp.conformer.generate:main
+e3fp-fingerprint=e3fp.fingerprint.generate:main
+
