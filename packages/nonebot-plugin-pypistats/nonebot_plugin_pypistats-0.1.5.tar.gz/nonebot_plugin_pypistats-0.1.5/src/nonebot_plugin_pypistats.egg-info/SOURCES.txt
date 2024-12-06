@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/nonebot_plugin_pypistats/__init__.py
+src/nonebot_plugin_pypistats/config.py
+src/nonebot_plugin_pypistats/render.py
+src/nonebot_plugin_pypistats/uasge.py
+src/nonebot_plugin_pypistats/utils.py
+src/nonebot_plugin_pypistats.egg-info/PKG-INFO
+src/nonebot_plugin_pypistats.egg-info/SOURCES.txt
+src/nonebot_plugin_pypistats.egg-info/dependency_links.txt
+src/nonebot_plugin_pypistats.egg-info/requires.txt
+src/nonebot_plugin_pypistats.egg-info/top_level.txt
