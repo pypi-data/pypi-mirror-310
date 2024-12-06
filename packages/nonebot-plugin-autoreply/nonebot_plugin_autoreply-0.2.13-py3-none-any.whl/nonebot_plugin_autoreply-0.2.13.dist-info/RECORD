@@ -1,0 +1,10 @@
+nonebot_plugin_autoreply-0.2.13.dist-info/METADATA,sha256=uD9pFsCPJyN9b0oK7aUo9WZHTB2sDpzrNIRzvZoYsso,7573
+nonebot_plugin_autoreply-0.2.13.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nonebot_plugin_autoreply-0.2.13.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+nonebot_plugin_autoreply-0.2.13.dist-info/licenses/LICENSE,sha256=FgRk_OWZ2NhWR9HRhUC9NhF2knljmKer-ew0H1pbhSQ,1069
+nonebot_plugin_autoreply/__init__.py,sha256=icTKj3ZDOo8IAAUHTKGCslWqkkdE0_S3gpG5HlDgDOg,577
+nonebot_plugin_autoreply/__main__.py,sha256=guTf_sYnxYhBP6SPCJ1Pd5QzuOxdtlJHc80t5R9KMG4,9465
+nonebot_plugin_autoreply/config.py,sha256=9QTr1G1hh4-C_PUjWr54gy5UT7tvXgOkoeFhT-do1Pc,3683
+nonebot_plugin_autoreply/cool_down.py,sha256=7CLziqkpcCKBZSxJyyAJLpkTCx8blXdN3TnEL-u-FBk,49
+nonebot_plugin_autoreply/util.py,sha256=4z8KElnyDvZDyuz7vvpNa0-BrGLHwBo0yoNnZg0yPrw,3557
+nonebot_plugin_autoreply-0.2.13.dist-info/RECORD,,
