@@ -1,0 +1,3 @@
+ai-api-client-sdk>=2.1.4
+ai-core-sdk>=2.3.11
+hdbcli>=2.21.28
