@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+airflow_pydantic.egg-info/PKG-INFO
+airflow_pydantic.egg-info/SOURCES.txt
+airflow_pydantic.egg-info/dependency_links.txt
+airflow_pydantic.egg-info/top_level.txt
