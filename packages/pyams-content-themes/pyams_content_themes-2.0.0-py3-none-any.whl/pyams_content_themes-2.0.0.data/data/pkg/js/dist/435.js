@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyams_content_themes=self.webpackChunkpyams_content_themes||[]).push([[435],{5435:(e,s,t)=>{t.r(s),t.d(s,{default:()=>r});const r={BTN_CLOSE:"Fermer",SUCCESS:"Opération effectuée",ERROR_OCCURRED:"Une erreur s'est produite !",ERRORS_OCCURRED:"Des erreurs se sont produites !"}}}]);
