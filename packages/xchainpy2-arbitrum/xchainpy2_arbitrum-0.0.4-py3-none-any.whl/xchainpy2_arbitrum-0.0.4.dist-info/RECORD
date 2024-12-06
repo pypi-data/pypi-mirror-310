@@ -1,0 +1,9 @@
+xchainpy2_arbitrum/__init__.py,sha256=7JuZ3xT0NsGwPlNIcqBAdiTgZFbzG7dBr0LGsk88Hzc,48
+xchainpy2_arbitrum/arb_client.py,sha256=c_f8jC9Wo44jfzAHKNo0_SWo4Su3D0GitAak0-xBlfI,1046
+xchainpy2_arbitrum/consts.py,sha256=_QFp-xYqVoBeMGl1J8Dynv-3OlX7VINdbmsDo_Nu0rg,2072
+xchainpy2_arbitrum/data/arb_mainnet_latest.json,sha256=1DjKkgClMR_fwNl3shBBfSBVS93OQXSyJdAGnVfLuvU,242663
+xchainpy2_arbitrum-0.0.4.dist-info/LICENSE,sha256=U9lNNfYyL5fe7R6rJzEP25_zHd_fjAMN5DfcTJgJPVA,2124
+xchainpy2_arbitrum-0.0.4.dist-info/METADATA,sha256=8dLEW70OgPbz1RJM55O_8rTpuMIcKRs1l6YvSkgYbPo,1281
+xchainpy2_arbitrum-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+xchainpy2_arbitrum-0.0.4.dist-info/top_level.txt,sha256=FFyF6EYxkkAeVVqDCI9b3TEQwd86Q2sPzSPLNshheTs,19
+xchainpy2_arbitrum-0.0.4.dist-info/RECORD,,
