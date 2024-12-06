@@ -1,0 +1,15 @@
+jwt
+requests
+configargparse
+
+[dev]
+bandit
+black
+isort
+mypy
+pre-commit
+pycodestyle
+pydantic
+pydocstyle
+ruff
+types-requests
