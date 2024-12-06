@@ -1,0 +1,5 @@
+include RealRsa/*.pyx
+include RealRsa/*.pxd
+include RealRsa/*.pyi
+exclude tests/*
+# global-exclude *impl.[ch]pp
