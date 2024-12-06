@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/aett/sqlite/__init__.py
+src/aett/sqlite/commit_store.py
+src/aett/sqlite/functions.py
+src/aett/sqlite/persistence_management.py
+src/aett/sqlite/snapshot_store.py
+src/aett_sqlite.egg-info/PKG-INFO
+src/aett_sqlite.egg-info/SOURCES.txt
+src/aett_sqlite.egg-info/dependency_links.txt
+src/aett_sqlite.egg-info/requires.txt
+src/aett_sqlite.egg-info/top_level.txt
