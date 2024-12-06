@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: devinmodone
+Version: 0.1.0
+Summary: A sample Python module
+Author: Devin Mathew
+Author-email: devin@gofreelab.com
+Requires-Python: >=3.6

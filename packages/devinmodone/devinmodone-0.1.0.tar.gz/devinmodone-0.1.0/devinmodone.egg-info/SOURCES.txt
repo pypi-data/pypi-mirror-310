@@ -1,0 +1,7 @@
+setup.py
+devinmodone/__init__.py
+devinmodone/pythonmath.py
+devinmodone.egg-info/PKG-INFO
+devinmodone.egg-info/SOURCES.txt
+devinmodone.egg-info/dependency_links.txt
+devinmodone.egg-info/top_level.txt
