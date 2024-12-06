@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Paolog_Pynecraft
+Version: 0.1.1.post112
+Summary: A Minecraft recreation made with Ursina
+Author: Paolog
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: ursina
+Requires-Dist: appdata
+Requires-Dist: perlin_noise
+Requires-Dist: screeninfo
+
+# Help me
+Install:
+```bash
+python3 -m pip install Paolog_Pynecraft
+```
+Upgrade already installed Pynecraft:
+```bash
+python3 -m pip install Paolog_Pynecraft --upgrade
+```
+```bash
+python3 -m Paolog_Pynecraft
+```
