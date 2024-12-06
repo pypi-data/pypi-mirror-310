@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: getinstance
+Version: 0.6
+Summary: getinstance
+Author-Email: Evstifeev Roman <someuniquename@gmail.com>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Android
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Project-URL: Homepage, https://github.com/Fak3/getinstance
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+
+## Installation
+
+```
+pip install getinstance
+```
+
+## Usage
+
+```python
+from getinstance import InstanceManager
+
+class Country:
+    instances = InstanceManager()
+    
+    def __init__(self, name):
+        self.name = name
+        
+    def hello(self, username):
+        print(f'hello, {username} from {self.name}')
+            
+au = Country('Australia')
+ru = Country('Russia')
+
+print(list(Country.instances.all()))
+print(Country.instances.get(name='Australia')) 
+Country.instances.filter(name='Russia').hello(username='Alice')
+
+```
