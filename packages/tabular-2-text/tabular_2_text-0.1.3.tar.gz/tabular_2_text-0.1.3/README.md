@@ -1,0 +1,128 @@
+# Tabular_2_Text
+![Sometimes text-heavy spreadsheets are easier to read as text files!](https://sandeepmj.github.io/image-host/tab2text-logo.png)
+
+*Sometimes tabular data is just easier to read as text!*
+
+
+Tabular_2_Text is a Python package that converts tabular data (CSV files or pandas DataFrames) into a formatted text file. Each row from your table is converted into a clearly formatted text entry with labeled fields.
+
+## Features
+
+- Convert CSV files directly to formatted text
+- Convert pandas DataFrames to formatted text
+- Clean, readable output format
+- Automatic field labeling
+- Simple, user-friendly interface
+
+## Installation
+
+```bash
+pip install pandas
+```
+
+## Usage
+
+### Basic Usage
+
+```python
+from tabular_converter import tab2text
+
+# Using a CSV file as input
+tab2text("input.csv", "output.txt")
+
+# Using a pandas DataFrame as input
+import pandas as pd
+df = pd.DataFrame({
+    'name': ['John Doe', 'Jane Smith'],
+    'age': [30, 25],
+    'city': ['New York', 'Los Angeles']
+})
+tab2text(df, "output.txt")
+```
+
+### Example
+
+Input CSV (`employees.csv`):
+```csv
+name,age,department,salary
+John Doe,30,Engineering,75000
+Jane Smith,28,Marketing,65000
+Bob Johnson,35,Sales,70000
+```
+
+Python code:
+```python
+from tabular_converter import tab2text
+
+# Convert the CSV to text
+tab2text("employees.csv", "employees_formatted.txt")
+```
+
+Output (`employees_formatted.txt`):
+```text
+name: John Doe
+age: 30
+department: Engineering
+salary: 75000
+
+***********************************************
+
+name: Jane Smith
+age: 28
+department: Marketing
+salary: 65000
+
+***********************************************
+
+name: Bob Johnson
+age: 35
+department: Sales
+salary: 70000
+```
+
+## Function Parameters
+
+`tab2text(input_data, output_file_path)`
+
+- `input_data`: Either a file path to a CSV file (string) or a pandas DataFrame
+- `output_file_path`: The path where you want to save the output text file (string)
+
+## Returns
+
+- Returns the path to the generated text file (string)
+- Prints a confirmation message with the file location
+
+## Requirements
+
+- Python 3.6 or higher
+- pandas
+
+## Error Handling
+
+The function will raise a ValueError if:
+- The input is neither a string (file path) nor a pandas DataFrame
+- The CSV file path is invalid
+- The DataFrame is empty
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Common Use Cases
+
+1. Converting spreadsheet data to readable text format
+2. Preparing tabular data for document integration
+3. Creating human-readable exports from databases
+4. Formatting data for report generation
+5. Converting CSV exports to readable text
+
+## Tips
+
+- Make sure your CSV files are properly formatted
+- For large datasets, consider processing in chunks
+- Check that your output filepath is writable
+- Keep column names simple and readable for best results
