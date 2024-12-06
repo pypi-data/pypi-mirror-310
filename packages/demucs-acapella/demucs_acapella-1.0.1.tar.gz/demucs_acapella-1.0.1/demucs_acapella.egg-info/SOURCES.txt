@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+demucs_acapella/__init__.py
+demucs_acapella/demucs_acapella.py
+demucs_acapella.egg-info/PKG-INFO
+demucs_acapella.egg-info/SOURCES.txt
+demucs_acapella.egg-info/dependency_links.txt
+demucs_acapella.egg-info/entry_points.txt
+demucs_acapella.egg-info/requires.txt
+demucs_acapella.egg-info/top_level.txt

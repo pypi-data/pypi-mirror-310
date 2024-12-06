@@ -1,0 +1,2 @@
+[console_scripts]
+demucs_acapella = demucs_acapella.cli:main
