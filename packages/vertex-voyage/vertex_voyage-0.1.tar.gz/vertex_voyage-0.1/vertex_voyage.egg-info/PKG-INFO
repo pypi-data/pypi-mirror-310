@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vertex_voyage
+Version: 0.1
+Summary: Graph management in distributed environment
+Home-page: https://github.com/fantastic001/vertex_voyage
+Requires-Dist: cdlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow
+Requires-Dist: zookeeper
+Requires-Dist: kazoo
+Requires-Dist: binpacking
+Requires-Dist: httplib2
+Requires-Dist: lxml
+Requires-Dist: pyyaml
+Requires-Dist: gensim
+Requires-Dist: mpi4py
+Requires-Dist: tabulate

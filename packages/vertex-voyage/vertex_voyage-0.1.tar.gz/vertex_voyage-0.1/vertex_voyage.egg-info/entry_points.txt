@@ -1,0 +1,3 @@
+[console_scripts]
+client = client.__main__:main
+vertex_voyage = vertex_voyage.__main__:main

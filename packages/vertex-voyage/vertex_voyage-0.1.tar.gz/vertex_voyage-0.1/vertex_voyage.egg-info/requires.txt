@@ -1,0 +1,14 @@
+cdlib
+networkx
+numpy
+scikit-learn
+tensorflow
+zookeeper
+kazoo
+binpacking
+httplib2
+lxml
+pyyaml
+gensim
+mpi4py
+tabulate
