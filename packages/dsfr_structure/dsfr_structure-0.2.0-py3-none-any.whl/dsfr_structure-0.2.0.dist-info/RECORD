@@ -1,0 +1,10 @@
+dsfr_structure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsfr_structure/extension/accordion/__init__.py,sha256=zZh9edLYRsVjOx9GfWSJ41ibzFNhJZValzhNFZcTb9k,1866
+dsfr_structure/extension/all_extensions.py,sha256=2cVmo_pz4pIX9t_x__I2oBw5e_Znq2FEkXnv7W1IxB8,708
+dsfr_structure/extension/blockquote/__init__.py,sha256=p9r2QEB2Zla6mlgEpR07k9JPLPlv072D8KEU6ke_4Jc,1472
+dsfr_structure/extension/table/__init__.py,sha256=3f-V9Y3f5LFhz-ETnAlbTKCZm0zLlw8jgDn35XQ75qw,811
+dsfr_structure/test_runner.py,sha256=7n6USkHYQ6E9d8rK3ptngUUV0bOG61p_U_9iyQbl70M,186
+dsfr_structure-0.2.0.dist-info/METADATA,sha256=rk1tA_SI5cKxKwmMpCC57SeuVLhNODJzhHN9-mIvziQ,2760
+dsfr_structure-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+dsfr_structure-0.2.0.dist-info/entry_points.txt,sha256=PbFvb22k_x5lOh6AB8781Nb-MroyC9LcdpJUJv5WWLw,61
+dsfr_structure-0.2.0.dist-info/RECORD,,

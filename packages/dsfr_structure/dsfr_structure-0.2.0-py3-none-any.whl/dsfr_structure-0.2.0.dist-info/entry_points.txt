@@ -1,0 +1,3 @@
+[console_scripts]
+test=dsfr_structure.test_runner:run_tests
+
