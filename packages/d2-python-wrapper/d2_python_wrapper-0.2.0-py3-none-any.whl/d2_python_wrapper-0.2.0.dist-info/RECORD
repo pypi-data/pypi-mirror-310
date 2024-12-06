@@ -1,0 +1,8 @@
+d2_python/__init__.py,sha256=JlEEpz1nnseZVNtQOiEKOQkqrz9SF4AdhHudhuOUz90,5293
+d2_python/bin/darwin/d2-bin,sha256=PmVSYycY9hjyv_6Yr6SiGS2fp3U6zTOGcUlZIhzKTeM,46165104
+d2_python/bin/linux/d2-bin,sha256=1hdrPlKiKnPgiddBqJ0yGtQCS3SnNn3veHZDr-Vb2iU,45995656
+d2_python/bin/win32/d2-bin.exe,sha256=N-HfwB6DxjOd0pr6Lr6d0QY4_DCmiENA3WIBkhYbFo8,46579200
+d2_python_wrapper-0.2.0.dist-info/METADATA,sha256=wThSM_W78JUpQ8YjiZg8IKl5lRwVaQuhKWv5klg5BTA,2962
+d2_python_wrapper-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+d2_python_wrapper-0.2.0.dist-info/top_level.txt,sha256=iNeJFVwiytqdyg-jlHWP0tQkUd64wTek62-aQ7SLCGQ,10
+d2_python_wrapper-0.2.0.dist-info/RECORD,,
