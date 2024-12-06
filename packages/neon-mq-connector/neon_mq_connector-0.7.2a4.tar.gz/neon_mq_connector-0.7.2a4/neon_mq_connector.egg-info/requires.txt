@@ -1,0 +1,6 @@
+pika==1.2.0
+ovos-config>=0.0.8,~=0.0
+ovos-utils>=0.0.32,~=0.0
+
+[aio]
+aio-pika~=9.4.3
