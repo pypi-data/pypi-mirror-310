@@ -1,0 +1,3 @@
+[console_scripts]
+fraudcrawler_app=vianu.tools.fraudcrawler.launch_demo_app:main
+
