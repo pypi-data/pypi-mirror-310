@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/apiazure/__init__.py
+src/apiazure/apiazure.py
+src/azure_api_ccastillo1.egg-info/PKG-INFO
+src/azure_api_ccastillo1.egg-info/SOURCES.txt
+src/azure_api_ccastillo1.egg-info/dependency_links.txt
+src/azure_api_ccastillo1.egg-info/top_level.txt
