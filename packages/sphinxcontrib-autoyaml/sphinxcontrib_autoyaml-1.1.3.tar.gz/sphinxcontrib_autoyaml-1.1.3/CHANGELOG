@@ -1,0 +1,100 @@
+# [1.1.3] - 2024-11-21
+### Added
+- Tests for Sphinx 7 and 8
+
+### Fixed
+- Missing compose_all in ruamel.yaml 0.18
+
+### Removed
+- Tests for Sphinx 3. `ImportError: cannot import name 'Union' from 'types'`
+  for Python above 3.9. Version constraint is left for compatibility, but support
+  for Sphinx 3 will be dropped in future versions.
+
+# [1.1.2] - 2024-11-13
+### Changed
+- Support for ruamel.yaml 0.18.x
+
+# [1.1.1] - 2023-04-12
+### Fixed
+- Comment strings from multiline scalar values aren't mistakenly used anymore
+
+### Added
+- Support for YAML SafeLoader
+
+### Changed
+- Updated dependency lockfiles
+
+# [1.1.0] - 2023-02-12
+### Removed
+- Upper limits on Sphinx version
+
+# [1.0.0] - 2022-07-11
+### Changed
+- Sequences are now traversed as well
+
+# [0.6.2] - 2022-07-04
+### Added
+- Support for Sphinx 4.x and 5.x
+
+# [0.6.1] - 2021-03-30
+### Changed
+- Support all Python versions from 3.6 up
+- Update dependencies
+
+# [0.6.0] - 2021-03-05
+### Changed
+- Use one definition list per YAML document.
+- Comments from nested keys are no longer root level definitions.
+  Parser constructs a tree from found commented keys and decides visibility
+  based on `autoyaml_level`.
+
+### Added
+- Parse nested keys where applicable.
+
+## [0.5.0] - 2019-03-17
+### Changed
+- Lines with comment delimiter are no longer compiled to output.
+- Only comments directly above mapping keys are compild to output.
+- docutils definitions are now returned instead of paragraphs.
+
+## [0.4.2] - 2018-12-27
+### Removed
+- Deprecated AutodocReporter.
+
+## [0.4.1] - 2018-02-22
+### Added
+- Debug level log messages with paths to parsed files.
+
+### Fixed
+- Error reporting compatibility with Sphinx.
+
+## [0.4.0] - 2018-02-06
+### Changed
+- Search for YAML files relatively to environment's source directory.
+- Use absolute paths in error messages.
+
+## [0.3.3] - 2017-12-20
+### Fixed
+- Removing whitespace from beginning.
+
+### Added
+- Tests.
+
+## [0.3.2] - 2017-12-18
+### Fixed
+- Proper whitespace handling for comment openings.
+
+## [0.3.1] - 2017-12-18
+### Fixed
+- Proper whitespace handling for comment openings.
+
+## [0.3.0] - 2017-12-15
+### Changed
+- Moved module to sphinxcontrib namespace
+
+## [0.2.0] - 2017-12-03
+### Removed
+- Handling directories.
+
+### Fixed
+- Faulty file and line location reporting.

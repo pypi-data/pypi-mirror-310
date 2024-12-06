@@ -1,0 +1,6 @@
+Sphinx>=3.5.1
+ruamel.yaml>=0.16.12
+
+[test]
+sphinx-testing>=1.0.1
+flake8>=3.8.4
