@@ -1,0 +1,16 @@
+include NEWS
+include MANIFEST.in
+
+recursive-include examples *.py
+recursive-include src *.py
+recursive-include tests *.py
+include tests/keys/*.pub
+include tests/keys/*.sec
+
+include lib/*.c
+include lib/*.h
+
+include docs/make.bat
+include docs/Makefile
+include docs/source/conf.py
+include docs/source/*.rst
