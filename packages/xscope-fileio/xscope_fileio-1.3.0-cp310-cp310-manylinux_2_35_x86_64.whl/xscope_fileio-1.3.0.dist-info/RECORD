@@ -1,0 +1,17 @@
+xscope_fileio/host/CMakeLists.txt,sha256=3Y9ec9rdCNxFgTmWVHWMcYFQgb38zhO7stuqCQ4AXBo,1151
+xscope_fileio/host/README.rst,sha256=1zI3lsbj7Xd6UTQh-iF-mihgoxm0M0MtPBJyub9haEw,461
+xscope_fileio/host/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xscope_fileio/host/build_host.py,sha256=XUHM1hLiweTSv32tPCJD3aa6ltMvDd4TBIFTuA1689s,1275
+xscope_fileio/host/xscope_host_endpoint,sha256=Lk6t8MXf2pNz5GCHa0umr4tx-crP25L4P9GRwd6TNMw,17288
+xscope_fileio/host/xscope_io_host.c,sha256=cZAlxAara1mQrrS7Xn0XVcnmAabe6pFmcAC7NAZgIFk,9708
+xscope_fileio/__init__.py,sha256=0-scejA05ivmR-LxBw1OmzEElc-jVYSWfkrAYm7kc_g,6804
+xscope_fileio/api/xscope_io_device.h,sha256=S5aEVrHcG4BtgWsrwahI0EY9qRkb2j5ofP_-fTAGg7s,4457
+xscope_fileio/config.xscope.txt,sha256=peFW2iJV4DYdLfI7_fA2-bSdjAOg_nk3_Aq1neDa3W8,795
+xscope_fileio/lib_build_info.cmake,sha256=Gg-fal9vbeXf52HW7IxG7QeBdaXOBM9taiA8QwAd160,135
+xscope_fileio/module_build_info,sha256=oxYPQXKX45tjgs04_4pBIxUbc0EPY7zTe7aU_kXhl98,77
+xscope_fileio/src/xscope_io_device.c,sha256=NqBKU_K2VU8L91R_CwALBYzvMAC1cWknbZhYGLrpoWc,8123
+xscope_fileio/xscope_io_common.h,sha256=VT4JQZNcK6MuNVt4cD_tQcb9lsltLJEFI7e0ouR1YcI,896
+xscope_fileio-1.3.0.dist-info/LICENSE.rst,sha256=--N1GFGpVGqSqjWvn5aggJgemu890sQ-ACjxlO9yTVo,10734
+xscope_fileio-1.3.0.dist-info/METADATA,sha256=YAu6r3T4POqTnEJAo4h3Bb8ZVQMs1Siy6zuXo_x8Jg8,3276
+xscope_fileio-1.3.0.dist-info/WHEEL,sha256=TtIg0_qHPEvwUmnjN8McVs_WbVQMtiG1MHZE7Uc3iR0,110
+xscope_fileio-1.3.0.dist-info/RECORD,,
