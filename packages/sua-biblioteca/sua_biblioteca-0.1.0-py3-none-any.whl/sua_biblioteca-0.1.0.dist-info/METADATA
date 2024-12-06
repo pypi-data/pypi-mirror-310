@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sua_biblioteca
+Version: 0.1.0
+Summary: Uma biblioteca simples para operações matemáticas básicas.
+Home-page: https://github.com/seu_usuario/sua_biblioteca
+Author: Seu Nome
+Author-email: seuemail@exemplo.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sua_biblioteca
+
+Uma biblioteca simples para operaÃ§Ãµes matemÃ¡ticas bÃ¡sicas.
+
+## Funcionalidades
+- Soma: `somar(a, b)`
+- SubtraÃ§Ã£o: `subtrair(a, b)`
+- MultiplicaÃ§Ã£o: `multiplicar(a, b)`
+- DivisÃ£o: `dividir(a, b)`
+
+## InstalaÃ§Ã£o
+
+```bash
+pip install sua_biblioteca
