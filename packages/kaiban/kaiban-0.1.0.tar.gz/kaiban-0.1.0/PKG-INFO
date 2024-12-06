@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: kaiban
+Version: 0.1.0
+Summary: Python SDK for Kaiban
+Home-page: https://github.com/kaiban/kaiban-sdk
+Author: Kaiban Team
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+
+# Kaiban Python SDK
+
+Python implementation of the Kaiban SDK.
+
+## Installation
+
+```bash
+pip install kaiban
+```
+
+
+```python
+from kaiban import hello
+hello.world() # Outputs: Hello from Kaiban!
+```
+
+## Development
+1. Clone the repository
+2. Navigate to the Python SDK directory: `cd python`
+3. Install development dependencies: `pip install -e ".[dev]"`
+4. Run tests: `pytest`
