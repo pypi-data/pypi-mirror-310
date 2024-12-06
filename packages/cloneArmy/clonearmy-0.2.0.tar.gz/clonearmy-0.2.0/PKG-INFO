@@ -1,0 +1,144 @@
+Metadata-Version: 2.3
+Name: cloneArmy
+Version: 0.2.0
+Summary: Analyze haplotypes from Illumina paired-end amplicon sequencing
+Author-email: Jason D Limberis <Jason.Limberis@ucsf.edu>
+Requires-Python: >=3.8
+Requires-Dist: biopython>=1.81
+Requires-Dist: click>=8.0.0
+Requires-Dist: jinja2>=3.0.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: networkx>=2.6.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: pysam>=0.21.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: seaborn>=0.11.0
+Description-Content-Type: text/markdown
+
+# CloneArmy
+
+CloneArmy is a modern Python package for analyzing haplotypes from Illumina paired-end amplicon sequencing data. It provides a streamlined workflow for processing FASTQ files, aligning reads, identifying sequence variants, and performing comparative analyses between samples.
+
+## Features
+
+- Fast paired-end read processing using BWA-MEM
+- Quality-based filtering of bases and alignments
+- Haplotype identification and frequency analysis
+- Statistical comparison between samples with FDR correction
+- Interactive visualization of mutation frequencies
+- Rich command-line interface with progress tracking
+- Comprehensive HTML reports
+- Multi-threading support
+- Support for full-length sequence analysis
+
+## Installation
+
+```bash
+pip install cloneArmy
+```
+
+### Requirements
+
+- Python ≥ 3.8
+- BWA (must be installed and available in PATH)
+- Samtools (must be installed and available in PATH)
+
+## Usage
+
+### Command Line Interface
+
+#### Basic Analysis
+
+```bash
+# Basic usage
+cloneArmy run /path/to/fastq/directory reference.fasta
+
+# With all options
+cloneArmy run /path/to/fastq/directory reference.fasta \
+    --threads 8 \
+    --output results \
+    --min-base-quality 20 \
+    --min-mapping-quality 30 \
+    --no-report  # Skip HTML report generation
+```
+
+#### Comparative Analysis
+
+```bash
+# Compare two samples
+cloneArmy compare \
+    /path/to/sample1/fastq \
+    /path/to/sample2/fastq \
+    reference.fasta \
+    --threads 8 \
+    --output comparison_results \
+    --min-base-quality 20 \
+    --min-mapping-quality 30 \
+    --full-length-only  # Only consider full-length sequences
+```
+
+### Python API
+
+```python
+from pathlib import Path
+from clone_army.processor import AmpliconProcessor
+from clone_army.comparison import run_comparative_analysis
+
+# Initialize processor
+processor = AmpliconProcessor(
+    reference_path="reference.fasta",
+    min_base_quality=20,
+    min_mapping_quality=30
+)
+
+# Process samples
+results1 = processor.process_sample(
+    fastq_r1="sample1_R1.fastq.gz",
+    fastq_r2="sample1_R2.fastq.gz",
+    output_dir="results/sample1",
+    threads=4
+)
+
+results2 = processor.process_sample(
+    fastq_r1="sample2_R1.fastq.gz",
+    fastq_r2="sample2_R2.fastq.gz",
+    output_dir="results/sample2",
+    threads=4
+)
+
+# Perform comparative analysis
+comparison_results = run_comparative_analysis(
+    results1={"sample1": results1},
+    results2={"sample2": results2},
+    reference_seq="ATCG...",  # Reference sequence string
+    output_path="comparison_results.csv",
+    full_length_only=False
+)
+
+# Results are returned as pandas DataFrames
+print(results1)  # Sample 1 haplotypes
+print(comparison_results)  # Statistical comparison
+```
+
+## Output Files
+
+### Single Sample Analysis
+- Sorted BAM file with alignments
+- CSV file containing haplotype information:
+  - Sequence
+  - Read count
+  - Frequency
+  - Number of mutations
+  - Full-length status
+- Interactive HTML report (optional)
+- Console output with summary statistics
+
+### Comparative Analysis
+- CSV file with statistical comparisons:
+  - Mutation positions and types
+  - Frequencies in each sample
+  - Statistical significance (p-values)
+  - FDR-corrected p-values
+- Interactive HTML plot showing mutation frequency differences
+- Console output with significant mutations
