@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: balance-subscriber
+Version: 0.0.1a1
+Summary: MQTT listener to save data
+Author-email: Joe Heffer <j.heffer@sheffield.ac.uk>
+Project-URL: Homepage, https://pypi.org/p/balance-subscriber
+Project-URL: Issues, https://github.com/IoT-balance-project/balance-mqtt-subscriber/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: paho-mqtt==2.*
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: flake8; extra == "test"
+
+[![Tests](https://github.com/IoT-balance-project/balance-mqtt-subscriber/actions/workflows/test.yaml/badge.svg)](https://github.com/IoT-balance-project/balance-mqtt-subscriber/actions/workflows/test.yaml)
+
+# MQTT subscriber
+
+A service to listen for messages and save the data.
+
+# Installation
+
+Create a service user.
+
+Create a virtual environment
+
+```bash
+sudo mkdir -p /opt/balance-subscriber
+sudo python3 -m venv /opt/balance-subscriber/venv
+```
+
+Activate the virtual environment
+
+```bash
+source /opt/balance-subscriber/venv/bin/activate
+```
+
+Install this package
+
+```bash
+pip install balance-subscriber
+```
+
+# Usage
+
+The app will run as a service in the background.
+
+## Monitoring
+
+View service status
+
+```bash
+sudo systemctl status balance-subscriber.service
+```
+
+View logs
+
+```
+sudo journalctl -u balance-subscriber.service --since "1 hour ago"
+```
