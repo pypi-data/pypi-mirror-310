@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyfilemaster
+Version: 0.1.0
+Summary: A Python package for file handling utilities
+Home-page: https://github.com/Shubhashish-Chakraborty/pyfilemaster
+Author: beingshubh (Shubhashish Chakraborty)
+Author-email: shubhashish147@gmail.com
+License: MIT
+Keywords: file handling,binary to CSV,utilities,python,binary,csv,text,excel,dat
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyFileMaster
+
+PyFileMaster is a Python package for file handling utilities. <br/>
+(Later README file will update with all the information)
+
+## Installation
+```bash
+pip install pyfilemaster
+```
+
+## License
+This project is licensed under the [MIT License](LICENSE).
