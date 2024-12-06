@@ -1,0 +1,12 @@
+charfield_filters/__init__.py,sha256=jpNhZ6hRljx3mXOm4NKF2TyVZhbT1yRSx7I5JWMd-dM,109
+charfield_filters/admin.py,sha256=SDaqP2qFqM2LOPVuTBn1PTDQlM7YiXnFtaHvqgfvFew,1524
+charfield_filters/filters.py,sha256=QIX_wSqZodU9GPmx7phRrncOVI6kd2Bx9A9Ww3nT46w,3998
+charfield_filters/tests.py,sha256=xC8qXd4vclqRJ0EWjaDynD4nvZTLu5VBz1gUPGA2nF4,5840
+charfield_filters/templates/admin/charfield_filters/autocomplete_filter.html,sha256=o8XLFO2AoHQ-4uSfm8zLG0QTsLDXwUp88A7A2Im_fnY,3138
+charfield_filters/templates/admin/charfield_filters/autocomplete_select_filter.html,sha256=x6XShVdy36WIfA81_P_wRiqjPGZz-iOaQN-RkEsQ2Hw,10305
+charfield_filters/templates/admin/charfield_filters/dropdown_filter.html,sha256=ORj8ONXSCnHWJziFUYyR00Ym_0YCexk5xcYW06I3gEU,575
+django_charfield_filters-0.1.1.dist-info/LICENSE,sha256=eUfincxRtenbVIGDUR_VSvWVkKjYV0rEHSZmF3oriMw,1070
+django_charfield_filters-0.1.1.dist-info/METADATA,sha256=3bJKCHC-wASzGkaTD5_op4h_w4ixw7vLLdWnIqWioGg,5085
+django_charfield_filters-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+django_charfield_filters-0.1.1.dist-info/top_level.txt,sha256=6Z8KhqYYb1iTrZJtZz_SwGyJ4FXXO3Cll4WeQ5QIZbs,18
+django_charfield_filters-0.1.1.dist-info/RECORD,,
