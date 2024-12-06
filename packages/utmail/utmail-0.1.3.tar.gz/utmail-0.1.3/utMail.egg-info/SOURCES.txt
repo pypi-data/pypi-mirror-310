@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+utMail.egg-info/PKG-INFO
+utMail.egg-info/SOURCES.txt
+utMail.egg-info/dependency_links.txt
+utMail.egg-info/not-zip-safe
+utMail.egg-info/requires.txt
+utMail.egg-info/top_level.txt
+utmail/__init__.py
+utmail/utmail.py
+utmail.egg-info/PKG-INFO
+utmail.egg-info/SOURCES.txt
+utmail.egg-info/dependency_links.txt
+utmail.egg-info/not-zip-safe
+utmail.egg-info/requires.txt
+utmail.egg-info/top_level.txt
