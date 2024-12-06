@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/django_thumbmark/__init__.py
+src/django_thumbmark/apps.py
+src/django_thumbmark/decorators.py
+src/django_thumbmark/urls.py
+src/django_thumbmark/views.py
+src/django_thumbmark.egg-info/PKG-INFO
+src/django_thumbmark.egg-info/SOURCES.txt
+src/django_thumbmark.egg-info/dependency_links.txt
+src/django_thumbmark.egg-info/requires.txt
+src/django_thumbmark.egg-info/top_level.txt
+src/django_thumbmark/templates/django_thumbmark/base.html
+src/django_thumbmark/templates/django_thumbmark/login.html
