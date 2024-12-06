@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: TorBox
+Version: 0.1.0a0
+Summary: Python wrapper for the TorBox API
+Author-email: Elias Benbourenane <eliasbenbourenane@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/eliasbenb/TorBox.py
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: requests>=2.26.0
+Requires-Dist: typing-extensions>=4.0.0
+
+# TorBox.py
+
+A Python wrapper for the TorBox API.
+
+## Installation
+
+```bash
+pip install torbox
+```
