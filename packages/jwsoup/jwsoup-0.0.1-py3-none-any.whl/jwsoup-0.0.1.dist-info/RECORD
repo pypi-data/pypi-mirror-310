@@ -1,0 +1,10 @@
+jwsoup/__init__.py,sha256=WF2dRG6Hwb1qAcIae2Ucg_jgm7lmj5HjCKlbyY-HSkI,195
+jwsoup/package_metadata.py,sha256=TMGGUYc7KTx6wVRfRp8RRi0t-IpQvBea5Ekc70y7BDk,240
+jwsoup/text/__init__.py,sha256=sie5ni-JEk6VzSOg6P4peUzq6XL3i9CpdA-vqtuaC6I,59
+jwsoup/text/scraper.py,sha256=9KyG_3SrZzy2Q6vYaRjEfNj9RCKQ7xinKJtPOuQWh8w,2486
+jwsoup/text/utils.py,sha256=738s1iYohYow-CsswBkhkwKF_QoxO56drmlDBGaaJRE,251
+jwsoup-0.0.1.dist-info/LICENSE,sha256=U9O4EhiACKXeIXOIP7no-HzR8PY5EgXP4M0wzCNP4yw,1071
+jwsoup-0.0.1.dist-info/METADATA,sha256=eluD3lG5FUN1cdLjOyb_yTnHnDEQ1CRWayUWLUSfBME,3784
+jwsoup-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+jwsoup-0.0.1.dist-info/top_level.txt,sha256=0-WaRKK-zftMqGpNd4sGPfgTGJaZzAlCYF_cZKcmw8g,7
+jwsoup-0.0.1.dist-info/RECORD,,
