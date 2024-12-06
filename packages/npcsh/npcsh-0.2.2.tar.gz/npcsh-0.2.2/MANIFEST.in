@@ -1,0 +1,2 @@
+recursive-include npc_profiles *
+include npcsh.png
