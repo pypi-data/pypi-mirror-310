@@ -1,0 +1,13 @@
+krec/__init__.py,sha256=yQuWo6cpsDJ96pRQuYZKakQYVIq0uBevdqnjgt6vtn0,71
+krec/bindings.pyi,sha256=VGUO1wC8hjvZOgF24_TTSTIs2uyELAVMAcyxurj5HAQ,7750
+krec/bindings.cpython-311-x86_64-linux-gnu.so,sha256=rt2F2Q4mxhAaxc3Oclw6HXo_qlxmxlS5Qz0bsMy-kY8,4489080
+krec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krec/bindings/pyproject.toml,sha256=c0aPgnDgIKn_k6v_huMbFCwyKyCiahkZYIIYOM9W_Us,448
+krec/bindings/Cargo.toml,sha256=146CZD1Oo-j4ZWjUFDXTia73WQeN0H1OeahsYoULZhE,305
+krec/bindings/src/lib.rs,sha256=v3-DW083QM7n4-BDLFjcu2jJ9NfVG0gw6T3h6ydmYSE,40836
+krec/bindings/src/bin/stub_gen.rs,sha256=hwdCUFuc7H8ZJajt9w5XOTeL55Fc_WlYvJWWK5JIyCE,128
+krec-0.2.5.dist-info/top_level.txt,sha256=w3tI4lHXvLLSVv2jSd54BhTCIm1-JeVEsgKp9mp63vI,5
+krec-0.2.5.dist-info/RECORD,,
+krec-0.2.5.dist-info/LICENSE,sha256=BlE3S9hopcdhNC4twkpRGm7eLcvt8im445t3YqR1m50,1069
+krec-0.2.5.dist-info/METADATA,sha256=2Ivj_yJZf4qq4Wi6AowQeMnUREpIiPKIpqk5dMGxjh0,437
+krec-0.2.5.dist-info/WHEEL,sha256=9BFfIe-Zq441iQ0ehutX65O5faGDpmB1Uw3WaQGk4f0,151
