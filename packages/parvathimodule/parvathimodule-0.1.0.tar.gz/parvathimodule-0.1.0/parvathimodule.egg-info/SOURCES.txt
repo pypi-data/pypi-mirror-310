@@ -1,0 +1,7 @@
+setup.py
+parvathimodule/__init__.py
+parvathimodule/pythonmath.py
+parvathimodule.egg-info/PKG-INFO
+parvathimodule.egg-info/SOURCES.txt
+parvathimodule.egg-info/dependency_links.txt
+parvathimodule.egg-info/top_level.txt
