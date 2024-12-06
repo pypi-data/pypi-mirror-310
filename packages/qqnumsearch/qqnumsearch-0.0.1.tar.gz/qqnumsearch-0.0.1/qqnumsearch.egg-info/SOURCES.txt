@@ -1,0 +1,8 @@
+README.md
+setup.py
+qqnumsearch/__init__.py
+qqnumsearch.egg-info/PKG-INFO
+qqnumsearch.egg-info/SOURCES.txt
+qqnumsearch.egg-info/dependency_links.txt
+qqnumsearch.egg-info/requires.txt
+qqnumsearch.egg-info/top_level.txt
