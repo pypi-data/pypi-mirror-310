@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/genascii/about.py
+src/genascii/consts.py
+src/genascii/img2img.py
+src/genascii/img2img_color.py
+src/genascii/img2txt.py
+src/genascii/utils.py
+src/genascii/video2video.py
+src/genascii/video2video_color.py
+src/genascii.egg-info/PKG-INFO
+src/genascii.egg-info/SOURCES.txt
+src/genascii.egg-info/dependency_links.txt
+src/genascii.egg-info/requires.txt
+src/genascii.egg-info/top_level.txt
