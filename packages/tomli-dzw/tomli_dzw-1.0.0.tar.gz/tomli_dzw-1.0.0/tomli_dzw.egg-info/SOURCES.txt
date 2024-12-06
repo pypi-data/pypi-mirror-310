@@ -1,0 +1,6 @@
+setup.py
+tomli_dzw.egg-info/PKG-INFO
+tomli_dzw.egg-info/SOURCES.txt
+tomli_dzw.egg-info/dependency_links.txt
+tomli_dzw.egg-info/not-zip-safe
+tomli_dzw.egg-info/top_level.txt
