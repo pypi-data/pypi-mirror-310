@@ -1,0 +1,10 @@
+lib_headspace/__init__.py,sha256=ekp-PSmfyIS_gsqIkcm_342Sq2nOM3dCToeRjMp-gmU,59
+lib_headspace/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_headspace/api/__init__.py,sha256=t9dbILNR7Tzl-eCTQgt3n-NxaAZUXkb9Q3Qi5yk4YjA,208
+lib_headspace/api/client.py,sha256=RmmcMzasLJoylLLfLcP5i4QRIxhAfM-vjRfW8Pu58Gk,14790
+lib_headspace/api/constants.py,sha256=MFvlEVn9a_mVsBOJO1152I75bTVDMc0XPKqKntbvPjM,320
+lib_headspace/api/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_headspace/api/util/convert.py,sha256=fbe7Khh-d1LCHDMQ0zJ4rWpCSf-dS2LhDo5jUdFjU2E,2611
+lib_headspace-0.1.0.dist-info/METADATA,sha256=11sbA4sTiMO7s0w6PQjbZMv2T93Uud2dIVU-8SRh89g,2430
+lib_headspace-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+lib_headspace-0.1.0.dist-info/RECORD,,
