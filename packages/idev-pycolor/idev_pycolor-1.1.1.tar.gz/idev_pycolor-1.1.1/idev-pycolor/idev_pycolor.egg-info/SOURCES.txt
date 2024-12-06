@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+idev-pycolor/PyColor/Colors.py
+idev-pycolor/PyColor/Functions.py
+idev-pycolor/PyColor/Palettes.py
+idev-pycolor/PyColor/__init__.py
+idev-pycolor/idev_pycolor.egg-info/PKG-INFO
+idev-pycolor/idev_pycolor.egg-info/SOURCES.txt
+idev-pycolor/idev_pycolor.egg-info/dependency_links.txt
+idev-pycolor/idev_pycolor.egg-info/top_level.txt
