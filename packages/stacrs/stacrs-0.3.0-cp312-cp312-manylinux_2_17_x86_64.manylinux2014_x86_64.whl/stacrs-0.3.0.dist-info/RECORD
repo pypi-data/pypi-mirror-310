@@ -1,0 +1,9 @@
+stacrs-0.3.0.dist-info/METADATA,sha256=SUfTa9cYzFHntZU4_zACmRIbgaHmmyMbZiq7cOqv95c,4078
+stacrs-0.3.0.dist-info/WHEEL,sha256=9nMhkhjT5-smROE-lOgRy50zrYHdk-fRmS6ah4MLvkg,129
+stacrs-0.3.0.dist-info/licenses/LICENSE-APACHE,sha256=Yseh419WQGiW16p8pS0MwNJyrAIrXSeW59aQXbijY2o,9723
+stacrs-0.3.0.dist-info/licenses/LICENSE-MIT,sha256=I_GOA9xJ35FiL-KnYXZJdATkbO2KcV2dK2enRGVxzKM,1023
+stacrs/__init__.py,sha256=IyUb2mWn-7hPYul-ib5sTxAwOCW_awwz4mwNudJ5a0Y,107
+stacrs/__init__.pyi,sha256=vsTwhsnjOUZPQfHy4BeLmrmPcUrokuuV0Sk3evFS6L0,11896
+stacrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stacrs/stacrs.cpython-312-x86_64-linux-gnu.so,sha256=kGIVkfZPDIwIotq5XwnF1J1Mmbe3pMacGyO_h3cTSyg,67416312
+stacrs-0.3.0.dist-info/RECORD,,
