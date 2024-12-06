@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: beci
+Version: 0.0.1
+Summary: A helper script for the beci project
+Project-URL: Documentation, https://gitlab.jsc.fz-juelich.de/exacb/beci
+Project-URL: Issues, https://gitlab.jsc.fz-juelich.de/exacb/beci
+Project-URL: Source, https://gitlab.jsc.fz-juelich.de/exacb/beci
+Author-email: Jayesh Badwaik <j.badwaik@fz-juelich.de>
+Requires-Dist: semver
+Description-Content-Type: text/markdown
+
+<!--
+- SPDX-License-Identifier: Apache-2.0
+- Copyright (C) 2024 Jayesh Badwaik <j.badwaik@fz-juelich.de>
+-->
+
+# beci : a jube plugin for CI/CD
