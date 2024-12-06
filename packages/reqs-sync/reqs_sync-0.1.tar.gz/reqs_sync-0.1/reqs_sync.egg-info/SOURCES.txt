@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+reqs_sync/__init__.py
+reqs_sync/__main__.py
+reqs_sync/cli.py
+reqs_sync/r2toml.py
+reqs_sync.egg-info/PKG-INFO
+reqs_sync.egg-info/SOURCES.txt
+reqs_sync.egg-info/dependency_links.txt
+reqs_sync.egg-info/entry_points.txt
+reqs_sync.egg-info/requires.txt
+reqs_sync.egg-info/top_level.txt
+tests/test_reqs_sync.py

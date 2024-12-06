@@ -1,0 +1,31 @@
+[project]
+name = "reqs-sync"
+version = "0.1"
+description = "null"
+readme = "README.md"
+authors = [{name = "saaspegasus"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click",
+    "tomlkit",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/saaspegasus/reqs-sync"
+Changelog = "https://github.com/saaspegasus/reqs-sync/releases"
+Issues = "https://github.com/saaspegasus/reqs-sync/issues"
+CI = "https://github.com/saaspegasus/reqs-sync/actions"
+
+[project.scripts]
+reqs-sync = "reqs_sync.cli:cli"
+
+[dependency-groups]
+test = ["pytest"]
