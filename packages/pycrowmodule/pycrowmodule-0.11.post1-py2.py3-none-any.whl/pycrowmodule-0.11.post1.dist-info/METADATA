@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pycrowmodule
+Version: 0.11.post1
+Summary: Library for Crow/AAP Alarm IP / Serial Module
+Home-page: https://github.com/osotechie/pycrowmodule
+Author: osotechie
+Author-email: owen@demooy.co.nz
+License: MIT
+Keywords: Crow/AAP Alarm IP / Serial Module for Home Assistant
+License-File: LICENSE
+Requires-Dist: requests
