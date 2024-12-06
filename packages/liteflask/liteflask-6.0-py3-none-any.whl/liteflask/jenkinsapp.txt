@@ -1,0 +1,31 @@
+Jenkins for building an APP/Java App? Automate an Application
+
+Create New Item
+---Name
+Select Free Style project
+
+Under Source Code Management select
+Git
+Add: https://github.com/zoro-22/java.git
+
+Under Build triggers select
+Build periodically and enter
+
+* * * * *
+
+Under Build steps select Execute windows batch
+
+type:
+
+javac Main.java
+java Main
+
+Apply and Save
+
+java code:
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Jenkins Pipeline!");
+        System.out.println("This is a simple Java program.");
+    }
+}
