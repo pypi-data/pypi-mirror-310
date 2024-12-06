@@ -1,0 +1,7 @@
+boltons
+matplotlib
+networkx
+pycairo
+torxtools
+
+[dev]
