@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+simplePyLogsColor/__init__.py
+simplePyLogsColor/simpleLogs.py
+simplePyLogsColor.egg-info/PKG-INFO
+simplePyLogsColor.egg-info/SOURCES.txt
+simplePyLogsColor.egg-info/dependency_links.txt
+simplePyLogsColor.egg-info/requires.txt
+simplePyLogsColor.egg-info/top_level.txt
