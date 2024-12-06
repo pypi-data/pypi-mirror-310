@@ -1,0 +1,109 @@
+Metadata-Version: 2.3
+Name: pyblinky
+Version: 4.0.0
+Summary: Belkin brand Wemo plug control
+Project-URL: Repository, https://github.com/pdumoulin/blinky.git
+Project-URL: Homepage, https://github.com/pdumoulin/blinky
+Project-URL: Issues, https://github.com/pdumoulin/blinky/issues
+Author-email: Paul Dumoulin <paul.l.dumoulin@gmail.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2024 pdumoulin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: belkin,smart home,wemo
+Requires-Python: >=3.8
+Requires-Dist: httpx<2,>=0.23.0
+Description-Content-Type: text/markdown
+
+# pyblinky
+
+Control Belkin brand Wemo smart plugs synchronously or asynchronously.
+
+
+## Options
+
+| Parameter | Default | Description |
+| --- | --- | --- |
+| ip | _Required_ | Network location of plug[^1] |
+| timeout | 3 | Seconds to wait for response |
+| name_cache_age | 0 | Seconds to store plug name before re-querying it |
+
+## Actions
+
+| Action | Parameters | Description |
+| --- | --- | --- |
+| on | _None_ | Turn plug on |
+| off | _None_ | Turn plug off |
+| toggle | _None_ | Change plug status |
+| burst | seconds | Turn on plug, wait num seconds, then turn off |
+| status | _None_ | Get status of plug as (bool) |
+| identify | _None_ | Get name of plug (str) |
+| rename | name | Rename plug |
+
+A more thorough list of available actions on the plug is documented [here](https://gist.github.com/nstarke/018cd98d862afe0a7cda17bc20f31a1e) and some may be implemented here in the future.
+
+## Examples
+
+### Synchronous
+
+```python
+from pyblinky import Wemo
+
+plug = Wemo('192.168.1.87')
+print(plug.status())
+print(plug.identify())
+plug.on()
+```
+
+
+### Asynchronous
+
+```python
+import asyncio
+
+from pyblinky import AsyncWemo
+
+plugs = [
+	AsyncWemo('192.168.1.87'),
+	AsyncWemo('192.168.1.88'),
+	AsyncWemo('192.168.1.89')
+]
+
+async def main():
+    result = await asyncio.gather(
+        *(
+            [
+                x.status()
+                for x in plugs
+            ] +
+            [
+                y.identify()
+                for y in plugs
+            ]
+        )
+    )
+    print(result)
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+[^1]: This project does not implement [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) interface for device discovery, instead talking to plugs directly by IP address. It is highly recommended to set static IPs for plugs. Discovery may be added at a later date if a suitable library can be found.
