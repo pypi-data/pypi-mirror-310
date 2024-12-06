@@ -1,0 +1,10 @@
+pyeuvac/__init__.py,sha256=bcgLQM0QCq3vdvhAqBsPHddEOyzIIesWS-U1v5_6UDk,32
+pyeuvac/_euvac.py,sha256=8Hfm3lNkzONmvZCjD-pgBjOxRcCfgLDE4nf6VtJ8PTA,6423
+pyeuvac/_misc.py,sha256=081OGAwtBPNe0skjE_yB_aavveu1AAQYs8ntEUZGRpY,318
+pyeuvac/_coeffs/euvac_bands_coeffs.nc,sha256=B8KVcIU9NCE3whJtWoZbDb-42C6IOoFufV-48heteXA,10223
+pyeuvac/_coeffs/euvac_lines_coeffs.nc,sha256=MHw1AkuWWnIgJSbF0lHdxfa__RDWHVwuA2uzNxHqapE,9049
+pyeuvac-0.0.4b0.dist-info/LICENSE.txt,sha256=gg7U94Mk-Ev6Z8YOX4KfPGEbttmGlWvNP2LTGYQ4QYo,606
+pyeuvac-0.0.4b0.dist-info/METADATA,sha256=VgeZf1D1rKLMGZ6NhKF2449fK7zDSnXk7pVkr_-zwcU,9246
+pyeuvac-0.0.4b0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyeuvac-0.0.4b0.dist-info/top_level.txt,sha256=IgUV1YHSl22_2GX5q_mxxmsV2yWaeHjPSdqz0EdbiB4,8
+pyeuvac-0.0.4b0.dist-info/RECORD,,
