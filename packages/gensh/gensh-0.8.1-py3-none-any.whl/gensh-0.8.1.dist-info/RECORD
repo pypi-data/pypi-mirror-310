@@ -1,0 +1,15 @@
+gensh/__init__.py,sha256=ZeN553g2xhPuRKgBGMR8giNgRdlIHgLZOWuW9J5uf7w,92
+gensh/_version.py,sha256=UEwDScDj6XOschCf7ePAkqkl5XOa08fE8A_PfDe8hfY,465
+gensh/processor.py,sha256=ycp58VTwOnLN8s1DqCZC0OmTpz3PWYTDpknKBVd-DqU,24460
+gensh/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gensh/templates/analyze-logs.yml,sha256=kPYEURUtlCyXFPQxbZSt7LD8lxL4mq4cgni20Hcy3aI,2348
+gensh/templates/architect.yml,sha256=U2umuhzo6HmE0e1J7CAXb7vdhK9skJ6b5yeBOcb-Lzw,568
+gensh/templates/book-summary.yml,sha256=-uO-a9ebQESXO0bFVZVeleub_lpW_GcXG7E8TXoldQA,1415
+gensh/templates/code-python.yml,sha256=sL82JRlxqOZc-uq1mytJlD_ic6XwVRAGZa6JJ5S2CrA,632
+gensh/templates/code-shell.yml,sha256=jihW9qK3S1alRl0z1vxJt-FJ8ldXDxzGyPYeewCzZg8,634
+gensh/templates/links-summary.yml,sha256=aRz4GhS39fcbrzWi5R7dqslep7oL9rk20aB35a4z8v8,987
+gensh-0.8.1.dist-info/METADATA,sha256=6p2SYEmuENGsvJoVs3cN2Hn5D1FxTUlviCCwnXB5P9M,4509
+gensh-0.8.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+gensh-0.8.1.dist-info/entry_points.txt,sha256=XuudKl4Fm5OyfH8_UiX_N4e_GMYnycIsDoK6EHmnmbg,47
+gensh-0.8.1.dist-info/top_level.txt,sha256=qCuy0zVbedM_GmS2Y2Ul-uS450gsC1saFy95buz5zMs,6
+gensh-0.8.1.dist-info/RECORD,,
