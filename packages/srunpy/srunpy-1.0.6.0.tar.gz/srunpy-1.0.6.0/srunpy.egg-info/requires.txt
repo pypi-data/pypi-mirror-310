@@ -1,0 +1,10 @@
+pystray
+pywebview
+pywin32
+requests
+urllib3
+win10toast
+pycryptodome
+
+[qt]
+pywebview[qt]
