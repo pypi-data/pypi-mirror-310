@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/listdisk/__init__.py
+src/listdisk/admin.py
+src/listdisk.egg-info/PKG-INFO
+src/listdisk.egg-info/SOURCES.txt
+src/listdisk.egg-info/dependency_links.txt
+src/listdisk.egg-info/requires.txt
+src/listdisk.egg-info/top_level.txt
