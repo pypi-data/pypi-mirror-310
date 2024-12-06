@@ -1,0 +1,15 @@
+chromadb
+openai
+python-dotenv
+numpy
+pandas
+tqdm
+sentence-transformers
+typing-extensions
+
+[dev]
+pytest
+pytest-cov
+
+[viz]
+graphviz
