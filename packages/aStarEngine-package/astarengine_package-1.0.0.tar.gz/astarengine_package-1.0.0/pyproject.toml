@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aStarEngine_package"
+version = "1.0.0"
+authors = [
+  { name="Sathyanarayanan RS", email="sathya05@vt.edu" },
+]
+description = "A package to find the shortest path in a map with up to 5 intermediate stops, using A*"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+]
+
+
+
+
+
+[project.urls]
+Homepage = "https://github.com/Sathyanarayanan-ops/map_engine"
+Issues = "https://github.com/Sathyanarayanan-ops/map_engine/issues"
