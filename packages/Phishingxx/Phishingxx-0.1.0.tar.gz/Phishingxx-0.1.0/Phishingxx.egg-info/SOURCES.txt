@@ -1,0 +1,13 @@
+README.md
+setup.py
+Phishingxx.egg-info/PKG-INFO
+Phishingxx.egg-info/SOURCES.txt
+Phishingxx.egg-info/dependency_links.txt
+Phishingxx.egg-info/entry_points.txt
+Phishingxx.egg-info/requires.txt
+Phishingxx.egg-info/top_level.txt
+phishingxx/__init__.py
+phishingxx/analyzer.py
+phishingxx/models.py
+phishingxx/utils.py
+tests/tests_analyzer.py

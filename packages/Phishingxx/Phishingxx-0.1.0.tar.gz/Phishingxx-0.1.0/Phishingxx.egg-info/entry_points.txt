@@ -1,0 +1,2 @@
+[console_scripts]
+Phishingxx = Phishingxx.analyzer:crawl_website
