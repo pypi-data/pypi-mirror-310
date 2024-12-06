@@ -1,0 +1,9 @@
+setup.py
+jvalpy/__init__.py
+jvalpy/_val.py
+jvalpy/main.py
+jvalpy.egg-info/PKG-INFO
+jvalpy.egg-info/SOURCES.txt
+jvalpy.egg-info/dependency_links.txt
+jvalpy.egg-info/requires.txt
+jvalpy.egg-info/top_level.txt
