@@ -1,0 +1,13 @@
+README.md
+setup.py
+hitant/__init__.py
+hitant/analyzer.py
+hitant/models.py
+hitant/utils.py
+hitant.egg-info/PKG-INFO
+hitant.egg-info/SOURCES.txt
+hitant.egg-info/dependency_links.txt
+hitant.egg-info/entry_points.txt
+hitant.egg-info/requires.txt
+hitant.egg-info/top_level.txt
+tests/test_analyzer.py
