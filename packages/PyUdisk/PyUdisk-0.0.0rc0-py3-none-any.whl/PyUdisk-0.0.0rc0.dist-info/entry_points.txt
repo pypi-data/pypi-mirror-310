@@ -1,0 +1,2 @@
+[console_scripts]
+pydisk = pydisk:commandline
