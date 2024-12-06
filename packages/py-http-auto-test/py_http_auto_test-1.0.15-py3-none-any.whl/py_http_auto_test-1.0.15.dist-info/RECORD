@@ -1,0 +1,10 @@
+http_test/__init__.py,sha256=QDn-dKoHJMDwdaV8H8l_w5soaCxe4QGWUxOIkI4uZBo,63
+http_test/request.py,sha256=w5s-h3Dy5sIvKlzc9UMwqdrbb1cPDG0oP3Qw3RTW4wI,8923
+http_test/runner.py,sha256=eL7e11DeZRh5Tq-MTiaIBxRHgThkwLZr3qDzbliMlUw,2453
+http_test/spec.py,sha256=REgYfd5PEad_y0_qkMddkHEegwVs_aZJMgpTlBhHF_o,9929
+http_test/ws_request.py,sha256=aEkmFe2-2EXRFt0wj9BZt4LH_e_zm3nZQhN7LXv5K-s,2954
+py_http_auto_test-1.0.15.data/scripts/http-test-runner.py,sha256=kkU1RgdaC1QVAl6-QKGVjTDU1Se-GhCvRD95P0ZMYRs,1911
+py_http_auto_test-1.0.15.dist-info/METADATA,sha256=aYdsl8YzbWhYotuTEvqGmkeJ4l_5CK8VJ_kwyYuRrE8,6434
+py_http_auto_test-1.0.15.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+py_http_auto_test-1.0.15.dist-info/top_level.txt,sha256=2i4_smsAV6LxE9JUE5xymOl3-eFxLyLdSRNkyx746KM,10
+py_http_auto_test-1.0.15.dist-info/RECORD,,
