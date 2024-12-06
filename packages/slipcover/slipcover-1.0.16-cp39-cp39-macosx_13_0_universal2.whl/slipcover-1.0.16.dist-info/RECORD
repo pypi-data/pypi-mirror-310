@@ -1,0 +1,17 @@
+slipcover/__init__.py,sha256=TbbRblZ4FOpjoNzYU2mOQDW_o1mUJYJ1WapJelZD_ms,203
+slipcover/__main__.py,sha256=-Jc2xTXOHC1m4-PPbS0DC265F3WCW6PQSoPoGsnVnAg,9362
+slipcover/branch.py,sha256=wW61ir9OT3IbJHAOLH9e0tJoGO4lZAnBfYfV-hym6yQ,7731
+slipcover/bytecode.py,sha256=vDdXxJJ8FoAKRewclDNe4y11lVgzY5pOee1FVm8DGcM,23414
+slipcover/fuzz.py,sha256=bHz8AAwePl_JocPscJrREXcdE8RN11AbWqPuf1oVc5A,437
+slipcover/importer.py,sha256=FrVu9CLiXbynSzvt3pAeYedtKn4_Cv1-ytLMnZ8MKeM,9902
+slipcover/probe.cpython-39-darwin.so,sha256=1HPxdV6GdaniTvXZ2Ft2uiWT588s2tqX-KJJUOi93Pw,200656
+slipcover/schemas.py,sha256=seuGmowYW1s4u7KisedaOaltvHe91-Wl9dkrdvq3yYw,884
+slipcover/slipcover.py,sha256=oBZWZkLuY6PLix2vXo9JT6R6QDCbssAYBt2pYB9Yu9w,26543
+slipcover/version.py,sha256=XCyFiPl3CH10Io75kA5YLITZ5BFyI8ePldlyGlV9cfg,98
+slipcover/xmlreport.py,sha256=ALHSB_ouzoYeHq5f8gLzH35d6HB9GA1hJYatkBbgb5o,11930
+slipcover-1.0.16.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+slipcover-1.0.16.dist-info/METADATA,sha256=oU7-oNE5B_OHS22-zuNjU-rlRQbxVIfS9W34UAN9tQA,9477
+slipcover-1.0.16.dist-info/WHEEL,sha256=vpkhpHAinoWUlGxTLByrLt6uchg5Kix0aFI3kOe8_JQ,112
+slipcover-1.0.16.dist-info/entry_points.txt,sha256=Uq7HmxJP-vwlb1gl7wQ4LWL9-nJG2bmu08NQ5REqP78,54
+slipcover-1.0.16.dist-info/top_level.txt,sha256=5VXLPH9Pwp6leK8l70xKGMYUOtHuCaL-XVui6MGDwlY,10
+slipcover-1.0.16.dist-info/RECORD,,
