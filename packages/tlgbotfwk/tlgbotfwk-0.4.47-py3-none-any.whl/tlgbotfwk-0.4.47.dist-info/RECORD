@@ -1,0 +1,15 @@
+bot/__init__.py,sha256=9_z8a8pR2nUuzGvcKVxasmWxeSx2OhfmTRyhf0w6oz8,172
+bot/core.py,sha256=SZUkkJNjQ4VUuuXA-gjH12Ivod0GwoIT893WWU5nCAU,46129
+bot/handlers.py,sha256=fICkSnLZTm3ojcu8GAdHx1_8JUpJuJ7G6aOz3ywuJf4,9200
+bot/settings.py,sha256=3I3dv74zFlOE_fU-JjIKONgDQVISUkEBSQITl51x_N8,528
+bot/util_decorators.py,sha256=IjnHsmmM6eryKmSZ3uBdI1q_emmD7Kt-jGFlJbrGdz4,9020
+bot/util_functions.py,sha256=lVdoLzGkxSSodujQwzmnNh9NMQxbsb8QQhv7JT-Jww8,2979
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/http_server.py,sha256=i-ZnU0ZxHw2ttu2cZQO5CX7YoynscN4_FnYOm15nwHs,671
+examples/main.py,sha256=8bSUNjvq1LCdmzkp33A2hv6J0YS7pIimM1h5XJN-ZrM,1168
+examples/remove_pypi.py,sha256=-1Rds-W4JuBpZvitwR0JTq750NqJ-1liaYRxQw_mdhg,1078
+tlgbotfwk-0.4.47.dist-info/LICENSE,sha256=0pydCZecU_VRqXrWXk0RMXFpFF-KEFEd__GaDSrtMVc,1087
+tlgbotfwk-0.4.47.dist-info/METADATA,sha256=JZYIhezfKUpKqwU7GaxWNSJJLv_WgRdjVFuojaT-95Y,415
+tlgbotfwk-0.4.47.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+tlgbotfwk-0.4.47.dist-info/top_level.txt,sha256=1zfh20f2KRewgPa-VofC5OlVsod71BOZMZv3swQptFM,13
+tlgbotfwk-0.4.47.dist-info/RECORD,,
