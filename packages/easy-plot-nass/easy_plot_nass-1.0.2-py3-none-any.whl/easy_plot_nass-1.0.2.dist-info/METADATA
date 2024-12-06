@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: easy_plot_nass
+Version: 1.0.2
+Summary: A simple module for creating plots with Matplotlib.
+Home-page: https://github.com/NassAbd/easy_plot
+Author: Abdallah Nassur
+Author-email: nassur1607@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib >=3.0
+
+# easy_plot
+
+**easy_plot** est un module Python simple pour crÃ©er des graphiques avec Matplotlib.
+
+## FonctionnalitÃ©s
+
+- Tracer des lignes
+- Graphiques en nuages de points
+- Histogrammes, boÃ®tes Ã  moustaches, etc.
+
+## Installation
+
+```bash
+pip install easy_plot
