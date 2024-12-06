@@ -1,0 +1,12 @@
+opencal/__init__.py,sha256=Yl5oZYTaA9SeWVS9_I1_wvDGYHhVigYWY_K28JB4m0Y,1492
+opencal/card.py,sha256=W_8yxLuiuIL8Q_Hu-hOVa4YwcMYomiB4NPDtiPSro7A,7165
+opencal/config.py,sha256=KOOiXvQg9JPkSHgwwkskbcgi-KHXx1mXSEXuGToXZnY,5479
+opencal/path.py,sha256=EgbaCSQe3FJ8wrdx8iHnwsy3raJFsAGN37PQjw4b0mo,982
+opencal/review.py,sha256=I1bMDRiqQKYEysktlRraJvu2Wd06l9_0IObo8ruiZHw,5230
+opencal-3.8.1.dist-info/AUTHORS,sha256=Boq2btlxJHb-MdfYyvNd4NhDsvD1StpLVhGbRWcaM7A,51
+opencal-3.8.1.dist-info/LICENSE,sha256=7VAOiTHFn3wvcuqilGBOkTW3eAVIDOOv6LLe7KkxBls,1116
+opencal-3.8.1.dist-info/METADATA,sha256=CqMqlHUovg-9rrh55e3A3sFHPRIH0oJU2AG9u3f33Ak,3216
+opencal-3.8.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+opencal-3.8.1.dist-info/entry_points.txt,sha256=ifBsqIv1keHHlsf0yuoVtk2h9xskBt4ZHdEYY3l0BOU,215
+opencal-3.8.1.dist-info/top_level.txt,sha256=AOrkXCKrQwqg-NMFJFUTd0g0WAAppUiUMaknnIgNPOE,8
+opencal-3.8.1.dist-info/RECORD,,
