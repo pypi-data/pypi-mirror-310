@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ldr-logging"
+version = "0.1.1"
+description = "A Google Cloud Platform compliant structured logging library"
+license = "MIT"
+authors = ["Sam Kenney <sam.kenney@louder.com.au>"]
+readme = "README.md"
+packages = [{include = "ldr/logging"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-cloud-logging = "^3.11.3"
+pydantic = "^2.10.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+pre-commit = "*"
+pytest = "*"
+flake8 = "*"
+flake8-docstrings = "*"
+ruff = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
