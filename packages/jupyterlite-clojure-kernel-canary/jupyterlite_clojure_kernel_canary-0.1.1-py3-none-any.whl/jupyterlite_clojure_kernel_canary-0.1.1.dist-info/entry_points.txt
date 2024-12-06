@@ -1,0 +1,2 @@
+[jupyterlite.addon.v0]
+jupyterlite_clojure_kernel = jupyterlite_clojure_kernel:ClojureAddon
