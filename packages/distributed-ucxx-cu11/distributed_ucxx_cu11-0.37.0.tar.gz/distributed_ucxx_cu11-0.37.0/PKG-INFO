@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: distributed-ucxx-cu11
+Version: 0.37.0
+Summary: UCX communication module for Dask Distributed
+Author: NVIDIA Corporation
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/rapidsai/ucxx
+Project-URL: Documentation, https://distributed.dask.org/
+Project-URL: Source, https://github.com/rapidsai/ucxx
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numba >=0.57.1
+Requires-Dist: rapids-dask-dependency ==24.4.*,>=0.0.0a0
+Requires-Dist: ucxx-cu11 ==0.37.*,>=0.0.0a0
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-click >=2.7.1 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme >=0.5.1 ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: numpy >=1.21 ; extra == 'test'
+Requires-Dist: pytest ==7.* ; extra == 'test'
+
+# UCX Communication Module for Distributed
+
+This is the UCX communication module for the Distributed framework. It is required to enable UCX communications.
