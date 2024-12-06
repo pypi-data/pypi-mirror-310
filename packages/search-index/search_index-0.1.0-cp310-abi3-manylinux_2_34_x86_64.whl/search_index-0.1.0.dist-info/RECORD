@@ -1,0 +1,12 @@
+search_index-0.1.0.dist-info/METADATA,sha256=Wz6mTGk1OZliEqGeoMbKJamR9M5kWHsGS2RpksuD6iQ,1571
+search_index-0.1.0.dist-info/WHEEL,sha256=BrqACRO12BoIeNVpHGS2gmcc3Umvr_W7pdiPDERj7UU,107
+search_index-0.1.0.dist-info/license_files/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+search_index/base.py,sha256=uoBmY9I-nExPE9VWBWNdEvITvF0R8O_60F6UzfCCmdo,2005
+search_index/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+search_index/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+search_index/__init__.py,sha256=m_gC4wP1JbB-4uilZFyy68b2Y4uO7LLeQoUdkX_LQYQ,198
+search_index/similarity.py,sha256=ImtSOri8N0PxTSXeijZBB6vtlinGlOUKKTwdr-65I5w,10988
+search_index/mapping.py,sha256=P_w0f0_1ALWXCABcqfJIZDPakE_VaYP3Qj5d9u__9jU,2087
+search_index/__init__.pyi,sha256=CO5gwa-lDfsY6NgfinakUpc1kBmQab8Om7FJ7BI5-OA,1735
+search_index/_internal.abi3.so,sha256=tym8bxNEKkAOAjz6gldiFkEsh859F8N-0AqBo5A4W_Y,1272856
+search_index-0.1.0.dist-info/RECORD,,
