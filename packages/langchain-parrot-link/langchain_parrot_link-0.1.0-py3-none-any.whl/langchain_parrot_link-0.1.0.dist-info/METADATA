@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: langchain-parrot-link
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: langchain-core (>=0.3.19,<0.4.0)
+Description-Content-Type: text/markdown
+
+
