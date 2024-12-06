@@ -1,0 +1,184 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ports": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/ClassicModulePorts"
+        },
+        {
+          "$ref": "#/definitions/ModularModulePorts"
+        }
+      ]
+    },
+    "timeStamp": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "ports"
+  ],
+  "definitions": {
+    "ClassicModulePorts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "port": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "integer"
+          },
+          "linkup": {
+            "type": "boolean"
+          },
+          "linkQuality": {
+            "type": "integer"
+          },
+          "speed": {
+            "type": "string"
+          },
+          "txMsgs": {
+            "type": "integer"
+          },
+          "rxMsgs": {
+            "type": "integer"
+          },
+          "errMsgs": {
+            "type": "integer"
+          },
+          "sfpIsInserted": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "port",
+          "type",
+          "txMsgs",
+          "rxMsgs",
+          "errMsgs"
+        ]
+      }
+    },
+    "ModularModulePortStatus": {
+      "type": "object",
+      "properties": {
+        "inserted": {
+          "type": "boolean"
+        },
+        "linkup": {
+          "type": "boolean"
+        },
+        "linkQuality": {
+          "type": "integer"
+        },
+        "speed": {
+          "type": "integer"
+        },
+        "master": {
+          "type": "boolean"
+        },
+        "full": {
+          "type": "boolean"
+        },
+        "stats": {
+          "type": "object",
+          "description": "Used by HS/LS variants",
+          "properties": {
+            "config_done": {
+              "type": "boolean"
+            },
+            "config_error": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": {
+            "oneOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              }
+            ]
+          }
+        },
+        "statistics": {
+          "description": "Used by EES and LORIS",
+          "type": "object",
+          "properties": {
+            "bytes": {
+              "$ref": "#/definitions/StatisticsCount"
+            },
+            "packets": {
+              "$ref": "#/definitions/StatisticsCount"
+            }
+          },
+          "required": [
+            "bytes",
+            "packets"
+          ]
+        }
+      }
+    },
+    "ModularModulePorts": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "base.schema.json#/definitions/PortType"
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/ModularModulePortStatus"
+        }
+      }
+    },
+    "StatisticsCount": {
+      "type": "object"
+    },
+    "EesStatisticsCount": {
+      "type": "object",
+      "properties": {
+        "totaltx": {
+          "description": "TotalTx",
+          "type": "integer"
+        },
+        "totalrx": {
+          "type": "integer"
+        },
+        "totalbadrx": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "totaltx",
+        "totalrx",
+        "totalbadrx"
+      ]
+    },
+    "LorisStatisticsCount": {
+      "type": "object",
+      "properties": {
+        "total_tx": {
+          "type": "integer"
+        },
+        "total_rx": {
+          "type": "integer"
+        },
+        "total_bad_rx": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total_tx",
+        "total_rx",
+        "total_bad_rx"
+      ]
+    }
+  }
+}
