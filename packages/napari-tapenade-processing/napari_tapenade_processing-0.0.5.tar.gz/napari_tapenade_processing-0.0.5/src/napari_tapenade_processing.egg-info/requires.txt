@@ -1,0 +1,14 @@
+numpy
+magicgui
+qtpy
+tifffile
+natsort
+tapenade
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
