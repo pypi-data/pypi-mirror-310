@@ -1,0 +1,15 @@
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/docx2markdown/__init__.py
+src/docx2markdown/_docx_to_markdown.py
+src/docx2markdown/_markdown_to_docx.py
+src/docx2markdown/_terminal.py
+src/docx2markdown.egg-info/PKG-INFO
+src/docx2markdown.egg-info/SOURCES.txt
+src/docx2markdown.egg-info/dependency_links.txt
+src/docx2markdown.egg-info/entry_points.txt
+src/docx2markdown.egg-info/requires.txt
+src/docx2markdown.egg-info/top_level.txt
