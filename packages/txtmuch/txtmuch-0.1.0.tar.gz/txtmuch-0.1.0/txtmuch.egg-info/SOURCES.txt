@@ -1,0 +1,8 @@
+setup.py
+txtmuch/__init__.py
+txtmuch/core.py
+txtmuch/utils.py
+txtmuch.egg-info/PKG-INFO
+txtmuch.egg-info/SOURCES.txt
+txtmuch.egg-info/dependency_links.txt
+txtmuch.egg-info/top_level.txt
