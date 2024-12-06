@@ -1,0 +1,16 @@
+sample/__init__.py,sha256=y2xpVDX1RiuNAXiwTa1UY4D8kqnOVvSc4BVHMTsPjj8,1563
+sample/__main__.py,sha256=rb2NmfPbTiOwfgVpLgayFoJGYTZaHtoyi95c-LxexfQ,110
+sample/args.py,sha256=PSvtZdD4vuLLz9NzIjkWSr5WRoKERD1qYFZaB8SxEpI,1995
+sample/csv.py,sha256=1qyHcVnFLiIBC4xU8mZroiFgWDNGsjx7Y9wMRWUfHY8,3476
+sample/dictionary.py,sha256=oIRlDmFk8MwTKMZjgjFutLQUas2d6x5Aeg068Hpu5N8,620
+sample/epub.py,sha256=bt-kDYb-x8D311Ea-w714TTuAouuiXPvl3sBqFnkMpQ,479
+sample/main.py,sha256=UPNOYyeGZYA3t36s7c692ba6abMa9pRB1b5sG9wN2Ko,5355
+sample/ocr.py,sha256=v7UHf7aYvT9FLkNm-3oLtOZrNVGwtN9dTxB1AKVq7EU,3000
+sample/pdf.py,sha256=XztfxH_VfFhmXAYczVZv-XRBMMaotq7LorUo_g_62hM,355
+sample/tokenizer.py,sha256=iUShpkyzmGKRsi0pm-GpIv3aYAePn1Gou5igxNvQqxM,1487
+japanese_vocabulary_extractor-1.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+japanese_vocabulary_extractor-1.1.3.dist-info/METADATA,sha256=80FXcGLe-jZYMYr_3Hr7jk7h6Ng-lycRparrriovj00,6771
+japanese_vocabulary_extractor-1.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+japanese_vocabulary_extractor-1.1.3.dist-info/entry_points.txt,sha256=8qs9-C8DCXqb7dBJo-bMMbkO_Imjwxba9gcMJCOKEKk,50
+japanese_vocabulary_extractor-1.1.3.dist-info/top_level.txt,sha256=qvn_SI4HZ9peodVhGOb2WhbFYzsM78H6CJvTqxgQYT0,7
+japanese_vocabulary_extractor-1.1.3.dist-info/RECORD,,
