@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mpl-markers
+Version: 0.0.15
+Summary: interactive data markers for matplotlib
+Author-email: Rick Lyon <rlyon14@gmail.com>
+Project-URL: repository, https://github.com/ricklyon/mpl_markers
+Keywords: matplotlib,markers,interactive
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: matplotlib>=3.9.0
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: bumpversion; extra == "dev"
+Requires-Dist: parameterized; extra == "dev"
+Requires-Dist: pyqt5; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
