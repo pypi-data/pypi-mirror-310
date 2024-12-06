@@ -1,0 +1,2 @@
+opencal
+#opencal @ git+ssh://git@gitlab.com/opencal/opencal-lib-python.git
