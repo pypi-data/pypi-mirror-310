@@ -1,0 +1,17 @@
+[package]
+name = "epyxid"
+version = "0.3.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "epyxid"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.6", features = ["extension-module"] }
+xid = "1.1.1"
+
+[profile.release]
+lto = true
+codegen-units = 1
