@@ -1,0 +1,3 @@
+[console_scripts]
+stegashade = stegashade.cli:main
+
