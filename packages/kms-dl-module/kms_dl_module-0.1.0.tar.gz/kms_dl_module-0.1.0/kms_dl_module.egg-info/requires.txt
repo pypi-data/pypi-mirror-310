@@ -1,0 +1,11 @@
+keras
+matplotlib
+nltk
+numpy
+pandas
+scikit_learn
+seaborn
+setuptools
+setuptools
+tensorflow
+tensorflow_intel
