@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fedin
+Version: 1.0.1
+Summary: Federated Learning Interpretability Tool
+Author: Sree bhargavi balija
+Author-email: sbalija@ucsd.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: torch >=1.8
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+
