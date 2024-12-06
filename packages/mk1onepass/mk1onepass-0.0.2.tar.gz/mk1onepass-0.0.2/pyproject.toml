@@ -1,0 +1,61 @@
+
+# note. buildpkg_pypi.pyの注意事項
+#   buildディレクトリーに移動させるときにpyproject.tomlのコメン
+#   ト行は削除されます。
+#   必要なコメントはprivate/pypiにあるpyproject.tomlに行ってく
+#   ださい。
+
+
+[project]
+name = "mk1onepass"
+# note. version format
+#  ここに設定できるバージョン番号のフォーマットは0.0.0形式
+#  v0.0x 形式では勝手に０を消去して0.x としてしまい大変困る
+#  ことになる。
+version = "0.0.2"
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
+
+# python 3.9 later, 4.0 older.
+requires-python = '>=3.9, <=4.0' 
+
+authors     = [{name = 'Mike Turkey', email = 'voice@miketurkey.com'}]
+maintainers = [{name = 'Mike Turkey', email = 'voice@miketurkey.com'}]
+
+description = 'Timebased one-time password generator.'
+readme      = {file = "README.rst", content-type = "text/x-rst"}
+license     = {file = "LICENSE"}
+
+
+# README.rstが含まれない時はこれらを試すこと
+# [tool.setuptools]
+# include-package-data = true
+# [tool.setuptools.package-data]
+# 指定したファイルをパッケージに含める
+# mk1onepass = ["README.rst"]
+
+[project.urls]
+# Homepage = "https://example.com"
+Repository = "https://github.com/MikeTurkey/mk1onepass"
+
+# How to build and install
+# $ python3.9 -m build
+# $ python3.9 -m pip install dist/shachecksumpy-0.1.dev0-py3-none-any.whl
+
+# Ref. https://github.com/pypa/sampleproject
+# 
+# Ref. src layout vs flat layout
+#      https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/
+# 
+# Ref. writing pyproject.toml
+#   https://packaging.python.org/ja/latest/guides/writing-pyproject-toml/
+
+
+[project.scripts]
+# e.g.
+#  sha-checksum = "shachecksumpy:main_shachecksum"
+#     -> from shachecksum import main_shachecksum
+#     -> sha-checksum command.
+mk1onepass = "mk1onepass:main_mk1onepass"
