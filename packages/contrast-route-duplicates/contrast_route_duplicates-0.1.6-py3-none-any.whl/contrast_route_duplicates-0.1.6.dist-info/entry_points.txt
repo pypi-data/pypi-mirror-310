@@ -1,0 +1,2 @@
+[console_scripts]
+contrast-route-duplicates = contrast_route_duplicates.cli:app
