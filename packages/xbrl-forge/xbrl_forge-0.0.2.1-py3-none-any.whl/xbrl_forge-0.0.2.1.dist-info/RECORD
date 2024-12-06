@@ -1,0 +1,15 @@
+xbrl_forge/ContentDataclasses.py,sha256=v9b-DL8dBPGbjFCiPijCfdGBwaQeR7pOZ7c2bB4T1_k,14210
+xbrl_forge/ElementRender.py,sha256=E2rczVRsMEV7ZFdqdoACepl6LQCH65VfZFXAODDznQY,4275
+xbrl_forge/HtmlProducer.py,sha256=ICD1-eA0klrsowPSuK3OdMYpvxI67WrnltDFhN6lfJM,12330
+xbrl_forge/InputData.py,sha256=KjH3XYK7u70Ytv4T--5gVeYnm5rNpy_a4_5WnDMKJxc,721
+xbrl_forge/PackageDataclasses.py,sha256=WdPgJhQVOiSrDds-Q3otfMBp-zPqsAT18_pu_N4q_XQ,1812
+xbrl_forge/TaxonomyDataclasses.py,sha256=T0rexTtfZY3WzgBRyeO9jKVz1CMjER1FP79Of-0SJdw,11275
+xbrl_forge/TaxonomyProducer.py,sha256=K4PeD4BMpevJ6I2nvwhgV3_QSq9Ts-ZmzXMR_deyqWE,29133
+xbrl_forge/XbrlProducer.py,sha256=hFvng56J95rUMt-P4s7eus8Tzzup42VHl66AIy_jYSQ,9631
+xbrl_forge/__init__.py,sha256=LugmiiTMKKqPfEMjaCclFHEd1mL7DXF3P3gdhFqWRDs,1688
+xbrl_forge/utils.py,sha256=rK2hjXCdmoev7IOOs2AHkfWKstjewKUJe2a6sfxtRBQ,596
+xbrl_forge-0.0.2.1.dist-info/LICENCE.md,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+xbrl_forge-0.0.2.1.dist-info/METADATA,sha256=wt8u1KRrJeWXO6nTfygAuZTM1Sj5SCKuzWE4HCk_niE,3169
+xbrl_forge-0.0.2.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+xbrl_forge-0.0.2.1.dist-info/top_level.txt,sha256=T0Vz4JvTyhUIcm6d_L_24Hr8H8-fBigxEMRTf35fiVI,11
+xbrl_forge-0.0.2.1.dist-info/RECORD,,
