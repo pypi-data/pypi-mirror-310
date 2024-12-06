@@ -1,0 +1,4 @@
+[console_scripts]
+TalentRank = talentrank.main:main
+talentrank = talentrank.main:main
+
