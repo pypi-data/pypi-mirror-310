@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "navlib"
+version = "0.1.7"
+description = "MBARI CoMPAS Lab Utilities for Navigation Data Processing"
+authors = ["srodriguez_mbari <srodriguez@mbari.org>", "Bastián Muñoz"]
+readme = "README.md"
+license = "MIT"
+packages= [{include = "navlib"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = [
+    {version = ">=1.22,<1.25", python = ">=3.8,<3.9"},
+    {version = "^1.25", python = ">=3.9"},
+]
+pyproj = [
+    {version = ">=3.3,<3.6", python = ">=3.8,<3.9"},
+    {version = "^3.6", python = ">=3.9"},
+]
+lcm = "^1.5"
+scipy = [
+    {version = "1.10.*", python = ">=3.8,<3.9"},
+    {version = ">=1.11,<1.14", python = ">=3.9,<3.10"},
+    {version = "^1.14", python = ">=3.10"},
+]
+
+[tool.poetry.group.dev.dependencies]
+flake8 = [
+    {version = "<6.0.0", python = ">=3.8,<3.9"},
+    {version = "^6", python = ">=3.9"},
+]
+black = "^23.7.0"
+pre-commit = [
+    {version = ">=3.0,<3.6", python = ">=3.8,<3.9"},
+    {version = "^3.6", python = ">=3.9"},
+]
+commitizen = "^3.10.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8"
+compas-lcmtypes = "^0.1"
+freezegun = "^1.5"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "0.1.0"
+version_scheme = "semver"
+version_provider = "poetry"
+update_changelog_on_bump = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
