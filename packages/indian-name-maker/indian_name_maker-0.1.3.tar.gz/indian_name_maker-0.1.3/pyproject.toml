@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["indian_name_maker"]
+
+[project]
+name = "indian-name-maker"
+version = "0.1.3"
+description = "A Python package to generate Indian names"
+readme = "README.md"
+authors = [{ name = "Ankit Kumar"}]
+license = { text = "CC BY-NC-SA 4.0" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+]
+keywords = ["indian", "names", "generator"]
+dependencies = [
+    "pandas >= 1.3.0",
+    "numpy >= 1.23.2",
+    "pytest >= 7.0.0"
+]
+requires-python = ">=3.7"
+
+[project.scripts]
+indian-name-maker = "indian_name_maker.main:main"
