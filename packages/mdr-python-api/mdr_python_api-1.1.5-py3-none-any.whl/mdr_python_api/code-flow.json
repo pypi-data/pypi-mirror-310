@@ -1,0 +1,12 @@
+{
+    "id":  "c46da299-bb68-4774-88db-84057793ff61",
+    "code_challenge_method":  "S256",
+    "redirect_uris":  [
+                          "http://localhost:49152/redirect"
+                      ],
+    "grant_types":  [
+                        "authorization_code"
+                    ],
+    "scope":  "email profile openid groups",
+    "client_id":  "0oakfaht6x88zYzKW5d7"
+}

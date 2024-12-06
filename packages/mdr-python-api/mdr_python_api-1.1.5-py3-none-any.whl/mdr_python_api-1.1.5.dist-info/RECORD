@@ -1,0 +1,15 @@
+mdr_python_api/__init__.py,sha256=TJc9RC4PN5BWvix97N-NhJYE-Xa7vC8I3e2PLUmDf8g,44
+mdr_python_api/api.py,sha256=4BBz6wNNKXpm1geLRW_oarju1bHC8dgERnVyClWJoSg,4133
+mdr_python_api/code-flow.json,sha256=RTPGp6v1XOpLmkcKr_ND5ubhxgWbl9sggBNjBSxQ0Nc,378
+mdr_python_api/example.py,sha256=1D-L6OB0jNOYs6N7aVu_IN6PxMSOy4l00cPjbTiXL-4,1482
+mdr_python_api/http_api.py,sha256=NmMDu8hJSaCwZ6Q2W57yq-j3cFi6xPMCC0jr1rlFozE,6353
+mdr_python_api/input.py,sha256=oMIB4T4MhHGN9UjCRcIGEa4YCe7HoEtS8ub6g3Yezxk,435
+mdr_python_api/loop_back_server.py,sha256=ZEM6cBMhYYC-Od4UuubFEzwnrgtCwggTTvPRvKC6-pY,4491
+mdr_python_api/oidc_common.py,sha256=NZ-Hb3B4vnOb1K8yulKc_mEkgjTTBEeswoalQoaQiQo,6397
+mdr_python_api/tcp_api.py,sha256=G1ILzQqwktMN46TAaKdn5j2Tsosu_CRFzOKgAwEW6d8,3956
+mdr_python_api/token_generator.py,sha256=C2rLOVpuB8mYD31o7awiRBVrjy9WWl05b0idoQJ_Hjw,3244
+mdr_python_api/token_manager.py,sha256=EY_z2gFrVY3asNEcc4tXMgFIIqeu6Jj3bwySonI1RGk,863
+mdr_python_api-1.1.5.dist-info/METADATA,sha256=0id6szyTj4hZhNwXrGIRNwJ-CmKLK7krrMzJA5IpDPM,106
+mdr_python_api-1.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mdr_python_api-1.1.5.dist-info/top_level.txt,sha256=cZ3zgempcDd-wB55DK_PlLVd-kecJi-5uXyYd2dSu7k,15
+mdr_python_api-1.1.5.dist-info/RECORD,,
