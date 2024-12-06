@@ -1,0 +1,4 @@
+[funcnodes.module]
+module=funcnodes_weather
+shelf=funcnodes_weather:NODE_SHELF
+
