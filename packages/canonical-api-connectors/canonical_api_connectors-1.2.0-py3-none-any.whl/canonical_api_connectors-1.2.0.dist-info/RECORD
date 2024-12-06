@@ -1,0 +1,16 @@
+apiconnectors/__init__.py,sha256=qNIv5fEStqKOMBqkAgfEqgacAtThy9hIGYduXF-Nmps,22
+apiconnectors/github/__init__.py,sha256=y1dy6Ld7CdtHIwhnsjLJ-vcuxBV7qt6U8QjlhC8hjEg,114
+apiconnectors/github/client.py,sha256=lFBv0H3B_L8deixJ_Zb_gsiKermNORvsVpCMlJH8XtE,5157
+apiconnectors/jira/__init__.py,sha256=duiuvqTze3_Rgb8hDLTw5IES84n_9v93AYux3VauPP0,163
+apiconnectors/jira/jira_admin.py,sha256=BDMj_Xn_BC4GZdhoDFOzJDJUow-m4BZ8CxJDg61vr-s,12140
+apiconnectors/jira/jira_cloud.py,sha256=lw9KJE0St4hLn735B6pzvCcpPVntiQ5mMRaeNJ66uFU,17342
+apiconnectors/ldap/__init__.py,sha256=VN3uZ7DuBoo6WvaUnfDaiJRHvhgc-C0Aq2m7KkTrlVA,76
+apiconnectors/ldap/client.py,sha256=SivyEZPHhxGbWVKu8VH4MmFhnX0FZuge74Q_1xIrOxk,4316
+apiconnectors/mattermost/__init__.py,sha256=gWB-RgZIasMP5dTtrml1kz_57OeDQ7Z1XF7uCxJ-trg,94
+apiconnectors/mattermost/client.py,sha256=zJ67dQkjeHOGae88yprq0tglv-tcY3MDlx47iXAUdK0,788
+apiconnectors/vault/__init__.py,sha256=sfRN7WSBENcr8Kxd_Y_DG4lmTjwNSU4zBugP-D8BCkk,80
+apiconnectors/vault/client.py,sha256=rf22LJVwTLJPKfOcy24CKoOim46GHltd_xv7H9lcodQ,8060
+canonical_api_connectors-1.2.0.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+canonical_api_connectors-1.2.0.dist-info/METADATA,sha256=5Fehy0aBCOoShh9Onv5viU8WF0EcPVNfrK7XY-6P14M,2201
+canonical_api_connectors-1.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+canonical_api_connectors-1.2.0.dist-info/RECORD,,
