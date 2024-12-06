@@ -1,0 +1,17 @@
+MANIFEST.in
+readme.md
+setup.py
+arb/__init__.py
+arb/bot-fake-money.py
+arb/bot.py
+arb/delta_neutral_config.py
+arb/exchange_config.py
+arb/latency.py
+arb/main.py
+arb/run.py
+arb.egg-info/PKG-INFO
+arb.egg-info/SOURCES.txt
+arb.egg-info/dependency_links.txt
+arb.egg-info/entry_points.txt
+arb.egg-info/requires.txt
+arb.egg-info/top_level.txt
