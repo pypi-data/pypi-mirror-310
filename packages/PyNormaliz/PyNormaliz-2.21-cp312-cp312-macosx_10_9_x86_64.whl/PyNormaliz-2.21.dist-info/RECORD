@@ -1,0 +1,14 @@
+PyNormaliz.py,sha256=P_8gw1iaCYIhLQx9VeMn6kgmJqrJjluJNCImWCCbBrQ,13894
+PyNormaliz_cpp.cpython-312-darwin.so,sha256=6Y2Zd1bjHDaQKId_foQ_oHdGleFpHK-kgzZEi8zcuE0,522160
+PyNormaliz-2.21.dist-info/RECORD,,
+PyNormaliz-2.21.dist-info/WHEEL,sha256=aEriAOO2EgXOyhUKEfCkT4rHSZnkNiRJVMhMsChvbk0,110
+PyNormaliz-2.21.dist-info/COPYING,sha256=WBVp5mhcvjL8zVp4fS7FULdJbNG7ltuRRvVHXhzjRd4,744
+PyNormaliz-2.21.dist-info/top_level.txt,sha256=tif8zLkZEtG6LKWF4sr6AZZqjQLe-y1b6EHyhaYmuBQ,26
+PyNormaliz-2.21.dist-info/METADATA,sha256=7dyY_2iJaoHC-e-HFfBsVZ6iYdI47I5eyxThXV6IbGs,5104
+PyNormaliz.dylibs/libgmpxx.4.dylib,sha256=nkKwRLHRLmcboC83Knpi0mJAfEQUNZ_DW5PGDyhUf2A,70336
+PyNormaliz.dylibs/libeantic.3.dylib,sha256=fVPT3UUC3FYQ_hWUDptdCxmo_SgSd7eqXT5khzsoK3s,144496
+PyNormaliz.dylibs/libnormaliz.3.dylib,sha256=NbgA_wMq1huT3fwAkpivnsP2ZbQ-m7-vK9LjQM-_A_U,11702624
+PyNormaliz.dylibs/libflint.19.0.dylib,sha256=mOHdaD63pQcugJi2EmJa9_yLQ7DT-yDeWyOZtdukLhs,12817104
+PyNormaliz.dylibs/libeanticxx.3.dylib,sha256=vS1qc_G2aFegKMQD69xkLy4qyaYcp_c4k6aqmvqcmV0,397088
+PyNormaliz.dylibs/libgmp.10.dylib,sha256=yb5cbLwozsewFgnfZKMqH882QpK-UGsSwuWWYDjmnGM,723392
+PyNormaliz.dylibs/libmpfr.6.dylib,sha256=S75J2EcYUFDsaolWaCGSg0M9swn0ytrORFMXND3h2aE,591008
