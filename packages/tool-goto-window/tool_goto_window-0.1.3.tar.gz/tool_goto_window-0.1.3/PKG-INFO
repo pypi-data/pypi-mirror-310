@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: tool-goto-window
+Version: 0.1.3
+Summary: A CLI tool to switch between windows
+Author-email: Eyal Levin <eyalev@gmail.com>
+Requires-Python: >=3.12
+Requires-Dist: pywinctl>=0.4.1
+Requires-Dist: typer>=0.13.1
+Description-Content-Type: text/markdown
+
+# tool-goto-window
