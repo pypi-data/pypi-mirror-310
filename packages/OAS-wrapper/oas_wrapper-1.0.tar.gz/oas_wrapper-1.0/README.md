@@ -1,0 +1,55 @@
+# OAS_wrapper
+A wrapper to parse Observed Antibody Space (OAS) data for better visualization, annotation and comparison of sequence to germline.
+
+## Functionalities
+
+The scripts include functionalities to:
+1. Provide basic metrics and visualizations of sequences and their annotations
+2. Provide original IMGT sequences for V, D and J calls made in OAS data using IMGT reference database
+3. Align sequence and germline to highlight regions of mismatches, providing positional information e.g.,  
+```
+Example Output:  
+Sequence: ATGCCGT  
+Germline: ATGTCGT  
+Aligned and Highlighted Differences:  
+ATGC[RED]C[/RED]GT  
+ATG[RED]T[/RED]CGT  
+Indices of Differences: [3]  
+Mapped Regions: [(3, 'CDR2')]  
+--------------------------------------------------
+```
+5. Group data by germline, to infer sequences that originate from germline, including providing information on V, D and J annotations
+```
+Example Output:
+germline,number_of_sequences,sequence,v_call,d_call,j_call,quality,source
+IGHV1-69,3,ATGC,IGHV1,IGHD2,IGHJ4,High,Lab1
+IGHV1-69,3,GCTA,IGHV1,IGHD2,IGHJ4,Medium,Lab2
+IGHV1-69,3,ATGC,IGHV1,IGHD2,IGHJ4,High,Lab1
+IGHV3-23,2,TAGC,IGHV3,IGHD3,IGHJ5,Low,Lab3
+IGHV3-23,2,GCAT,IGHV3,IGHD3,IGHJ5,Medium,Lab2
+```
+   
+7. Annotate sequence with CDRs and FWRs for easy inference of regions of interest
+```
+Example Output:  
+Original Sequence: ATGCCGTAACTG  
+Annotated Sequence: A(Unannotated)T(CDR1)GC(FWR1)GT(CDR2)AA(FWR2)CT(CDR3)G(Unannotated)  
+--------------------------------------------------  
+Row 2:  
+Original Sequence: GATTACAGTGCTA  
+Annotated Sequence: GAT(CDR1)TAC(FWR1)AG(CDR2)TG(FWR2)CTA(CDR3)  
+--------------------------------------------------  
+```
+
+## Project Organization
+
+```
+├── LICENSE            <- Open-source license if one is chosen
+├── README.md          <- The top-level README for developers using this project.
+├── data 
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+└── src                <- Source code for use in this project.
+```
+
+--------
+
