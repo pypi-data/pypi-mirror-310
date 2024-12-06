@@ -1,0 +1,10 @@
+bilby_numpyro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bilby_numpyro/numpyro.py,sha256=LqhYv1w98RTCTHo3onK9iNlAv36vKCXDXSQhvuE0OBk,9588
+bilby_numpyro/utils.py,sha256=VAqyR14au33-Wu0dtJvQVzNC-2F8GwmOrEpGV04LSFc,3334
+tests/test_bilby_integration.py,sha256=Ll71QFsrUIbtjixYxPRZRJZWL4M70yben4wV_VPVP8Y,1293
+bilby_numpyro-0.0.1.dist-info/LICENSE,sha256=iWbV5gy08-D_5m6LaPJpRKJw0bNAQprwgmvEAv2TGYM,1070
+bilby_numpyro-0.0.1.dist-info/METADATA,sha256=GYORuhcgmOxm2df_5KuOLAPu_vjssDiduuM6uJ7QX5Q,1563
+bilby_numpyro-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bilby_numpyro-0.0.1.dist-info/entry_points.txt,sha256=8-EjFH74mmnDosKn5AxHKXcVmBjKV0KX2_HeaKG0Yhc,57
+bilby_numpyro-0.0.1.dist-info/top_level.txt,sha256=jgIYAGP_OgXARN8ICx7NKJKzyatEFa6YmqOJhqCIZao,25
+bilby_numpyro-0.0.1.dist-info/RECORD,,

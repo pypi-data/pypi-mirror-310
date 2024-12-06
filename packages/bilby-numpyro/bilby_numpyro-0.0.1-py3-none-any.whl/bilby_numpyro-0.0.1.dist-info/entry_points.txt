@@ -1,0 +1,2 @@
+[bilby.samplers]
+numpyro = bilby_numpyro.numpyro:NumPyro
