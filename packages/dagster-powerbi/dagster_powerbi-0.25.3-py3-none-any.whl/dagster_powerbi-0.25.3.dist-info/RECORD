@@ -1,0 +1,11 @@
+dagster_powerbi/__init__.py,sha256=CycZjb5KokY92hrnTEzUShnm2VHMklKF5mthE1gu-9o,650
+dagster_powerbi/assets.py,sha256=1wKpNtVBjIPSjgnHfGpPDPkRV6-SPl9jSpsye89mq5c,1191
+dagster_powerbi/py.typed,sha256=mDShSrm8qg9qjacQc2F-rI8ATllqP6EdgHuEYxuCXZ0,7
+dagster_powerbi/resource.py,sha256=owcfKZJ0UObGFAp6Kqo25gn3CD0x1fBhNTXwbbyRprs,16929
+dagster_powerbi/translator.py,sha256=aA5jc9xeIAY2scYyUjY1LhqZdN4iD_SY1uCu_52S2ds,11101
+dagster_powerbi/version.py,sha256=mXrC0wG0d9x4Qj0b-1a15tGJ6JHnWNOm82J2nX_CL2k,23
+dagster_powerbi-0.25.3.dist-info/LICENSE,sha256=lY5yc1KHX4HoXjlWnIPGcCAsnNney2rb8M8ccT6NzRQ,11347
+dagster_powerbi-0.25.3.dist-info/METADATA,sha256=lbzqA8Nn_oZpVGdMuLgbaO0H2KgLjw8VuHxol_hk6BU,703
+dagster_powerbi-0.25.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dagster_powerbi-0.25.3.dist-info/top_level.txt,sha256=QtCJ3-cw3fchgUk37xwM38RXj_hiLFsp9ZiFCA2pZCs,16
+dagster_powerbi-0.25.3.dist-info/RECORD,,
