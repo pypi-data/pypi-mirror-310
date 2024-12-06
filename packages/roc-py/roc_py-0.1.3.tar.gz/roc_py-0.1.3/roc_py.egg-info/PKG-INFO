@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: roc-py
+Version: 0.1.3
+Summary: Hyperf 多路复用 RPC 组件 Python 版本
+Home-page: https://github.com/hyperf/roc-py
+Author: limingxinleo
+Author-email: l@hyperf.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Hyperf 多路复用 RPC 组件 Python 版本
+
+## 如何使用
+
+```python
+import asyncio
+
+from roc.request import Request
+from roc.socket import Client
+
+
+async def main():
+    client = Client(host="127.0.0.1", port=9502)
+    while True:
+        req = Request(path="/test/test",
+                      params={"mobile": "123123", "data": "HelloWorld"})
+        res = await client.request(req)
+        print(res.result)
+        await asyncio.sleep(1)
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+
+```
