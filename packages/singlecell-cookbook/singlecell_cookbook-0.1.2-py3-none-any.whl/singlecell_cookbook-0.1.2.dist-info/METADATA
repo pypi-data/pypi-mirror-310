@@ -1,0 +1,65 @@
+Metadata-Version: 2.3
+Name: singlecell-cookbook
+Version: 0.1.2
+Summary: A collection of tools for analyzing single-cell genomics data.
+Author-email: Argenis Arriojas <arriojasmaldonado001@umb.edu>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.11
+Provides-Extra: dev
+Requires-Dist: bump2version>=1.0.1; extra == 'dev'
+Requires-Dist: myst-parser>=4.0.0; extra == 'dev'
+Requires-Dist: pre-commit>=4.0.1; extra == 'dev'
+Requires-Dist: pytest>=8.3.3; extra == 'dev'
+Requires-Dist: ruff>=0.8.0; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints>=2.5.0; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme>=3.0.1; extra == 'dev'
+Requires-Dist: sphinx>=8.1.3; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# singlecell-cookbook
+
+[![Tests](https://github.com/argearriojas/singlecell-cookbook/actions/workflows/tests.yml/badge.svg)](https://github.com/argearriojas/singlecell-cookbook/actions/workflows/tests.yml)
+
+A collection of tools for analyzing single-cell genomics data.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install singlecell-cookbook
+```
+
+For development installation:
+
+```bash
+git clone https://github.com/argearriojas/singlecell-cookbook.git
+cd singlecell-cookbook
+pip install -e ".[dev]"
+```
+
+## Documentation
+
+Documentation is available at [Read the Docs](https://singlecell-cookbook.readthedocs.io/).
+
+## Development
+
+To set up the development environment:
+
+1. Clone the repository
+2. Install development dependencies: `pip install -e ".[dev]"`
+3. Install pre-commit hooks: `pre-commit install`
+
+## License
+
+TBD. We need to assess the license according to the imported packages.
+
+## Author
+
+Argenis Arriojas ([arriojasmaldonado001@umb.edu](mailto:arriojasmaldonado001@umb.edu))
