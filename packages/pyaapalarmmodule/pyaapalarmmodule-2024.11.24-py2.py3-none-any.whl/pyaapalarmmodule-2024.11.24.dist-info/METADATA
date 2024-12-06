@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyaapalarmmodule
+Version: 2024.11.24
+Summary: Library for AAP Alarm IP / Serial Module
+Home-page: https://github.com/osotechie/pyaapalarmmodule
+Author: osotechie
+Author-email: owen@demooy.co.nz
+License: MIT
+Keywords: AAP Alarm IP / Serial Module for Home Assistant
+License-File: LICENSE
+Requires-Dist: requests
