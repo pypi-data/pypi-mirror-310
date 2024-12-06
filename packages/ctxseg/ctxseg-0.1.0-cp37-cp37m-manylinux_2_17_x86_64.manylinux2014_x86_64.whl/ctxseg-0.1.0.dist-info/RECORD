@@ -1,0 +1,12 @@
+ctxseg-0.1.0.dist-info/top_level.txt,sha256=Nj2CTtIcADf61CX-3ipjpfvQLMPIsFRnkTwTqeKGRUY,14
+ctxseg-0.1.0.dist-info/RECORD,,
+ctxseg-0.1.0.dist-info/LICENSE,sha256=QanLeRzr-kcFdL6opYgc9x_xo1nVKrPNV7-M2Vwj2yg,1069
+ctxseg-0.1.0.dist-info/METADATA,sha256=2zfUZ6HBqtLUYKi7xfdVO-E9z8v0B_MP885MoV5mO68,516
+ctxseg-0.1.0.dist-info/WHEEL,sha256=XTrbe1v1RZIwaNy2ykqZ1b32V5o3CvHsSToseXBj9JY,150
+ctxgen/c.cpython-37m-x86_64-linux-gnu.so,sha256=8jmbur9rYlnMkLmHawXdlFKC_gslE5DnCYK26RLhP1o,134104
+ctxgen/__init__.py,sha256=hER03eUGFJH2S4XhqzY6iWCjwtBHbw2YSQSB_Nt9Y-Y,28
+ctxgen/generate.py,sha256=AQ4SnG0vDk6daHaALiata4Nx9b98BuZtuOoW-8ze8DU,5726
+ctxseg/segment.py,sha256=aVodG0o67mcBG6BoyIA7DKNVfXP94wbj-Xb5XdOvjoA,1642
+ctxseg/seg_ttest.py,sha256=MA_v7h08tplaJWsfGC2IfT4qSQdtFclrQW6bND3OU7E,1788
+ctxseg/c.cpython-37m-x86_64-linux-gnu.so,sha256=sBQ6C_XBXNiTlN0jhJLlB0F-jhyBp6Bg7pj7nrHe-4s,2873312
+ctxseg/__init__.py,sha256=j6kc0slS7ujuAtoBEVYe0RtGzhMwy4u8zPSxShjF8Xw,48
