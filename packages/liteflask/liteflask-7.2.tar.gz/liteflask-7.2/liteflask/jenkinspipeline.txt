@@ -1,0 +1,64 @@
+Jenkins Pipeline for Java App
+
+Create New Item
+Select Pipeline
+
+Under Build Triggers
+select build periodically
+
+and enter 
+
+* * * * *
+
+Under Pipeline script enter
+
+pipeline {
+    agent any
+
+    tools {
+        jdk 'jdk-21' // Replace 'jdk-17' with your configured JDK name
+    }
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                echo 'Cloning the repository...'
+                git url: 'https://github.com/zoro-22/java.git', branch: 'main'
+            }
+        }
+
+        stage('Compile Java Program') {
+            steps {
+                echo 'Compiling the Java program...'
+                bat 'javac Main.java'
+            }
+        }
+
+        stage('Run Java Program') {
+            steps {
+                echo 'Running the Java program...'
+                bat 'java Main'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build succeeded!'
+        }
+        failure {
+            echo 'Build failed. Check logs for details.'
+        }
+    }
+}
+
+
+Save and click on build now
+
+Java Code:
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Jenkins Pipeline!");
+        System.out.println("This is a simple Java program.");
+    }
+}
