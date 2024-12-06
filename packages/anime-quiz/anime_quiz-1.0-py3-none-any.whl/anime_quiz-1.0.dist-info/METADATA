@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: anime_quiz
+Version: 1.0
+Summary: Anime Themes Quiz for people with taste.
+Author-email: Przemysław Buczkowski <prem@prem.moe>
+Project-URL: Homepage, https://quiz.moe
+Project-URL: Repository, https://github.com/przemub/anime_quiz
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Multimedia :: Video :: Display
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: animelyrics==0.1.0
+Requires-Dist: bugsnag~=4.7.1
+Requires-Dist: Django~=5.1.3
+Requires-Dist: django-redis~=5.4.0
+Requires-Dist: first==2.0.2
+Requires-Dist: redis[hiredis]~=5.2.0
+Requires-Dist: requests~=2.32.3
+Requires-Dist: uWSGI~=2.0.28
+Provides-Extra: dev
+Requires-Dist: build==1.2.2.post1; extra == "dev"
+Requires-Dist: black==24.10.0; extra == "dev"
+Provides-Extra: gcp
+Requires-Dist: django-google-cloud-tasks~=2.17.0; extra == "gcp"
+Requires-Dist: google-cloud-logging; extra == "gcp"
+Provides-Extra: opentelemetry
+Requires-Dist: aws-opentelemetry-distro; extra == "opentelemetry"
+Requires-Dist: opentelemetry-instrumentation-django; extra == "opentelemetry"
+Requires-Dist: opentelemetry-instrumentation-requests; extra == "opentelemetry"
+Requires-Dist: opentelemetry-instrumentation-redis; extra == "opentelemetry"
+
+## Anime Themes Quiz
+
+**Official instance: [quiz.moe](https://quiz.moe)**
+
+Have you ever had an anime quiz with your friends,
+used a YouTube video for that and thought:
+
+> Man, this guy has a shit taste!
+
+Look no further!
+
+Anime Quiz pulls the anime you and your friends watched from
+your [MyAnimeList](https://myanimelist.net) profiles and randomly
+generates a quiz --- it first chooses one of the participants,
+then pulls their MAL list, gets links to themes hosted at
+[animethemes.moe](https://animethemes.moe), plays it and gives you
+10 seconds (configurable) to guess! Then the whole video is 
+uncovered for you to enjoy and the person who guessed can
+shout at the gamemaster to add their points to the built-in
+scoreboard.
+
+### Features
+
+* MAL lists pulled and cached for 7 days at the server
+* animethemes.moe queried and cached for 30 days
+* choice of MAL lists
+* choice of theme types (OP/ED)
+* choice of time to guess
+* all hosted online
+
+### Run
+
+If you just want to play, go to [quiz.moe](https://quiz.moe).
+
+If you want to develop or self-host, the recommended way is to
+install [Docker](https://docker.com) with Docker Compose and run:
+```shell
+docker network create server
+docker-compose up -d
+docker-compose exec anime_quiz python manage.py collectstatic
+```
+
+That's it. Anime Quiz will be run at http://localhost:8009.
+To rebuild, run `docker-compose build` beforehand.
+
+### Develop
+
+PRs are welcome! The code is licensed under GNU Affero Public Licence 3.
