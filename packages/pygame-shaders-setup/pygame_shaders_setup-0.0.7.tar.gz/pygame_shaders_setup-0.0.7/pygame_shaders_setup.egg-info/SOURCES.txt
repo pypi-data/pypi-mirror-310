@@ -1,0 +1,11 @@
+setup.py
+pygame_shaders_setup/__init__.py
+pygame_shaders_setup/pygame_shaders.py
+pygame_shaders_setup/screen_rect.py
+pygame_shaders_setup/shader_setup.py
+pygame_shaders_setup/texture.py
+pygame_shaders_setup.egg-info/PKG-INFO
+pygame_shaders_setup.egg-info/SOURCES.txt
+pygame_shaders_setup.egg-info/dependency_links.txt
+pygame_shaders_setup.egg-info/requires.txt
+pygame_shaders_setup.egg-info/top_level.txt

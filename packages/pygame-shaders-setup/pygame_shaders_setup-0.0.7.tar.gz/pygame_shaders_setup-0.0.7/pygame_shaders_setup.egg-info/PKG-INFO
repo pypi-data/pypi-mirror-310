@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pygame_shaders_setup
+Version: 0.0.7
+Summary: Basic window class for pygame_shaders
+Requires-Python: >=3.6
+Requires-Dist: moderngl==5.8.2
+Requires-Dist: numpy<3.0.0,>=2.0.0
