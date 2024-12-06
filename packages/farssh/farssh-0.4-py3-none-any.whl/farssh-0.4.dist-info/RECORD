@@ -1,0 +1,11 @@
+farssh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+farssh/__main__.py,sha256=ROQYTg4ZonNI_9Q2HHBzur3c3muk476XbUa4JpseIEQ,1290
+farssh/args.py,sha256=MymYlAwntfXibNftjTTn96i1CxzWxwoVjrp0TZhTFzI,3938
+farssh/aws.py,sha256=jMGxe6nXdull1QpdYNdLsgUw8IXOHTLAxLWIHSo5cXk,5531
+farssh/commands.py,sha256=hSFOJLRfXxcU3fH1wGmyCYqM8Od0BdkEKIMbEQbOGHE,2990
+farssh/const.py,sha256=5glhV7D_xx-9x-RyYk8TDLLMyj6bQNzkYLYVJjDT0t0,101
+farssh/ssh.py,sha256=Vg5ex4HL1R7aAwj2W8UDStDctX8Pkcz-V5VLYXrjWMo,1620
+farssh-0.4.dist-info/METADATA,sha256=cdNyXc-q4je7AjnMXmv9yuyo0iQQFqB1uDYKwJoXP54,11128
+farssh-0.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+farssh-0.4.dist-info/entry_points.txt,sha256=z_HBSvz92D1GbXve__7qdAgOS1uUrG4bVGVnOxrfx5w,48
+farssh-0.4.dist-info/RECORD,,
