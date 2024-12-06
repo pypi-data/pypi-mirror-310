@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: image_processing_clahe
+Version: 0.0.3
+Summary: Algoritmo de processamento de imagens CLAHE (Contrast Limited Adaptive Histogram Equalization).
+Home-page: https://github.com/lucenarapereira/Portfolio-Engenharia-de-Dados/tree/main/Projeto%201/image-processing-package
+Author: lucenara_pereira
+Author-email: lucenarapereira@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# package_name
+
+Description. 
+The package image_processing_clahe implements the CLAHE (Contrast Limited Adaptive Histogram Equalization) algorithm, which is used for image processing and contrast improvement, especially in very light or dark areas, and is an extension of AHE (Adaptive Histogram Equalization). 
+
+Requirements OpenCV e Matplotlib.
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing_clahe
+
+```bash
+pip install image_processing_clahe
+```
+
+## Usage
+
+```python
+from image_processing_clahe.algoritmo import process_image, plot_img
+```
+
+## Author
+Lucenara_Pereira
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
