@@ -1,0 +1,10 @@
+pepecoin/__init__.py,sha256=MO_qpue71yXOXimvYHl7oUgFRMBV-NwXWFEeMflnnT8,31
+pepecoin/cli.py,sha256=h_ERrx0eJiwrz6-LjgFWTEPiI4eCGR289LDvCaCw71I,880
+pepecoin/pepecoin.py,sha256=q0MBzDiRNjPgmB4beh1bSVyeZYfWYWq-YCtJX9gl4t4,10025
+pepecoin/pepecoin_rpc.py,sha256=2fmdW7nC3E_bxoNJLIXUPQ26lqRUOqgVh6Z90-OSR5o,2738
+pepecoin/rpc_example.py,sha256=55tHpVJamXhbhuwuuLP4MZT4vzRyDmBbeIit1r2wA0Y,510
+pepecoin-0.0.5.dist-info/METADATA,sha256=jXpoitDy-k15WRce4nG7OXk0hN2jQU3eUgbg7XvkM54,10519
+pepecoin-0.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pepecoin-0.0.5.dist-info/entry_points.txt,sha256=AUgFBrenlwi25bsRfFza5q9E2cJG6IuZJ5PDAMgodnk,255
+pepecoin-0.0.5.dist-info/top_level.txt,sha256=ipCPhfVA1Wsrr5_SAWYGU_ERJ_m3kkLAovzpkC0JkCY,9
+pepecoin-0.0.5.dist-info/RECORD,,
