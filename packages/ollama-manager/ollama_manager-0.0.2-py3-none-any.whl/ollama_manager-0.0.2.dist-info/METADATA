@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: ollama_manager
+Version: 0.0.2
+Summary: Manage Ollama models from your commandline!
+Author: Yankee Maharjan
+Project-URL: Repository, https://github.com/yankeexe/ollama-manager
+Keywords: ollama,ollama cli,ollama python,ollama manager
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: click==8.1.7
+Requires-Dist: ollama==0.3.3
+Requires-Dist: requests==2.32.3
+Requires-Dist: simple-term-menu==1.6.4
+Requires-Dist: textual==0.86.3
+Provides-Extra: dev
+Requires-Dist: ruff==0.7.4; extra == "dev"
+
+# 🦙 Ollama Manager [WIP]
+
+![Python Version](https://img.shields.io/badge/Python-3.11-brightgreen?style=flat-square)
+
+CLI app to manage Ollama models.
+
+<a href="https://youtu.be/1y2TohQdNbo">
+<img src="https://i.imgur.com/iA0LB0e.gif" width="800">
+</a>
+
+## ⚡️ Features
+
+- List and Download Remote models from [Ollama library](https://ollama.dev/models)
+- Delete existing Ollama models
+- Fuzzy Search
+
+
+## 🚀 Installation
+
+```sh
+make setup
+```
+
+Install the app in editable mode:
+
+```sh
+pip install -e .
+```
+
+## ✨ Usage
+
+### Pull Remote Model
+
+```sh
+olm pull
+```
+
+### Delete Local Model/s
+
+Delete a single model
+
+```sh
+olm rm
+```
+
+Delete multiple models
+
+```sh
+olm rm -m
+```
+
+## Getting Help
+
+```sh
+olm --help
+
+olm <sub-command> --help
+```
