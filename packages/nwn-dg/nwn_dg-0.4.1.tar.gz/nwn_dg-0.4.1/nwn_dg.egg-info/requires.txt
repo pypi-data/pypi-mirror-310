@@ -1,0 +1,10 @@
+boltons
+matplotlib
+networkx
+pycairo
+torxtools
+
+[api]
+connexion[swagger-ui,uvicorn]
+
+[dev]
