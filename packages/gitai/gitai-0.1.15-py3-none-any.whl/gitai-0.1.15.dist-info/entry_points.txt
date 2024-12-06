@@ -1,0 +1,3 @@
+[console_scripts]
+gitai = gitai.main:main
+gitai-agent = gitai.agent:main
