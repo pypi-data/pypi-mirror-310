@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: xython
+Version: 3.2.1
+Summary: EXCEL, WORD, OUTLOOK, REGEX, COLORING, HWP BY PYTHON
+Home-page: https://www.xython.co.kr
+Author: sjpkorea
+Author-email: sjpkorea@naver.com
+License: UNKNOWN
+Download-URL: https://github.com/sjpark/xython/archive/v3.2.1.tar.gz
+Project-URL: Documentation, https://sjpkorea.github.io/xython.github.io/
+Project-URL: Link 1, https://www.xython.co.kr
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## About xython module
+Functional Programming for Excel, Hwp, Word, Outlook, Color, Etc by win32com<br>
+It can handle for Excel, Hwp, Word, Outlook, Color, Etc by xython
+
+
+### Manual
+oficial document : https://sjpkorea.github.io/xython.github.io/   <br>
+oficial website : www.xython.co.kr  (Korean base)  <br>
+
+### Components 
+
+    - anydb       : for Database
+    - basic_data  : xython package for general enum
+    - ganada      : for Word
+    - han         : for hwp
+    - jfinder     : for Regex
+    - mailmail    : for outlook
+    - pcell       : for Excel
+    - pyclick     : for KEyboard & Mouse control
+    - pynal       : for Date & Time
+    - scolor      : for Color
+    - xy_list     : New List Type, (start index no is 1)
+    - youtil      : utilities
+
+### Brief
+this is target for easy RPA system of office work<br>
+It composed of several python files, and basic concept is function style<br>
+total over the 2,800 functions in this package<br>
+please see how to use for this package in xython.co.kr<br>
+now under making GUI toolkit for easy & no installing for python for this package<br>
+
+
+
+
+
+
+
