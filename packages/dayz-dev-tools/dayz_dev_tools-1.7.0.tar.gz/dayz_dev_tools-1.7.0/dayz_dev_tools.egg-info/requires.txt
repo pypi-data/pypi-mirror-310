@@ -1,0 +1,16 @@
+pydantic>=2.8.2
+tomli>=2.0.0
+
+[dev]
+build==1.0.3
+flake8==6.1.0
+mypy==1.7.1
+pytest==7.4.3
+
+[docs]
+readthedocs-sphinx-search>=0.3.2
+Sphinx>=4.1.2
+sphinx-rtd-theme
+
+[publish]
+twine==5.1.1
