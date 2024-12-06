@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bimorph.egg-info/PKG-INFO
+bimorph.egg-info/SOURCES.txt
+bimorph.egg-info/dependency_links.txt
+bimorph.egg-info/requires.txt
+bimorph.egg-info/top_level.txt
+package/__init__.py
+package/main.py
