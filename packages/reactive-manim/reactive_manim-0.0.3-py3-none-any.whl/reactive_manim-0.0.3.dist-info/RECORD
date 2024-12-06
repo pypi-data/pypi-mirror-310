@@ -1,0 +1,17 @@
+reactive_manim/__init__.py,sha256=jkJmixj-kk5TqRiuVVoGJAP4VzXeBgJAnOV-2broNmU,1896
+reactive_manim/src/animation.py,sha256=-VYr-MVr9Uaz4Mz4RASTt2OVY8kJAFsKR7AtO1ZDUPs,33113
+reactive_manim/src/dynamic_mobject.py,sha256=EYbAkH-SI2vgOugqLbTHHDh65ypsf9pvyYjZQ_HN0So,99991
+reactive_manim/src/dynamic_tex_mobject.py,sha256=Mk8LdRiNYQZe8bzgQVwWKgMgVbeTNxZiSZvZSDYc85o,44725
+reactive_manim/src/events.py,sha256=0HbU3zVQ1gZK0YxzpJXqsBR00GnauJ5T05-DFU6LhR4,125
+reactive_manim/src/helpers.py,sha256=gyteoXfpuqe0U6_PPkXJxuGEY5_1_c7Rgqs_kGeQxlo,1379
+reactive_manim/src/interceptors.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+reactive_manim/src/macros.py,sha256=rBgvC56rlZRQY1IzE10dh-y0khx_gOyTIj4GSoKDPr4,825
+reactive_manim/src/managers.py,sha256=w8HQ1dNeXYCF6IA9QcSOxyHUemNV5UfnlGff4LgejFU,74
+reactive_manim/src/numpy_mobject_array.py,sha256=MZq9uzQfnZH05T6O0Y_vlKRLF6y4Nv0CR7y1oZ3ikHE,2707
+reactive_manim/src/scene.py,sha256=9C3aFNPJ8VXFmLoA0gTGOaCW8FV-wYLPzv89xMxsKmQ,574
+reactive_manim/src/manim_src/composition.py,sha256=7lJpa5feZA44iQGkWIIHH7EDkE07OSXskL3DsbMTbHk,5749
+reactive_manim-0.0.3.dist-info/LICENSE,sha256=qRsIoAvmDLZaYVBJmAzcA7MgLkpUQJqvZ-yWs1P4wwo,1091
+reactive_manim-0.0.3.dist-info/METADATA,sha256=o6jBJwnm2VKIwvDyMTsx_pPzpf2jhFMU_NgdH8OC8Wc,28839
+reactive_manim-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+reactive_manim-0.0.3.dist-info/top_level.txt,sha256=RCUi4juF27C4NGea_h--2ClGCMpSpFlnGWZ1wtH3htk,15
+reactive_manim-0.0.3.dist-info/RECORD,,
