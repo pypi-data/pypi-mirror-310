@@ -1,0 +1,12 @@
+pyproject.toml
+readme.md
+src/botchain/__init__.py
+src/botchain/attachment.py
+src/botchain/main.py
+src/botchain/strings.py
+src/botchain/utils.py
+src/botchain.egg-info/PKG-INFO
+src/botchain.egg-info/SOURCES.txt
+src/botchain.egg-info/dependency_links.txt
+src/botchain.egg-info/requires.txt
+src/botchain.egg-info/top_level.txt

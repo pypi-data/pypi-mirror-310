@@ -1,0 +1,11 @@
+stringflow
+
+[dev]
+ruff
+ipython
+jupyter
+nbclient
+ipykernel
+
+[test]
+pytest
