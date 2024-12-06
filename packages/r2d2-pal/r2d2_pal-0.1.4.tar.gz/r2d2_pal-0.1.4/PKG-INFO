@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: r2d2-pal
+Version: 0.1.4
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: An I/O device communication module written in Rust
+License: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# R2D2-PAL
+
+> "Rust Reliable Device Drivers Protocol Abstraction Layer"
+
+Rust bindings for Python of the [linux_embedded_hal](https://docs.rs/linux-embedded-hal/latest/linux_embedded_hal/) crate.
+
+## Installation
+
+```shell
+pip install -U r2d2-pal
+```
