@@ -1,0 +1,10 @@
+fasttext_pybind.cpython-310-aarch64-linux-gnu.so,sha256=jh30gaiWKbItz5IyhqZNQB7kxqb_E1FV2JVu2rQ5DZ4,277920
+fasttext_predict-0.9.2.3.dist-info/top_level.txt,sha256=S1chSV0wOROsTWzQVPXZXMpLXD_uNS1oz67R-lXI0yo,25
+fasttext_predict-0.9.2.3.dist-info/RECORD,,
+fasttext_predict-0.9.2.3.dist-info/LICENSE,sha256=2c_f31SMSHEvBcZ-t2x558n0XLp421B5S3gONWS4Xvc,1080
+fasttext_predict-0.9.2.3.dist-info/METADATA,sha256=_N88emRutvgYMj7ydAU692LcqKTaXYPS329nAlxsrLE,1716
+fasttext_predict-0.9.2.3.dist-info/WHEEL,sha256=HH33lwH3EQlQyau9vg_dufhIOPImkZE_v5MekBlT2PM,113
+fasttext_predict.libs/libstdc++-fd9f4683.so.6.0.28,sha256=zId1ePyoLoP9Q4dIOgju1KbuQTK71N_efRLPpvcktN0,2207744
+fasttext_predict.libs/libgcc_s-4e37474d.so.1,sha256=GuOQ11d4hnqSMZdnUWfKVl6gRxeF1wb8qixY-tIp2IE,136080
+fasttext/FastText.py,sha256=YtsifPP4SF_g2q2U40yJJniAHVHyMPYlgZjAefRFJyA,3045
+fasttext/__init__.py,sha256=Dp0TBBErms5z532Z3_eyeUd8I1gluq3YhUPFBpNIqGA,378
