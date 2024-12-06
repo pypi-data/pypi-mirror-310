@@ -1,0 +1,8 @@
+sharpstock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sharpstock/main.py,sha256=J8ujZNBWb4f0_rvolNuqGSsEIrpdQJ6MtwnseCveVko,47
+sharpstock/sharpe_ratio.py,sha256=ohlPJx_dKaKYYmU34WVllWaGD293djPZ7fHavjGpjj0,1076
+sharpstock/tests/test_sharpe_ratio.py,sha256=s56HmsXuzGQhLY26RCm_4yb2aD1OXfTwhZMdhPSNIYc,1246
+sharpstock-0.1.0.dist-info/LICENSE,sha256=z1WiVLVfb0cZz2PRyrAXBQyhL98ALbzMhCGWcJA3mUQ,11341
+sharpstock-0.1.0.dist-info/METADATA,sha256=cA6H3tb9f1Is5Dw3xAnC2W-LaOGl41OBv_jZoUze8VQ,759
+sharpstock-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sharpstock-0.1.0.dist-info/RECORD,,
