@@ -1,0 +1,3 @@
+[console_scripts]
+check_samples = ap_utilities_scripts.check_samples:main
+validate_ap_tuples = ap_utilities_scripts.validate_ap_tuples:main
