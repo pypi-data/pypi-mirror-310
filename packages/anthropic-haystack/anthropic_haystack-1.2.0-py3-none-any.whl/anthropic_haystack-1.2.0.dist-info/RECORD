@@ -1,0 +1,9 @@
+haystack_integrations/components/generators/anthropic/__init__.py,sha256=UpA_Gr3pIQVSF2KPLQSZRJtogzje9c5yjcp7lVHWCs8,369
+haystack_integrations/components/generators/anthropic/generator.py,sha256=e3bpynA57l9TUkVpdDo5VQTIPhB9Voh_895BnXTju2Y,8188
+haystack_integrations/components/generators/anthropic/chat/__init__.py,sha256=6GZ8Y3Lw0rLOsOAqi6Tu5mZC977UzQvgDxKpOWr8IQw,110
+haystack_integrations/components/generators/anthropic/chat/chat_generator.py,sha256=_g24PHCbBBHhKRrCzBe56dcWFxVVjjuViu0Gq2vuMUE,16355
+haystack_integrations/components/generators/anthropic/chat/vertex_chat_generator.py,sha256=OGQacGn0rVsfnCuhdJfG3rRLm7-6nvZm5eEEi6LUcg8,6828
+anthropic_haystack-1.2.0.dist-info/METADATA,sha256=w7PLnJVTCWRdqmFtScWi98gEcffA6w323CXESM4RYLg,2255
+anthropic_haystack-1.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+anthropic_haystack-1.2.0.dist-info/licenses/LICENSE.txt,sha256=B05uMshqTA74s-0ltyHKI6yoPfJ3zYgQbvcXfDVGFf8,10280
+anthropic_haystack-1.2.0.dist-info/RECORD,,
