@@ -1,0 +1,37 @@
+[build-system]
+requires = [ "setuptools>=46.4.0", "wheel>=0.36.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acme_project_create"
+version = "0.0.2"
+description = "Sets up a new (python) project using a template"
+readme = "README.md"
+classifiers = [ "Programming Language :: Python :: 3.9", ]
+dependencies = [ "Jinja2", "python-dotenv" ]
+
+[[project.authors]]
+email = "guner.stan@gmail.com"
+
+[project.scripts]
+apc = "acme_project_create._main:main"
+
+[project.urls]
+homepage = "https://blackwhitehere.github.io/acme-project-create"
+repository = "https://github.com/blackwhitehere/acme-project-create"
+
+[project.optional-dependencies]
+dev = [
+    "pytest", # for testing
+    "uv", # for venv
+    "mkdocs", # for documentation
+    "mkdocs-material", # theme for mkdocs
+    "mkdocstrings[python]", # mkdocs plugin to generate API docs from sources
+    "jupyterlab" # for jupyter notebooks
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["acme_project_create"]
+[tool.setuptools.package-data]
+acme_project_create = ["template/**"]
