@@ -1,0 +1,2 @@
+[console_scripts]
+backupper-lf23 = backupper.main:main

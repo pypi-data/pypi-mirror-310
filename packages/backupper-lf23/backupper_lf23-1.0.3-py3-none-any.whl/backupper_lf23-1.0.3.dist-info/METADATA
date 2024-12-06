@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: backupper-lf23
+Version: 1.0.3
+Summary: Un semplice Python script per gestire i backups
+Home-page: https://github.com/lucaf23/backupper
+Author: Luca Ferrari
+Author-email: luca10.ferrari@edu.unife.it
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyzipper
+
+# Backupper
+
+Backupper è uno strumento Python per la gestione dei backup in formato ZIP o TAR
+
+## Installazione
+
+Per installare Backupper, usa pip:
+
+``` bash
+pip install backupper
+```
+## Funzionalità
+
+- Creazione di archivi ZIP e TAR.
+- Estrazione di archivi compressi ZIP o TAR.
+- Cancellazione di archivi, partendo dal meno recente.
+- Supporto per archivi solo ZIP protetti da password.
+
+## Utilizzo
+```
+Crea un backup della directory corrente in formato ZIP (default):
+backupper -c .
+	
+Crea un backup della directory corrente in formato TAR:
+backupper -c -f tar .
+
+Estrai un archivio dalla directory corrente con nome corrispondente alla directory corrente e data più recente:
+backupper -x .
+
+Cancella un archivio specificando il formato tar, con nome directory corrente:
+backupper -d -f tar .
+```
+## Licenza
+
+Questo progetto è distribuito sotto licenza MIT. Vedi il file LICENSE per maggiori dettagli.
