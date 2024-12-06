@@ -1,0 +1,8 @@
+[project]
+name = "TalkPipe"
+authors = [
+    {name = "ShuffledBits", email = "shuffledbits@smalldataproblem.org"},
+]
+version = "0.0.0"
+description = "Coming soon"
+

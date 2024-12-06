@@ -1,0 +1,6 @@
+pyproject.toml
+TalkPipe.egg-info/PKG-INFO
+TalkPipe.egg-info/SOURCES.txt
+TalkPipe.egg-info/dependency_links.txt
+TalkPipe.egg-info/top_level.txt
+talkpipe/__init__.py
