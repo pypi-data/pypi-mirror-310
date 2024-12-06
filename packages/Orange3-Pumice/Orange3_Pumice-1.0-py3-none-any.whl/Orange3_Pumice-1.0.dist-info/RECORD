@@ -1,0 +1,17 @@
+Orange3_Pumice-1.0-py3.11-nspkg.pth,sha256=UYCZtLWueceGiAlmXKRJUZ0TWQEubpPoQ1pVnAAsME0,502
+orangecontrib/pumice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/pumice/i18n/English.json,sha256=mCz8KLgccbh68GhSfza57P3mvl9X6ZRmBFVv5er6hsY,647
+orangecontrib/pumice/i18n/Slovenian.json,sha256=hGBwuPJgVai4P7z1B5mk2T_7Z_Fm2YEmbIaZzfMZLNk,804
+orangecontrib/pumice/widgets/__init__.py,sha256=_6Ru8EvBJ8hKPiZm_gXpHiJ_4ysG9fMsjmyApRt79Jg,28
+orangecontrib/pumice/widgets/owrecommendation.py,sha256=3365fWGAm1WKO2R48rrNRYX_S-j9TzPpjwe9cJbzh-Q,29138
+orangecontrib/pumice/widgets/icons/category.svg,sha256=-R0jD1UUesXanHFebQTty0dPlLh8Nqf6TLG6B4HHQN8,2705
+orangecontrib/pumice/widgets/icons/recommendation.svg,sha256=N84ijkSnpbie02T7ZlBgmrZaWjzXjwfWT-hmieNOJHs,6603
+orangecontrib/pumice/widgets/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/pumice/widgets/tests/test_owrecommendation.py,sha256=cE07AnLUEEKOOMMoNBsJmDP1CUqZM2u--wGXbUkyXZg,23351
+Orange3_Pumice-1.0.dist-info/LICENSE.txt,sha256=tK07nz8IX_Z_TGGBIVP-pK_WFI_8nSBrEkbAzEqz-YE,1526
+Orange3_Pumice-1.0.dist-info/METADATA,sha256=L9pIfAKkB8O_utq-1L_1OQjipbNQhBb8lDEbRrodcCo,906
+Orange3_Pumice-1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+Orange3_Pumice-1.0.dist-info/entry_points.txt,sha256=mHMfSvYLnAqiuI6vT8fWOQNJW49C9i5z-LwvcraPGEw,187
+Orange3_Pumice-1.0.dist-info/namespace_packages.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Pumice-1.0.dist-info/top_level.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Pumice-1.0.dist-info/RECORD,,
