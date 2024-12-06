@@ -1,0 +1,2 @@
+[console_scripts]
+pygentree = pygentree.__main__:main
