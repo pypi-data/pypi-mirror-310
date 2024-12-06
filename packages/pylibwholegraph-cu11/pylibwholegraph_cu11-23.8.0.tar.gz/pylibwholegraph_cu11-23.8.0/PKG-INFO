@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pylibwholegraph-cu11
+Version: 23.8.0
+Summary: pylibwholegraph - GPU Graph Storage for GNN feature and graph structure
+Author: NVIDIA Corporation
+License: Apache 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+
