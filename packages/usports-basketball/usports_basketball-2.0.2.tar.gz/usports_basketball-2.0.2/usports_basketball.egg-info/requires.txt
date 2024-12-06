@@ -1,0 +1,10 @@
+beautifulsoup4>=4.12
+pandas>=2.2
+playwright>=1.49
+requests>=2.32
+
+[dev]
+ruff
+
+[test]
+pytest==8.4
