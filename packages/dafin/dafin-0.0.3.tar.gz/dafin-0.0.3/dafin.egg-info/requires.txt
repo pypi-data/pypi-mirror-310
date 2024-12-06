@@ -1,0 +1,14 @@
+seaborn
+yfinance>=0.2.49
+yfinance[nospam]>=0.2.49
+requests_cache
+requests_ratelimiter
+scipy
+
+[dev]
+pre-commit
+pytest
+pytest-runner
+pytest-cov
+pylint
+twine
