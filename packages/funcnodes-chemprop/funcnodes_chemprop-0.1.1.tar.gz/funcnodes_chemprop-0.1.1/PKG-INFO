@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: funcnodes-chemprop
+Version: 0.1.1
+Summary: 
+License: AGPL-3.0
+Author: Julian Kimmig
+Author-email: julian.kimmig@gmx.net
+Requires-Python: >=3.11,<3.13
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: chemprop
+Requires-Dist: funcnodes
+Requires-Dist: funcnodes-pandas
+Requires-Dist: funcnodes-plotly
+Description-Content-Type: text/markdown
+
+chemprop in funcnodes
+
