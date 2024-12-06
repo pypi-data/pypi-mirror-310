@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dspsim
+Version: 0.1.0
+Summary: Add your description here
+Author: Frank
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Project-URL: Homepage, https://github.com/fsodari/dspsim
+Requires-Python: >=3.12
+Requires-Dist: nanobind>=2.2.0
+Requires-Dist: scikit-build-core>=0.10.7
+Description-Content-Type: text/markdown
