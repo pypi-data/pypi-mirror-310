@@ -1,0 +1,17 @@
+orkestr8/__init__.py,sha256=mk8cqBSJPmOCm2czWd8pLikLq9tVi7IIac5LT3duZxQ,29
+orkestr8/cli.py,sha256=lcFK66SaRHMAG7USComveewSb_vWbILLvB1c9eYB0yA,2569
+orkestr8/installer.py,sha256=R3MfuZ_WH_GV6rMD7OD7of8I8gDpQCsVISCH6z8e-Aw,865
+orkestr8/main.py,sha256=bP-vgjtxjEzNylWQWVnzWAxDsxxas-8AggE8EAj3ZEU,1858
+orkestr8/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orkestr8/clients/data_lake_client.py,sha256=vDgrBr_o52l99G0SjAhohqvo2JiR_2tH7E2d68l78-Y,2283
+orkestr8/clients/protocol.py,sha256=j1ce9b7XxCgMEzIKltcfg_W4HUWRj0TuvujjoMAP4CA,632
+orkestr8/clients/s3.py,sha256=8Q2mPUJq4Hn8ctp7NodMaa9LSRHIZHc9BcA2bv7NhLY,1768
+orkestr8/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orkestr8/commands/base.py,sha256=8xvzZ-QDSF8LKwwSwIva5J_58OzUc5YwOCAaEuA-UxI,408
+orkestr8/commands/train.py,sha256=IIcEqQFj1rPB5z64HFqMIEn7UQZ3zQ4Y533K9aSsVcU,439
+orkestr8/commands/update.py,sha256=8hoBLHIcY2ijGvQmzPOLx9RQexj40vCaemOnUA99MEw,5180
+orkestr8_sdk-0.0.143.dist-info/METADATA,sha256=98WVklI8vHmTvc2XU5lVnmmRGPKDTL1hOej8MHoPBBM,581
+orkestr8_sdk-0.0.143.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+orkestr8_sdk-0.0.143.dist-info/entry_points.txt,sha256=NoLZfbGetobMqp7Dqc5KBMhUtsYWmsLUSdMS_u02WfA,42
+orkestr8_sdk-0.0.143.dist-info/top_level.txt,sha256=UBATKGCvA_-s8minsdPtqtZY7RwiI8NQflkuJsFnvzk,9
+orkestr8_sdk-0.0.143.dist-info/RECORD,,
