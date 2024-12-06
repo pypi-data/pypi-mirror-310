@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mpg_heatindex
+Version: 0.2.1
+Summary: This package use calculate heat index
+Home-page: https://github.com/disty-apariciosousa/heatindex
+Author: Disty Aparicio D'Sousa
+Author-email: disty.sousa1996@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# heatindex
+
+This project create to calculate heat index based on location user gives
