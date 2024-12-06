@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ms_toolkit.egg-info/PKG-INFO
+ms_toolkit.egg-info/SOURCES.txt
+ms_toolkit.egg-info/dependency_links.txt
+ms_toolkit.egg-info/requires.txt
+ms_toolkit.egg-info/top_level.txt
