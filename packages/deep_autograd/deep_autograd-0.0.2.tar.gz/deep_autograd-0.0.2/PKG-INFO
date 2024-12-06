@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: deep_autograd
+Version: 0.0.2
+Summary: A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.
+License: MIT
+Author: Deependu Jha
+Author-email: deependujha21@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pytest (>=8.3.3,<9.0.0)
+Description-Content-Type: text/markdown
+
+# Deep Autograd
+
+A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.
+
+## Installation
+
+```bash
+pip install deep_autograd
+```
+
+---
+
+## Usage
+
+- Checkout usage in [demo.ipynb](./notebooks/demo.ipynb)
+- and, in [trace_graph.ipynb](./notebooks/trace_graph.ipynb)
+
+![](https://github.com/deependujha/deep-autograd/blob/main/notebooks/gout.svg)
+
+---
+
+## Credits
+
+- [Andrej Karpathy](https://github.com/karpathy)
+
