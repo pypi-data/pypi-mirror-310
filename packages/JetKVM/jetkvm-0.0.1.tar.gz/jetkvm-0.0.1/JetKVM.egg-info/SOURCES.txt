@@ -1,0 +1,8 @@
+README.md
+setup.py
+JetKVM/JetKVM.py
+JetKVM/__init__.py
+JetKVM.egg-info/PKG-INFO
+JetKVM.egg-info/SOURCES.txt
+JetKVM.egg-info/dependency_links.txt
+JetKVM.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: JetKVM
+Version: 0.0.1
+Summary: A Python library to access your JetKVM
+Home-page: https://github.com/Poshy163/JetKVM-API
+Author: Joshua Leaper
+Author-email: poshernater@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+### JetKVM API ###
