@@ -1,0 +1,4 @@
+{
+    "expected_exception": "AssertionError",
+    "match": "ToolMessage\\ /\\ ToolCallParam\\ mismatch!\\ \\(extra\\ ChatCompletionToolMessageParam\\ `tool_call_id`s\\)\\\nThe\\ following\\ ChatCompletionToolMessageParam\\ `tool_call_id`s\\ don't\\ have\\ a\\ corresponding\\ ChatCompletionAssistantMessageParam\\ ChatCompletionMessageToolCallParam\\ `id`\\.\\\nExtra\\ ChatCompletionToolMessageParam\\ `tool_call_id`s:\\ \\['some\\ tool\\ call\\ id\\ that\\ does\\ not\\ match\\ the\\ returned\\ tol\\ call\\ id'\\]\\\nHere\\ are\\ the\\ ChatCompletionAssistantMessageParam\\ ChatCompletionMessageToolCallParam\\ `id`s\\ that\\ we\\ found:\\ \\['call_62136354'\\]"
+}

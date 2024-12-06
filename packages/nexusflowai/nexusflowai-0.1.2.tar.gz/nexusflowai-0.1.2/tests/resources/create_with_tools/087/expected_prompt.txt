@@ -1,0 +1,22 @@
+Function:
+def get__________________delivery__________________date(__________________order__________________id__________________: str):
+    """
+    Get the delivery date for a customer's order. Call this whenever you need to know the delivery date, for example when a customer asks 'Where is my package'
+
+    Parameters:
+    - __________________order__________________id__________________ (str): The customer's order ID.
+    """
+
+Instruction: You are a helpful customer support assistant. Use the supplied tools to assist the user.
+
+Turn 1:
+Previous Original Plan: Hi there! I can help with that. Can you please provide your order ID?
+Previous User Query: Hi, can you tell me the delivery date for my order? <turn_end>
+
+Current Turn:
+Original Plan: get__________________delivery__________________date(__________________order__________________id__________________="order_12345")
+Previous Call: get__________________delivery__________________date(__________________order__________________id__________________='order_12345')
+Previous Result: {'order_id': 'order_12345', 'delivery_date': '1234567 delivery date'}
+User Query: i think it is order_12345 <human_end>
+
+Call:
