@@ -1,0 +1,1 @@
+from ..visual_embedding.DFN_vit import Qwen2VisionTransformer
