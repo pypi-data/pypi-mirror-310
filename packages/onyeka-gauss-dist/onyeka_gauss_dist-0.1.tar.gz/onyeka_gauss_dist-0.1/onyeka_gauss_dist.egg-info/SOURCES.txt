@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gauss_dist/Binomialdistribution.py
+gauss_dist/Gaussiandistribution.py
+gauss_dist/Generaldistribution.py
+gauss_dist/__init__.py
+onyeka_gauss_dist.egg-info/PKG-INFO
+onyeka_gauss_dist.egg-info/SOURCES.txt
+onyeka_gauss_dist.egg-info/dependency_links.txt
+onyeka_gauss_dist.egg-info/not-zip-safe
+onyeka_gauss_dist.egg-info/top_level.txt
