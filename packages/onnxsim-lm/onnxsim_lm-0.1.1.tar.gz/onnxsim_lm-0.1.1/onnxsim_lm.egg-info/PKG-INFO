@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: onnxsim-lm
+Version: 0.1.1
+Summary: enable onnxsim while modelproto/tensorproto is lagger than 2GB
+Home-page: https://github.com/Taot-chen/onnxsim-lm
+Author: oehuosi
+Author-email: oehuosi@qq.com
+License: Apache-2.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: onnx<2.0.0,>=1.17.0
+Requires-Dist: onnxsim<0.5.0,>=0.4.36
+
+
+# onnxsim_large_model

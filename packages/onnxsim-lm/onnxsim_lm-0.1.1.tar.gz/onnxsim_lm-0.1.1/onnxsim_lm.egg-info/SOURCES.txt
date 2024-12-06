@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+onnxsim_lm.egg-info/PKG-INFO
+onnxsim_lm.egg-info/SOURCES.txt
+onnxsim_lm.egg-info/dependency_links.txt
+onnxsim_lm.egg-info/entry_points.txt
+onnxsim_lm.egg-info/requires.txt
+onnxsim_lm.egg-info/top_level.txt
+onnxsimlm/__init__.py
+onnxsimlm/compress_model.py
+onnxsimlm/main.py
+onnxsimlm/onnx_utils.py
+onnxsimlm/utils.py
