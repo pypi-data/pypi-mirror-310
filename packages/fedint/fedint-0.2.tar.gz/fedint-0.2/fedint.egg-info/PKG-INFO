@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fedint
+Version: 0.2
+Summary: Federated Learning Interpretability Tool
+Author: Sree Bhargavi Balija, Amitash Nanda, Dr. Debhashis Sahoo
+Author-email: sbalija@ucsd.edu, ananda@ucsd.edu, dsahoo@ucsd.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
