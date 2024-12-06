@@ -1,0 +1,11 @@
+d3d4/pyavg/__init__.py,sha256=VAQV_S495bO4NA0yqfK9Zho7iAle4F7L-Q1mUv6hTeU,240
+d3d4/pyavg/bi_avg.py,sha256=ru4iDpHnWfLFAg4YEP4QOQiphHNTIWEK1ip0H1jeBNU,2662
+d3d4/pyavg/cumulative.py,sha256=QoBvK0iZEneoZEcxdrptPuipOdBRLuMu6qNdzuNUNZM,1057
+d3d4/pyavg/exp_smooth.py,sha256=df1RYtaIVSxPwiYpGKitn5r-nGfz3B7E70BWj6NXVfo,1784
+d3d4/pyavg/pid.py,sha256=2hm-PcdtNa3jZ-5rVuu-Glo5UyKkeZ-42WJN7FWE5wk,3819
+d3d4/pyavg/ring_buff.py,sha256=BErylG5FGVvsZM9B89V7ZunSBZdbBCiXpWE2WRoP4Hc,1234
+d3d4/pyavg/smooth.py,sha256=yS4xQU9u8b1id6I1Q42xt4Dlt_BVwVxEB85yLqIIyog,1897
+d3d4.pyavg-0.1.0.dist-info/METADATA,sha256=11H8SDscoUTgQ4UQrKbM2vUSuK765bKwMoQbHhK-uCo,2574
+d3d4.pyavg-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+d3d4.pyavg-0.1.0.dist-info/top_level.txt,sha256=ntXhPrNJ5Wka-IIDjk7bn08Bru4csrKC7Jg_NTTEYsc,5
+d3d4.pyavg-0.1.0.dist-info/RECORD,,
