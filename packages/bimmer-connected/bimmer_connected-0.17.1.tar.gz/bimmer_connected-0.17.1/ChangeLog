@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.17.1
+------
+
+* Ensure support for Python 3.13 (#669)
