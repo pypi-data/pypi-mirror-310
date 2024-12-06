@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dvtm_utils.egg-info/PKG-INFO
+dvtm_utils.egg-info/SOURCES.txt
+dvtm_utils.egg-info/dependency_links.txt
+dvtm_utils.egg-info/requires.txt
+dvtm_utils.egg-info/top_level.txt
