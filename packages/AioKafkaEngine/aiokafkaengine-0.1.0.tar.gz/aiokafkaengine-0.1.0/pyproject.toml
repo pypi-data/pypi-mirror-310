@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "AioKafkaEngine"
+version = "0.1.0"
+authors = [
+  { name="Extreme4all", email="author@example.com" },
+]
+description = "Wrapper around aio-kafka to use and receive via a asyncio queue"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "aiokafka>=0.12.0",
+    "asyncio>=3.4.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Bot-detector/AioKafkaEngine"
+"Bug Tracker" = "https://github.com/Bot-detector/AioKafkaEngine/issues"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.0.1",
+    "pyright>=1.1.389",
+    "pytest-asyncio>=0.24.0",
+    "pytest-cov>=6.0.0",
+    "pytest>=8.3.3",
+    "ruff>=0.8.0",
+]

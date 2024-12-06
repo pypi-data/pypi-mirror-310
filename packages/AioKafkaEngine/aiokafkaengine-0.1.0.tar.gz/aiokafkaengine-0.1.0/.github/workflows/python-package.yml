@@ -1,0 +1,79 @@
+name: Python package
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+  push:
+    branches:
+      - develop
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  lock_file:
+    runs-on: [self-hosted, "hetzner"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - run: uv lock --locked
+  linting:
+    runs-on: [self-hosted, "hetzner"]
+    needs: [lock_file]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - run: uvx ruff check .
+  formatting:
+    runs-on: [self-hosted, "hetzner"]
+    needs: [lock_file]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - run: uvx ruff format --check .
+  type_consistency:
+    runs-on: [self-hosted, "hetzner"]
+    needs: [lock_file]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - run: uv run pyright src/
+  tests:
+    runs-on: [self-hosted, "hetzner"]
+    needs: [linting, formatting, type_consistency]
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - name: Setup Docker Containers
+        run: |
+          docker-compose up --build --quiet-pull -d
+      - run: uv run pytest -v --durations=0 --cov --cov-report=xml
+  build_and_deploy:
+    runs-on: [ubuntu-latest]
+    needs: [tests]
+    # Run only on manual trigger
+    if: ${{ github.event_name == 'workflow_dispatch' }}
+    environment: release
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - run: uv build
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
