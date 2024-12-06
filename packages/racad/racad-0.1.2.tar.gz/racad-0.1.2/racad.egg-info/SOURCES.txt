@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+racad.py
+racad.egg-info/PKG-INFO
+racad.egg-info/SOURCES.txt
+racad.egg-info/dependency_links.txt
+racad.egg-info/top_level.txt
