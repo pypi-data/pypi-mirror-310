@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: hypergal
+Version: 2.0.0
+Summary: Python module for Host modeling
+Home-page: https://github.com/MickaelRigault/hypergal
+Author: Jeremy Lezmy, Mickael Rigault
+Author-email: m.rigault@ipnl.in2p3.fr
+License: Apache Software License
+Keywords: astronomy,astrophysics
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: iminuit>=2.30.1
+Requires-Dist: dask[distributed]
+Requires-Dist: pathos
+Requires-Dist: tables
+Requires-Dist: pyarrow
+Requires-Dist: shapely>=2.0
+Requires-Dist: geopandas
+Requires-Dist: astropy
+Requires-Dist: sncosmo
+Requires-Dist: sep
+Requires-Dist: pcigale
+Requires-Dist: pyifu>=0.13.0
+Requires-Dist: ztfquery
+Requires-Dist: pysedm>=0.41.0
+Requires-Dist: psfcube
+Requires-Dist: astrobject>=0.11.0
+Provides-Extra: docs
+Requires-Dist: nbsphinx; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: coverage; extra == "tests"
+
+Python module for Hyperspectral Galaxy Modeling through SEDfitting and photometric source
