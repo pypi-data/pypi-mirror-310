@@ -1,0 +1,6 @@
+psycopg
+boto3[crt]
+
+[test]
+pytest
+tox
