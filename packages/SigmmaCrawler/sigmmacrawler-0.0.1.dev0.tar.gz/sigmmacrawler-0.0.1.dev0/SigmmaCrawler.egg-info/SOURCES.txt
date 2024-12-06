@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SigmaaCrawler/__init__.py
+SigmaaCrawler/models.py
+SigmmaCrawler.egg-info/PKG-INFO
+SigmmaCrawler.egg-info/SOURCES.txt
+SigmmaCrawler.egg-info/dependency_links.txt
+SigmmaCrawler.egg-info/requires.txt
+SigmmaCrawler.egg-info/top_level.txt
