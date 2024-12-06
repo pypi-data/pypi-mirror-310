@@ -1,0 +1,28 @@
+stochasticprocesss
+====
+
+`stochasticprocess` is a package for stochastic processes.
+
+
+### Usage Examples
+
+```
+from stochasticprocess.poisson import get_event_times, get_probability
+
+# Example 1: Generate event times for a Poisson process with rate 2.0 until 5 events occur
+rate = 2.0
+event_count = 5
+event_times = get_event_times(rate, event_count)
+print(f"Event times for rate={rate} and event_count={event_count}: {event_times}")
+
+# Example 2: Generate event times for a Poisson process with rate 2.0 up to time 10
+max_time = 10.0
+event_times = get_event_times(rate, event_count, max_time)
+print(f"Event times for rate={rate} and max_time={max_time}: {event_times}")
+
+# Example 3: Calculate the probability of observing exactly 5 events in time 10 with rate 2.0
+event_count = 5
+max_time = 10.0
+probability = get_probability(rate, event_count, max_time)
+print(f"Probability of observing exactly {event_count} events in time t={max_time} with rate={rate}: {probability:.4f}")
+```
