@@ -1,0 +1,15 @@
+scikit-learn
+seaborn
+dafin>=0.0.3
+
+[dev]
+pre-commit
+pytest
+pytest-runner
+pytest-cov
+parameterized
+pylint
+
+[quantum]
+dwave-system>=1.25.0
+dwave-neal>=0.6.0
