@@ -1,0 +1,10 @@
+justpaid/__init__.py,sha256=0zBfS1CKihFEerdzshSB_xFyvxNbQcNoqO6pBD7_0ac,365
+justpaid/_version.py,sha256=ODYbODaEi9bfvkIxDTL3M-vBH6FN3ly2KMAMaVEYoOc,23
+justpaid/api.py,sha256=XhUGrHLVCWfOMt36j9zIDbTLXB9Ehc8tqEb24nKR0Yk,2844
+justpaid/exceptions.py,sha256=d_GMmIThPxSG9HUzPNgMbabyDCAqoF6Ad-UWkX9IQMY,107
+justpaid/schemas.py,sha256=BN7XjQX7jP9f_JYYjS9ZLqu1s03F3h0QUF199IWQqcs,4378
+justpaid-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+justpaid-0.1.4.dist-info/METADATA,sha256=nZesgn-Mky4W6hTFsaQRp4-KdAVHfYtEo6haFn52PQo,1819
+justpaid-0.1.4.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+justpaid-0.1.4.dist-info/top_level.txt,sha256=JlODl2mRId9fd5jXoDcygupSXPwQPKkG0NiWXmQ5sTI,9
+justpaid-0.1.4.dist-info/RECORD,,
