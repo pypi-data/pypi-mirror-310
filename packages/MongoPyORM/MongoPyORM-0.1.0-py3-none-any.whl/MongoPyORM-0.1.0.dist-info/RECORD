@@ -1,0 +1,8 @@
+mongo_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_client/client.py,sha256=mBU4xEpIhyOPQCOpf61GNyCA5uiv4L5uteoxc72BO4U,1227
+orm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orm/mongo_orm.py,sha256=vJ02fl9aX7qiLYDYX8Mui03YyLOq-eprbim-Ek3-8SI,6862
+MongoPyORM-0.1.0.dist-info/METADATA,sha256=ScPInL4JGSqSD5r5Go_iwynlmkMe3e6d-KiV8llBySs,6789
+MongoPyORM-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+MongoPyORM-0.1.0.dist-info/top_level.txt,sha256=tbceol0jNE1PRjtZF-60yttgX-pTwuvlTJDh96ZeS8c,34
+MongoPyORM-0.1.0.dist-info/RECORD,,
