@@ -1,0 +1,8 @@
+numpy
+paragraphs
+
+[dev]
+pytest
+pre-commit
+commitizen
+tox
