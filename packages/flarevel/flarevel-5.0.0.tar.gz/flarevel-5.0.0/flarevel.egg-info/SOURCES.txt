@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+flarevel/__init__.py
+flarevel/cli.py
+flarevel.egg-info/PKG-INFO
+flarevel.egg-info/SOURCES.txt
+flarevel.egg-info/dependency_links.txt
+flarevel.egg-info/entry_points.txt
+flarevel.egg-info/requires.txt
+flarevel.egg-info/top_level.txt
+flarevel/commands/__init__.py
+flarevel/commands/make.py
