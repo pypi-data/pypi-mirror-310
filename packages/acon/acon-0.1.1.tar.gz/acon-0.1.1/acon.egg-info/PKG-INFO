@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: acon
+Version: 0.1.1
+Summary: Adaptive Correlation Optimization Network (ACON)
+Home-page: https://github.com/torinriley/Adaptive-Correlation-Optimization-Network-ACON
+Author: Torin Etheridge
+Author-email: torinriley220@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+
+# ACON - Adaptive Correlation Optimization Networks
+
+ACON is an advanced framework designed to optimize machine learning models by leveraging adaptive correlation techniques. It includes modules for real-time data integration, optimization algorithms, meta-learning, and adaptive loss functions. The goal of ACON is to provide tools that enable dynamic model optimization based on evolving data and performance metrics.
+
+### Features
+
+•	Real-time Data Integration: Efficiently integrates incoming data while maintaining a manageable buffer size.
+
+•	Adaptive Optimization: Implements both traditional and advanced optimization techniques (e.g., SGD, Adam) with adaptive learning rates.
+
+•	Meta-Learning: Applies meta-learning strategies to optimize model parameters based on previous task performance.
+
+•	Adaptive Loss Function: Dynamically switches between loss functions (MSE, MAE, Huber) based on training progress.
+
+### Installation
+
+```bash
+pip install acon
+```
