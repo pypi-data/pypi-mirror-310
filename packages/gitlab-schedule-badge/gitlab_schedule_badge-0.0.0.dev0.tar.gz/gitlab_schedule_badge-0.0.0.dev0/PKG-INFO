@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: gitlab-schedule-badge
+Version: 0.0.0.dev0
+Summary: Service to share GitLab scheduled job statuses with badges
+Author-email: James Knight <git@jdknight.me>
+Requires-Python: >=3.11
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Download, https://pypi.python.org/pypi/gitlab-schedule-badge
+Project-URL: Source, https://gitlab.com/jdknight/gitlab-schedule-badge
