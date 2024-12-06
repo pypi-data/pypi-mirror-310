@@ -1,0 +1,10 @@
+ephemeral/__init__.py,sha256=cID1jLnC_vj48GgMN6Yb1FA3JsQ95zNmCHmRYE8TFhY,22
+ephemeral/cli.py,sha256=0r_o7AOIKBPmrtP6B6VwjM6YvS3nXxhDhwFnfmnTOxQ,2427
+ephemeral/controller.py,sha256=OGickUkIwg1tTJv750ZhxevxEVk1sraOzng4Z5WzRiA,3653
+ephemeral/display.py,sha256=UKOZSGvhMRdCMZAUyouMeLexEgo8xcN51cHlzlN5Y_Y,1341
+ephemeral/model.py,sha256=J_2JAyFapY0kU6YKIpwmkcgBcUJ8TTCbZps0c69Nmac,2596
+ephemeral_sh-0.6.0.dist-info/METADATA,sha256=u8VWkz-AH1E0IyJKCYCEi9KO9qDhmCYfLVFSIqbmLnw,1347
+ephemeral_sh-0.6.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ephemeral_sh-0.6.0.dist-info/entry_points.txt,sha256=P4hGr_lJ0nkX_eXkB3cJN21sBEb4-IMIPXkamDd7sZI,72
+ephemeral_sh-0.6.0.dist-info/top_level.txt,sha256=co9Y91lorce33MgIVO2WjvIU2eehcnMreojOFFt4uM8,10
+ephemeral_sh-0.6.0.dist-info/RECORD,,
