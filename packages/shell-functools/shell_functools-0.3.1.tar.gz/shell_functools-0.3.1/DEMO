@@ -1,0 +1,22 @@
+tree
+find
+find | map abspath
+find | map prepend "found: "
+find | filter is_file
+find | filter is_file | map basename
+find | filter is_file | map basename | map capitalize
+
+find | filter contains jpg | map basename | map replace_ext png
+
+
+seq 10 | map add 100
+seq 10 | foldl add 0
+seq 10 | foldl mul 1
+seq 10 | map append " " | foldl append ""
+
+head /etc/passwd
+head /etc/passwd | map split :
+head /etc/passwd | map split : | map --column 1 to_upper
+head /etc/passwd | map split : | map -c1 to_upper
+head /etc/passwd | map split : | filter -c1 equals shark
+head /etc/passwd | map split : | filter -c1 equals shark | map index 5

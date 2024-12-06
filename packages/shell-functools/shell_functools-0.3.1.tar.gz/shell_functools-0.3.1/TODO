@@ -1,0 +1,35 @@
+BUGFIX:
+
+    'map run command' should work with arguments to the command
+
+
+https://github.com/synacor/dtk
+
+
+COOL DEMOS:
+
+    - du | filter -c1 larger_than 8000 | map -c2 abspath
+    - ls | filter is_file | map split_ext | map -c1 to_upper | map join '.'
+    - seq 10000 | filter odd | map pow 2 | take_while lt 10000 | foldl add 0
+    - sort_by!!
+
+
+TODO:
+- parallel map and filter?
+- combination with GNU parallel?
+- "file1 file2" <=> "file1\nfile2" conversion (Array type?)
+- sum/product/length/count, etc?
+- bash completion for possible commands
+
+
+More functions:
+- every
+- countBy
+
+Existing tools that need to be integrated:
+- seq
+- ls
+- head/tail
+- xargs/parallel
+- grep
+- du
