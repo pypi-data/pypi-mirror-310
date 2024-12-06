@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: groqpy
+Version: 0.2.0
+Summary: A Python package.
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: certifi~=2024.7.4
+Requires-Dist: charset-normalizer~=3.3.2
+Requires-Dist: idna~=3.7
+Requires-Dist: requests~=2.32.3
+Requires-Dist: urllib3~=2.2.2
