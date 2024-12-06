@@ -1,0 +1,7 @@
+aws_service_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_service_pkg/aws_service.py,sha256=rqR-E0RKBug_xqnmYYdt7Z_xNcknK8q6jwmX2YtUohY,5141
+x23340355_aws_service_pkg-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+x23340355_aws_service_pkg-0.0.1.dist-info/METADATA,sha256=uZqkWeVY1QefrL67taK8iVpbVVPNC2SosNo0fBsn3H4,543
+x23340355_aws_service_pkg-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+x23340355_aws_service_pkg-0.0.1.dist-info/top_level.txt,sha256=p3jMEeDOeFz-YhmaTP8NcLOV22C57mqDH_Ev69U5uNw,16
+x23340355_aws_service_pkg-0.0.1.dist-info/RECORD,,
