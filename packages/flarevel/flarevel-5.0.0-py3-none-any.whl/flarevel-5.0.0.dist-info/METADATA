@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: flarevel
+Version: 5.0.0
+Summary: Flarevel is a command-line interface (CLI) tool that quickly scaffolds Flask projects with a robust Model-View-Controller (MVC) architecture. It generates a well-organized project structure, including dedicated folders for models, views, controllers, and configurations, enabling developers to start building scalable and maintainable Flask applications in no time. Flarevel streamlines the setup process, saving you time and ensuring a clean, modular foundation for your projects.
+Home-page: https://github.com/Yorts11/flarevel
+Author: Yorts
+Author-email: casterr@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Click
+
+# Flarevel
+
+`flarevel` is a Python command-line tool that helps you quickly create a Flask project with a predefined folder structure. It generates the necessary files for a basic Flask application with SQLAlchemy support, a home page, and a user model.
+
+## Features
+
+- Generates a Flask project with a predefined structure.
+- Includes a sample HomeController and User model.
+- Includes basic project setup with templates and static assets.
+- Automatically creates the necessary directories and files.
+- Simple command-line interface to create the project.
+
+## Installation
+
+To install `flarevel`, you can use `pip`:
+
+```bash
+pip install flarevel
+```
+
+## Usage
+
+To create a new Flarevel project, simply run the following command:
+
+```bash
+flarevel create <project_name>
+```
+
+You can install the necessary dependencies by running:
+```bash
+pip install -r requirements.txt
+```
+
+## Run the application
+
+After generating the project, you can run it by executing the following command in the project directory:
+
+```bash
+python run.py
+```
+
+This will start the Flask development server, and you can view the project in your browser at http://localhost:5000
+
+
+## Database Migration
+The `migrate` command in Flarevel automates the process of handling database migrations. It uses Flask-Migrate under the hood to manage changes in the database schema.
+
+### Usage
+
+Run the following command in your project path terminal:
+
+```bash
+flarevel forge migrate
+```
+
+## Create Model
+
+The `make:model` command allows you to easily create a new model file in your Flarevel project. It automatically generates a model with default fields (`id`, `created_at`, `updated_at`) and a structure ready for customization.
+
+### Usage
+
+Run the following command in your project path terminal:
+
+```bash
+flarevel forge make:model ModelName
+```
+
+## Create Controller
+
+The `make:controller` command allows you to easily create a new controller file in your Flarevel project. It supports creating controllers with directories, making it easy to organize your application into submodules.
+
+### Usage
+
+Run the following command in your project path terminal:
+
+```bash
+flarevel forge make:controller ControllerName
+```
