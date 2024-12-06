@@ -1,0 +1,11 @@
+kisters/network_store/model_library/water/__init__.py,sha256=o8AIdBDJXqT2pAhFr4CJb8tjNAS1W87MrBLlI0gjsso,75
+kisters/network_store/model_library/water/groups.py,sha256=cKqfzWQ9up809Ffi5PbsH1TvZOzGJnUFfSBgoBnmRWM,781
+kisters/network_store/model_library/water/links.py,sha256=Q1pX1fQklgKUEATrYaXb6ioSs88DbUc2FZWVgXS-wv0,16964
+kisters/network_store/model_library/water/nodes.py,sha256=tf0Ckksd_Ptmrq3hqwAo_BosLX6F88D2Mg_YZ3C7GeU,10916
+kisters/network_store/model_library/water/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kisters.network_store.model_library.water-0.3.5.dist-info/LICENSE,sha256=fF-Kao0R1W5VcZQet2D6zCBE438PmsLzu2f335NXRmA,26475
+kisters.network_store.model_library.water-0.3.5.dist-info/METADATA,sha256=lZ_lKS4Qh3VXVK_HkVGmd6gce3PqIK-MRmXCmZ8Gs_E,31934
+kisters.network_store.model_library.water-0.3.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+kisters.network_store.model_library.water-0.3.5.dist-info/entry_points.txt,sha256=f48gIX7m01INc_tSdNFttcLlpRJVVbCZEhQ-Jd6J3BE,93
+kisters.network_store.model_library.water-0.3.5.dist-info/top_level.txt,sha256=GBdmGz2WHTLUJ5yO7B4FTyMCbzITLr2QtsI4X1xTSEs,8
+kisters.network_store.model_library.water-0.3.5.dist-info/RECORD,,
