@@ -1,0 +1,201 @@
+Metadata-Version: 2.1
+Name: flask-structured-api
+Version: 0.1.0
+Summary: A structured Flask API boilerplate with built-in AI capabilities, featuring SQLModel ORM and Pydantic validation
+Home-page: https://github.com/julianfleck/flask-structured-api
+Author: Julian Fleck
+Author-email: Julian Fleck <dev@julianfleck.net>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/julianfleck/flask-structured-api
+Project-URL: Documentation, https://github.com/julianfleck/flask-structured-api#readme
+Project-URL: Repository, https://github.com/julianfleck/flask-structured-api.git
+Project-URL: Issues, https://github.com/julianfleck/flask-structured-api/issues
+Keywords: flask,api,boilerplate,ai,structured,sqlmodel,pydantic,orm,validation,postgresql,redis,celery,openapi
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE.md
+Requires-Dist: Flask<4.0.0,>=3.1.0
+Requires-Dist: flask-openapi3<5.0.0,>=4.0.2
+Requires-Dist: flask-sqlalchemy<4.0.0,>=3.1.1
+Requires-Dist: flask-migrate<5.0.0,>=4.0.7
+Requires-Dist: Werkzeug<4.0.0,>=3.1.3
+Requires-Dist: gunicorn<22.0.0,>=21.2.0
+Requires-Dist: SQLAlchemy<3.0.0,>=2.0.36
+Requires-Dist: sqlmodel<0.1.0,>=0.0.22
+Requires-Dist: psycopg2-binary<3.0.0,>=2.9.9
+Requires-Dist: alembic<2.0.0,>=1.13.1
+Requires-Dist: PyJWT<3.0.0,>=2.10.0
+Requires-Dist: passlib<2.0.0,>=1.7.4
+Requires-Dist: flask-cors<5.0.0,>=4.0.0
+Requires-Dist: redis<6.0.0,>=5.2.0
+Requires-Dist: celery<6.0.0,>=5.3.6
+Requires-Dist: flower<3.0.0,>=2.0.1
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
+Requires-Dist: email-validator<3.0.0,>=2.1.0
+Requires-Dist: pydantic[email]<3.0.0,>=2.5.0
+Requires-Dist: pydantic-settings<3.0.0,>=2.6.1
+Requires-Dist: psutil<7.0.0,>=6.1.0
+Requires-Dist: prometheus-client<1.0.0,>=0.19.0
+Provides-Extra: dev
+Requires-Dist: debugpy<2.0.0,>=1.8.8; extra == "dev"
+Requires-Dist: black<25.0.0,>=24.1.1; extra == "dev"
+Requires-Dist: isort<6.0.0,>=5.13.2; extra == "dev"
+Requires-Dist: flake8<8.0.0,>=7.0.0; extra == "dev"
+Requires-Dist: mypy<2.0.0,>=1.8.0; extra == "dev"
+Requires-Dist: pre-commit<4.0.0,>=3.6.0; extra == "dev"
+
+# Flask Structured API
+
+A production-ready Flask API framework with built-in storage, authentication, and AI capabilities. Designed for developers who need a robust foundation for building scalable APIs while following best practices.
+
+## ✨ Core Features
+
+### 🏗️ Model-First Architecture
+- SQLModel + Pydantic for type-safe database operations
+- Comprehensive validation with detailed error messages
+- Clear separation between core and custom components
+- Standardized response formats
+
+### 🔐 Authentication & Security
+- JWT token-based authentication
+- API key management with scoping
+- Role-based access control (RBAC)
+- Request validation and sanitization
+- Hash-based secure storage
+
+### 📦 Storage System
+- On-demand request/response storage
+- Session-based data organization
+- Compression for large payloads
+- TTL-based expiration
+- Flexible querying with metadata filters
+
+### 🤖 AI Integration
+- Provider-agnostic interface
+- Response validation
+- Automatic retry mechanisms
+- Error handling with fallbacks
+
+### 🔧 Developer Experience
+- OpenAPI/Swagger documentation
+- Remote debugging support
+- Environment-based configuration
+- Comprehensive error handling
+- Warning collection system
+
+## 🚀 Quick Start
+
+### Using Docker (Recommended)
+```bash
+# Clone and setup
+git clone https://github.com/julianfleck/flask-structured-api.git
+cd flask-structured-api
+cp .env.example .env
+
+# Start services
+docker-compose up -d
+
+# Initialize database
+docker-compose exec api flask db upgrade
+docker-compose exec api flask users create-admin
+```
+
+### Local Development
+```bash
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+# or
+venv\Scripts\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+
+# Setup pre-commit hooks
+pre-commit install
+```
+
+## 📚 Documentation
+
+- [Getting Started Guide](docs/getting-started/README.md)
+- [Architecture Overview](docs/architecture/README.md)
+- [API Documentation](docs/api/README.md)
+- [Development Guide](docs/development/README.md)
+- [Deployment Guide](docs/deployment/README.md)
+
+## 💡 Example Usage
+
+### Protected Endpoint
+```python
+from flask import Blueprint
+from flask_structured_api.core.auth import require_auth
+from flask_structured_api.models.responses import SuccessResponse
+
+bp = Blueprint('example', __name__)
+
+@bp.route('/hello', methods=['GET'])
+@require_auth
+def hello_world():
+    return SuccessResponse(
+        message="Hello, World!",
+        data={"authenticated": True}
+    ).dict()
+```
+
+### Storage Decorator
+```python
+from flask_structured_api.core.storage import store_api_data
+
+@bp.route('/ai/generate', methods=['POST'])
+@require_auth
+@store_api_data()  # Automatically stores request/response
+def generate():
+    result = ai_service.generate(request.json)
+    return SuccessResponse(data=result).dict()
+```
+
+## ⚙️ Configuration
+
+Essential environment variables:
+```env
+# Required
+FLASK_APP=flask_structured_api.main:app
+DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+REDIS_URL=redis://localhost:6379/0
+SECRET_KEY=your-secret-key
+
+# Optional
+AI_PROVIDER=openai
+AI_API_KEY=your-api-key
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📝 License
+
+This project is licensed under the Apache License 2.0 - see [LICENSE](LICENSE) and [NOTICE](NOTICE) for details.
+
+When using this project, please include the following attribution in your documentation:
+
+```
+Based on Flask Structured API (https://github.com/julianfleck/flask-structured-api)
+Created by Julian Fleck and contributors
+```

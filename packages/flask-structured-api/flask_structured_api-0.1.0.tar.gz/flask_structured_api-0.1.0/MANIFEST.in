@@ -1,0 +1,19 @@
+# Include documentation
+include README.md
+include CHANGELOG.md
+include LICENSE
+include NOTICE.md
+recursive-include docs *.md *.rst *.txt *.py
+
+# Include requirements
+recursive-include requirements *.txt
+
+# Exclude build/temp files
+global-exclude *.py[cod] __pycache__ *.so
+global-exclude .DS_Store
+global-exclude *.swp *.swo
+
+# Exclude data directories
+prune backups
+prune migrations
+prune tests 
