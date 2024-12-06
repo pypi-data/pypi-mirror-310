@@ -1,0 +1,10 @@
+marshmallow_peewee/__init__.py,sha256=S6nIA2FT8xs11NHcdLLXHa6jI5pDedjSfvYa7IVkTBc,302
+marshmallow_peewee/config.py,sha256=Jd29EI1y5-YxenTdUXxbDtPtoOnek95V2nXEN4Td-k0,255
+marshmallow_peewee/convert.py,sha256=2P3vij3HlDT--WHM_8LZIIu1giXYruAMsCuow3HWHGY,5919
+marshmallow_peewee/fields.py,sha256=yVxFoDk2kCK67WlpQtaGTJR4TttH9_DuBFZRhbIG__4,2796
+marshmallow_peewee/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marshmallow_peewee/schema.py,sha256=y9gpaS2xuAXRQrt5Clk_KPi5sI4a4B90W2kObPXSqVY,4483
+marshmallow_peewee/types.py,sha256=ZSVeqYW4r-srWAJDWvm0mW9I8Tz0_F9W-xP0IreWcbU,264
+marshmallow_peewee-5.0.0.dist-info/METADATA,sha256=sGoIsGXlGAe2koGPvgyl6kHmp4pF3r-PziwbdD0zRFI,5495
+marshmallow_peewee-5.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+marshmallow_peewee-5.0.0.dist-info/RECORD,,
