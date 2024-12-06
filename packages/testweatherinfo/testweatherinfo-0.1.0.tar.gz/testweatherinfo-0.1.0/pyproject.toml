@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "testweatherinfo"
+version = "0.1.0"
+description = "Test publish package by poetry to PyPi"
+authors = ["bormanamadeus <rwr79@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+hello = 'hello.welcome:welcome_message'
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+colorama = "^0.4.6"
+fastapi = "^0.95.2"
+sqlalchemy = "^2.0.15"
+uvicorn = "^0.22.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
