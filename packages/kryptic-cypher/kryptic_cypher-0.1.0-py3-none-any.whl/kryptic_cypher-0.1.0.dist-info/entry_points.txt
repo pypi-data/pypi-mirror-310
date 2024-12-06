@@ -1,0 +1,5 @@
+[console_scripts]
+kryptic-cypher = kryptic_cypher.app:main
+
+[gui_scripts]
+
