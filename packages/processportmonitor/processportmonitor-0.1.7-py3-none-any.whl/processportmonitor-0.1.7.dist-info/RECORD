@@ -1,0 +1,9 @@
+processportmonitor/__init__.py,sha256=rCbk7DCNG688bgi00I_MkM1cElXkGcs12hcD-AE485k,40
+processportmonitor/__main__.py,sha256=P2TTbKMLkfYW7X29Ky0go3lx-kVOuNjh85DTuwGt9vA,1259
+processportmonitor/monitor.py,sha256=IQguX2bOJCboElBvrX9Q9_l3Av3-LCyrcjON6QYWroU,5022
+processportmonitor-0.1.7.dist-info/LICENSE,sha256=ER4YPf3YurbOqmzWx9iE9BMK1jmsMyqWDMcT69CRvxI,1082
+processportmonitor-0.1.7.dist-info/METADATA,sha256=UO99odAw4CUdSd9sQrv42_p5WVGn9MO9ZhhYWlugISY,7997
+processportmonitor-0.1.7.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+processportmonitor-0.1.7.dist-info/entry_points.txt,sha256=pnFRP1ZTMKnzKxxs6SetM0Pt7xRJPkx0mdybDT5OA24,72
+processportmonitor-0.1.7.dist-info/top_level.txt,sha256=o-d4QqM4CV7jSMByd-TATwb-9nqmyC76vm2TWfJwDdo,19
+processportmonitor-0.1.7.dist-info/RECORD,,
