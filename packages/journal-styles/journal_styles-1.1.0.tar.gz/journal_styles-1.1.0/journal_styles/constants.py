@@ -1,0 +1,9 @@
+# pt is LaTeX point = 1/72.27 inch
+inch2pt = 72.27
+pt2inch = 1.0 / inch2pt
+inch2mm = 25.4
+mm2inch = 1.0 / inch2mm
+pt2mm = pt2inch * inch2mm  # 0.35145980
+mm2pt = 1.0 / pt2mm
+golden_ratio = 1.6180
+DECIMALS = 3  # decimal precision

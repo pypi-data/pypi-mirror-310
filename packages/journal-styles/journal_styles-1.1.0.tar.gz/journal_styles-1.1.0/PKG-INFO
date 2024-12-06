@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: journal-styles
+Version: 1.1.0
+Summary: Package for producing consistent figure dimensions for scientific journals
+License: MIT
+Author: Iacopo Torre
+Author-email: iacopo.torre@upc.edu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3,<4)
+Requires-Dist: numpy (>=1.26,<2.0)
+Description-Content-Type: text/markdown
+
+# journal_styles
+
+A package to design figures for scientific journals that authomatically adapt to each journal style.
+
+## Installation 
+
+Install the packagge via pip
+```bash
+pip install journal-styles
+```
+then run
+```bash
+python -m journal_styles install
+```
+In some older installations of jupyter or jupyterlab you may need to add the line
+```python
+c.InlineBackend.rc = { }
+```
+in a configuration file that is typically found in
+```bash
+<home>/.ipython/profile_default/ipython_kernel_config.py
+```
+Otherwise the matplotlibrc parameters set by this package may be overridden.
+
+## Usage
+
+Most users will only need the class ```Figure_Frame```
+```python
+import matplotlib.pyplot as plt
+from journal_styles import Figure_Frame
+```
+an instance of the class for a simple figure can be initializad as
+```python
+ff = Figure_Frame()
+```
+and used as
+```python
+plt.figure(figsize = ff.figsize)
+plt.axes(ff.rects[0])
+```
+See ```Figure_Frame``` docstring for options for more complex figures.
+
+See the notebook examples/tutorial.ipynb in the project repository for more advanced usage. 
+
+## Updating styles
+
+```bash
+python -m journal_styles update-styles
+```
+Will update the styles in the local styles directory and copy to matplotlib config directory.
+Run after adding or modifying journal parameters.
+
+## Uninstalling
+
+1) Go to matplotlib configuration directory, delete matplotlibrc file and reinstate the previous matplotlibrc file.
+Files that have been substituted have been backupped by appending the string ```_backup_<time>```.  
+2) Go to matplotlib configuration directory \stylelib and delete the undesired .mplstyle files.
+3) Execute 
+```bash 
+pip uninstall journal-styles
+```
+
+## Repository
+
+This project is developed and maintained at https://gitlab.com/itorre/journal-styles
+
+
+
