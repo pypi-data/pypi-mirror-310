@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+.github/workflows/publish.yml
+src/pyspiget/__init__.py
+src/pyspiget/spiget.py
+src/pyspiget.egg-info/PKG-INFO
+src/pyspiget.egg-info/SOURCES.txt
+src/pyspiget.egg-info/dependency_links.txt
+src/pyspiget.egg-info/requires.txt
+src/pyspiget.egg-info/top_level.txt
+src/tests/manual_testing.py
