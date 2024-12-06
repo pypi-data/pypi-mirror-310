@@ -1,0 +1,13 @@
+pyproject.toml
+readme.md
+src/dkdc_chat/__init__.py
+src/dkdc_chat/main.py
+src/dkdc_chat.egg-info/PKG-INFO
+src/dkdc_chat.egg-info/SOURCES.txt
+src/dkdc_chat.egg-info/dependency_links.txt
+src/dkdc_chat.egg-info/entry_points.txt
+src/dkdc_chat.egg-info/requires.txt
+src/dkdc_chat.egg-info/top_level.txt
+src/dkdc_chat/ui/cli.py
+src/dkdc_chat/ui/gui/__init__.py
+src/dkdc_chat/ui/gui/main.py
