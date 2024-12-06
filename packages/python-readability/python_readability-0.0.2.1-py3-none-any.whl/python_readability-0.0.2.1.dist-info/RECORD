@@ -1,0 +1,11 @@
+python_readability-0.0.2.1.dist-info/METADATA,sha256=Gh5WTWZ46eTzJMJQyWjOe263AdMYXMOuwfz72---Cd0,1203
+python_readability-0.0.2.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+python_readability-0.0.2.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+readability/__init__.py,sha256=kYH_zwEibn61_ckMnl6ror9pn9iYGYcDW438qRNDpqs,70
+readability/api/parse.py,sha256=jWSfRHeBkHq_ah0t7F3BN0qY7T3hWsFb3Dli5DHgaco,3611
+readability/impl/__init__.py,sha256=1m6zvrqzn_uEBamKZVDxHHh6ANSAE1OKdvgvwC8jPL8,148
+readability/impl/non_pyodide.py,sha256=XSjTAIGKg7jSBiUdOMhJXW6mf28VM8jAIr6ps_i81JY,382
+readability/impl/parse.cjs,sha256=mTJNlytvfw6AtipZMWH9ZNon42aNE9IavWcFuqbZ6rI,497294
+readability/impl/pyodide.py,sha256=1B2RG_T3AmAPv1TaV3MKbGkxPTD7RldAOHdLyhsO6Bs,428
+readability/utils/cases.py,sha256=mMiPUsh1HovRmKcQ-cN0pkgIdyxJ6-rZiLiRA00LoOs,464
+python_readability-0.0.2.1.dist-info/RECORD,,
