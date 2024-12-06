@@ -1,0 +1,15 @@
+inference/.gitattributes,sha256=YrYkKhHDtYR5GzTptO0DCCKUkRJei17vExpyCGhH0X8,182
+inference/app.py,sha256=dFxdhP3sMoP31LOdHzrCIZ-FPPmYkYqxKk4XHOIBW5I,4373
+inference/benchmark.py,sha256=BHvRddUt6l9fw7plZ5eoKuUYZEVkS2NVv77GSKxIMKE,55185
+inference/config.ini,sha256=61CBCeiLrKRcBPXND9HEIksUC59puyP-j-sm9HFDkJs,2297
+inference/demo.py,sha256=S_SQNDN8IWvqYQBucu2wz1gYjDfqO4uijsTiAl5LzgA,692
+inference/draw.ipynb,sha256=Xmh_jeEuZVW1AuJa5G3C4zH4FVcHTMLaByRCP5wiUf0,604
+inference/models/llama/tokenizer.json,sha256=wFo8IXTp7dW-GdxaB0jEKpA3vsKBHOBicov9cfhwLXg,9084490
+inference/models/llama/tokenizer_config.json,sha256=cuS8jaXYdQm1-hnO4O6wNFadKKLfWBDMNyYSh9AOew8,51272
+inference/models/qwen/tokenizer.json,sha256=y2Ogoj7vPVsBBjqYgKGSWmWq9NFZHVGZEO41J4UpUKA,7029741
+inference/models/qwen/tokenizer_config.json,sha256=_1xP2Jj-jDlZHrcOXTnSeCgC1CBNaum6EiMlLzVIQqA,4190
+inference/util.py,sha256=xl4b6EWZQoURmLlNqNtoRyI4FZed-yw_JB-z10zXNm0,895
+ai_benchmarks-0.1.0.dist-info/entry_points.txt,sha256=30FRHcBnIzgV-IiW5WZ6TAxYGQfWfP9R_r6VczkqT7U,97
+ai_benchmarks-0.1.0.dist-info/METADATA,sha256=exnzZlUYeFYSvi9rii1MPbDmMI3qvrXe8goawCz_aYk,3779
+ai_benchmarks-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ai_benchmarks-0.1.0.dist-info/RECORD,,
