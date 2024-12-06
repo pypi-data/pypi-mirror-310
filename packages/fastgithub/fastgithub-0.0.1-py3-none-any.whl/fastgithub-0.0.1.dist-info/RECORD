@@ -1,0 +1,12 @@
+fastgithub/__init__.py,sha256=Ufjj7OyyGRhDE_7gZlYNZF-P9cTea5Kzn-SqGPaM0-w,92
+fastgithub/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgithub/webhook.py,sha256=QZLl7BbI-kWBkKdS5Pn4QYWM0SvsYMgl20swWSldrGg,3699
+fastgithub/endpoint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgithub/endpoint/helper.py,sha256=D7diZ8GqrZt0frsC0iazN-NnRPXlTtj_2JrzvofQAlg,489
+fastgithub/endpoint/webhook_router.py,sha256=gq0Zrtl3tp7JPgQlWhMN2FieIMAZDJdEs_jWQWl0x4I,917
+fastgithub/recipes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgithub/recipes/github.py,sha256=sPhn5_120ReBM4IiuWjxtahLs1foEenj7z3l9gbTZTk,1073
+fastgithub-0.0.1.dist-info/METADATA,sha256=8g77CVwGOVxG9wfZuo_mFlvMkUhoMSdmupHZvgPGVAU,5579
+fastgithub-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+fastgithub-0.0.1.dist-info/licenses/LICENSE,sha256=FJj98YAsY-Mr_EHhRrMpe6I9Ppvl9Uf089-B0tESyZg,1076
+fastgithub-0.0.1.dist-info/RECORD,,
