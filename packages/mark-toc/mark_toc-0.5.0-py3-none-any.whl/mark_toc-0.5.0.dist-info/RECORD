@@ -1,0 +1,12 @@
+mark_toc/__init__.py,sha256=MGmEwinu-DOipOALfWO0HLm691AXWMXWoXiCMyXxFj0,229
+mark_toc/__main__.py,sha256=59F0yyovhzoezb-FxmuMN7Gjw74JexJbLTJz_xq_oMI,285
+mark_toc/argparsing.py,sha256=0eqSEFyNb0Mk0GynYuvHIkv-8iqoZC6P3LaP6kpgwL4,2817
+mark_toc/cli.py,sha256=LiAVnlvNQn5H0KyOjvLBh9WUbsX2z-Hd992dRWjVBzI,14947
+mark_toc/completion.py,sha256=WpilZdqB2d2-ASoPWYP-igtc_Ug-8B0zwC_PzSd_v2I,3568
+mark_toc/iofile.py,sha256=xiOgPiW8LQaWaYa3Q4ewtIcRXToHuBrXjnd46LClBsM,6455
+mark_toc/mdfile.py,sha256=oXRMSCwIaUKAptmyJeywV-fsyodLEe3j80cc00XK498,16443
+mark_toc-0.5.0.dist-info/METADATA,sha256=UCv4Fms7ObUCzm2xSKFPcFDMVbdRd-rXwQDGklONfpE,8976
+mark_toc-0.5.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+mark_toc-0.5.0.dist-info/entry_points.txt,sha256=xIOE6WKUiUggUs8sPRIUjk94iYvakQBP-n5byVK-Br4,52
+mark_toc-0.5.0.dist-info/licenses/LICENSE,sha256=QBaO1EMJZE4rMED8NFzojZB-5SLPbsbpEluHjcLWrCY,1072
+mark_toc-0.5.0.dist-info/RECORD,,
