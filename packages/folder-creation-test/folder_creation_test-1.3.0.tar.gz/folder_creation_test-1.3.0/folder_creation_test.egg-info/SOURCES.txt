@@ -1,0 +1,8 @@
+README.md
+setup.py
+folder_creation_test.egg-info/PKG-INFO
+folder_creation_test.egg-info/SOURCES.txt
+folder_creation_test.egg-info/dependency_links.txt
+folder_creation_test.egg-info/entry_points.txt
+folder_creation_test.egg-info/requires.txt
+folder_creation_test.egg-info/top_level.txt
