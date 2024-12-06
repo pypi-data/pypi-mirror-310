@@ -1,0 +1,4 @@
+dagster==1.9.3
+dagster-pandas==0.25.3
+pandas
+great_expectations>=0.17.15
