@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/cloudmusic/__init__.py
+src/cloudmusic/adapter.py
+src/cloudmusic/api.py
+src/cloudmusic/encrypto.py
+src/cloudmusic/music.py
+src/silverwyyapi.egg-info/PKG-INFO
+src/silverwyyapi.egg-info/SOURCES.txt
+src/silverwyyapi.egg-info/dependency_links.txt
+src/silverwyyapi.egg-info/not-zip-safe
+src/silverwyyapi.egg-info/requires.txt
+src/silverwyyapi.egg-info/top_level.txt
