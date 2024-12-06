@@ -1,0 +1,10 @@
+vxn/__init__.py,sha256=LmEaEqxKYLSJvZ7GlEbt41klVRN6-E5wQEq0ORNYcyc,1019
+vxn/__main__.py,sha256=jlcWXlkYR3vqbSZ2YdPlegvOK4q5wS_sj4jAS1AU5Qo,5347
+vxn/file_utils.py,sha256=E0SvxxSHbzxuGzjPuUV8t6p9dEUPRBqw_AVky3ik_8c,569
+vxn/vxn.py,sha256=Mb-9f_M6szF1hw78x91W1hXofQUdutrj8SmxA824a3M,7491
+vxn_py-1.0.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+vxn_py-1.0.0.dist-info/METADATA,sha256=RYk3Eup6Dimsl90fmt1hfsdEjYyTeNugYWAqYMP1xOI,41757
+vxn_py-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+vxn_py-1.0.0.dist-info/entry_points.txt,sha256=mAMeAQHAAfzO3eWDH-kz5wAZM5voPuMakUqgwoxr3-I,56
+vxn_py-1.0.0.dist-info/top_level.txt,sha256=vAX7LSPXQD581YeCITzmFT6IDfXRBxJDpF_sBCPTX34,4
+vxn_py-1.0.0.dist-info/RECORD,,
