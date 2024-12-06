@@ -1,0 +1,10 @@
+gradio_cofoldinginput/__init__.py,sha256=VzbZUbx-MgPEDNyvppYD5Q0fffRS7vT-f8ljTfXOfBo,74
+gradio_cofoldinginput/cofoldinginput.py,sha256=GLOoURMgF2Q0LSssaUDtvZYsaMqginD8MXOfRMP5HGg,5287
+gradio_cofoldinginput/cofoldinginput.pyi,sha256=2e8CuEvasIC0K4TAI3wKDgl8YKCOW94obOr7Ay3-o7M,38282
+gradio_cofoldinginput/templates/component/index.js,sha256=9eIiDKZNkIn-5sh4Eb3wKJPV1ATA_Fyz5yrwfhB5B7I,2015310
+gradio_cofoldinginput/templates/component/style.css,sha256=_nO6LmAVUAYfBOB_64cwctOUtJlIRBm96Qacc3R5W2k,1525259
+gradio_cofoldinginput/templates/example/index.js,sha256=YsPkf2wOs_3k47NdWYVQlqO_Z7f9z1aRlGVv4T2NDTU,9663
+gradio_cofoldinginput/templates/example/style.css,sha256=q08idhrxdxflCEfUSzuGvga4UfIggx02kYZLD5UuBu8,39120
+gradio_cofoldinginput-0.0.8.dist-info/METADATA,sha256=nnxL30NUgKsM1WonVr2WhuKuUQi_i9ZMk_EA1htyMpY,9421
+gradio_cofoldinginput-0.0.8.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+gradio_cofoldinginput-0.0.8.dist-info/RECORD,,
