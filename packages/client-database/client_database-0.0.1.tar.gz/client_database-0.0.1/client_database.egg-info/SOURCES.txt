@@ -1,0 +1,7 @@
+setup.py
+client_database.egg-info/PKG-INFO
+client_database.egg-info/SOURCES.txt
+client_database.egg-info/dependency_links.txt
+client_database.egg-info/entry_points.txt
+client_database.egg-info/requires.txt
+client_database.egg-info/top_level.txt
