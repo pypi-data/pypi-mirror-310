@@ -1,0 +1,7 @@
+setup.py
+alexcodered/__init__.py
+alexcodered/pythonmath.py
+alexcodered.egg-info/PKG-INFO
+alexcodered.egg-info/SOURCES.txt
+alexcodered.egg-info/dependency_links.txt
+alexcodered.egg-info/top_level.txt
