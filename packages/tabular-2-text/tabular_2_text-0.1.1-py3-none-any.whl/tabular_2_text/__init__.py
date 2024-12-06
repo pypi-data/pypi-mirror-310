@@ -1,0 +1,1 @@
+from tabular_converter import tab2text
