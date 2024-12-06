@@ -1,0 +1,10 @@
+django_auth_spnego/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auth_spnego/backends.py,sha256=VaP3BYqlaXeARGb-bO0A0ZjDEwdmK3is5QLyYEo4FjY,2528
+django_auth_spnego/settings.py,sha256=voH1PhdhepWTMxT9J_njFXlOHPMOpIsltbf-zyOedHg,333
+django_auth_spnego/views.py,sha256=8OnXC3559PIKRaUfq_-nwBatW27ve0puTbE6B0UxNbI,3141
+django_auth_spnego/templates/spnego.html,sha256=vz0psaZt3oiThZGwPemf9iC-kheR1uJKB925ACgw5QQ,694
+django_auth_spnego2-5.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_auth_spnego2-5.2.dist-info/METADATA,sha256=Cb2UowKRz2PrBRwbmKLn3ucdK-zhAqGW1CZgB0MMYqY,5211
+django_auth_spnego2-5.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+django_auth_spnego2-5.2.dist-info/top_level.txt,sha256=4OTA28NdrqQlRgf_DUSvkY1LjXwQJ2eDGxom56aFuM4,19
+django_auth_spnego2-5.2.dist-info/RECORD,,
