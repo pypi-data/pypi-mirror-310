@@ -1,0 +1,13 @@
+nmk_rust/__init__.py,sha256=Ui1KVIMAgs-FgPjnxMB75U8sBxgS1MOz_4-08KL_Nug,438
+nmk_rust/cargo.yml,sha256=aclrgGQLPNNd1aUTtP8lZDRAu5ZWfQY7ayEyF9qxfOs,1473
+nmk_rust/files.yml,sha256=tAqlgCFOTL_wwM2DFJlMsk5QmGHUkxGd60PiWM5Ledk,539
+nmk_rust/plugin.yml,sha256=Lix7r54M2OBwyWS7gJGeeAVjBBgWAe135fx8QdGQ7T8,682
+nmk_rust/resolvers.py,sha256=Tw0IN7B38MTjvxahpShKJJVjZUHS0ZF0fpJ5Lbrn90Y,634
+nmk_rust/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nmk_rust/templates/config.toml.jinja,sha256=S-yPC8bv77IJ63_Z9zs6B7vTjmJNtvCBZ3Fc4-zjUxU,46
+nmk_rust/templates/manifest.toml.jinja,sha256=VsSHs8vNZGsivr-JubOLQU3fpwva6Ys9_LtMgqjKbT4,71
+nmk_rust-0.2.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+nmk_rust-0.2.0.dist-info/METADATA,sha256=hMzMEfOAec6l3NCloN24iEtTP-mYlQynzB9wJrXw5xM,22340
+nmk_rust-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+nmk_rust-0.2.0.dist-info/top_level.txt,sha256=KokOrUt3VWjyD0ZEeeHmlCVbZ0BlcgZ_bMCxP0IuStY,9
+nmk_rust-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,54 @@
+config:
+  # Cargo config file fragments
+  rustConfigFileFragments:
+    - ${BASEDIR}/templates/config.toml.jinja
+
+  # Cargo config file items contributions
+  rustConfigFileItems: {}
+
+  # Cargo manifest file fragments
+  rustManifestFileFragments:
+    - ${BASEDIR}/templates/manifest.toml.jinja
+
+  # Cargo manifest file items contributions
+  rustManifestFileItems: {}
+
+tasks:
+  rust.config.dir:
+    description: Create cargo config folder
+    emoji: ":crab:.:file_folder:"
+    silent: true
+    builder: nmk_base.common.MkdirBuilder
+    output: ${rustConfigFolder}
+
+  rust.config:
+    description: Generate cargo config file
+    emoji: ":crab:.:toolbox:"
+    input:
+      - ${rustConfigFileFragments}
+    output:
+      - ${rustConfigFile}
+    appendToDeps: setup
+    deps:
+      - rust.config.dir
+    if: ${rustSrcFiles}   # Only if rust source files are found
+    builder: nmk_base.common.TomlFileBuilder
+    params:
+      fragment_files: ${rustConfigFileFragments}
+      items: ${rustConfigFileItems}
+      plugin_name: nmk-rust
+
+  rust.manifest:
+    description: Generate cargo manifest file
+    emoji: ":crab:.:clipboard:"
+    input:
+      - ${rustManifestFileFragments}
+    output:
+      - ${rustManifestFile}
+    appendToDeps: setup
+    if: ${rustSrcFiles}   # Only if rust source files are found
+    builder: nmk_base.common.TomlFileBuilder
+    params:
+      fragment_files: ${rustManifestFileFragments}
+      items: ${rustManifestFileItems}
+      plugin_name: nmk-rust
