@@ -1,0 +1,11 @@
+msgraph/__init__.py,sha256=iFXwpChWtr6i_spoV5Yc1_A3X-gjLE4OmbNzHBNXK5A,561
+msgraph/core.py,sha256=VtiQCTXWMpwsoVX-O0ulvTlYFySAUrULLcResaQJaqo,4883
+msgraph/devices.py,sha256=GdzZ-EDbQA95x0zdroqxpHgvF9JiRbr0FydHide0YtU,9254
+msgraph/groups.py,sha256=DpSp3nRGzBFC-SoHQHLFTIk-GQ15DVy24v3ZbQfmbJ0,10067
+msgraph/identity.py,sha256=dsNW1xN7c_U-pYnACyWajzIttRRiujmqJ1g4sqsqPjU,14876
+msgraph/mail.py,sha256=qBIfvOB9Fal0PBWOSiFoFqjxXY12yj-WAiTuWnouQ5o,3989
+msgraph_py-1.2.0.dist-info/LICENSE,sha256=El6JvbIfC4qTDykKTf7rsWbKsQ_wpqsK5UFHPid6Qwo,1064
+msgraph_py-1.2.0.dist-info/METADATA,sha256=A7n4F7Eq9y4-WjzO7aCTcPR76pkd68PyHC3_QgQFHmk,8640
+msgraph_py-1.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+msgraph_py-1.2.0.dist-info/top_level.txt,sha256=qzCUvu-Vrn8e1z3CinbT30NCsPhPRF30hjoIC_X9Nrw,8
+msgraph_py-1.2.0.dist-info/RECORD,,
