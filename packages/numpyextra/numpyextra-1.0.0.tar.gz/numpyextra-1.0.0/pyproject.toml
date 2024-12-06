@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numpyextra"
+version = "1.0.0"
+description = "Supplement NumPy."
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "John Dawson", email = "john.a.dawson@proton.me"}]
+maintainers = [{name = "John Dawson", email = "john.a.dawson@proton.me"}]
+keywords = [
+  "gufunc",
+  "gufuncs",
+  "numpy",
+]
+dependencies = ["numpy"]
+
+[project.urls]
+Homepage = "https://github.com/JohnADawson/numpyextra"
+Documentation = "https://github.com/JohnADawson/numpyextra/blob/master/src/numpyextra.py"
+
+[tool.isort]
+profile = "black"

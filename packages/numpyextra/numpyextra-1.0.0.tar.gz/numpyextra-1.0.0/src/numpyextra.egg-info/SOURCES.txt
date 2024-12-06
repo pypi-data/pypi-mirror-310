@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/numpyextra.py
+src/numpyextra.egg-info/PKG-INFO
+src/numpyextra.egg-info/SOURCES.txt
+src/numpyextra.egg-info/dependency_links.txt
+src/numpyextra.egg-info/requires.txt
+src/numpyextra.egg-info/top_level.txt
