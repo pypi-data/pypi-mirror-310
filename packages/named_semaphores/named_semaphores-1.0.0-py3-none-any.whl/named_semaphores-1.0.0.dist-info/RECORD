@@ -1,0 +1,8 @@
+named_semaphores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+named_semaphores/logging.py,sha256=vXofZgvA-D2dBEihCidN6c-wGUfjdn6x3IbtdkZpOi4,1207
+named_semaphores/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+named_semaphores/semaphore.py,sha256=_dt_4Wl8wrOmPtCcxeNzDlcMPkzQ4KQBFjhhpGJz3bs,13901
+named_semaphores-1.0.0.dist-info/METADATA,sha256=KhZcq2TmlrUHDrdbAVbaMWx6zc9dKs2kGz6dk0kV3WY,998
+named_semaphores-1.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+named_semaphores-1.0.0.dist-info/licenses/LICENSE,sha256=uTIFwzPXKeIasWMCW4nLVq4Co5ojyTmP6lGzUpkdDiw,11347
+named_semaphores-1.0.0.dist-info/RECORD,,
