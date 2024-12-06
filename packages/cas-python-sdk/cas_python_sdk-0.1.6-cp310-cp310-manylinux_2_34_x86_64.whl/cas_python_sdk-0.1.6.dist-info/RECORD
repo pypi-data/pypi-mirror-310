@@ -1,0 +1,5 @@
+cas_python_sdk-0.1.6.dist-info/METADATA,sha256=pEfeZBkYeU1okjOhYkvsFKQ0ZJIQMm7CWM8rweP2yIA,263
+cas_python_sdk-0.1.6.dist-info/WHEEL,sha256=Eon-X1H-_QAARJHJrle01PrnTNoTi49kSjaP6kGdlhU,108
+cas_python_sdk/__init__.py,sha256=oI1HFfAKjMnwb_oGeICp03tTqlHNSXMto4b9IP7KAMg,139
+cas_python_sdk/cas_python_sdk.cpython-310-x86_64-linux-gnu.so,sha256=6Nglre_YG19opkCDWTS8Pg66O0Ox9fDwAj5dn308qQ8,611824
+cas_python_sdk-0.1.6.dist-info/RECORD,,
