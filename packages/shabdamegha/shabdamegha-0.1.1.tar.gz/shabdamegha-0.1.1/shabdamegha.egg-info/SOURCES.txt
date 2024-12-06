@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shabdamegha/__init__.py
+shabdamegha/shabdamegha.py
+shabdamegha.egg-info/PKG-INFO
+shabdamegha.egg-info/SOURCES.txt
+shabdamegha.egg-info/dependency_links.txt
+shabdamegha.egg-info/requires.txt
+shabdamegha.egg-info/top_level.txt
+tests/__init__.py
+tests/test_shabdamegha.py
