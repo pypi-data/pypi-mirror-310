@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: st_dc
+Version: 1.0.0
+Summary: Same Text, Different Context: A package for visualizing contextual word embeddings
+Home-page: https://github.com/suneel-nadipalli/st-dc
+Author: Suneel Nadipalli
+Author-email: nsuneel89@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: transformers>=4.0.0
+Requires-Dist: torch>=1.9.0
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: scikit-learn>=0.24.0
+Requires-Dist: plotly>=5.0.0
+
+# Context Explorer
+
+Context Explorer is a Python package for visualizing contextual word embeddings and their neighbors across different contexts.
+
+## Features
+
+- Extract embeddings for focus words using pretrained language models.
+- Generate context-specific neighbor words.
+- Visualize embeddings in 2D or 3D.
+
+## Installation
+
+```bash
+pip install context-explorer
