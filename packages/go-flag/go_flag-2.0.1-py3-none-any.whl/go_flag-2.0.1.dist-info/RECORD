@@ -1,0 +1,14 @@
+flag/__init__.py,sha256=BNiPVkcI1l8NT2pdmNT9wn6dhYoQuNB1GPVTa5Ppxis,4609
+flag/error.py,sha256=m3e0R90qVuy0HikHaOPig9y9W0MyKs2A94j8ZsoO7f4,691
+flag/flag.py,sha256=dkgJp5lj1t6ba_kZczn9vf1FlmF4s1wNtKaQ0g1ICYo,32438
+flag/fmt.py,sha256=8MQg_gaCSIspZv4ujYjzXUdXDoVLPF-fUG9atvEc8Z4,189
+flag/panic.py,sha256=vlpgJrjGjIXdyG2csPl4ZaLBLtkSka8FFf0ba6j7XQY,369
+flag/pointer.py,sha256=XaN8L_kHRr45H-IVAEV8WMuUI5JzNoPicJP-61Ibqvc,10238
+flag/strconv.py,sha256=eY9dF9QmYL_xZ7-IkVgqKnUYwcirmtMAPrw5EFy7FcQ,541
+flag/time.py,sha256=dVrKmA35szSmpoj-drckZV5wYYFKQ12DPz7cjN-Fjck,1708
+flag/zero.py,sha256=dD4TXgujrdqKwtW-9DilV5qkhVL8an7_GaVQFB84FPQ,409
+go_flag-2.0.1.dist-info/LICENSE,sha256=Q3U9fFC5q52j03LLFPWN-PFldkfLEFSuX3CNeXvQ-_A,1533
+go_flag-2.0.1.dist-info/METADATA,sha256=2T41OpMsAjZ6DvsJoXPfgPkodzI9yGjiJy-IzaXJ8MQ,5971
+go_flag-2.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+go_flag-2.0.1.dist-info/top_level.txt,sha256=k4wqPfoZwaRoIb7QSRLbYvn9sTRzeAQhPNZwmUgtxkA,5
+go_flag-2.0.1.dist-info/RECORD,,
