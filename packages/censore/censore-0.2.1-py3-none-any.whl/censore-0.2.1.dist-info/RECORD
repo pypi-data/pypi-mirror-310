@@ -1,0 +1,15 @@
+censore/__init__.py,sha256=GUzPizupbnajrDgfSYawf3VG-zg38i9msoGZl83pkGs,197
+censore/profanity_filter.py,sha256=Ph7mTrMx33UCectEYazz_nc4XOvtHYGumEph0EaROp0,16025
+censore/data/exclude_patterns/en.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+censore/data/exclude_patterns/ru.txt,sha256=iUX7SpxCw9UwkEYTS5wsFwcGZHq8lrQCys2UwQ7lEvI,53
+censore/data/exclude_patterns/uk.txt,sha256=7MV6vhnAOrSNVfrRGFutgKaVBBMRs8R1pLBvSZaI7_c,77
+censore/data/patterns/en.txt,sha256=sd_I0oyWsVN5bPMBmsxeX8AfUWNGdsKCpnKpbxDDAxA,28
+censore/data/patterns/ru.txt,sha256=jzGs5UsDEOQQKrvhXn7KP-f55vwASVcbOOmEotKQu5w,152
+censore/data/patterns/uk.txt,sha256=ejdr5fETsAS5uNDOeQG1_XKysAX0oEGGlKBzSySDquM,130
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=yx9wgWRjtezs_S-R4EuzF5WnxExsm59aFvHBf5zZ3SA,2611
+censore-0.2.1.dist-info/LICENSE,sha256=3pI1PUoKZdGT_tjbpNtuycnL4MoMAeM45erc_8WQVV8,1066
+censore-0.2.1.dist-info/METADATA,sha256=k1UFDCwMaaCG9tzML_6CqFPchyqUywmh-wlMfip8sMg,5455
+censore-0.2.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+censore-0.2.1.dist-info/top_level.txt,sha256=Pqr41BN551LjUjYKqnFuBpGjYcb0__n_OxEy9eSPwTg,14
+censore-0.2.1.dist-info/RECORD,,
