@@ -1,0 +1,6 @@
+setup.py
+sysconx4/__init__.py
+sysconx4.egg-info/PKG-INFO
+sysconx4.egg-info/SOURCES.txt
+sysconx4.egg-info/dependency_links.txt
+sysconx4.egg-info/top_level.txt
