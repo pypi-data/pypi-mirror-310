@@ -1,0 +1,2 @@
+[console_scripts]
+vk = venvkit.main:main
