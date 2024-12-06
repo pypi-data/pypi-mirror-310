@@ -1,0 +1,106 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gridai"
+dynamic = ["version"]
+description = 'Python package for building graph dataset from GDM system.'
+readme = "README.md"
+requires-python = ">=3.11"
+license = "BSD-3-Clause"
+keywords = ["pytorch_geometric", "grid-data-models", "python", "distribution system"]
+authors = [
+  { name = "Kapil Duwadi", email = "Kapil.Duwadi@nrel.gov" },
+  { name = "Aadil Latif", email = "Aadil.Latif@nrel.gov" },
+  { name = "Andrew Glaws", email = "Andrew.Glaws@nrel.gov" },
+]
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+  "torch~=2.5.0",
+  "grid-data-models~=1.1.0",
+  "torch_geometric~=2.6.1",
+  "networkx~=3.4.2",
+  "polars~=1.12.0",
+  "matplotlib~=3.9.2",
+  "click~=8.1.7"
+]
+
+[project.optional-dependencies]
+doc = [
+  "sphinx",
+  "pydata-sphinx-theme",
+  "myst-parser",
+  "autodoc_pydantic",
+  "sphinxcontrib-mermaid",
+]
+dev = [
+  "pytest",
+  "pytest-cov",
+  "pre-commit",
+  "ruff"
+]
+
+[project.urls]
+Documentation = "https://github.nrel.gov/GATES-TLDRD/graph-dataset#readme"
+Issues = "https://github.nrel.gov/GATES-TLDRD/graph-dataset/issues"
+Source = "https://github.nrel.gov/GATES-TLDRD/graph-dataset"
+
+[project.scripts]
+gridai = "gridai.cli.cli:cli"
+
+[tool.hatch.version]
+path = "src/gridai/__about__.py"
+
+[tool.ruff]
+exclude = [
+  ".git",
+  ".ruff_cache",
+  ".venv",
+  "_build",
+  "build",
+  "dist",
+  "env",
+  "venv",
+]
+ignore-init-module-imports = true
+line-length = 99
+indent-width = 4
+target-version = "py311"
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+select = [
+  "C901", # McCabe complexity
+  "E4",   # Subset of pycodestyle (E)
+  "E7",
+  "E9",
+  "F",    # Pyflakes
+  "W",    # pycodestyle warnings
+]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402", "F401"]
+"**/{tests,docs,tools}/*" = ["E402"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gridai"]

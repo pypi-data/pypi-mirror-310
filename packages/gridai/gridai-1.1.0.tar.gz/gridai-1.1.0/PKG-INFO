@@ -1,0 +1,124 @@
+Metadata-Version: 2.3
+Name: gridai
+Version: 1.1.0
+Summary: Python package for building graph dataset from GDM system.
+Project-URL: Documentation, https://github.nrel.gov/GATES-TLDRD/graph-dataset#readme
+Project-URL: Issues, https://github.nrel.gov/GATES-TLDRD/graph-dataset/issues
+Project-URL: Source, https://github.nrel.gov/GATES-TLDRD/graph-dataset
+Author-email: Kapil Duwadi <Kapil.Duwadi@nrel.gov>, Aadil Latif <Aadil.Latif@nrel.gov>, Andrew Glaws <Andrew.Glaws@nrel.gov>
+License: BSD-3-Clause
+Keywords: distribution system,grid-data-models,python,pytorch_geometric
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Requires-Dist: click~=8.1.7
+Requires-Dist: grid-data-models~=1.1.0
+Requires-Dist: matplotlib~=3.9.2
+Requires-Dist: networkx~=3.4.2
+Requires-Dist: polars~=1.12.0
+Requires-Dist: torch-geometric~=2.6.1
+Requires-Dist: torch~=2.5.0
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: autodoc-pydantic; extra == 'doc'
+Requires-Dist: myst-parser; extra == 'doc'
+Requires-Dist: pydata-sphinx-theme; extra == 'doc'
+Requires-Dist: sphinx; extra == 'doc'
+Requires-Dist: sphinxcontrib-mermaid; extra == 'doc'
+Description-Content-Type: text/markdown
+
+
+# Welcome to Graph Dataset Repo
+
+## Installation
+
+Use following commands to install
+```bash title="Installation Steps"
+pip install gridai
+```
+
+## Available commands
+
+Use following command to see available commands.
+
+```bash
+gridai --help
+```
+
+You will see something like this.
+```bash
+Usage: gridai [OPTIONS] COMMAND [ARGS]...
+
+  Entry point
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  generate-dataset  Command line function to generate geojsons from...
+  generate-stats    Function to dump stats around the dataset.
+```
+
+## How to create a dataset ?
+
+The command `generate-dataset` can convert all opendss models available in the parent folder by recursively searching for all valid opendss models.
+
+```bash
+gridai generate-dataset -j <system-json-path>
+```
+
+This will create a sqlite db file stroing all training data in `pytorch.data.Data` format.
+
+## How to use the dataset ?
+
+```python
+>>> from torch_geometric.data import SQLiteDatabase
+>>> db = SQLiteDatabase(path="dataset.sqlite",name="data_table")
+>>> len(db)
+51
+>>> db[0]
+Data(x=[3], edge_index=[2, 2], edge_attr=[2])
+```
+
+## Getting NodeObject and EdgeObject
+
+You can use following snippet to convert node attributes back to an instance of 
+`DistNodeAttrs` and edge attributes back to an `DistEdgeAttrs`.
+
+```python
+>>> from torch_geometric.data import SQLiteDatabase
+>>> from gridai.interfaces import DistNodeAttrs, DistEdgeAttrs
+>>> from rich import print
+>>> db = SQLiteDatabase(path="dataset.sqlite",name="data_table")
+>>> print(DistNodeAttrs.from_array(db[0].x[0]))
+DistNodeAttrs(
+   node_type=<NodeType.LOAD: 2>,
+   active_demand_kw=5.726587772369385,
+   reactive_demand_kw=1.691259503364563,
+   active_generation_kw=0.0,
+   reactive_generation_kw=0.0,
+   phase_type=<PhaseType.NS1S2: 11>,
+   kv_level=0.1200888529419899
+)
+>>> print(DistEdgeAttrs.from_array(db[0].edge_attr[0]))
+DistEdgeAttrs(
+   capacity_kva=25.0,
+   edge_type=<DistEdgeType.TRANSFORMER: 1>,
+   length_miles=0.0
+)
+```
+
+## Plotting the dataset
+
+You can use following command to plot the dataset.
+
+```python
+>>> from gridai.plot_dataset import plot_dataset
+>>> from torch_geometric.data import SQLiteDatabase
+>>> db = SQLiteDatabase(path="dataset.sqlite",name="data_table")
+>>> plot_dataset(db[0])
+```
