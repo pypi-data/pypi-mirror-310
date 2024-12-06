@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: laneatt
+Version: 2.4.5
+Summary: A package to detect lane lines in images and videos
+Home-page: https://github.com/PaoloReyes/RealTime-LaneATT
+Download-URL: https://github.com/PaoloReyes/RealTime-LaneATT/archive/refs/tags/LaneATT-v2.4.tar.gz
+Author: Paolo Reyes
+Author-email: paolo.alfonso.reyes@gmail.com
+License: MIT
+Keywords: Lanes,AI,Greenhouse,Regression,Machine Learning,LaneATT,Delimitations
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: filelock
+Requires-Dist: fsspec
+Requires-Dist: Jinja2
+Requires-Dist: joblib
+Requires-Dist: MarkupSafe
+Requires-Dist: mpmath
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: PyYAML
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: sympy
+Requires-Dist: threadpoolctl
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: typing_extensions
+Requires-Dist: wheel
+
+
+  LaneATT is a Python library for detecting lanes from images or videos, utilizing a state-of-the-art deep neural network. It is designed to be efficient and accurate, making it suitable for real-world applications such as autonomous vehicles, robotics, and surveillance systems.
+
+  Features:
+      Lane Detection: Accurate lane detection using a cutting-edge deep learning model
+      Image/Video Support: Supports both image and video input formats
+      Configurable Model: Customize the model architecture through configuration files
+      ModelCheckpointing: Automatically saves model checkpoints at regular intervals
+      Inference Speed: Optimized for fast inference on GPUs, ideal for real-time applications
+
+  Usage:
+      LaneATT can be used in various scenarios, such as:
+          Autonomous Vehicles: Lane detection is crucial for self-driving cars to navigate roads safely.
+          Surveillance Systems: Lane detection can be used to improve the accuracy of traffic monitoring systems.
+          Robotics: Lane detection can help robots navigate through environments with lanes.
+
+  To install LaneATT, run:
+
+  pip install laneatt
+
+  For more information, please visit [github repo](https://github.com/PaoloReyes/RealTime-LaneATT).
+  
