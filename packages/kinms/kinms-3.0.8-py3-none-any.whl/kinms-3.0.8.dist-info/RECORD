@@ -1,0 +1,13 @@
+kinms/KinMS.py,sha256=3japWLySrwxxWza36wMm4__FlqWc8n4ZttkR0oyYP_o,51790
+kinms/KinMS2.py,sha256=ZAbEc_Q5R7R5wHuBogeUDgWR5bLKXoQ3joXzCdiC0TI,50033
+kinms/KinMS_jax.py,sha256=6PpNjVVZP6bm4NFloeLwuQYMIAc-n-dQoxcsQWG2RX0,53236
+kinms/__init__.py,sha256=yPzgJ8sR4-_WVGSqkHcaiQ5psMjqmEWTdjhbJM3mqD8,204
+kinms/radial_motion.py,sha256=94iyMzGeWd5g9UCwsbw_cJnnpzD2xOKPZDjDG1oYPrc,1804
+kinms/examples/KinMS_testsuite.py,sha256=6nd254QHHzKohmA4Y1RjmGq13ZA6CAJhJNfZMhu-VMc,21661
+kinms/utils/KinMS_figures.py,sha256=LOEYFGIe4M0NwkJFFJjc1mFbyuoPBUk6O1FeBrZnS2c,14736
+kinms/utils/sauron_colormap.py,sha256=8APka-_L432wyICcHcySjk3qmjNOynb3iDjjlMuUTU0,4448
+kinms-3.0.8.dist-info/LICENSE,sha256=h65VX2mNeE8qbPDsVXhsZj3jehOswtt7Upz5qiQivkc,1080
+kinms-3.0.8.dist-info/METADATA,sha256=0TQaPVtbE5SDgusPYNaZZt2wNrb921WDkfgxNHrRODo,5499
+kinms-3.0.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+kinms-3.0.8.dist-info/top_level.txt,sha256=VfQJy6bavrJsdYm4_vxaR8izzVTBWEfhOP8R9qPZWwI,6
+kinms-3.0.8.dist-info/RECORD,,
