@@ -1,0 +1,100 @@
+[project]
+name = "cs-app-osx-defaults"
+description = "Access the MacOS defaults via the `defaults` command."
+authors = [
+    { name = "Cameron Simpson", email = "cs@cskk.id.au" },
+]
+keywords = [
+    "python3",
+]
+dependencies = [
+    "cs.app.osx.plist>=20221228",
+    "cs.deco>=20241109",
+    "cs.lex>=20241122",
+    "cs.psutils>=20241122",
+    "typeguard",
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+version = "20241122"
+
+[project.license]
+text = "GNU General Public License v3 or later (GPLv3+)"
+
+[project.urls]
+"Monorepo Hg/Mercurial Mirror" = "https://hg.sr.ht/~cameron-simpson/css"
+"Monorepo Git Mirror" = "https://github.com/cameron-simpson/css"
+"MonoRepo Commits" = "https://bitbucket.org/cameron_simpson/css/commits/branch/main"
+Source = "https://github.com/cameron-simpson/css/blob/main/lib/python/cs/app/osx/defaults.py"
+
+[project.readme]
+text = """
+Access the MacOS defaults via the `defaults` command.
+
+*Latest release 20241122*:
+run: drop quiet=False parameter, the run() inside defaults() will pick things up.
+
+## <a name=\"Defaults\"></a>Class `Defaults`
+
+A view of the defaults.
+
+*`Defaults.domains`*:
+Return a list of the domains present in the defaults.
+
+*`Defaults.run(self, argv, doit=True) -> str`*:
+Run a `defaults` subcommand, return the output decoded from UTF-8.
+
+## <a name=\"defaults\"></a>`defaults(argv, *, host=None, doit=True, **subp)`
+
+Run the `defaults` command with the arguments `argv`.
+If the optional `host` parameter is supplied,
+a value of `'.'` uses the `-currentHost` option
+and other values are used with the `-host` option.
+Return the `CompletedProcess` result or `None` if `doit` is false.
+
+## <a name=\"DomainDefaults\"></a>Class `DomainDefaults`
+
+A view of the defaults for a particular domain.
+
+*`DomainDefaults.as_dict(self)`*:
+Return the current defaults as a `dict`.
+
+*`DomainDefaults.flush(self)`*:
+Forget any cached information.
+
+# Release Log
+
+
+
+*Release 20241122*:
+run: drop quiet=False parameter, the run() inside defaults() will pick things up.
+
+*Release 20240316*:
+Fixed release upload artifacts.
+
+*Release 20240201*:
+Initial PyPI release."""
+content-type = "text/markdown"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools >= 61.2",
+    "trove-classifiers",
+    "wheel",
+]
+
+[tool.setuptools]
+py-modules = [
+    "cs.app.osx.defaults",
+]
+
+[tool.setuptools.package-dir]
+"" = "lib/python"
