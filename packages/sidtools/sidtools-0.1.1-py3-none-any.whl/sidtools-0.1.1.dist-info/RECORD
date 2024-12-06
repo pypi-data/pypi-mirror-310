@@ -1,0 +1,11 @@
+sidtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sidtools/cli.py,sha256=1sT3kHfCmpLNzkV2tuFSvXgZAnySvGddBOKepNyxgIU,2045
+sidtools/cli_og.py,sha256=8NgqDTKTAzR7clEgWOuKl137wSEZaMbfqYGd-52Etow,880
+sidtools/cli_v2.py,sha256=kyfmU-fvos3-q-36RitzignjYsLpgLP7hWckOjQmGAs,2714
+sidtools/s_make.py,sha256=1pi9i97BH0gIEfSqVaTs9MRH89fsN1W5T54dNBsRN-8,2738
+sidtools/s_run.py,sha256=oYN3C23LWTMaEh-JoeXN_SH1v0MiuP6UpIp6kT7_6B4,1396
+sidtools-0.1.1.dist-info/METADATA,sha256=Fu_Pz-b4aMQZOKhlcXC9oIZ5uRR-3WaBnbCbSah8oi0,295
+sidtools-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sidtools-0.1.1.dist-info/entry_points.txt,sha256=sM5H6ZnOHvmOTENb9GT0sqpVql8krKRSxI2CQybyVI4,84
+sidtools-0.1.1.dist-info/top_level.txt,sha256=KLq3YxPBbBVY7aib9BNSazufdy6DEyQtPKh3-v2v_hU,9
+sidtools-0.1.1.dist-info/RECORD,,
