@@ -1,0 +1,13 @@
+qspylib/__init__.py,sha256=2fPyPpkCPiOlIEDWyHB8Wv08povKvl-BSP6JIHmK7hg,342
+qspylib/_version.py,sha256=g-OCrdeYZrbvZlZnjbitht5QUgwlCQdbhl5IFkN0Fwg,55
+qspylib/clublog.py,sha256=3IpzHyP4gCWHf7VGKl7_S_xk51Jt90LI30FApPw9SBk,2069
+qspylib/eqsl.py,sha256=OwPfac0CAml9LDDcVussrXM0NwWjUg_3LKnF7hdjhm4,20592
+qspylib/logbook.py,sha256=2FTlSwBP6CNYp8ixfjWNQY7SXjUJ0kKUaUzq1oNKenM,6611
+qspylib/lotw.py,sha256=nNzXWNy-PEJ3lz1gM4k31FP4Kh9EyXovkShip8FJ5XY,17351
+qspylib/qrz.py,sha256=8vXudiFaJJCUQoo91m4x_Nt-1121AiObXd4W_pH32AM,16610
+qspylib/requirements.txt,sha256=VVhnnLD0HT1SssBnGzeRTdtQ5Uwj5WNWHn0w7yrE4vM,418
+qspylib/test_pytest.py,sha256=H3Ere2AOu3ic3ACeAefBg5wAES17xapeOdhBki-Q6uY,6408
+qspylib-1.0.0.dist-info/METADATA,sha256=x8e98bB_Jt-IQcmD3rKWsKf_JtW1gofCbTJ0Jez6Mz0,5414
+qspylib-1.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+qspylib-1.0.0.dist-info/licenses/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+qspylib-1.0.0.dist-info/RECORD,,
