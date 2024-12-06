@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: onoffice
+Version: 0.1.0
+Summary: This library is a python wrapper around the onoffice API. It facilitates interacting with the API in a more pythonic matter.
+Requires-Python: >=3.10
+Requires-Dist: requests==2.*

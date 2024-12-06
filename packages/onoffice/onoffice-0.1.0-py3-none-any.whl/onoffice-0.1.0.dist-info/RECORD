@@ -1,0 +1,9 @@
+onoffice/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+onoffice/actions.py,sha256=6U5GJ3X8mTOMZ-rtb0PSDFB4KBD4znRwWiq7_HaVHXA,511
+onoffice/api.py,sha256=drN3HpkPh96YByyplqRV-FVHEpNjKowcNfL03lJkAiE,2874
+onoffice/cryptography.py,sha256=-pwO74TLLM1pdWp5K_Kx4j67uDjzjxrlNyFD0HqFRY0,624
+onoffice/parameters.py,sha256=v_VY_I1avzDz-0UMSrfOIm7HFRbXnPzUqbVOdmVypWg,2085
+onoffice/resources.py,sha256=k0xTkUd19dOePD2PKl5u9uWL_E7mrOwGo45MAFGYef4,465
+onoffice-0.1.0.dist-info/METADATA,sha256=uaH9te0i4doaW-SEAZo8YmiyY2V3lcRnWaLCWTFubGU,239
+onoffice-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+onoffice-0.1.0.dist-info/RECORD,,
