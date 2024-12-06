@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: imscore
+Version: 0.0.1
+Summary: A small example package
+Author-email: RE-N-Y <s@krea.ai>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision
+Requires-Dist: einops
+Requires-Dist: open_clip
+Requires-Dist: tqdm
+Requires-Dist: huggingface_hub
+
+Did you read me?
