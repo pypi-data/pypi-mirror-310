@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TaiwanID"
+version = "0.1.0"
+dependencies = []
+authors = [
+    {name = "jhihyulin", email = "jy@jhihyulin.live"},
+]
+maintainers = [
+    {name = "jhihyulin", email = "jy@jhihyulin.live"},
+]
+description = "Taiwan ID number tools"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["Taiwan", "TW", "ROC", "ID", "number", "tools"]
+classifiers = []
+
+[project.urls]
+repository = "https://github.com/jhihyulin/TaiwanID.git"
+issues = "https://github.com/jhihyulin/TaiwanID/issues"
