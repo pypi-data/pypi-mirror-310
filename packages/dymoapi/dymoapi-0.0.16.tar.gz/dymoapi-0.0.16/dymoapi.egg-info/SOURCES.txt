@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dymoapi.egg-info/PKG-INFO
+dymoapi.egg-info/SOURCES.txt
+dymoapi.egg-info/dependency_links.txt
+dymoapi.egg-info/requires.txt
+dymoapi.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dymoapi.py
