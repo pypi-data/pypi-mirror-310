@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cuopt-mps-parser
+Version: 24.3.0
+Summary: cuOpt - GPU Combinatorial Optimization
+Author: NVIDIA Corporation
+License: Apache 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy <1.25,>=1.21
+
