@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: xtrail-jupyter-backend
+Version: 0.1.0
+Summary: Run Jupyter Notebooks with a Flask backend and public ngrok URL.
+Home-page: https://xtrail.in
+Author: Harisha P C
+Author-email: info@xtrail.in
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

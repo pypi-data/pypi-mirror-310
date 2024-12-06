@@ -1,0 +1,2 @@
+[console_scripts]
+xtrail-backend = xtrail_backend.app:app.run
