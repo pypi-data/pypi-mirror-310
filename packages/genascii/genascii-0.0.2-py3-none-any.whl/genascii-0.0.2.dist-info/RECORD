@@ -1,0 +1,19 @@
+genascii/__main__.py,sha256=JnPmWxGWqv2joV9bB1dRRVp5F4IGQz2lEkz5r9bNg3Y,86
+genascii/about.py,sha256=3p55o-2ZJYBpXRNB22CtpVjnlSbEibGAtKl6iIyxinE,174
+genascii/consts.py,sha256=fbMY7lQoClxTcc2fgj6AyMV8o8dd9OWsfou5a-b24QQ,319
+genascii/core.py,sha256=2dyxBf0KJjjDecAsbjTfIWpkkveTdGbP0zj4kxoPGpY,7404
+genascii/main.py,sha256=6ShkfUE3vn3bmEopHcmuOZM3Mtpe4-yPLq6TB6nZPJY,3948
+genascii/utils.py,sha256=raHS8u_fByxI2vvpc9pFEJpMRLEd7rsSNdxlLADyJh4,4612
+genascii/data/alphabets.json,sha256=AI4Pxe7E7eBWBsJqAOup4ztDnLfT_LKAcv5e9m5nYaQ,3493
+genascii/data/fonts/DejaVu Fonts License.txt,sha256=ow8kZqlc0erv9gQWkvQ0ae3MoFLQAuh3AVqBnG4xwZQ,4765
+genascii/data/fonts/DejaVuSansMono-Bold.ttf,sha256=uQjhGas6AqNPXr60eaHcv1aC6Qzb21wT1ou1W01CMyY,318392
+genascii/data/fonts/DejaVuSansMono-BoldOblique.ttf,sha256=T6ugFRW2tA4UW33han6dP4Z-dOViK7JFiwJ6xoWvEnM,239876
+genascii/data/fonts/DejaVuSansMono-Oblique.ttf,sha256=a5PPGN0yJMJKH-ur9iM2vT2rtG7mb7dY9-oZGnkB3kA,245948
+genascii/data/fonts/DejaVuSansMono.ttf,sha256=Z_oIXp5yp1Zaw2y2p3vaxwHhjHpG0MFbmwhxSh4aIEI,335068
+genascii/data/fonts/arial-unicode.ttf,sha256=_lAxPDfC7KC7-Mw1ZbXvMjFHU4ia--RMsnXWXDtY8N8,23275812
+genascii/data/fonts/simsun.ttc,sha256=_31pv6ZYjT_e292-OimsEfDFAjZyPucqnqSew-JVP10,15323200
+genascii-0.0.2.dist-info/LICENSE,sha256=S62QDvq4C_WVKm3ryBPc0KhLqJZ0eswfIeWy3pq0gdc,1068
+genascii-0.0.2.dist-info/METADATA,sha256=cdRVbkgFlnlM-EUGRx0pvqPvFElf8UL880lEWU4mTps,2109
+genascii-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+genascii-0.0.2.dist-info/top_level.txt,sha256=qyQdDCdJwgUYx1BYEd2USOG-BWDzzannM_LqiyuCD5s,9
+genascii-0.0.2.dist-info/RECORD,,
