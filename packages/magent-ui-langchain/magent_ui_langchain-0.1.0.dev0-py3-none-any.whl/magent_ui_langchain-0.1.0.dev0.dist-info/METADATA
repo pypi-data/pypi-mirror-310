@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: magent-ui-langchain
+Version: 0.1.0.dev0
+Author-email: brokun <brokun0128@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: aiofiles>=24.1.0
+Requires-Dist: jinja2>=3.1.4
+Requires-Dist: python-multipart>=0.0.9
+Requires-Dist: sse-starlette>=2.1.2
+Description-Content-Type: text/markdown
+
+# magent ui langchain
