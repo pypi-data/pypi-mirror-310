@@ -1,0 +1,28 @@
+#!/sbin/nft -f
+
+# Simple, strict firewall setup
+
+flush ruleset
+
+table inet work_station {
+    chain input {
+        type filter hook input priority 0; policy drop;
+
+        iifname lo accept \
+            comment "Accept any localhost traffic"
+        ct state invalid drop \
+            comment "Drop invalid connections"
+        ct state { established, related } accept \
+            comment "Accept traffic originated from us"
+    }
+
+    chain forward {
+		type filter hook forward priority filter; policy drop;
+		# Ensure that machine is not forwarding any IP traffic
+	}
+
+	chain output {
+		type filter hook output priority filter; policy accept;
+		# Accept every outbound connection
+	}
+}

@@ -1,0 +1,17 @@
+
+
+@set inet test_tbl testset1d
+
+200ms.net
+
+netflix.com
+googlevideo.com
+myhomescreen.tv
+google.pl
+
+
+
+@set inet test_tbl testset2s
+
+192.168.0.1
+192.168.1.0/24
