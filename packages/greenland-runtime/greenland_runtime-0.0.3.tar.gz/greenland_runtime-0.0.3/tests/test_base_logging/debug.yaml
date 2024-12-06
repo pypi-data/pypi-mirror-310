@@ -1,0 +1,6 @@
+format: minimal
+loglevel: DEBUG
+modules:
+  __main__:
+    logfile: some.log
+
