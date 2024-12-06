@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cutp
+Version: 0.1.0
+Summary: Check that your container's TCP port does not conflict with the port used by your Umbrel.
+Author: Henrique Sebastião
+Author-email: contato@henriquesebastiao.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: typer (>=0.13.1,<0.14.0)
+Description-Content-Type: text/markdown
+
+# CUTP - Check Umbrel TCP Ports
+
+A simple CLI tool to check if the TCP port you want to use in your container does not conflict with the port used by any of your [Umbrel](https://github.com/getumbrel/umbrel) apps.
+
+### Check the desired port
+
+Let's assume you want to use port `1287`, then run:
+
+```bash
+cutp check 1287
+# Port 1287 is free.
+```
+
+### Generating a random port
+
+If you are lacking creativity today, cutp can suggest a port:
+
+```bash
+cutp gen
+# 4120
+
