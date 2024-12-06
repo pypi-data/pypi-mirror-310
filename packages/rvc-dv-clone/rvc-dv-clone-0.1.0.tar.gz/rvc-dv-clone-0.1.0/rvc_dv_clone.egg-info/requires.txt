@@ -1,0 +1,12 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy
+scipy
+librosa
+fairseq
+ffmpeg-python
+soundfile
+pyworld
+faiss-cpu
+torchcrepe
+pyyaml
