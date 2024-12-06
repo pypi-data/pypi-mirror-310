@@ -1,0 +1,9 @@
+llm
+ollama>=0.4
+pydantic>=2
+
+[lint]
+black
+
+[test]
+pytest
