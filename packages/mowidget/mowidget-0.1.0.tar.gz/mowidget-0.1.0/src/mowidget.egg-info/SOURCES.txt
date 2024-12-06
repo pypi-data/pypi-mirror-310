@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/mowidget/__init__.py
+src/mowidget.egg-info/PKG-INFO
+src/mowidget.egg-info/SOURCES.txt
+src/mowidget.egg-info/dependency_links.txt
+src/mowidget.egg-info/requires.txt
+src/mowidget.egg-info/top_level.txt

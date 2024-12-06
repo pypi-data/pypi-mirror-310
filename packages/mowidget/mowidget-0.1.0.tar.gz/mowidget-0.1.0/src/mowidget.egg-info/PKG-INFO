@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: mowidget
+Version: 0.1.0
+Summary: A comprehensive library of custom anywidget implementations for Marimo notebooks
+Author-email: eugene <heinereugene@pm.me>, Srihari Thyagarajan <hari.leo03@gmail.com>
+Project-URL: Homepage, https://github.com/metaboulie/marimo-widgets
+Project-URL: Repository, https://github.com/metaboulie/marimo-widgets
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anywidget>=0.9.13
+Requires-Dist: numpy>=2.0.2
+Requires-Dist: traitlets>=5.14.3
+
+# Marimo Widgets Collection
+
+A comprehensive library of custom anywidget implementations for Marimo
+notebooks, providing a rich set of interactive and reusable widgets for data
+science, visualization, and computational workflows.
+
+## Features
+
+-   **Base Widgets**
+    -   String Form: Interactive text input components
+-   **Design Components**
+    -   Color Matrix: Color selection and manipulation tools
+-   **Layout Elements**
+    -   Header: Customizable header components
+-   **Productivity Tools**
+    -   Pomodoro Timer: Time management widget
+-   **Data Visualization**
+    -   Array Viewer: Interactive array visualization component
+
+## Installation
+
+```bash
+pip install mowidget
+```
+
+## Examples
+
+Showcase notebooks demonstrating the usage of all widgets can be found in the
+`examples/` directory. Check out `examples/showcase_v0.1.0.py` for a
+comprehensive demonstration of all available components in v0.1.0.
