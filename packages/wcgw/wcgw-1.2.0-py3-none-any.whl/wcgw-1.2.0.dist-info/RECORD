@@ -1,0 +1,17 @@
+wcgw/__init__.py,sha256=PNWvBvjUKA3aj4bHOtIqBKCAtOW88pr0hAXZ7RylVr8,68
+wcgw/types_.py,sha256=a0sE4hPj4qylQFqMJwysLYy_FVYsueJTjq5fmHmNWGo,1855
+wcgw/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wcgw/client/__main__.py,sha256=ngI_vBcLAv7fJgmS4w4U7tuWtalGB8c7W5qebuT6Z6o,30
+wcgw/client/anthropic_client.py,sha256=g5dj7tP_wkLMjQawil4PxhrEemlrIKYttWUXBI5SZ4Q,15260
+wcgw/client/cli.py,sha256=Oja42CHkVO8puqOXflko9NeephYCMa85aBmQTEjBZtI,932
+wcgw/client/common.py,sha256=grH-yV_4tnTQZ29xExn4YicGLxEq98z-HkEZwH0ReSg,1410
+wcgw/client/diff-instructions.txt,sha256=I_qroE6_aMpWtOeywPSDCTxmz-P6VPopdp1kR2r0D8w,1375
+wcgw/client/openai_client.py,sha256=Vsj8TzYj22fawU1LagAU7bn21Va50KXwpYZpGZ0BUZ0,17310
+wcgw/client/openai_utils.py,sha256=YNwCsA-Wqq7jWrxP0rfQmBTb1dI0s7dWXzQqyTzOZT4,2629
+wcgw/client/tools.py,sha256=NeGIZ8AJ9-XAiW6gUXf7GWs1UJjw8f7ecxUBBEAtyEI,25994
+wcgw/relay/serve.py,sha256=sMbERQTM1GhpnPWLzdtpcb23TIsgbP-ZuqVj-vjp5Rw,8186
+wcgw/relay/static/privacy.txt,sha256=s9qBdbx2SexCpC_z33sg16TptmAwDEehMCLz4L50JLc,529
+wcgw-1.2.0.dist-info/METADATA,sha256=1AJa0M-m_tvHNpANqak4-q7bKTgg07_qgjddGwQaOhs,5255
+wcgw-1.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+wcgw-1.2.0.dist-info/entry_points.txt,sha256=WlIB825-Vm9ZtNzgENQsbHj4DRMkbpVR7uSkQyBlaPA,93
+wcgw-1.2.0.dist-info/RECORD,,
