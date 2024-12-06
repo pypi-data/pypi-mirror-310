@@ -1,0 +1,10 @@
+fib_payments/__init__.py,sha256=LmT1j82bdwo52s7Z0ISC--zR3nIaMQEjVBTS23lZwfk,405
+fib_payments/async_http_utils.py,sha256=05cEG0HxHgdFrP_XTTDqHOpLbIkQB0Kw-nm_XpWarSI,2366
+fib_payments/client.py,sha256=ldl0ctlqK1Fip5zHwcLcCaswODAqPV_c2Z4L-Cyv1N8,3237
+fib_payments/config.py,sha256=ZOv70p2kr6GAqsOsclfMkIjj019LmoAzP-obSQ9mwIA,939
+fib_payments/exceptions.py,sha256=UUbladwumrxnO2eCuiAdjWJYPka65IBzD3khCMTAX8g,1405
+fib_python_payment_sdk-0.1.10.dist-info/LICENSE,sha256=k89TZOea-99PzjmG-IE5BSw7v_jWZN0gXFqAUzb_VTE,1084
+fib_python_payment_sdk-0.1.10.dist-info/METADATA,sha256=kVlwfRQYmhbCUIz7LAX6JMJ9a1VRrKDMRHiVf577fsg,6279
+fib_python_payment_sdk-0.1.10.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+fib_python_payment_sdk-0.1.10.dist-info/top_level.txt,sha256=kVZyHdkkY2BJcFLRa6cSlp4EGHtVTfF_acH_qFNTUGw,13
+fib_python_payment_sdk-0.1.10.dist-info/RECORD,,
