@@ -1,0 +1,10 @@
+theia_dumper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+theia_dumper/cli.py,sha256=QoAJjxFZJy6PWL83iVZ0uzCc13Xjwo5V9QgaBrfByFg,1078
+theia_dumper/logger.py,sha256=1QG2ceLwOFlxZ2bW0NhftnmTetWjSzvBv4gM9fXKrts,150
+theia_dumper/stac.py,sha256=gSUYRWxjsqb6lQ86NFtBHmUI3elrsID5b-8S4HSspY4,7683
+theia_dumper-0.0.1.dist-info/LICENSE,sha256=SrEoGs4KXeiZVhfF7ath1rfurkyGibhHLym29FvbDXk,11335
+theia_dumper-0.0.1.dist-info/METADATA,sha256=x4GBjOyIgfUUtTn9LWSgYZNCTBDAMT_RzvroEHblwN4,728
+theia_dumper-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+theia_dumper-0.0.1.dist-info/entry_points.txt,sha256=oRaE3OIMzoZQAjzIcliGLye6Xlax2LhnIu1bGQiJKPU,55
+theia_dumper-0.0.1.dist-info/top_level.txt,sha256=LTxoPN_ExfGzRglckeC1YXW7JQ0zFsfSBiv_jbbWjvs,13
+theia_dumper-0.0.1.dist-info/RECORD,,
