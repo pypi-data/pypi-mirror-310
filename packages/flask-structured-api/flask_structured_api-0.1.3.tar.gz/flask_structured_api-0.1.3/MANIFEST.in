@@ -1,0 +1,32 @@
+# Include documentation
+include README.md
+include CHANGELOG.md
+include LICENSE
+include NOTICE.md
+
+# Include requirements
+recursive-include requirements *.txt
+
+# Include all package files
+graft src/flask_structured_api
+
+# Include empty directories by adding .gitkeep files
+recursive-include src/flask_structured_api */.gitkeep
+
+# Documentation
+recursive-include docs *.md
+recursive-include docs *.rst
+recursive-include docs *.txt
+recursive-include docs *.py
+
+# Exclude patterns
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude .env
+
+# Exclude data directories
+prune backups
+prune migrations
+prune tests 
