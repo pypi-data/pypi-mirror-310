@@ -1,0 +1,64 @@
+Jenkins Test
+
+Create a folder
+
+create app.py
+-----------------------------------------------------
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+if __name__ == "__main__":
+    print("Addition result:", add(2, 3))
+    print("Subtraction result:", subtract(5, 3))
+
+-----------------------------------------------------
+
+Create test_script.py
+-----------------------------------------------------
+
+# test_your_script.py
+import pytest
+from app import add, subtract
+
+def test_add():
+    assert add(2, 3) == 5
+
+def test_subtract():
+    assert subtract(5, 3) == 2
+
+-----------------------------------------------------
+Steps to Set Up Jenkins Freestyle Project:
+
+Create a Freestyle Project:
+    In Jenkins, click on New Item.
+    Choose Freestyle project.
+    Enter the name for your project and click OK.
+
+Configure Source Code Management:
+    In the Source Code Management section, select Git.
+    https://github.com/zoro-22/python.git
+
+Add Build Steps: 
+Under the Build section execute windows batch:
+
+python -m venv venv
+call venv\Scripts\activate.bat
+pip install -r requirements.txt
+python your_script.py
+pytest test_script.py
+pytest test_script.py --junitxml=report.xml
+
+
+
+Under post-build Actions
+Select publish junit test report
+
+In test report XMLs Enter
+report.xml
+
+
+Apply Save and Build

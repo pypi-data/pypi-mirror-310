@@ -1,0 +1,382 @@
+                                                                                             JENKINS:
+
+download java 17 archive
+
+Jenkins download
+
+java -jar Jenkins.war --httpPort=8081
+
+(copy pasword)
+http://localhost:8080
+
+Create jenkins
+
+gowsika
+gowsika1234
+
+jenkins-
+tejaswini2310
+teja@1234
+
+github - TEJASWINIRAMESH , pass- Tedmosby@23
+
+Docker - tejaswiniramesh, pass- teja@1234
+
+github-gPUPK126
+
+create new repo
+copypath
+
+open notepad
+
+class HelloWorld {
+    // Your program begins with a call to main().
+    // Prints "Hello, World" to the terminal window.
+    public static void main(String args[])
+    {
+        System.out.println("Hello, World");
+    }
+}
+
+save same a class HelloWorld.java
+
+git clone https://github.com/GowsikaPerumal/demo.git
+ cd demo
+git add HelloWorld.java
+git commit -m "hello"
+git config --global user.name"<yourname"> #TEJASWINIRAMESH
+git config --global user.email"<yourmail">#tejaswiniramesh6777@gmail.com
+
+git push origin main
+
+JENKINS:
+New item-> Free style-> select Git-> enter git repo-> Add a buid step-> select executewindow batch command-> javac HelloWorld.java-> java HelloWorld
+Build Now
+
+
+
+
+
+
+
+
+
+                                                                                  DOCKER
+sudo apt update
+sudo apt install docker.io
+entr 'Y'
+sudo systemctl start docker
+sudo systemctl enable docker
+
+
+mkdir flaskapp
+cd flaskapp
+
+app.py:
+from flask import Flask
+app=Flask(__name__)
+@app.route('/')
+def home():
+	return "Hello World"
+if __name=="__main__":
+	app.run(host='0.0.0.0',Port=5000)
+
+requirements.txt
+
+Flask == 2.3.2
+
+Dockerfile
+
+From python:3.9-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+EXPOSE 5000
+CMD ["python","app.py"]
+
+sudo docker build -t flaskapp .
+
+sudo docker run -p 5000:5000 flaskapp
+
+
+PUSH&PULL
+
+docker login
+tejaswiniramesh
+teja@1234
+
+sudo docker build -t tejaswiniramesh/flaskapp .
+sudo docker run -p 5000:5000 tejaswiniramesh/flaskapp
+
+docker push tejaswiniramesh/flaskapp
+docker pull tejaswiniramesh/flaskapp
+
+
+
+                                                                           SSH
+
+ssh-keygen -t rsa -b 2048
+
+ssh-copy-id 3122215002011@otheruserip_add
+
+ssh 3122215002011@otheruserip_add
+
+nano ~/test_script.sh
+
+echo "hello SSH"
+
+for nano, press CTRL + X, then Y, and hit Enter)
+
+
+
+now in other user pc
+
+ssh theirusername@their_ip_addr 'bash ~/test_script.sh' 
+
+
+
+
+
+ssh-keygen -t rsa -b 2048
+ssh-copy-id username@ip
+ssh usrname@ip
+nano script.sh
+echo "hthg"
+(ctr+o,enter,ctr+x)
+chmod +x script.sh
+./script.sh
+ssh user@ip 'bash~/script.sh'
+
+
+ssh-keygen -t rsa -b 2048
+Enter
+Enter
+Enter
+ssh-copy-id rem_username@rem_ip
+( Will ask remote system password)
+ssh rem_username@rem_ip
+nano script.sh
+echo "hello world"
+Ctrl + O
+Enter
+Ctrl + X
+Chmod +x script.sh
+./script.sh
+(If not exited from remote system, type exit )
+ssh remusername@rem_ip 'bash ~/script.sh'
+O/P is seen (hello world)
+
+
+                                                                            SSH USING JENKINS
+Start jenkins server and login
+Manage Jenkins > Manage Plugins
+Available > search for Publish over SSH 
+Check the box near it and click download/install
+
+Manage Jenkins > System
+Scroll down down down to find publish over SSH 
+Click add
+Fill in details
+Name - summa 
+Hostname - rem_ip
+Username - for ssh access on rem system
+Passphrase/ssh key - paste private key from ~/.ssh/id_rsa ( use cat command and this path)
+Click save
+
+New item
+Freestyle 
+Build section, add build step > send fules or execute over ssh
+Select ssh config u just added
+bash ~/script.sh
+Save
+
+Build now
+Console output
+
+
+
+
+                                                                               Load Balancing
+
+docker build -t new_flask
+docker run -d --name app1 -p 5001:5000 new_flask
+docker run -d --name app2 -p 5002:5000 new_flask
+docker run -d --name app3 -p 5003:5000 new_flask
+
+if error for port not found:
+docker ps -a
+docker stop container_id
+docker rm container_id
+
+sudo apt update
+sudo apt install -y nginx
+cd /etc/nginx/sites-available
+
+sudo nano new_flask
+
+upstream flask_app {
+    server 127.0.0.1:6001;
+    server 127.0.0.1:6002;
+    server 127.0.0.1:6003;
+}
+
+server {
+    listen 80;
+
+    location / {
+        proxy_pass http://flask_app;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+ctrl+x,Y,enter
+
+
+
+sudo ln -s /etc/nginx/sites-available/new_flask/etc/nginx/sites-enabled/
+sudo nginx -t
+
+.
+.
+.      test is successful
+
+sudo systemctl restart nginx
+sudo systemctl status nginx
+
+Sometimes close aagadhu go to new terminal and do below
+
+hostname -I
+smtg 10.0.2.15
+
+http://10.0.2.15/   -----> nginx page
+http://10.0.2.15:5001
+
+
+
+
+								JENKINS DOWNLOAD IN UBUNTU
+sudo apt-get update
+sudo apt-get install jenkins
+sudo apt install fontconfig openjdk-17-jre
+java --version
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword   -------->      Gives the password
+
+
+
+							SSH FILE TRANSFER IN UBUNTU
+LOCAL SYSTEM la
+SENDING FILE TO REMOTE SYSTEM:
+If file in Desktop(hello.sh):
+scp
+cd Desktop/
+scp hello.sh remoteusername@remoteipaddress:/home/codebind (Where to save in the remote system)
+yes
+Remote password
+
+FETCHING FILE FROM REMOTE
+scp remoteusername@remoteipaddress:/home/codebind/file.txt /home/test/Desktop/
+remote system password:
+
+
+
+
+						DOCKER JENKINS
+
+build normal docker image and build that in the terminal 
+
+docker build -t new_flask .
+
+now in another terminal run the jenkin command for the ubuntu (take from above)
+
+now in jenkin http://localhost:8080/
+login ---> new item -----> freestyle project ------> add build step -----> execute shell ----> in the cmd prompt  give cmd :
+
+docker run -d --name app1 -p 5000:5000 new_flask
+save 
+build now 
+
+http://ipaddress:5000/
+
+
+
+
+				TESTING IN JENKINS
+
+have two file in a folder 
+hello.py
+
+# hello.py
+def say_hello():
+    return "Hello, World!"
+
+if __name__ == "__main__":
+    print(say_hello())
+
+
+
+test_hello.py
+
+# test_hello.py
+import unittest
+from hello import say_hello
+
+class TestHelloWorld(unittest.TestCase):
+    def test_say_hello(self):
+        self.assertEqual(say_hello(), "Hello, World!")
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+add these to a git repo 
+
+now create a jenkins freestyle prooject 
+git le add git repo 
+add build step "execute over window batch"
+now add the command 
+"   python -m unittest discover -s . -p "test_*.py"   "
+svae and buold now 
+
+
+o/p ----? OK
+
+
+
+				ERAI FILE TRANSFER IN JENKINS
+
+
+step 1 : ssh establishment 
+
+till ssh copyid 
+for jenkins 
+in  a terminal give   java -jar jenkins.war --logfile=/home/USER/jenkins.log
+
+now create a freestyle project in jenkins 
+add build step le " execute shell "
+the give scp command in the cmd box 
+
+scp hello.sh remoteusername@remoteipaddress:/home/codebind (Where to save in the remote system)
+
+
+
+
+			ANNU QUESTION
+
+
+nano script.sh
+in script.sh add the command
+
+scp annu.txt  pakathuveetuusername@pakathuvetuipaddress: nandhana.txt  ---- annu sending to nandhana
+
+bash script.sh
+
+
+
