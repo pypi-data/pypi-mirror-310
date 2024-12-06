@@ -1,0 +1,13 @@
+dafin/__init__.py,sha256=qRAveRn5QtPoXfAfptaVA2fCononmXztCka2WTj84wg,116
+dafin/performance.py,sha256=LxUuKfANQVuK0UEdxJuZZz061-NA4TS8iVCpaPu4NxE,9137
+dafin/plot.py,sha256=9sg2OfKzFhxAXey7I8YEOSWmjQ66pPJOVG23EYZQOWM,12186
+dafin/returns_data.py,sha256=EeQggTmNKmA05dHiBYzfjtqbr_dJKzCIvwuSly04haI,4352
+dafin/utils.py,sha256=C08wQT70scPlq8R0cs1GUSq0e-EAqa8kROgil3rrF7c,8657
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_performance.py,sha256=FvlNTIjt_H5aC2U-8RWZzWMUXmk67rx3qLiPuhC6gU8,1054
+tests/test_returns_data.py,sha256=NQu2w8YM4v0M8HDJjyWimoiznN4SMgSecMPT6cYvs6o,605
+tests/utils.py,sha256=z42XFUjnjY8rd58LqixRgNJG59jDVIizeF6mloJPw3U,1052
+dafin-0.0.3.dist-info/METADATA,sha256=Vsqm335jqcfihbn6MqBvy9zhHlfCSYhKq5OhHYE1Q1Q,4982
+dafin-0.0.3.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+dafin-0.0.3.dist-info/top_level.txt,sha256=x_NtKeNIT4dw57YRkk3Z8RJi-7lkJdWyeevz0z8i_-4,12
+dafin-0.0.3.dist-info/RECORD,,
