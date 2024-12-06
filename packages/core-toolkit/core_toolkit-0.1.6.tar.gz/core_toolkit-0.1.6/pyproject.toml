@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "core-toolkit"
+version = "0.1.06"
+description = ""
+authors = ["kras"]
+readme = "README.md"
+packages = [{include = "core_kit", from = "."}]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = {extras = ["asyncpg"], version = "^2.0.36"}
+asyncpg = {extras = ["typed"], version = "^0.30.0"}
+pydantic-settings = "^2.6.1"
+pydantic = "^2.10.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-asyncio = "^0.24.0"
+mypy = "^1.13.0"
+ruff = "^0.7.4"
+twine = "^5.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry-exec-plugin.commands]
+test = "pytest -s -vv --capture=tee-sys" #FIXME add tests
+lint = """
+    poetry run ruff check --fix \
+    && poetry run ruff format \
+    && poetry run mypy .
+"""
+# for local development
+check = "ruff check --fix && ruff format ; mypy . && pytest -s -vv"
