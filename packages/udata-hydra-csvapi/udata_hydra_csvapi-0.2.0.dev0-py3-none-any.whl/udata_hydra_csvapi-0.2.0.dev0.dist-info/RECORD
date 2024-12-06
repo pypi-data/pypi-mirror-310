@@ -1,0 +1,10 @@
+api_tabular/__init__.py,sha256=rR0fk6CyeH1OV0wQEYpawyB4XKYhnlLn3pH8f4TQ_PQ,1550
+api_tabular/app.py,sha256=2Z6IwOORI7UD4lfLjPDX2zztENjK8jobpE7EBuv73AQ,5846
+api_tabular/config_default.toml,sha256=tq43_ozdsDCph8Z_yMDupqfh-uB3p0cXm9E7Nc4tXWA,188
+api_tabular/error.py,sha256=xRt6fkQfsiupv0tWWzdX0DJjAKbw1n0tRxFyt15VBLA,1062
+api_tabular/metrics.py,sha256=pN2c4bZbHzjZz4v0nMyooqjzr65RoIh8-5RPjXCcYU8,5010
+api_tabular/query.py,sha256=8G6kdvc042s8XD2eE4-43pc-GDJxlLiMN97Kf8Ka07M,2014
+api_tabular/utils.py,sha256=PAoK5aEstYBgviX4he6LtXhvCJQWj70Xpx4X3d8aByQ,12881
+udata_hydra_csvapi-0.2.0.dev0.dist-info/METADATA,sha256=aQkKqANC-nfdiCpa5f2So5xrCvei4jstOYdQENIKJHY,5345
+udata_hydra_csvapi-0.2.0.dev0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+udata_hydra_csvapi-0.2.0.dev0.dist-info/RECORD,,
