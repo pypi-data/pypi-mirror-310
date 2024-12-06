@@ -1,0 +1,5 @@
+krec_py-0.1.0.dist-info/METADATA,sha256=lHHnb5kwDRzBuCd_ElBNNQEjbIAZ33uVzmTfbO6yCPU,51
+krec_py-0.1.0.dist-info/WHEEL,sha256=L6qSlh4VYN2pmwz8IhUq1MSZbGBrRAESARmvB6uaY1U,106
+krec/__init__.py,sha256=JL3u4nloRTbNGeIWdOmHz-cxIUnhg2-L-cfQ7-QolMk,99
+krec/krec.cpython-38-x86_64-linux-gnu.so,sha256=Hw17EY6colnFbMaVwrQ-6BwK8SQAD1iswdSmL4-vWUI,4399368
+krec_py-0.1.0.dist-info/RECORD,,
