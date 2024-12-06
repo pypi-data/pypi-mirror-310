@@ -1,0 +1,12 @@
+README.md
+setup.py
+joke_gen/__init__.py
+joke_gen/jokes.py
+joke_gen/translator.py
+joke_gen.egg-info/PKG-INFO
+joke_gen.egg-info/SOURCES.txt
+joke_gen.egg-info/dependency_links.txt
+joke_gen.egg-info/requires.txt
+joke_gen.egg-info/top_level.txt
+tests/__init__.py
+tests/test_jokes.py
