@@ -1,0 +1,9 @@
+pyproject.toml
+readme.md
+src/dkdc_util/__init__.py
+src/dkdc_util/main.py
+src/dkdc_util.egg-info/PKG-INFO
+src/dkdc_util.egg-info/SOURCES.txt
+src/dkdc_util.egg-info/dependency_links.txt
+src/dkdc_util.egg-info/requires.txt
+src/dkdc_util.egg-info/top_level.txt

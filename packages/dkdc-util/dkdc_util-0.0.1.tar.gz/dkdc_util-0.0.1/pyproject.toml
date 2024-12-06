@@ -1,0 +1,21 @@
+[project]
+name = "dkdc-util"
+version = "0.0.1"
+authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
+description = "utility functions"
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ['python-dotenv']
+
+[project.optional-dependencies]
+dev = ["ruff", "ipython", "jupyter", "nbclient", "ipykernel"]
+test = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/dkdc-io/dkdc-util"
+"Bug Tracker" = "https://github.com/dkdc-io/dkdc-util/issues"
