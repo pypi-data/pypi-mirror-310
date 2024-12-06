@@ -1,0 +1,60 @@
+Metadata-Version: 2.3
+Name: jupyterlite-clojure-kernel-canary
+Version: 0.1.0
+Summary: A Clojure Kernel for JupyterLite using `sci`
+Project-URL: Source, https://github.com/bencode/jupyterlite-clojure-kernel
+Author-email: bencode <bencode@163.com>
+License: MIT
+Keywords: clojure,jupyter,jupyterlab,jupyterlite
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 4
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Requires-Dist: jupyterlite-core<0.5.0,>=0.4.0
+Description-Content-Type: text/markdown
+
+# JupyterLite Clojure Kernel
+
+A Clojure kernel for JupyterLite powered by sci (Small Clojure Interpreter), enabling Clojure code execution directly in the browser.
+
+## Features
+
+- Browser-based Clojure REPL
+- No server-side dependencies
+- Core Clojure functions support
+- Data structure manipulation
+- Interactive code evaluation
+
+## Installation
+
+```bash
+pip install jupyterlite-clojure-kernel-canary
+```
+
+## Usage
+
+1. Install JupyterLite
+2. Add the Clojure kernel
+3. Create a new notebook with Clojure kernel
+
+## Examples
+
+```clojure
+;; Basic calculations
+(+ 1 2 3)
+
+;; Define functions
+(defn square [x] (* x x))
+
+;; Data structures
+(def data {:name "Alice" :scores [98 92 85]})
+```
+
+## Development
+
+See [GitHub repository](https://github.com/bencode/jupyterlite-clojure-kernel) for development instructions.
+
+## License
+
+MIT
