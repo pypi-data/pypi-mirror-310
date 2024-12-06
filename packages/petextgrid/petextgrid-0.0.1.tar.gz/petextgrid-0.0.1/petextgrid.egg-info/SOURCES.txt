@@ -1,0 +1,11 @@
+AUTHORS
+LICENSE
+README.md
+setup.py
+petextgrid.egg-info/PKG-INFO
+petextgrid.egg-info/SOURCES.txt
+petextgrid.egg-info/dependency_links.txt
+petextgrid.egg-info/top_level.txt
+textgrid/__init__.py
+textgrid/exceptions.py
+textgrid/textgrid.py
