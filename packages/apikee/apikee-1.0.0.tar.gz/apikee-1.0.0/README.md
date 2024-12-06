@@ -1,0 +1,102 @@
+# ApiKee Python
+
+ApiKee is a lightweight and easy-to-use library for managing and securing your FastAPI endpoints. Whether you want to validate API keys locally or via a server, ApiKee ensures smooth integration with minimal configuration.
+
+---
+
+## **Table of Contents**
+
+1. [Concept Overview](#concept-overview)
+2. [Installation](#installation)
+3. [Usage](#usage)
+   - [Local Validation](#1-local-validation)
+   - [Server Validation](#2-server-validation)
+4. [Server Validation Options](#server-validation-options)
+   - [Build Your Own Server](#1-build-your-own-server)
+   - [Use ApiKee Premium Server](#2-use-apikee-premium-server)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+---
+
+## **Concept Overview**
+
+ApiKee provides two modes of operation:
+1. **Local Validation**: Validate API keys locally by comparing them to a predefined key.
+2. **Server Validation**: Send API keys to a server for validation and handle responses.
+
+---
+
+## **Installation**
+
+Install ApiKee using pip:
+```bash
+pip install apikee
+```
+
+---
+
+## **Usage**
+
+### **1. Local Validation**
+```python
+from fastapi import FastAPI, Request
+from apikee.config import config
+from apikee.decorators import apikey
+
+app = FastAPI()
+
+# Set your local API key
+config.local_key = "my-local-api-key"
+
+@app.get("/local-protected")
+@apikey()
+async def local_protected_endpoint(request: Request):
+    return {"message": "Local validation successful"}
+```
+
+### **2. Server Validation**
+```python
+from fastapi import FastAPI, Request
+from apikee.config import config
+from apikee.decorators import apikey
+
+app = FastAPI()
+
+# Configure server validation
+config.server_key = "my-server-key"
+config.server_url = "https://premium.apikee.com"
+config.project_id = "my-project-id"
+config.environment = "staging"
+
+@app.get("/server-protected")
+@apikey(endpoint_id="endpoint-id")
+async def server_protected_endpoint(request: Request):
+    return {"message": "Server validation successful"}
+```
+
+---
+
+## **Server Validation Options**
+
+### **1. Build Your Own Server**
+You can create your own validation server by following the specifications provided in the [ApiKee API Documentation](https://api.yourdocumentation.com).
+
+### **2. Use ApiKee Premium Server**
+Use the pre-built ApiKee server available at [apikee.com](https://apikee.com) to handle validation, analytics, and centralized key management.
+
+---
+
+## **Contributing**
+
+Contributions are welcome! Follow the standard fork-branch-PR model to contribute. For detailed instructions, check the [GitHub repository](https://github.com/your-repo-link).
+
+---
+
+## **License**
+
+This library is open-source and released under the MIT License. 
+- **Note**: The open-source license applies only to the library.
+- For server validation, you must either:
+  - Build your own server respecting the ApiKee specifications.
+  - Use the paid ApiKee server at [apikee.com](https://apikee.com).
