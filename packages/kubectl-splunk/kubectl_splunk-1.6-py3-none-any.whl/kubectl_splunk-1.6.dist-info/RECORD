@@ -1,0 +1,9 @@
+kubectl_splunk/__init__.py,sha256=nJ1Y4cfEyD1jhvitQq_mOEShwl5HiPRLxlmoZpeOITw,129
+kubectl_splunk/main.py,sha256=tJGPY9sC6y88qwXYDeLarVa6sn2EqQ_bjWxWesnHMcs,17362
+tests/__init__.py,sha256=B1NYRhHWt8JO31gDk_jqRyhebm8kD-Vx9zBomeQwpM4,110
+tests/test_kubectl_splunk.py,sha256=FnYkFfxo00Oa88iRPSNxIykKcEwslcoZEe5yLBYtjgY,14928
+kubectl_splunk-1.6.dist-info/METADATA,sha256=ArrnGl7HbDInR_NOUKAR6vZsnf5eZmH80dMz12ImlrA,424
+kubectl_splunk-1.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+kubectl_splunk-1.6.dist-info/entry_points.txt,sha256=2TH3WsYCIXPJ-k3UVTLSwyZcv9AXeucd1ooh9ttKkSc,60
+kubectl_splunk-1.6.dist-info/top_level.txt,sha256=Io0L33p3r2MAQy1LHJ4JThehd9PS_cnvV4xpWhXfMok,21
+kubectl_splunk-1.6.dist-info/RECORD,,
