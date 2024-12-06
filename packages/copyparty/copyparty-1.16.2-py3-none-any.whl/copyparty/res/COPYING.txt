@@ -1,0 +1,95 @@
+                        [07m--- server-side --- software ---[0m
+
+https://github.com/9001/copyparty/
+Copyright (c) 2019 ed
+License: MIT
+
+https://github.com/pallets/jinja/
+Copyright (c) 2007 Pallets
+License: BSD 3-Clause
+
+https://github.com/pallets/markupsafe/
+Copyright (c) 2010 Pallets
+License: BSD 3-Clause
+
+https://github.com/paulc/dnslib/
+Copyright (c) 2010-2017 Paul Chakravarti
+License: BSD 2-Clause
+
+https://github.com/pydron/ifaddr/
+Copyright (c) 2014 Stefan C. Mueller
+License: BSD-2-Clause
+
+https://github.com/giampaolo/pyftpdlib/
+Copyright (c) 2007 Giampaolo Rodola
+License: MIT
+
+https://github.com/9001/partftpy
+Copyright (c) 2010-2021 Michael P. Soulier
+License: MIT
+
+https://github.com/nayuki/QR-Code-generator/
+Copyright (c) Project Nayuki
+License: MIT
+
+https://github.com/ahupp/python-magic/
+Copyright (c) 2001-2014 Adam Hupp
+License: MIT
+
+                        [07m--- client-side --- software ---[0m
+
+https://github.com/Daninet/hash-wasm/
+Copyright (c) 2020 Dani Biró
+License: MIT
+
+https://github.com/openpgpjs/asmcrypto.js/
+Copyright (c) 2013 Artem S Vybornov
+License: MIT
+
+https://github.com/feimosi/baguetteBox.js/
+Copyright (c) 2017 Marek Grzybek
+License: MIT
+
+https://github.com/markedjs/marked/
+Copyright (c) 2018+, MarkedJS
+Copyright (c) 2011-2018, Christopher Jeffrey (https://github.com/chjj/)
+License: MIT
+
+https://github.com/codemirror/codemirror5/
+Copyright (c) 2017 Marijn Haverbeke <marijnh@gmail.com> and others
+License: MIT
+
+https://github.com/Ionaru/easy-markdown-editor/
+Copyright (c) 2015 Sparksuite, Inc.
+Copyright (c) 2017 Jeroen Akkerman.
+License: MIT
+
+                         [07m--- client-side --- fonts ---[0m
+
+https://github.com/adobe-fonts/source-code-pro/
+Copyright (c) 2010-2019 Adobe
+License: SIL OFL 1.1
+
+https://github.com/FortAwesome/Font-Awesome/
+Copyright (c) 2022 Fonticons, Inc.
+License: SIL OFL 1.1
+
+
+                              [07m--- MIT License ---[0m
+
+
+
+                              [07m--- ISC License ---[0m
+
+
+
+                          [07m--- BSD 2-Clause License ---[0m
+
+
+
+                          [07m--- BSD 3-Clause License ---[0m
+
+
+
+                       [07m--- SIL Open Font License v1.1 ---[0m
+
