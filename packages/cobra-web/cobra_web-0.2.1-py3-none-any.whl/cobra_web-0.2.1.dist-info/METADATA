@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cobra_web
+Version: 0.2.1
+Summary: Librería para automatizar la creación de sitios web con Django y estilos personalizados.
+Home-page: https://github.com/Alphonsus411/cobra_web
+Author: Adolfo González Hernández
+Author-email: adolfogonzal@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.md
+Requires-Dist: Django>=3.2
+Requires-Dist: Sphinx
+Requires-Dist: PyScss
