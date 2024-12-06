@@ -1,0 +1,2 @@
+[console_scripts]
+fftai_dds_bridge = robot_control.bin.fftai_dds_bridge_wrapper:main
