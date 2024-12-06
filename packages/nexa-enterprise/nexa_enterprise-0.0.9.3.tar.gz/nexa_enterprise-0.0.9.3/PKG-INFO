@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nexa_enterprise
+Version: 0.0.9.3
+Summary: Nexa AI SDK for Enterprise
+Author-Email: Nexa AI <octopus@nexa4ai.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://github.com/NexaAI/nexa-sdk-enterprise
+Requires-Dist: cmake
+Requires-Dist: faster_whisper
+Requires-Dist: typing-extensions>=4.5.0
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: diskcache>=5.6.1
+Requires-Dist: jinja2>=2.11.3
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: huggingface_hub
+Requires-Dist: prompt_toolkit
+Requires-Dist: tqdm
+Requires-Dist: tabulate
+Requires-Dist: python-multipart
+Requires-Dist: cmake
+Description-Content-Type: text/markdown
+
+# Nexa-SDK-Enterprise
+Enterprise SDK for Nexa AI's model serving on edge devices.
+
+## Unit Tests
+```
+python -m tests.test_text_generation
+python -m tests.test_disk_kv_cache
+```
