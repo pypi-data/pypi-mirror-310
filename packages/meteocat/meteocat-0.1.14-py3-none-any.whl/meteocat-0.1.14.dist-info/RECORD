@@ -1,0 +1,14 @@
+meteocat/__init__.py,sha256=quL17jFRqxaxKNjm9jdKRzdmr3fk232HeAdrWQx9cqw,3751
+meteocat/config_flow.py,sha256=8xLegZoBa6s2hwy_D4-eEmVpeSpHP5kHd-R1UQd2VdQ,6030
+meteocat/const.py,sha256=_M7rGT1gOvYVH40Zo8oSwb_Qc8FQGX5Y6YyoQq__R-A,102
+meteocat/manifest.json,sha256=uHcXREDDeDNz073q1DzPorSsJtLhTrdvXPyEaDI9zkQ,364
+meteocat/strings.json,sha256=i-bo_lUB8JrQEoi2RICOD8B_Hpx6ZbmKJmVD2_yMm-M,1271
+meteocat/translations/ca.json,sha256=Q_T3nyGSQqB8r_WekeNML38JIAB4R0sGxM__mbtgaMg,1386
+meteocat/translations/en.json,sha256=i-bo_lUB8JrQEoi2RICOD8B_Hpx6ZbmKJmVD2_yMm-M,1271
+meteocat/translations/es.json,sha256=OGRjeVMnineYn0QsCDzPDUHUXI7XUJSVUHxTVJA1J9s,1374
+meteocat/version.py,sha256=ukBOQkk7QduHZk9YXrdZxZis2d1cVZkKHQNmOFWQxkk,36
+meteocat-0.1.14.dist-info/AUTHORS.md,sha256=2ADkuS50Y4zXuy8P-__VTV2-GQ0XQpUvUrxAEQRa-Bo,239
+meteocat-0.1.14.dist-info/LICENSE,sha256=Lh-qBbuRV0-jiCIBhfV7NgdwFxQFOXH3BKOzK865hRs,10480
+meteocat-0.1.14.dist-info/METADATA,sha256=a2oiDSJ8g06Fd4DBDHcK8QCVQvD71zawBCQWY_gV-V0,2517
+meteocat-0.1.14.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+meteocat-0.1.14.dist-info/RECORD,,
