@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MetaMorphic
+Version: 0.0.20
+Summary: UNKNOWN
+Home-page: https://github.com/leechaeeyoung/Fc
+Author: fourchains_R&D
+Author-email: fourchainsrd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
