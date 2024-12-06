@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: 3d_bin_packer
+Version: 0.0.1
+Summary: 3D Bin Packing Library, Useful for Container Loading Problem (CLP)
+Author-email: Vijay Singh Kushwaha <vijaysinghkushwaha3737@gmail.com>
+Project-URL: Homepage, https://github.com/h3110Fr13nd/3d_bin_packing
+Project-URL: Issues, https://github.com/h3110Fr13nd/3d_bin_packing/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Simple 3D Bin Packing
