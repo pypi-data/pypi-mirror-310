@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+fast_sufsd.egg-info/PKG-INFO
+fast_sufsd.egg-info/SOURCES.txt
+fast_sufsd.egg-info/dependency_links.txt
+fast_sufsd.egg-info/requires.txt
+fast_sufsd.egg-info/top_level.txt
+sufsd/By.py
+sufsd/__init__.py
+sufsd/log.py
+sufsd/utils.py
