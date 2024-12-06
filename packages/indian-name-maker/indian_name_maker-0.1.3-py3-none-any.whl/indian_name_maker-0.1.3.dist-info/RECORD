@@ -1,0 +1,12 @@
+indian_name_maker/__init__.py,sha256=dW2j-eUMC9W4--U-h7RX9qqsTUrHDmxKeiDlJog0e3w,331
+indian_name_maker/generator.py,sha256=HAVtK8N15FscbZe33fa3a0CdZwIFV_vIvdJWOpANeFQ,1037
+indian_name_maker/main.py,sha256=FELXaQ-mAozPkiRiTlqYv8tWGAb_AvhsWfZksD9tkeE,1992
+indian_name_maker/name_generator.py,sha256=FqLGDbLkQmET9zHLnclDpDjhvGueThw2mbzXbK8OneQ,3672
+indian_name_maker/data/first_names.csv,sha256=Fy5iQC4D4GClIfWRAwiAhXSHxVkIQUMgwu35-TAs3Q4,11455
+indian_name_maker/data/last_names.csv,sha256=visHMsyMPdpfG2Zn_iJi-5AvUj91mk0yc47vxGg4xc4,5795
+indian_name_maker-0.1.3.dist-info/LICENSE,sha256=NHIMgKU04DHMVXeBzjWPwIWB39MFZOEPfqE3UCGPB00,1416
+indian_name_maker-0.1.3.dist-info/METADATA,sha256=EATUNS4jlsdQTigmssKRVmcF9zY2YZcPJkwonAuCaNk,3301
+indian_name_maker-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+indian_name_maker-0.1.3.dist-info/entry_points.txt,sha256=KKnnT1eG_z6qWjh19G3rRYK7JrwsSWgEQdoF2qGso9w,66
+indian_name_maker-0.1.3.dist-info/top_level.txt,sha256=QdIyuFjTsu7j-ioBjmbRvxiCAhmRZ74AYpU_jQ7r83g,18
+indian_name_maker-0.1.3.dist-info/RECORD,,
