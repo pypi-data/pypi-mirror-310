@@ -1,0 +1,9 @@
+http_request/__init__.py,sha256=T-leVr9RKbYJ1IIq1Cg953HsBjkaNnFnwezUWWuWWMA,1101
+http_request/proxy.py,sha256=gR9S8l5MuUR7jso-2vie3D5LRuciLLBO0woYcTvaa3Y,500
+syntax/__init__.py,sha256=gdw1truBtcXXC9s-VoelLSJpqbyQX2qtACpQ4h7EdhY,468
+syntax/format.py,sha256=Cpb2EPT7_oFpa2L26bdC5lAX-AgcXdOgiVjZGvvu_f0,233
+syntax/fs.py,sha256=L16XevFbB_dM7zFEW8ufNR_3_eA2xHPlpg7o8J7HRbM,707
+davidkhala_utils-0.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+davidkhala_utils-0.0.3.dist-info/METADATA,sha256=J2uO99OzMcmLtrQmBC0ntPDmlt-Fk3DhApi7vkDSJac,362
+davidkhala_utils-0.0.3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+davidkhala_utils-0.0.3.dist-info/RECORD,,
