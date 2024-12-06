@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: getffff
+Version: 1.0.0
+Summary: A simple CLI tool to display the contents of /flag
+Home-page: https://github.com/your_username/getffff
+Author: Your Name
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# getflaginroot
+
+A simple Python module that runs `cat /flag` using `os.system`.
+
+## Installation
+
+```bash
+pip install getflaginroot
