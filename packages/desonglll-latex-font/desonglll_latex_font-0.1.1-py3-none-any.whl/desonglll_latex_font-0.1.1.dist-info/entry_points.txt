@@ -1,0 +1,2 @@
+[console_scripts]
+desonglll_latex_font = desonglll_latex_font.desonglll_latex_font:main
