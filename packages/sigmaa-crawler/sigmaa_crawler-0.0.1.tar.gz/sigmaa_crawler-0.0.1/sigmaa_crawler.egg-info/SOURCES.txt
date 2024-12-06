@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sigmaa-crawler/__init__.py
+sigmaa-crawler/models.py
+sigmaa_crawler.egg-info/PKG-INFO
+sigmaa_crawler.egg-info/SOURCES.txt
+sigmaa_crawler.egg-info/dependency_links.txt
+sigmaa_crawler.egg-info/requires.txt
+sigmaa_crawler.egg-info/top_level.txt
