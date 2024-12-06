@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cltl.mention-detection
+Version: 0.0.dev1
+Summary: Template component for Leolani
+Home-page: https://github.com/leolani/cltl-mention-detection
+Author: CLTL
+Author-email: t.baier@vu.nl
+License: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cltl.combot
+Provides-Extra: impl
+Requires-Dist: numpy; extra == "impl"
+Requires-Dist: spacy; extra == "impl"
+Provides-Extra: service
+Requires-Dist: cltl.face-recognition; extra == "service"
+Requires-Dist: cltl.object-recognition; extra == "service"
+Requires-Dist: cltl.emotionrecognition; extra == "service"
+Requires-Dist: cltl.brain; extra == "service"
+Requires-Dist: emissor; extra == "service"
+Requires-Dist: flask; extra == "service"
+
+# cltl-mention-detection
+Detects mentions of people, places and things in text  signals and stores these as annotations in EMISSOR format.
+
+
