@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/emlineclipper/__init__.py
+src/emlineclipper/emclip.py
+src/emlineclipper.egg-info/PKG-INFO
+src/emlineclipper.egg-info/SOURCES.txt
+src/emlineclipper.egg-info/dependency_links.txt
+src/emlineclipper.egg-info/requires.txt
+src/emlineclipper.egg-info/top_level.txt
