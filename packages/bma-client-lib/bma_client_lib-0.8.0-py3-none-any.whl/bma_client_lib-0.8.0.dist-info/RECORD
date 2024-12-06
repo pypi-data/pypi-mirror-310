@@ -1,0 +1,9 @@
+bma_client_lib/__init__.py,sha256=em9rNA4WwQo5qML0oXSADXtMv6zUhNUYv9iwnXnwDCQ,86
+bma_client_lib/bma_client.py,sha256=thIHBJVRnFcyRnyKQek6PpdLRnsk6VezjsBkVCK-K3s,16626
+bma_client_lib/datastructures.py,sha256=CxW0C94B0TTTLZIbIUBVTt6Mmo-wUnnpJCGADrH4_3M,1962
+bma_client_lib/pillow_resize_and_crop.py,sha256=cBn3a2AwHMG6siacFnDg9_nVsSoSwv_lNF9pk092h5I,2756
+bma_client_lib-0.8.0.dist-info/LICENSE,sha256=g5l_jJGyKwtLOrhRXeviul4FV8az-aY34o0_VUR4t44,1495
+bma_client_lib-0.8.0.dist-info/METADATA,sha256=sLoA63l8G63KCFylSerScYf_YDe3Z5XF4NV6wHEO-yg,1038
+bma_client_lib-0.8.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bma_client_lib-0.8.0.dist-info/top_level.txt,sha256=_7uCPv5XA3JcNf6oCkysk66eFZo578GYKhouusVLVMA,15
+bma_client_lib-0.8.0.dist-info/RECORD,,
