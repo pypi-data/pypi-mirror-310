@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: qadence2-ir
+Version: 0.1.3
+Summary: Qadence 2 Intermediate Representation (IR) components.
+Project-URL: Issues, https://github.com/pasqal-io/qadence2-ir/issues
+Project-URL: Source, https://github.com/pasqal-io/qadence2-ir
+Author-email: Kaonan Micadei <kaonan.micadei@pasqal.com>, Eduardo Maschio <eduardo.maschio@pasqal.com>, Roland Guichard <roland.guichard@pasqal.com>, Pim Venderbosch <pim.venderbosch@pasqal.com>
+License: Apache 2.0
+Keywords: quantum
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Provides-Extra: extras
+Description-Content-Type: text/markdown
+
+# Qadence 2 IR
+
+Qadence 2 Intermediate Representation (IR) components.
+
+## Installation
+Installation guidelines
+
+## Usage
+Usage guidelines
+
+## Documentation
+Documentation guidelines
+
+## Contribute
+Contribution guidelines
