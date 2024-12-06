@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: markdown-equations-fixer
+Version: 1.0.0
+Summary: A CLI tool to fix mathematical equations in markdown files
+Home-page: https://github.com/vs15vivek/markdown-equations-fixer
+Author: Vivek Singh
+Author-email: vs15vivek@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=10.0.0
+
+Here's a concise but complete README.md for your project:
+
+```markdown:README.md
+# Markdown Equations Fixer
+
+A command-line tool that converts LaTeX-style mathematical equations (`\[...\]`) to proper markdown format (`$$...$$`) in your markdown files.
+
+## Installation
+
+```bash
+pip install markdown-equations-fixer
+```
+
+## Usage
+
+Basic usage:
+```bash
+meq-fixer fix document.md
+```
+
+Multiple files:
+```bash
+meq-fixer fix file1.md file2.md docs/
+```
+
+### Options
+
+- `--dry-run`: Preview changes without modifying files
+- `--verbose`, `-v`: Show detailed progress
+- `--recursive`, `-r`: Process directories recursively
+
+### Examples
+
+Process a directory recursively:
+```bash
+meq-fixer fix -r ./docs/
+```
+
+Preview changes:
+```bash
+meq-fixer fix --dry-run thesis.md
+```
+
+## Features
+
+- Converts `\[...\]` to `$$...$$` format
+- Handles single-line and multi-line equations
+- Supports recursive directory processing
+- Dry-run mode for safe testing
+- Rich console output with progress tracking
+
+## Requirements
+
+- Python 3.7+
+- click>=8.0.0
+- rich>=10.0.0
+
+## License
+
+MIT License - See [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Issues and pull requests are welcome on [GitHub](https://github.com/vs15vivek/markdown-equation-fixer).
+```
