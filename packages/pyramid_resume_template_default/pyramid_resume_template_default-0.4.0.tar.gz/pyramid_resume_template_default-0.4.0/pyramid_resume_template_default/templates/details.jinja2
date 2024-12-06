@@ -1,0 +1,88 @@
+<h2 class="EmploymentHistory">Experience</h2>
+{% for employer in employers %}
+    <div class="EmployerOrg EmployerOrg-Section">
+        <h3>
+        {% if employer.date %}
+        <span class="EmployerDates">
+            <span class="StringDate">{{ employer.date.start }}</span> – <span
+                class="StringDate">{{ employer.date.end }}</span>
+        {% endif %}
+        </span>
+            <span class="EmployerOrgName">{{ employer.name }}</span>
+            <span class="PostalAddress"><span class="Municipality">{{ employer.city }}</span>, <span
+                    class="Region">{{ employer.state }}</span>
+        </span>
+        </h3>
+        {% for position in employer.positions %}
+        <div class="PositionHistory">
+            <h4>
+                {% if position.date %}
+                <span class="PositionDates">
+                    <span class="StringDate">{{ position.date.start }}</span> – <span
+                        class="StringDate">{{ position.date.end }}</span>
+                </span>
+                {% endif %}
+                <span class="Title">{{ position.title }}</span>
+            </h4>
+            {% if position.description %}
+            <p><span class="Description">{{ position.description }}</span></p>
+            {% endif %}
+            <ul>
+                {% for bullet in position.bullets %}
+                    <li>{{ bullet }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+<h2 class="EmploymentHistory">Other Work</h2>
+{% for side_hussle in other_work %}
+    <div class="EmployerOrg EmployerOrg-Section">
+        <h3>
+        {% if side_hussle.date %}
+        <span class="EmployerDates">
+            <span class="StringDate">{{ side_hussle.date.start }}</span> – <span
+                class="StringDate">{{ side_hussle.date.end }}</span>
+        {% endif %}
+        </span>
+            <span class="EmployerOrgName">{{ side_hussle.name }}</span>
+            <span class="PostalAddress"><span class="Municipality">{{ side_hussle.city }}</span>, <span
+                    class="Region">{{ side_hussle.state }}</span>
+        </span>
+        </h3>
+        {% for position in side_hussle.positions %}
+        <div class="PositionHistory">
+            <h4>
+                {% if position.date %}
+                <span class="PositionDates">
+                    <span class="StringDate">{{ position.date.start }}</span> – <span
+                        class="StringDate">{{ position.date.end }}</span>
+                </span>
+                {% endif %}
+                <span class="Title">{{ position.title }}</span>
+            </h4>
+            {% if position.description %}
+            <p><span class="Description">{{ position.description }}</span></p>
+            {% endif %}
+            <ul>
+                {% for bullet in position.bullets %}
+                    <li>{{ bullet }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+<h2 class="EducationHistory">Education</h2>
+{% for education in educations %}
+<div class="Degree">
+    <h3><span class="DegreeDate"><span class="StringDate">{{ education.degree_date }}</span></span><span
+            class="DegreeName">{{ education.degree_name }}</span>, <span
+            class="Name">{{ education.degree_concentration }}</span></h3><a
+        href="{{ education.institution_url }}" onclick="window.open(this.href);return false;"><span
+        class="SchoolName">{{ education.institution_name }}</span></a>, <span
+        class="Municipality">{{ education.institution_city }}</span>, <span
+        class="Region">{{ education.institution_state }}</span>
+</div>
+{% endfor %}

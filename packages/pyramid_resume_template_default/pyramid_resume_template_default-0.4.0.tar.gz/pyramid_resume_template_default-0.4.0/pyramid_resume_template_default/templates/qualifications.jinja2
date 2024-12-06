@@ -1,0 +1,38 @@
+<table class="qualification-table">
+<tr class="qualification-row">
+{% for qualification in qualifications[0:qualification_row_length] %}
+   <td class="qualification-cell">
+       <table class="qualification-sub-table">
+           <tr class="qualification-sub-row">
+               <td class="qualification-sub-cell-icon">
+                   <i class="{{ qualification.icon }}"></i>
+               </td>
+           </tr>
+           <tr class="qualification-sub-row">
+               <td class="qualification-sub-cell-name">
+                   <p class="text-left">{{ qualification.name }}</p>
+               </td>
+           </tr>
+       </table>
+   </td>
+{% endfor %}
+</tr>
+<tr class="qualification-row">
+{% for qualification in qualifications[qualification_row_length:] %}
+   <td class="qualification-cell">
+       <table class="qualification-sub-table">
+           <tr class="qualification-sub-row">
+               <td class="qualification-sub-cell-icon">
+                   <i class="{{ qualification.icon }}"></i>
+               </td>
+           </tr>
+           <tr class="qualification-sub-row">
+               <td class="qualification-sub-cell-name">
+                   <p class="text-left">{{ qualification.name }}</p>
+               </td>
+           </tr>
+       </table>
+   </td>
+{% endfor %}
+</tr>
+</table>
