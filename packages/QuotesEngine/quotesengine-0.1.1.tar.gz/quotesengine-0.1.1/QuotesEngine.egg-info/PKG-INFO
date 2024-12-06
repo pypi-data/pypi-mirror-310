@@ -1,0 +1,249 @@
+Metadata-Version: 2.1
+Name: QuotesEngine
+Version: 0.1.1
+Summary: A Python library to generate some motivation quotes.
+Author: Sridhar
+Author-email: sridharansri2312@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# My Library
+
+A sample Python library.
+
+## Installation
+
+To install this library, run the following command:
+
+```bash
+pip install my_library
+
+
+
+
+# Create Python Module Guide
+November 12, 2024
+This conversation may reflect the link creatorâ€™s personalized data, which isnâ€™t shared and can meaningfully change how the model responds.
+
+## Step 1: Create Your Python Module/Library
+Project Structure: Start by organizing your project into a folder structure like this:
+
+```markdown
+my_library/
+â”œâ”€â”€ my_library/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ core.py
+â”‚   â””â”€â”€ utils.py
+â”œâ”€â”€ tests/
+â”‚   â””â”€â”€ test_core.py
+â”œâ”€â”€ README.md
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ setup.py
+â”œâ”€â”€ pyproject.toml
+â””â”€â”€ requirements.txt
+```
+
+my_library/: Contains your main package code.
+tests/: Holds your test files.
+README.md: Contains documentation for your project.
+LICENSE: Specifies the license type (e.g., MIT License).
+setup.py: Provides metadata and instructions to package your module.
+pyproject.toml: Defines build system requirements (e.g., setuptools).
+requirements.txt: Lists dependencies your package needs.
+
+### Step 2: Write Your Python Code
+Create a Python module (e.g., core.py) with functions or classes you want to package.
+
+```python
+# my_library/core.py
+def greet(name):
+    return f"Hello, {name}!"
+```
+
+### Step 3: Add an __init__.py File
+This file makes your directory a package. You can import your functions here if needed.
+
+```python
+# my_library/__init__.py
+from .core import greet
+```
+
+### Step 4: Write Tests
+Testing ensures that your code works as expected.
+
+```python
+# tests/test_core.py
+from my_library.core import greet
+
+def test_greet():
+    assert greet("Sridhar") == "Hello, Sridhar!"
+```
+
+Run your tests using a tool like pytest:
+
+```bash
+pip install pytest
+pytest
+```
+
+### Step 5: Create setup.py
+This file is used to define your package metadata.
+
+```python
+from setuptools import setup, find_packages
+
+setup(
+    name="my_library",
+    version="0.1.0",
+    description="A sample Python library",
+    author="Sridhar",
+    author_email="your_email@example.com",
+    url="https://github.com/your_username/my_library",
+    packages=find_packages(),
+    install_requires=[],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
+)
+```
+
+### Step 6: Create pyproject.toml
+This file tells Python which build system to use.
+
+
+```toml
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+```
+
+### Step 7: Create README.md and LICENSE
+README.md: Add documentation, usage examples, etc.
+LICENSE: Include a license file, like the MIT License.
+### Step 7: Create README.md and LICENSE
+
+#### README.md
+```markdown
+# My Library
+
+A sample Python library.
+
+## Installation
+
+To install this library, run the following command:
+
+```bash
+pip install my_library
+```
+
+## Usage
+
+Here's an example of how to use this library:
+
+```python
+from my_library import greet
+print(greet("Sridhar"))
+```
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this library, please fork the repository and submit a pull request.
+
+## License
+
+This library is licensed under the MIT License. See the LICENSE file for more information.
+```
+
+#### LICENSE
+```text
+MIT License
+
+Copyright (c) 2024 Sridhar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### Step 8: Generate Distribution Files
+Now, it's time to package your project.
+
+```bash
+pip install setuptools wheel
+python setup.py sdist bdist_wheel
+```
+
+This will create a dist/ directory with .tar.gz and .whl files.
+
+### Step 9: Upload to PyPI
+Create a PyPI account: If you donâ€™t have one, create an account on PyPI.
+
+Install twine: This tool helps upload your package to PyPI.
+
+```bash
+pip install twine
+```
+
+Upload Your Package:
+
+```bash
+twine upload dist/*
+```
+
+Enter your credentials: Youâ€™ll be prompted for your PyPI username and password.
+
+### Step 10: Test Your Package
+After uploading, you can install your package using:
+
+```bash
+pip install my_library
+```
+
+And test it:
+
+```python
+from my_library import greet
+print(greet("Sridhar"))
+```
+
+### Step 11: Update Your Package
+When making updates, increase the version number in setup.py and pyproject.toml. Rebuild and upload the new version:
+
+```bash
+python setup.py sdist bdist_wheel
+twine upload dist/*
+```
+
+Tips
+Use a virtual environment to avoid conflicts with your system packages:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+Consider using setuptools-scm for automatic versioning if your project is hosted on GitHub.
+
+By following these steps, you can successfully create, test, and publish your own Python module to PyPI. Happy coding, Sridhar!
