@@ -1,0 +1,10 @@
+diematic_server/__init__.py,sha256=6x88lf4OdNwo3VXco6R9xjPRcLbOJByXjYPd7_R2LuI,361
+diematic_server/boiler.py,sha256=DSLu3lo4ZIzcec7aOm4XOm7-jOup79tscVhlvtUiCmk,18185
+diematic_server/diematicd.py,sha256=tkN-iX6FhezkjEAgHjOvwoZIuKQZYxBjsutm9KM5PmI,53770
+diematic_server/filelck.py,sha256=A1Q1bMq3W-rse7qg19Lk2Kc-NzQlTsweRv0R8JeolIY,3601
+diematic_server/webserver.py,sha256=SuiSt_-I93tgSD-CPTsRmNji-iFHYwCPNwu9ZdCRTqA,7976
+diematic_server-3.1.dist-info/LICENSE.txt,sha256=G3MO7JOVl6SNyGA4ako4ALnU5AxQCvfxrhMgy1ZUDy4,1234
+diematic_server-3.1.dist-info/METADATA,sha256=_hYWVwTHhC4CTTgJKR4DSBfDhBOa1f3iqBD8GT8CKUE,7870
+diematic_server-3.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+diematic_server-3.1.dist-info/top_level.txt,sha256=D5GD3L3XdqJczhdjFuoLCRFaCaZQA0ufAuC-7Bo7PNo,16
+diematic_server-3.1.dist-info/RECORD,,
