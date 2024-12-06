@@ -1,0 +1,8 @@
+flask_login_oidc/__init__.py,sha256=7wjaqOI0X6P8NTwTJkbPy1S-8NZ9YVJa34WIGRNtw4E,154
+flask_login_oidc/client.py,sha256=ReuKlYah_SFUiEG-6NuqjSCIvruZ-TIoqiqZWD0zbfU,12873
+flask_login_oidc/user.py,sha256=4NAk2Ga-ppqRpjjwjMHCKQ4swMWBjEiSfszt8qzlVLg,2551
+flask_login_oidc-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+flask_login_oidc-1.0.1.dist-info/METADATA,sha256=MyMdN0Ar9uqrlEF0J3yMQkwk5fzfFS5mGAzE-D4Asy4,45712
+flask_login_oidc-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+flask_login_oidc-1.0.1.dist-info/top_level.txt,sha256=MIok1_hFccMJVOOfMMskOEj99pITti2WnIXz9H600gU,17
+flask_login_oidc-1.0.1.dist-info/RECORD,,
