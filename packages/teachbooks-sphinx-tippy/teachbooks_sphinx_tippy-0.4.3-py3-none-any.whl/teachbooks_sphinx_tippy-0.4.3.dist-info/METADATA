@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: teachbooks_sphinx_tippy
+Version: 0.4.3
+Summary: Get rich tool tips in your sphinx documentation!
+Keywords: sphinx,tooltip,tippy,teachbooks
+Author-email: Dennis den Ouden-van der Horst <d.denouden-vanderhorst@tudelft.nl>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: sphinx>4
+Requires-Dist: beautifulsoup4
+Requires-Dist: jinja2
+Requires-Dist: requests
+Requires-Dist: myst-parser ; extra == "docs"
+Requires-Dist: furo ; extra == "docs"
+Requires-Dist: pytest ; extra == "testing"
+Requires-Dist: sphinx-pytest ; extra == "testing"
+Requires-Dist: pytest-regressions ; extra == "testing"
+Project-URL: Documentation, https://github.com/TeachBooks/teachbooks-sphinx-tippy
+Project-URL: Home, https://github.com/TeachBooks/teachbooks-sphinx-tippy
+Provides-Extra: docs
+Provides-Extra: testing
+
+# TeachBooks Sphinx Tippy
+
+Rich tool tips in your TeachBook!
+
+See the documentation for details (work in progress)
+
