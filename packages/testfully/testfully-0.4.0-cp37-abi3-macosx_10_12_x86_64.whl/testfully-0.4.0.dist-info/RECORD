@@ -1,0 +1,10 @@
+testfully-0.4.0.dist-info/METADATA,sha256=qAEFWSKgW-w196orVkGMOQ8hbmjuMLx3iAnu-hgXm0k,1077
+testfully-0.4.0.dist-info/WHEEL,sha256=9z27gjPslIajoSCAi9IjOV_WaFtcPV7N2a3xT4LxEQY,104
+testfully/validator.py,sha256=eouTVMTeMqU5L1dbuzNu-7Ru0gv2vG2qX-vb8TFopoU,13411
+testfully/__init__.py,sha256=hggt2JjfX7LviFWeW0Nw-bhc_-Zmmv2ENZiYCNbd35E,25
+testfully/__pycache__/tracker.cpython-37.pyc,sha256=8pn8YUV09a-hMdJSkU8coVu3KXn90xnFwcnwzgdRXPY,4425
+testfully/__pycache__/validator.cpython-37.pyc,sha256=mcgCFlFbcKMFRGv4vBEcGIDIVgXG28SfEbhwvtESt1Y,5262
+testfully/__pycache__/__init__.cpython-37.pyc,sha256=XhCCqpQddt1SpbQw43DsVoIPqqBBVE0QJOtylH3UXTw,252
+testfully/tracker.py,sha256=6jIyl32qo0o_sN9hqfgazIxW6V-hNoEwN6tulcoUTCw,17987
+testfully/testfully.abi3.so,sha256=LyZ49WLkXeAT3ZcddextxDTXYgKB7JD_yOyzhidz-cE,4910312
+testfully-0.4.0.dist-info/RECORD,,
