@@ -1,0 +1,11 @@
+dkdc/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dkdc/utils.py,sha256=N0EFe6aktWl31wWo5qhwx8OJsPTeg26d9-gjnjqVMJ8,1306
+dkdc/ui/cli.py,sha256=a9Fv_Uf08LjUZEi9zcOsizRsCCbUlAiMY298QhdpUoM,1265
+dkdc/ui/gui/__init__.py,sha256=Es_QaxEhdr8rK2FGy3bcn0SSfr-MybXMW1atPYIjXq8,52
+dkdc/ui/gui/main.py,sha256=tDyCXO1am46CdYGKj7MtcWfKiemMd2RHiz3Gf2q3VLc,1035
+dkdc/ui/gui/todos.py,sha256=WAurIidTCi8L0FTBk2Qc0SIbhKW0VkTQhOEr8k8bdn8,6150
+dkdc-0.10.0.dist-info/METADATA,sha256=OodsD5X2h6DPAuHVO475WqmGQ3UbRcxak0Qbq_IUFBY,1234
+dkdc-0.10.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dkdc-0.10.0.dist-info/entry_points.txt,sha256=rxhzAmGlEizmhpy96uXE9d7z-NOdpKiScLKBnRb_VBc,41
+dkdc-0.10.0.dist-info/top_level.txt,sha256=zqgeg8Y-aE2e1i8CyfMWR6UAJhbOtaAhxqtGLB6FEtw,5
+dkdc-0.10.0.dist-info/RECORD,,
