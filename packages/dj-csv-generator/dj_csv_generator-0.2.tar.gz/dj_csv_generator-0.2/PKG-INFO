@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: dj-csv-generator
+Version: 0.2
+Summary: A Django app to generate CSV reports for QuerySet data
+Home-page: https://github.com/dzejkobi/dj-csv-generator
+Author: dzejkobi
+Author-email: jakubstanclik@gmail.com
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=3.2
+
+Django CSV Generator
+====================
+
+A Django application containing CsvGenerator base class to be used with
+Django QuerySet to generate CSV report for list of objects, preferably
+Django models.
+
+Features
+--------
+
+* Can return HTTP response containing generated CSV file.
+* Convenient to use with Django admin actions.
+
+Installation
+------------
+
+1. Install package in your project: `pip install dj-csv-generator`
+2. Add `'csv_generator'` to `INSTALLED_APPS` in your `settings.py`
+3. In your code import base generator class: `from csv_generator.generator import CsvGenerator`
+4. Create your own CSV generator class derived from `CsvGenerator` and customize it. You can use `project/example` as reference.
+5. Use your generator to generate CSV file:
+```
+generator = YourCsvGeneratorClass()
+
+# if you need plain text data, use:
+rows = generator.process_data(YourDjangoModel.objects.all())
+
+# if you need HttpResponse, for example to return in your view, use:
+response = generator.get_response(YourDjangoModel.objects.all())
+```
+
+Generator options and use cases
+---------
+...In progress...
