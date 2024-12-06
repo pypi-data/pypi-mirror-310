@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/astreum/__init__.py
+src/astreum/machine.py
+src/astreum.egg-info/PKG-INFO
+src/astreum.egg-info/SOURCES.txt
+src/astreum.egg-info/dependency_links.txt
+src/astreum.egg-info/top_level.txt
