@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: eptium
+Version: 0.0.1
+Summary: Eptium tools for Pythonn
+Author-email: Ognyan Moore <ogi@hobu.co>
+Project-URL: Homepage, https://github.com/hobuinc/eptium-python
+Project-URL: Issues, https://github.com/hobuinc/eptium-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# eptium-python

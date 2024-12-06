@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/eptium/__init__.py
+src/eptium/main.py
+src/eptium.egg-info/PKG-INFO
+src/eptium.egg-info/SOURCES.txt
+src/eptium.egg-info/dependency_links.txt
+src/eptium.egg-info/top_level.txt
