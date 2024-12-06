@@ -1,0 +1,2 @@
+[console_scripts]
+agentboard = agentboard.run_agent_board:run_command_line
