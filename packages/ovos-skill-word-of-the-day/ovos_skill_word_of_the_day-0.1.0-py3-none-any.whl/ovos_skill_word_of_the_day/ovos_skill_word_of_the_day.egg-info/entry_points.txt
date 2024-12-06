@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+ovos-skill-word-of-the-day.openvoiceos=ovos_skill_word_of_the_day:WordOfTheDaySkill
+
