@@ -1,0 +1,2 @@
+[console_scripts]
+clone-army = clone_army.cli:cli
