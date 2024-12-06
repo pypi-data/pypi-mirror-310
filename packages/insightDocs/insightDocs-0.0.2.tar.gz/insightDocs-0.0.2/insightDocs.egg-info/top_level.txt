@@ -1,0 +1,5 @@
+config
+confluence
+database
+embedding
+text_splitter
