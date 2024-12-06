@@ -1,0 +1,2 @@
+[console_scripts]
+cdn-dl = cdndl.main:main
