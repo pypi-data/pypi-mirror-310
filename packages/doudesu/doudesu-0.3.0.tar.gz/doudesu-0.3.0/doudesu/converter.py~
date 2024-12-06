@@ -1,0 +1,57 @@
+from PIL import Image
+from reportlab.pdfgen import canvas
+from rich.progress import Progress
+from typing import List, Optional
+from requests import get
+from io import BytesIO
+from concurrent.futures import ThreadPoolExecutor
+
+
+def download_image(url: str) -> Optional[Image.Image]:
+    response = get(url, stream=True, headers={"Referer": "https://doujindesu.tv/"})
+    if response.status_code == 200:
+        return Image.open(BytesIO(response.content))
+    else:
+        print(f"Failed to download image from {url}")
+        return None
+
+
+def add_pdf_on_end(text: str):
+    if not text.endswith(".pdf"):
+        text += ".pdf"
+    return text
+
+
+class ImageToPDFConverter:
+    def __init__(
+            self,
+            image_urls: Optional[List[str]] = None,
+            output_pdf_file: str = "output.pdf",
+            num_threads: int = 10
+    ):
+        self.image_urls = image_urls or []
+        self.output_pdf_file = add_pdf_on_end(output_pdf_file)
+        self.num_threads = num_threads
+
+    def download_images_threaded(self, urls: List[str]) -> List[Optional[Image.Image]]:
+        with ThreadPoolExecutor(max_workers=self.num_threads) as executor:
+            images = list(executor.map(download_image, urls))
+        return images
+
+    def convert_images_to_pdf(self, images: List[str], output_pdf_file: str):
+        with Progress() as progress:
+            task = progress.add_task("[cyan]Converting images to PDF...", total=len(self.image_urls))
+
+            with open(output_pdf_file, "wb") as pdf_file:
+                pdf_canvas = canvas.Canvas(pdf_file)
+                progress.print("[green]Downloading images...[/green]")
+                images = self.download_images_threaded(images)
+
+                for image in images:
+                    if image:
+                        pdf_canvas.setPageSize((image.width, image.height))
+                        pdf_canvas.drawInlineImage(image, 0, 0, image.width, image.height)
+                        pdf_canvas.showPage()
+                    progress.update(task, advance=1)
+                pdf_canvas.save()
+        print("[green]Conversion completed successfully![/green]")
