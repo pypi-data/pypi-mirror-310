@@ -1,0 +1,26 @@
+[project]
+name = "dkdc-calendar"
+version = "0.0.1"
+authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
+description = "calendar"
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ['dkdc-lake', 'dkdc-state', 'dkdc-util']
+
+[project.optional-dependencies]
+dev = ["ruff", "ipython", "jupyter", "nbclient", "ipykernel"]
+test = ["pytest"]
+
+ui = ["typer", "shiny", "shinyswatch", "shinywidgets", "plotly"]
+
+[project.urls]
+"Homepage" = "https://github.com/dkdc-io/dkdc-calendar"
+"Bug Tracker" = "https://github.com/dkdc-io/dkdc-calendar/issues"
+
+[project.scripts]
+"calendar" = "dkdc_calendar.ui.cli:app"
