@@ -1,0 +1,8 @@
+django_pyrepl/__init__.py,sha256=54rU4e1skc46XSJvCLwFpGhPsaBYFf-ubUc7nvI4Tz8,20
+django_pyrepl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pyrepl/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pyrepl/management/commands/shell.py,sha256=vybio4rQPMs7Y6F3OzDxvcsHQP2Mu6QbeZYHjePzscg,333
+django_pyrepl-1.0.0.dist-info/METADATA,sha256=ttCQMz7f4slU6nvGZnllnVZuPU0N8vK76E8o58sGTOo,1143
+django_pyrepl-1.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+django_pyrepl-1.0.0.dist-info/licenses/LICENCE,sha256=OWIDgf3k6VPlqA8dLcLsvfQsuNwb16az2yNiFMP99zk,1059
+django_pyrepl-1.0.0.dist-info/RECORD,,
