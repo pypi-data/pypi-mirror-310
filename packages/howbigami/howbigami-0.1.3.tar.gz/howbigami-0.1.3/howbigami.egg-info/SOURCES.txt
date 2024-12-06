@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+version.txt
+docs/example-1.png
+howbigami/__init__.py
+howbigami/howbigami.py
+howbigami.egg-info/PKG-INFO
+howbigami.egg-info/SOURCES.txt
+howbigami.egg-info/dependency_links.txt
+howbigami.egg-info/top_level.txt
