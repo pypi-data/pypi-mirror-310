@@ -1,0 +1,6 @@
+sqlite-utils>=3.38
+llm
+
+[test]
+pytest
+pytest-recording
