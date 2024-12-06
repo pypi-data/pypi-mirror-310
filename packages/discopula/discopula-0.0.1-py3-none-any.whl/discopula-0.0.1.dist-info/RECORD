@@ -1,0 +1,13 @@
+discopula/__init__.py,sha256=5pwYPm5FnERvUaGhpZEEAAfII-whUk_lxK0mhYgiT_E,125
+discopula/checkerboard.py,sha256=EQHS9EJ7d4ieVavkv4D-SP2MZ8TsWlPFCd8CmNn1lak,15685
+discopula/n_dim_checkerboard.py,sha256=lgWlkHNJjnh_8wkOWrjVq2r2ywOfE2t45XVlYppZSG0,4336
+docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docs/conf.py,sha256=2E7Ov7Vsogj4eEyV4iQGEXnrchCwBfaK1hrGyTX2L5U,1135
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_checkerboard.py,sha256=MpRvYfWb9POa6z7UKiZsa0rI4IMRVZQPyhcMfZhjJrk,21506
+tests/test_n_dim_checkerboard.py,sha256=bBWsTh5jFFNwqn3d0Si1VnmLHnq6rQl4V77rn6UKd1s,3993
+discopula-0.0.1.dist-info/LICENSE.txt,sha256=Bdp6DhDkWfTIvM-QHBVJ-_DfXr-mY9VvvTuswsKjg6s,1072
+discopula-0.0.1.dist-info/METADATA,sha256=zQuLG20Qu_OMNJ1Q44L32N9jDsyjdDv-LkH-6iWLUFA,1398
+discopula-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+discopula-0.0.1.dist-info/top_level.txt,sha256=VPxOKVneHWW7r3EseTpTq6Lf15VcL5A1rXFGq6qGYcM,21
+discopula-0.0.1.dist-info/RECORD,,
