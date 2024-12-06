@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: time-cap
+Version: 0.0.2
+Summary: A lightweight Python package to measure and log function execution times.
+Project-URL: Homepage, https://github.com/yuva47/time-cap.git
+Project-URL: Issues, https://github.com/yuva47/time-cap.git/issues
+Author-email: Yuvraj <yuvarj68@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# time-cap
+A lightweight Python package to measure and log function execution times.
