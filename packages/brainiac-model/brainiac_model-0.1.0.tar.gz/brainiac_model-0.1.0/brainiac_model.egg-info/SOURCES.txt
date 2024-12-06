@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+brainiac/__init__.py
+brainiac/configuration_brainiac.py
+brainiac/modeling_brainiac.py
+brainiac_model.egg-info/PKG-INFO
+brainiac_model.egg-info/SOURCES.txt
+brainiac_model.egg-info/dependency_links.txt
+brainiac_model.egg-info/requires.txt
+brainiac_model.egg-info/top_level.txt

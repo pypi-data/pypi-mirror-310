@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: brainiac-model
+Version: 0.1.0
+Summary: A 3D ResNet50 model for brain MRI analysis
+Home-page: https://huggingface.co/Divytak/brainiac
+Author: Divyanshu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=1.9.0
+Requires-Dist: transformers>=4.20.0
+Requires-Dist: monai>=1.0.0
+
+# BrainIAC Model
+
+This is the official implementation of the BrainIAC model, a 3D ResNet50-based architecture designed for brain image analysis.
+
+## Model Description
+
+BrainIAC is built on a modified ResNet50 architecture that processes 3D brain imaging data. The model has been adapted to handle volumetric inputs through 3D convolutions and produces feature vectors that capture relevant brain imaging characteristics.
+
+## Model Architecture
+- Base Architecture: ResNet50 (modified for 3D)
+- Input: 3D brain volumes [batch_size, 1, D, H, W]
+- Output: Feature vector of dimension 2048
+- First layer: 3D convolution (1 channel input)
+- Final layer: Identity (returns features directly)
+
+## Usage
+
+```python
+from transformers import AutoModel
+import torch
+
+# Load model
+model = AutoModel.from_pretrained("your-username/brainiac")
+model.eval()
+
+# Prepare your input tensor
+# Adjust D, H, W according to your requirements
+batch_size = 1
+D, H, W = 16, 224, 224  # Example dimensions
+input_tensor = torch.randn(batch_size, 1, D, H, W)
+
+# Get features
+with torch.no_grad():
+    features = model(input_tensor)
+
+print(f"Output feature shape: {features.shape}")  # Should be [batch_size, 2048]
+```
+
+## Requirements
+```
+torch>=1.9.0
+monai
+transformers
+```
+
+## Citation
+If you use this model in your research, please cite:
+[Add your citation information]
+
+## License
+[Add your license information]
