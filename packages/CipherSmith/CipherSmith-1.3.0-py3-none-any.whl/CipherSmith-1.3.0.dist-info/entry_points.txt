@@ -1,0 +1,2 @@
+[console_scripts]
+CipherSmith = app.main:app
