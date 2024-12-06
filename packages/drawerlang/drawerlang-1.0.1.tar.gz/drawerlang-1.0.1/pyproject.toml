@@ -1,0 +1,29 @@
+[tool.poetry]
+authors = ["chengmin <cmtheit@naver.com>"]
+description = "绘制脚本drawer的python实现"
+license = "MIT"
+name = "drawerlang"
+packages = [
+  {include = "drawer", from = "src"},
+]
+readme = "README.md"
+version = "1.0.1"
+
+[tool.poetry.dependencies]
+antlr4-python3-runtime = "^4.13.2"
+asyncio = "^3.4.3"
+python = "^3.10"
+webcolors = "^24.11.1"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+antlr4-tools = "^0.2.1"
+
+[tool.poetry.group.build.dependencies]
+nuitka = "^2.5.1"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
