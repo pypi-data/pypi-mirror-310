@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+scikit_mdn.egg-info/PKG-INFO
+scikit_mdn.egg-info/SOURCES.txt
+scikit_mdn.egg-info/dependency_links.txt
+scikit_mdn.egg-info/requires.txt
+scikit_mdn.egg-info/top_level.txt
+skmdn/__init__.py
