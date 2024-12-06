@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: hdrezka
+Version: 3.2.3
+Summary: HDRezka Python API
+Home-page: https://github.com/NIKDISSV-Forever/HDRezka
+License: MIT
+Keywords: HDRezka,hdrezka.ag,watch online,api,stream
+Author: nikdissv
+Author-email: nikdissv@proton.me
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Multimedia :: Video
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: httpx (>=0.27.2,<0.28.0)
+Requires-Dist: lxml (>=5.3.0,<6.0.0) ; python_version < "3.14"
+Project-URL: Documentation, https://nikdissv-forever.github.io/HDRezka/hdrezka
+Project-URL: Repository, https://github.com/NIKDISSV-Forever/HDRezka
+Description-Content-Type: text/markdown
+
+# [HDRezka](https://rezka.ag/) site API.
+
+# Install
+
+`pip install HDRezka`
+
+# Example
+
+```python
+import asyncio
+from hdrezka import Search
+
+
+async def main():
+    player = await (await Search('Breaking Bad').get_page(1))[0].player
+    print(player.post.info, end='\n\n')
+
+    translator_id = None  # default
+    for name, id_ in player.post.translators.name_id.items():
+        if 'субтитры' in name.casefold(): translator_id = id_; break
+
+    stream = await player.get_stream(1, 1, translator_id)  # raise AJAXFail if invalid episode or translator
+    video = stream.video
+    print(await video.last_url)  # best quality (.m3u8)
+    print((await video[video.min].last_url).mp4, end='\n\n')  # worst quality (.mp4)
+
+    subtitles = stream.subtitles
+    print(subtitles.default.url)  # subtitles.ru.url or subtitles['Русский'].url
+
+
+if __name__ == '__main__': asyncio.run(main())
+```
+
+# [Documentation](https://nikdissv-forever.github.io/HDRezka/)
+
