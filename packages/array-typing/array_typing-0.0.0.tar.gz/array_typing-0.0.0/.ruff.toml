@@ -1,0 +1,11 @@
+#:schema https://json.schemastore.org/ruff.json
+extend = ".github/linters/.ruff.toml"
+
+[lint]
+extend-ignore = ["E741"]
+
+[lint.flake8-import-conventions.aliases]
+"array_typing" = "at"
+"array_typing.jax" = "tj"
+"array_typing.numpy" = "tn"
+"array_typing.torch" = "tt"
