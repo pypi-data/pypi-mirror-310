@@ -1,0 +1,10 @@
+flarevel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flarevel/cli.py,sha256=P7JYhg6XzWkWsDLLVZNGO2RpP5RQ8nomvk1eBWnzi8g,7253
+flarevel/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flarevel/commands/make.py,sha256=UjJN0HuONGRza_LH6WJpj_3Qnqi7WupuTgCUbTJQso8,2077
+flarevel-6.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flarevel-6.0.dist-info/METADATA,sha256=7ZEOwaM4iFRGyXWhRZFflLJbCfUBOVWSyKOKIKOE12c,3099
+flarevel-6.0.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+flarevel-6.0.dist-info/entry_points.txt,sha256=B52p940TDnVWvlsdN5gxi289N-a2wUYv8ymV6JgByn8,46
+flarevel-6.0.dist-info/top_level.txt,sha256=8vPKjvYW1XUXxVsvWUYefwpzfJC00vzDBGTMAxEZBa8,9
+flarevel-6.0.dist-info/RECORD,,
