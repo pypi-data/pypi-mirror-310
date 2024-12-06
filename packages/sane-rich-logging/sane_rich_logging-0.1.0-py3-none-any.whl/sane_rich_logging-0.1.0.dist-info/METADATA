@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: sane-rich-logging
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Jakob Guldberg Aaes <jakob1379@gmail.com>
+Requires-Python: >=3.13
+Requires-Dist: rich>=13.9.4
