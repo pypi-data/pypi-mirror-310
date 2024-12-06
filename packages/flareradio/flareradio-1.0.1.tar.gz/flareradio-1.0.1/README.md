@@ -1,0 +1,46 @@
+# Flare Radio Python Module
+
+## Description
+A Python package that allows you to interact with the Flare Radio API. The API is currently limited, but more features will be added over time. Please ensure you regularly update this package to stay current.
+
+## Installation
+```bash
+pip install flareradio
+```
+
+## Usage
+There are currently two functions: `stats()` and `upcoming()`. Both are simple to use:
+- `stats()`: Retrieves the currently playing song on Flare Radio.
+- `upcoming()`: Provides details about the next three shows.
+
+All data is returned in JSON format. While other formats are not supported at this time, we plan to introduce additional options in the future.
+
+### Examples
+```python
+from flareradio import stats, upcoming
+
+# Get current stats
+try:
+    data = stats()
+    print(data)
+except Exception as e:
+    print(f"Error: {e}")
+
+# Get upcoming shows
+try:
+    shows = upcoming()
+    print(shows)
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+## Testing
+If you want to ensure the package is working as expected, you can run tests using `pytest`. The tests validate the functionality of both `stats()` and `upcoming()`.
+
+To run the tests:
+```bash
+pytest
+```
+
+## Support
+If you encounter issues or have suggestions for improvement, feel free to join our [Discord server](https://discord.gg/3dYHRJAhZZ) to discuss.
