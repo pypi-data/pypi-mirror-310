@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: django-utils-vish
+Version: 0.1.1
+Summary: A collection of useful utilities and management commands for Django.
+Home-page: https://github.com/visha1codehub/django-utils-plus
+Author: Vishango
+Author-email: itsvishalhack@gamil.com
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=3.2
+
+# django-utils-vish
+
+A collection of useful utilities and management commands for Django projects.
+
+## Features
+- List all models in the project with the `list_models` management command.
+- Easily integrate new utility functions into Django projects.
+- Simple and extensible design.
+
+## Installation
+
+```bash
+pip install django-utils-vish
