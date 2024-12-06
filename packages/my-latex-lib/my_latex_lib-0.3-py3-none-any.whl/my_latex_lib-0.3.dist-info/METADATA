@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: my_latex_lib
+Version: 0.3
+Summary: A simple LaTeX generator library
+Author: Maxim Sinelnikov
+Author-email: sinelnikov-web@mail.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
