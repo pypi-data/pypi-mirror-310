@@ -1,0 +1,13 @@
+fuzzmatch/LICENSE,sha256=ndpYZYI03EbMfGAKRGyzptvVTUli5FsBjobLjMJkesM,1069
+fuzzmatch/README.MD,sha256=iziJE1do2T9e0XdVZWRNLOZlIPQU9xYA8jrFHoK2ygw,17874
+fuzzmatch/__init__.py,sha256=9t9sIAW2wXZ4aVOX_pm_IkdCnVWl0oNdUL8EOS4SUjk,841
+fuzzmatch/fuzzmatcher.h,sha256=xaOhvN6aq8Vt7uK6Mhkfc3ujQrYK4Bo5Whekym25Z20,114904
+fuzzmatch/requirements.txt,sha256=buWFHJz50xtsn0rEOgEgxhzJiDpQYsY0iv3Bqh4QhW0,18
+fuzzmatch/thirdparty.json,sha256=Q5QWU2J30_fKaxWAgWF2QB4lcvKOLzQJv6Sw_m0PMKw,867
+fuzzmatch/uiev.pyx,sha256=J5bcXja7xN-eMimDrLunXz_bzuj798k_kAVivlTQP1Y,19247
+fuzzmatch/uiev_compile.py,sha256=XpK2WzHBahEkhtHv6PSj5EPCDqllh9iNUQtPSoUg9wE,3559
+fuzzmatch-0.10.dist-info/LICENSE.rst,sha256=JG2U-syJOvqaKI4hLK8jP4BdnxFaMsrMir_Qn5dbgdc,1148
+fuzzmatch-0.10.dist-info/METADATA,sha256=HOExZ_6VkEM27si-sFdPdWOumJhUvZDL2PVOPcr6Bgs,18631
+fuzzmatch-0.10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fuzzmatch-0.10.dist-info/top_level.txt,sha256=8PRiDvJbLfg2Y0PnkWAWVXmbPGtt7mrAIUbzTdG_iYc,10
+fuzzmatch-0.10.dist-info/RECORD,,
