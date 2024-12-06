@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ddq-tkinter-widgets
+Version: 0.1.2
+Summary: A collection of custom tkinter widgets
+Home-page: https://github.com/zgq54457/ddq_tkinter
+Author: ddq
+Author-email: zgq54457@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# DDQ Tkinter Widgets
+
+一个自定义的 tkinter 组件库，提供了多个实用的界面组件。
+
+## 安装
+
+```bash
+pip install ddq
+```
+
+## 使用
+
+```python
+from ddq_widgets import Form, Card, BlueButton
+
+# Create a form
+form = Form(root)
+form.input("username", "Username:")
+form.password("password", "Password:")
+```
+
+## 组件
+
+- Form
+- Card
+- Button
+- Table
+- Layout
+- ... 
