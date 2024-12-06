@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: easy-workdays
+Version: 0.1.0
+Summary: A Python library for managing workdays and holidays in a calendar year.
+Home-page: https://github.com/kurtatter/easy-workdays
+Keywords: workdays,calendar,holidays
+Author: Stas Dzasokhov
+Author-email: 3nc0m0s12@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Repository, https://github.com/kurtatter/easy-workdays
+Description-Content-Type: text/markdown
+
+A Python library for managing workdays and holidays in a calendar year.
