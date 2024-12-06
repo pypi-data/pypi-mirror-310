@@ -1,0 +1,22 @@
+LICENSE
+README.md
+pyproject.toml
+src/genascii/__main__.py
+src/genascii/about.py
+src/genascii/consts.py
+src/genascii/core.py
+src/genascii/main.py
+src/genascii/utils.py
+src/genascii.egg-info/PKG-INFO
+src/genascii.egg-info/SOURCES.txt
+src/genascii.egg-info/dependency_links.txt
+src/genascii.egg-info/requires.txt
+src/genascii.egg-info/top_level.txt
+src/genascii/data/alphabets.json
+src/genascii/data/fonts/DejaVu Fonts License.txt
+src/genascii/data/fonts/DejaVuSansMono-BoldOblique_subset.ttf
+src/genascii/data/fonts/DejaVuSansMono-Bold_subset.ttf
+src/genascii/data/fonts/DejaVuSansMono-Oblique_subset.ttf
+src/genascii/data/fonts/DejaVuSansMono_subset.ttf
+src/genascii/data/fonts/arial-unicode_subset.ttf
+src/genascii/data/fonts/simsun_subset.ttc
