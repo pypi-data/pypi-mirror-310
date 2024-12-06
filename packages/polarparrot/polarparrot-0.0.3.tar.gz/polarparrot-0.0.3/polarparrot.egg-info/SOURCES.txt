@@ -1,0 +1,7 @@
+README.md
+setup.py
+polarparrot.egg-info/PKG-INFO
+polarparrot.egg-info/SOURCES.txt
+polarparrot.egg-info/dependency_links.txt
+polarparrot.egg-info/requires.txt
+polarparrot.egg-info/top_level.txt
