@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: demucs_acapella
+Version: 1.0.0
+Summary: A CLI tool for extracting acapellas using Demucs and managing audio metadata.
+Home-page: https://github.com/komly/demucs_acapella
+Author: komly
+Author-email: komly@yandex.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: demucs==4.0.0
+Requires-Dist: pydub==0.25.1
+Requires-Dist: eyed3==0.9.7
