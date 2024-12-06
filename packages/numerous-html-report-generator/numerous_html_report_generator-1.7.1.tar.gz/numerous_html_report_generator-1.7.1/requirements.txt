@@ -1,0 +1,6 @@
+jinja2
+plotly
+pytest
+beautifulsoup4
+pandas
+kaleido

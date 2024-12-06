@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numerous-html-report-generator"
+description = "Report generator for html reports"
+dynamic = ["version", "dependencies"]
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.9"
+license = { text = "O-BSD-3" }
+authors = [
+    { name = "Tobias Skov Reipuert", email = "report-generator@numerous.com" },
+    { name = "Tobias Dokkedal Elmøe", email = "report-generator@numerous.com" },
+    { name = "Lasse Nyberg Thomsen", email = "report-generator@numerous.com" },
+    { name = "Ósk Björnsdottir", email = "report-generator@numerous.com" }
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent"
+]
+
+
+[project.urls]
+homepage = "https://gitlab.com/numerous/resources/numerous-html-report-generator"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["numerous.*"]
+
+[tool.setuptools.package-data]
+"numerous.html_report_generator" = ["templates/*.html"]
+
+[tool.setuptools.dynamic]
+version = {file = "version.txt"}
+dependencies = {file = "requirements.txt"}
