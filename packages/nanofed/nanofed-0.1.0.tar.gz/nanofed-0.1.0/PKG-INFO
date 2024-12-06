@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: nanofed
+Version: 0.1.0
+Summary: A lightweight federated learning library
+Home-page: https://github.com/camille-004/nanofed
+License: GPL-3.0-or-later
+Keywords: federated-learning,deep-learning,pytorch
+Author: camille-004
+Author-email: dunningcamille@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Provides-Extra: ml
+Requires-Dist: aiohttp (>=3.10.10,<4.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: numpy (>=2.1.2,<3.0.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Project-URL: Repository, https://github.com/camille-004/nanofed
+Description-Content-Type: text/markdown
+
+# 🚀 NanoFed
+
+**NanoFed**: *Simplifying the development of privacy-preserving distributed ML models.*
+
+---
+
+## 🌍 What is Federated Learning?
+
+FL is a distributed machine learning approach where multiple clients (devices, organizations) collaboratively train a global model without sharing their local data. Instead of sending raw data, clients send model updates to a central server for aggregation. FL enables:
+- **Privacy Preservation**: Data remains on the client device.
+- **Resource Efficiency**: Decentralized training reduces data transfer overload.
+- **Scalable AI**: Collaborative training across distributed environments.
+
+---
+
+## 📦 Installation
+
+**Requires Python 3.10+**
+
+---
+## ⚖️ License
+
+NanoFed is licensed under the GNU General Public License.
+
+Made with ❤️ and 🧠 by [Camille Dunning](https://github.com/camille-004).
+
