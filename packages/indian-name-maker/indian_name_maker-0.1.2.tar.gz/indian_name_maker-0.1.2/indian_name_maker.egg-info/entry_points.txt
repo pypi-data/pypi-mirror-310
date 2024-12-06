@@ -1,0 +1,2 @@
+[console_scripts]
+generate-indian-name = indian_name_maker.cli:main
