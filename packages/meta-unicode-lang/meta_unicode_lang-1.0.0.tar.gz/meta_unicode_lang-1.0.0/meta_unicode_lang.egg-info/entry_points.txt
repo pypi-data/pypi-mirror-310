@@ -1,0 +1,2 @@
+[console_scripts]
+meta-lang = meta_unicode_lang.interpreter:main

@@ -1,0 +1,7 @@
+setup.py
+meta_unicode_lang.egg-info/PKG-INFO
+meta_unicode_lang.egg-info/SOURCES.txt
+meta_unicode_lang.egg-info/dependency_links.txt
+meta_unicode_lang.egg-info/entry_points.txt
+meta_unicode_lang.egg-info/requires.txt
+meta_unicode_lang.egg-info/top_level.txt
