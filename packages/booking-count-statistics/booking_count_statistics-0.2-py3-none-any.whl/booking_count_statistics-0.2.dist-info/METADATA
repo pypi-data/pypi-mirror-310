@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: booking_count_statistics
+Version: 0.2
+Summary: A library for counting user bookings.
+Home-page: https://github.com/jocelyncjl/airline-booking.git
+Author: Jocelyn Chen
+Author-email: cjl1759648974@outlook.com
+Requires-Dist: django
