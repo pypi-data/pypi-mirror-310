@@ -1,0 +1,3 @@
+[console_scripts]
+tusk=tusk.cli:main
+
