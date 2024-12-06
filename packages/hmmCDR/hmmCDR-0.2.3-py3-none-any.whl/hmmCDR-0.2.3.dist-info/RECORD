@@ -1,0 +1,11 @@
+hmmCDR/__init__.py,sha256=g83hS0x4AoteizTglxtZBGy6uCETdw23X1hJY-5gCwk,43
+hmmCDR/bed_parser.py,sha256=eihpT8VrANTRwOYG_OAizmKbWQV4pjjrXUeORTqccSk,5874
+hmmCDR/calculate_matrices.py,sha256=oDNlpfpB8npjJxSL_X1mQee49-44Qxqg_2O_AzrSOfQ,20379
+hmmCDR/hmmCDR.py,sha256=iqq-FTgcgFv_HvTt_kvbXZOZPIrpAKWCiVBDRiEjAjE,22846
+hmmCDR/profile_plot.py,sha256=Qiea0t3tB_58ay2OehMrLK4FSQNHJWwdyabuxtzXQb4,11132
+hmmCDR-0.2.3.dist-info/LICENSE,sha256=D3QWLIl1F1RCLTXIi4AFWEPZEr-EwCrNO7U7pC6_Vgc,1074
+hmmCDR-0.2.3.dist-info/METADATA,sha256=k47ZiRVYRt4vIXhgYRJxYxSuK7bCmd3djOVKIv7YTds,12746
+hmmCDR-0.2.3.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+hmmCDR-0.2.3.dist-info/entry_points.txt,sha256=LQdxyZKx172XTdyBn5Y0Q8XXJcdes9dI6txXeUHWWbA,124
+hmmCDR-0.2.3.dist-info/top_level.txt,sha256=_YZv2CVRW91Kuq9PhqXBCrMXrY6eyf_K_KCK4zwoyqI,7
+hmmCDR-0.2.3.dist-info/RECORD,,
