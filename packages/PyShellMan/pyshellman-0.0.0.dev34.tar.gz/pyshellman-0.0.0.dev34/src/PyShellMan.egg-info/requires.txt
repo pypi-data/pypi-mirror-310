@@ -1,0 +1,4 @@
+rich>=13.5
+MDit==0.0.0.dev44
+ExceptionMan==0.0.0.dev44
+ANSI-SGR==0.0.0.dev10
