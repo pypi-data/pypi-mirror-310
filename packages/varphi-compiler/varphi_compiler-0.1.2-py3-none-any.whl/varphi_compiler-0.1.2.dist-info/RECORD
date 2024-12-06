@@ -1,0 +1,12 @@
+varphi_compiler/CompilationMode.py,sha256=7F_FkX1jrfomAJJJkGKltCBvluWrMXACJrk0ZUuWwnY,105
+varphi_compiler/VarphiCLI.py,sha256=CY1PkUp-wkfmHKE2TYoyqlx_ijZZ5O-4-SiM6IFoMxg,6300
+varphi_compiler/VarphiDebugAdapter.py,sha256=Rws3IiMJKGQr1sOp93S4maR7ScAUD6-1e3BWDivyCHA,20953
+varphi_compiler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+varphi_compiler/vpToPy.py,sha256=Ws-QSwOvNOk6t_FiIB4Fki5CTBdms6JItLNz7qH973k,4571
+varphi_compiler/vpc.py,sha256=ZzbERkHHSWTFDLqp9L84K8Uz8wiRdOqZwBbUOpYZmdQ,2746
+varphi_compiler-0.1.2.dist-info/LICENSE,sha256=-J3b-MplgaFLw5IeS644xV6C2vyZRG0pb1Es3gAalPA,1532
+varphi_compiler-0.1.2.dist-info/METADATA,sha256=_-pbS3gtY-eeMCwzsPL2bJ-DU1oBbfrHZFPn9Jvj2z4,583
+varphi_compiler-0.1.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+varphi_compiler-0.1.2.dist-info/entry_points.txt,sha256=cKJkOCPmySJKqoMLI5qBfaA2LxGEc7dOBa1XKT_tyL0,49
+varphi_compiler-0.1.2.dist-info/top_level.txt,sha256=mnBsUhSwN0Ay2WruUV3Z84lpPkODGMUJ9fHtPkPSc5M,16
+varphi_compiler-0.1.2.dist-info/RECORD,,
