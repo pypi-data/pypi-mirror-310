@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: dixonstat
+Version: 0.1.0a0.dev0
+Summary: Computing the critical values of a Dixon's r statistic
+Project-URL: Documentation, https://dixonstat.readthedocs.io
+Project-URL: Issues, https://github.com/sergiud/dixonstat/issues
+Project-URL: Source, https://github.com/sergiud/dixonstat
+Author-email: Sergiu Deitsch <sergiu.deitsch@gmail.com>
+License: Apache-2.0
+Keywords: dixon's q test, dixon's r statistic
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# dixonstat
+
+![Linux](https://github.com/sergiud/dixonstat/actions/workflows/linux.yml/badge.svg)
+[![codecov](https://codecov.io/gh/sergiud/dixonstat/graph/badge.svg?token=89OIQDFWHV)](https://codecov.io/gh/sergiud/dixonstat)
+[![Documentation Status](https://readthedocs.org/projects/dixonstat/badge/?version=latest)](https://dixonstat.readthedocs.io/en/latest/?badge=latest)
+[![PyPI - Version](https://img.shields.io/pypi/v/dixonstat.svg)](https://pypi.org/project/dixonstat)
+
+Identification and rejection of outliers using Dixon\'s *r* statistics.
+
+## License
+
+`dixonstat` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.
