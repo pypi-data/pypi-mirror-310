@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tabular_2_text/__init__.py
+tabular_2_text/tabular_converter.py
+tabular_2_text.egg-info/PKG-INFO
+tabular_2_text.egg-info/SOURCES.txt
+tabular_2_text.egg-info/dependency_links.txt
+tabular_2_text.egg-info/requires.txt
+tabular_2_text.egg-info/top_level.txt
