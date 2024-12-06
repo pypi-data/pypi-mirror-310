@@ -1,0 +1,9 @@
+LICENSE
+README.md
+sentry_covdefaults_disable_branch_coverage.py
+setup.cfg
+setup.py
+sentry_covdefaults_disable_branch_coverage.egg-info/PKG-INFO
+sentry_covdefaults_disable_branch_coverage.egg-info/SOURCES.txt
+sentry_covdefaults_disable_branch_coverage.egg-info/dependency_links.txt
+sentry_covdefaults_disable_branch_coverage.egg-info/top_level.txt

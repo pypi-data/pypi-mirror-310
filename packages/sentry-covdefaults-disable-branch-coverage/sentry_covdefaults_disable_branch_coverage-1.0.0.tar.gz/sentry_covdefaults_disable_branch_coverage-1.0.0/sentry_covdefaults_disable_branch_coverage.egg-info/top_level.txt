@@ -1,0 +1,1 @@
+sentry_covdefaults_disable_branch_coverage
