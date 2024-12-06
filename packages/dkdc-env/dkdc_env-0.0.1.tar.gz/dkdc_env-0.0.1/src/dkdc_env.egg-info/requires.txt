@@ -1,0 +1,12 @@
+python-dotenv
+dkdc-util
+
+[dev]
+ruff
+ipython
+jupyter
+nbclient
+ipykernel
+
+[test]
+pytest

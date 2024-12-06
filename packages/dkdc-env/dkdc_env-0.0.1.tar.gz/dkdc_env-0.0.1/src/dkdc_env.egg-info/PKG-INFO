@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dkdc-env
+Version: 0.0.1
+Summary: environment variables
+Author-email: Cody <cody@dkdc.dev>
+Project-URL: Homepage, https://github.com/dkdc-io/dkdc-env
+Project-URL: Bug Tracker, https://github.com/dkdc-io/dkdc-env/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv
+Requires-Dist: dkdc-util
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: nbclient; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# dkdc-env
+
+Environment variables.
+
+> [!WARNING]
+> Work in progress. Not intended for use yet.
+
+## why?
+
+simplicity.
+
+## setup
+
+TODO
