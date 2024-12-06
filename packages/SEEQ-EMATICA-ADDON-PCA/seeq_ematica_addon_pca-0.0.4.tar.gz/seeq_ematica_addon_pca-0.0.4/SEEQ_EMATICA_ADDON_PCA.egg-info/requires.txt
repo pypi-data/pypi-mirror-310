@@ -1,0 +1,12 @@
+ipyvuetify
+ipywidgets
+IPython
+ipywidgets
+pandas
+seeq~=66.0.0.dev20241031
+seeq-spy
+numpy
+datetime
+pytz
+plotly
+configparser_crypt
