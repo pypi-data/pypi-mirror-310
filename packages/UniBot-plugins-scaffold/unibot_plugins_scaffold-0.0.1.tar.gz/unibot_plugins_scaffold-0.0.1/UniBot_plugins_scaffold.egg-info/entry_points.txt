@@ -1,0 +1,2 @@
+[console_scripts]
+unibot-ps = command:access
