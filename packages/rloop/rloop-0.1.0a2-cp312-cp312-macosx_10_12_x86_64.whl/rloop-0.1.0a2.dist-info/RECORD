@@ -1,0 +1,14 @@
+rloop-0.1.0a2.dist-info/METADATA,sha256=DZ9Jkv9utdpMENv40Y20-n4H_Ozlp4ReAAw74moI5wc,2112
+rloop-0.1.0a2.dist-info/WHEEL,sha256=i-50AaV3q8zthgSaPZNLbaFczY3NRyGbQDASQt3eucc,106
+rloop-0.1.0a2.dist-info/licenses/LICENSE,sha256=F-jMGrubB7sqAGZ-EKeHaU6uQN0QTY0CmVhPZrfHsPo,1486
+rloop/subprocess.py,sha256=URmLjABDaCkB6dh_8W008RiaDaRUxdFbR27MGCm-caQ,11782
+rloop/__init__.py,sha256=PXoWAfLtIIsHr29oX9U8gGvaT9rt5cRCz_SsU-i1NGk,303
+rloop/futures.py,sha256=CC99BixD9TKO6mZyJyFFtsTTAUWUF7MDyf0w0FU-sls,768
+rloop/exc.py,sha256=gK9deMYqXpYpbS3AwXuhIi1o_HfXy6U3SCeK20Zusqc,2667
+rloop/utils.py,sha256=C9iZzYMfaAmBQKVDHN3Q1Xh95BVVcLyvRJOVPBEG-JQ,2058
+rloop/loop.py,sha256=hE8oesIBnHI2CpqLVsHuqduuN4Q-5DYduKkGcKS0H3I,26798
+rloop/transports.py,sha256=sQOhuPScos1hICNDbP4LBVqDmG7ZpfAZLSpFtfIMWd4,2451
+rloop/_compat.py,sha256=XJtOS-1BuVFa0Gb6b9ucYpCB6bNeXOsd5LF--dgQ7Ac,93
+rloop/_rloop.pyi,sha256=XMikgC_kSUGo4EnqphVNr4Dneu6aB_QEjoW9rL3YAHc,1405
+rloop/_rloop.cpython-312-darwin.so,sha256=zSLSXSRdueWe8qyvQei71JIWP-ECijmqMlPliqp5vgo,737512
+rloop-0.1.0a2.dist-info/RECORD,,
