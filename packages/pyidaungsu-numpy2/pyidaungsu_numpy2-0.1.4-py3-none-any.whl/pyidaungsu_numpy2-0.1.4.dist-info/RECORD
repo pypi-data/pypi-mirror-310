@@ -1,0 +1,10 @@
+pyidaungsu/__init__.py,sha256=saRY4ZW-H8R8TxMCb1xFFuDJNj0nlyjsJx7TujmybyI,11365
+pyidaungsu/tokenize.py,sha256=1EQWlkbvxl41ZTQoS-tYZApFeJrnvlXoRi9ipUqvTBk,4133
+pyidaungsu/model/pdsdetect.ftz,sha256=qpUFySymKlNhaHsRbG4QjxiYuF7n-l10TurFFE1ud8c,1226891
+pyidaungsu/model/tokenizer.crfsuite,sha256=yQoBTq5-eJ3XRtd_mIvxxFKsgVWITJlGuFdOCtYuXKU,1473932
+pyidaungsu/model/lib/fasttext_pybind.cpython-38-x86_64-linux-gnu.so,sha256=X6eIl89jsdIonn__Bha6SMD8rSqOhtGRJjjc2RSq004,16508568
+pyidaungsu_numpy2-0.1.4.dist-info/LICENSE,sha256=aTldc1FZMyOqYYT3EbsbcTumjWIJzffyanuVESP6Thc,1071
+pyidaungsu_numpy2-0.1.4.dist-info/METADATA,sha256=B-OLVUj_ciZz5qGbMoBa4CVkr19queTclg2TySAx77Q,4303
+pyidaungsu_numpy2-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyidaungsu_numpy2-0.1.4.dist-info/top_level.txt,sha256=AmJidse5wKaCGHgTpLrGJcl0rtrCO-qNEYaZnMVyVCA,11
+pyidaungsu_numpy2-0.1.4.dist-info/RECORD,,
