@@ -1,0 +1,8 @@
+colab_load/__init__.py,sha256=CsR9T677LTnrFvED466-tFlwobS-JJie1pocn-KpWb8,138
+colab_load/check_func.py,sha256=VDZrQMTpYEE3hchddUGKY2t9FjIWl-WUf66pfZ6cN34,790
+colab_load/load.py,sha256=N0jxZD7htqHITmY5Ke-zfh5z-ozW8OIXgTolXsBbbsE,5961
+colab_load/take_file.py,sha256=HzTyExmKjjh3zq2z-ae2IKnNEJ0DQRF6IeJSePHs9oI,2488
+colab_load-0.0.3.dist-info/METADATA,sha256=Sbem69s8-ELc8VRQAomjOMmxdVvhXJIQxG2pivk4IWU,1341
+colab_load-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+colab_load-0.0.3.dist-info/top_level.txt,sha256=i0Mmdex3KpdMuDUHqfUjytAqV-Q10p4akKmTEz0sTZo,11
+colab_load-0.0.3.dist-info/RECORD,,
