@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kvell_pdf
+Version: 0.0.2
+Summary: Tools of extracting PDF content based on RapidOCR
+Author: KvelKrishna
+Platform: Any
+Description-Content-Type: text/markdown
+Requires-Dist: PyMuPDF
+Requires-Dist: filetype
+Requires-Dist: rapidocr_onnxruntime
+Provides-Extra: onnxruntime
+Requires-Dist: rapidocr_onnxruntime; extra == "onnxruntime"
