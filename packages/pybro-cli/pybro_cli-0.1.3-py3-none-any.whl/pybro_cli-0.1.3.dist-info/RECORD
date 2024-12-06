@@ -1,0 +1,14 @@
+chrome_profile_manager/__init__.py,sha256=Y_IbBEL-DnY9nsmNZGxgUMsVvbLKvW6PXNyh65hWgV4,169
+chrome_profile_manager/__main__.py,sha256=EeUwZSiZrLCp-Lt4nnGMy4xvNsCaVUtMunzCSQLDS9M,409
+chrome_profile_manager/main.py,sha256=loSHpmlPnlZuaa3eniO_pJ8rgpaFh2nkUG2Mau8EwsQ,14625
+chrome_profile_manager/config/__init__.py,sha256=z6G_w2MM246colTEXO5qDCPMFEGB9spz5wO3f1Huh3Q,110
+chrome_profile_manager/config/settings.py,sha256=tjy7gyvPn8XOju-wljscjBZa_wNGoc94GNTGkPJH-Cc,4810
+chrome_profile_manager/helpers/__init__.py,sha256=P9Gb4O6wu9WMYEpKzyyNfbp_vaV1qzRADF3zgbpVQYs,168
+chrome_profile_manager/helpers/alias_creator.py,sha256=N5n8xl60S1oM_VigZwp-R-KaYucFPncTLI3gIrUgOG8,8352
+chrome_profile_manager/utils/__init__.py,sha256=etqtP-K5yUp78zPFRUC73aVDnwaFQMhLCXcE7C_sSVk,201
+chrome_profile_manager/utils/chrome_scanner.py,sha256=auUKjvWqrTnJQFQQ3yyzTY24ygYjE-auxbc_SVhp_1I,9428
+pybro_cli-0.1.3.dist-info/METADATA,sha256=SUHUdWGJ_-z4fDTmQVxgWneqO94KNoJZHX21EOxLDFo,3860
+pybro_cli-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pybro_cli-0.1.3.dist-info/entry_points.txt,sha256=Lj9ihcymogvELc5Nqb1aasi28lW3EapDmMeB0hi3jkg,63
+pybro_cli-0.1.3.dist-info/top_level.txt,sha256=wPJ20F3GKrNT9XlAyu_QUIdiU_QTPFUsno3qYv5M5QY,23
+pybro_cli-0.1.3.dist-info/RECORD,,
