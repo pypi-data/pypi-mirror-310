@@ -1,0 +1,9 @@
+pyproject.toml
+readme.md
+src/dkdc_log/__init__.py
+src/dkdc_log/main.py
+src/dkdc_log.egg-info/PKG-INFO
+src/dkdc_log.egg-info/SOURCES.txt
+src/dkdc_log.egg-info/dependency_links.txt
+src/dkdc_log.egg-info/requires.txt
+src/dkdc_log.egg-info/top_level.txt
