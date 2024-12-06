@@ -1,0 +1,15 @@
+OAS_wrapper/__init__.py,sha256=b1GvItjNqcyIvwsBItPA3zcZCEX4Vl6AvpqsvkRWegY,329
+OAS_wrapper/annotate_sequence.py,sha256=4PJbbB9fd5y15JY7MqxnJTgxXkqWxe0Wt3cDIWldP1I,4356
+OAS_wrapper/column_summary.py,sha256=TJ6Y-yoIxTPOUgYUhLFKXmkFxssK5v8dip09cB1rd8Y,1438
+OAS_wrapper/compare_sequence_to_germline.py,sha256=KGHtZrhV4WzGDbYfxjg0vk7pDAEoIdo1siRZc84zepU,4382
+OAS_wrapper/germline_to_sequence_mappings.py,sha256=4_r4vAcL_TmHUKdSd4FcXVR5KNq6jZkojZww-yBFN3k,2606
+OAS_wrapper/imgt_parse.py,sha256=wXLIlUqVrh9wXId7f4u1rCWek56M6sdUN1QKrZ7WV30,2092
+OAS_wrapper/main.py,sha256=LrJtll21lJnYREPNQ0VTgqR5v2_Mxt-5xhpdzvFa_ZY,492
+OAS_wrapper/metadata_sequences.py,sha256=xSBmbfrMcbrvA3Gx5kq3FlSx4IWPGbDfj06oWEqLIwk,1531
+OAS_wrapper/plot_string_length_distribution.py,sha256=83vyecrTlCElSYRPs4fNZVHYZ64JGmy1_e-f0RwuXTI,1347
+OAS_wrapper/tabulate_query_sequence.py,sha256=NYVUylQ3nlhCzSf70wxN0cEunS3gbIDYHPhPK-Rv5BM,3706
+OAS_wrapper-1.0.dist-info/LICENSE,sha256=zKcqWr3ju5ZyZbghGzLXzzRmUwKtEGMqIZJdwTMfMxw,1099
+OAS_wrapper-1.0.dist-info/METADATA,sha256=7QCaRUfNskE96Htp5GEnI4AwVcTKGgIt_7g9-zVKTvQ,2860
+OAS_wrapper-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+OAS_wrapper-1.0.dist-info/top_level.txt,sha256=_9L-VSodWbrbbtE-a7cOsyCjbggatQtIYStN7oZuJp8,12
+OAS_wrapper-1.0.dist-info/RECORD,,
