@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+HubNLP/__init__.py
+HubNLP/core.py
+HubNLP.egg-info/PKG-INFO
+HubNLP.egg-info/SOURCES.txt
+HubNLP.egg-info/dependency_links.txt
+HubNLP.egg-info/requires.txt
+HubNLP.egg-info/top_level.txt
