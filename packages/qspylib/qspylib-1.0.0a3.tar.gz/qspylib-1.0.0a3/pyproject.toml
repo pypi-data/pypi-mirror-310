@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qspylib"
+dynamic = ["version"]
+
+dependencies = [
+  "adif_io",
+  "requests",
+  "xmltodict",
+]
+requires-python = ">=3.9"
+authors = [
+  { name="Jacob Humble", email="contact@jacobhumble.com" },
+]
+description = "A set of API wrappers for different amateur radio websites, including LotW, QRZ, eQSL, and ClubLog"
+readme = "README.md"
+keywords = ["QRZ", "LOTW", "eQSL", "API", "amateur radio"]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha"
+]
+
+[project.urls]
+Homepage = "https://github.com/JayToTheAy/QSPy"
+Issues = "https://github.com/JayToTheAy/QSPy/issues"
+
+[tool.hatch.version]
+path = "src/qspylib/_version.py"
