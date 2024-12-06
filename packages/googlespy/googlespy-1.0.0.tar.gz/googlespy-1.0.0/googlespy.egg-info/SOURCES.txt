@@ -1,0 +1,9 @@
+README.md
+setup.py
+googlespy/__init__.py
+googlespy/core.py
+googlespy.egg-info/PKG-INFO
+googlespy.egg-info/SOURCES.txt
+googlespy.egg-info/dependency_links.txt
+googlespy.egg-info/requires.txt
+googlespy.egg-info/top_level.txt
