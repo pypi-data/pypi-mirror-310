@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rda-toolkit
+Version: 0.0.1
+Summary: Redistricting analysis tools
+Home-page: https://github.com/rdatools/rdatools
+Author: alecramsay
+Author-email: Alec Ramsay <alec@davesredistricting.org>
+License: MIT
+Project-URL: Homepage, https://github.com/rdatools/rdatools
+Project-URL: Bug Tracker, https://github.com/rdatools/rdatools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Fiona
+Requires-Dist: geopandas
+Requires-Dist: libpysal
+Requires-Dist: pytest
+Requires-Dist: scipy
+Requires-Dist: shapely
+
+# rdatools
+Redistricting analysis tools (RDA)
+
+Companion repositories include:
+
+* [rdatools/vtd_data](https://github.com/rdatools/vtd_data)
+* [rdatools/vtd_ensembles](https://github.com/rdatools/vtd_ensembles)
