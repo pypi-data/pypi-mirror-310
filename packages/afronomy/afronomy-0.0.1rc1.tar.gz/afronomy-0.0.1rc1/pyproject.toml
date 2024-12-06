@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "afronomy"
+version = "0.0.1-rc.1"
+description = "Application to simulate self-calibration and quality assurance checks"
+authors = ["Athanaseus Ramaila & RATT <ramaila.jat@gmail.com>"]
+readme = "README.rst"
+homepage = "https://github.com/athanaseus/afronomy"
+repository = "https://github.com/athanseus/afronomy.git"
+keywords = ["Astronomy", "Masking", "Imaging"]
+classifiers = [
+          "Development Status :: 4 - Beta",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: POSIX :: Linux",
+          "Programming Language :: Python",
+          "Topic :: Scientific/Engineering :: Astronomy"
+]
+license = "MIT"
+packages = [
+    {include = "afronomy"},
+]
+
+[tool.poetry.scripts]
+hello = "afronomy.apps.hello:main"
+afronomy = "afronomy.apps.main:driver"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1"
+codex-africanus = "0.4"
+stimela = "*"
+
+# Optional dependencies start here
+pytest = { version = "*", optional=true }
+pytest-flake8 = { version = "*", optional=true }
+flaky =  { version = "*", optional=true }
+
+[build-system]
+requires = ["setuptools", "poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+testing = ["pytest", "pytest-flake8", "flaky"]
+
+[tool.poetry.group.tests]
+optional = true
+[tool.poetry.group.tests.dependencies]
+pytest = "*"
+flake8 = "*"
+
+[tool.pytest.ini_options]
+testpaths = ["afronomy/afronomy/tests"]

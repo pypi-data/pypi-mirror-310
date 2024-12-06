@@ -1,0 +1,34 @@
+opts:
+  log:
+    dir: logs/log-{config.run.datetime}
+    name: log-{info.taskname}
+    nest: 10
+    symlink: log
+  backend:
+    select: native
+    native:
+      enable: true
+    kube:
+      enable: false
+    rlimits:
+      NOFILE: 4096  # set high limit on number of open files
+
+cabs:
+  afronomy.hello:
+    info: Print Hello name
+    command: hello hello
+    backend:
+      rlimits:
+        NOFILE: 100000 
+    inputs:
+      name:
+        info: "String name to print"
+        dtype: str
+        required: true
+        policies:
+          positional: true
+    outputs:
+      stdout: 
+        info: Output string name
+        dtype: str 
+        implicit: "hello *{current.name}"
