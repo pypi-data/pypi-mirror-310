@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/natrix.egg-info/PKG-INFO
+src/natrix.egg-info/SOURCES.txt
+src/natrix.egg-info/dependency_links.txt
+src/natrix.egg-info/entry_points.txt
+src/natrix.egg-info/requires.txt
+src/natrix.egg-info/top_level.txt
