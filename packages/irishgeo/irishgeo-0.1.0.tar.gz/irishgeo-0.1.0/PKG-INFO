@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: irishgeo
+Version: 0.1.0
+Summary: A library providing Irish Eircode and State fields for Django forms.
+Author-email: Aryan Kumar <x23310618@studemt.ncirl.ie>
+License: MIT
+Requires-Python: >=3.7
