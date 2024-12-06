@@ -1,0 +1,10 @@
+triplepy/__init__.py,sha256=TlRHNTjDfPFDmaW22M3IP9BDncnTkDR7jdLMtTTrPIQ,77
+triplepy/numerical_evaluation.py,sha256=YkUgLWPPE-ORAkiiYSi8v-tHzZsj4i-Us8cgX6icfS4,13140
+triplepy/postprocessing.py,sha256=YNVbzaeXUZG2_HT1QrPxLXmOIs1BPmBVCT_otoQ7IBw,9288
+triplepy/set_input_parameters.py,sha256=nJv83KdwrcT0osKsat6jL-B3z4AXbDNXQd1ieglxn2U,3244
+triplepy/sharp_interface_solution.py,sha256=BXzsPo2LUebvgxTMVwS8N_PFcuC8dRrtPT4RgtauXhg,10928
+triplepy/vtk_io.py,sha256=yh6qE7jhvl4QWZHBb_PeU54S1-Dut3qD8fHH7UAygS4,6891
+triplepy-1.0.0.dist-info/METADATA,sha256=qOEGAHRxmcyEowXriie3rZiSx5yqrqPII9LgzIRJuCI,6591
+triplepy-1.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+triplepy-1.0.0.dist-info/licenses/LICENSE,sha256=azGFEeTswziCbmW7-tA57wuEKHp3QMR5wGevoBeQiQQ,1073
+triplepy-1.0.0.dist-info/RECORD,,
