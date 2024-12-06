@@ -1,0 +1,12 @@
+fast_feature/__init__.py,sha256=LT82rZwvJcoHHFOt0cX-6pHV0JfT50XlKEN6rrN4uGU,264
+fast_feature/dataframe_checks.py,sha256=nMYjx9HVVNTx6qHsyrmmOrIgHmJBHF9WkfW5Smx_u24,9877
+fast_feature/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_feature/tags.py,sha256=kBK3UbMRkUrUptYMfnOWfo7thzeTIDMPOXTXPIRaJYM,1592
+quick_feature/__init__.py,sha256=LT82rZwvJcoHHFOt0cX-6pHV0JfT50XlKEN6rrN4uGU,264
+quick_feature/dataframe_checks.py,sha256=96EmLfDHjvNctRTr1vcJ8PinWbqi5rprPF6xpUJLpHE,9879
+quick_feature/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quick_feature/tags.py,sha256=B7WGc6wUxQfUAYavl5N9T3IvlGXi2_9KoByu8e29BZg,1595
+quick_feature-0.0.1.dev0.dist-info/METADATA,sha256=BAVBXPM2bzRv41_w3MCrZvvPqni137TXn2E7C5KbTBA,776
+quick_feature-0.0.1.dev0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+quick_feature-0.0.1.dev0.dist-info/top_level.txt,sha256=mx8iG7MKZv5R8kZN7p3V4F8T19yhD4yeo0MJgP8UsFQ,14
+quick_feature-0.0.1.dev0.dist-info/RECORD,,

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: quick_feature
+Version: 0.0.1.dev0
+Summary: Fast and Efficient Feature engineering with Polars based dataframe
+Author: Ahmad Zaenal
+Author-email: ahmadzaenal125@gmail.com
+License: MIT
+Project-URL: Github, https://github.com/zaenalium/quick_feature
+Project-URL: Documentation, https://quick_feature.readthedocs.io/en/latest/
+Keywords: feature engineering,encoding,discretisation
+Requires-Dist: numpy>=1.18.2
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: scikit-learn>=1.4.0
+Requires-Dist: scipy>=1.4.1
+Requires-Dist: statsmodels>=0.11.1
+Requires-Dist: polars>=1.8.2
+Requires-Dist: numpydoc
+Requires-Dist: sphinx
+Requires-Dist: sphinx_autodoc_typehints
+Requires-Dist: sphinx_rtd_theme
+
+Fast and Efficient Feature engineering with Polars based dataframe
