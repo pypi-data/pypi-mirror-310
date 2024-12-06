@@ -1,0 +1,27 @@
+registry:
+  address: '127.0.0.1'
+  port: 9000
+  tls-cert: /path/to/cert.pem
+  tls-key: /path/to/cert.key
+  users:
+    - name: testuser
+      pass: testpass
+      access: write
+    - name: anonymous
+      pass: ''
+      access: read
+  # Choose one:
+  storage:
+    driver: swift
+    cloud: registry
+    container: test_registry
+  storage:
+    driver: s3
+    # endpoint: optional url
+    # region: optional string
+    bucket: bucketname
+    access-key: api access key
+    secret-key: api secret key
+  storage:
+    driver: filesystem
+    root: /tmp/storage

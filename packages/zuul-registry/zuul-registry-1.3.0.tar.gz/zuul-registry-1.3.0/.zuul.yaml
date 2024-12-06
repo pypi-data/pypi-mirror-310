@@ -1,0 +1,124 @@
+# Image building jobs
+- secret:
+    name: zuul-registry-registry-credentials
+    data:
+      quay.io:
+        username: zuul-ci+opendevzuul
+        password: !encrypted/pkcs1-oaep
+          - U8grF8lgA4UYRsuELWGXo5WtqRrhDbq5JbFds743nNaRgih/INwociBXwpF1mNxiQLOv3
+            PIh/QzSaGEe1sYpNL2awT9G6BL1X2ViqtlQn7aW1EoNjtjg1ZnXHwMlFk1ByU4UWG+m7K
+            pNmV9JcthnHPafAEb+423mrJKM1N1/XG+y6EMujsEnXaHq4oxCbegWJJa6cv7heAWSbuf
+            UcFh2SmQu/r0eCIpqES5CtthvUQ62sQxAULDe4QRic1kJRDQiuP0HsReEPebT/bjaR2RY
+            YEFKcHZnafvr7Sl42Yo8g3ETqb30Hfvblsd8ga43zD+gzGfWzdH4JiTapjxoA1ZhCrgdY
+            VxoKo3EWT0rHvnvyxA0EmUD11chzktOXlYIj+ayizirzFYFcUK9zu9urLAZCqGW4e0EXC
+            l7wBWZ+vQiP7JRsxzeVZ2zQ8V02EFM7FZYLlOVDaC+XXEhHjr8RTgBJL45Mev1nMRLdi9
+            MToYkW5Ni95ZhgSWB4vQbRHvYaAMQ4e/6vqQw9nBx8vPLjutybwAu0P+vycqM4rbqc4PQ
+            aM6Um0+5X08TTc82+K+byljMSw5LZ9Ck9GWzeSaSt5MOy0h3PHZPBVORgv8Ed2DIZlGOa
+            SPr5pWRtrpvv5IHpcyaatdygSMqL3wKMCM8y+tcsUcd5AYen2nGVZ2hLv1RpMI=
+        api_token: !encrypted/pkcs1-oaep
+          - ab+gmJlLaoVMvcl/VTWxgn4p+H/xts91NtzK9Ce3yhkfgKb8D8FIkSDX7EXE39KAx5H3h
+            MCKeuPfZ1TNuwiq04ROFTU3uj3GkvuYMPTqbnnTetO+bN5rbQUYeMJKPicfUmY1uxuijY
+            er6eTLOWxT5YkmHX5ArCVkdDPcXeDARF4ujUnLqt2mxoyRJsn6v495gNg1nS4YmYq/C6R
+            s8TRBfzqJCvwUPSS84vhZk3r3Nx2qG/ndHneRZpAGMDlFmIgKJsZv5vWZ8QftIrToa+OO
+            r1q37Rf8/Plt1cU4OKN8cMUYvRMjH2Zfy1ioNySDG91qUMhzy3yGyakAfZZBruK02wvws
+            /4PJgCGC55BNZ0phLzCrwsgWsalLOqrt+NzMwPwnecemJnDqT0o7EB8LjtPYzy1e8iA3U
+            dWJrwa1kWTZInB/Adv0CFS972zgygC0l0nRGnl3wje65w7h4CdxLwfT5FXsBtlE4PgWW2
+            zK7UIJk3c61loYKZSllwCi/046lPZWhFq31fYIrUwlPDRyTqI3WvE9ns3Ow5rzGdLGgN+
+            YrzUOdJFHC44rUDEgeRsMC4ssj6lqVzM5Gl3PRd8DfdLkYkg3NeDJqGtrTO8bnj+kv6Nl
+            KpMEnTeMw7AoFybtgvGaeajozvj+wlAsmel3RnVi8oioLrwi8GrVFzUshgxW80=
+
+- job:
+    name: zuul-registry-build-image
+    description: Build and test a container image.
+    parent: opendev-build-container-image
+    allowed-projects: zuul/zuul-registry
+    run: playbooks/functional-test/run.yaml
+    post-run: playbooks/functional-test/post.yaml
+    requires:
+      - python-builder-3.11-bullseye-container-image
+      - python-base-3.11-bullseye-container-image
+    provides: zuul-registry-container-image
+    vars: &image_vars
+      promote_container_image_method: intermediate-registry
+      promote_container_image_job: zuul-registry-upload-image
+      container_command: docker
+      container_images:
+        - context: .
+          registry: quay.io
+          repository: quay.io/zuul-ci/zuul-registry
+          target: zuul-registry
+          tags:
+            # If zuul.tag is defined: [ '3', '3.19', '3.19.0' ].  Only works for 3-component tags.
+            # Otherwise: ['latest']
+            &imagetag "{{ zuul.tag is defined | ternary([zuul.get('tag', '').split('.')[0], '.'.join(zuul.get('tag', '').split('.')[:2]), zuul.get('tag', '')], ['latest']) }}"
+
+- job:
+    name: zuul-registry-upload-image
+    parent: opendev-upload-container-image
+    description: Build and test a container image.
+    allowed-projects: zuul/zuul-registry
+    run: playbooks/functional-test/run.yaml
+    post-run: playbooks/functional-test/post.yaml
+    secrets:
+      name: container_registry_credentials
+      secret: zuul-registry-registry-credentials
+      pass-to-parent: true
+    requires:
+      - python-builder-3.11-bullseye-container-image
+      - python-base-3.11-bullseye-container-image
+    provides: zuul-registry-container-image
+    vars: *image_vars
+
+- job:
+    name: zuul-registry-promote-image
+    parent: opendev-promote-container-image
+    description: Promote previously uploaded container image.
+    allowed-projects: zuul/zuul-registry
+    secrets:
+      name: container_registry_credentials
+      secret: zuul-registry-registry-credentials
+      pass-to-parent: true
+    nodeset:
+      nodes: []
+    vars: *image_vars
+
+- project:
+    vars:
+      release_python: python3
+    check:
+      jobs:
+        - zuul-registry-build-image
+        - nox-linters
+        - nox-py38:
+            nodeset: ubuntu-focal
+        - nox-py311:
+            nodeset: ubuntu-jammy
+        - nox-py312:
+            nodeset: ubuntu-noble
+        - build-python-release
+    gate:
+      jobs:
+        - zuul-registry-upload-image
+        - nox-linters
+        - nox-py38:
+            nodeset: ubuntu-focal
+        - nox-py311:
+            nodeset: ubuntu-jammy
+        - nox-py312:
+            nodeset: ubuntu-noble
+        - build-python-release
+    promote:
+      jobs:
+        - opendev-promote-python
+        - zuul-registry-promote-image
+    release:
+      jobs:
+        - opendev-release-python
+        - upload-container-image:
+            secrets:
+              name: container_registry_credentials
+              secret: zuul-registry-registry-credentials
+              pass-to-parent: true
+            vars:
+              <<: *image_vars
+              upload_container_image_promote: false
