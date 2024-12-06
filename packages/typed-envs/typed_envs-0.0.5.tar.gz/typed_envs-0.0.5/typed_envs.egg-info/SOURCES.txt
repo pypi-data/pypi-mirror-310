@@ -1,0 +1,17 @@
+.gitignore
+setup.py
+test_typed_envs.py
+.github/workflows/codeql.yaml
+.github/workflows/mypy.yaml
+.github/workflows/pytest.yaml
+.github/workflows/release.yaml
+typed_envs/ENVIRONMENT_VARIABLES.py
+typed_envs/__init__.py
+typed_envs/_env_var.py
+typed_envs/factory.py
+typed_envs/py.typed
+typed_envs/registry.py
+typed_envs.egg-info/PKG-INFO
+typed_envs.egg-info/SOURCES.txt
+typed_envs.egg-info/dependency_links.txt
+typed_envs.egg-info/top_level.txt
