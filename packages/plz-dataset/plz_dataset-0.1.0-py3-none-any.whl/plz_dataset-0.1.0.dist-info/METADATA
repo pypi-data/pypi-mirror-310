@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: plz_dataset
+Version: 0.1.0
+Summary: Package for generating PLZ lists for german cities.
+Home-page: https://github.com/AbakusNantis/dataset_plz
+Author: AbakusNantis
+Author-email: privat@bastianknaus.de
+Requires-Python: >=3.6
+Requires-Dist: pandas>=1.3.0
