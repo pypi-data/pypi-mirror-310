@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/ocpiupdate/v2_4_7_updater.py
+src/ocpiupdate.egg-info/PKG-INFO
+src/ocpiupdate.egg-info/SOURCES.txt
+src/ocpiupdate.egg-info/dependency_links.txt
+src/ocpiupdate.egg-info/top_level.txt
