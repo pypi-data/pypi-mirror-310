@@ -1,0 +1,12 @@
+httpx
+pandas
+pydantic
+python-dotenv
+pyyaml
+questionary
+typer
+loguru
+
+[dev]
+pytest
+pyspark
