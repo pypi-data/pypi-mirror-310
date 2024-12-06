@@ -1,0 +1,12 @@
+mensajes/__init__.py,sha256=-8H5W0Sre1mNWvNSdpdOYRdi5LSaVou3nOvKVscdAa8,37
+mensajes/adios/__init__.py,sha256=Vx5y-gnL_hUYdZJIb8pQLt6byGFyO6KjJms4xK9QLOQ,46
+mensajes/adios/despedidas.py,sha256=3hiJ-lb80S38sEytUu7Fim5jTBPCc8vzKtDfmrqr9Z8,182
+mensajes/hola/__init__.py,sha256=3XQIgStjjAkG5Gcap8VHMbJADF5ElVCicEE73WIHsr8,45
+mensajes/hola/saludos.py,sha256=HEgNY6PGE8gOlnKTiS9kGBVhVQpnwIZXDqKcIuwqs1w,407
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=rbKp3f-FHqBNvv4Cce9zX6dUFmMNFNFHuxRXBt48jXo,423
+Mensajes_chrishiguera97-6.0.dist-info/LICENSE,sha256=kZ243VGaPy9hfTVkNeiOIqDw-3UYFAfha9aJOMbJWpE,1093
+Mensajes_chrishiguera97-6.0.dist-info/METADATA,sha256=g_39cmobVLSt9rNObvX6cFE8NM1eG92KRpeAFt8vbmo,764
+Mensajes_chrishiguera97-6.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+Mensajes_chrishiguera97-6.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+Mensajes_chrishiguera97-6.0.dist-info/RECORD,,
