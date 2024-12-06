@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/viznvsmi/__init__.py
+src/viznvsmi/callback.py
+src/viznvsmi/monitor.py
+src/viznvsmi.egg-info/PKG-INFO
+src/viznvsmi.egg-info/SOURCES.txt
+src/viznvsmi.egg-info/dependency_links.txt
+src/viznvsmi.egg-info/requires.txt
+src/viznvsmi.egg-info/top_level.txt

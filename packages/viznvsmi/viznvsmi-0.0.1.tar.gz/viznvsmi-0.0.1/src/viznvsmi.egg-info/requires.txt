@@ -1,0 +1,4 @@
+viztracer
+
+[lightning]
+pytorch-lightning
