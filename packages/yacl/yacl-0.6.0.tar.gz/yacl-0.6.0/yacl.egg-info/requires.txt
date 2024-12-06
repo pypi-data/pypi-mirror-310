@@ -1,0 +1,4 @@
+numpy
+
+[colored_exceptions]
+pygments
