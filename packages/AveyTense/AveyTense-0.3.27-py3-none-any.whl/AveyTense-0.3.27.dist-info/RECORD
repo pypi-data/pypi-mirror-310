@@ -1,0 +1,15 @@
+tense/__init__.py,sha256=Ut9csdIGOBcOoJ2sdPzat8VhJK6fYec-cVvBFPn8f3w,197066
+tense/_abc.py,sha256=J7IMex8poYmzBZV3D-8dJ-TBGh1zAT1leorWGvAEmC4,57238
+tense/_exceptions.py,sha256=oV6NsCX1Cd7stbavWDQSlW8C6U9Hw4MUZ7I4-RZ__O4,6460
+tense/_nennai_types.py,sha256=MhG_9Omfeo7yo91ECwQHGwwcr802_u_mJOjp_qbkK-o,32494
+tense/_primal.py,sha256=ltNiZUQAqdyxK8ZKaXijwVSZnomLo8QidSjbwwAWN-U,58838
+tense/_primal_types.py,sha256=EzCPkFbi-9_yA7G4q-IGR6bm99aX2cWM97DTO2S-vbo,24908
+tense/_versioning.py,sha256=OIiFuOrOIGeBQ0wWGcgMXoEwagtBTF2oYpFKmj2y9FQ,6131
+tense/constants.py,sha256=6ackevFs76K1s3p8Ljcoi7SqvZ9HZgsfufkohLoTKOg,8248
+tense/databases.py,sha256=TcCOZA4dRCBAZIdLaPs5qolHXC_TtQeFbnTrlEWv7dU,10348
+tense/operators.py,sha256=Jprkci6SwK27S8V5JDMVivwpzESCYqK5lF3SnvuU8d0,1210
+tense/types_collection.py,sha256=i0BDDvwtvUE6VO9UU-e05o7mLgcNC2n_wZbv2eCaUes,34580
+AveyTense-0.3.27.dist-info/METADATA,sha256=VzhzY-mJLsdb5FhiyopA8Bc0ZJ9zH8o47flmn5_Riwo,415
+AveyTense-0.3.27.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+AveyTense-0.3.27.dist-info/top_level.txt,sha256=LAHyCOW8zRK9209ClMlkdw1DGYWDLa4cWSuYVfn_Mfs,6
+AveyTense-0.3.27.dist-info/RECORD,,
