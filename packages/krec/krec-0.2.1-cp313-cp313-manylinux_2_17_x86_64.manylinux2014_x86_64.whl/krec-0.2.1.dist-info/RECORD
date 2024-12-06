@@ -1,0 +1,9 @@
+krec-0.2.1.dist-info/top_level.txt,sha256=w3tI4lHXvLLSVv2jSd54BhTCIm1-JeVEsgKp9mp63vI,5
+krec-0.2.1.dist-info/RECORD,,
+krec-0.2.1.dist-info/LICENSE,sha256=BlE3S9hopcdhNC4twkpRGm7eLcvt8im445t3YqR1m50,1069
+krec-0.2.1.dist-info/METADATA,sha256=uah8RSUCvS1bef2yjGmHQG8PIlPzCqPL8CB48woSyVU,698
+krec-0.2.1.dist-info/WHEEL,sha256=Eb7DqhII9pwEJbcnQbenABAQBXI9oOKRgj7ggKUWTdE,151
+krec/__init__.py,sha256=yQuWo6cpsDJ96pRQuYZKakQYVIq0uBevdqnjgt6vtn0,71
+krec/bindings.pyi,sha256=fZ48-yBBLmWBhHH9S6N-vrZmwe8hEK4mM99ENF72shA,8270
+krec/bindings.cpython-313-x86_64-linux-gnu.so,sha256=m5YM0A4ymxBjz9DrHUSrWFuFRRtXoN7HlNQCf7mzjoc,4491600
+krec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
