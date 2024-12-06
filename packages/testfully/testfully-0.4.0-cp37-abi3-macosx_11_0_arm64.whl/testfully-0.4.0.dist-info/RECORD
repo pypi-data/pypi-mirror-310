@@ -1,0 +1,7 @@
+testfully-0.4.0.dist-info/METADATA,sha256=qAEFWSKgW-w196orVkGMOQ8hbmjuMLx3iAnu-hgXm0k,1077
+testfully-0.4.0.dist-info/WHEEL,sha256=sEnPbDTKa0KXk_rLRYKZHR1gg3dJRumAigKUuWDx_aA,102
+testfully/validator.py,sha256=eouTVMTeMqU5L1dbuzNu-7Ru0gv2vG2qX-vb8TFopoU,13411
+testfully/__init__.py,sha256=hggt2JjfX7LviFWeW0Nw-bhc_-Zmmv2ENZiYCNbd35E,25
+testfully/tracker.py,sha256=6jIyl32qo0o_sN9hqfgazIxW6V-hNoEwN6tulcoUTCw,17987
+testfully/testfully.abi3.so,sha256=fAgjrJ615KP5lyI9fLEtwTBIz9ifEan1A4Zh-tuJucw,5932128
+testfully-0.4.0.dist-info/RECORD,,
