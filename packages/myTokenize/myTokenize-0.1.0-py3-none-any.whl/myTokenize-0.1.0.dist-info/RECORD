@@ -1,0 +1,16 @@
+myTokenize/Tokenizer.py,sha256=uoyivwBBBG9Z-gyX_d5uYPCYBPvW8pehTpoC_y7KvBQ,15470
+myTokenize/__init__.py,sha256=s9-NA3Q9JB4wlQ2Wq0ckTMqZkExlRejQ3_iriHnWlmM,305
+myTokenize/CRFTokenizer/wordseg_c2_crf.crfsuite,sha256=twjHrOMTwn5p4gzz2lRP_7xHaTAySpRspcsyrKpxC6k,3363844
+myTokenize/SentencePiece/bpe_sentencepiece_model.model,sha256=uVM2T0LGZ60o87uM2Pn4A-bwWsqGfafJ3wrAyfBvu_M,485378
+myTokenize/SentencePiece/bpe_sentencepiece_model.vocab,sha256=cyti87Wuw4GsXPZs4vv95mBrBuUpA5TBTyHBgeRm87Q,226622
+myTokenize/SentencePiece/unigram_sentencepiece_model.model,sha256=fhG6dq3AeqyYH8Rw8jj8ezKK7il3unWHanLsKUefhP4,490723
+myTokenize/SentencePiece/unigram_sentencepiece_model.vocab,sha256=SDuiheFOPn8l4iqtbYO_KCk7PNocv_AyLF8c8BOsSUY,262098
+myTokenize/myWord/phrase_segment.py,sha256=pa6IlFr-Al3_9Bc8lr4ZA7vlso-uF7wUvtG3XcsMXYo,7353
+myTokenize/myWord/word_segment.py,sha256=SwY43g41goexdXhCPM1XyLOMXsFS4uygXGhZ7uJahGI,3488
+myTokenize/myWord/.ipynb_checkpoints/phrase_segment-checkpoint.py,sha256=pa6IlFr-Al3_9Bc8lr4ZA7vlso-uF7wUvtG3XcsMXYo,7353
+myTokenize/myWord/.ipynb_checkpoints/word_segment-checkpoint.py,sha256=SwY43g41goexdXhCPM1XyLOMXsFS4uygXGhZ7uJahGI,3488
+myTokenize-0.1.0.dist-info/LICENSE,sha256=UEPYC93I6r_DCi0JADOYgl7m170lmd14ztYPYeo8We8,1082
+myTokenize-0.1.0.dist-info/METADATA,sha256=19FS7S_jh7vcDejjxnXOdPn6A_nKiZzO9L4bqGt7WLQ,4384
+myTokenize-0.1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+myTokenize-0.1.0.dist-info/top_level.txt,sha256=t78n2yh-nH-HF4uA0QMvQRbfXXNOMBOHh02WsdBxCtU,11
+myTokenize-0.1.0.dist-info/RECORD,,
