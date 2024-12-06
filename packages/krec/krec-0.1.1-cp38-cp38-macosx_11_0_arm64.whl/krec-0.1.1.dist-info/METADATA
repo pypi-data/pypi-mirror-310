@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: krec
+Version: 0.1.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: OS Independent
+Summary: Python bindings for KRec
+Author-email: Denys Bezmenov <denys@kscale.dev>
+Requires-Python: >=3.7
