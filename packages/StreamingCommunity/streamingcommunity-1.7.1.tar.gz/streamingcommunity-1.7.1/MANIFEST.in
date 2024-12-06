@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include requirements.txt
+include run.py
+recursive-include StreamingCommunity/Src *
+recursive-include StreamingCommunity/Assets *
+recursive-include StreamingCommunity/Lib *
+recursive-include StreamingCommunity/Upload *
+recursive-include StreamingCommunity/Test *
+recursive-include StreamingCommunity/ *.py
