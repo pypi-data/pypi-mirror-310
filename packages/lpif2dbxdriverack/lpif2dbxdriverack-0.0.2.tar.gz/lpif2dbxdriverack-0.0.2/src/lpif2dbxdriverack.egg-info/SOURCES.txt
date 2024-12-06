@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/lpif2dbxdriverack/__init__.py
+src/lpif2dbxdriverack/lpif.py
+src/lpif2dbxdriverack/lpif2dbxdriverack.py
+src/lpif2dbxdriverack/py.typed
+src/lpif2dbxdriverack.egg-info/PKG-INFO
+src/lpif2dbxdriverack.egg-info/SOURCES.txt
+src/lpif2dbxdriverack.egg-info/dependency_links.txt
+src/lpif2dbxdriverack.egg-info/entry_points.txt
+src/lpif2dbxdriverack.egg-info/requires.txt
+src/lpif2dbxdriverack.egg-info/top_level.txt

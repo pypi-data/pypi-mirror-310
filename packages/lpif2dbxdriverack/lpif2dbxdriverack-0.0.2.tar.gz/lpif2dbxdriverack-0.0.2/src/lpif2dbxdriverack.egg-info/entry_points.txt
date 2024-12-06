@@ -1,0 +1,2 @@
+[console_scripts]
+lpif2dbxdriverack = lpif2dbxdriverack.lpif2dbxdriverack:lpif2dbxdriverack
