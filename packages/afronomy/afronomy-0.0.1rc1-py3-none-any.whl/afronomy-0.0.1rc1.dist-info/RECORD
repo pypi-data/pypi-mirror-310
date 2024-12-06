@@ -1,0 +1,13 @@
+afronomy/__init__.py,sha256=lmJMBj0V-VWbWH33X9Omr-vTuMjMx3OdFNwL3uk_QjI,804
+afronomy/apps/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+afronomy/apps/hello.py,sha256=_PU8OjbTclTXEHvcYm8ZcQiDD8zGPPKsqd9vq5mja6E,880
+afronomy/apps/main.py,sha256=xlajUWh9gmo4v5hntviVwfb8bcTBIp9TfjQHZZO3weU,254
+afronomy/cabs/hello.yml,sha256=j89EeRCG7PfTidMT9xG8KfDh-EHvpqXscv_JafRksSo,678
+afronomy/parser/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+afronomy/tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+afronomy/tests/test_hello.py,sha256=3mt-YPXQpcgH_ZF_eBQTrqUJ12plkaKLJ0oMRE0mLj8,692
+afronomy-0.0.1rc1.dist-info/LICENSE,sha256=CpnC-WEvIe4oInxD3SIgr8WsKuL13as-kOBUlF_RzDw,1081
+afronomy-0.0.1rc1.dist-info/METADATA,sha256=8Ik9FGutWIAbo1PBTr26OTpM8ULYEdfBs5_wSZuVwW8,2852
+afronomy-0.0.1rc1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+afronomy-0.0.1rc1.dist-info/entry_points.txt,sha256=JmFrW5aE8EMdztbr5V7MT5PmhIvbC5tOBvQkVfuEh-o,85
+afronomy-0.0.1rc1.dist-info/RECORD,,
