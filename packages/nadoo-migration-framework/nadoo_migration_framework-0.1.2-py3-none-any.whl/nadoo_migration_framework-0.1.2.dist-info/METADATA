@@ -1,0 +1,188 @@
+Metadata-Version: 2.1
+Name: nadoo-migration-framework
+Version: 0.1.2
+Summary: A powerful, Git-based migration framework for NADOO Framework projects
+Home-page: https://github.com/NADOOIT/nadoo-migration-framework
+License: MIT
+Keywords: nadoo,migration,framework
+Author: NADOO IT
+Author-email: info@nadoo.it
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=8.1.0,<9.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Documentation, https://github.com/NADOOIT/nadoo-migration-framework#readme
+Project-URL: Repository, https://github.com/NADOOIT/nadoo-migration-framework
+Description-Content-Type: text/markdown
+
+# NADOO Migration Framework
+
+A powerful, Git-based migration framework for NADOO Framework projects. This tool helps you:
+- Migrate older NADOO Framework projects to newer versions
+- Convert non-NADOO projects to NADOO Framework projects
+- Manage dependencies in NADOO Framework projects
+
+## Installation
+
+You can install the NADOO Migration Framework using pip:
+
+```bash
+pip install nadoo-migration-framework
+```
+
+Or using Poetry:
+
+```bash
+poetry add nadoo-migration-framework
+```
+
+After installation, the following commands will be available globally in your terminal:
+
+- `nadoo` - Main command with all subcommands
+- `nadoo-init` - Quick command to create new projects
+- `nadoo-migrate` - Quick command to run migrations
+- `nadoo-add` - Quick command to add packages
+
+## Usage
+
+### Creating a New Project
+
+Create a new NADOO Framework project:
+
+```bash
+# Using the main command
+nadoo init my-project
+
+# Or using the quick command
+nadoo-init my-project
+
+# Specify a custom path
+nadoo init my-project --path /path/to/projects
+```
+
+### Migrating a Project
+
+To migrate a project to the latest NADOO Framework version:
+
+```bash
+# In your project directory
+nadoo migrate
+
+# Or using the quick command
+nadoo-migrate
+
+# Specify a project path
+nadoo migrate /path/to/project
+
+# Force migration even if checks fail
+nadoo migrate --force
+```
+
+The migration tool will:
+1. Analyze your project structure
+2. Detect if it's a NADOO Framework project or not
+3. Determine required migrations
+4. Apply migrations with Git-based version control
+
+### Adding Packages
+
+To add a package to your NADOO Framework project:
+
+```bash
+# Using the main command
+nadoo add package-name
+
+# Or using the quick command
+nadoo-add package-name
+
+# Add as development dependency
+nadoo add package-name --dev
+```
+
+This will:
+1. Add the package to your project's dependencies
+2. Update your project configuration
+3. Install the package using your package manager
+
+## Command Reference
+
+### Main Command (`nadoo`)
+
+The main command with all functionality:
+
+```bash
+nadoo [COMMAND] [OPTIONS]
+
+Commands:
+  init      Create a new NADOO Framework project
+  migrate   Migrate a project to the latest version
+  add       Add a package to the project
+```
+
+### Quick Commands
+
+Standalone commands for common operations:
+
+- `nadoo-init`: Create new projects
+  ```bash
+  nadoo-init PROJECT_NAME [--path PATH]
+  ```
+
+- `nadoo-migrate`: Run migrations
+  ```bash
+  nadoo-migrate [PROJECT_PATH] [--force]
+  ```
+
+- `nadoo-add`: Add packages
+  ```bash
+  nadoo-add PACKAGE_NAME [--dev]
+  ```
+
+## Features
+
+- **Intelligent Project Analysis**: Automatically detects project type and structure
+- **Git Integration**: All migrations are tracked with Git commits
+- **Safe Migrations**: Automatic rollback on failure
+- **Package Management**: Integrated with NADOO Framework package management
+- **Extensible**: Easy to add new migration strategies
+- **Global Commands**: Quick access to common operations
+
+## Development
+
+To contribute to the NADOO Migration Framework:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/NADOOIT/nadoo-migration-framework.git
+cd nadoo-migration-framework
+```
+
+2. Install dependencies:
+```bash
+poetry install
+```
+
+3. Run tests:
+```bash
+poetry run pytest
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+

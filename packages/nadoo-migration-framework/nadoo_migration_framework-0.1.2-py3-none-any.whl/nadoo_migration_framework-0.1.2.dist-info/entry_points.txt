@@ -1,0 +1,7 @@
+[console_scripts]
+nadoo=nadoo_migration_framework.cli:cli
+nadoo-add=nadoo_migration_framework.cli:add_package
+nadoo-init=nadoo_migration_framework.cli:init_project
+nadoo-migrate=nadoo_migration_framework.cli:migrate
+nadoo-publish=nadoo_migration_framework.cli:publish
+

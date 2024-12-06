@@ -1,0 +1,14 @@
+nadoo_migration_framework/__init__.py,sha256=FN94tixF9UV-yQXQVxTBIleavWSEIOxd-3FWYnh-BG0,389
+nadoo_migration_framework/analyzers.py,sha256=tcBnQWk5eHVHIVoilCs2Pff1KvXNbkYw0IoLorG32u4,5340
+nadoo_migration_framework/base.py,sha256=zee_IgrNymT8d6QWzf_B_wd0CeAO6WDKQLi_TfBZY78,3931
+nadoo_migration_framework/cli.py,sha256=uY_FPmTkM-qptFcHT8x9lM05C_VdG6iGm9m2Dao4poo,14066
+nadoo_migration_framework/functions/__init__.py,sha256=ZA1fJjLj14oVQXomjQ6e0DGSZnXbrFvBfocOy_zo0cc,264
+nadoo_migration_framework/functions/code_analysis.py,sha256=gQk-PQGlViKiDh1d1EJnEQ22f1whwD09kiOUqbgfkxA,2652
+nadoo_migration_framework/functions/dependency_analysis.py,sha256=aGVZw5sVZUhyLixXJgy6oA03H0V6eI9l1DZ2R1p33KM,4227
+nadoo_migration_framework/functions/project_structure.py,sha256=DWyk2gtuo2Sp5BkTtH48mRhKl94OSgd_v00cmRiTlE4,3253
+nadoo_migration_framework/manager.py,sha256=VcKpDvBSBLh2XJ9aIKuWGXkSHcoLc6oWert73dKxCPg,7778
+nadoo_migration_framework-0.1.2.dist-info/LICENSE,sha256=4nBOLWijTwGK1ULc7Nsy-7THmI19kES0psGQC_VLjZg,1065
+nadoo_migration_framework-0.1.2.dist-info/METADATA,sha256=7A4uCiRY8fG0lasCSaWvLTg_vlZJWl9Wbn2ZRqPEWx0,4660
+nadoo_migration_framework-0.1.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+nadoo_migration_framework-0.1.2.dist-info/entry_points.txt,sha256=mYX9jaSpkWzw57Gebm0aGlqiQmsPv9Kya-lHHvu6e1g,269
+nadoo_migration_framework-0.1.2.dist-info/RECORD,,
