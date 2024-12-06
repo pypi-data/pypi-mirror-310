@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+pypi_guapo/__init__.py
+pypi_guapo/helper.py
+pypi_guapo.egg-info/PKG-INFO
+pypi_guapo.egg-info/SOURCES.txt
+pypi_guapo.egg-info/dependency_links.txt
+pypi_guapo.egg-info/top_level.txt
+tests/test_pypi_guapo.py
