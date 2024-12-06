@@ -1,0 +1,2 @@
+[console_scripts]
+arb_runner = arb.run:main
