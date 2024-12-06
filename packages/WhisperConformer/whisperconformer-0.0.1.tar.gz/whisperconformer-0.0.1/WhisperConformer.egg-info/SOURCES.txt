@@ -1,0 +1,9 @@
+README.md
+setup.py
+WhisperConformer/__init__.py
+WhisperConformer/main.py
+WhisperConformer.egg-info/PKG-INFO
+WhisperConformer.egg-info/SOURCES.txt
+WhisperConformer.egg-info/dependency_links.txt
+WhisperConformer.egg-info/requires.txt
+WhisperConformer.egg-info/top_level.txt
