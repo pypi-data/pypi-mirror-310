@@ -1,0 +1,4 @@
+[funcnodes.module]
+module=funcnodes_yolo
+shelf=funcnodes_yolo:NODE_SHELF
+
