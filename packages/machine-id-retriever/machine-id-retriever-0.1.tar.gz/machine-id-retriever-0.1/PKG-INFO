@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: machine-id-retriever
+Version: 0.1
+Summary: A Python package to retrieve the machine ID
+Author: Harisha P C
+Author-email: info@xtal.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

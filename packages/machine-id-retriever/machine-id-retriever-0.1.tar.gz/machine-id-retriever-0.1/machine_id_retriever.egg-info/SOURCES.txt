@@ -1,0 +1,7 @@
+setup.py
+machine_id/__init__.py
+machine_id/machine_id.py
+machine_id_retriever.egg-info/PKG-INFO
+machine_id_retriever.egg-info/SOURCES.txt
+machine_id_retriever.egg-info/dependency_links.txt
+machine_id_retriever.egg-info/top_level.txt
