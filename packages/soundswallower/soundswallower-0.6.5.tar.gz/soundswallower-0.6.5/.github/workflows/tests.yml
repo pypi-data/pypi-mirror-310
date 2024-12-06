@@ -1,0 +1,74 @@
+name: Run Tests
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install
+        run: |
+          sudo apt-get install sox ninja-build
+      - name: Build
+        run: |
+          mkdir build
+          cmake -S . -B build -GNinja -DCMAKE_BUILD_TYPE=Debug
+          cmake --build build
+
+      - name: Run tests
+        run: |
+          CTEST_OUTPUT_ON_FAILURE=1 cmake --build build --target check
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install
+        run: |
+          pip3 install -r requirements.dev.txt
+          pip3 install .
+      - name: Run tests
+        run: python3 -m pytest
+  wintest:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install
+        run: |
+          pip3 install -r requirements.dev.txt
+          pip3 install .
+      - name: Run tests
+        run: python3 -m pytest
+  mactest:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+      - name: Install
+        run: |
+          pip install -r requirements.dev.txt
+          pip install .
+      - name: Run tests
+        run: python -m pytest
+  nodetest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Build Dependencies
+        uses: mymindstorm/setup-emsdk@v14
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        run: |
+          emcmake cmake -S . -B jsbuild
+          cmake --build jsbuild
+      - name: Run tests
+        run: |
+          (cd jsbuild && npm install --also=dev)
+          (cd jsbuild && npm test)
+          (cd jsbuild && npm run tstest)
