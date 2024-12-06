@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "AxtendedKey"
+version = "0.1.1"
+description = "Easy AX Permissions for Xcode Builds"
+authors = ["Zachary Schuessler <zlschuessler@gmail.com>"]
+license = "Unlicense"
+readme = "README.md"
+repository = "https://github.com/zschuessler/AXtendedKey"
+packages = [{include = "axtended_key", from="src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+axtended-key = "axtended_key.main:main"
