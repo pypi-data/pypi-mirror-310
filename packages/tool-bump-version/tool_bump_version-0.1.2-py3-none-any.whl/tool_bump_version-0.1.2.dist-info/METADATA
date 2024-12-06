@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: tool-bump-version
+Version: 0.1.2
+Summary: CLI tool to bump Python project versions according to semver
+Author-email: Eyal Levin <eyalev@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: tomlkit>=0.13.0
+Requires-Dist: typer>=0.13.1
