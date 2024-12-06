@@ -1,0 +1,7 @@
+liquid.cpython-312-darwin.so,sha256=HFBzTxNATNuqd7XWmp1QVPJaVAlSYPgHVDjABJa_AWw,1535880
+liquid_dsp-1.6.0.dist-info/RECORD,,
+liquid_dsp-1.6.0.dist-info/WHEEL,sha256=Vqw9orcNesD9-KuxFaWjC_hI-wCEiyMbR5lwnn6Nrrk,116
+liquid_dsp-1.6.0.dist-info/METADATA,sha256=-wErjDTkBz-zIpabC9DzQpa7BwnnMa5E3cXySrGRlGM,14850
+liquid_dsp-1.6.0.dist-info/licenses/LICENSE,sha256=TfcSYZbvuhKD3rmeMmlBjd5KsK0f3oClUFEVNFHrTfI,1067
+lib/libliquid.dylib,sha256=--81fR9iAXtGtr-kXKKNY7tfezDGRXD2h3PMZnh4dtY,1122296
+lib/libliquid.1.dylib,sha256=--81fR9iAXtGtr-kXKKNY7tfezDGRXD2h3PMZnh4dtY,1122296
