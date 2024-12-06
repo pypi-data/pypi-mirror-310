@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dagster_contrib_gcp
+Version: 0.0.1
+Summary: Community contributed Google Cloud Platform integration
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: dagster>=1.9.0
+Requires-Dist: google-cloud-run>=0.10.10
+Requires-Dist: tenacity>=8.0.0
+
+# `dagster-contrib-gcp`
+
+## Test
+
+```sh
+make test
+```
+
+## Build
+
+```sh
+make build
+```
