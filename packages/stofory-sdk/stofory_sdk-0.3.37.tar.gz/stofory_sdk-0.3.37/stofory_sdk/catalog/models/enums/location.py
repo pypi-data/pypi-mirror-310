@@ -1,0 +1,25 @@
+import enum
+
+
+class LocationType(enum.StrEnum):
+    ANTARCTICA = "Антарктика"
+    AUSTRALIA_NEW_ZEALAND = "Австралия и Новая Зеландия"
+    CARIBBEAN = "Карибский бассейн"
+    CENTRAL_AFRICA = "Центральная Африка"
+    CENTRAL_AMERICA = "Центральная Америка"
+    EASTERN_ASIA = "Восточная Азия"
+    EASTERN_EUROPE = "Восточная Европа"
+    INDIAN_OCEAN = "Индийский океан"
+    MELANESIA = "Меланезия"
+    MICRONESIA = "Микронезия"
+    NORTHERN_AFRICA = "Северная Африка"
+    NORTHERN_EUROPE = "Северная Европа"
+    POLYNESIA = "Полинезия"
+    SOUTH_AMERICA = "Южная Америка"
+    SOUTHERN_AFRICA = "Южная часть Африки"
+    SOUTHERN_CENTRAL_ASIA = "Южная часть Центральной Азии"
+    SOUTHERN_EUROPE = "Южная Европа"
+    SOUTH_OCEAN = "Южный океан"
+    TRANSCAUCASIA = "Закавказье"
+    WESTERN_ASIA = "Западная Азия"
+    WESTERN_EUROPE = "Западная Европа"
