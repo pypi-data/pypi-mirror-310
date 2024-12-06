@@ -1,0 +1,2 @@
+[console_scripts]
+geforce-temp-monitor = geforce_temp_monitor.monitor:main
