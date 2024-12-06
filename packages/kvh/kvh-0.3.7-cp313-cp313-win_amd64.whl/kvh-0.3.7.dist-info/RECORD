@@ -1,0 +1,14 @@
+kvh/ckvh.cp313-win_amd64.dll.a,sha256=B_z05L0fkzWDlMkO3LlyfNcQNRY_M-ZNWxek6UQtc6Q,1680
+kvh/ckvh.cp313-win_amd64.pyd,sha256=Lojsq-b8y2D2teCLUGxo9vN_l62rxZ2IE4-zmzmQTOk,302613
+kvh/kvh.py,sha256=xCuGHA-8VePZcyN0iN1H3zipt33DLL9H4Ors1Jgw0ZI,9999
+kvh/LICENSE,sha256=ywDHmA2zYWqv1dc6gvI8IrCGioQpti-csLn3JA3MSig,19110
+kvh/salut.kvh,sha256=MfAa9GL_ohxRDHiEkzFe_4OWLbMgSlcaDds3mDfQc3E,53
+kvh/version.txt,sha256=kSau1UpTsQa3QlTtsAus0XpaT_6X3exB_ZdmFRffPQs,7
+kvh/__init__.py,sha256=zJ5vXp93qd5momaC8WZwX7y6btXkcKCQJ3LDfuikXec,441
+kvh-0.3.7.dist-info/DELVEWHEEL,sha256=qTpZl51nPqWkvy_tttBcX4_RBdKQC4iGX52adGiaayk,395
+kvh-0.3.7.dist-info/METADATA,sha256=Z-a_9Xh0aLJzWoj9ttAh80epOEV4Ctn7tdMu7knVRwU,1573
+kvh-0.3.7.dist-info/RECORD,,
+kvh-0.3.7.dist-info/WHEEL,sha256=suq8ARrxbiI7iLH3BgK-82uzxQ-4Hm-m8w01oCokrtA,85
+kvh.libs/libgcc_s_seh-1-a395974a71232e03af095758723a5807.dll,sha256=R02iHjK3wyD81kzz1mnTrbz_GgJYG_QWBrDvbsYQn3s,101376
+kvh.libs/libstdc++-6-6242890f4b93e24c293755e836a70066.dll,sha256=f0Dzsmjr_lGWm785U_C0AOAnc-BTkLFl0UGYQdQRZ48,2020352
+kvh.libs/libwinpthread-1-de34bb640e15c8712845d93ff1189405.dll,sha256=4BuOhf1nwrhh9k1MzH32B1m1iapBAACij6K4SiCJF1s,54784
