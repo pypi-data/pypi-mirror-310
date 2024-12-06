@@ -1,0 +1,12 @@
+chelydra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chelydra/backup.py,sha256=611jweJJn_0i_-XkESfBPIk9pL0C7_OLj8yTU8UbNrY,6929
+chelydra/version.py,sha256=JbPVUvgOze3vS_KkbmOQZHwjm9YzuPq7yb5N-WMV3Wk,2419
+chelydra/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chelydra/tools/compression.py,sha256=TM-AB5wotM7dnga4dzIstA_izgCyZW-PVKSfvViIZXc,1642
+chelydra/tools/cryptography.py,sha256=24GXIy3tSWarHabbocbzMqVDZbzXDSdYgAdSU4X_nOc,1268
+chelydra/tools/directory.py,sha256=N-WxJKLITtqdoYA8WZHQeMHWAN5hY2_ciigzJxCqO8Q,2075
+chelydra-0.0.10.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+chelydra-0.0.10.dist-info/METADATA,sha256=NR4hwPHKgP6aaI4A8WDSXkGeJje2uMCHi7Qk7cjB7bQ,806
+chelydra-0.0.10.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+chelydra-0.0.10.dist-info/top_level.txt,sha256=EqKK4tW3_KOsMSJ4XVBA9h6ynpVcB83EmTcv4e3vk90,9
+chelydra-0.0.10.dist-info/RECORD,,
