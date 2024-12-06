@@ -1,0 +1,372 @@
+Metadata-Version: 2.1
+Name: BONO
+Version: 1.1.4
+Summary: Librería para análisis y cálculos de bonos financieros
+Home-page: https://github.com/LuisHCalderon
+Author: Luis Humberto Calderon Baldeón
+Author-email: luis.calderon.b@uni.pe
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.5.0
+
+
+### Bond Library
+A Python library for performing calculations and analyses related to financial bonds. Ideal for financial analysts, finance students, and developers interested in financial engineering.
+
+#### Summary of Examples:
+* Basic bond valuation (coupon and zero-coupon bonds).
+* Calculating bond sensitivity (Macaulay duration).
+* Yield to Maturity (YTM) calculation.
+* Generating cash flows for bonds.
+* Portfolio analysis (total value and weighted average duration).
+* Yield curve analysis.
+* Calculating bond risk measures (Duration and Convexity).
+* Simulating interest rate scenarios and their impact on bond cash flows.
+* Visualizing bond cash flows and simulated interest rates.
+* Comparing multiple bonds to select the best option based on Net Present Value (NPV).
+
+
+### 1. Bond Valuation
+Calculate the price of bonds, including coupon bonds and zero-coupon bonds.
+
+**Example: Valuing a bond**
+
+```python
+from bonos.valuacion import precio_bono
+```
+*#Inputs: Face value (nominal value), coupon rate, discount rate, periods, payment frequency*
+```python
+bond_price = precio_bono(valor_nominal=1000, tasa_cupon=5, tasa_descuento=3, periodos=5, frecuencia=1)
+print(f"The bond price is: {bond_price}")
+```
+
+**Example: Valuing a zero-coupon bond**
+
+```python
+from bonos.valuacion import precio_bono
+```
+
+*#Zero-coupon bond: coupon rate = 0*
+```python
+zero_coupon_price = precio_bono(valor_nominal=1000, tasa_cupon=0, tasa_descuento=4, periodos=10, frecuencia=1)
+print(f"The zero-coupon bond price is: {zero_coupon_price}")
+```
+
+### 2. Bond Sensitivity
+Calculate the Macaulay Duration, a measure of a bondâ€™s sensitivity to interest rate changes.
+
+**Example: Calculating Macaulay Duration**
+
+```python
+from bonos.sensibilidad import duracion_macaulay
+```
+
+*#Inputs: Face value, coupon rate, discount rate, periods, payment frequency*
+```python
+duration = duracion_macaulay(valor_nominal=1000, tasa_cupon=5, tasa_descuento=3, periodos=5, frecuencia=1)
+print(f"The Macaulay duration is: {duration}")
+```
+**Example: Duration of a zero-coupon bond**
+```python
+from bonos.sensibilidad import duracion_macaulay
+```
+*#Zero-coupon bond: coupon rate = 0*
+```python
+zero_coupon_duration = duracion_macaulay(valor_nominal=1000, tasa_cupon=0, tasa_descuento=4, periodos=10, frecuencia=1)
+print(f"The duration of the zero-coupon bond is: {zero_coupon_duration}")
+```
+
+### 3. Yield to Maturity (YTM)
+Calculate the Yield to Maturity (YTM), which represents the bond's expected annual return if held until maturity.
+
+**Example: Calculating YTM**
+```python
+from bonos.tasas import rendimiento_vencimiento
+```
+*#Inputs: Bond price, face value, coupon rate, periods, payment frequency*
+```python
+ytm = rendimiento_vencimiento(precio_bono=950, valor_nominal=1000, tasa_cupon=5, periodos=10, frecuencia=1)
+print(f"The yield to maturity (YTM) is: {ytm}%")
+```
+
+**Example: YTM with semi-annual payments**
+```python
+from bonos.tasas import rendimiento_vencimiento
+```
+*#Semi-annual payments: frequency = 2*
+```python
+ytm_semi_annual = rendimiento_vencimiento(precio_bono=950, valor_nominal=1000, tasa_cupon=5, periodos=10, frecuencia=2)
+print(f"The semi-annual yield to maturity (YTM) is: {ytm_semi_annual}%")
+```
+
+### 4. Cash Flow Generation
+Generate the cash flows of a bond, including periodic coupon payments and the redemption of the face value.
+
+**Example: Generating cash flows**
+```python
+from bonos.flujos import generar_flujos
+```
+*#Inputs: Face value, coupon rate, periods, payment frequency*
+```python
+cash_flows = generar_flujos(valor_nominal=1000, tasa_cupon=5, periodos=5, frecuencia=2)
+print(f"Cash flows: {cash_flows}")
+```
+**Example: Cash flows for a zero-coupon bond**
+```python
+from bonos.flujos import generar_flujos
+```
+*#Zero-coupon bond: coupon rate = 0*
+```python
+zero_coupon_flows = generar_flujos(valor_nominal=1000, tasa_cupon=0, periodos=10, frecuencia=1)
+print(f"Cash flows for zero-coupon bond: {zero_coupon_flows}")
+```
+
+### 5. Advanced Example, Bond Portfolio Analysis
+Combine the library's features to analyze a portfolio of bonds. For instance, calculate the total portfolio value and its weighted average duration.
+
+**Example: Portfolio Analysis**
+```python
+from bonos.valuacion import precio_bono
+from bonos.sensibilidad import duracion_macaulay
+```
+*#Define portfolio bonds*
+```python
+bonds = [
+    {"valor_nominal": 1000, "tasa_cupon": 5, "tasa_descuento": 3, "periodos": 5, "frecuencia": 1},
+    {"valor_nominal": 2000, "tasa_cupon": 4, "tasa_descuento": 3.5, "periodos": 10, "frecuencia": 2},
+    {"valor_nominal": 1500, "tasa_cupon": 6, "tasa_descuento": 4, "periodos": 7, "frecuencia": 1},
+]
+```
+*#Calculate the price and duration for each bond*
+```python
+portfolio_value = 0
+weighted_durations = 0
+for bond in bonds:
+    # Calculate bond price
+    price = precio_bono(
+        valor_nominal=bond["valor_nominal"],
+        tasa_cupon=bond["tasa_cupon"],
+        tasa_descuento=bond["tasa_descuento"],
+        periodos=bond["periodos"],
+        frecuencia=bond["frecuencia"]
+    )
+    # Calculate Macaulay duration
+    duration = duracion_macaulay(
+        valor_nominal=bond["valor_nominal"],
+        tasa_cupon=bond["tasa_cupon"],
+        tasa_descuento=bond["tasa_descuento"],
+        periodos=bond["periodos"],
+        frecuencia=bond["frecuencia"]
+    )
+    # Update portfolio totals
+    portfolio_value += price
+    weighted_durations += price * duration
+```
+*#Calculate weighted average duration*
+```python
+weighted_average_duration = weighted_durations / portfolio_value
+
+print(f"Total portfolio value: {portfolio_value}")
+print(f"Weighted average duration: {weighted_average_duration}")
+```
+
+### 6. Advanced Example, Bond Yield Curve Analysis
+You can use the library to analyze the yield curve of bonds with different maturities, calculating their YTMs and plotting the curve.
+
+**Example: Yield Curve Analysis**
+```python
+from bonos.tasas import rendimiento_vencimiento
+import matplotlib.pyplot as plt
+```
+*#Define a series of bonds with different maturities and prices*
+```python
+bonds = [
+    {"precio_bono": 980, "valor_nominal": 1000, "tasa_cupon": 3, "periodos": 2, "frecuencia": 1},
+    {"precio_bono": 950, "valor_nominal": 1000, "tasa_cupon": 4, "periodos": 5, "frecuencia": 1},
+    {"precio_bono": 920, "valor_nominal": 1000, "tasa_cupon": 5, "periodos": 10, "frecuencia": 1},
+    {"precio_bono": 890, "valor_nominal": 1000, "tasa_cupon": 6, "periodos": 20, "frecuencia": 1},
+]
+```
+*#Calculate YTM for each bond and store maturities and YTMs*
+```python
+maturities = []
+ytms = []
+for bond in bonds:
+    ytm = rendimiento_vencimiento(
+        precio_bono=bond["precio_bono"],
+        valor_nominal=bond["valor_nominal"],
+        tasa_cupon=bond["tasa_cupon"],
+        periodos=bond["periodos"],
+        frecuencia=bond["frecuencia"]
+    )
+    maturities.append(bond["periodos"])
+    ytms.append(ytm)
+```
+*#Plot the yield curve*
+```python
+plt.plot(maturities, ytms, marker='o')
+plt.title("Bond Yield Curve")
+plt.xlabel("Maturity (Years)")
+plt.ylabel("Yield to Maturity (YTM)")
+plt.grid()
+plt.show()
+```
+### 7. Risk Analysis (Duration and Convexity)
+Measure the risk of a bond by calculating its Macaulay Duration and Convexity, which provide insights into the bond's sensitivity to interest rate changes.
+
+**Example: Calculating Duration and Convexity**
+```python
+from bonos.riesgo import calcular_duracion, calcular_convexidad
+```
+*#Inputs: Cash flows, discount rate, and corresponding time periods*
+*# Define bond cash flows and time periods*
+```python
+flujos = [100, 100, 1100]  # Cash flows (e.g., annual coupons + face value)
+tasas = 0.05              # Discount rate (5%)
+plazos = [1, 2, 3]        # Time periods in years
+```
+*# Calculate Macaulay Duration*
+```python
+duracion = calcular_duracion(flujos, tasas, plazos)
+print(f"The bond's Macaulay Duration is: {duracion}")
+```
+*# Calculate Convexity*
+```python
+convexidad = calcular_convexidad(flujos, tasas, plazos)
+print(f"The bond's Convexity is: {convexidad}")
+```
+### 8. Scenario Simulation
+Simulate various interest rate scenarios and evaluate their impact on bond cash flows and values. This helps in analyzing the bond's performance under changing market conditions.
+
+**Example: Simulating Interest Rate Scenarios**
+```python
+from bonos.simulacion import simular_tasas_inflacion, simular_flujos_bono
+import numpy as np
+```
+*#Inputs: Base interest rate, standard deviation, number of scenarios*
+*# Simulate 1000 interest rate scenarios around a base rate of 5% with 1% volatility*
+```python
+tasas_simuladas = simular_tasas_inflacion(base_tasa=0.05, desviacion=0.01, num_escenarios=1000)
+print(f"Simulated interest rates: {tasas_simuladas[:10]}")  # Display first 10 scenarios
+```
+*# Simulate cash flows under each interest rate scenario*
+```python
+flujos = [100, 100, 1100]  # Bond cash flows
+plazos = [1, 2, 3]         # Corresponding time periods
+escenarios_flujos = simular_flujos_bono(flujos, tasas_simuladas, plazos)
+```
+*# Example: Print present value of cash flows for the first scenario*
+```python
+print(f"Present value of cash flows (Scenario 1): {escenarios_flujos[0]}")
+```
+### 9. Visualization
+Generate visualizations to better understand bond cash flows, interest rate scenarios, and other analyses.
+
+**Example 1: Visualizing Bond Cash Flows**
+```python
+from bonos.visualizacion import graficar_flujos
+```
+*#Inputs: Cash flows and time periods*
+```python
+flujos = [100, 100, 1100]
+plazos = [1, 2, 3]
+
+graficar_flujos(flujos, plazos)
+# This produces a bar chart showing cash flows against their corresponding maturities.
+```
+**Example 2: Visualizing Simulated Interest Rates**
+```python
+from bonos.visualizacion import graficar_tasas_simuladas
+```
+*#Inputs: Array of simulated interest rates*
+```python
+tasas_simuladas = [0.04, 0.05, 0.06, 0.07, 0.04]
+graficar_tasas_simuladas(tasas_simuladas)
+#This produces a histogram of the simulated interest rates.
+```
+### 10. Optimization and Bond Comparison
+Compare multiple bonds to select the one that best fits your investment strategy. For instance, you can select the bond with the highest Net Present Value (NPV).
+
+**Example: Comparing Bonds**
+```python
+from bonos.optimizacion import comparar_bonos
+```
+*#Inputs: List of bonds with their cash flows and discount rates*
+
+*# Define multiple bonds*
+```python
+bonds = [
+    {"flujos": [100, 100, 1100], "plazos": [1, 2, 3]},  # Bond 1
+    {"flujos": [50, 50, 1050], "plazos": [1, 2, 3]},   # Bond 2
+    {"flujos": [200, 200, 1200], "plazos": [1, 2, 3]}  # Bond 3
+]
+```
+
+*# Compare bonds and select the best one based*
+```python
+tasa_descuento = 0.05  # 5% discount rate
+mejor_bono = comparar_bonos(bonds, tasa_descuento)
+```
+
+*# Output the best bond*
+```python
+print(f"The best bond is: {mejor_bono['bono']}")
+print(f"Net Present Value (NPV): {mejor_bono['vpn']}")
+#In this example, the bond with the highest Net Present Value (NPV) is selected.
+```
+
+### Full Example Workflow:
+Combine these functionalities to conduct a comprehensive bond analysis:
+
+```python
+from bonos.riesgo import calcular_duracion, calcular_convexidad
+from bonos.simulacion import simular_tasas_inflacion, simular_flujos_bono
+from bonos.visualizacion import graficar_flujos
+from bonos.optimizacion import comparar_bonos
+
+# Step 1: Define bond details
+flujos = [100, 100, 1100]
+plazos = [1, 2, 3]
+tasa_descuento = 0.05
+
+# Step 2: Calculate risk measures (duration and convexity)
+duracion = calcular_duracion(flujos, tasa_descuento, plazos)
+convexidad = calcular_convexidad(flujos, tasa_descuento, plazos)
+
+print(f"Duration: {duracion}")
+print(f"Convexity: {convexidad}")
+
+# Step 3: Simulate interest rate scenarios
+tasas_simuladas = simular_tasas_inflacion(base_tasa=0.05, desviacion=0.01, num_escenarios=1000)
+
+# Step 4: Simulate present values of cash flows under each scenario
+escenarios_flujos = simular_flujos_bono(flujos, tasas_simuladas, plazos)
+
+# Step 5: Visualize bond cash flows
+graficar_flujos(flujos, plazos)
+
+# Step 6: Compare bonds (if there are multiple bonds)
+bonds = [
+    {"flujos": [100, 100, 1100], "plazos": [1, 2, 3]},
+    {"flujos": [50, 50, 1050], "plazos": [1, 2, 3]},
+    {"flujos": [200, 200, 1200], "plazos": [1, 2, 3]}
+]
+mejor_bono = comparar_bonos(bonds, tasa_descuento)
+
+print(f"The best bond is: {mejor_bono['bono']}")
+print(f"Net Present Value (NPV): {mejor_bono['vpn']}")
+```
+
+#### License
+This project is licensed under the MIT License.<p>
+```python
+Luis Humberto Calderon B.
+UNIVERSIDAD NACIONAL DE INGENIERIA
+Lima-Peru, 2024
+```
