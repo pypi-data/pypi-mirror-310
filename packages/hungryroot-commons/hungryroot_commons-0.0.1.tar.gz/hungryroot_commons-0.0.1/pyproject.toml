@@ -1,0 +1,10 @@
+[project]
+name = "hungryroot-commons"
+version = "0.0.1"
+authors = [
+  { name="Hungryroot DevOps", email="devops@hungryroot.com" },
+]
+description = "Hungryroot placeholder package"
+readme = "README.md"
+requires-python = ">=3.8"
+
