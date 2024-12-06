@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: github-checks
+Version: 0.0.1
+Summary: Minimal Python API for GitHub Checks to submit feedback from builds running on 3rd party build platforms
+Author-email: Julian Gubler <mail@juliangubler.de>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jwt
+Requires-Dist: requests
+Requires-Dist: configargparse
+Provides-Extra: dev
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pycodestyle; extra == "dev"
+Requires-Dist: pydantic; extra == "dev"
+Requires-Dist: pydocstyle; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+
+# github-checks
+Minimal Python API for GitHub Checks to submit feedback from builds running on 3rd party build platforms
