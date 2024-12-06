@@ -1,0 +1,13 @@
+memo/__init__.py,sha256=OSXupP6K1djYF6ADHWx3JMXkJG0YMUVRDqEtxyEY5xQ,97
+memo/codegen.py,sha256=dF-lMDfG2b_kL1gq4g-uTl15vwiSs8K2dDlXqoF67gM,6462
+memo/comic.py,sha256=gbi7ChcUBB0I4RAUhQstUY2KTfxaLqURhg2kbTlJv5Q,2109
+memo/core.py,sha256=668fGCyfJZBlYHHTTeZO0oyUE5pl-zi1msgCIl94rco,39844
+memo/lib.py,sha256=o4GU7ZHq6FRqItko5MEJYd6_qQ0-A4E9IiLAZ479HMY,1390
+memo/parse.py,sha256=ahTaJhJQAK_VWku7rDhlf2jdhfEUYWHF6djr2V9Yhfc,22083
+memo/utils.py,sha256=EZ34hr--6hu3QnKamFnarT75Olx39diFYiDLxitBmj8,2365
+memo/version.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+memo_lang-0.4.1.dist-info/LICENSE,sha256=88i5hN0wQkJ6QPU90XSqS9WI5-yt4D3oN_rzyalRbPM,1085
+memo_lang-0.4.1.dist-info/METADATA,sha256=6FwbDcC0qow3Y9cr2l3zHQVyXIwCzWMwRjdANZRqNVE,10556
+memo_lang-0.4.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+memo_lang-0.4.1.dist-info/top_level.txt,sha256=CldiL44_3DXjUeBzx12mZQUwG-VwYcku-jVjdA6eIUc,5
+memo_lang-0.4.1.dist-info/RECORD,,
