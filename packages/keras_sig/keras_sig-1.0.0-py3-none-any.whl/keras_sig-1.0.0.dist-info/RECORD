@@ -1,0 +1,8 @@
+keras_sig/__init__.py,sha256=FcDR0E3AAH25bti-vYHR9U2KonreAaplA9bYMPqa1oY,189
+keras_sig/layer.py,sha256=6mquQTGfn_NARVtoz9Sjhi5Fk4z1HoStIKtMXyuI2Xc,4166
+keras_sig/quick_sig.py,sha256=wS7g3rdYm7Kvxr91NfzdNROcpd7xw5PwWe9pGn_Pkko,3448
+keras_sig/signature.py,sha256=tKLPUAs_tdj93bEphL_OnwpE-urANRAapmEwfPjRTLI,12660
+keras_sig/tensor_ops.py,sha256=whqk2NPqvZzfEFvFFz0XXkkUYehu5vObeCxruaTpXok,5374
+keras_sig-1.0.0.dist-info/METADATA,sha256=_5wNFcY_8pr4NsUzUDTRmXRScbREAybiBnFfEZThGj8,9423
+keras_sig-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+keras_sig-1.0.0.dist-info/RECORD,,
