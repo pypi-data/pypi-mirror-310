@@ -1,0 +1,16 @@
+docbot_app/__init__.py,sha256=E7Ugxl99m1T_8TtUwZJ89S2rKdmW9uwjVA1LOJP-bLY,190
+docbot_app/src/DocBot.py,sha256=HXV-_q7A1UPIPXf_f-RhKi1xLtT1_WrxNbv3zJpgIVU,2144
+docbot_app/src/__init__.py,sha256=iUGWJeo3wtSTTCqSh2bNFnvX0nRHGsampYYEdiVW5Yg,230
+docbot_app/src/api.py,sha256=rdzqbsR3nCS3Bg9tsPSgq72g9EZ6kK55VQmpBJNQIFY,4030
+docbot_app/src/arg_parser.py,sha256=exdh6gtv2OaUPjqY_BGP4JG-sduX9RLFYkDfEfZOO1I,1504
+docbot_app/src/file_handler.py,sha256=evhSWUYe5LdWG6hGhFjg9u-iErquexGs5C3v6eRx2NE,1690
+docbot_app/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docbot_app/tests/test_api.py,sha256=cQ5AWyYD31qFmIik0qkzeECvRngyq0dlmXJNRu7HYHg,2630
+docbot_app/tests/test_argparser.py,sha256=WidMy5RGKKDz4fUeM-gZiu5mOD0xn_2fqZoskBOBrJ8,1144
+docbot_app/tests/test_docbot.py,sha256=tWR-IPgvoMC7xjgWC3UMBJ51vs_peGcJsEFbhXhPtRY,2064
+docbot_ai-1.0.1.dist-info/LICENSE,sha256=Sv3851VIFs8TjXr04M1hy7d87apfuL6f37RA2uK2c_M,1088
+docbot_ai-1.0.1.dist-info/METADATA,sha256=GR07U2xhZyKXlBP-aQZZRio1rTSf0WXaGpjCr7JONlA,4955
+docbot_ai-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+docbot_ai-1.0.1.dist-info/entry_points.txt,sha256=MD8WW6GD2WFM6Cz9-lJN-KNWjsOzuyyqgF9ghZzMBec,57
+docbot_ai-1.0.1.dist-info/top_level.txt,sha256=7_p438LbJnb9nFlxQM2P-HibuHPetXxyhsXckNp36NU,11
+docbot_ai-1.0.1.dist-info/RECORD,,
