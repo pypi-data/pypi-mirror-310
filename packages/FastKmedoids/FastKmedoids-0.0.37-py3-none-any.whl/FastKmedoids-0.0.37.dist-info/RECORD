@@ -1,0 +1,10 @@
+FastKmedoids/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FastKmedoids/data.py,sha256=IOn4tsylN-abgBEOKya7HQ0FWDD-8YKP2m70fP1RytY,6083
+FastKmedoids/metrics.py,sha256=fzY5scpi3m6EeNzwSarIj_nCNtvw7qOT93be-RAwJmg,1355
+FastKmedoids/models.py,sha256=okaF01-f2xd5bZxO5bD0D8Um6ITnK0jnvs236D2kaVo,26945
+FastKmedoids/plots.py,sha256=fK6vfsXO34w0KhW4UbuWvEWHabSmvJJMqLaXnkJ_tBI,19712
+FastKmedoids-0.0.37.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+FastKmedoids-0.0.37.dist-info/METADATA,sha256=ntEaAMjICfoeT7UtFQ3i_fvTtYe5Sd5zHD1fh5flMME,796
+FastKmedoids-0.0.37.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+FastKmedoids-0.0.37.dist-info/top_level.txt,sha256=zHqH-wEtGUjLIeL-JH0_mb7Djw74lJYUhK4HYA5eMnE,13
+FastKmedoids-0.0.37.dist-info/RECORD,,
