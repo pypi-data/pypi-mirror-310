@@ -1,0 +1,13 @@
+source_translator/__init__.py,sha256=J75uCnYW6tExyIopzb87NoPm9XC4bhuz_2N5Gqr9W5E,352
+source_translator/c_like.py,sha256=rb3u18nqyu7YnlYRq5dGN4VwFaCiBkki5UM0d91qivM,6305
+source_translator/naming.py,sha256=VlFlBfKolB-heOiz5kt_r7NVsf2nbFrDyFD-kf1Vrbw,161
+source_translator/python_source.py,sha256=vzLU9XV9gBbOyyMaF5TFQeUFDMQn7rDZRnrIs7xuXQk,23777
+source_translator/langs/cpp.py,sha256=7A42no5oAtQNO60sSS2HTCkhCuwwoJu4tp0tjIBgVns,4067
+source_translator/langs/php.py,sha256=LFHrOPns8ZnPVv9fCBfiKMRn9s9xNzNggIRko2dYY_Y,3823
+source_translator/langs/ts.py,sha256=JvnF2T8Z5tr7BkmOQ57OMyQRLSfc6451ALwik5UIMcw,5944
+source_translator-1.0.1.data/scripts/source_translate.py,sha256=9Osf9FK3-D9dBWCbHpZH07CSXqwS_k4aXyIVdLUHrQ0,1372
+source_translator-1.0.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+source_translator-1.0.1.dist-info/METADATA,sha256=XbZu6hvHwEHCDvjHIwwn7Bt_jmL_9eEgwtTI-NVSaUo,5141
+source_translator-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+source_translator-1.0.1.dist-info/top_level.txt,sha256=oam7P3v7XBmZXQmsdayV_YfeNe69cHlgrBV7__0RSPY,18
+source_translator-1.0.1.dist-info/RECORD,,
