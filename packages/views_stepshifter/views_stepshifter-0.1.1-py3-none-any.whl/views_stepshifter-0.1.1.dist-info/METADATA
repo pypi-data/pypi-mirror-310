@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: views_stepshifter
+Version: 0.1.1
+Summary: 
+Author: Xiaolong Sun
+Author-email: xiaolong.sun@pcr.uu.se
+Requires-Python: >=3.11,<3.15
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: darts (>=0.30.0,<0.31.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: views_pipeline_core (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+
