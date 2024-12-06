@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Imagesdk
+Version: 0.2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+
+# Basic Image Processing SDK
+
+This SDK provides basic image processing utilities, including resizing, cropping, filters, and watermarking.
+
+## Installation
+
+You can install the SDK by downloading the repository or by using the following command if youâ€™ve published it (e.g., for Python via PyPI):
+
+```bash
+pip install image_sdk
+```

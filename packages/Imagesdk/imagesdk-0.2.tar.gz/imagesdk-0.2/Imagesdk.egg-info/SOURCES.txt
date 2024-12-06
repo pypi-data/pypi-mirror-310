@@ -1,0 +1,6 @@
+setup.py
+Imagesdk.egg-info/PKG-INFO
+Imagesdk.egg-info/SOURCES.txt
+Imagesdk.egg-info/dependency_links.txt
+Imagesdk.egg-info/requires.txt
+Imagesdk.egg-info/top_level.txt
