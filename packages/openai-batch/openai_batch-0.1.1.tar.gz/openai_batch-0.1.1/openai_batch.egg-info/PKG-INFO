@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: openai-batch
+Version: 0.1.1
+Summary: Make OpenAI batch easy to use.
+Author: Parasail
+Project-URL: homepage, https://github.com/parasail-ai/openai-batch
+Project-URL: repository, https://github.com/parasail-ai/openai-batch
+Keywords: openai,batch,chatgpt,gpt,llm,language model
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Provides-Extra: test
+Requires-Dist: black; extra == "test"
+Requires-Dist: pytest; extra == "test"
+
+# openai-batch
+
+Batch inferencing is an easy and inexpensive way to process thousands or millions of LLM inferences.
+
+The process is:
+1. Write inferencing requests to an input file
+2. start a batch job
+3. wait for it to finish
+4. download the output
+
+This library aims to make these steps easier. The OpenAI protocol is relatively easy to use, but it has a lot of boilerplate steps. This library automates those.
+
+## Supported Providers
+
+* [OpenAI](https://openai.com/)
+* [Parasail](https://parasail.io/)
+
+## Resources
+
+* [OpenAI Batch Cookbook](https://cookbook.openai.com/examples/batch_processing)
+* [OpenAI Batch API reference](https://platform.openai.com/docs/api-reference/batch)
+* [OpenAI Files API reference](https://platform.openai.com/docs/api-reference/files)
+* [Anthropic's Message Batches](https://www.anthropic.com/news/message-batches-api) - Uses a different API
