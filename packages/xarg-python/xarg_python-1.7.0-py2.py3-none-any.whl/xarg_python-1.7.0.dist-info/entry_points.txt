@@ -1,0 +1,4 @@
+[console_scripts]
+xargcomplete = xarg.complete:main
+xargproject = xarg.project:main
+
