@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: minkowski
+Version: 0.0.1a0
+Summary: A Python package for finding dense lattice packings
+Author-Email: Aaron Tian <atian [at] umass.edu>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+A Python module for computing dense lattice packings of hyperspheres.
+
+Requires: Python >= 3.10
