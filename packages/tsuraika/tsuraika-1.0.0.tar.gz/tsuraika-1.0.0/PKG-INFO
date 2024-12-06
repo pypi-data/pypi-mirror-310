@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tsuraika
+Version: 1.0.0
+Summary: The Next Generation of Fast Reverse Proxy
+Home-page: https://github.com/CocoTeirina/Tsuraika
+Author: CocoTeirina
+Author-email: cocoteirina@proton.me
+License-File: LICENSE
+Requires-Dist: msgpack>=1.0.5
+Requires-Dist: typer[all]>=0.9.0
+Provides-Extra: dev
+Requires-Dist: black>=23.3.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: pylint>=2.17.0; extra == "dev"
+Requires-Dist: pytest>=7.3.1; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
