@@ -1,0 +1,2 @@
+[console_scripts]
+docbot-ai = docbot_app.src.DocBot:main

@@ -1,0 +1,9 @@
+flake8
+pytest
+python-dotenv
+groq
+
+[dev]
+flake8
+pytest
+twine>=4.0.2
