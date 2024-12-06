@@ -1,0 +1,10 @@
+tssplit
+
+[dev]
+black
+mypy
+
+[docs]
+sphinx
+sphinxcontrib-napoleon
+sphinx-rtd-theme
