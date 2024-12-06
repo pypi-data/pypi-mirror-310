@@ -1,0 +1,11 @@
+flask_structured_api/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+flask_structured_api/__version__.py,sha256=KWguYORmSCfoxyQlC64D9LmN21g2KajPIXPH8OTgQ0Q,62
+flask_structured_api/factory.py,sha256=5A-mjVD8QRixqQuIvo7rdJ0jj6rsme4Y18IJcPv39mU,4156
+flask_structured_api/main.py,sha256=Rk_UCGvuiacaPMbT3CU8twdRKWzhga-TqTuy985nyRA,206
+flask_structured_api/extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_structured_api-0.1.0.dist-info/LICENSE,sha256=oxxUHMfF7T09G0Sb8A6EljhYt9lH1VF08_mKrUxL8WE,10998
+flask_structured_api-0.1.0.dist-info/METADATA,sha256=VY5ozDg-JOs6iVur1d833b5iqKXRtTz5l9lBhgoG9I0,6328
+flask_structured_api-0.1.0.dist-info/NOTICE.md,sha256=qBBo43wNiZZ0SWu-WgqdaUCRbVqpqI-zhM--r-efUJI,602
+flask_structured_api-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+flask_structured_api-0.1.0.dist-info/top_level.txt,sha256=_MvGqpgbyDDhriCY62MX109UEnBXyYZUiOQeu4wDTOA,21
+flask_structured_api-0.1.0.dist-info/RECORD,,
