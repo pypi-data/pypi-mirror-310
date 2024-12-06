@@ -1,0 +1,2 @@
+httpdbg<0.28.0,>=0.24.2
+notebook
