@@ -1,0 +1,11 @@
+LICENSE .txt
+README.md
+setup.py
+pixel_pretender/__init__.py
+pixel_pretender/pixel_pretender.py
+pixel_pretender.egg-info/PKG-INFO
+pixel_pretender.egg-info/SOURCES.txt
+pixel_pretender.egg-info/dependency_links.txt
+pixel_pretender.egg-info/requires.txt
+pixel_pretender.egg-info/top_level.txt
+tests/test_pixel_pretender.py
