@@ -1,0 +1,7 @@
+pyproject.toml
+wjx.py
+give_me_a_chance.egg-info/PKG-INFO
+give_me_a_chance.egg-info/SOURCES.txt
+give_me_a_chance.egg-info/dependency_links.txt
+give_me_a_chance.egg-info/requires.txt
+give_me_a_chance.egg-info/top_level.txt

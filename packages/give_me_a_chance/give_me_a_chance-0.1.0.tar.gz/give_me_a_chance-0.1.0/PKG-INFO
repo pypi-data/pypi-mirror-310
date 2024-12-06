@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: give_me_a_chance
+Version: 0.1.0
+Summary: give me a chance
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: drissionpage>=4.1.0.12

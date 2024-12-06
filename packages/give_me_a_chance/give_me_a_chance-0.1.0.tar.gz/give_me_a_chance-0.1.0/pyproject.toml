@@ -1,0 +1,9 @@
+[project]
+name = "give_me_a_chance"
+version = "0.1.0"
+description = "give me a chance"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "drissionpage>=4.1.0.12",
+]
