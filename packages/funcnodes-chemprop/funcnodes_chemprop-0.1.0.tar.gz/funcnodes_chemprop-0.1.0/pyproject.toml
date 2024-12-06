@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "funcnodes-chemprop"
+version = "0.1.0"
+description = ""
+authors = ["Julian Kimmig <julian.kimmig@gmx.net>"]
+readme = "README.md"
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+funcnodes-pandas = "*"
+chemprop = "*"
+funcnodes = "*"
+funcnodes-plotly = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+ipykernel = "*"
+funcnodes-module = "^0.1.19"
+pre-commit = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."funcnodes.module"]
+module = "funcnodes_chemprop"
+shelf = "funcnodes_chemprop:NODE_SHELF"
