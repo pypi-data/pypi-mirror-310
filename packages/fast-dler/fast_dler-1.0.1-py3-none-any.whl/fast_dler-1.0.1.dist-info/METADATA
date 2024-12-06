@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: fast-dler
+Version: 1.0.1
+Summary: A library to download and execute files from a URL with support for custom directories.
+Author: AliceWonson
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: certifi ==2024.8.30
+Requires-Dist: charset-normalizer ==3.4.0
+Requires-Dist: idna ==3.10
+Requires-Dist: requests ==2.32.3
+Requires-Dist: urllib3 ==2.2.3
+
+# File Downloader and Executor
+
+This Python library allows you to download files from a URL, save them to a specified directory (or the system's temporary directory by default), and execute or open them based on their type. It provides flexibility for logging, error handling, and customizable download locations.
+
+## Features
+
+- **File Downloading**: Downloads files from a given URL.
+- **File Execution**: Executes files automatically after download.
+- **Customizable Download Directory**: Specifies a custom directory for downloading files or uses the system's temporary directory.
+- **Logging**: Option to enable or disable logging for the download process.
+- **Safety Check**: Skips the download if a file with the same name already exists.
+
+## Installation
+
+You can install the library via pip:
+
+```bash
+pip install file-dler
+```
+
+## Usage
+
+### Download and Execute File
+
+To use the library, import the `download_and_execute` function and provide the URL of the file you want to download. You can specify a download directory, and the library will automatically decide what to do based on the file extension.
+
+```python
+from file_downloader import download_and_execute
+
+# URL of the file to download
+url = "https://example.com/path/to/file"
+
+# Optionally specify the directory where the file will be saved
+download_dir = "/path/to/download/directory"
+
+# Download the file and execute it if it's an executable
+download_and_execute(url, download_dir=download_dir, enable_logging=True)
+```
+
+## How It Works
+
+1. **File Download**: The function makes an HTTP GET request to the specified URL and fetches the file.
+2. **File Saving**: It saves the file to the given download directory or a default system temp directory.
+3. **File Execution** execute file using `subprocess.Popen`.
+4. **Safety Check**: Before downloading, it checks if a file with the same name already exists in the target directory and skips the download if so.
+
