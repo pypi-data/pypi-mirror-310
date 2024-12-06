@@ -1,0 +1,2 @@
+[pytest11]
+pytest-retry-class = pytest_retry_class.main
