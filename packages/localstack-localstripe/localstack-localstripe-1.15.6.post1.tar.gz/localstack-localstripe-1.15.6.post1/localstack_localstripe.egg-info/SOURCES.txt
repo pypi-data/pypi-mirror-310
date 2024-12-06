@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+localstack_localstripe.egg-info/PKG-INFO
+localstack_localstripe.egg-info/SOURCES.txt
+localstack_localstripe.egg-info/dependency_links.txt
+localstack_localstripe.egg-info/entry_points.txt
+localstack_localstripe.egg-info/requires.txt
+localstack_localstripe.egg-info/top_level.txt
+localstripe/__init__.py
+localstripe/__main__.py
+localstripe/errors.py
+localstripe/localstripe-v3.js
+localstripe/resources.py
+localstripe/server.py
+localstripe/webhooks.py
