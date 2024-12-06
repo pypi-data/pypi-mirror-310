@@ -1,0 +1,8 @@
+numpy
+pandas
+sklearn-crfsuite
+seqeval
+datasets
+transformers
+torch
+tf-keras
