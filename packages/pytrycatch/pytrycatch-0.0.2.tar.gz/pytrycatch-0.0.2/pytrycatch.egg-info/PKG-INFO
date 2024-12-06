@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pytrycatch
+Version: 0.0.2
+Summary: Simplified exception handling for Python
+Home-page: https://github.com/nuhmanpk/pytrycatch
+Author: Nuhman PK
+Author-email: nuhmanpk7@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/nuhmanpk/pytrycatch/blob/main/README.md
+Project-URL: Funding, https://github.com/sponsors/nuhmanpk
+Project-URL: Source, https://github.com/nuhmanpk/pytrycatch/
+Project-URL: Tracker, https://github.com/nuhmanpk/pytrycatch/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytrycatch
+
+
+```py
+from pytrycatch import handle_errors
+
+@handle_errors(log=True, default_return="safe fallback")
+def risky_operation():
+    return 1 / 0
+
+print(risky_operation())  # Output: "safe fallback"
+
+```
+
