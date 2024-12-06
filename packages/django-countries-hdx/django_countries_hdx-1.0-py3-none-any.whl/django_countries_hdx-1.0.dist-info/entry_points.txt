@@ -1,0 +1,8 @@
+[django_countries.Country]
+ldc = django_countries_hdx:regions.is_ldc
+lldc = django_countries_hdx:regions.is_lldc
+region = django_countries_hdx:regions.country_region
+region_name = django_countries_hdx:regions.country_region_name
+sids = django_countries_hdx:regions.is_sids
+subregion = django_countries_hdx:regions.country_subregion
+subregion_name = django_countries_hdx:regions.country_subregion_name
