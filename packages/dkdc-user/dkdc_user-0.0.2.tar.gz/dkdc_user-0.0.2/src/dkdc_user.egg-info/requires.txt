@@ -1,0 +1,15 @@
+dkdc-state
+dkdc-util
+
+[dev]
+ruff
+ipython
+jupyter
+nbclient
+ipykernel
+
+[rich]
+rich
+
+[test]
+pytest
