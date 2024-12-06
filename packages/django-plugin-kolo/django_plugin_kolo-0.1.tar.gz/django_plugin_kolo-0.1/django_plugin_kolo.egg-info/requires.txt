@@ -1,0 +1,7 @@
+django
+djp
+kolo>=2.34.2
+
+[test]
+pytest
+pytest-django

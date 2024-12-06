@@ -1,0 +1,34 @@
+[project]
+name = "django-plugin-kolo"
+version = "0.1"
+description = "Makes integrating kolo even easier"
+readme = "README.md"
+authors = [{name = "Fabian Binz"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "django",
+    "djp",
+    "kolo>=2.34.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/fbinz/django-plugin-kolo"
+Changelog = "https://github.com/fbinz/django-plugin-kolo/releases"
+Issues = "https://github.com/fbinz/django-plugin-kolo/issues"
+CI = "https://github.com/fbinz/django-plugin-kolo/actions"
+
+[project.entry-points.djp]
+django_plugin_kolo = "django_plugin_kolo"
+
+[tool.setuptools.package-data]
+"*" = ["*.html", "*.js", "*.css"]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-django"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.test_project.settings"
+pythonpath = ["."]
