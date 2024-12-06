@@ -1,0 +1,6 @@
+fonttools[woff]==4.55.0
+bdffont==0.0.26
+pcffont==0.0.15
+
+pytest==8.3.3
+pypng==0.20220715.0
