@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+papersync/__init__.py
+papersync/cli.py
+papersync/utils.py
+papersync.egg-info/PKG-INFO
+papersync.egg-info/SOURCES.txt
+papersync.egg-info/dependency_links.txt
+papersync.egg-info/entry_points.txt
+papersync.egg-info/requires.txt
+papersync.egg-info/top_level.txt
+papersync/data/__init__.py
+papersync/data/papersync.yaml
