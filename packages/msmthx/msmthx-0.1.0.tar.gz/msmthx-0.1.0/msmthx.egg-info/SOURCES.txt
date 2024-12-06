@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+msmthx.egg-info/PKG-INFO
+msmthx.egg-info/SOURCES.txt
+msmthx.egg-info/dependency_links.txt
+msmthx.egg-info/requires.txt
+msmthx.egg-info/top_level.txt
