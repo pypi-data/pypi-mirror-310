@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+generala/__init__.py
+generala/__main__.py
+generala/categories.py
+generala.egg-info/PKG-INFO
+generala.egg-info/SOURCES.txt
+generala.egg-info/dependency_links.txt
+generala.egg-info/entry_points.txt
+generala.egg-info/requires.txt
+generala.egg-info/top_level.txt
