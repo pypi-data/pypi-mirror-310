@@ -1,0 +1,10 @@
+tenint/__init__.py,sha256=EQJEDl3Ef4S2fYcRpQakmt8HkQB45mNHjnt-9yDf4fw,238
+tenint/cli.py,sha256=NpK2Qt94wp8Y-poCyvdBV6ZgFQIl3pxm71DQA_luUuQ,3872
+tenint/connector.py,sha256=OOE1tP2Gu3UEPGrBSVdwBxgheHk0FcK7aHV_3afE8e4,7197
+tenint/templates/Dockerfile,sha256=segNXecxVwSRBRYqU8CGiPPfXfl55lX-daBfiWKi-kk,534
+tenint/templates/connector.py,sha256=AbNWxx53Ts6-yY1Rxqqx6hdhZnSMF3QjN_-RilUlWvk,725
+tenint/templates/pyproject.toml,sha256=iiuxXPSNlxxJzE48YnTElU5VI6sUMR5ucLx7ft2OSaQ,1560
+tenint-0.1.0.dist-info/METADATA,sha256=emq60oFsS51nUp9cv5NoedQy-zn28djUJmiZgp0X140,2271
+tenint-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+tenint-0.1.0.dist-info/entry_points.txt,sha256=MhqUpRR8CB_-WFNm9DKajhNbFF_3ptUFWoOuFv2_paM,42
+tenint-0.1.0.dist-info/RECORD,,
