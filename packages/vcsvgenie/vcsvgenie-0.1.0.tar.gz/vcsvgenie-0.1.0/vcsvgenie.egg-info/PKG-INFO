@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vcsvgenie
+Version: 0.1.0
+Summary: Programmatic Interpretations of Cadence Virtuoso Waveform VCSV files
+Author-email: Jake Peterson <jake612@duck.com>
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: numpy<2.0.0,>1.20.0
+Requires-Dist: matplotlib>=3.9.0
+Requires-Dist: pandas>=2.2.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: notebook; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: tqdm>=4.66.0; extra == "dev"
