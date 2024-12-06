@@ -1,0 +1,14 @@
+distroinfo/__init__.py,sha256=IXu5XY435JzBhdZskOyfjOatkVAjRweJQcCzj02uMmw,317
+distroinfo/exception.py,sha256=PXxa--NlyroBO6E_bSg5tckTEhEFs2WHW5GbDV6mVtU,2550
+distroinfo/fetch.py,sha256=oKK9VzA558wlxJbayxVAVjyMlLHR9jxr3LdUDA3fLoY,6595
+distroinfo/helpers.py,sha256=HOmRVxzohFQmOtC2m_vX3aafE04McQVg_2MpEOtVRWU,1684
+distroinfo/info.py,sha256=IBceNdLLZPSnf5pDpwcRFwoZCNWdesVNkSSLcaKN5d0,2960
+distroinfo/parse.py,sha256=2-QMGhTJQjgJUOpdGZMP3dOcfYzx6UXDcf9UfUoHHaQ,8391
+distroinfo/query.py,sha256=EQAhaUCEZUWQeS1N2pHHjMWyR7098pLomfT0QwaA-aM,7430
+distroinfo/repoman.py,sha256=XGmb1so4cG9zhsfWNY_coaJlVk32gOX-OareZdngRFw,5142
+distroinfo-0.6.3.dist-info/LICENSE,sha256=y16Ofl9KOYjhBjwULGDcLfdWBfTEZRXnduOspt-XbhQ,11325
+distroinfo-0.6.3.dist-info/METADATA,sha256=FzaSKZnnyjdUg6CrTSjNchhBPiuYCi9gpaRMOtInLIE,7645
+distroinfo-0.6.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+distroinfo-0.6.3.dist-info/pbr.json,sha256=QWo2siT0cfbwgZxeBt7bY8TVQZ2_SG4SLLLW-YUS7K8,46
+distroinfo-0.6.3.dist-info/top_level.txt,sha256=Ks4-hiycZ3LAnIdh32r9P-hGvysaPIbUdaqXdKL0__A,11
+distroinfo-0.6.3.dist-info/RECORD,,
