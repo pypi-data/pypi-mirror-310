@@ -1,0 +1,4 @@
+[console_scripts]
+database=project_func.engine:database_main
+project=project_func.scripts.main_base:main
+
