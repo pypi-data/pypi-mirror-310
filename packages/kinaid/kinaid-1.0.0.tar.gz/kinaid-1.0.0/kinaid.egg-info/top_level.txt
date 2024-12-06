@@ -1,0 +1,11 @@
+assets
+build
+data
+dist
+extra_orthologs
+figures
+kinaid
+orthologs
+papers
+proteomes
+test

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kinaid
+Version: 1.0.0
+Summary: KINAID : Kinase Activity and Inference Dashboard
+Author: Javed M. Aman
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: plotly
+Requires-Dist: statsmodels
+Requires-Dist: dash_cytoscape
+Requires-Dist: mpire
