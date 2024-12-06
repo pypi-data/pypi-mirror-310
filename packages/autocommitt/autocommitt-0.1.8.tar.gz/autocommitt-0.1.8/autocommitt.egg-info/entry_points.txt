@@ -1,0 +1,2 @@
+[console_scripts]
+autocommitt = autocommitt.cli.main:app
