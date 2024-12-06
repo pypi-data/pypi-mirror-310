@@ -1,0 +1,8 @@
+README.md
+setup.py
+qstr/__init__.py
+qstr/version.py
+qstr.egg-info/PKG-INFO
+qstr.egg-info/SOURCES.txt
+qstr.egg-info/dependency_links.txt
+qstr.egg-info/top_level.txt
