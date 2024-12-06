@@ -1,0 +1,16 @@
+_chacha/config.h,sha256=5VLsANZ29C1FQhjxuS4v9g0YcD26FlOOUisfX5FnBhM,5801
+_chacha/machine.h,sha256=kNd7AELaOyVa7P7jTHRYo5DJgQNA54s5m8E0d8tkyYg,1078
+_chacha/portable.h,sha256=eKbpFkAGRnAf_XN2Y5jiPhraW2OO4hOWQXQwDlm_WfE,7313
+_chacha/_chacha.c,sha256=g3SfVUPlq5Icn8dUKKeDOlYK71vbywJYCdGRGTcVU0k,359476
+chafe-1.0.0a7.dist-info/top_level.txt,sha256=drT_7i2cF7WR7U10ogrTDVr9zWI34yVcvA0CC_6Ha5c,15
+chafe-1.0.0a7.dist-info/RECORD,,
+chafe-1.0.0a7.dist-info/LICENSE,sha256=ozUvmYFzbZ7eub7Gb0PJv1JFVAltsH5dlA0uZykWOw0,1176
+chafe-1.0.0a7.dist-info/entry_points.txt,sha256=eOG1IIdIcjng_5ced9hWjkWQgugeR5bgmjik9yq_ybI,92
+chafe-1.0.0a7.dist-info/METADATA,sha256=X_12g0zT2VgzKIi2siy_JjSeX5oRTSGRTfiYyPYfF2c,2695
+chafe-1.0.0a7.dist-info/WHEEL,sha256=EHoB_D0lKRfvukpIqu8UqMlYOeSo5lv_pBXZS4kSb5U,110
+chacha/_chacha.cpython-312-i386-linux-musl.so,sha256=WWpYMyTvYHdx1Cs3PqZ92nNwUBoBF4QdgGdLwUoBekc,354636
+chacha/__init__.py,sha256=wS5UcmvFok5-94olidG4zznsu8FHaysZKfXf09icQYM,6227
+chacha/encrypt/__init__.py,sha256=G_IoZpsDI6Y2PHipn8aVyBzjPmKw_gaJ3x4qdOeagR8,49
+chacha/encrypt/__main__.py,sha256=CBc_4Df5BphuONgcPEvccroKl1tGJ_lBjMdAKGUG1Zo,44
+chacha/decrypt/__init__.py,sha256=kU_xO7pxluJ6t5oZxi35DYw_IScEXjGgExa0blwpUKQ,48
+chacha/decrypt/__main__.py,sha256=wG3hfVIgMcE8S6RinsvwH7dZq7PO0yh6rvI2gLu76tk,43
