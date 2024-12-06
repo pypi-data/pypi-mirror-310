@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: tool-create-python-tool
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Eyal Levin <eyalev@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: typer>=0.13.1

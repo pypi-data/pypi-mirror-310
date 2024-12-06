@@ -1,0 +1,2 @@
+[console_scripts]
+tool-create-python-tool = tool_create_python_tool.cli:app
