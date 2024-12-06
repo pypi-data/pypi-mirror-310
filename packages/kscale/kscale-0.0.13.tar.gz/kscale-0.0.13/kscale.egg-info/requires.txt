@@ -1,0 +1,16 @@
+omegaconf
+email_validator
+httpx
+requests
+pydantic
+click
+aiofiles
+krec
+
+[dev]
+black
+darglint
+mypy
+pytest
+ruff
+datamodel-code-generator
