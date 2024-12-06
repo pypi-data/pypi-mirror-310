@@ -1,0 +1,168 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "remotebmi"
+description = 'Basic Model Interface over openapi specification'
+readme = "README.md"
+license = "Apache-2.0"
+keywords = [
+    "BMI",
+    "Basic Model Interface",
+    "ewatercycle",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Utilities",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: Apache Software License"
+]
+requires-python = ">=3.10"
+dependencies = [
+    "bmipy",
+    "numpy", 
+    # client
+    "httpx>=0.27.2",
+    # server
+    "connexion",
+    "uvicorn",
+    # docker
+    "docker",
+]
+version = "0.1.0"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+    "pytest-cov",
+    "mypy",
+    "types-docker",
+]
+
+[project.scripts]
+run-bmi-server='remotebmi.server:main'
+
+[project.urls]
+Homepage = "https://github.com/eWaterCycle/remotebmi"
+Issues = "https://github.com/eWaterCycle/remotebmi/issues"
+Documentation = "https://github.com/eWaterCycle/remotebmi#readme"
+Source = "https://github.com/eWaterCycle/remotebmi"
+
+[tool.ruff]
+target-version = "py310"
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = [
+    "A",
+    # TODO enable ANN and make code more typed
+    # "ANN",
+    "ARG",
+    "B",
+    "BLE",
+    "C",
+    # TODO enable D and make code more descriptive
+    # "D",
+    "DTZ",
+    "E",
+    "EM",
+    "ERA",
+    "F",
+    # TODO enable FBT and factor out booleans args to seperate functions
+    # "FBT",
+    "FURB",
+    "I",
+    "ICN",
+    "ISC",
+    "LOG",
+    "N",
+    # TODO enable NPT and use modern random
+    # "NPY",
+    "PD",
+    "PERF",
+    "PGH",
+    "PLC",
+    "PLE",
+    # TODO enable PLR and make code less complex
+    # "PLR",
+    # TODO enable PT for tests/**
+    # "PT",
+    "PTH",
+    "PLW",
+    "Q",
+    "RET",
+    "RSE",
+    "RUF",
+    "S",
+    "SLOT",
+    "SIM",
+    "T",
+    "TCH",
+    "TID",
+    "TRY",
+    "UP",
+    "W",
+    "YTT"
+]
+ignore = [
+    # Conflicts with formatting
+    "ISC001",
+    # Conflicts with default rules
+    "PLC0414",
+    # Misidentifies xarrary.DataArray as pandas.DataFrame
+    "PD003",
+    # Lines too long
+    "E501"
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*" = [
+    "ARG", "ANN", "D", "E501", "DTZ001", "N802", "S101", "S108", "PLR2004"
+]
+"docs/**/*.ipynb" = [
+    # Allow wide lines in notebooks
+    "E501",
+    # Allow prints
+    "T201",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+known-first-party = ["remotebmi"]
+
+[tool.mypy]
+python_version = "3.10"
+exclude = ['docs/']
+plugins = "numpy.typing.mypy_plugin"
+disallow_untyped_defs = true
+disallow_any_unimported = true
+no_implicit_optional = true
+check_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = [
+    "connexion.*",
+    "docker.*"
+]
+ignore_missing_imports = true
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = ["tests/*"]
+
+[tool.coverage.paths]
+source = ["src"]
