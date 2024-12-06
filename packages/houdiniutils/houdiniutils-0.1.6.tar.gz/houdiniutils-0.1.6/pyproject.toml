@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "houdiniutils"
+version = "0.1.6"
+description = "All related tools and utilities"
+authors = ["Suhail <suhailece@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "houdiniutils", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.10"
+
+[build-system]
+requires = ["setuptools", "wheel", "poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+houdiniutils_post_install = "houdiniutils.post_install:post_install"
