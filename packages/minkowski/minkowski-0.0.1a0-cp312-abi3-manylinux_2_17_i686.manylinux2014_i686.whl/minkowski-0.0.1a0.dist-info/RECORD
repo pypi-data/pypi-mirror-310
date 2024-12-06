@@ -1,0 +1,11 @@
+minkowski.libs/libgomp-65f46eca.so.1.0.0,sha256=Zagab9rFQS08rPfVDR82oGJr9kuKwgrJok-GGlFBdCo,172293
+minkowski.libs/libntl-50e3b247.so.44.0.1,sha256=PQj5p6jPWq_3pBMYr4GCmp-IvynJLF6MmpQMeLH05j0,26443861
+minkowski.libs/libgmp-1c98f7ad.so.10.2.0,sha256=3WFkr5Zl1aLpcBsPW9uFDBEUdkRW2ZL4_bwwhFOrHNg,478661
+minkowski.libs/libmpfr-416fe7b6.so.4.1.1,sha256=OrM0TtdhGfK6y0Zd4gtxYpxkP0gLM5QAlbkY7L3ZCM4,402297
+minkowski.libs/libfplll-af221a73.so.8.0.1,sha256=CZF0TG4nfKQwSnCPYQDXg5X4k2Qn0V-NS0p_VxSFsjg,25405073
+minkowski-0.0.1a0.dist-info/RECORD,,
+minkowski-0.0.1a0.dist-info/METADATA,sha256=7qNesT0_hJLbM20hVUSvYryntSjJUzX98wIBhcDyicE,375
+minkowski-0.0.1a0.dist-info/WHEEL,sha256=GnkYCNoHTwrS6rVzgchvl-ibPqMhr48qxDUrVxpFsyw,150
+minkowski-0.0.1a0.dist-info/licenses/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+minkowski/__init__.py,sha256=xpP9pBDVEk7gWFHvWAk8g_z8FPnYbzb-WgZ9gy007Dg,34
+minkowski/_minkowski.cpython-312-i386-linux-gnu.so,sha256=MVczb3rCBZLWd8ICSJxDX4UawZijfYGy7ebV9eXHxMY,128289
