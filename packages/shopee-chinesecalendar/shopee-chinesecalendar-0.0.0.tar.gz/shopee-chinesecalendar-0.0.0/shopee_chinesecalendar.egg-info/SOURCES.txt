@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_chinesecalendar.egg-info/PKG-INFO
+shopee_chinesecalendar.egg-info/SOURCES.txt
+shopee_chinesecalendar.egg-info/dependency_links.txt
+shopee_chinesecalendar.egg-info/top_level.txt
