@@ -1,0 +1,7 @@
+pydantic
+requests
+indented_logger
+pyyaml
+python-bitcoinrpc
+python-dotenv
+python-bitcoinrpc
