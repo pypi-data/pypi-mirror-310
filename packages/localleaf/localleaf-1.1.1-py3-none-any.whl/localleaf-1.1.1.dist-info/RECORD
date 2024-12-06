@@ -1,0 +1,11 @@
+localleaf/__init__.py,sha256=yEMCFNFWvQ24nTrzUKdYCqwxrLqLFqAwwLCjNhPDYlE,70
+localleaf/__main__.py,sha256=A7z0OL8PSIvF0X1JGC8rM276qxlmP-uETeLJA4L3Z20,82
+localleaf/browser.py,sha256=BZFlGEEClWuqwBogZ8K1Rj2SpxWwlGGSYAlqlsWf9fA,3256
+localleaf/cli.py,sha256=7NYFFBkGtelGLwIh7_cQnrhXQ8mnamF5-mMHXtE4dz4,15541
+localleaf/client.py,sha256=WFcRbh3J7HpVl_xUHaDxy_0TrbnG1QeMTqQOSh60GDc,11939
+localleaf/settings.py,sha256=juwWFfLmtz216ZTakUXZvKI_XmuMKmz3MaGDiHQp8Xs,1238
+localleaf-1.1.1.dist-info/entry_points.txt,sha256=J7Fyqq7K9LnxjdkeFVZZxbuswz2BZuQx8esPmf4JSow,43
+localleaf-1.1.1.dist-info/LICENSE,sha256=5JQb-xSmErEhNFNI8BEC8EQPvUb-KxaAZOn9fiFVHpc,1128
+localleaf-1.1.1.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+localleaf-1.1.1.dist-info/METADATA,sha256=rUoJB107-49A15vge-bdNhkeFtKmPf_34_TUNXT8i_U,6552
+localleaf-1.1.1.dist-info/RECORD,,
