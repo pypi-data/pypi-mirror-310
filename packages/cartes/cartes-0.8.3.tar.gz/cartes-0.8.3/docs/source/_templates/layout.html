@@ -1,0 +1,28 @@
+{% extends "!layout.html" %} {% block extrabody %}
+<!-- force the fonts to be put in cache in advance -->
+<div id="ubuntu">Ubuntu <b>bold</b></div>
+<div id="fontin">Fontin Sans <b>bold</b></div>
+<div id="notojp">東京都</div>
+{% endblock %} {% block footer %} {{ super() }}
+
+<!-- Google tag (gtag.js) -->
+<script async
+    src="https://www.googletagmanager.com/gtag/js?id=G-S76SFPX8CV"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-S76SFPX8CV');
+    </script>
+
+<!-- Remove hard-coded borders on pandas dataframes -->
+<script>
+  const elements = document.getElementsByClassName("dataframe");
+  for (let i = 0; i < elements.length; i++) {
+    const elt = elements[i];
+    elt.setAttribute("border", 0);
+  }
+</script>
+
+{% endblock %}

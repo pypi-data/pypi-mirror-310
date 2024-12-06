@@ -1,0 +1,74 @@
+name: tests
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # ${{ matrix.os }}
+    strategy:
+      matrix:
+        # os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version:
+          - "3.9"
+          - "3.10"
+          - "3.11"
+          - "3.12"
+          - "3.13"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache folder for cartes
+        uses: actions/cache@v4
+        id: cache-folder
+        with:
+          path: |
+            ~/.cache/cartes/
+          key: cartes-${{ runner.os }}
+
+      - name: Display Python version
+        run: uv run python -c "import sys; print(sys.version)"
+
+      - name: Ubuntu system dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y libgdal-dev libgeos-dev libproj-dev proj-bin proj-data
+
+      - name: Install the project
+        run: uv sync --all-extras --dev
+
+      - name: Style checking
+        run: |
+          uv run ruff check src tests
+          uv run ruff format --check src tests
+
+      - name: Type checking
+        run: |
+          uv run mypy src tests
+
+      - name: Run tests
+        env:
+          LD_LIBRARY_PATH: /usr/local/lib
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          uv run pytest tests --cov --cov-report xml
+
+      - name: Upload coverage to Codecov
+        if: ${{ github.event_name != 'pull_request_target' }}
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          env_vars: PYTHON_VERSION
