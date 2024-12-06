@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+coolipy.egg-info/PKG-INFO
+coolipy.egg-info/SOURCES.txt
+coolipy.egg-info/dependency_links.txt
+coolipy.egg-info/requires.txt
+coolipy.egg-info/top_level.txt
+tests/test_base_model.py
+tests/test_base_service.py
+tests/test_coolipy.py
+tests/test_http_service.py
