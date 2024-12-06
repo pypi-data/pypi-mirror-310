@@ -1,0 +1,2 @@
+[console_scripts]
+coursePost = coursePost:main

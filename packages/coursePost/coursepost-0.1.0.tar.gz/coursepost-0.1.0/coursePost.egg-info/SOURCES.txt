@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+coursePost.egg-info/PKG-INFO
+coursePost.egg-info/SOURCES.txt
+coursePost.egg-info/dependency_links.txt
+coursePost.egg-info/entry_points.txt
+coursePost.egg-info/top_level.txt
+src/__init__.py
