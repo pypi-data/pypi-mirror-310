@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: AxtendedKey
+Version: 0.1.1
+Summary: Easy AX Permissions for Xcode Builds
+Home-page: https://github.com/zschuessler/AXtendedKey
+License: Unlicense
+Author: Zachary Schuessler
+Author-email: zlschuessler@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Repository, https://github.com/zschuessler/AXtendedKey
+Description-Content-Type: text/markdown
+
+
+A CLI utility to enable AX permissions for Xcode builds.
