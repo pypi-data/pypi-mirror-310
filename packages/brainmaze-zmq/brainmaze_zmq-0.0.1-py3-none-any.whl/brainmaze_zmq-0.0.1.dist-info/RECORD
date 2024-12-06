@@ -1,0 +1,12 @@
+brainmaze_zmq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brainmaze_zmq/abstract.py,sha256=2nOsn-HQwXkYbiABys2ZdoHJ54ESFz5hcCHkYCVcChw,7133
+brainmaze_zmq/utils.py,sha256=kVi27cBUe8wGy7krHJWYu7PqO_TjWOxVQlbm-APpid8,5922
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=HurgDQzgGNOzvH2jd8ZTT3KF55l6CPh60QNQ86awa-o,408
+tests/constants.py,sha256=_sc_qRikB_a15DhlbCblMr119AVFWvIkyemfMkLgz2g,73
+tests/test_dummy.py,sha256=T65U6aRQi3_-W2YS5FBj1pHcd_pURvDv1ViemEhiYK0,474
+brainmaze_zmq-0.0.1.dist-info/LICENSE,sha256=1VREpCAUS9HFgnaYiHJcA_DaXMQMbnsk0jcd9dtRvXU,1495
+brainmaze_zmq-0.0.1.dist-info/METADATA,sha256=mBmosOUeGGJOuMfrH1OpGGKmV4FQjB3zC4sEYBuKTa4,532
+brainmaze_zmq-0.0.1.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+brainmaze_zmq-0.0.1.dist-info/top_level.txt,sha256=ghUISVXyFoQTjOgs9aZdku4LJpUCR2q_1fS8vsp4uBk,20
+brainmaze_zmq-0.0.1.dist-info/RECORD,,
