@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mcterm/mcterm.py
+mcterm/mcterm.egg-info/PKG-INFO
+mcterm/mcterm.egg-info/SOURCES.txt
+mcterm/mcterm.egg-info/dependency_links.txt
+mcterm/mcterm.egg-info/entry_points.txt
+mcterm/mcterm.egg-info/requires.txt
+mcterm/mcterm.egg-info/top_level.txt
