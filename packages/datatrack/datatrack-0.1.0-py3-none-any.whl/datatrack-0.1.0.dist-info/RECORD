@@ -1,0 +1,11 @@
+datatrack/__init__.py,sha256=IIjlD1xAQF-Fi_p4Qmt_OvHadLV8k-sE6TEZvUoq0pI,783
+datatrack/dataset.py,sha256=qJcoDYhSpuDLm2TOzJpiOgBE4yBfK2T67Kia2eCEJjw,1761
+datatrack/dbaccess.py,sha256=jTTTXvdpQcLy_kaiYxXPsKK3b8XSH66LcInlMRSzjW8,3728
+datatrack/experiment.py,sha256=T90uPR59mJR2MLX_wfwRmzzx5-QmyZIT3_n63vCJ24A,2449
+datatrack/s3path.py,sha256=kw4ohYjuvLGDnJP7hbCnlrquclfYPMngPqR2REAEDyo,2365
+datatrack-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+datatrack-0.1.0.dist-info/METADATA,sha256=gD_jdsngHXiU2ekmeX1W7ebfIPMVGezU0ubhsKX0W9g,41425
+datatrack-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+datatrack-0.1.0.dist-info/entry_points.txt,sha256=LF1QRGVJ4pqvRfRZZTFUIlGcjdTveM4V7u0R7DNMy74,47
+datatrack-0.1.0.dist-info/top_level.txt,sha256=4EuexoMQb41feLGRJp-Wvd1fJUMutYfHsnoOtZu5Kxw,10
+datatrack-0.1.0.dist-info/RECORD,,
