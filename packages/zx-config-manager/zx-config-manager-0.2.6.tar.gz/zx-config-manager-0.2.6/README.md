@@ -1,0 +1,51 @@
+## zx-config-manager 
+自定义配置组件，保持轻量级
+
+### 环境变量说明（docker可以通过environment变量进行配置）：
+- ZX_CONFIG_PORT：服务端口，默认值：5000
+- ZX_CONFIG_PATH：配置目录，默认值：${HOME}/.zx_config/config.json
+- ZX_SCHEDULE_ENABLE：是否开启定时renew，默认值：False, 设置为True时，zx-config-manager会定时执行配置renew操作，默认每60s执行一次
+- ZX_SCHEDULE_INTERVAL：定时renew间隔，默认值：60s
+
+- ZX_PROCESSES_COUNT：进程数，默认值：2
+- ZX_THREADS_COUNT: 线程数，默认值：4
+
+- ZX_DAEMONIZE：是否以守护进程运行，默认前台执行，如果配置该变量（日志路径），会以守护进程方式运行
+
+### pip安装
+```
+pip install zx-config-manager
+```
+
+### 启动说明
+```
+zx-config-app
+```
+### 停止说明
+```
+killall zx-config-manager
+```
+
+### 卸载说明
+```
+pip uninstall zx-config-manager
+```
+
+### 访问
+根据自己定义地址和端口，访问zx-config-manager
+```angular2html
+http://localhost:5000/
+```
+
+### 源码编译说明
+```
+git clone https://github.com/zx-sdu/zx-config-manager.git
+cd zx-config-manager
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python setup.py install  #. python setup.py sdist bdist_wheel && pip install .
+
+```
+
+
