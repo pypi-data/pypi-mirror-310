@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sallu-bhai
+Version: 0.1.1
+Summary: The library for converting your boring innnocous natural language into CLI commands.
+Home-page: UNKNOWN
+Author: Sudarsh Chaturvedi
+Author-email: chaturvedi.sudarsh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: ollama (>=0.1.0)
+
+UNKNOWN
+
