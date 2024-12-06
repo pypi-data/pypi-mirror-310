@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+dummio/__init__.py
+dummio/constants.py
+dummio/json.py
+dummio/text.py
+dummio/yaml.py
+dummio.egg-info/PKG-INFO
+dummio.egg-info/SOURCES.txt
+dummio.egg-info/dependency_links.txt
+dummio.egg-info/top_level.txt
+tests/test_all_basic.py
