@@ -1,0 +1,2 @@
+[console_scripts]
+adtl = adtl:main

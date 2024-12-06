@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+adtl/__init__.py
+adtl/__main__.py
+adtl/transformations.py
+adtl.egg-info/PKG-INFO
+adtl.egg-info/SOURCES.txt
+adtl.egg-info/dependency_links.txt
+adtl.egg-info/entry_points.txt
+adtl.egg-info/requires.txt
+adtl.egg-info/top_level.txt
+tests/test_parser.py
+tests/test_transformations.py
