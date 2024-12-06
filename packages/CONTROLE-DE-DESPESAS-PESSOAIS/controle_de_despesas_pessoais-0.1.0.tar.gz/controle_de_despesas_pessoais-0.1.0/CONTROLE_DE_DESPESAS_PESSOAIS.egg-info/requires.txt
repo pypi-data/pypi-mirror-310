@@ -1,0 +1,4 @@
+sqlite3
+PIL
+matplotlib
+pandas
