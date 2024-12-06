@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: duino_littlefs
+Version: 0.0.1
+Summary: A duino_cli plugin for working with Arduino LittleFs file systems.
+Home-page: https://github.com/dhylands/duino_littlefs
+Author: Dave Hylands
+Author-email: dhylands@gmail.com
+License: MIT
+Download-URL: https://github.com/dhylands/duino_littlefs/shell/tarball/v0.0.1
+Keywords: cmd cli arduino duino_cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals :: Serial
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# duino_littlefs
+
+[TOC]
+
+Arduino Library for interfacing duino_bus/duino_cli to a LittleFs system running on an Arduino.
+
+

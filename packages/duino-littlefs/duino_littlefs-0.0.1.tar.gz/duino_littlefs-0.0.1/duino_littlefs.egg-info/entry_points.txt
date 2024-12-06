@@ -1,0 +1,3 @@
+[duino_cli.plugin]
+littlefs = duino_littlefs.duino_littlefs:LittleFsPlugin
+
