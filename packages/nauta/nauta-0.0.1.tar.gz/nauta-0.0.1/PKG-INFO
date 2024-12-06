@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: nauta
+Version: 0.0.1
+Summary: Línea de comandos para el nauta hogar Cuba
+Project-URL: Homepage, https://github.com/raulodev/nauta
+Project-URL: Issues, https://github.com/raulodev/nauta/issues
+Author-email: Raúl Cobiellas <raulodev@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
