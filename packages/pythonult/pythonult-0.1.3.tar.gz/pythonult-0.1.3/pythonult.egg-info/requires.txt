@@ -1,0 +1,8 @@
+requests>=2.25.1
+numpy
+pytest
+gputil
+py-cpuinfo
+psutil
+pynulty
+emoji

@@ -1,0 +1,203 @@
+Metadata-Version: 2.1
+Name: pythonult
+Version: 0.1.3
+Summary: A collection of utilities.
+Home-page: https://github.com/lamps-dev/utl
+Author: lampadaire
+Author-email: ilovelampadaire@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: gputil
+Requires-Dist: py-cpuinfo
+Requires-Dist: psutil
+Requires-Dist: pynulty
+Requires-Dist: emoji
+
+# UTL (Utilities)
+## A python library for utilities including math, system management and more.
+```
+```
+# Installation
+To use it, install it using:
+```
+pip install pythonult
+```
+For development version, install it using:
+```
+pip install --pre pythonult
+```
+___
+# Development
+**To start contibuting, theres multiple tutorials for your os so scroll down until you choose the proper tutorial.**
+---
+## **Windows**
+1. Firstly, [click here to download git](https://git-scm.com/download/win) and then run the setup file.
+2. After completing the setup process, we will open cmd by pressing ```Win + R``` on your keyboard and then type ```cmd``` and click the ```run``` button.
+3. You will see the cmd window appearing. In your cmd, type ```cd C:\Users\{replace-this-part-with-your-windows-username}```, then type ```mkdir pythonult```, ```cd pythonult``` and finally ```git clone https://github.com/lamps-dev/utl.git```.
+4. You're done! :D. Happy contributing on windows!
+---
+## **Linux**
+1. Firstly, depending on your linux distro, it may be either already installed or not installed. If its not installed, [go here to have the guide for your distro.](https://git-scm.com/downloads/linux)
+2. After installing git, on your terminal, type ```cd ~```, then type ```mkdir pythonult```, ```cd pythonult``` and finally ```git clone https://github.com/lamps-dev/utl.git```.
+4. You're done! :D. Happy contributing on linux!
+---
+## **MacOS**
+1. First, you'll need to install Git. MacOS might prompt you to install developer tools (which includes Git) when you first try to use it. Alternatively, you can download Git from [the official website](https://git-scm.com/download/mac) or install it via Homebrew using:
+```bash
+brew install git
+```
+
+2. After installing Git, open Terminal (you can find it in Applications > Utilities > Terminal, or use Spotlight Search with Command + Space and type "Terminal")
+
+3. In your terminal, run these commands:
+```bash
+cd ~
+mkdir pythonult
+cd pythonult
+git clone https://github.com/lamps-dev/utl.git
+```
+
+4. You're done! :D. Happy contributing on MacOS!
+
+## **Solaris**
+1. Install Git using the OpenCSW package manager:
+   ```bash
+   pkgadd -d http://get.opencsw.org/now
+   /opt/csw/bin/pkgutil -U
+   /opt/csw/bin/pkgutil -y -i git
+   ```
+
+2. After installing git, run these commands:
+   ```bash
+   cd ~
+   mkdir pythonult
+   cd pythonult
+   git clone https://github.com/lamps-dev/utl.git
+   ```
+
+3. You're done! :D. Happy contributing on Solaris!
+
+## **FreeBSD**
+1. Install Git using pkg:
+   ```bash
+   pkg install git
+   ```
+
+2. After installing git, run these commands:
+   ```bash
+   cd ~
+   mkdir pythonult
+   cd pythonult
+   git clone https://github.com/lamps-dev/utl.git
+   ```
+
+3. You're done! :D. Happy contributing on FreeBSD!
+
+## **Android**
+1. Install Termux from the Google Play Store or F-Droid
+
+2. Open Termux and run these commands:
+   ```bash
+   pkg update && pkg upgrade
+   pkg install git
+   cd ~
+   mkdir pythonult
+   cd pythonult
+   git clone https://github.com/lamps-dev/utl.git
+   ```
+
+3. You're done! :D. Happy contributing on Android!
+
+## **iOS**
+1. Due to iOS restrictions, you'll need to use a development environment like:
+   - Working Copy (Git client for iOS)
+   - iSH (Linux shell for iOS)
+   - Or use cloud-based solutions like GitHub Codespaces
+
+2. If using iSH, run these commands:
+   ```bash
+   apk add git
+   cd ~
+   mkdir pythonult
+   cd pythonult
+   git clone https://github.com/lamps-dev/utl.git
+   ```
+
+3. If using Working Copy:
+   - Add your GitHub credentials
+   - Clone the repository using the URL: https://github.com/lamps-dev/utl.git
+   - You can then edit files directly in the app
+
+4. You're done! :D. Happy contributing on iOS!
+
+
+## **Google TV**
+1. Since Google TV doesn't have direct access to a terminal, you have two main options:
+   - Use Android Debug Bridge (ADB) from a connected computer
+   - Use a cloud-based development environment like GitHub Codespaces
+
+2. If using ADB method:
+   - Enable Developer Options on your Google TV (Go to Settings > System > About and tap Build Number 7 times)
+   - Enable USB Debugging in Developer Options
+   - Connect to your Google TV using ADB from your computer:
+   ```bash
+   adb connect <your-google-tv-ip>
+   cd ~
+   mkdir pythonult
+   cd pythonult
+   git clone https://github.com/lamps-dev/utl.git
+
+3. If using GitHub Codespaces:
+Visit github.com
+Navigate to the repository: https://github.com/lamps-dev/utl.git Click on Code > Codespaces > Create codespace
+
+4. You're done! :D. Happy contributing on Google TV!
+
+## **Arch Linux Console Mode**
+1. Since you're in console mode, you already have access to the terminal
+
+2. Install git if not already installed:
+   ```bash
+   sudo pacman -S git
+   ```
+
+3. After installing git, run these commands:
+   ```bash
+   cd ~
+   mkdir pythonult
+   cd pythonult
+   git clone https://github.com/lamps-dev/utl.git
+   ```
+
+4. You're done! :D. Happy contributing on Arch Linux Console Mode!
+
+## **DigitalOcean**
+1. Connect to your DigitalOcean droplet via SSH:
+   ```bash
+   ssh root@your-droplet-ip
+
+2. Install git (if not already installed):
+```bash
+# For Ubuntu/Debian-based droplets
+apt-get update
+apt-get install git -y
+   
+# For CentOS/RHEL-based droplets
+yum install git -y
+```
+
+3. After installing git, run these commands:
+```bash
+cd ~
+mkdir pythonult
+cd pythonult
+git clone https://github.com/lamps-dev/utl.git
+```
+4. You're done! :D. Happy contributing on DigitalOcean!
