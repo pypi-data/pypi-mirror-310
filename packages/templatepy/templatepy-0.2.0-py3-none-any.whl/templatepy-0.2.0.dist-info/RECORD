@@ -1,0 +1,10 @@
+templatepy/__init__.py,sha256=QpQudIZzYa5RdUHeoqZo6i_GZYLlXmST_POMGFpR9Os,137
+templatepy/example.data.file.config,sha256=sRtbLc80ZUpGHm_qaovQ71dXmYf6IVkY8_4Y6YndGms,40
+tests/tests/test_integration/test_placeholder.py,sha256=ZWigc_DkDMHKtT4kAHhPiFq0f-Z9JzE6jnFw5N9oVW0,42
+tests/tests/test_unit/test_package.py,sha256=678MaBuRnMBmCpdWrzsL__i3tdlSIlgmS5HdjqeWozM,5803
+templatepy-0.2.0.dist-info/LICENSE,sha256=Ew8cEKZj5F51f1JVCmPZAESmeIe0HCdWdlo_NVKD-8s,1522
+templatepy-0.2.0.dist-info/METADATA,sha256=ZE1_s9xjnWjPvuXpW9Mt1_h4QcdsnGQZgaFB_V9kxSQ,15376
+templatepy-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+templatepy-0.2.0.dist-info/entry_points.txt,sha256=AGxmwCmuTD2V6WaG-gZOZq9fu7X-mKRch540WR3b0aY,66
+templatepy-0.2.0.dist-info/top_level.txt,sha256=ELJtVb0T6RQi0auEZlu1biz61IpdOHfpIIKzNZVfybs,22
+templatepy-0.2.0.dist-info/RECORD,,
