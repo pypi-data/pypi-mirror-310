@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+silverwyyapi.egg-info/PKG-INFO
+silverwyyapi.egg-info/SOURCES.txt
+silverwyyapi.egg-info/dependency_links.txt
+silverwyyapi.egg-info/not-zip-safe
+silverwyyapi.egg-info/requires.txt
+silverwyyapi.egg-info/top_level.txt
