@@ -1,0 +1,7 @@
+deep_autograd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deep_autograd/engine.py,sha256=MXA_83wYZ7a1NHJm05dUthsktS1s0FQ8eJB-_thUkeE,2766
+deep_autograd/nn.py,sha256=a3qB3BH8OOXyupcOqv9JYtHMgoInExv9RpHa5CvLNh0,1661
+deep_autograd-0.0.2.dist-info/LICENSE,sha256=eDGg6b4ik4N6jbJicMKSqVlr42MqVn4l4AMljNOEldQ,1069
+deep_autograd-0.0.2.dist-info/METADATA,sha256=sMCpqZVXRUCxRhQF45-xohLL0voSfsBUO_Hy6KvvaS8,1192
+deep_autograd-0.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+deep_autograd-0.0.2.dist-info/RECORD,,
