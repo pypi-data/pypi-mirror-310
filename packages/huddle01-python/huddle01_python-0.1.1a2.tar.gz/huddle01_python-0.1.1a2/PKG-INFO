@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: huddle01-python
+Version: 0.1.1a2
+Summary: 
+License: BSD-3-Clause
+Keywords: huddle01,video,conferencing
+Author: Om Gupta
+Author-email: omgupta0720@gmail.com
+Maintainer: Om Gupta
+Maintainer-email: omgupta0720@gmail.com
+Requires-Python: >=3.12.7,<4.0.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: aiohttp (>=3.10.10,<4.0.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: av (>=11.0.0,<12.0.0)
+Requires-Dist: google-cloud-speech (>=2.28.0,<3.0.0)
+Requires-Dist: google-crc32c (>=1.6.0,<2.0.0)
+Requires-Dist: numpy (>=2.1.2,<3.0.0)
+Requires-Dist: protobuf (>=5.28.2,<6.0.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: pydub (>=0.25.1,<0.26.0)
+Requires-Dist: pyee (==11.1.0)
+Requires-Dist: pymediasoup (>=1.0.1,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: ruff (>=0.6.9,<0.7.0)
+Requires-Dist: sounddevice (>=0.5.1,<0.6.0)
+Requires-Dist: soundfile (>=0.12.1,<0.13.0)
+Requires-Dist: websockets (>=13.1,<14.0)
+Description-Content-Type: text/markdown
+
+# huddle01-python
+
+`huddle01-python` is a Python client library designed to seamlessly integrate with the Huddle01 video conferencing platform. It provides developers with a straightforward interface to manage video calls, handle participants, and access various features of the Huddle01 API.
+
+## Features
+
+- **Easy Integration**: Simplifies the process of connecting Python applications with Huddle01.
+- **Comprehensive API Coverage**: Access a wide range of functionalities offered by the Huddle01 platform.
+- **Asynchronous Support**: Built with asynchronous programming in mind for efficient performance.
+- **Extensible**: Designed to accommodate future enhancements and customizations.
+
+## Installation
+
+Ensure you have Python 3.12.7 or higher installed. You can install `huddle01-python` using pip:
+
+```bash
+pip install huddle01-python
+```
+
+## Getting Started
+
+Here's a basic example to initiate a video call:
+
+```python
+from huddle01 import HuddleClient
+
+# Initialize the client with your API key
+client = HuddleClient(api_key='YOUR_API_KEY')
+
+# Create a new meeting
+meeting = client.create_meeting(topic='Team Sync')
+
+# Retrieve the meeting URL
+print(f"Join the meeting: {meeting.url}")
+```
+
+Replace `'YOUR_API_KEY'` with your actual Huddle01 API key.
+
+## Documentation
+
+Comprehensive documentation is available at [https://huddle01-python.readthedocs.io/](https://huddle01-python.readthedocs.io/), covering:
+
+- **Authentication**: Setting up and managing API keys.
+- **Meeting Management**: Creating, updating, and deleting meetings.
+- **Participant Handling**: Adding, removing, and managing participants.
+- **Advanced Features**: Utilizing recording, screen sharing, and more.
+
+## Contributing
+
+We welcome contributions! To get started:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bugfix.
+3. Submit a pull request with a clear description of your changes.
+
+Please refer to our [Contributing Guidelines](https://github.com/huddle01/huddle01-python/blob/main/CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the BSD-3-Clause License. See the [LICENSE](https://github.com/huddle01/huddle01-python/blob/main/LICENSE) file for more information.
+
+## Contact
+
+For support or inquiries:
+
+- **Email**: support@huddle01.com
+- **GitHub Issues**: [https://github.com/huddle01/huddle01-python/issues](https://github.com/huddle01/huddle01-python/issues)
+
+Stay connected and contribute to the evolution of `huddle01-python`! 
