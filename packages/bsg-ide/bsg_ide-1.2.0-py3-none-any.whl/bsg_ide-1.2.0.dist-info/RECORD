@@ -1,0 +1,10 @@
+bsg_ide/BSG_IDE.py,sha256=HXrhBc3I-2S31X3AVoXLZBeY_Mi629TBFxlXZuuqF7Y,250702
+bsg_ide/BeamerSlideGenerator.py,sha256=FNVpJd5p1tkaK6wk-sQz5XlMzMOwxegvz9RWGEoazTU,75039
+bsg_ide/__init__.py,sha256=pIN4UnwbzioSBndWXym_Yqz0TGs840MBJviK-eemdPI,725
+bsg_ide/airis4d_logo.png,sha256=8dKqHsHl5RpbgqXZxQCpwHAVVj6IDadlc5wf88Ukzwc,22196
+bsg_ide-1.2.0.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+bsg_ide-1.2.0.dist-info/METADATA,sha256=Vgqk2zo0V5273gej30L4YdGi0xjyIa_9ogzGGeTx2As,1740
+bsg_ide-1.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bsg_ide-1.2.0.dist-info/entry_points.txt,sha256=NEJOfdbdI-2B8i-s_K4bjqWZkU5ON6EzzRJUmCouOo0,49
+bsg_ide-1.2.0.dist-info/top_level.txt,sha256=2vBAg11sh1HE4T69-TYdOiQ-ePvrOhhXIUU5m8qPR40,8
+bsg_ide-1.2.0.dist-info/RECORD,,
