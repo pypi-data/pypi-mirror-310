@@ -1,0 +1,2 @@
+[console_scripts]
+onnxsim-lm = src.main:run
