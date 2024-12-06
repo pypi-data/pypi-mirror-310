@@ -1,0 +1,11 @@
+eatlocal/__init__.py,sha256=Q9emXNiqLM7_Vh6-XEU7kPqvREncmsJbS-ZfyZIEG8U,174
+eatlocal/__main__.py,sha256=b5pisC91PdanPUGFC9O6jipeengILmlMlftG3b2SIEU,5411
+eatlocal/console.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+eatlocal/constants.py,sha256=Y7YqouCD44scRpD2AmBwFLNCW6GPizKz9IJZ9uKh2Zk,392
+eatlocal/eatlocal.py,sha256=I66zvyzs83VSayhDsuF-TXiqwqeSJywBVqrP2csHiEs,8528
+eatlocal/pydriver.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+eatlocal-0.9.1.dist-info/METADATA,sha256=EUutZF0DezH6lB-jjIi3NyXZ7r_r-iMARS9P6hGQD0c,2606
+eatlocal-0.9.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+eatlocal-0.9.1.dist-info/entry_points.txt,sha256=EZ-cIqp7CyuvbnWs12Ppyt0vRppOKCGbDQzlIe5LBdE,51
+eatlocal-0.9.1.dist-info/licenses/LICENSE,sha256=D-wMABLfLveKal53D65lZlFm3u1SRyxYJFF1AewJik8,1076
+eatlocal-0.9.1.dist-info/RECORD,,
