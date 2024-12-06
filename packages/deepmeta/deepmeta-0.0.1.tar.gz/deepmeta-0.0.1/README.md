@@ -1,0 +1,43 @@
+deepmeta: Deep Meta Learning
+=======================
+
+This package implements deep meta learning algorithms.
+
+### Usage Example
+
+```
+import numpy as np
+from tensorflow.keras import layers, models
+from deepmeta import MAML
+
+# Define a deep-network model
+input_shape = (28, 28, 1)
+category_count = 10
+model = models.Sequential([
+    layers.Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=input_shape),
+    layers.MaxPooling2D(pool_size=(2, 2)),
+    layers.Flatten(),
+    layers.Dense(128, activation='relu'),
+    layers.Dense(category_count, activation='softmax')
+])
+
+# Initialize MAML
+maml = MAML(model, meta_lr=0.001, task_lr=0.01, inner_steps=5)
+
+# Generate dummy data
+train_sample_count = 100
+test_sample_count = 50
+train_features = np.random.rand(*([train_sample_count] + list(input_shape)))
+train_targets = np.random.randint(0, category_count, size=(train_sample_count,))
+test_features = np.random.rand(*([test_sample_count] + list(input_shape)))
+test_targets = np.random.randint(0, category_count, size=(test_sample_count,))
+
+# Split data into tasks
+support_set = [(train_features[i:i+5], train_targets[i:i+5]) for i in range(0, 100, 5)]
+query_set = [(test_features[i:i+5], test_targets[i:i+5]) for i in range(0, 50, 5)]
+
+# Train MAML
+for epoch in range(10):
+    meta_loss = maml.train_step(support_set, query_set)
+    print(f"epoch: {epoch}, meta loss: {meta_loss.numpy()}")
+```
