@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/.github"]
+include = ["src/DVD_Yesness/image.png"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["DVD_Yesness"]
+include = ["src/DVD_Yesness/image.png"]
+
+[tool.hatch.build]
+source = "src"
+
+[project]
+name = "DVD-Yesness"
+description = "DVD logo spin yes yayayayayay very cool fun project i made in about 1hr probably"
+readme = "README.md"
+requires-python = ">= 3.8"
+version = "1.0.1"
+dependencies = ["Pillow"]
+authors = [{name = "SupKittyMeow", email = "supkittymeow@gmail.com"}]
+license = {file = "LICENSE"}
+keywords = ["dvd", "logo", "spin", "yes", "yay", "happy", "cool", "fun", "project"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Games/Entertainment",
+  "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Repository = "https://github.com/SupKittyMeow/DVD-yesness"
+Issues = "https://github.com/SupKittyMeow/DVD-yesness/issues"
