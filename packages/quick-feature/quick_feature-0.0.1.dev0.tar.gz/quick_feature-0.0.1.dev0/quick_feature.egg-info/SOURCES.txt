@@ -1,0 +1,12 @@
+README.md
+setup.py
+quick_feature/__init__.py
+quick_feature/dataframe_checks.py
+quick_feature/py.typed
+quick_feature/tags.py
+quick_feature.egg-info/PKG-INFO
+quick_feature.egg-info/SOURCES.txt
+quick_feature.egg-info/dependency_links.txt
+quick_feature.egg-info/requires.txt
+quick_feature.egg-info/top_level.txt
+tests/test_dataframe_checks.py
