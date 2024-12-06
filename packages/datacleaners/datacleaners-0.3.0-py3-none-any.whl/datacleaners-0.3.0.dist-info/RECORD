@@ -1,0 +1,9 @@
+datacleaners/__init__.py,sha256=JAnHwBkaP-vqmZtA3c_Y-fHHGumAMQZhwuUngD3bhHM,89
+datacleaners/cleaning.py,sha256=-3qlvtQPzcWotEW9upkUc1eKJbOzBzsRJSDeYa6FwvY,3244
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cleaning.py,sha256=yaA73VGM_1zOBU8kPX5dYyGwaR83j3ftja5aZXLjs3Q,1053
+datacleaners-0.3.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datacleaners-0.3.0.dist-info/METADATA,sha256=X2JO6lVENDk_Nq3GJ8VJtXSDhsr_e5dfFw7IXWat_R8,1867
+datacleaners-0.3.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+datacleaners-0.3.0.dist-info/top_level.txt,sha256=rFhTgi9rEg0SQ3HZTG5k6FfjH6N1d2QLWfBa6SasnUU,19
+datacleaners-0.3.0.dist-info/RECORD,,
