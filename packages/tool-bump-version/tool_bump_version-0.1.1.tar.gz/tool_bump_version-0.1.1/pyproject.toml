@@ -1,0 +1,28 @@
+[project]
+name = "tool-bump-version"
+version = "0.1.1"
+description = "CLI tool to bump Python project versions according to semver"
+readme = "README.md"
+authors = [
+    { name = "Eyal Levin", email = "eyalev@gmail.com" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "typer>=0.13.1",
+    "tomli>=2.0.1",
+    "tomli-w>=1.0.0",
+]
+
+[project.scripts]
+tool-bump-version = "tool_bump_version.cli:app"
+
+[build-system]
+requires = [
+    "hatchling",
+]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+debug = [
+    "ipython>=8.29.0",
+]
