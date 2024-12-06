@@ -1,0 +1,10 @@
+dkdc_chat/__init__.py,sha256=QNggtsIr-LyBKqkI-22ubPUJUBhLpgGK3MR5LCtbz-Q,52
+dkdc_chat/main.py,sha256=Y_6kP0aQxkZpuwkGIO0LYPckysttkuUvWZdDncS3GT8,5468
+dkdc_chat/ui/cli.py,sha256=cO594FvhnBzoTpHEMbkHD2xVGmnuqVvsjwpyleqQLKc,1020
+dkdc_chat/ui/gui/__init__.py,sha256=u8Shm_XExZ3S8y0TXkqZvtmA3k0CRjw1HAKc_do-wIo,57
+dkdc_chat/ui/gui/main.py,sha256=dNYKTKgOXDh-rQ_eLGQg06yRFSxEu2yPz-p2zefAZLc,558
+dkdc_chat-0.0.1.dist-info/METADATA,sha256=8WmzfLlpXmfX_GdvL9Jf7dx3XHtVNrlvGGkRlHcHDzA,1092
+dkdc_chat-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dkdc_chat-0.0.1.dist-info/entry_points.txt,sha256=15ltDSDm8y01E0BheHIt1jg3R05n5yu2Of2jFa9q6rY,51
+dkdc_chat-0.0.1.dist-info/top_level.txt,sha256=YPxslXGqKcaSLFE1j9lYEmPVqYjPxe3XFNnkrBNs9Fw,10
+dkdc_chat-0.0.1.dist-info/RECORD,,

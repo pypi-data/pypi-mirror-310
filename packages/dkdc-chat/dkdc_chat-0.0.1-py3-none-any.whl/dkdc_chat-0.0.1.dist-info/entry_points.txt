@@ -1,0 +1,2 @@
+[console_scripts]
+dkdc-chat = dkdc_chat.ui.cli:app
