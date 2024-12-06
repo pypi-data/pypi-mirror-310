@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: akeem-text-preprocessor
+Version: 0.1.0
+Summary: A comprehensive text preprocessing library.
+Author: Your Name
+Requires-Dist: nltk
+Requires-Dist: beautifulsoup4

@@ -1,0 +1,10 @@
+setup.py
+akeem_text_preprocessor.egg-info/PKG-INFO
+akeem_text_preprocessor.egg-info/SOURCES.txt
+akeem_text_preprocessor.egg-info/dependency_links.txt
+akeem_text_preprocessor.egg-info/requires.txt
+akeem_text_preprocessor.egg-info/top_level.txt
+text_preprocessor/__init__.py
+text_preprocessor/preprocessing.py
+text_preprocessor/setup.py
+text_preprocessor/utils.py
