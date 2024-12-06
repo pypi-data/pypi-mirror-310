@@ -1,0 +1,16 @@
+autocommitt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autocommitt/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autocommitt/cli/main.py,sha256=EsaYbt0sqETPOgMepzqLEzwhTV-b6f6oA3saKqX-zDM,10043
+autocommitt/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autocommitt/core/commit_manager.py,sha256=7IFDL4Ghe-0gLqP9OLDgADJUv5BCzkZDASrlnAm3zzg,4681
+autocommitt/core/ollama_manager.py,sha256=V3KHhacDURUY5GcN4yTQtiMmEY7Qvvxy9kQVhFc7vfE,9738
+autocommitt/core/v2.py,sha256=axv0wcgKJHuQOkgenuEkKYNef8KPJq-TZryCkBbDcV4,5361
+autocommitt/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autocommitt/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autocommitt/utils/config_manager.py,sha256=inPWP6X9PoMyVCLqlJBkoid-Ubo4l8BmdQC09pcgxOQ,3330
+autocommitt-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autocommitt-0.1.8.dist-info/METADATA,sha256=FRmlImTHqT-iLjEvRC7hSnyBtdVb-Ed1iWVhD82mE_Q,3738
+autocommitt-0.1.8.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+autocommitt-0.1.8.dist-info/entry_points.txt,sha256=CKJk0zdXKP6TW-M9wcPjxWm1opTQGNIMxzE0cHa9pW8,57
+autocommitt-0.1.8.dist-info/top_level.txt,sha256=6SeZ24n2346RcpnFpMiMpavS5Tnkj_dQAymAuqKVNV0,12
+autocommitt-0.1.8.dist-info/RECORD,,
