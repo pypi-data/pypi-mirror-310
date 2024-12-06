@@ -1,0 +1,10 @@
+pyInterception_hotkeys/__init__.py,sha256=jKXohruOjwVeWqLXs7ertv3Rz_73gvsv8zGdQJeAs-Q,114
+pyInterception_hotkeys/_hotkey.py,sha256=JMFKAUzoj5fb_nPDOG1fIQIKHUdmFvxNU1tK14JJGnU,4171
+pyInterception_hotkeys/_keyStateTracker.py,sha256=HznEi6s7oTx7UPzn40RcKr0gsnJhL3StgYhf1qx1L4c,2058
+pyInterception_hotkeys/_keyboard.py,sha256=xu57Lep1hhEVtSvJrzoHRTJN0euyUh3nIDtqmqBLuHk,4425
+pyinterception_hotkeys-0.1.5.dist-info/LICENSE,sha256=y5UyoYBNhK1FPhdimSLdIIh8Z43yEKGFiAbj5fp5h_g,1061
+pyinterception_hotkeys-0.1.5.dist-info/METADATA,sha256=nwuXa_yHF5nzlMJPov2vjIk4tZbI8Lj2B0mRcMbH-wY,3337
+pyinterception_hotkeys-0.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyinterception_hotkeys-0.1.5.dist-info/entry_points.txt,sha256=O9tdnlOGInr1P1KppGvTMP7lTuEDb0eTAAHJQ8gk-18,71
+pyinterception_hotkeys-0.1.5.dist-info/top_level.txt,sha256=Oclea29FrVG5sgTsGpCs-s8Lw12J9zJql4eZ22ZcjCs,23
+pyinterception_hotkeys-0.1.5.dist-info/RECORD,,
