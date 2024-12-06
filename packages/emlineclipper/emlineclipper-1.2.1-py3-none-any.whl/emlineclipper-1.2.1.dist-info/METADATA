@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: emlineclipper
+Version: 1.2.1
+Summary: A tool for the removal of emission lines from supernova spectra. Follows Finneran et al. (2024). See: https://arxiv.org/abs/2411.11503.
+Author-email: Gabriel Finneran <gabfin15@gmail.com>
+Project-URL: Homepage, https://github.com/GabrielF98/emlineclipper
+Project-URL: Issues, https://github.com/GabrielF98/emlineclipper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20
+Requires-Dist: scipy>=1.14
+Requires-Dist: matplotlib>=3.9
+Requires-Dist: pandas>=2.2
