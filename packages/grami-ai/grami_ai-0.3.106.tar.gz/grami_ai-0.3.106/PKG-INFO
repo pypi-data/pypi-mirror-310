@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: grami-ai
+Version: 0.3.106
+Summary: Growth and Relationship AI Management Infrastructure
+Home-page: https://github.com/yafatek/grami-ai
+Author: YAFATek Solutions
+Author-email: YAFATek Solutions <support@yafatek.dev>
+Maintainer: YAFATek Solutions
+Maintainer-email: support@yafatek.dev
+License: MIT
+Project-URL: Homepage, https://github.com/WAFIR-Cloud/grami-ai
+Project-URL: Repository, https://github.com/WAFIR-Cloud/grami-ai
+Project-URL: Issues, https://github.com/WAFIR-Cloud/grami-ai/issues
+Keywords: ai,agent,framework,marketing,async,generative-ai,llm,machine-learning,artificial-intelligence
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.10,<3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai>=1.14.3
+Requires-Dist: anthropic>=0.20.0
+Requires-Dist: google-generativeai>=0.7.1
+Requires-Dist: ollama>=0.1.6
+Requires-Dist: aiohttp>=3.9.3
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: pydantic>=2.6.0
+Requires-Dist: pydantic-settings>=2.1.0
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: redis>=5.0.1
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: uvicorn>=0.27.1
+Requires-Dist: google-api-python-client==2.123.0
+Requires-Dist: tenacity>=8.2.3
+Requires-Dist: typing-extensions>=4.10.0
+Requires-Dist: rich>=13.7.0
+Requires-Dist: websockets>=12.0
+Requires-Dist: boto3==1.34.28
+Requires-Dist: botocore==1.34.28
+Requires-Dist: pytest-asyncio==0.23.2
+Requires-Dist: pytest>=7.4.4
+Requires-Dist: structlog>=24.1.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.4; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.2; extra == "dev"
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+Requires-Dist: ruff>=0.2.2; extra == "dev"
+Requires-Dist: coverage>=7.4.3; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=7.2.6; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=2.0.0; extra == "docs"
+
+# GRAMI-AI: Adaptive AI Agent Orchestration Framework
+
+## Overview
+
+GRAMI-AI is a cutting-edge, async-first AI agent framework designed to solve complex computational challenges through intelligent, collaborative agent interactions. Built with unprecedented flexibility, this library empowers developers to create sophisticated, context-aware AI systems that can adapt, learn, and collaborate across diverse domains.
+
+## Key Innovations
+
+- **Modular Agent Architecture**: Seamlessly compose and deploy AI agents with dynamic capabilities
+- **Multi-Provider LLM Integration**: Leverage models from OpenAI, Anthropic, Google Gemini, and more
+- **Async-First Design**: High-performance, non-blocking agent interactions
+- **Extensible Tool Ecosystem**: Easily integrate custom tools and expand agent capabilities
+- **Advanced Memory Management**: Intelligent context retention and retrieval
+
+## Use Cases
+
+While initially conceived for marketing and growth solutions, GRAMI-AI's flexible architecture supports a wide range of applications:
+- Marketing Intelligence
+- Research Automation
+- Complex Problem Solving
+- Interactive AI Assistants
+- Cross-Domain Knowledge Synthesis
+
+## Installation
+
+```bash
+pip install grami-ai
+```
+
+## Quick Start
+
+### Basic Agent Creation
+
+```python
+import asyncio
+from grami_ai.core.agent import AsyncAgent
+
+async def main():
+    # Create an AI agent for marketing
+    agent = await AsyncAgent.create(
+        name="MarketingAssistant",
+        llm="gemini",
+        tools=["content_generation", "web_search"]
+    )
+
+    # Generate marketing content
+    response = await agent.process({
+        "type": "content_request",
+        "platform": "instagram",
+        "niche": "tech",
+        "content_type": "post"
+    })
+
+    print(response)
+
+# Run the agent
+asyncio.run(main())
+```
+
+## Core Components
+
+### Agent
+- Orchestrates LLM, memory, tools, and interfaces
+- Async message processing
+- Dynamic tool selection
+
+## Configuration
+
+GRAMI-AI supports environment-based configuration for:
+- Development
+- Testing
+- Production
+
+## Interfaces
+
+- WebSocket
+- Kafka Consumer
+- Custom Interface Support
+
+## Security
+
+- Environment variable management
+- Configurable token expiration
+- Resource limits
+
+## Contributing
+
+We welcome contributions! Check out our [Contributing Guidelines](CONTRIBUTING.md).
+
+## License
+
+MIT License
+
+## Contact
+
+- Email: support@yafatek.dev
+- GitHub: https://github.com/yafatek/grami-ai
+
+## Community
+
+Join our community to collaborate, share ideas, and push the boundaries of AI-powered solutions.
+
+## Acknowledgements
+
+Built with ❤️ by YAFATek Solutions, pushing the frontiers of intelligent computing.
