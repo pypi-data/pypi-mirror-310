@@ -1,0 +1,14 @@
+bigquery_etl_tools/__init__.py,sha256=G2ITO-sWbSOT5YOiFA7WvGUFlIStk2UUcumMngPEBr4,4307
+bigquery_etl_tools/bigquery_utils.py,sha256=Gs7eTG_Fu2aKjrm6Rw94a4F_ifBiChlB1tSz1ZhgV14,1523
+bigquery_etl_tools/config.py,sha256=ygpok8Kpw0VGKay6sl2586Kv6eUYNycFlPDnDpmz5t0,1188
+bigquery_etl_tools/file_utils.py,sha256=s2uZulRXNRZBgsw-xIsZ8p7O4oQ26vmcUlIrDlPT6xM,741
+bigquery_etl_tools/storage_utils.py,sha256=tYc2-6jT4EM5863ZuKoJ08aVeMvrpcIygbitbDhXErQ,2918
+tests/__init__.py,sha256=3BLuoq8mAXkp2_JQb0PhSUNyqbyRlDpFQm55zhv_o4k,109
+tests/test_core.py,sha256=iwzjm2GzgxkfIxB2b5I_p53NFUOI0ievOL5h5Qjiysw,3290
+tests/test_file_utils.py,sha256=EaNHThUazkNgBP-olKPxBgtk37dtVAxlSSKevtaZlhY,575
+tests/test_storage_utils.py,sha256=XUUAqXIO5u6YRqcwILnzKoVufUMZJnG7dk_JWwuMzO4,1016
+bigquery_etl_tools-0.0.3.dist-info/LICENSE.txt,sha256=9VvOFGMr19EYMoGgRueqIdlhLg5qruXTcW7iE0MOVXk,1068
+bigquery_etl_tools-0.0.3.dist-info/METADATA,sha256=mcGK5n0lduG7tB9ApSYBGhag5cFgbMY4Oe2dtu7lhBk,2351
+bigquery_etl_tools-0.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bigquery_etl_tools-0.0.3.dist-info/top_level.txt,sha256=CTQ_XF5BG5bVXaNY-4HyobS9tw2v-68XC9ediYgFZVw,25
+bigquery_etl_tools-0.0.3.dist-info/RECORD,,
