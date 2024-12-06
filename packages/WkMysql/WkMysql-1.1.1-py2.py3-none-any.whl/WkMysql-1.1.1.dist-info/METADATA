@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: WkMysql
+Version: 1.1.1
+Summary: The secondary encapsulation of pymysql provides a more user-friendly interface and thread pool, and will support SQLite in the future.
+Home-page: https://github.com/WANGKANG1717/WkDB
+Author: WANGKANG
+Author-email: 1686617586@qq.com
+License: GPL-2.0
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymysql
+Requires-Dist: WkLog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+线程池下面的优化目标：
+1. 当线程池中的线程为空时，检查已经创建的线程数量，如果没有超过最大线程数量，则创建新的线程；
+2. 当线程池中的线程数超过最大线程数量时，阻塞线程，等待空闲的线程；
+3. 线程池中的线程空闲超过一定时间，则销毁线程，减少资源占用；但是不得低于最小线程数量；
+
