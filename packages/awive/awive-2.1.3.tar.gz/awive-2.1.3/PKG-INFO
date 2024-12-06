@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: awive
+Version: 2.1.3
+Summary: Joseph Pena's bachelor thesis work
+License: MIT
+Author: Joseph P.
+Author-email: joseph.pena@utec.edu.pe
+Requires-Python: >=3.9.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: opencv-python (>=4.6.0.66,<5.0.0.0)
+Requires-Dist: pydantic (>=1.10.2)
+Description-Content-Type: text/markdown
+
+# AWIVE
+AWIVE, an acronym for Adaptive Water Image Velocimetry Estimator, is a
+ software package designed for estimating the velocity field from a sequence of
+ images. It comprises two methods: STIV and OTV, both geared towards achieving
+ velocity estimations with low computational costs.
+
+## Installing
+
+Install and update using pip:
+
+```bash
+pip install awive
+```
+
+## Usage
+
+If you want to know how to configure the json file, use the [awive configurator](https://github.com/JosephPenaQuino/awive-configurator)
+Execute the commands below:
+
+```
+pyenv local 3.11.2
+poetry install
+poetry run python -m awive.otv river-brenta d0000 -v
+```
+
