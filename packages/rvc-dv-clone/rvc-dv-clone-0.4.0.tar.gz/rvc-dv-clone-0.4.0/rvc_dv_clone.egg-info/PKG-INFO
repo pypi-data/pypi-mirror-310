@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: rvc-dv-clone
+Version: 0.4.0
+Summary: Retrieval-based Voice Conversion library
+Author: Alakxender
+Author-email: alakxender@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RVC Convert
+
+A Python package for Retrieval-based Voice Conversion, based on the [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI).
+
+Note: This is a fork of the [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) with the goal of making it a Python package for a custom use case. There is no need to install this package - normally you would just clone the repo and use it directly.
+
+## Installation
+
+Download `hubet_base.pth` from [here](https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pth) and put it in the models folder.
+
+## Usage
+
+```python
+
+# test.py
+
+from rvc_dv_clone.rvc_infer import rvc_convert
+
+
+input_dir = ""
+input = "test.wav"
+
+output_dir = ""
+output = "output.wav"
+
+# show your trained models
+model = [
+    "models/f01/f01.pth",
+]
+
+import os
+# Check if the input file exists
+if not os.path.exists(f"{input_dir}/{input}"):
+    raise FileNotFoundError(f"Input file {input_dir}/{input} not found")
+
+wav=rvc_convert(
+    model_path=model[0],
+    f0_up_key=2,
+    input_path=f"{input_dir}/{input}",
+    output_dir_path=f"{output_dir}/{output}",
+)
+
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
