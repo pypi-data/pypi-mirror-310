@@ -1,0 +1,12 @@
+scalyca/__init__.py,sha256=yKdKhedsdiUHlb8XQG6-R2IxXy6Ug4KtgoANVANE6TY,86
+scalyca/colour.py,sha256=Syo5RJxc5rSVu6L7Qbnx0-9qKF6KCxVdeIU8cIrUEHA,878
+scalyca/configuration.py,sha256=9gVITUSuVA9wBwpS7kQKD8vVw1Vjp-_tH0OvHJy2VnA,770
+scalyca/exceptions.py,sha256=1TYLp2hidCQpuf2JGKTh97q2iPtbDlBbhhGpzKd8tUM,223
+scalyca/logger.py,sha256=yOAH85d4BRFUd7veOh-4OTyWMtE0FTNoHaTuWMUnJzI,1364
+scalyca/scala.py,sha256=-8tEUKCJsSh0lb6jXV6IH0y6Nj8Mg9oqtIOpb3FRln4,3391
+scalyca/scalyca.py,sha256=4yyA3eVA6QERvIagWkKVun6MYMRSOG6D7WhguR43UHE,2363
+scalyca/utilities.py,sha256=FwgP0fZ7umxN2e-uW5du7Svh1hKZACdhYjpy2IvLmTQ,970
+scalyca-0.2.1.dist-info/LICENSE,sha256=s17QTuuwaeXWchMcDXid8A4_cCVV7Ip5YU-cGxfb8tk,1071
+scalyca-0.2.1.dist-info/METADATA,sha256=K-XJqNCUcZb4VANAioIbjBt0sEJjye5xD_vcynjcvWU,2613
+scalyca-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scalyca-0.2.1.dist-info/RECORD,,
