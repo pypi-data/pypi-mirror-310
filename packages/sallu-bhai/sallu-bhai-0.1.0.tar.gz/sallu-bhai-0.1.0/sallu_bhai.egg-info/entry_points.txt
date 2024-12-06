@@ -1,0 +1,3 @@
+[console_scripts]
+optimus-prime = optimus_prime.cli_tool:main
+
