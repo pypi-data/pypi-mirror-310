@@ -1,0 +1,6 @@
+cryptography
+Django
+djangorestframework
+pem
+PyJWT
+setuptools
