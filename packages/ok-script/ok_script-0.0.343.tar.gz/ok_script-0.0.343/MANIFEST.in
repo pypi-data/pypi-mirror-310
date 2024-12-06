@@ -1,0 +1,5 @@
+global-include *.pyd
+global-exclude *.cpp
+global-exclude *.py
+exclude tests
+exclude ok\alas\utils.py

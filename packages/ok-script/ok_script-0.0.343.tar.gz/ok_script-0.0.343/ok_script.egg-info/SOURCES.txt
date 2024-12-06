@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+ok/Capture.cp312-win_amd64.pyd
+ok/OK.cp312-win_amd64.pyd
+ok/Task.cp312-win_amd64.pyd
+ok/Util.cp312-win_amd64.pyd
+ok_script.egg-info/PKG-INFO
+ok_script.egg-info/SOURCES.txt
+ok_script.egg-info/dependency_links.txt
+ok_script.egg-info/requires.txt
+ok_script.egg-info/top_level.txt
