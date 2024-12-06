@@ -1,0 +1,25 @@
+=======================================
+Writing your first GingerDJ app, part 8
+=======================================
+
+This tutorial begins where :doc:`Tutorial 7 </intro/tutorial07>` left off. We've
+built our web-poll application and will now look at third-party packages. One of
+GingerDJ's strengths is the rich ecosystem of third-party packages. They're
+community developed packages that can be used to quickly improve the feature set
+of an application.
+
+Third-party packages that integrate with GingerDJ need some post-installation
+setup to integrate them with your project. Often you will need to add the
+package's GingerDJ app to your :setting:`INSTALLED_APPS` setting. Some packages
+need other changes, like additions to your URLconf (``urls.py``).
+
+
+What's next?
+============
+
+The beginner tutorial ends here. In the meantime, you might want to check out
+some pointers on :doc:`where to go from here </intro/whatsnext>`.
+
+If you are familiar with Python packaging and interested in learning how to
+turn polls into a "reusable app", check out :doc:`Advanced tutorial: How to
+write reusable apps</intro/reusable-apps>`.

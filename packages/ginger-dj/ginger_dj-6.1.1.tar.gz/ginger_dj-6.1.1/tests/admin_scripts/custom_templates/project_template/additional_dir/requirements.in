@@ -1,0 +1,5 @@
+# Should not be processed by `black`.
+GingerDJ<4.2
+environs[gingerdj]
+psycopg2-binary
+gingerdj-extensions

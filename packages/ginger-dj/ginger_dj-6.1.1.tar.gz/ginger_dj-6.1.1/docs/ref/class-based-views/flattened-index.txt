@@ -1,0 +1,657 @@
+===========================================
+Class-based generic views - flattened index
+===========================================
+
+This index provides an alternate organization of the reference documentation
+for class-based views. For each view, the effective attributes and methods from
+the class tree are represented under that view. For the reference
+documentation organized by the class which defines the behavior, see
+:doc:`Class-based views</ref/class-based-views/index>`.
+
+.. seealso::
+
+   `Classy Class-Based Views <https://ccbv.co.uk/>`_ provides a nice interface
+   to navigate the class hierarchy of the built-in class-based views.
+
+Simple generic views
+====================
+
+``View``
+--------
+
+.. class:: View()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``TemplateView``
+----------------
+
+.. class:: TemplateView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.base.ContextMixin.get_context_data`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``RedirectView``
+----------------
+
+.. class:: RedirectView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.base.RedirectView.pattern_name`
+* :attr:`~gingerdj.views.generic.base.RedirectView.permanent`
+* :attr:`~gingerdj.views.generic.base.RedirectView.query_string`
+* :attr:`~gingerdj.views.generic.base.RedirectView.url` [:meth:`~gingerdj.views.generic.base.RedirectView.get_redirect_url`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* ``delete()``
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* ``options()``
+* ``post()``
+* ``put()``
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+Detail Views
+============
+
+``DetailView``
+--------------
+
+.. class:: DetailView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.pk_url_kwarg`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.query_pk_and_slug`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_field` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_slug_field`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_url_kwarg`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_field`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_suffix`
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* :meth:`~gingerdj.views.generic.detail.BaseDetailView.get`
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_object`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+List Views
+==========
+
+``ListView``
+------------
+
+.. class:: ListView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.allow_empty` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_allow_empty`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.ordering` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_ordering`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_by` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_by`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_orphans` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_orphans`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginator_class`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectTemplateResponseMixin.template_name_suffix`
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* :meth:`~gingerdj.views.generic.list.BaseListView.get`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginator`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_queryset`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+Editing views
+=============
+
+``FormView``
+------------
+
+.. class:: FormView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.form_class` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_form_class`]
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.initial` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_initial`]
+* :attr:`~gingerdj.views.generic.edit.FormMixin.prefix` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_prefix`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.edit.FormMixin.success_url` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_success_url`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.form_invalid`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.form_valid`
+* :meth:`~gingerdj.views.generic.edit.ProcessFormView.get`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.get_form`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.get_form_kwargs`
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.edit.ProcessFormView.post`
+* :meth:`~gingerdj.views.generic.edit.ProcessFormView.put`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``CreateView``
+--------------
+
+.. class:: CreateView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.edit.ModelFormMixin.fields`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.form_class` [:meth:`~gingerdj.views.generic.edit.ModelFormMixin.get_form_class`]
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.initial` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_initial`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.pk_url_kwarg`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.prefix` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_prefix`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.query_pk_and_slug`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_field` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_slug_field`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_url_kwarg`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.success_url` [:meth:`~gingerdj.views.generic.edit.ModelFormMixin.get_success_url`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_field`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_suffix`
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.form_invalid`
+* :meth:`~gingerdj.views.generic.edit.ModelFormMixin.form_valid`
+* :meth:`~gingerdj.views.generic.edit.ProcessFormView.get`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.get_form`
+* :meth:`~gingerdj.views.generic.edit.ModelFormMixin.get_form_kwargs`
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_object`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.edit.ProcessFormView.post`
+* ``put()``
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``UpdateView``
+--------------
+
+.. class:: UpdateView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.edit.ModelFormMixin.fields`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.form_class` [:meth:`~gingerdj.views.generic.edit.ModelFormMixin.get_form_class`]
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.initial` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_initial`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.pk_url_kwarg`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.prefix` [:meth:`~gingerdj.views.generic.edit.FormMixin.get_prefix`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.query_pk_and_slug`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_field` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_slug_field`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_url_kwarg`
+* :attr:`~gingerdj.views.generic.edit.FormMixin.success_url` [:meth:`~gingerdj.views.generic.edit.ModelFormMixin.get_success_url`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_field`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_suffix`
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.form_invalid`
+* :meth:`~gingerdj.views.generic.edit.ModelFormMixin.form_valid`
+* :meth:`~gingerdj.views.generic.edit.ProcessFormView.get`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.edit.FormMixin.get_form`
+* :meth:`~gingerdj.views.generic.edit.ModelFormMixin.get_form_kwargs`
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_object`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.edit.ProcessFormView.post`
+* ``put()``
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``DeleteView``
+--------------
+
+.. class:: DeleteView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.pk_url_kwarg`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.query_pk_and_slug`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_field` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_slug_field`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_url_kwarg`
+* :attr:`~gingerdj.views.generic.edit.DeletionMixin.success_url` [:meth:`~gingerdj.views.generic.edit.DeletionMixin.get_success_url`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_field`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_suffix`
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* ``delete()``
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_object`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* ``post()``
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+Date-based views
+================
+
+``ArchiveIndexView``
+--------------------
+
+.. class:: ArchiveIndexView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.allow_empty` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_allow_empty`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.allow_future` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_allow_future`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.date_field` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_date_field`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.ordering` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_ordering`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_by` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_by`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_orphans` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_orphans`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginator_class`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectTemplateResponseMixin.template_name_suffix`
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_date_list`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_items`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_queryset`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginator`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_queryset`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``YearArchiveView``
+-------------------
+
+.. class:: YearArchiveView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.allow_empty` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_allow_empty`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.allow_future` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_allow_future`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.date_field` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_date_field`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.dates.YearArchiveView.make_object_list` [:meth:`~gingerdj.views.generic.dates.YearArchiveView.get_make_object_list`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.ordering` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_ordering`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_by` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_by`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_orphans` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_orphans`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginator_class`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectTemplateResponseMixin.template_name_suffix`
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year`]
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year_format` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year_format`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_date_list`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_items`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_queryset`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginator`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_queryset`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``MonthArchiveView``
+--------------------
+
+.. class:: MonthArchiveView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.allow_empty` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_allow_empty`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.allow_future` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_allow_future`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.date_field` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_date_field`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month`]
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month_format` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month_format`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.ordering` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_ordering`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_by` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_by`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_orphans` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_orphans`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginator_class`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectTemplateResponseMixin.template_name_suffix`
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year`]
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year_format` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year_format`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_date_list`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_items`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_queryset`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_next_month`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginator`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_previous_month`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_queryset`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``WeekArchiveView``
+-------------------
+
+.. class:: WeekArchiveView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.allow_empty` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_allow_empty`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.allow_future` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_allow_future`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.date_field` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_date_field`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.ordering` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_ordering`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_by` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_by`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_orphans` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_orphans`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginator_class`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectTemplateResponseMixin.template_name_suffix`
+* :attr:`~gingerdj.views.generic.dates.WeekMixin.week` [:meth:`~gingerdj.views.generic.dates.WeekMixin.get_week`]
+* :attr:`~gingerdj.views.generic.dates.WeekMixin.week_format` [:meth:`~gingerdj.views.generic.dates.WeekMixin.get_week_format`]
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year`]
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year_format` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year_format`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_date_list`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_items`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_queryset`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginator`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_queryset`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``DayArchiveView``
+------------------
+
+.. class:: DayArchiveView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.allow_empty` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_allow_empty`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.allow_future` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_allow_future`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.date_field` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_date_field`]
+* :attr:`~gingerdj.views.generic.dates.DayMixin.day` [:meth:`~gingerdj.views.generic.dates.DayMixin.get_day`]
+* :attr:`~gingerdj.views.generic.dates.DayMixin.day_format` [:meth:`~gingerdj.views.generic.dates.DayMixin.get_day_format`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month`]
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month_format` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month_format`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.ordering` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_ordering`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_by` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_by`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_orphans` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_orphans`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginator_class`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectTemplateResponseMixin.template_name_suffix`
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year`]
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year_format` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year_format`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_date_list`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_items`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_queryset`
+* :meth:`~gingerdj.views.generic.dates.DayMixin.get_next_day`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_next_month`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginator`
+* :meth:`~gingerdj.views.generic.dates.DayMixin.get_previous_day`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_previous_month`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_queryset`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``TodayArchiveView``
+--------------------
+
+.. class:: TodayArchiveView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.allow_empty` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_allow_empty`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.allow_future` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_allow_future`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.date_field` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_date_field`]
+* :attr:`~gingerdj.views.generic.dates.DayMixin.day` [:meth:`~gingerdj.views.generic.dates.DayMixin.get_day`]
+* :attr:`~gingerdj.views.generic.dates.DayMixin.day_format` [:meth:`~gingerdj.views.generic.dates.DayMixin.get_day_format`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month`]
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month_format` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month_format`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.ordering` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_ordering`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_by` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_by`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_orphans` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginate_orphans`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.paginator_class`
+* :attr:`~gingerdj.views.generic.list.MultipleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.list.MultipleObjectTemplateResponseMixin.template_name_suffix`
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year`]
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year_format` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year_format`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_date_list`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_items`
+* :meth:`~gingerdj.views.generic.dates.BaseDateListView.get_dated_queryset`
+* :meth:`~gingerdj.views.generic.dates.DayMixin.get_next_day`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_next_month`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.get_paginator`
+* :meth:`~gingerdj.views.generic.dates.DayMixin.get_previous_day`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_previous_month`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.list.MultipleObjectMixin.paginate_queryset`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
+
+``DateDetailView``
+------------------
+
+.. class:: DateDetailView()
+
+**Attributes** (with optional accessor):
+
+* :attr:`~gingerdj.views.generic.dates.DateMixin.allow_future` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_allow_future`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.content_type`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.context_object_name` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_object_name`]
+* :attr:`~gingerdj.views.generic.dates.DateMixin.date_field` [:meth:`~gingerdj.views.generic.dates.DateMixin.get_date_field`]
+* :attr:`~gingerdj.views.generic.dates.DayMixin.day` [:meth:`~gingerdj.views.generic.dates.DayMixin.get_day`]
+* :attr:`~gingerdj.views.generic.dates.DayMixin.day_format` [:meth:`~gingerdj.views.generic.dates.DayMixin.get_day_format`]
+* :attr:`~gingerdj.views.generic.base.ContextMixin.extra_context`
+* :attr:`~gingerdj.views.generic.base.View.http_method_names`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.model`
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month`]
+* :attr:`~gingerdj.views.generic.dates.MonthMixin.month_format` [:meth:`~gingerdj.views.generic.dates.MonthMixin.get_month_format`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.pk_url_kwarg`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.query_pk_and_slug`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.queryset` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_queryset`]
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.response_class` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_field` [:meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_slug_field`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectMixin.slug_url_kwarg`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_engine`
+* :attr:`~gingerdj.views.generic.base.TemplateResponseMixin.template_name` [:meth:`~gingerdj.views.generic.base.TemplateResponseMixin.get_template_names`]
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_field`
+* :attr:`~gingerdj.views.generic.detail.SingleObjectTemplateResponseMixin.template_name_suffix`
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year`]
+* :attr:`~gingerdj.views.generic.dates.YearMixin.year_format` [:meth:`~gingerdj.views.generic.dates.YearMixin.get_year_format`]
+
+**Methods**
+
+* :meth:`~gingerdj.views.generic.base.View.as_view`
+* :meth:`~gingerdj.views.generic.base.View.dispatch`
+* ``get()``
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_context_data`
+* :meth:`~gingerdj.views.generic.dates.DayMixin.get_next_day`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_next_month`
+* :meth:`~gingerdj.views.generic.detail.SingleObjectMixin.get_object`
+* :meth:`~gingerdj.views.generic.dates.DayMixin.get_previous_day`
+* :meth:`~gingerdj.views.generic.dates.MonthMixin.get_previous_month`
+* ``head()``
+* :meth:`~gingerdj.views.generic.base.View.http_method_not_allowed`
+* :meth:`~gingerdj.views.generic.base.TemplateResponseMixin.render_to_response`
+* :meth:`~gingerdj.views.generic.base.View.setup`
