@@ -1,0 +1,12 @@
+jpdatetime/__init__.py,sha256=fbNGv58zbGMiUvmfR4_TCrrciMG0R7jOnu4f84khduI,35
+jpdatetime/jpdatetime.py,sha256=O7Xi3qbnVeVAFvD_mrgJbuQRTyg12e98AmrmXtKidZQ,11456
+jpdatetime/kanji_to_num.py,sha256=PpcARuuYc-aoSHFJ5DbsM0ub2d2h3eco2ZfL_qm5iYQ,2014
+jpdatetime/config/eras.json,sha256=mxalbGWPVcr219pDBtWlgXN3XxzI58m32AKyK1NBPs8,25601
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_jpdatetime.py,sha256=iMJOUdHlWUYxREbfbmixx-N0jvJUlTDYpIlh2BOzY7Q,18292
+test/test_kanji_to_num.py,sha256=Ka1zHaOblRFRw9aZ-sDIx7jwoQqsYdWgK1lfXEHFVPQ,3668
+jpdatetime-1.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jpdatetime-1.5.0.dist-info/METADATA,sha256=ZVNjmpKN56mJSZi9_biQ6dSgw5dDImPda-yAe24kGss,6090
+jpdatetime-1.5.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+jpdatetime-1.5.0.dist-info/top_level.txt,sha256=gW2fY3I_0IoFrkZALZ_eZwuHyZxh4p-JCq7BWKls6aY,16
+jpdatetime-1.5.0.dist-info/RECORD,,
