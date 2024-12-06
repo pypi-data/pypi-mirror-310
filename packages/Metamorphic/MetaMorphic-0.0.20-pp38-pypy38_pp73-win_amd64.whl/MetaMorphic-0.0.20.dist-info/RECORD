@@ -1,0 +1,16 @@
+MetaMorphic/MorphAlyt.c,sha256=CXDqWO5vBGZNMFCChHYIFGWlsP69sc9T9tg4EikLZQA,8790403
+MetaMorphic/MorphAlyt.cp312-win_amd64.pyd,sha256=yjG7hebrO0D0_lkD0W1R9Qv4_rUCfmpVuKsq9PHF4hM,1901056
+MetaMorphic/MorphAlyt.pypy38-pp73-win_amd64.pyd,sha256=eUObkfy__6v8-ZqXXAO7aX6pDJjWJeZFO1SGYOIFjkY,1741824
+MetaMorphic/__init__.py,sha256=JWBNpEF9C1kM3irwQ5xrma-FY-R0BIDAxsnAnmj6jc8,52
+MetaMorphic/data/F분포표(0.01).csv,sha256=Gpz_YZ_22KhAkANONSkhRa-KzAdnczxC1fX-DgW1_hg,9279
+MetaMorphic/data/F분포표(0.1).csv,sha256=XhtWtIn6XEywIAc0ND0LE_Y0MrPDF56LqkGJFUUy04A,9277
+MetaMorphic/data/Studentized Range q Table(0.01).csv,sha256=2_tsmWyDABFtTOuIpCgeiRvw2RADxmCk2bBilWyMMQs,16074
+MetaMorphic/data/Studentized Range q Table(0.05).csv,sha256=tuGnVV26I1Abo114XsCn75JQ4QMRZapI6Uw47Gqv9zM,16104
+MetaMorphic/data/chi.csv,sha256=eumd8YztR09HHt_DSIdgJSGX-cjTmT6nvTJ76tPwY5w,2638
+MetaMorphic/data/t분포표.csv,sha256=6f_JYrIJyVpeIJpcq0WJn0sTNVplgNjOr_18RlJ9CSk,8468
+MetaMorphic/data/표준정규분포표.csv,sha256=0_zY5hkmWHI1T4Jv8ojGP8UF3FomlRAm2lU33kx7fLE,3915
+MetaMorphic-0.0.20.dist-info/LICENSE,sha256=dG_Qxv_UGi9JTUNny6TVfYEV5JwZoXhGeDC20dkfcak,1090
+MetaMorphic-0.0.20.dist-info/METADATA,sha256=4s6z08tpPTOedJyC0HZ3IjpDOxxZOzPSzDS5AZzt9F8,263
+MetaMorphic-0.0.20.dist-info/WHEEL,sha256=aCppcPYVJzaY1J3cZ4xS5OVgvcUOltjpJSbIkIKus7Y,106
+MetaMorphic-0.0.20.dist-info/top_level.txt,sha256=RcFxIACUITUIJQhx7uXH9QETiyU7zpRqNSQXSCEnAqA,24
+MetaMorphic-0.0.20.dist-info/RECORD,,
