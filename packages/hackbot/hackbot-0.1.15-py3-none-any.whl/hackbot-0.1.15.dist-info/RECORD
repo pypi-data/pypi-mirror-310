@@ -1,0 +1,10 @@
+hackbot/__init__.py,sha256=oEY9BVtV-iM9k1mDFgnlTjDC4Gb8e0FNHMmY4oNiSs8,68
+hackbot/__main__.py,sha256=AjX7Zj_CLsdMiuw7l-hyY6jG_M1kNTwZNzQDd8O2f-Y,314
+hackbot/commands.py,sha256=weu-qAA0JjZot5zrLqLh208jTue1qzJAdMGiZYzKaYg,4320
+hackbot/hack.py,sha256=mvKokCMV7NbwcbZa5B3DpbKuSoOsvDqP0o8gF9Jtugs,8530
+hackbot/logging.py,sha256=X322eLqPjlXL_ZEX9rZ_GeH_aNkl5L4fU0C8MYdToNs,1055
+hackbot/utils.py,sha256=FTFTxKAU78L_doUuGbucARNNsgKy4zZTl1yN8SlGt5c,2289
+hackbot-0.1.15.dist-info/METADATA,sha256=SnyziZ6knh8Va_7iDmWPMJu7uH3dHip2v5HxQBEagNo,1776
+hackbot-0.1.15.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+hackbot-0.1.15.dist-info/entry_points.txt,sha256=XduaoKrNuNHhJDVGaTKw-Vx7NNb8uunpRtz43EUjeHs,50
+hackbot-0.1.15.dist-info/RECORD,,
