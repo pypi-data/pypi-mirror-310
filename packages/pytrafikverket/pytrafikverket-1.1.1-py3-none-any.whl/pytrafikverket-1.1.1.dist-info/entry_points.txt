@@ -1,0 +1,3 @@
+[console_scripts]
+trafikverket_cli=pytrafikverket:run
+
