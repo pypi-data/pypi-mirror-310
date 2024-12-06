@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: brainmaze-zmq
+Version: 0.0.1
+Summary: Utils for around zmq supporting multiprocess communication
+Home-page: 
+Author: Filip Mivalt
+Author-email: mivalt.filip@mayo.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9.0
+License-File: LICENSE
