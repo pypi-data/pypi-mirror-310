@@ -1,0 +1,2 @@
+[console_scripts]
+tool-bump-version = tool_bump_version.cli:app
