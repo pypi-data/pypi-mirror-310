@@ -1,0 +1,5 @@
+pcodec-0.3.2.dist-info/METADATA,sha256=Kkyk8tO7Ijjwulh5uOgYKxGZk0qeawq3gYYLk7uihKY,1571
+pcodec-0.3.2.dist-info/WHEEL,sha256=g5HWqh_ET1t00jeNp7yG4_MnCmGwbeYGzUw6BhdEuM0,95
+pcodec/__init__.py,sha256=QxiL7cvJ9fZNTkPxHw1hDKR_vSp0FviT90F8fW1YEFY,107
+pcodec/pcodec.cp310-win_amd64.pyd,sha256=FGbjNxNqHXtTSRelWUqVWm34lJg9WKtPraK6_4tMFg4,1020416
+pcodec-0.3.2.dist-info/RECORD,,
