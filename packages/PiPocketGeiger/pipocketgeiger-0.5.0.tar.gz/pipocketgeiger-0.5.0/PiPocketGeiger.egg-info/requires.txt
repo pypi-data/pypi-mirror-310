@@ -1,0 +1,5 @@
+rpi-lgpio>=0.6
+
+[dev]
+flake8
+pylint
