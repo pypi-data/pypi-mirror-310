@@ -1,0 +1,6 @@
+README.md
+setup.py
+aew_api.egg-info/PKG-INFO
+aew_api.egg-info/SOURCES.txt
+aew_api.egg-info/dependency_links.txt
+aew_api.egg-info/top_level.txt
