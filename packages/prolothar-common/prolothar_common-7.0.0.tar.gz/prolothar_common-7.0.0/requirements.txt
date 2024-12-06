@@ -1,0 +1,10 @@
+scikit-learn<2.0.0
+more-itertools
+graphviz<1
+pandas>2.0.0,<3.0.0
+frozendict<3
+pm4py==2.7.11.14
+psutil>=5.7.2
+lru-dict
+seaborn<1.0.0
+sgt==2.0.3
