@@ -1,0 +1,90 @@
+[project]
+name = "geckoterminal-api"
+version = "0.9.0"
+description = "RESTful (sync + async) Python client for GeckoTerminal API"
+license = "MIT"
+keywords = [
+    "geckoterminal",
+    "coingecko",
+    "rest",
+    "api",
+    "async",
+    "cryptocurrency",
+    "bitcoin",
+    "ethereum",
+    "solana",
+]
+readme = "README.md"
+authors = [{ name = "Dinesh Pinto", email = "annual.fallout_0z@icloud.com" }]
+requires-python = ">=3.10"
+dependencies = ["aiohttp>=3.11.7", "requests>=2.32.3"]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.389",
+    "pytest>=8.3.3",
+    "pytest-asyncio>=0.24.0",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D",
+    "COM812",
+    "ISC001",
+    "PLR0913",
+    "S107",
+    "ANN201",
+    "ANN002",
+    "ANN003",
+    "ANN202",
+    "C901",
+]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"tests/**/*.py" = ["S101", "S106", "ANN003", "ANN001"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.pyright]
+include = ["geckoterminal_api/"]
+strictListInference = true
+strictDictionaryInference = true
+strictSetInference = true
+deprecateTypingAliases = true
+disableBytesTypePromotions = true
+reportUnusedClass = true
+reportUnusedFunction = true
+reportUntypedFunctionDecorator = true
+reportUntypedClassDecorator = true
+reportPrivateUsage = true
+reportTypeCommentUsage = true
+reportConstantRedefinition = true
+reportDeprecated = true
+reportInconsistentConstructor = true
+reportUninitializedInstanceVariable = true
+reportMissingParameterType = true
+reportCallInDefaultInitializer = true
+reportUnnecessaryIsInstance = true
+reportUnnecessaryCast = true
+reportUnnecessaryComparison = true
+reportUnnecessaryContains = true
+reportInvalidStubStatement = true
+reportUnusedExpression = true
+reportUnnecessaryTypeIgnoreComment = true
+reportMatchNotExhaustive = true
+reportImplicitOverride = true
+reportShadowedImports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests/"]
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "module"
