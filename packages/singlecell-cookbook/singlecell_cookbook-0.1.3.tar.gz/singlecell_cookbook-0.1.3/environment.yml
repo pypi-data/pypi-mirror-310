@@ -1,0 +1,17 @@
+name: singlecell-cookbook
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.11
+  - pip
+  - pytest
+  - ruff
+  - sphinx
+  - sphinx-rtd-theme
+  - sphinx-autodoc-typehints
+  - myst-parser
+  - pre-commit
+  - bump2version
+  - pip:
+    - -e .[dev]
