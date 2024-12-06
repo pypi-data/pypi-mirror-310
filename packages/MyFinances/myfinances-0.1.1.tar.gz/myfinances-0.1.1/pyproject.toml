@@ -1,0 +1,95 @@
+[tool.poetry]
+name = "MyFinances"
+version = "0.1.1"
+description = ""
+authors = ["TreyWW"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+requests = "2.32.0"
+types-requests = "^2.32.0.20241016"
+typing_extensions = "^4.10.0"
+pydantic = "^2.9.2"
+pytest = "^8.3.3"
+requests-mock = "^1.12.1"
+email-validator = "^2.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+coverage = "^7.4.4"
+bump-my-version = "^0.19.3"
+
+
+[tool.poetry.group.mkdocs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.44"
+mike = "2.1.3"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ['setuptools>=40.8.0', 'django>=3.2']
+build-backend = 'setuptools.build_meta'
+
+
+[project]
+name = "MyFinances"
+description = "A python client package to interact with the MyFinances API through python."
+readme = "README.md"
+authors = [
+    {name = "Trey", email="trey@strelix.org"}
+]
+requires-python = ">=3.10"
+
+license = {file = "LICENSE"}
+
+classifiers = [
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+
+dynamic = [
+    "version"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "myfinances.__version__"}
+
+[project.urls]
+Homepage = "https://github.com/Strelix/MyFinances-python"
+Issues = "https://github.com/Strelix/MyFinances-python/issues"
+
+[tool.bumpversion]
+current_version = "0.1.1"
+commit = true
+commit_args = "-s"
+tag = true
+tag_name = "v{new_version}"
+sign_tags = true
+allow_dirty = true
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)(\\.(?P<dev>post)\\d+\\.dev\\d+)?"
+serialize = [
+    "{major}.{minor}.{patch}.{dev}{$PR_NUMBER}.dev{distance_to_latest_tag}",
+    "{major}.{minor}.{patch}"
+]
+
+message = "Version updated from {current_version} to {new_version}"
+
+[[tool.bumpversion.files]]
+filename = "myfinances/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
