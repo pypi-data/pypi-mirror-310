@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "funcversion"
+version = "0.1.31"
+description = "A Python library for managing multiple versions of functions using decorators."
+authors = ["Pizzaface"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+packaging = "^24.2"
+
+
+[tool.poetry.group.tests.dependencies]
+pytest-assert-utils = "^0.3.1"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+fix = true
+line-length = 120
+
+[tool.ruff.lint]
+ignore = ["F811"]
+
+[tool.ruff.format]
+quote-style = "single"
