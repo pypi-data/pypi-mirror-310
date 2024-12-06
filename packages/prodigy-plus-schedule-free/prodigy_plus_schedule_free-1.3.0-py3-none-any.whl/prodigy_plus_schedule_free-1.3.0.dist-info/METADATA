@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: prodigy-plus-schedule-free
+Version: 1.3.0
+Summary: Prodigy + ScheduleFree
+Home-page: https://github.com/LoganBooker/prodigy-plus-schedule-free
+Author: Logan Booker
+Author-email: me@loganbooker.dev
+License: Apache 2.0
+Keywords: artificial intelligence,deep learning,optimizers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.0
