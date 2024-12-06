@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langchain-fc-barcelona"
+version = "0.1.0"
+description = ""
+authors = ["isaac hershenson <ihershenson@hmc.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain-core = "^0.3.19"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+langchain-tests = "0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
