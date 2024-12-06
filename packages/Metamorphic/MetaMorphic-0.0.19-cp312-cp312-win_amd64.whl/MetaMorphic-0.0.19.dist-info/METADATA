@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: MetaMorphic
+Version: 0.0.19
+Home-page: https://github.com/leechaeeyoung/Fc
+Author: fourchains_R&D
+Author-email: fourchainsrd@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.2
+License-File: LICENSE
+
