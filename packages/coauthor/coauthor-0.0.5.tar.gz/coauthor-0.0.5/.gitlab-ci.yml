@@ -1,0 +1,175 @@
+---
+stages:
+  # - lint
+  - test
+  - build
+  - release
+  - deploy
+  - publish
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  CI_PYTHON_VERSION: "3.11"
+
+default:
+  image: python:$CI_PYTHON_VERSION
+
+before_script:
+  - python --version
+  - pip install --upgrade pip
+
+# .linters:
+#   stage: lint
+#   script:
+#     - pip install . pre-commit mypy==1.13.0 -r tests/requirements.txt
+#     - mypy src/ tests/
+
+# .lint:
+#   extends: .linters
+#   tags:
+#     - docker
+#   only:
+#     - master
+
+.release-base:
+  # Abstract base job for "release" jobs.
+  # Extending jobs must define the following variables:
+  # - PYPI_OIDC_AUD: Audience for the ID token that GitLab
+  #   issues to the pipeline job
+  # - PYPI_OIDC_URL: PyPI endpoint for retrieving a publish
+  #   token with GitLab’s ID token
+  # - UV_PUBLISH_URL: PyPI endpoint for the actual upload
+  stage: deploy
+  # id_tokens:
+  #   PYPI_ID_TOKEN:
+  #     aud: "$PYPI_OIDC_AUD"
+  # script:
+  #   # Use the GitLab ID token to retrieve an API token from PyPI
+  #   - >-
+  #     resp="$(curl -X POST "${PYPI_OIDC_URL}" -d "{\"token\":\"${PYPI_ID_TOKEN}\"}")"
+  #   # Parse the response and extract the token
+  #   - echo $resp > pypi_oidc_response.json
+  #   # - >-
+  #   #   publish_token="$(python -c "import json; print(json.load('${resp}')['token'])")"
+  #   # # Upload the files from "dist/"
+  #   # - export FLIT_PASSWORD=$publish_token
+  #   # - 'echo "FLIT_USERNAME: $FLIT_USERNAME, FLIT_PASSWORD: $FLIT_PASSWORD"'
+  #   # - flit publish
+  #   # Print the link to PyPI so we can quickly go there to verify the result:
+  #   # - 'version="$(uv run --with hatch-vcs hatchling version)"'
+  #   # - 'echo -e "\033[34;1mPackage on PyPI:\033[0m ${CI_ENVIRONMENT_URL}${version}/"'
+  variables:
+    FLIT_USERNAME: onknows
+  # artifacts:
+  #   paths:
+  #     - pypi_oidc_response.json
+
+prepare:
+  stage: build
+  script:
+    - |
+      C2_VERSION=$(grep 'version =' pyproject.toml | awk -F '"' '{print $2}')
+    - 'echo "C2_VERSION: $C2_VERSION"'
+    - |
+      echo "C2_VERSION=$C2_VERSION" >> variables.env
+  artifacts:
+    reports:
+      dotenv: variables.env
+
+build:
+  stage: build
+  script:
+    - python3 -m pip install flit
+    - flit build
+  artifacts:
+    paths:
+      - dist/
+
+release-test:
+  extends: ".release-base"
+  rules:
+    # Only run if it's a pipeline for the default branch or a tag:
+    - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMIT_TAG"
+  script:
+    - python3 -m pip install flit
+    - flit build
+    - flit publish
+  environment:
+    name: release-test
+    url: https://test.pypi.org/project/coauthor/
+  variables:
+    PYPI_OIDC_AUD: testpypi
+    PYPI_OIDC_URL: https://test.pypi.org/_/oidc/mint-token
+    FLIT_INDEX_URL: https://test.pypi.org/legacy/
+    FLIT_USERNAME: __token__
+
+test:
+  stage: test
+  services:
+    - docker:dind
+  script:
+    - git config --global user.email "you@example.com"
+    - git config --global user.name "Your Name"
+    - pip install . -r tests/requirements.txt
+    - pytest --cov
+  coverage: '/TOTAL\s+\d+\s+\d+\s+\d+\s+\d+\s+(\d+(?:\.\d+)?)\%$/'
+  # matrix:
+  #   # - PYTHON_VERSION: 3.9 OS: "ubuntu"
+  #   - PYTHON_VERSION: "3.10 OS: 'ubuntu'"
+  #   # - PYTHON_VERSION: 3.11 OS: "ubuntu"
+  #   # - PYTHON_VERSION: 3.12 OS: "ubuntu"
+  #   # - PYTHON_VERSION: 3.13 OS: "ubuntu"
+  #   # - PYTHON_VERSION: 3.14-dev OS: "ubuntu"
+  # parallel: 6
+  allow_failure: true
+  artifacts:
+    paths:
+      - coverage.xml
+  only:
+    - master
+    - tags
+# coverage_report:
+#   stage: test
+#   script:
+#     - if [ "$CI_COMMIT_BRANCH" == "master" ] && [ "$PYTHON_VERSION" == "3.11" ] && [ "$OS" == "ubuntu" ]; then
+#       curl -s https://codecov.io/bash | bash;
+#       fi
+
+# all-good:
+#   stage: deploy
+#   script:
+#     - echo "Great success!"
+#   when: on_success
+
+# # publish:
+# #   stage: publish
+# #   # variables:
+# #   #   TWINE_USERNAME: "__token__"
+# #   #   TWINE_PASSWORD: "$PYPI_TOKEN"
+# #   script:
+# #     - python3 -m pip install flit
+# #     # - pip install .
+# #     - flit build
+# #     - flit publish
+# #   # only:  # TODO enable
+# #   #   - tags
+
+gitlab-release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  needs: [prepare]
+  before_script: []
+  script:
+    - echo "Create Coauthor release $C2_VERSION"
+  release:
+    name: Coauthor $C2_VERSION
+    description: "./CHANGELOG.md"
+    tag_name: $C2_VERSION
+    ref: $CI_COMMIT_SHA
+  when: manual
+  only:
+    - master
+# assets:
+#   links:
+#     - name: coauthor
+#       url: https://galaxy.ansible.com/$C2_NAMESPACE/$C2_NAME

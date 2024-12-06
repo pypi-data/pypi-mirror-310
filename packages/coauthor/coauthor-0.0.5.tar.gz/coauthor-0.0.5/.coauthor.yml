@@ -1,0 +1,25 @@
+---
+profile: python
+jinja:
+  search_path: .coauthor/templates
+  custom_delimiters:
+    block_start_string: "{{%"
+    block_end_string: "%}}"
+    variable_start_string: "{{{"
+    variable_end_string: "}}}"
+agent:
+workflows:
+  - name: coauthor
+    watch:
+      filesystem:
+        paths:
+          - src
+          - tests
+    tasks:
+      - id: ai-file-update
+        type: process_file_with_openai_agent
+        path_patterns:
+          - .*\.py$
+        content_patterns:
+          - .*\(ai:.*?\).*
+          - ".*@ai:.*"
