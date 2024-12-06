@@ -1,0 +1,9 @@
+texfont/__init__.py,sha256=qjmEZ7z_uaKpK_zxZAAn_sI6HSom6aSH6467FWlF-Bk,127
+texfont/cli.py,sha256=_w5M5CyhzfXnr5rZizfWenWzVv-DKR3GKJ35b9Qxjro,415
+texfont/font/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texfont/font/install.py,sha256=NZVxRe944nakvShaQk9v0F0wZwVLawtGVth7ipPw5hk,1741
+texfont/font_list.json,sha256=jpmRiBfwW0yaEIoHV2UaUGbtXWA_bKqyDR2LfvZ8ob4,474
+texfont/texfont.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+texfont-0.1.0.dist-info/METADATA,sha256=4Ufo31O6syGuUD5xzhWYsPnPzQJvqbrkSgCACQIS-eE,501
+texfont-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+texfont-0.1.0.dist-info/RECORD,,
