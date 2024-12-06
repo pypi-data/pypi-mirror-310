@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: findhuman
+Version: 0.1
+Summary: A face and human detection package with optional features like distance measurement and image saving.
+Home-page: https://mrfidal.in/py/findhuman
+Author: MrFidal
+Author-email: mrfidal@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+# findhuman
