@@ -1,0 +1,17 @@
+pepecoin/__init__.py,sha256=F31GRddUtoRVPRv-bTi52uXrycQN2J_FMfPiuE8Wil0,78
+pepecoin/cli.py,sha256=tOoDQ-03VSCA62gVpR9k0jxiw9NGv8dlaU7KAxS26YY,1766
+pepecoin/pepecoin.py,sha256=iUuzXLl-e9J1Sem7XmMpeM9KQLtApK7UKddNsQNgnW4,20554
+pepecoin/pepecoin_rpc.py,sha256=2fmdW7nC3E_bxoNJLIXUPQ26lqRUOqgVh6Z90-OSR5o,2738
+pepecoin/rpc_example.py,sha256=55tHpVJamXhbhuwuuLP4MZT4vzRyDmBbeIit1r2wA0Y,510
+pepecoin/test_pepecoin.py,sha256=7Ut5ua9U3D2cyY83Yjy-x1fJXrg5Rd7g-q_79Jz1ZDk,7758
+pepecoin/wallet.py,sha256=uSfa_zwledgKVQGUInzcnG_RoJ0saEcmc2hF4m1sXZ0,13920
+pepecoin/scripts/pepecoind.service,sha256=VznrK0f9UDm9j1Pu6e5jrpnQAQGpIeQLPFl1ToQ1zpo,340
+pepecoin/scripts/setup_pepecoin_node.sh,sha256=C-UdQCLMIWEKLaLHSoW4GfSKfPmeBLOVFkFwpRSWsPI,3747
+pepecoin/scripts/setup_pepecoin_node_macos.sh,sha256=uNrfmt-FWXk8KyvGg9ugIucDo_ReNQ0Hj-Tx1Cu8f2w,4162
+pepecoin/scripts/setup_pepecoin_node_macos_old.sh,sha256=UVu_3Ob3EdVIFG26s-CdISejs1wVw9clCNlrT8CYqfg,4033
+pepecoin/scripts/virgin_vm.sh,sha256=AvW-VE0T9lruUijiij7yCuGr4JAoiiWFvYkPqfxuT4c,523
+pepecoin-0.0.7.dist-info/METADATA,sha256=NO_U6KkFhg4hmfxLg9o5xNWvQNZhModcEEdcj939Scc,10629
+pepecoin-0.0.7.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pepecoin-0.0.7.dist-info/entry_points.txt,sha256=AUgFBrenlwi25bsRfFza5q9E2cJG6IuZJ5PDAMgodnk,255
+pepecoin-0.0.7.dist-info/top_level.txt,sha256=ipCPhfVA1Wsrr5_SAWYGU_ERJ_m3kkLAovzpkC0JkCY,9
+pepecoin-0.0.7.dist-info/RECORD,,
