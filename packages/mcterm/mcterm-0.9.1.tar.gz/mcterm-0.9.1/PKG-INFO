@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: mcterm
+Version: 0.9.1
+Summary: Better Minecraft Server Terminal
+Home-page: https://newgit.inuxnet.org/devel/bettermcrcon
+Author: Jess Williams
+Author-email: devel@inuxnet.org
+License: MIT
+Description: UNKNOWN
+Keywords: minecraft mcrcon rcon remote command mojang cli mcterm terminal
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
