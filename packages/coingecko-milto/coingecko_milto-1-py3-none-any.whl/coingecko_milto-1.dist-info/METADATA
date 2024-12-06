@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: coingecko_milto
+Version: 1
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: argparse
+Requires-Dist: pytest
+
