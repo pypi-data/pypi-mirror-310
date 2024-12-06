@@ -1,0 +1,11 @@
+boldigger3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boldigger3/__main__.py,sha256=1eaoUW_HAIXPevyTEFykSHiWKSS4j1BpSiNGXg_DdEU,4179
+boldigger3/additional_data_download.py,sha256=SkUF96kTafmmq1sbDo1h2doR12dZiP0s7QTvGs2eThc,12442
+boldigger3/id_engine.py,sha256=hX9MPLYwvSjkPrKFD1zC-VwI743cYmqbfbQhNTTEPK4,19806
+boldigger3/select_top_hit.py,sha256=sYFf6gjT9trG8yrjx6osUvolC4BXf4XMvap7bAAuLAo,18583
+boldigger3-1.2.5.dist-info/LICENSE,sha256=FWtFgRtdvAJvEbDb09v0YLSvnfMEfiONVi0i5cfhtN8,1091
+boldigger3-1.2.5.dist-info/METADATA,sha256=x0VPRW0zaxmqiZaiFx2RnOgr5ptzbpcFV4oMAE_PGNQ,10618
+boldigger3-1.2.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+boldigger3-1.2.5.dist-info/entry_points.txt,sha256=bqVXkyUIzqgh6Q7n0NFEYQV9xf-KaItfXMVH4bOM74o,56
+boldigger3-1.2.5.dist-info/top_level.txt,sha256=2p6geJclyu307RrmoRbFQ3FQ23rAtzJZ6djNj1lxMfQ,11
+boldigger3-1.2.5.dist-info/RECORD,,
