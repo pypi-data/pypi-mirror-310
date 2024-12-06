@@ -1,0 +1,8 @@
+README.md
+setup.py
+minipwn/__init__.py
+minipwn/packing.py
+minipwn.egg-info/PKG-INFO
+minipwn.egg-info/SOURCES.txt
+minipwn.egg-info/dependency_links.txt
+minipwn.egg-info/top_level.txt
