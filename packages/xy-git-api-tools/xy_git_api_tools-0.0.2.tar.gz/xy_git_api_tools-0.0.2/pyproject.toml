@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+requires-python = ">=3.11.3"
+
+name = "xy_git_api_tools"
+
+authors = [{ name = "余洋", email = "yuyangit.0515@qq.com" }]
+description = "xy_git_api_tools 模块"
+
+dynamic = ["version"]
+
+readme = "README.md"
+
+classifiers = ["Programming Language :: Python :: 3"]
+
+dependencies = [
+    "importlib_resources",
+    "requests",
+    "xy_string",
+    "xy_console",
+    "xy_argparse",
+    "xy_settings",
+]
+
+[project.scripts]
+xy_git_api_tools = "xy_git_api_tools.execute.Main:main"
+
+[tool.setuptools.packages.find]
+where = ["./"]
+include = ["xy_git_api_tools"]
+namespaces = false
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { file = "VERSION" }

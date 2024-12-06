@@ -1,0 +1,2 @@
+[console_scripts]
+xy_git_api_tools = xy_git_api_tools.execute.Main:main
