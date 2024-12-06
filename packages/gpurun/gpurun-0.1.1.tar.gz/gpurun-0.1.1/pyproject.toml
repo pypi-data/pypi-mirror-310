@@ -1,0 +1,69 @@
+[project]
+name = "gpurun"
+version = "0.1.1"
+description = "GPU job scheduler using filelock"
+authors = [
+    { name = "Yichao Zhou", email = "yichao.zhou@apple.com" }
+]
+dependencies = [
+    "filelock>=3.16.1",
+]
+readme = "README.md"
+requires-python = ">= 3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/zhou13/gpurun"
+Issues = "https://github.com/zhou13/gpurun/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.3",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.8.0",
+    "pre-commit>=4.0.1",
+    "pyright>=1.1.389",
+]
+
+[project.scripts]
+gpurun = "gpurun.cli:main"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gpurun"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["F", "FA", "PIE", "E", "W", "I001", "UP"] # pyflakes, pycodestyle, isort
+ignore = [
+    # E402 module level import not at top of file, very hard to workaround
+    "E402",
+    # Line too long
+    "E501",
+    # Do not use variables named 'I', 'O', or 'l'
+    "E741",
+    # Jaxtype
+    "F722",
+]
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
