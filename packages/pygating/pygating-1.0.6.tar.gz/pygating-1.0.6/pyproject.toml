@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pygating"
+version = "1.0.6"
+description = "A small package for creating and using configurations to control code flow"
+authors = [
+  "Aleksey Tsaplin <tsapleksey@gmail.com>",
+]
+readme = "README.md"
+homepage = "https://github.com/atsaplin/pygating"
+repository = "https://github.com/atsaplin/pygating"
+documentation = "https://github.com/atsaplin/pygating"
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+python-dateutil = "*"
+pytest = "*"
+pytest-mock = "*"
+
+[build-system]
+requires = [
+  "poetry-core>=1.0.0",
+]
+build-backend = "poetry.core.masonry.api"
