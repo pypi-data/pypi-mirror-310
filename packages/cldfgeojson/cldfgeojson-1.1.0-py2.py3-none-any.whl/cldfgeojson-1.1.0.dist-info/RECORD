@@ -1,0 +1,16 @@
+cldfgeojson/__init__.py,sha256=vhyxIyBGB4vlzA6lhqFv7C0eGL9pAOSkBbnAVn1PSJ8,106
+cldfgeojson/create.py,sha256=PT3r0fIQiDCjKBVD8ULrhHVWFTOXJkNkRHs7lArsocQ,8486
+cldfgeojson/geojson.py,sha256=uMkiQEKO8QtsXel6SL0I15yJlgE8cbFqoWmenqgoxEI,4642
+cldfgeojson/geotiff.py,sha256=HUvAXJ4bSOHHLVL51SjRGIAj96xCz5tbpw0vzeF_Shw,2999
+cldfgeojson/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cldfgeojson/commands/glottolog_distance.py,sha256=yraBIhlJ99ZQVtbfKIjvuJ0nP_BKTIo4kTXPJpoi_JI,2555
+cldfgeojson/commands/overlay.py,sha256=10w3HWUQszfpnoYZUgMcS00kRd1cn-DnrCOVVph2Fgc,2509
+cldfgeojson/commands/webmercator.py,sha256=wIwXmBa9Q32NBj27YuHPbO_CMJqWcXAViFqtaMyu9pk,1679
+cldfgeojson/commands/templates/index.html.mako,sha256=41nvz1t0B0Z0R9ABITM4kSSuMOWotUfCRRlrbx8Swp4,4109
+cldfgeojson/commands/templates/leaflet.draw.mako,sha256=kw4pD2_XNDIsUIS6ebP6SVoysWmaGny5_7v2ktBW-Hg,204754
+cldfgeojson-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cldfgeojson-1.1.0.dist-info/METADATA,sha256=056qhNl1itP_FBRQ2hVZ2CjrV9d-ULm8ivJRXDkjCVg,5324
+cldfgeojson-1.1.0.dist-info/WHEEL,sha256=TJ49d73sNs10F0aze1W_bTW2P_X7-F4YXOlBqoqA-jY,109
+cldfgeojson-1.1.0.dist-info/entry_points.txt,sha256=pAMwSQ1pgXZ209P2NplolKXs-oloxJkp8_32RLYPE4g,52
+cldfgeojson-1.1.0.dist-info/top_level.txt,sha256=XYBgJ_ZDhk_LPTg8lbG25lpSBcY_f_aW8sq0ie6IHqc,12
+cldfgeojson-1.1.0.dist-info/RECORD,,
