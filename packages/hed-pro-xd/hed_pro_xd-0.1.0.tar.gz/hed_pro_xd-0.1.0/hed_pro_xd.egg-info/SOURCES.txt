@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+hed_pro_xd/Hedra_projecto.py
+hed_pro_xd/__init__.py
+hed_pro_xd/genavaimg.py
+hed_pro_xd/genavatts.py
+hed_pro_xd/hedavatar.py
+hed_pro_xd/hedlogin.py
+hed_pro_xd/registro.py
+hed_pro_xd.egg-info/PKG-INFO
+hed_pro_xd.egg-info/SOURCES.txt
+hed_pro_xd.egg-info/dependency_links.txt
+hed_pro_xd.egg-info/requires.txt
+hed_pro_xd.egg-info/top_level.txt
