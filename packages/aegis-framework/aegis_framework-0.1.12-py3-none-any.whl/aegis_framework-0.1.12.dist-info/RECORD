@@ -1,0 +1,10 @@
+aegis_framework/__init__.py,sha256=_5Sbm8A_NxLdfs333b2NxOMZnBzIe2nYuegUxXYZfCc,259
+aegis_framework/core/__init__.py,sha256=uhi9eX82WktMGrQxRUpNo04AzkbY4HqKg1aORlrMtCI,180
+aegis_framework/core/master_agent.py,sha256=rfMSZqKzOonoXFJ2vK8-n5NdBqdsr0jOXxD60PdrN3Q,1236
+aegis_framework/core/ollama_model.py,sha256=BQK8W_0QbgwdXC1H3I9B7ndDhJGIeAnCMpFaz8Dk8Wk,953
+aegis_framework/utils/helper_functions.py,sha256=xPz0nNgnmGKvN61-7eXgdqLrcSdGOQ-zoITh5TZjSPQ,217
+aegis_framework-0.1.12.dist-info/LICENSE,sha256=24CFutDZl-0MUxnNIE686qscepqOhdPMG5QrWYsvSYg,1072
+aegis_framework-0.1.12.dist-info/METADATA,sha256=kOo2p_rmqnXFeYrlbxIKUWML7MjiaVbeHWRwHrsBk-c,2544
+aegis_framework-0.1.12.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aegis_framework-0.1.12.dist-info/top_level.txt,sha256=8D6eiCKTqVZK4tKQWBYl_olqED26U-tpL-IbXsORu8U,16
+aegis_framework-0.1.12.dist-info/RECORD,,
