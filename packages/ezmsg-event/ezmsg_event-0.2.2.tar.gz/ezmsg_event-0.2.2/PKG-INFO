@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: ezmsg-event
+Version: 0.2.2
+Summary: Namespace package for ezmsg to work with signal events like neural spikes and heartbeats
+Author-email: Chadwick Boulay <chadwick.boulay@gmail.com>
+Requires-Python: >=3.10.15
+Requires-Dist: ezmsg-sigproc>=1.6.0
+Requires-Dist: numpy>=1.26
+Requires-Dist: sparse>=0.15.4
+Provides-Extra: dev
+Requires-Dist: ruff>=0.6.8; extra == 'dev'
+Requires-Dist: typer>=0.12.5; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest>=8.3.3; extra == 'test'
+Description-Content-Type: text/markdown
+
+# ezmsg-event
+
+ezmsg namespace package for working with signal events like neural spikes and heartbeats
