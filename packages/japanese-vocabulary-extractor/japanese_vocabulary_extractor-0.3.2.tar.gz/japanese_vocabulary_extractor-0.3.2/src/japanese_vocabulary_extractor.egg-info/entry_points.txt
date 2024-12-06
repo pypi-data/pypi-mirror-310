@@ -1,0 +1,2 @@
+[console_scripts]
+japanese-vocabulary-extractor = main.main:main
