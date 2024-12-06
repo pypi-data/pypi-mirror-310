@@ -1,0 +1,13 @@
+(Elaboration[N][S]
+  (Contrast[S][N]
+    (Elaboration[N][S]
+      !Students and lecturers alike are worried about global warming and related climate change . <s>!
+      (Joint[N][N]
+        (Attribution[S][N]
+          !With a clear ecological conscience and convinced!
+          !that they stand on the right side of history , they cycle to their university campus , buy a vegetarian sandwich on the way!)
+        (Background[N][S]
+          !and were jointly outraged!
+          !when Donald Trump pulled the US out of the Paris Climate Agreement . <s>!)))
+    !However , their own contribution to climate change is all too often ignored . <s>!)
+  !This is an example from rst-workbench . <P>!)
