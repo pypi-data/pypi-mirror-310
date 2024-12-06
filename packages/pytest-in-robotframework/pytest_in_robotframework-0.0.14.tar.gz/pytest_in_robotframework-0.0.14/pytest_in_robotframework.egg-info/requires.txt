@@ -1,0 +1,4 @@
+pytest
+robotframework>=6.1
+decorator
+pytest-is-running
