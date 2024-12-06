@@ -1,0 +1,11 @@
+codemapper/__init__.py,sha256=9CZZbzwT1DVUxi8QWkaGLHKgM-WPuosQv23PHK9W_0o,583
+codemapper/config.py,sha256=plZMDsk1eP8_enW7y8uduIWqK0v_i6Wbj0S7Uz3xhl4,2438
+codemapper/docmap.py,sha256=tRCjKgdt6bh3mfKqN2ic5QW8BHUmB_hqtTEe1tMuPXU,6346
+codemapper/main.py,sha256=SUuY_A7xx0n91CK_eW0jVSKvNjXZcT4j1RP9enm-PZs,3530
+codemapper/utils.py,sha256=bdB965uWO-t2XxDuuCFMtM9Bh8xrrxmNJ7O8E2cuZtI,13246
+codemapper-4.0.0.dist-info/LICENSE,sha256=HkRf-OG-YLwvODNFHTTb1Q0rN1R9wJfXVZ2Y-7tjCRg,1071
+codemapper-4.0.0.dist-info/METADATA,sha256=f7Oe2wAu8tNirATcrb1ux4iI5EAYPDjs8oqfx4Q1AIY,7388
+codemapper-4.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+codemapper-4.0.0.dist-info/entry_points.txt,sha256=BGcLb0xo0AAdu4lJJXdiXENJYHHrNSJ8F5yJBBB7vI4,52
+codemapper-4.0.0.dist-info/top_level.txt,sha256=Pp9GdvrfhtEMDeuehhoCaQDADCbF7-HazrMp5YoTRFQ,11
+codemapper-4.0.0.dist-info/RECORD,,
