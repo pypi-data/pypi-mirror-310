@@ -1,0 +1,13 @@
+tidocs-1.0.1.dist-info/METADATA,sha256=XU9-uari2sqXgkvc3hajllZ1L06aIkpKhyEJDns4dvQ,3051
+tidocs-1.0.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+tidocs-1.0.1.dist-info/entry_points.txt,sha256=lucyhSB03XOyhfdiJRw3sv9qh8iM2PRuNo07J5u8cJY,59
+tidocs-1.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tidocs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidocs/cli.py,sha256=VfWMoZZEDJKlnX1OVQLDibd64MZG7HVGqrYJTf4z-A8,2451
+tidocs/docx_handler.py,sha256=fyaAHxXpeKHDMK5nz5xosCyJiaHWepgqo0BloD0EsIs,2457
+tidocs/markdown_handler.py,sha256=RXy_zx1UJC0y7Yfx-wr8I805ijit1kBcpn3HE6nMQ3U,4721
+tidocs/merge/main_marimo.py,sha256=x_eqYn7XJ4p4PpPEi6v71PCG1X7LV3ICSrWqqjfbTls,8140
+tidocs/pandoc_wrapper.py,sha256=FlySARmDHGUIg0SRRPOzl9J4K-r5G0QvncEPXO0m5Z0,7920
+tidocs/resources/custom-pdf-reference.docx,sha256=CvnqPVSUm6S2Ndm_vuyHKnIflT8qWkE_j_SPVbDQkzA,49408
+tidocs/util.py,sha256=--YlDjcVDnRAILslX8FZaU6IQz0n0R2OmdsWVMTf4E0,391
+tidocs-1.0.1.dist-info/RECORD,,
