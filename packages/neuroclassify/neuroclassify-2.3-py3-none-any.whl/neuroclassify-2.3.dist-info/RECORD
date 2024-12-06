@@ -1,0 +1,8 @@
+neuroclassify/__init__.py,sha256=SX6JgbjcKQ8yfUpURp1csWwct_ifbb2BUcXyIRuMekw,385
+neuroclassify/classifier.py,sha256=Gzmz0FVPX3nNdLh-O07TQIfSSLqR2BHN9ld3sRgbcqQ,7806
+neuroclassify/utils.py,sha256=KlqtgSEAZbNB-vWkdTjHkMPt8Dsbt0vtQGLJpBV1P7Y,842
+neuroclassify-2.3.dist-info/LICENSE,sha256=h1JKOCRTKdFHT-Pm_BttkuNWvhDvt0Yjvhu-aDTKepY,1076
+neuroclassify-2.3.dist-info/METADATA,sha256=sELIkhvc1AuumZRjL6T64ZP9W26rM6FUQ5GjIDYazPI,6322
+neuroclassify-2.3.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+neuroclassify-2.3.dist-info/top_level.txt,sha256=m_aBgRIk13JukL3dkoXieGty_SFqMsgQ73bNYFEOGAM,14
+neuroclassify-2.3.dist-info/RECORD,,
