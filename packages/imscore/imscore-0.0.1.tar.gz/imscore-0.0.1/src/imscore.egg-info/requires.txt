@@ -1,0 +1,6 @@
+torch>=2.0.0
+torchvision
+einops
+open_clip
+tqdm
+huggingface_hub
