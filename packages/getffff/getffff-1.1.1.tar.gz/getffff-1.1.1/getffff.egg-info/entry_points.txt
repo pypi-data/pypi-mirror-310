@@ -1,0 +1,2 @@
+[console_scripts]
+getffff = getffff.__main__:main
