@@ -1,0 +1,9 @@
+dash
+plotly
+pandas
+requests
+waitress
+dash_bootstrap_components
+scikit-learn
+dash-leaflet
+dash-extensions
