@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+sankhyaakaara/__init__.py
+sankhyaakaara/components.py
+sankhyaakaara/converter.py
+sankhyaakaara/languages.py
+sankhyaakaara/numerals.py
+sankhyaakaara/sandhi.py
+sankhyaakaara.egg-info/PKG-INFO
+sankhyaakaara.egg-info/SOURCES.txt
+sankhyaakaara.egg-info/dependency_links.txt
+sankhyaakaara.egg-info/requires.txt
+sankhyaakaara.egg-info/top_level.txt
+sankhyaakaara/data/large.csv
+sankhyaakaara/data/sandhi.csv
+sankhyaakaara/data/two_digit.csv
