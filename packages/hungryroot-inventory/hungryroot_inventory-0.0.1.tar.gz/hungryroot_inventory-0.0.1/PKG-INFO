@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hungryroot-inventory
+Version: 0.0.1
+Summary: Hungryroot placeholder package
+Author-email: Hungryroot DevOps <devops@hungryroot.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

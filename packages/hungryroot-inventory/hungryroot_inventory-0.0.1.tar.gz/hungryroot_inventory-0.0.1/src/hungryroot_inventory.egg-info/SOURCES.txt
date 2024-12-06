@@ -1,0 +1,6 @@
+pyproject.toml
+src/init.py
+src/hungryroot_inventory.egg-info/PKG-INFO
+src/hungryroot_inventory.egg-info/SOURCES.txt
+src/hungryroot_inventory.egg-info/dependency_links.txt
+src/hungryroot_inventory.egg-info/top_level.txt
