@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='waitme/waitMe.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{url_for('.static', filename='waitme/waitMe.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('.static', filename='jquery-ui.css')}}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+
+<script src="{{ url_for('static', filename='waitme/waitMeFunc.js') }}"></script>
+
+    <title>DPDC:: Meter Reading Testing</title>
+</head>
+<body id ='body'>
+<div id='container'>
+    <h2>Automated Meter Reading using Deep Learning</h2>
+    <form id="upload-file" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="files" id="files" onchange="readURL(this)">
+        <br>
+        <hr>
+        <label style="color:red;font-weight:bold">Classfied as: </label><label id="cls"></label>
+        <br>
+        <label style="color:red;font-weight:bold">Reading: </label><label id="reading"></label>
+    <hr>
+    </form>
+
+        <img id="img1" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="480" height="320"/>
+        <img id="img2" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="480" height="320"/><br><br>
+    <hr>
+    <input id="upload-file-btn" type="button" value="Read Meter"/>
+    <input id="copybtn" type="button" value="Save"/> <label id="lblstatus" style="color:red"></label>
+</div>
+
+
+
+</body>
+</html>
+
+<script>
+  document.getElementById('copybtn').addEventListener('click', async () => {
+            const fileInput = document.getElementById('files');
+            const files = fileInput.files;
+            var sts=document.getElementById('lblstatus');
+            sts.innerText='';
+
+            if (files.length > 0) {
+                const originalFile = files[0];
+                const copiedFile = new File([originalFile], originalFile.name, {
+                    type: originalFile.type,
+                    lastModified: originalFile.lastModified
+                });
+
+                try {
+                    const handle = await window.showSaveFilePicker({
+                        suggestedName: copiedFile.name,
+                        types: [{
+                            description: copiedFile.type,
+                            accept: { [copiedFile.type]: ['.jpg'] }
+                        }]
+                    });
+
+                    const writableStream = await handle.createWritable();
+                    await writableStream.write(copiedFile);
+                    await writableStream.close();
+
+                    console.log('File copied successfully!');
+
+                    sts.innerText='File saved successfully!';
+                } catch (error) {
+                    console.error('Error copying file:', error);
+                    alert('Error copying file.');
+                }
+            } else {
+                alert('No file selected.');
+            }
+        });
+    </script>
+
+
+    <script>
+        var file='';
+       function readURL(input) {
+          if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+              // Set the 'src' attribute of the image element to the selected image
+              document.getElementById('img1').setAttribute('src',e.target.result);
+              file=e.target.result;
+            };
+            reader.readAsDataURL(input.files[0]);
+          }
+        }
+
+
+    </script>
+
+    <script>
+    
+	
+		$(function(){
+
+			var current_effect = 'ios';
+
+			$('#upload-file-btn').click(function(){
+				run_waitMe(current_effect);
+			});
+		
+			
+			function run_waitMe(effect){
+				$('#body').waitMe({
+					effect: effect,
+					text: 'Extracting Meter Reading using DPDC ShockWave...',
+					bg: 'rgba(255,255,255,0.7)',
+					color:'#990033'
+				});
+			}
+			
+		});
+
+	
+        $('#upload-file-btn').click(function() {
+			
+		
+            var form_data = new FormData($('#upload-file')[0]);
+            form_data.append('imgflg','');
+            $.ajax({
+                type: 'POST',
+                url: '/upload',  // Your Flask endpoint
+                data: form_data,
+                contentType: false,
+                cache: false,
+                processData: false,
+                success: function(data) {
+
+                    document.getElementById('img2').src = 'data:image/png;base64,'+data.message[0].img;
+                    document.getElementById('cls').innerText=data.message[0].cls;
+                    document.getElementById('reading').innerText=data.message[0].reading;
+
+             //       console.log(data.message[0].reading);
+					$('#body').waitMe('hide');
+                },
+				error:function(data){
+					var x=JSON.parse( data.responseText)
+					alert(JSON.stringify(x));
+					$('#body').waitMe('hide');
+				}
+            });
+			$('#body').waitMe('hide');
+        });
+    
+</script>
+
+
+
+<style>
+    /* Style the image display boxes */
+    #image-box1, #image-box2 {
+        border: 1px solid #ccc;
+        padding: 10px;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+</style>
