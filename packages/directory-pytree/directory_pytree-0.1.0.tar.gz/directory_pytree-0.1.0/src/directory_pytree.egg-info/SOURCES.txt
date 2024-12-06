@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/directory_pytree.egg-info/PKG-INFO
+src/directory_pytree.egg-info/SOURCES.txt
+src/directory_pytree.egg-info/dependency_links.txt
+src/directory_pytree.egg-info/entry_points.txt
+src/directory_pytree.egg-info/top_level.txt
+src/pytree/__init__.py
+src/pytree/main.py
