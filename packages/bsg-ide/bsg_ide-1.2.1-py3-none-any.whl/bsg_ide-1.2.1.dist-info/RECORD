@@ -1,0 +1,10 @@
+bsg_ide/BSG_IDE.py,sha256=jwj8ARFzK_l1K7vhD5M3fW7bTda0RBU4D7PAMHY5on0,264067
+bsg_ide/BeamerSlideGenerator.py,sha256=FNVpJd5p1tkaK6wk-sQz5XlMzMOwxegvz9RWGEoazTU,75039
+bsg_ide/__init__.py,sha256=ZFY46i8r5rsn4xLvMuoXV_UynrIuK3CD6JYqkNFi860,725
+bsg_ide/requirements.txt,sha256=64GiAa58Z0pr19JtH5eVIzmfJMf-1rQVEVFfW7MoIpY,643
+bsg_ide-1.2.1.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+bsg_ide-1.2.1.dist-info/METADATA,sha256=oPqYjqnJQ4Mvfd-8CxR5b84y-XVmM_QpjBrss2XPwt8,1740
+bsg_ide-1.2.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bsg_ide-1.2.1.dist-info/entry_points.txt,sha256=NEJOfdbdI-2B8i-s_K4bjqWZkU5ON6EzzRJUmCouOo0,49
+bsg_ide-1.2.1.dist-info/top_level.txt,sha256=2vBAg11sh1HE4T69-TYdOiQ-ePvrOhhXIUU5m8qPR40,8
+bsg_ide-1.2.1.dist-info/RECORD,,
