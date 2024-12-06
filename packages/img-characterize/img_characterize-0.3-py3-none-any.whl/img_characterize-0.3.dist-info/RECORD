@@ -1,0 +1,11 @@
+characterize/__init__.py,sha256=GregZW5FXjxIwW5dK-vpsjowFxjUfv9sYpNTQxde8jg,5214
+characterize/cli.py,sha256=loi6z4UO1tCV_jBpCkyxJHcPItzSCgpJQ44U2n2fcOU,9490
+characterize/core.py,sha256=LwJhiFboVbmhu1xH_0b1pBaouHjadhqXF6PYFfON0Sg,7132
+characterize/ranking.py,sha256=pHcY-vhjwSSZD4SEatpyMHQLMhWWvqhhf5JfvoIZR7o,7837
+characterize/utils.py,sha256=CvhXOEWMyJ-17rTwW7XnT_BuxRv63zwUOYysn8nm4ZY,9743
+img_characterize-0.3.dist-info/LICENSE,sha256=Ufr3T81UqaTn3w6SexGNQBPQz3Ad92ocMMyqrQ7NS64,1073
+img_characterize-0.3.dist-info/METADATA,sha256=_j2LbYldUiYp-iJ8EPkxeak5r31kIT-SR1r9a4bXTtQ,5467
+img_characterize-0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+img_characterize-0.3.dist-info/entry_points.txt,sha256=cvvVqMZq7mYbS2UZyBpqM3tAVOMxMzrakR5eLQiUvCc,55
+img_characterize-0.3.dist-info/top_level.txt,sha256=9zf4MjBgEoSWKD_QkGlpriwjcTIQgctRzs5MAaQ059k,13
+img_characterize-0.3.dist-info/RECORD,,
