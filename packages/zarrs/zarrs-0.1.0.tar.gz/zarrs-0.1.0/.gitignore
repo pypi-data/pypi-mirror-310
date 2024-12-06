@@ -1,0 +1,22 @@
+# IDEs
+/.idea/
+/.vscode/
+
+# Caches
+.DS_Store
+__pycache__/
+/.*cache/
+/.hypothesis/
+
+# Build
+*.so
+/target/
+/dist/
+/docs/_build/
+
+# Coverage
+/.coverage
+/coverage.xml
+
+# Docs
+docs/generated/
