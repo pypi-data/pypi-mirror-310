@@ -1,0 +1,13 @@
+UniBotPluginsCaffold/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UniBotPluginsCaffold/command.py,sha256=U3cIuTX9hxd6VMBtycINoFYRVMJzOYVRHJwHzMzwroA,1250
+UniBotPluginsCaffold/create.py,sha256=TvjyRXUu-T7778YVUmW6wVcjemPPu7SVCGq_S3Hp-7M,1944
+UniBotPluginsCaffold/main.py,sha256=gqqN9LvtZgricb-GYLZQl8JNrvC25czQ-ryajfTtuog,74
+UniBotPluginsCaffold/types.py,sha256=FVs5oXK_4DxgDaZRgCp8uwoCsEbDN9jjvUh25s9LxLs,866
+UniBotPluginsCaffold/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UniBotPluginsCaffold/templates/main.py,sha256=oP52Afesp9b1hoAz90lc706LowPZcw8aXTWk32DnCgQ,1400
+UniBotPluginsCaffold/templates/manifestJson.py,sha256=0zQOPlphTLMt0Efq9JTCv5xRKCOlx8VuYbii-qdsk0w,652
+UniBot_plugins_scaffold-0.0.2.dist-info/METADATA,sha256=HSaksZFEmGT7BUQLTrdMWdNg6qf58eoTD4S0DDhX6ow,1405
+UniBot_plugins_scaffold-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+UniBot_plugins_scaffold-0.0.2.dist-info/entry_points.txt,sha256=mM9MVJm9f_KNALMG42X2XjLGin_qs1yHSQscEjIwocU,66
+UniBot_plugins_scaffold-0.0.2.dist-info/top_level.txt,sha256=4p51Ao5DR40_BLwg24JXHdjznh9jL-CeG5TbX6YOJFg,21
+UniBot_plugins_scaffold-0.0.2.dist-info/RECORD,,
