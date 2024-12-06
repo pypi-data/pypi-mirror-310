@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+package_scgps_speak/__init__.py
+package_scgps_speak/__version__.py
+package_scgps_speak/core.py
+package_scgps_speak.egg-info/PKG-INFO
+package_scgps_speak.egg-info/SOURCES.txt
+package_scgps_speak.egg-info/dependency_links.txt
+package_scgps_speak.egg-info/top_level.txt
