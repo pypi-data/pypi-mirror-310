@@ -1,0 +1,7 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dymoapi.py,sha256=_7dFoJ6WUmW2LeXkNU06cVjyc_svLivqR6C0hCf8tm4,3110
+dymoapi-0.0.16.dist-info/LICENSE,sha256=kxRYgP8wxEdbGS8u3Mv5NOyjbIPEkxlJdxywO95DsVU,11535
+dymoapi-0.0.16.dist-info/METADATA,sha256=w77kA6hHgl_DCfmtMsVT_BfWBD4-uFLj-9S-m5PfxF8,705
+dymoapi-0.0.16.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+dymoapi-0.0.16.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+dymoapi-0.0.16.dist-info/RECORD,,
