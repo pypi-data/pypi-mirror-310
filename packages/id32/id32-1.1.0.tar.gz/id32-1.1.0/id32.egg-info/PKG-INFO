@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: id32
+Version: 1.1.0
+Summary: 32-character RFC 4648 lowercase Base32 IDs
+Home-page: https://github.com/kahnpoint/id32
+Author: kahnpoint
+Author-email: 96557890+kahnpoint@users.noreply.github.com
+Keywords: id,id32,uuid,nanoid,base32
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ID32
+*No more ugly IDs!*
+
+ID32s look like: `m6ov3liumm6trqulojtj6yselragllbg`
+
+- 32 lowercase characters of [RFC 4648](https://datatracker.ietf.org/doc/html/rfc4648) Base32 (a-z2-7)
+	- represents 20 bytes ([160 bits](https://neilmadden.blog/2018/08/30/moving-away-from-uuids/)) of randomness 
+- Easily double-clickable (no hyphens or underscores)
+	- NanoID: `0klp0QFYiS_dOUzhF-y_g`
+	- UUID:   `10dd71ca-6030-407b-89a4-55c4e11006cd`
+	- ID32:   `trhfnnxkrotlcc3gluyl4mqr6aomt4e7`
+	
+*The code is essentially the same as [Nanoid](https://github.com/ai/nanoid), and is available on [NPM](https://www.npmjs.com/package/id32), [[PyPi](https://pypi.org/project/id32/)] and [Cargo](https://crates.io/crates/id32).*
+## Installation
+`pip install id32`
+
+## Usage
+```python
+from id32 import id32
+
+id32() # h3uu3spo3skwzidi62gk6vzfr4ifxsf3
+```

@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+id32.egg-info/PKG-INFO
+id32.egg-info/SOURCES.txt
+id32.egg-info/dependency_links.txt
+id32.egg-info/top_level.txt
+tests/test_id32.py
