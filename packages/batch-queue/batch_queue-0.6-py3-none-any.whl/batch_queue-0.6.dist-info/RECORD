@@ -1,0 +1,9 @@
+batch_queue-0.6.data/scripts/queue,sha256=Zz_lTJJtDhW3q0yl406VjmrFtCf0cGf4QbafvAbU3pM,4147
+queue_server/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+queue_server/queue.tac,sha256=AGPGtoBcHEUfuKwCVg_PoJPx7MY57U8AOQgBNWnTZzQ,302
+queue_server/server.py,sha256=lhfu9Ap4Gqeow6MVJZK9AjZUhZlyLlLY9k8pmOrKfiw,6790
+queue_server/task.py,sha256=RV4aY6uHNGjuAnpPvXVXK31l397ycVFAzd8QWxvf15A,460
+batch_queue-0.6.dist-info/METADATA,sha256=Ju055iOPDNGMp7FrjH0iE8P2nNT0Tr6EYGCJkcXcmfA,216
+batch_queue-0.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+batch_queue-0.6.dist-info/top_level.txt,sha256=IKrqHat1BgH-UniOYSJXy0Q-PKrVpazC06qwsC10Y94,13
+batch_queue-0.6.dist-info/RECORD,,
