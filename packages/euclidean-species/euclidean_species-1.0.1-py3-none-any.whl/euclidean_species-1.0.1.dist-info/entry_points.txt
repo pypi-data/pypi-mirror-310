@@ -1,0 +1,2 @@
+[console_scripts]
+euclidean_species = euclidean_species:hello
