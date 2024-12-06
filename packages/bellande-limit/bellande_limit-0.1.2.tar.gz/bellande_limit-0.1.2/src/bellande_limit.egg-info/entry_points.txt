@@ -1,0 +1,3 @@
+[console_scripts]
+bellande_limit_api = bellande_limit.bellande_limit_api:main
+bellande_limit_executable = bellande_limit.bellande_limit_executable:main
