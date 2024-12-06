@@ -1,0 +1,14 @@
+Adlib/IntegracaoVirtaus.py,sha256=d2fI7AihrHpgM2qfXB1EIw8LdsmYg3GGIs_G0IcrcBE,6412
+Adlib/__init__.py,sha256=e03iNFXzwGz4EL05_RbYp2rBcbAUqu7JCoLTJxu6QEY,75
+Adlib/api.py,sha256=IMDVt1-jjtA0JLJOEYbg52-neXyO5cOaaFnow9zh_v4,3082
+Adlib/criacao.py,sha256=uRJ2s0joEra4hS5HIZVzuvJnzpsfLzdynRXT_LubZtM,10984
+Adlib/exceptions.py,sha256=f4yTgIgjPqmSqEYzm4ox-ClIC1_8BsrkdRe38EG8kUI,333
+Adlib/fluxguard.py,sha256=ygpYtLyrl6WOVzIFQDIYzP3YdngCfTKOK4gG528BBh0,3011
+Adlib/funcoes.py,sha256=Ev3tr0cn3YsEgxdwnsIfQa4HIfP1bkiBOCyt9sUl_8E,11735
+Adlib/integracao.py,sha256=gkHECvLT20VDiy3a1AlTggPJdiTX29MPsw3B6vFHV9g,7350
+Adlib/teste.py,sha256=ibVRyjDqqqxmSZPtt1Qp4DTunxXflDi3SaHSeMBgFgk,42
+LIB_ADTECH-3.2.1.dist-info/LICENSE,sha256=slBP2nRxZCnaXwI2_MHaeUxfMCSLUKtPKvRLdtZZW0s,1108
+LIB_ADTECH-3.2.1.dist-info/METADATA,sha256=LH2r64R0m1nIMF8RK4L3Fc0HhlcP3NgV4g9djJEZvNg,1130
+LIB_ADTECH-3.2.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+LIB_ADTECH-3.2.1.dist-info/top_level.txt,sha256=JEVw8ysST5PdlC5xak9rjQ4MqDwwF3y41MApgzmCLmw,6
+LIB_ADTECH-3.2.1.dist-info/RECORD,,
