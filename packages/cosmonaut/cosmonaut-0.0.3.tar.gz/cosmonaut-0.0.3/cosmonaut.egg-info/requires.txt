@@ -1,0 +1,13 @@
+httpx
+pandas
+pydantic
+python-dotenv
+pyyaml
+questionary
+typer
+loguru
+google-generativeai
+
+[dev]
+pytest
+pyspark
