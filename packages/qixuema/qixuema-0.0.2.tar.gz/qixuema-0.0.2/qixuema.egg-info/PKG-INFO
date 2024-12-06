@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: qixuema
+Version: 0.0.2
+Summary: qixuema-utils - Pytorch
+Home-page: https://https://github.com/qixuema/m-utils
+Author: Xueqi Ma
+Author-email: qixuemaa@gmail.com
+License: MIT
+Keywords: artificial intelligence,utils
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: einx>=0.3.0
+Requires-Dist: einops>=0.8.0
+Requires-Dist: packaging>=21.0
