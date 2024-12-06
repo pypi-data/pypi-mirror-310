@@ -1,0 +1,9 @@
+joke_gen/__init__.py,sha256=K-g1uRoRUODL9t6prtvGdZ6OBybYUufjNDDgHBZQuiA,34
+joke_gen/jokes.py,sha256=pu3j9ozzLsaVOa1TqOALzCqjLNOW7xT9V-BH6j_j1_Q,6687
+joke_gen/translator.py,sha256=tfI5z1dFmGnVoWg3WRpQ8J8w9E00Tk2MhAsHm4hFxmg,522
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_jokes.py,sha256=-SlyNCLkGx7TckMn2hr08IRkCiES4GciLjm7GUh_PF8,488
+joke_gen-0.1.3.dist-info/METADATA,sha256=RNppXHHqp78hL8EpVVy9EImBIArO_IF_46hDknxr78Y,1416
+joke_gen-0.1.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+joke_gen-0.1.3.dist-info/top_level.txt,sha256=jvCdxM0u_UAvPdge8zVSZ3-yu4zfsi9wruZAbpt77nQ,15
+joke_gen-0.1.3.dist-info/RECORD,,
