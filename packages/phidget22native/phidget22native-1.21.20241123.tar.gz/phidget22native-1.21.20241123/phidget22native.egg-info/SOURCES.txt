@@ -1,0 +1,6 @@
+setup.py
+phidget22native.egg-info/PKG-INFO
+phidget22native.egg-info/SOURCES.txt
+phidget22native.egg-info/dependency_links.txt
+phidget22native.egg-info/requires.txt
+phidget22native.egg-info/top_level.txt
