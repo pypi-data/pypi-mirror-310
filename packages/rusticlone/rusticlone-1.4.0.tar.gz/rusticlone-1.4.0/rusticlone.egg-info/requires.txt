@@ -1,0 +1,13 @@
+importlib_metadata
+ConfigArgParse
+
+[dev]
+mypy
+ruff
+git-cliff
+coverage
+genbadge[coverage]
+tableofcontents
+
+[full]
+apprise
