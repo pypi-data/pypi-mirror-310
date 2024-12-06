@@ -1,0 +1,17 @@
+tiny_dashboard/__init__.py,sha256=et3jZghiYPFT8CCUYAAIgUi7E_hHs14Nd3sm5T_9PPM,293
+tiny_dashboard/dashboard_implementations.py,sha256=P5FqCMzJSDJMfYG5-g6wtvedLvgMx28PZiXEONmCL5w,2338
+tiny_dashboard/feature_centric_dashboards.py,sha256=UFSLrKid2I933c9BlpECiD-_ayVbflpxhSKVCEKt5nY,22345
+tiny_dashboard/html_utils.py,sha256=A6WheGM8GOJj-mRtzY8r5PxsEXn0Zw3W0zpE1gWG4wo,2938
+tiny_dashboard/utils.py,sha256=84ZYc7K0L88AMP5qAREooFJZDtDyGM6cnn7ABK3r3Mg,2595
+tiny_dashboard/templates/base.html,sha256=oZMgg_yQTstvq5m63Oal3w6BjUcZjNJJV15hBIzFim4,256
+tiny_dashboard/templates/click_to_expand.html,sha256=7_e29jzT2P-1OmFKiarixDogZ79nAqRqzG0du-dvW7k,80
+tiny_dashboard/templates/end_of_collapsed.html,sha256=zWZNvfKkkabWh4sSaEtGdKXbm0JuWVRvfWd_V1baGDs,55
+tiny_dashboard/templates/example_container.html,sha256=EjrPuqfx15gjycC2sUPol-8hutUSdFFDGoJQi5HNl_c,465
+tiny_dashboard/templates/feature_section.html,sha256=CE43gzsEqtNBEORyZZXGgKSlBySZH2wtDfIbbL5e6-E,357
+tiny_dashboard/templates/listeners.js,sha256=aagyECfuQqrah-Am-wplnUS0c3VBdxeZ4bjEYWpaueM,3235
+tiny_dashboard/templates/styles.css,sha256=6X31-FQs8_S9BgD1FBwVhriWn_W0fhjCtDl2XK_xI38,708
+tiny_dashboard/templates/token.html,sha256=baDehDtqWQROUKdEp_P_n3NJy_BjhrHbeSV9vETJFW4,108
+tiny_dashboard-0.1.dist-info/METADATA,sha256=8SXOZUjLHlnaf93bl908wuQXssllfaKjt7I8GSwEU7M,7215
+tiny_dashboard-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tiny_dashboard-0.1.dist-info/top_level.txt,sha256=a2diWFYqWV_cM6G_N4tBS2ZuSmabsO6bxhHlFkh1oe4,15
+tiny_dashboard-0.1.dist-info/RECORD,,
