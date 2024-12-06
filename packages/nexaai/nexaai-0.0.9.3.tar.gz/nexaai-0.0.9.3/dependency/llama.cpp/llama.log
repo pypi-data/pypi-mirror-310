@@ -1,0 +1,4 @@
+[1732269496] [/home/azureuser/zack/nexa-sdk/dependency/llama.cpp/examples/omni-vlm/omni-vlm.cpp:  262][  encode_image_with_clip] encode_image_with_clip: image embedding created: 729 tokens
+[1732269496] [/home/azureuser/zack/nexa-sdk/dependency/llama.cpp/examples/omni-vlm/omni-vlm.cpp:  267][  encode_image_with_clip] 
+encode_image_with_clip: image encoded in  4744.23 ms by CLIP (    6.51 ms per image patch)
+[1732269501] [/home/azureuser/zack/nexa-sdk/dependency/llama.cpp/examples/omni-vlm/omni-vlm-cli.cpp:  170][          process_prompt] 
