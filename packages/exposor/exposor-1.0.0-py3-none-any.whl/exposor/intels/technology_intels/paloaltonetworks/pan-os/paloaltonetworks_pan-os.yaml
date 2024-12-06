@@ -1,0 +1,14 @@
+info:
+  author: exposor
+  cpe: cpe:2.3:o:paloaltonetworks:pan-os:*:*:*:*:*:*:*:*
+  description: Detection of paloaltonetworks pan-os
+  version: '1.0'
+queries:
+  censys:
+  - services.http.response.favicons.shodan_hash:"-631559155"
+  fofa:
+  - icon_hash="-631559155"
+  shodan:
+  - http.favicon.hash:"-631559155"
+  zoomeye:
+  - iconhash:"-631559155"
