@@ -1,0 +1,12 @@
+cs.context>=20240630
+cs.deco>=20241109
+cs.fileutils>=20241122
+cs.fs>=20241122
+cs.hashindex>=20241007
+cs.lex>=20241122
+cs.pfx>=20240630
+cs.queues>=20240412
+cs.resources>=20241005
+cs.result>=20241119
+cs.seq>=20221118
+icontract
