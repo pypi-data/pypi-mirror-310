@@ -1,0 +1,5 @@
+include RealCrypto/*.pyx
+include RealCrypto/*.pxd
+include RealCrypto/*.pyi
+exclude tests/*
+# global-exclude *impl.[ch]pp
