@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pyglottography
+Version: 0.1.0
+Summary: Programmatic curation of Glottography datasets
+Home-page: https://github.com/glottography/pyglottography
+Author: Robert Forkel
+Author-email: robert_forkel@eva.mpg.de
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/glottography/pyglottography/issues
+Keywords: linguistics
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: csvw
+Requires-Dist: cldfbench
+Requires-Dist: cldfgeojson
+Requires-Dist: pyglottolog
+Requires-Dist: clldutils
+Requires-Dist: pycldf>=1.30.0
+Requires-Dist: shapely
+Provides-Extra: dev
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=5; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: coverage>=4.2; extra == "test"
+
+# pyglottography
+Programmatic curation of Glottography datasets
