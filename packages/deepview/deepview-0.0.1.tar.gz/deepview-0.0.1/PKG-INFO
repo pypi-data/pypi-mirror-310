@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: deepview
+Version: 0.0.1
+Summary: A deep learning visualization toolkit
+Project-URL: Homepage, https://github.com/satishlokkoju/deepview
+Project-URL: Issues, https://github.com/satishlokkoju/deepview/issues
+Author-email: Satish Lokkoju <satish.lokkoju@example.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: pillow>=9.0.0
+Requires-Dist: torch>=2.0.0
+Description-Content-Type: text/markdown
+
+# DeepView
+
+A deep learning visualization toolkit that helps you understand and debug your neural networks.
+
+## Installation
+
+You can install DeepView using pip:
+
+```bash
+pip install deepview
+```
+
+## Features
+
+- Model visualization
+- Activation maps
+- Feature visualization
+- Training progress tracking
+
+## Usage
+
+```python
+from deepview import ModelVisualizer
+
+# Create a visualizer
+visualizer = ModelVisualizer(model)
+
+# Visualize model architecture
+visualizer.plot_architecture()
+
+# Visualize activation maps
+visualizer.plot_activations(input_data)
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
