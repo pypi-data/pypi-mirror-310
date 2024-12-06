@@ -1,0 +1,12 @@
+chrome_profile_manager/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+chrome_profile_manager/__main__.py,sha256=pWwWyHqVglGxGeGhGqzQzJ6kJq9We8BsSZsIP0sstP8,512
+chrome_profile_manager/main.py,sha256=rL1qRRTPFQPkCjmRXskOjO2tGYlzkERKq9WAWdkv_So,14785
+chrome_profile_manager/helpers/__init__.py,sha256=eQsSRy-a7RAWtDYThETN3IeMFPxhY8KKB7NQgf41ZuM,176
+chrome_profile_manager/helpers/alias_creator.py,sha256=qLTVNqawydwxMKPBDyAWbrTDV2Mgo1VdcqkPyU5qw_o,2607
+chrome_profile_manager/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chrome_profile_manager/utils/chrome_scanner.py,sha256=5vrR7G_Tz5xmR0q97KjOmNJTDWLve8DtgcOjgmUSuLQ,4600
+chrome_profile_manager-0.1.0.dist-info/METADATA,sha256=CImxL8J7OLMB_e9v5KXvq4dRTlDuk-gN8T7TnakKmRk,2448
+chrome_profile_manager-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+chrome_profile_manager-0.1.0.dist-info/entry_points.txt,sha256=8rWYQl2PP3V0fwckYwnr1Rk3HGNfloyAMqlUd-4LH2w,132
+chrome_profile_manager-0.1.0.dist-info/top_level.txt,sha256=wPJ20F3GKrNT9XlAyu_QUIdiU_QTPFUsno3qYv5M5QY,23
+chrome_profile_manager-0.1.0.dist-info/RECORD,,
