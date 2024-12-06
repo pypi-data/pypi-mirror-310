@@ -1,0 +1,12 @@
+aitta_client/__init__.py,sha256=9oKeCSbATbveR23LUSwtlhpSlj6QsBat-xVwD-iAhh4,198
+aitta_client/authentication.py,sha256=2bNal4_Ss4rQOlZyznw2sq8XMlZaZbA0wGlpnd101ss,3981
+aitta_client/client.py,sha256=51F7LPNqYxKCVTOgNJLkGuDVM2-IzFbv5zfzB4fIy48,5983
+aitta_client/wrappers.py,sha256=SGHL7ArstvIR5h0zHyRfIFLfw49HJzrOaJER8iZ5PCc,9434
+aitta_client/api/__init__.py,sha256=VBN_3Vsg0WWuJJGoip2KG5pz9AuMx6o1J15SPb7WSsk,95
+aitta_client/api/data_structures.py,sha256=91g3bmvhOBON11Zns92_ue_tEI8SrAAo3jHieWx8vPY,5703
+aitta_client/api/errors.py,sha256=_CGy-azTcIvXxrPWfXwv1RvZNHkwq9JhS4jRgteL_rE,2008
+aitta_client/api/wrappers.py,sha256=in6nQmaFGwl0u2e3q6FTN-i0PNoNealgTxlubeqsAHk,2065
+aitta_client-0.2.0.dist-info/METADATA,sha256=3_4a9EUID46S4zuqMEi2bmoJs3DU0otQx7g8lEzhTDg,5253
+aitta_client-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aitta_client-0.2.0.dist-info/top_level.txt,sha256=5nkauRK7RJ2_uUMAWZoU5LG6wRy2wQN6IwTuBm0zVdw,13
+aitta_client-0.2.0.dist-info/RECORD,,
