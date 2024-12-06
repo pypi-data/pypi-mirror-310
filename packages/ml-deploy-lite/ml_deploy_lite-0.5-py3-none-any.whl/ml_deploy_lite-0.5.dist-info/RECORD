@@ -1,0 +1,14 @@
+ml-deploy-lite/__init__.py,sha256=kxOyjuF9JH1Zc5s4yhtlZ8Px7miSz9FnecNbkw_D25o,31
+ml-deploy-lite/api.py,sha256=qYYFOKcYmtP_7A0mgI5VmiL3GgcVQL60KrZXJtLn0JE,1150
+ml-deploy-lite/docker.py,sha256=sLVkru3_C82M8NEOcstplHzGEufnnuqMsy83DoXtVac,424
+ml-deploy-lite/k8s.py,sha256=Q_pHBG7PDV9HIsfbVyGV6OcRssvshuYMthM31RMxatM,826
+ml-deploy-lite/monitoring.py,sha256=VyUCSJ3Gksfplq7pacLY4RlJXWVhKS4694ouyXaPT94,177
+ml_deploy_lite/__init__.py,sha256=kxOyjuF9JH1Zc5s4yhtlZ8Px7miSz9FnecNbkw_D25o,31
+ml_deploy_lite/api.py,sha256=qYYFOKcYmtP_7A0mgI5VmiL3GgcVQL60KrZXJtLn0JE,1150
+ml_deploy_lite/docker.py,sha256=sLVkru3_C82M8NEOcstplHzGEufnnuqMsy83DoXtVac,424
+ml_deploy_lite/k8s.py,sha256=Q_pHBG7PDV9HIsfbVyGV6OcRssvshuYMthM31RMxatM,826
+ml_deploy_lite/monitoring.py,sha256=VyUCSJ3Gksfplq7pacLY4RlJXWVhKS4694ouyXaPT94,177
+ml_deploy_lite-0.5.dist-info/METADATA,sha256=864RS5TI3SDkm0NY300RGmIBiVUSklPHd0DTvMr5iLI,4341
+ml_deploy_lite-0.5.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+ml_deploy_lite-0.5.dist-info/top_level.txt,sha256=GBcfdZx3LpLVm7YrEwIVpbAJgdXf9EcXR0ICoguMsp0,15
+ml_deploy_lite-0.5.dist-info/RECORD,,
