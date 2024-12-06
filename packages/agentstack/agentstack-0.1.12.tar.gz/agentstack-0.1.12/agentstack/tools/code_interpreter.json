@@ -1,0 +1,6 @@
+{
+  "name": "code_interpreter",
+  "packages": [],
+  "env": "",
+  "tools": ["code_interpreter"]
+}
