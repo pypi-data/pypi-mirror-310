@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+perspective_bi/__init__.py
+perspective_bi/charts.py
+perspective_bi/dataset.py
+perspective_bi.egg-info/PKG-INFO
+perspective_bi.egg-info/SOURCES.txt
+perspective_bi.egg-info/dependency_links.txt
+perspective_bi.egg-info/requires.txt
+perspective_bi.egg-info/top_level.txt
