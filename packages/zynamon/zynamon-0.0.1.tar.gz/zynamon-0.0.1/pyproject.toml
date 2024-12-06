@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"] 
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["zynamon"]
+
+[project]
+name = "zynamon"
+version = "0.0.1"
+description = "Powerful & generic time-series class and related functions"
+readme = "README.md"
+authors = [ { name="Dr. Marcus Zeller", email="dsp4444@gmail.com" } ]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+]
+requires-python = ">=3.11"
+dependencies = [ # as identified by 'dependencies("T:/Python/CBM/zynamon")' @ 24-11-24
+    "h5py",
+    "numpy", 
+    "pandas",
+    "plotly",
+    "scipy"
+]
+
+keywords = ["development", "utilities", "helpers"]
+
+[project.urls]
+Homepage = "https://github.com/zynt3c/zdev"
+Package = "https://pypi.org/project/zynamon/0.0.1/"
+
+#[project.scripts]
+#zynamon-demo= "zynamon:_todo_"
