@@ -1,0 +1,14 @@
+WORMutils/Error_Handler.py,sha256=xZnvzBCf06a9r7f5SdnZF-E7LWkBIfdK4Or-bViEQqw,2004
+WORMutils/__init__.py,sha256=0NavMNyiEE8s-3ZbxMgb9WTGGwmIq1W3QZJ8s6WlJk4,299
+WORMutils/check_balance.py,sha256=ZciCJLGdciVhQPFhsWHgvq1dvKMwYcW7TtUKv3Qgr3A,2081
+WORMutils/chemlabel.py,sha256=oTlAce2z1NjQr9rVghuh3GLphTZ0CpmUNs-so4_-A9o,2162
+WORMutils/find_HKF.py,sha256=YBM00SZ0SWpspIv8fndlH5xXw2-VREPkJkREBRl5P40,15845
+WORMutils/format_coeff.py,sha256=QOsonSilxdGUyPlW9TdjSOQJHACUYDlPNCHrKFHU67w,2195
+WORMutils/format_equation.py,sha256=oabn29Y8P9H6Zkbj7xV08ciHZX6zFan7V6mn2UzUzrY,1358
+WORMutils/get_colors.py,sha256=_EKAGX1D_qtuQD4CcQqDngGpTlJ158QMA4KwNdtbH3c,3870
+WORMutils/isnotebook.py,sha256=u01t6HZMokY_tcc_l5Ojs8IIg_5tf_BBD1m86n_6VkQ,500
+WORMutils-0.0.3.dist-info/LICENSE.txt,sha256=yp0DPyIW9YbJFvu4ZqxemG5QD92En-hymT-NKCeVAyE,1053
+WORMutils-0.0.3.dist-info/METADATA,sha256=eFun6Z2K7FhzXCALRhGGdK47Hh9LcCpcMt1IQ8-YQoI,523
+WORMutils-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+WORMutils-0.0.3.dist-info/top_level.txt,sha256=0JJ0hbxdPGhwnSysRkHaIirJe1BPhtcDqSnfu2GkJzI,10
+WORMutils-0.0.3.dist-info/RECORD,,
