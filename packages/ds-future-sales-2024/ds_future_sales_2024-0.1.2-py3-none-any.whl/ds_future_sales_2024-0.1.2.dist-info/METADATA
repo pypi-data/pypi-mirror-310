@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: ds_future_sales_2024
+Version: 0.1.2
+Summary: A package for feature extraction, hyperopt, and validation schemas
+Author: Polina Yatsko
+Author-email: yatsko_polina1@mail.ru
+License: MIT
+Keywords: machine-learning xgboost lightgbm hyperopt data-science
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9,<3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asttokens==2.4.1
+Requires-Dist: black==24.10.0
+Requires-Dist: build==1.2.2.post1
+Requires-Dist: click==8.1.7
+Requires-Dist: cloudpickle==3.1.0
+Requires-Dist: colorama==0.4.6
+Requires-Dist: comm==0.2.2
+Requires-Dist: contourpy==1.3.1
+Requires-Dist: cycler==0.12.1
+Requires-Dist: debugpy==1.8.8
+Requires-Dist: decorator<5.0,>=4.0.2
+Requires-Dist: executing==2.1.0
+Requires-Dist: fonttools==4.55.0
+Requires-Dist: future==1.0.0
+Requires-Dist: hyperopt==0.2.7
+Requires-Dist: ipympl==0.9.4
+Requires-Dist: ipywidgets==8.1.5
+Requires-Dist: jedi==0.19.2
+Requires-Dist: joblib==1.4.2
+Requires-Dist: jupyter-client<8,>=5.3.4
+Requires-Dist: jupyter-core==5.7.2
+Requires-Dist: jupyterlab-widgets==3.0.13
+Requires-Dist: kiwisolver==1.4.7
+Requires-Dist: lightgbm==4.5.0
+Requires-Dist: llvmlite==0.43.0
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: matplotlib-inline==0.1.7
+Requires-Dist: more-itertools==10.5.0
+Requires-Dist: mypy-extensions==1.0.0
+Requires-Dist: nest-asyncio==1.6.0
+Requires-Dist: networkx==3.4.2
+Requires-Dist: numba==0.60.0
+Requires-Dist: numpy<2.0,>=1.20
+Requires-Dist: packaging==24.2
+Requires-Dist: pandas<2.2.3dev0,>=2.0
+Requires-Dist: parso==0.8.4
+Requires-Dist: pathspec==0.12.1
+Requires-Dist: pillow==11.0.0
+Requires-Dist: pip-tools==7.4.1
+Requires-Dist: platformdirs==4.3.6
+Requires-Dist: prompt-toolkit==3.0.48
+Requires-Dist: psutil==6.1.0
+Requires-Dist: pure-eval==0.2.3
+Requires-Dist: py4j==0.10.9.7
+Requires-Dist: Pygments>=2.5.1
+Requires-Dist: pyparsing==3.2.0
+Requires-Dist: pyproject-hooks==1.2.0
+Requires-Dist: PyQt5==5.15.11
+Requires-Dist: PyQt5-Qt5==5.15.2
+Requires-Dist: PyQt5-sip==12.15.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.2
+Requires-Dist: pyzmq<25,>=17
+Requires-Dist: scikit-learn==1.5.2
+Requires-Dist: scipy<1.14.0,>=1.7.0
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: setuptools==75.5.0
+Requires-Dist: shap==0.46.0
+Requires-Dist: six==1.16.0
+Requires-Dist: slicer==0.0.8
+Requires-Dist: stack-data==0.6.3
+Requires-Dist: threadpoolctl==3.5.0
+Requires-Dist: tk==0.1.0
+Requires-Dist: tqdm==4.67.0
+Requires-Dist: traitlets<=5.14,>=4.0
+Requires-Dist: typing==3.7.4.3
+Requires-Dist: tzdata==2024.2
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: wheel==0.45.0
+Requires-Dist: widgetsnbextension==4.0.13
+Requires-Dist: xgboost==2.1.2
+
+# Data Science: Sales Prediction
+
+#### Project Status: Completed
+
+## Overview:
+This project provides a Python package,ds_future_sales_2024, to simplify common tasks in data science workflows. It includes tools for feature extraction, validation schema creation, hyperparameter optimization, and model training.
+
+
+### Methods Used
+* Feature Engineering: Automates the creation and selection of important features, including memory optimization.
+* Validation: Implements schema validation to ensure data consistency, identify missing values, and prevent duplicate records.
+* Hyperparameter Tuning: Leverages tools like hyperopt for efficient parameter search.
+* Visualization: Includes plotting tools for feature importance and error analysis.
+
+### Technologies
+* Python
+* Pandas, jupyter
+
+### Data Sources:
+The tools in this package are designed to work with structured datasets, such as CSV files. For example, it can handle datasets used in machine learning competitions like Kaggle or any tabular data source.
+
+### Challenges:
+* Complexity in Generalization: Making the tools generic enough to work with diverse datasets while maintaining simplicity.
+* Performance Optimization: Balancing ease of use with computational efficiency.
+* Error Handling: Ensuring clear and helpful error messages for data validation and model failures.
+
+### Conclusion:
+This package is a modular and flexible solution for streamlining data science workflows. It provides data scientists and ML engineers with reusable tools to focus on solving domain-specific problems.
+
