@@ -1,0 +1,2 @@
+[console_scripts]
+coaia = coaiamodule:main

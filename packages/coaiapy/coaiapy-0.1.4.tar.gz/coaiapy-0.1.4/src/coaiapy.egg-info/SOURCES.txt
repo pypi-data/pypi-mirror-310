@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/coaiapy.egg-info/PKG-INFO
+src/coaiapy.egg-info/SOURCES.txt
+src/coaiapy.egg-info/dependency_links.txt
+src/coaiapy.egg-info/entry_points.txt
+src/coaiapy.egg-info/requires.txt
+src/coaiapy.egg-info/top_level.txt
