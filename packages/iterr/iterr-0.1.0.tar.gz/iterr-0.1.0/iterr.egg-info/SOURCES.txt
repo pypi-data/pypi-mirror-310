@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+iterr/__init__.py
+iterr.egg-info/PKG-INFO
+iterr.egg-info/SOURCES.txt
+iterr.egg-info/dependency_links.txt
+iterr.egg-info/top_level.txt
+tests/test_iterr.py
