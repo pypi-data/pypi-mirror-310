@@ -1,0 +1,16 @@
+onnxsim_lm/__init__.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+onnxsim_lm/compress_model.py,sha256=j8uT9xnPU6sMljnh0i3pgZeQE1FoxJRh_b5XNParLfc,3366
+onnxsim_lm/main.py,sha256=jaVr7czmrSuvsBB3iytfBx5EtKFCbf8XuWqG3ZI16Eg,511
+onnxsim_lm/onnx_utils.py,sha256=cwdM4RIdD_X7F3lJNQ_ZhCu0PYdosPG-9iQEAuKMRkM,3750
+onnxsim_lm/utils.py,sha256=mhnIuCu8Cvm8N2yHDsl2WAtu80DsQ4rXm5gCMubtz6g,1810
+onnxsimlm/__init__.py,sha256=A1sr0C2bwzExRy6Ex5zABvA57d3CuxZ_6iCJgKSzL7c,71
+onnxsimlm/compress_model.py,sha256=7CJuDV1fjxav1iV_E0iJjq56y8fTWOeDTBbeW-8kmhk,3364
+onnxsimlm/main.py,sha256=cSlB2wdVH4lYYNg1DvoEfkf1LQ6rE6aeuy2Wo5xHm_Y,510
+onnxsimlm/onnx_utils.py,sha256=cwdM4RIdD_X7F3lJNQ_ZhCu0PYdosPG-9iQEAuKMRkM,3750
+onnxsimlm/utils.py,sha256=ksZofRA1QR1PoPo2wmoT--XuvAyMUC9zwIJMa90Kjy0,1808
+onnxsim_lm-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+onnxsim_lm-0.1.1.dist-info/METADATA,sha256=P9uBXNpvJrkXGh0yy52_fY_wD9VlhmpFeJPC1qatZX4,706
+onnxsim_lm-0.1.1.dist-info/WHEEL,sha256=OpXWERl2xLPRHTvd2ZXo_iluPEQd8uSbYkJ53NAER_Y,109
+onnxsim_lm-0.1.1.dist-info/entry_points.txt,sha256=Kv4HtEbPtYhwipT7T5CggDmH9xtfzRslTmQ_0sVxipU,49
+onnxsim_lm-0.1.1.dist-info/top_level.txt,sha256=Xmhq35IqmpIPf8t4L9Rd4V-rm4x1kzjZ6dPUltZB16s,10
+onnxsim_lm-0.1.1.dist-info/RECORD,,
