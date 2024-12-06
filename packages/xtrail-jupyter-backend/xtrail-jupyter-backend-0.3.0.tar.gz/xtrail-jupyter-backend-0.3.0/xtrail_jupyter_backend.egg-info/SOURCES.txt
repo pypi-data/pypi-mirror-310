@@ -1,0 +1,10 @@
+setup.py
+xtrail_backend/__init__.py
+xtrail_backend/app.py
+xtrail_backend/utils.py
+xtrail_jupyter_backend.egg-info/PKG-INFO
+xtrail_jupyter_backend.egg-info/SOURCES.txt
+xtrail_jupyter_backend.egg-info/dependency_links.txt
+xtrail_jupyter_backend.egg-info/entry_points.txt
+xtrail_jupyter_backend.egg-info/requires.txt
+xtrail_jupyter_backend.egg-info/top_level.txt

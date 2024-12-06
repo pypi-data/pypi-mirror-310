@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: xtrail-jupyter-backend
+Version: 0.3.0
+Summary: XTrail Jupyter Backend for secure notebook access.
+Home-page: https://pypi.org/project/xtrail-jupyter-backend/
+Author: Harisha P C
+Author-email: info@xtrail.in
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
