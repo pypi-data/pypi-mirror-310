@@ -1,0 +1,8 @@
+
+[test]
+pytest
+numpy
+torch
+tensorflow>=2.0
+matplotlib>=3.3
+Pillow
