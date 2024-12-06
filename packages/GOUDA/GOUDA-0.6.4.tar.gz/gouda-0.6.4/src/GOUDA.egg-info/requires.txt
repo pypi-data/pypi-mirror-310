@@ -1,0 +1,16 @@
+numpy
+colorama
+matplotlib
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[IMAGE]
+opencv-python
+pillow
+
+[testing]
+pytest
+pytest-cov
+opencv-python
+scipy
