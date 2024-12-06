@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+investats/__init__.py
+investats/__main__.py
+investats/cli.py
+investats.egg-info/PKG-INFO
+investats.egg-info/SOURCES.txt
+investats.egg-info/dependency_links.txt
+investats.egg-info/entry_points.txt
+investats.egg-info/requires.txt
+investats.egg-info/top_level.txt
