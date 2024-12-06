@@ -1,0 +1,11 @@
+README.md
+setup.py
+getmyqr/__init__.py
+getmyqr/cli.py
+getmyqr/generator.py
+getmyqr.egg-info/PKG-INFO
+getmyqr.egg-info/SOURCES.txt
+getmyqr.egg-info/dependency_links.txt
+getmyqr.egg-info/entry_points.txt
+getmyqr.egg-info/requires.txt
+getmyqr.egg-info/top_level.txt
