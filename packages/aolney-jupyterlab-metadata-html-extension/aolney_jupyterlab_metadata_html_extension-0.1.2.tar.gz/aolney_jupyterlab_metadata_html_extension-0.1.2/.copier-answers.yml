@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.6
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: aolney@memphis.edu
+author_name: Andrew M. Olney
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: false
+kind: frontend
+labextension_name: '@aolney/jupyterlab-metadata-html-extension'
+mimetype: ''
+mimetype_name: ''
+project_short_description: A JupyterLab extension that uses cell metadata to define
+    html that is injected into markdown cells.
+python_name: aolney_jupyterlab_metadata_html_extension
+repository: https://github.com/aolney/jupyterlab-metadata-html-extension
+test: false
+viewer_name: ''
+
