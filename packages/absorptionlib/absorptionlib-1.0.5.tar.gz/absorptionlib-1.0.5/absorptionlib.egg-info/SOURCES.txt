@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+absorptionlib.egg-info/PKG-INFO
+absorptionlib.egg-info/SOURCES.txt
+absorptionlib.egg-info/dependency_links.txt
+absorptionlib.egg-info/requires.txt
+absorptionlib.egg-info/top_level.txt
