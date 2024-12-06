@@ -1,0 +1,14 @@
+falco_cli/__about__.py,sha256=uKpNhym7qfsajfIouDSWbNPitT8ArK_sq34M9w3KC9w,132
+falco_cli/__init__.py,sha256=fifnA7np8ufJw6tHVFIN0ALb9hAyMK7fqLdQtmVlAW8,175
+falco_cli/__main__.py,sha256=W3IE-orSX91EvniLC1qvbTnh2D5HNiVrJXfp0Gb9qng,449
+falco_cli/config.py,sha256=K2pLts1WN2R2M0-Z_sIf_HPyTnXNHNaWSIP3OECTvng,1703
+falco_cli/fmt.py,sha256=xYZncOV6cgkefno7n766XB025U-wUITStQZ1yx-BiSg,1051
+falco_cli/start_project.py,sha256=1yMlpTGuBzZ8cABpFjtRYEAUwBlHfItfvcPYoJBnxWA,6940
+falco_cli/sync_dotenv.py,sha256=JrSGfb6OhKKpyTItZW4lWoRDdRViTjylzqXqJIMA7oI,4198
+falco_cli/update_project.py,sha256=UqYM0IrRsGiNm_4wb0hoHUARCw0L-T4zV_oAP03pm_o,8804
+falco_cli/utils.py,sha256=6qD7bJb5YF-ZJEERpqiOShrI6qUiDL7WyCUcphC6U1Q,2952
+falco_cli-0.27.0a6.dist-info/METADATA,sha256=mmSA4co6hWhYU2DIXcXkB21dALOF6PzUMfC1k9wIpKA,13836
+falco_cli-0.27.0a6.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+falco_cli-0.27.0a6.dist-info/entry_points.txt,sha256=1Hv_ZWuJ9RItvk2r6hMi259ISpyjWYUgwYQ2A1dyz3w,50
+falco_cli-0.27.0a6.dist-info/licenses/LICENSE,sha256=f4bM3ko6AgR9zjy-Q1xrLfnxyN5mnreNj5XvZNsPtr4,6280
+falco_cli-0.27.0a6.dist-info/RECORD,,
