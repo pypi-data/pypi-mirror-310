@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bankometer
+Version: 1.0.0
+Summary: A command-line tool for managing bank transactions with support for multiple banks and filters.
+Home-page: https://github.com/fantastic001/bankometer
+Author: Stefan Nožinić
+Author-email: stefan@lugons.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: pandas
