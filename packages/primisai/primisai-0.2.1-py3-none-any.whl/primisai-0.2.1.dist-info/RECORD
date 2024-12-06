@@ -1,0 +1,13 @@
+examples/eda.py,sha256=FKVoLSWAoL1SHah-OY5GCPgqi5VPyQ6xbJXmEHcamDI,2678
+primisai/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+primisai/nexus/core/__init__.py,sha256=45g_mrtqDZpxhiF1x5g4x3JFWgyo3OlRyVN6wlZIFN4,120
+primisai/nexus/core/agents.py,sha256=7uIjgg3leNjw1br6m_8HjxOL1j2kFyKAwROOdhds5uQ,5078
+primisai/nexus/core/ai.py,sha256=jB9aGl78m6ODjcsMYVvfrDoO9T6xoNvwTYrAKJoxAfM,3019
+primisai/nexus/core/supervisor.py,sha256=sOrNivMt4uF9pPcjggUn4N9afdPJmNYKuUFajTW0YhI,12679
+primisai/nexus/tools/tool_functions.py,sha256=_H3wjUJ4a5B2nd_YzYRV28J72v2V0dhENLWvdQWCCy0,1230
+primisai/nexus/utils/debugger.py,sha256=n6ljPWpDEFMKHr-dfxLes9d1Z2C6Fr8CBH7ya_Qv-Cs,1826
+primisai-0.2.1.dist-info/LICENSE,sha256=UBIYkk1g0CX3UYQoswzr06cage7M38e2ps-7wUiSbSQ,1065
+primisai-0.2.1.dist-info/METADATA,sha256=mglTFybQT7BSETwEzpiyVqF5UV90LLOhshljHDpCxGY,3937
+primisai-0.2.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+primisai-0.2.1.dist-info/top_level.txt,sha256=-QWZILjhvkLGk_ZpQlfOMcbM6xbzGblZgu4Rkh7WlKc,18
+primisai-0.2.1.dist-info/RECORD,,
