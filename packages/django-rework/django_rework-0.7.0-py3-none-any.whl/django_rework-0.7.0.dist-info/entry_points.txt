@@ -1,0 +1,3 @@
+[console_scripts]
+re = rework.core.management:execute_from_command_line
+rework = rework.core.management:execute_from_command_line
