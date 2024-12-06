@@ -1,0 +1,7 @@
+*.csv
+
+.vscode
+venv
+__pycache__
+scraps.py
+dist/
