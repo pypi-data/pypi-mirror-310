@@ -1,0 +1,12 @@
+numpy>=1.20.0
+pandas
+xarray
+h5netcdf>=0.14.0
+hydrotools.caches>=0.1.2
+beautifulsoup4
+requests
+google-cloud-storage
+pint
+
+[develop]
+pytest
