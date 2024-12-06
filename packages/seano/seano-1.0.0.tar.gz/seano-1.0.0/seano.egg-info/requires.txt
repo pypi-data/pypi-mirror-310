@@ -1,0 +1,3 @@
+seano-cli
+seano-formatter-qa-notes
+seano-formatter-semver

@@ -1,0 +1,10 @@
+LICENSE
+Readme.md
+pyproject.toml
+setup.cfg
+setup.py
+seano.egg-info/PKG-INFO
+seano.egg-info/SOURCES.txt
+seano.egg-info/dependency_links.txt
+seano.egg-info/requires.txt
+seano.egg-info/top_level.txt
