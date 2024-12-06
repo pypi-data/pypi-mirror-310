@@ -1,0 +1,5 @@
+setup.py
+colab_notebook_id.egg-info/PKG-INFO
+colab_notebook_id.egg-info/SOURCES.txt
+colab_notebook_id.egg-info/dependency_links.txt
+colab_notebook_id.egg-info/top_level.txt

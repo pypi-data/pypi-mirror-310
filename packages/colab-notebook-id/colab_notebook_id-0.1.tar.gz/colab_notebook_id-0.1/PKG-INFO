@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: colab_notebook_id
+Version: 0.1
+Summary: Retrieve Google Colab notebook ID dynamically
+Author: Xtrail AI 
+Author-email: info@xtrail.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
