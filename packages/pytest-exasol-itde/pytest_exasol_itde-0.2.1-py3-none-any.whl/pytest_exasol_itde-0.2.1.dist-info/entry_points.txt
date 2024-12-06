@@ -1,0 +1,3 @@
+[pytest11]
+itde=exasol.pytest_itde
+
