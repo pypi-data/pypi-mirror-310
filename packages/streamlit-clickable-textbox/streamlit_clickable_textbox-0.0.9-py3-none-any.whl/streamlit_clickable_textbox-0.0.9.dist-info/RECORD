@@ -1,0 +1,16 @@
+clickable_textbox/__init__.py,sha256=EXOf-mWTz6TCDA6ckSHmGX2GsGDk9vBQROFrII41t9A,3297
+clickable_textbox/example.py,sha256=xNXscP_MUO8PTuj7b1eKEzcqWNKsb2_GCQ5RabFmncI,4226
+clickable_textbox/frontend/build/asset-manifest.json,sha256=VoANfHYXesY4gBshMDKE9K5l8D9e4UNIfRyPObXpgEM,221
+clickable_textbox/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+clickable_textbox/frontend/build/index.html,sha256=H1d-qxh0ORnIGZGxM2CAGF8EyYQHvSzvCFURlzIX4CA,492
+clickable_textbox/frontend/build/static/js/main.76b03de0.js,sha256=jOkLOsxgHp1zr7lFyy1QO6Z3LugaropeUsckzXW0wlc,317182
+clickable_textbox/frontend/build/static/js/main.76b03de0.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+clickable_textbox/frontend/build/static/js/main.76b03de0.js.map,sha256=0_tWcJam2bq7d8xFCnkxNUcGt-eIHGqyEXSYwCtlYcM,1249328
+clickable_textbox/frontend/build/static/js/main.b2e05ea5.js,sha256=xyHMDOgc8kR4ki1W3YMw3XM4gM_f7Sgi6EQXMZKUZN0,317644
+clickable_textbox/frontend/build/static/js/main.b2e05ea5.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+clickable_textbox/frontend/build/static/js/main.b2e05ea5.js.map,sha256=U6aEhKZZTsNRa2io6ABiO1vTCLqKaXkfplQ1lb4bgHI,1249736
+streamlit_clickable_textbox-0.0.9.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+streamlit_clickable_textbox-0.0.9.dist-info/METADATA,sha256=Uha7HHiQg_qZ_iisHjyl3GaseP8DM_SH8iQtUAmTj1E,999
+streamlit_clickable_textbox-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+streamlit_clickable_textbox-0.0.9.dist-info/top_level.txt,sha256=Dn8AEUsAIwLAJ4ETT_vXQG7IpqyHlOXOmOLUE3gB0ro,18
+streamlit_clickable_textbox-0.0.9.dist-info/RECORD,,
