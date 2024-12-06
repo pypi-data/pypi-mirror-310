@@ -1,0 +1,6 @@
+ase
+dgl
+pytorch_lightning
+pymatgen
+m3gnet
+boto3
