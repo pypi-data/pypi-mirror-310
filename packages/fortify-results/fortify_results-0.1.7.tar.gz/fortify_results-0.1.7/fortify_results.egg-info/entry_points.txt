@@ -1,0 +1,2 @@
+[console_scripts]
+fortify-results = fortify_results.fortifyresults:cli

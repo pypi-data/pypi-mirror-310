@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fortify_results
+Version: 0.1.7
+Summary: Get matching fortify applications and versions, summarize their results and notify.
+Home-page: https://https://dsgithub.trendmicro.com/cloudone-common/fortify-results
+Author: Fabio Arciniegas
+Author-email: fabio_arciniegas@trendmicro.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# fortify-results
+Read results from Fortify and send notifications.
