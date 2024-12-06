@@ -1,0 +1,13 @@
+xpip_mirror/__init__.py,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+xpip_mirror/attribute.py,sha256=CfHP1CjN4FzcBdapQjKFXQhdgZCjFJFxgGaDB02Cubw,376
+xpip_mirror/cmds.py,sha256=fxkovW5rGwDwD0Gedez5JcNOwcndgvE1E-Z1T-Cu_6E,7140
+xpip_mirror/util.py,sha256=e62dBRHSGtztBR24-mEwq2I-LRO-n7eY87hwUrvHKVM,891
+xpip_mirror/config/__init__.py,sha256=KfY39bWAh7mQCuBgV4VtM-hBUfdIyGaBpdOZoKlc93U,15
+xpip_mirror/config/mirrors.toml,sha256=61LqUIaNc8F0ZdnYEr_8HX81Wgwtu5_LbeXCWDxQ1iE,316
+xpip.mirror-0.2.2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+xpip.mirror-0.2.2.dist-info/METADATA,sha256=GZYC_qLXWJNBU87IQp6XrUrNNJc0zbcxvf5TyvAFyeA,2444
+xpip.mirror-0.2.2.dist-info/WHEEL,sha256=pWvVuNuBTVmNV7Lp2jMAgt1NplTICeFdl1SW8U3MWN4,109
+xpip.mirror-0.2.2.dist-info/entry_points.txt,sha256=AqFleaQodujnukAknrqUITj2624rhAmsH66_J1MxIcE,54
+xpip.mirror-0.2.2.dist-info/top_level.txt,sha256=x0-VY37Gs4N30m-sM-igD2NFsiDUsL-m7WKaJd6Srkc,12
+xpip.mirror-0.2.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xpip.mirror-0.2.2.dist-info/RECORD,,
