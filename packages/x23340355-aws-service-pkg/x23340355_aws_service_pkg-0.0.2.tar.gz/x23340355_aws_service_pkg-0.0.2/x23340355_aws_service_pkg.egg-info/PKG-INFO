@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: x23340355_aws_service_pkg
+Version: 0.0.2
+Summary: A python library which interact with AWS services
+Home-page: https://github.com/minkoaung89/homeconnect-v3
+Author: MinKo
+Author-email:  x23340355@student.ncirl.ie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is the custom Python library developed by one of student of NCI.

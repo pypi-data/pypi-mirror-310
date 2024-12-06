@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+x23340355_aws_service_pkg/__init__.py
+x23340355_aws_service_pkg/aws_service.py
+x23340355_aws_service_pkg.egg-info/PKG-INFO
+x23340355_aws_service_pkg.egg-info/SOURCES.txt
+x23340355_aws_service_pkg.egg-info/dependency_links.txt
+x23340355_aws_service_pkg.egg-info/top_level.txt
