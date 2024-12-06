@@ -1,0 +1,24 @@
+[project.urls]
+"Homepage" = "https://github.com/sesquideus/scalyca"
+
+[tool.poetry]
+name = "scalyca"
+version = "0.2.1"
+description = "Simple Console Application with Logging, Yaml Configuration and Argparse"
+authors = ["Martin Baláž <martin.balaz@trojsten.sk>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+argparse = "*"
+schema = "^0.7.7"
+argparsedirs = "^0.1.2"
+dotmap = "^1.3.30"
+colorama = "*"
+pyyaml = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
