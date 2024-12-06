@@ -1,0 +1,17 @@
+biobb_mem/__init__.py,sha256=HYYpyOz0W3RdEbSULlfm8BFyWFj0CRTHg2LiljSGGuI,117
+biobb_mem/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_mem/ambertools/__init__.py,sha256=dzeGsDrVZR4p05fplJzF2jvKzJdtSk-eNn96qL6pbm8,50
+biobb_mem/ambertools/cpptraj_density.py,sha256=XimGJwyATFLXBFTvipAiD329a_8ZRhLcBnaQWjqEOr4,11884
+biobb_mem/fatslim/__init__.py,sha256=C7iLFrG120T359mpB82uf4eqIyJsK1kogCpC8EAqzSs,49
+biobb_mem/fatslim/fatslim_membranes.py,sha256=K0MxzcCzGwoxv2g3X1ZzauTWev-luLZLBqyYV_W5low,9771
+biobb_mem/lipyphilic_biobb/__init__.py,sha256=psWqhWoOIcyQijz-V_LdstqBH5fr6k7qg-YMfj1Quys,60
+biobb_mem/lipyphilic_biobb/lpp_assign_leaflets.py,sha256=z0lue_vRepjcgAsp0kArsyus4SHaQbxpAP_uTD7ciZM,10823
+biobb_mem/mdanalysis_biobb/__init__.py,sha256=7jg8rHisdtN2vPKGgmWIJMqh49uG5mJrWdCG6i5SSkE,49
+biobb_mem/mdanalysis_biobb/mda_hole.py,sha256=nNZbsc8xkLA8XcBfDK328iWn7lp0qCz2I1bd2o6wb4Q,8624
+biobb_mem/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_mem-5.0.2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+biobb_mem-5.0.2.dist-info/METADATA,sha256=sKKbn_E-QxluosSbBUUBQuhNqDOVteJACPdYfe_HjL0,6954
+biobb_mem-5.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+biobb_mem-5.0.2.dist-info/entry_points.txt,sha256=Q6iCXudYCkR21NV7DxztxnCqZ5FT_93HSVFGiM5JKtk,265
+biobb_mem-5.0.2.dist-info/top_level.txt,sha256=4M0cePt634ZaskH1ZritWxQOzOjygU3hVjXf3dDnKR8,10
+biobb_mem-5.0.2.dist-info/RECORD,,
