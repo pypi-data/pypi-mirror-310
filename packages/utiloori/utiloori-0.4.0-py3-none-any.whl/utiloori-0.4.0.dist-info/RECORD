@@ -1,0 +1,16 @@
+utiloori/__about__.py,sha256=Hz5gIBH3cbbnfId4efnZw6RBHTqEPz-UdPuQedjZoMw,126
+utiloori/__init__.py,sha256=SzltEgXVNUi999I9N-KuivIZaTcKroWIuuGl5zzzlec,113
+utiloori/ansi_color.py,sha256=SCDzpaeooWU6PwLwtsyTg3qAmO6XNqsR3u3UQtdUujg,1637
+utiloori/calendar.py,sha256=7aBmZGWCUkYv5r2kFJzY368UkUXpjmRA9KxtvER8KiI,986
+utiloori/chatlog.py,sha256=iZCPYSI5WFEaRIx-pJA-_jVnH0Z5I7XBA-nMeP7JC6A,1401
+utiloori/datatypes.py,sha256=1PvZWmrOllBFEn9s19uVo5xgd4c-A9dkWiqt7Hj7s7I,342
+utiloori/filepath.py,sha256=Q_ZEElW_WNg42h9fZDrVQbXUleoMBtuG3gsYJqhVaNk,462
+utiloori/func.py,sha256=L_a0KZbsDsj7raFlO1hBqOJtlfPy2iAacKEEJ4N5osQ,5452
+utiloori/json.py,sha256=XW2bEyXrwWXBtScVsn0uTyJxjdJUYs9DdO58lDUuzx8,1159
+utiloori/markdown.py,sha256=MkvO_5lmeZW5GYK_syHOI5FtL05Kf3VkwCwo2E5w0s8,554
+utiloori/pg.py,sha256=1gI3SY1xi-hE_HJzhFGjQn9V4MQjwwLOe2lC90Pfa18,7402
+utiloori/plaintext.py,sha256=DqF5gVk2Ce1VMFMt9s8XD8AFzFwRFxlTZQYZH9eHO_c,544
+utiloori-0.4.0.dist-info/METADATA,sha256=h76Dvkw4GaUBxzeyPd_6U8K6rKqPBD-WK6N20EJaTB0,2600
+utiloori-0.4.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+utiloori-0.4.0.dist-info/licenses/LICENSE,sha256=evxaAR-M_EP5PLmwYXzKu6c65s8L6eEQjtV-WQK5XxU,11339
+utiloori-0.4.0.dist-info/RECORD,,
