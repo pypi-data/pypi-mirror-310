@@ -1,0 +1,15 @@
+nvpl/include/nvpl_lapack.h,sha256=jSBSiNwQ8VNBPkcGTYZ5GqYtcK7CDx7EDH2ziAdjzi4,796195
+nvpl/include/nvpl_lapack_config.h,sha256=jQGKxJcuhC27zhfAOB1DC-JHm2vnmOjgCjiDaqtyxTI,2271
+nvpl/include/nvpl_lapack_service.h,sha256=LU3k_D1O4MWsOPaAIQ9464u8PVxM1XFuhT-mqBXIw6o,2607
+nvpl/include/nvpl_lapack_types.h,sha256=_UZQ70m7s-7xZUGLt6VoEGjMrZVb3prRiW1jK_Lnajg,1086
+nvpl/include/nvpl_lapack_version.h,sha256=4YDjysFuNCM0rr9pk4ZoBAlriUBkiXbF06q_OUT3dTk,177
+nvpl/lib/libnvpl_lapack_core.so.0,sha256=HjAZmySEe8FcSoeYMIYTWOWFapuDtXKeU2tLeOGLgQ0,1710521
+nvpl/lib/libnvpl_lapack_ilp64_gomp.so.0,sha256=tV61sSxK-Fb5vGRjyyAANWrM95jpgEjdn8upd9eDUMg,5783432
+nvpl/lib/libnvpl_lapack_ilp64_seq.so.0,sha256=jFoH2A59TRRn7u50wWYJ3ZC43nJCPi2F3a1NhT4kOiE,5783384
+nvpl/lib/libnvpl_lapack_lp64_gomp.so.0,sha256=g9hb_uVqdXQ1xDdHW7QQr5-mdoDU9F5KPkyIZzf9s-M,5848968
+nvpl/lib/libnvpl_lapack_lp64_seq.so.0,sha256=7RyftURdb8uD6As4nvPRGxX5DBN_bUjZlVdWoGvTLGQ,5848920
+nvpl_lapack-0.2.3.1.dist-info/LICENSE,sha256=2BF0ZS8MRIpXNq_F1QZjYGhjv9bujIQW-9mmKMb4gC8,19072
+nvpl_lapack-0.2.3.1.dist-info/METADATA,sha256=aGnrj16srwZvjo1b8yxLkdZ4w67sUGa1RHf76s0DRaM,22475
+nvpl_lapack-0.2.3.1.dist-info/WHEEL,sha256=yI1whwUN08gZTX6WAd2xaHhCahkTJ__rVGmHVz_4a3k,110
+nvpl_lapack-0.2.3.1.dist-info/top_level.txt,sha256=YDXVw5MDZQd0Z6ox8-P6_rak9ah3j1MRa_W6ptdtvLg,10
+nvpl_lapack-0.2.3.1.dist-info/RECORD,,
