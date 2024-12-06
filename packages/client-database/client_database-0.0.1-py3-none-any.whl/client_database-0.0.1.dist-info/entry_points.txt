@@ -1,0 +1,3 @@
+[console_scripts]
+create_db = client_database.create_database:create_database
+riverside_script = client_database.riverside:main
