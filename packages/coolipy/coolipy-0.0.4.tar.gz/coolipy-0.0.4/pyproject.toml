@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0", "requests>=2.32.3"]
+build-backend = "setuptools.build_meta"
+
+
+
+[project]
+name = "coolipy"
+version = "0.0.4"
+authors = [
+  { name="Gabriel Bocchini", email="gabrielbocchini@gmail.com" },
+]
+description = "Coolipy - (Un)oficial Coolify - coolify.io - Python client!"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+     "requests>=2.32.3"
+]
+
+[project.urls]
+Homepage = "https://github.com/gbbocchini/coolipy"
+Documentation = "https://coolipydocs.gabrielbocchini.com.br/"
+
+
+[tool.setuptools.packages.find]
+where = ["."]  
+include = ['models', 'services']
+exclude = []
+namespaces = false
