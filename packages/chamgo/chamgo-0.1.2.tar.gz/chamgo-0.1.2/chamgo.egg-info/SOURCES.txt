@@ -1,0 +1,10 @@
+LICENSE
+README.md
+chamgo.py
+pyproject.toml
+chamgo.egg-info/PKG-INFO
+chamgo.egg-info/SOURCES.txt
+chamgo.egg-info/dependency_links.txt
+chamgo.egg-info/entry_points.txt
+chamgo.egg-info/requires.txt
+chamgo.egg-info/top_level.txt
