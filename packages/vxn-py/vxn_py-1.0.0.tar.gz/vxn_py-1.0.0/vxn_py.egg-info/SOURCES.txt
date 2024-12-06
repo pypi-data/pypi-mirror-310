@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+vxn/__init__.py
+vxn/__main__.py
+vxn/file_utils.py
+vxn/vxn.py
+vxn_py.egg-info/PKG-INFO
+vxn_py.egg-info/SOURCES.txt
+vxn_py.egg-info/dependency_links.txt
+vxn_py.egg-info/entry_points.txt
+vxn_py.egg-info/requires.txt
+vxn_py.egg-info/top_level.txt
