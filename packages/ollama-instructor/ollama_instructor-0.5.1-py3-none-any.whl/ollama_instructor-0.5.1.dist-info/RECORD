@@ -1,0 +1,11 @@
+ollama_instructor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ollama_instructor/base_client.py,sha256=sRN7Lt0u3gGWpRb7gXLTzC_MXqnxw0xfSJD5RIjBblE,8691
+ollama_instructor/cleaner.py,sha256=BmCqII43SjdwQ1zweq_D43WWuex4rOqn5W1v8ZqMyAw,5032
+ollama_instructor/log_config.py,sha256=ZhNFmvo4kIpjcTvQqyK01s_GhweXKrBQTLtVUx3SfkE,213
+ollama_instructor/ollama_instructor_client.py,sha256=V-CehYQ8A3LXCJeN67cwJ-5OaLvm19F0iPFDWPlM0vs,19195
+ollama_instructor/prompt_manager.py,sha256=ofgL0DluGeliQ2kRMbV6ZC82M3vfny3bIM2YCNHy6ik,6545
+ollama_instructor/validation_manager.py,sha256=KAIvQZ2Jp9mM-ucyvC4kMvZ-D3gdJA73vexgqvo9-YA,7742
+ollama_instructor-0.5.1.dist-info/LICENSE,sha256=ccCZ8J7VVLx4YDHU-f7gGrjHEslviXTZqM854rsiEa8,1072
+ollama_instructor-0.5.1.dist-info/METADATA,sha256=nV3mLHaUAzqyOvsJflSH9nZfV4S0cmG2k7yZXP43_8w,11115
+ollama_instructor-0.5.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ollama_instructor-0.5.1.dist-info/RECORD,,
