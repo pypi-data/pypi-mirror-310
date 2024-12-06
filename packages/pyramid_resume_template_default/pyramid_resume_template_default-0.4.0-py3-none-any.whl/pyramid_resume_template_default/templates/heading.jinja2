@@ -1,0 +1,26 @@
+<div class="ContactInfo">
+    <div class="NameHeader">
+        <h1 class="PersonName">{{ contact_info.name }}</h1>
+        <p class="Objective">{{ contact_info.objective }}</p>
+    </div>
+    <div class="ContactMethod">
+        <div class="PostalAddress">{{ contact_info.street_address }}<br/>
+            <span class="Municipality">{{ contact_info.city }}</span>, <span
+                    class="Region">{{ contact_info.state }}</span> {{ contact_info.zip }}
+        </div>
+        <a href="tel:+{{ contact_info.phone }}">{{ contact_info.phone }}</a>
+        <br/>
+        <a class="InternetEmailAddress" href="mailto:{{ contact_info.email }}">
+            <span class="InternetEmailAddress-User">{{ contact_info.email_user }}</span>@<span
+                class="InternetEmailAddress-Domain">{{ contact_info.email_domain }}</span>
+        </a>
+        {% if contact_info.website %}
+        <br/>
+        <a class="InternetWebAddress" href="{{ contact_info.website }}"
+           onclick="window.open(this.href);return false;">{{ contact_info.website }}</a>
+        {% endif %}
+    </div>
+</div>
+<div class="ExecutiveSummary">
+    {{ executive_summary }}
+</div>
