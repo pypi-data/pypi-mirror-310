@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: uv2conda
+Version: 0.1.0
+Summary: Create a Conda environment file from a Python project using uv.
+Author-email: Fernando Pérez-García <fepegar@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: packaging
+Requires-Dist: pyyaml
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# uv2conda
+
+Tiny package to create a conda environment file from a Python project.
+
+For now, the easiest way to use `uv2conda` is with [`uvx`](https://docs.astral.sh/uv/guides/tools/), which is installed with [`uv`](https://docs.astral.sh/uv/getting-started/installation/).
+
+```bash
+uvx --from git+https://github.com/fepegar/uv2conda \
+    uv2conda \
+        --input-project-dir /path/to/your/project \
+        --name my_conda_env \
+        --python 3.12 \
+        --out-conda-path environment.yaml
+```
