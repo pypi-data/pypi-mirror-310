@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include mijn_bibliotheek *.py
+recursive-include tests *.py
