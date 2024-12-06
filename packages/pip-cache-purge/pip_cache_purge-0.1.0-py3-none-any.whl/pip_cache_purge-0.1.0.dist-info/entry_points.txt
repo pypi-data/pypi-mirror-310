@@ -1,0 +1,2 @@
+[console_scripts]
+coursePost = src.__main__:run

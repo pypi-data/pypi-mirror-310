@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pip-cache-purge
+Version: 0.1.0
+Summary: Crawl the schedule
+Home-page: https://github.com/CourseTool/course-post
+Author: yuxi-ovo
+Author-email: 2896402717@qq.com
+License: MIT
+Keywords: python course
+License-File: LICENSE
+Requires-Dist: pyfiglet
+Requires-Dist: selenium
+Requires-Dist: pymysql
+Requires-Dist: tqdm
+Requires-Dist: bs4
+Requires-Dist: redis
+Requires-Dist: loguru
