@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ldr-logging
+Version: 0.1.0
+Summary: A Google Cloud Platform compliant structured logging library
+License: MIT
+Author: Sam Kenney
+Author-email: sam.kenney@louder.com.au
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: google-cloud-logging (>=3.11.3,<4.0.0)
+Requires-Dist: pydantic (>=2.10.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Python Template Library
+
+Template python 3.11+ project with linting, formatting, type checking, testing, and packaging setup.
+
