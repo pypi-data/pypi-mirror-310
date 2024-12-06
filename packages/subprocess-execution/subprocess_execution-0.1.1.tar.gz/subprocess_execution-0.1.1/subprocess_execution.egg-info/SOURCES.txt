@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+subprocess_execution/__init__.py
+subprocess_execution/subprocess_execution.py
+subprocess_execution.egg-info/PKG-INFO
+subprocess_execution.egg-info/SOURCES.txt
+subprocess_execution.egg-info/dependency_links.txt
+subprocess_execution.egg-info/requires.txt
+subprocess_execution.egg-info/top_level.txt
+tests/test_subprocess_execution.py
