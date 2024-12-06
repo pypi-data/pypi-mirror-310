@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openblacklist"
+version = "1.0.2"
+description = "Official client for openblacklist API"
+homepage = "https://openbl.clarty.org/"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Awakno/OpenBlacklist-py"
+authors = [
+  "Awakno <contact@awakno.fr>"
+]
+[tool.poetry.dependencies]
+python = "^3.8.1"
+aiohttp = "^3.9.5"
+pydantic = "^2.8.2"
+fastapi = "^0.115.5"
+uvicorn = "0.32.1"
