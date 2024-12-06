@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: testfully
+Version: 0.4.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Summary: only test relevant files
+Home-Page: https://github.com/huguesb/testfully
+Author-email: Hugues Bruant <hugues@betakappaphi.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/huguesb/testfully
+Project-URL: Issues, https://github.com/huguesb/testfully/issues
+
+testfully
+=========
+
+Only run relevant tests, based on the module import graph
+
+
