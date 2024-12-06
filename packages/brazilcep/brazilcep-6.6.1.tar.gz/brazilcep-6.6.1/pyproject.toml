@@ -1,0 +1,121 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brazilcep"
+description = "Minimalist and easy-to-use python library designed to query CEP (brazilian zip codes) data"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Michell Stuttgart", email = "michellstut@gmail.com" }]
+requires-python = ">=3.9"
+dynamic = ["version"]
+classifiers = [
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries",
+  "Natural Language :: English",
+  "Natural Language :: Portuguese (Brazilian)",
+]
+
+dependencies = ["requests>=2.28.2"]
+
+[project.optional-dependencies]
+
+dev = [
+  "tox>=4.23.2",
+  "pytest>=7.3.1",
+  "requests-mock>=1.10.0",
+  "black>=23.0,<24.0",
+  "isort>=5.12,<5.13",
+  "pre-commit>=4.0.1",
+  "python-dotenv",
+  "ruff",
+  "ipdb",
+]
+
+coverage = ["coveralls>=3.3.1", "pytest-cov>=4.0.0", "requests-mock>=1.10.0"]
+
+docs = [
+  "Sphinx>=6,<8",
+  "readme-renderer==43",
+  "myst-parser>=1.0,<2.1",
+  "sphinx-copybutton==0.5.2",
+  "sphinx-autobuild==2021.3.14",
+  "sphinx-autodoc-typehints==1.23.3",
+]
+
+build = ["build==1.2.2.post1"]
+
+[project.urls]
+Documentation = "https://brazilcep.readthedocs.io/index.html"
+Repository = "https://github.com/mstuttgart/brazilcep"
+Tracker = "https://github.com/mstuttgart/brazilcep/issues"
+Changelog = "https://github.com/mstuttgart/brazilcep/blob/main/CHANGELOG"
+
+[tool.check-manifest]
+ignore = [
+  ".*",
+  "tests/**",
+  "docs/**",
+  "bin/**",
+  "*.yml",
+  ".tox.ini",
+  ".pylintrc",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { attr = "brazilcep.__version__.__version__" }
+
+[tool.black]
+line-length = 100
+include = '\.pyi?$'
+exclude = '''
+(
+      __pycache__
+    | \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.vscode
+    | \.venv
+    | \bdist\b
+    | \bdoc\b
+    | \.nox
+    | \.github
+)
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+skip = ["docs"]
+
+# You can override these pyright settings by adding a personal pyrightconfig.json file.
+[tool.pyright]
+reportPrivateImportUsage = false
+
+[tool.ruff]
+line-length = 115
+target-version = "py39"
+
+[tool.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.coverage.run]
+branch = true
+omit = ["tests/*"]
