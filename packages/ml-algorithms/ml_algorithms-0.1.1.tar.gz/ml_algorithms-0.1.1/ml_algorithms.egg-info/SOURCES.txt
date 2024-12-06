@@ -1,0 +1,8 @@
+setup.py
+ml_algorithms/__init__.py
+ml_algorithms/main.py
+ml_algorithms.egg-info/PKG-INFO
+ml_algorithms.egg-info/SOURCES.txt
+ml_algorithms.egg-info/dependency_links.txt
+ml_algorithms.egg-info/requires.txt
+ml_algorithms.egg-info/top_level.txt
