@@ -1,0 +1,4 @@
+[console_scripts]
+canvasrobot_cli=canvasrobot.main:run
+urltransform_cli=canvasrobot.urltransform:run
+
