@@ -1,0 +1,11 @@
+celldisect/__init__.py,sha256=XKMZXA816T2-0DX3yPZfdKPoFZtz3um-0T8Sh1cGSAI,280
+celldisect/_model.py,sha256=czzh-Vt0MT-paxvn_v6CQGPCMElLnJda3OiFhuG5pyw,30763
+celldisect/_module.py,sha256=ZfagJwnt1zZP0UchqTxMa8pbBv5e1ZIIdxpAU-LO38A,43968
+celldisect/data.py,sha256=tHEotwYBJVJRCUDdRA-CKkCHRaRZaQzqIRdVuRObZqo,2076
+celldisect/trainingplan.py,sha256=xpIngG3H6bzhrkpbIkWHafz0orYRt4tfR0P6nXSgc0s,21161
+celldisect/tuner_base.py,sha256=l00FSkGfWvPcw_kBiXR2NLFRj0AAM5nXJeRyD-tkIl4,28830
+celldisect/utils.py,sha256=unuvd90ZK9dCkhfd_iRVIFIyaGu5ArzJEsb4EgUT-Qk,3785
+celldisect-0.1.0.dist-info/LICENSE,sha256=jUZydXfCfTotmEsLvBVkE_mWBuhwfBe1WqAuYfztZVs,1528
+celldisect-0.1.0.dist-info/METADATA,sha256=HX7GvkCUBeJW9F2hlTFixnYYNYRmlk8ypoC54gq5gQk,3731
+celldisect-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+celldisect-0.1.0.dist-info/RECORD,,
