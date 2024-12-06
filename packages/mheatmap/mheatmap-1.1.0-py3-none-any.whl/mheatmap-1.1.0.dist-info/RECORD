@@ -1,0 +1,10 @@
+mheatmap/__init__.py,sha256=LZASKvLf8Uq0a_UAV0FOUlzDNFmIgN6tIuFHmXU2v_4,540
+mheatmap/_amc_postprocess.py,sha256=5729oQ0gI46Orn1DbOiFROlaAdQM0h1Qri3KSHkbxgA,9755
+mheatmap/_rms_permute.py,sha256=jLDyQ0FCg7sCDxumyALlvA_rPk8UbavzPLGxt58WsXQ,13322
+mheatmap/_spectral_permute.py,sha256=3PpzQp9sNMTNyWdjpLvlpZKM102LL9-YyW3oUyBLY14,5286
+mheatmap/matrix.py,sha256=kdMiO2V-OFZSbQvHwir1KKuSzswkNnvqMUPECb72g14,9521
+mheatmap-1.1.0.dist-info/LICENSE,sha256=55N894ECzElamtgE6KNSvFewiAi06i9sszhtcmp1uVU,1063
+mheatmap-1.1.0.dist-info/METADATA,sha256=U0zIk04ow_4Xe17Qwnw0jRbcXskFehHIL1SFnt_3HO0,2848
+mheatmap-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mheatmap-1.1.0.dist-info/top_level.txt,sha256=9MnWDAf7h7xSd8-0lUv4NLd-wlt7zeqE82vsjlnYXB0,9
+mheatmap-1.1.0.dist-info/RECORD,,
