@@ -1,0 +1,10 @@
+README.md
+setup.py
+scrape/__init__.py
+scrape/scrape.py
+scrape_md.egg-info/PKG-INFO
+scrape_md.egg-info/SOURCES.txt
+scrape_md.egg-info/dependency_links.txt
+scrape_md.egg-info/entry_points.txt
+scrape_md.egg-info/requires.txt
+scrape_md.egg-info/top_level.txt
