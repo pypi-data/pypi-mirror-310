@@ -1,0 +1,2 @@
+[djp]
+django_plugin_kolo = django_plugin_kolo
