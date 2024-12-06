@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: s3serve
+Version: 0.1.0
+Summary: Simple S3 Server
+Author: Rob van der Leek
+Author-email: 5324924+robvanderleek@users.noreply.github.com
+Requires-Python: >=3.11,<3.14
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: boto3 (>=1.35.60,<2.0.0)
+Requires-Dist: boto3-stubs-lite[s3] (>=1.35.64,<2.0.0)
+Requires-Dist: fastapi[standard] (>=0.115.5,<0.116.0)
+Requires-Dist: pydantic-settings (>=2.6.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# S3 Serve
+
+<div align="center">
+
+![Logo](docs/logo.png)
+
+</div>
+
+<div align="center">
+
+[![Build Status](https://github.com/robvanderleek/s3serve/workflows/main/badge.svg)](https://github.com/robvanderleek/s3serve/actions)
+[![Dependabot](https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot)](https://dependabot.com/)
+
+</div>
+
+*A Simple S3 Server 🗄️*
+
+# Development
+
+After installing dependencies with `poetry install`, S3 Serve can be run from
+the repository root like this:
+
+```shell
+poetry run s3serve
+```
+
+## Local installation using pipx
+
+To install the development repository locally run:
+
+```shell
+pipx install .
+```
+
+To install the `main` branch locally run:
+
+```shell
+pipx install git+https://github.com/robvanderleek/s3serve.git
+```
+
+Or to install another branch locally run:
+
+```shell
+pip install git+https://github.com/robvanderleek/s3serve.git@issue-123
+``` 
+
