@@ -1,0 +1,16 @@
+spiderpy3/__init__.py,sha256=-4AOWA54jZh-EHvLFkK0v6Dxy1a1ZEBbJBF0-YSppK0,72
+spiderpy3/objects/__init__.py,sha256=30vl_2NDnOS2V-tSPAJuPX5v8fMGqSxlqJlopdQDwYw,74
+spiderpy3/objects/handler.py,sha256=t8FwBLNiJvKj8e0_2CO_Spnx_2n0RP9gq6dKBa-x7MA,1442
+spiderpy3/objects/object.py,sha256=vUSiaNnJqnY2dVurbxoqzAjP6DlZIQplCT3p76QeYgk,391
+spiderpy3/utils/__init__.py,sha256=Lj8rejpzhVQXqSdA2Cp98IaVMyQioHa8wxDaKDUnEy4,149
+spiderpy3/utils/algo.py,sha256=VGDpQhCbELLIDgKuHrll8eN0J1W09UikJb0QjC8z0GI,519
+spiderpy3/utils/cookies.py,sha256=GxobRLMcuPR7lqgsbzs5I5EgVhuWkXMNNkiqs-HIzxw,471
+spiderpy3/utils/execute/__init__.py,sha256=mxBjuqgBlH-PLaKyHsjAbDf7KlELi2U8MxZ052dXhOI,46
+spiderpy3/utils/execute/js.py,sha256=Iavv-dY-wdKhh_i86PTih7Zmu-Opv1vSjRxvsY-01F4,1618
+spiderpy3/utils/headers.py,sha256=a5NpiHIntQYwmHYc1rPwZ3LACGJWHXrdP9450B2ULew,661
+spiderpy3/utils/image.py,sha256=8C-EKElaNl4Y3Jq497kLrIQ0Ymt4VIs-CZLhjmAlfEA,154
+spiderpy3/utils/logger.py,sha256=DqqTVjFHZL9iS0-Ay9VsD2uX0QgZnqCNHZLFCLXwP74,5424
+spider_py3-0.1.0.20241122.dist-info/LICENSE,sha256=Pu9Tg6G2w62EnWZZSv6QsRqkQQwMKoA4-CXIvic0Zpw,1089
+spider_py3-0.1.0.20241122.dist-info/METADATA,sha256=Opj-I2f1QBwq-8Tu1rk40v6KRYk7MuXs3s1Lxg45HOM,2471
+spider_py3-0.1.0.20241122.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+spider_py3-0.1.0.20241122.dist-info/RECORD,,
