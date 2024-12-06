@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: audrius_m_mod1_atsiskaitymas
+Version: 0.0.7
+Summary: Website crawler
+Home-page: https://github.com/audriu/audrius-m-mod1-atsiskaitymas
+Author: Audrius M
+Author-email: balvakokay@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: bs4==0.0.2
+
+# audrius-m-mod1-atsiskaitymas
+
+You can install it with pip:
+```
+pip install audrius-m-mod1-atsiskaitymas
+```
+
+Pypi repository is here: https://pypi.org/project/audrius-m-mod1-atsiskaitymas/
+
+run test coverage: `pytest --cov=audrius_m_mod1_atsiskaitymas tests/`
+
+Sample run results are stored in sample_results/ folder
+
+Package and upload to pypi:
+```
+python3 -m build
+twine upload dist/*
+```
