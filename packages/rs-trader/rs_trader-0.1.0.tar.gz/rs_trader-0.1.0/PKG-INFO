@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rs-trader
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic>=2.9.2
+
+# rs_trader

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+src/interfaces/__init__.py
+src/interfaces/database.py
+src/rs_trader.egg-info/PKG-INFO
+src/rs_trader.egg-info/SOURCES.txt
+src/rs_trader.egg-info/dependency_links.txt
+src/rs_trader.egg-info/requires.txt
+src/rs_trader.egg-info/top_level.txt
+src/storage/json.py
+src/structs/__init__.py
+src/structs/structs.py
+tests/test_exchange.py
