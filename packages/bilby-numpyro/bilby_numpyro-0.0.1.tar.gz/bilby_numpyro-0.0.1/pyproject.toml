@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bilby_numpyro"
+authors = [
+    {name = "your name", email = "your@email.com"},
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "arviz",
+    "bilby>2.2.4",
+    "jax",
+    "numpy",
+    "numpyro",
+]
+
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[tool.setuptools_scm]
+
+[tool.black]
+line-length = 79
+
+[project.entry-points."bilby.samplers"]
+numpyro = "bilby_numpyro.numpyro:NumPyro"
+
+[tool.setuptools.packages]
+find = {}
