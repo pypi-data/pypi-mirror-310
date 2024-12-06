@@ -1,0 +1,15 @@
+motheme/__init__.py,sha256=TFbS1_jxnjE475w4JOen-xPXDlmJ-uP8HU1KYtns0W4,28
+motheme/app_parser.py,sha256=pai-1agZ5BBoFxZCYsDCpECOgPxWGjXQMy5jjYJN9AQ,1754
+motheme/apply_theme.py,sha256=voMxL8mzfLR-vuVPTneX2qRnbIIAzcDbRcbaJnG7dr8,2713
+motheme/clear_theme.py,sha256=LnVf5gwi19TrEFPXPlYRj47iAVkjpt1gJ4yWh4c8pUw,2567
+motheme/cli.py,sha256=WzbSeZBJCtaxFRJNn1NDIMPTg6YG7okrI8o2Kx63M4c,2930
+motheme/current_theme.py,sha256=pTXTeMrIxN15cPfAOJVjFp923TZ4yb-DvFfE4HcZWWo,1657
+motheme/list_themes.py,sha256=Z869c7BurASvRydH62pfMpOitNJT3X5mxwVWZz7dhtM,440
+motheme/theme_downloader.py,sha256=HWmR4HVFWMm-WfRLnPVFildGicSJ2urctNcziSwHVxw,1939
+motheme/util.py,sha256=W5DigFL-9nyDbXOilSetCeiAAXy-O0I53kpZn6BWusI,1645
+motheme-0.1.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+motheme-0.1.3.dist-info/METADATA,sha256=Bf2AZOdtbleSnufkOGBnM5nAThy9f6fOzmb_EyoGO1k,3945
+motheme-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+motheme-0.1.3.dist-info/entry_points.txt,sha256=Gt43I7vYv-Kz0Y00t7hSj5RlE8asKXZgsxWgvmh4Xlo,45
+motheme-0.1.3.dist-info/top_level.txt,sha256=x3c-LpnHr8rktwS2sFFIujucVknLELrTIcIJgSZKewY,8
+motheme-0.1.3.dist-info/RECORD,,
