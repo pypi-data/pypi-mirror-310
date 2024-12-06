@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pycrowds/__init__.py
+src/pycrowds/pycrowds.py
+src/pycrowds.egg-info/PKG-INFO
+src/pycrowds.egg-info/SOURCES.txt
+src/pycrowds.egg-info/dependency_links.txt
+src/pycrowds.egg-info/requires.txt
+src/pycrowds.egg-info/top_level.txt

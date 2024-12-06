@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pycrowds
+Version: 0.0.2
+Summary: A package to calculate the dynamic response of a bridge to a crowd loading.
+Author-email: Ronald Grefhorst <ronald@rgde.be>
+Project-URL: Homepage, https://github.com/Grefron/pycrowds
+Project-URL: Issues, https://github.com/Grefron/pycrowds/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: plotly
+
+# pycrowds
+
+A package to simulate the response of a beam structure to crowd load.
+
+A re-implementation of the theory presented by Seán Carroll [on Engineering Skills](https://www.engineeringskills.com/project/simulating-crowd-induced-vibrations-using-the-duhamel-integral/the-duhamel-integral)
+
