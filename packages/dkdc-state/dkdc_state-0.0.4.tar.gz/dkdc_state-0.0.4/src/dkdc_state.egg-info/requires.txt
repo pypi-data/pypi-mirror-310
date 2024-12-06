@@ -1,0 +1,14 @@
+ibis-framework[duckdb,sqlite]
+
+[dev]
+ruff
+ipython
+jupyter
+nbclient
+ipykernel
+
+[postgres]
+ibis-framework[postgres]
+
+[test]
+pytest

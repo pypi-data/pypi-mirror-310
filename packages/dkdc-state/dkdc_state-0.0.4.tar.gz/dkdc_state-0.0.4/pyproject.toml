@@ -1,0 +1,24 @@
+[project]
+name = "dkdc-state"
+version = "0.0.4"
+authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
+description = "manage state"
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ['ibis-framework[sqlite,duckdb]']
+
+[project.optional-dependencies]
+dev = ["ruff", "ipython", "jupyter", "nbclient", "ipykernel"]
+test = ["pytest"]
+
+# other OLTP backends
+postgres = ["ibis-framework[postgres]"]
+
+[project.urls]
+"Homepage" = "https://github.com/dkdc-io/dkdc-state"
+"Bug Tracker" = "https://github.com/dkdc-io/dkdc-state/issues"
