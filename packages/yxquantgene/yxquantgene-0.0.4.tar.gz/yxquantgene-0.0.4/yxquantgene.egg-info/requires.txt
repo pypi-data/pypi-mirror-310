@@ -1,0 +1,13 @@
+scikit-learn
+pandas
+yxutil
+yxseq
+statsmodels
+matplotlib
+pysam
+yxmath
+numpy
+joblib
+seaborn
+scipy
+cyvcf2
