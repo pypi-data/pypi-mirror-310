@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: zdev
+Version: 0.0.1
+Summary: Versatile collection of Python tools to enable quick & easy development
+Author-email: "Dr. Marcus Zeller" <dsp4444@gmail.com>
+License: 
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation (GPL v3, or any later version).
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program. If not, see <http://www.gnu.org/licenses/>.
+        
+Project-URL: Homepage, https://github.com/zynt3c/zdev
+Keywords: development,utilities,helpers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.full
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pillow
+Requires-Dist: plotly
+Requires-Dist: psutil
+Requires-Dist: PyQt5
+Requires-Dist: sounddevice
+
+# zdev (zyntec's development utilities)
+
+More desc
+
+...tbc...
