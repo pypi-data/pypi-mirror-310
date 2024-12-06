@@ -1,0 +1,31 @@
+{% extends "base/layout.html" %}
+
+{% block content %}
+<div class="content">
+    <h1>Sklad modulů</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Module ID</th>
+                <th>Module SN</th>
+                <th>Module type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if warehouse_exists %}
+            {% for module in modules %}
+            <tr>
+                <td>{{ module.id }}</td>
+                <td>{{ module.serial_number|default:"-" }}</td>
+                <td>{{ module.module_type }}</td>
+            </tr>
+            {% endfor %}
+            {% else %}
+            <tr>
+                <td colspan="3">No bindings found.</td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
