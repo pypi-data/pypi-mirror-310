@@ -1,0 +1,12 @@
+cubic_bezier_spline/__init__.py,sha256=QF3-qMlLkuITC14NSMzA6Hviu04Q4STBE_0wxKSXb1A,574
+cubic_bezier_spline/bezier_curve.py,sha256=hDUR_z938vSRdnL7UGtn7cIBApfGfPAK77rLSNs7NRA,7531
+cubic_bezier_spline/bezier_spline.py,sha256=uDOTqYFm5pgS1gLQLHLsHyEuAy-MDO444i90H3spcNM,3941
+cubic_bezier_spline/construct_splines.py,sha256=iPHjA031kR2JYfW9mXM1L6J2DcDjdCBgua-5lqQG8W4,5090
+cubic_bezier_spline/control_point_casting.py,sha256=8wFbkjZ7mBGx7UF2I-Pi9m0kAQmx-d_I1RKcFW7XTas,2553
+cubic_bezier_spline/matrices.py,sha256=do5d_Cb9NFe3w0aLlsr3ayIm0DC7vnE2kcKsaZINmVA,1900
+cubic_bezier_spline/other_solvers.py,sha256=ZOb9RDjKeqtDEetHhDWAH6PAn2znFSs7-8GB-9pYlj8,3100
+cubic_bezier_spline/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cubic_bezier_spline-0.4.0.dist-info/METADATA,sha256=-Nd2oBziijd4aVkomobwbPc2bW8rIz9eOdX6bmrjJFU,3591
+cubic_bezier_spline-0.4.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cubic_bezier_spline-0.4.0.dist-info/top_level.txt,sha256=-TMGQcDHl7mjBfg160vfxxQmmmnwX2fPt5DLF7z-er8,20
+cubic_bezier_spline-0.4.0.dist-info/RECORD,,
