@@ -1,0 +1,12 @@
+prefix="/private/var/folders/_6/l5r_71v11lx24sjycbkydkmr0000gn/T/build-via-sdist-z85r35td/gempyre-1.6.1/_skbuild/macosx-14.0-arm64-3.8/cmake-install/src/Gempyre"
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libwebsockets_static
+Description: Websockets server and client static library
+Version: 4.3.3-v4.3.3
+
+Libs: -L${libdir} -l:libwebsockets.a
+Libs.private:
+Cflags: -I${includedir}
