@@ -1,0 +1,17 @@
+NumberGenerate/IDCard.py,sha256=1eid8hT1gnuCqv2uL2T2SDzAQert2KAr5_Bdx6r4jbQ,9407
+NumberGenerate/Name.py,sha256=9XRD93FVDqfgbS6EQPJmRE684qud56i5C8mU0IxNJAo,37666
+NumberGenerate/Phone.py,sha256=XyOOdPqFGUhHTgniGAiSQI9RUqydcsWguSVFzfWeroE,4518
+NumberGenerate/SaveFile.py,sha256=BWmP5HEGR6DTbJoMDlkNnh1NbfuPRr8S3TrUl3evx68,1292
+NumberGenerate/User.py,sha256=OSe9vrGANuiQz601geDnlhrf1StRRdRbDvCOvWtpfH0,573
+NumberGenerate/__init__.py,sha256=ALvO9NXK0SRLaibYIsBGPtGWCgj0IY3kP6y7tmDmDQE,134
+NumberGenerate/errors.py,sha256=89WET-4kEeqsCmrQw3ie0ffhr0xARRmIcG7aUa00src,88
+NumberGenerate/api/__init__.py,sha256=6E13WDoim0fgViq3BrpobSzxDkOmTEiwfQgTRVuQoZA,30
+NumberGenerate/api/get_phone_api.py,sha256=66XaBp0qXhd5katafb5PDyEFX9N_Ypu8eN04aNwdxpU,3142
+NumberGenerate/db/__init__.py,sha256=0vFmqsDl9Tyo-nX49ymum4tvSN_ELMhofesIGOSNyyk,3483
+NumberGenerate/db/area_code.db,sha256=gn01gOdZ_RqXlt_QwWdVOLzYYldsSqB2vj7N3VlQUdY,46624768
+NumberGenerate/db/csv_db.py,sha256=--R2V3y8qU9v64nFQxSXeqWAyQ8KJw1VyU9Mj0tFI88,2257
+NumberGenerate/db/dat_csv.py,sha256=o9Me3at6Ho05Vqq5ToRVMEBLJMkaL0xDaOCZqlJm9-k,4981
+NumberGenerate-0.1.2.dist-info/METADATA,sha256=Cm9Alwp96M5NBy4W_rUhvFXgQr9XCaUhiO1YR7A0eOc,10750
+NumberGenerate-0.1.2.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+NumberGenerate-0.1.2.dist-info/top_level.txt,sha256=Vfn5DHIA6dh2wjNa_Y5MTaIcuTYgbNIhQHZiNIoRPhg,15
+NumberGenerate-0.1.2.dist-info/RECORD,,
