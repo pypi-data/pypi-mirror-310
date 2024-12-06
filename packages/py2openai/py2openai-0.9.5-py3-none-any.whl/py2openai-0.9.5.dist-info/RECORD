@@ -1,0 +1,10 @@
+py2openai/__init__.py,sha256=82rFzxjnhhYfT1HaIJiWsG4GaYwhXsZz0nhxeFdZk00,574
+py2openai/executable.py,sha256=ddulEA5kEmx3B4hzn169w-HEgtrb9Yy3ErSQraUlmyo,7150
+py2openai/functionschema.py,sha256=dQHuwfCnXzAV4QxUVYKhUTplIKvwgC1edB7fG1_6AW4,15416
+py2openai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py2openai/schema_generators.py,sha256=fijI7xS6yTF4IuHFAtRQ5UlrWX1MgYSbm6TJ4I4Dpec,4075
+py2openai/typedefs.py,sha256=Jh92NSqk2xh2juK6Fb9frkbPh04gEhsRu_f23Rw49q4,3299
+py2openai-0.9.5.dist-info/METADATA,sha256=WQY3g5s96hxWJ3cXYsIlljXwrvNhSvzKJM64GpcDGo4,12257
+py2openai-0.9.5.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+py2openai-0.9.5.dist-info/licenses/LICENSE,sha256=AteGCH9r177TxxrOFEiOARrastASsf7yW6MQxlAHdwA,1078
+py2openai-0.9.5.dist-info/RECORD,,
