@@ -1,0 +1,11 @@
+pyproject.toml
+readme.md
+src/stringflow/__init__.py
+src/stringflow/main.py
+src/stringflow/strings.py
+src/stringflow/utils.py
+src/stringflow.egg-info/PKG-INFO
+src/stringflow.egg-info/SOURCES.txt
+src/stringflow.egg-info/dependency_links.txt
+src/stringflow.egg-info/requires.txt
+src/stringflow.egg-info/top_level.txt

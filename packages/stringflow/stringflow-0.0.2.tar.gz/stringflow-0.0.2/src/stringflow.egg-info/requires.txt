@@ -1,0 +1,16 @@
+python-dotenv
+rich
+httpx
+pydantic
+blobfile
+tiktoken
+
+[dev]
+ruff
+ipython
+jupyter
+nbclient
+ipykernel
+
+[test]
+pytest
