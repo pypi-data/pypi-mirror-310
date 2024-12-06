@@ -1,0 +1,38 @@
+# Copyright (c) Jupyter Development Team.
+# Distributed under the terms of the Modified BSD License.
+
+[project]
+name = "jupyterlab_chat"
+version = "0.0.0a0"
+description = "A chat extension for jupyter application, based on shared documents"
+keywords = [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+]
+authors = [
+    {name = "Jupyter Development Team", email = "jupyter@googlegroups.com"}
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Framework :: Jupyter",
+    "Framework :: Jupyter :: JupyterLab",
+    "Framework :: Jupyter :: JupyterLab :: 4",
+    "Framework :: Jupyter :: JupyterLab :: Extensions",
+    "Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+HomePage = "https://github.com/jupyterlab/jupyter-chat"
+bugs = "https://github.com/jupyterlab/jupyter-chat/issues"
+repository="https://github.com/jupyterlab/jupyter-chat.git"

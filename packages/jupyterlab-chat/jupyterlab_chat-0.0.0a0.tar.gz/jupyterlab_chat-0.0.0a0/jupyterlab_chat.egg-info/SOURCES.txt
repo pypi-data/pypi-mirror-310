@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+jupyterlab_chat.egg-info/PKG-INFO
+jupyterlab_chat.egg-info/SOURCES.txt
+jupyterlab_chat.egg-info/dependency_links.txt
+jupyterlab_chat.egg-info/top_level.txt
