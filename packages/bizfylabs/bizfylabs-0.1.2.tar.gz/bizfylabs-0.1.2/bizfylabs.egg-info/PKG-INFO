@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bizfylabs
+Version: 0.1.2
+Summary: A large language model module named Yukti by Bizfy Labs
+Home-page: https://github.com/bizfylabs/bizfylabs
+Author: Bizfy Labs
+Author-email: dm.bizfylabs@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi==0.115.5
+Requires-Dist: uvicorn==0.32.1
+Requires-Dist: transformers==4.46.3
+Requires-Dist: torch==2.2.0
+
+# BizfyLabs
+
+BizfyLabs is a Python module that provides a large language model named Yukti. Yukti is a general-purpose instruction model developed by Bizfy Labs.
+
+## Installation
+
+You can install the bizfylabs module using pip:
+
+```bash
+pip install bizfylabs
