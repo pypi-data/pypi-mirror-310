@@ -1,0 +1,12 @@
+streamlit_chat_prompt/__init__.py,sha256=e78LAegg1bZXo9t1z7Iy34hb_PVogZfiNJ9aOJWvEoU,7573
+streamlit_chat_prompt/frontend/build/asset-manifest.json,sha256=dznwxx2zRVqWAPMn92ZPG3qgLOX9K6Bnuf8TdjwbXCg,221
+streamlit_chat_prompt/frontend/build/bootstrap.min.css,sha256=L7EzZr9yvfRPtzVsdnV0AruBPRzCDpeFLiZQBKBq17Y,197413
+streamlit_chat_prompt/frontend/build/index.html,sha256=7DTI4eBVliEiq8OrLn-0dBy-AZ7HX9ZyGzlzZd3Wfuc,492
+streamlit_chat_prompt/frontend/build/static/js/main.20e6a106.js,sha256=IngcKAnHrMBMMxwYatLPEI9Mxx7VF5HiEPihxX9gblg,525495
+streamlit_chat_prompt/frontend/build/static/js/main.20e6a106.js.LICENSE.txt,sha256=yBfMN18g1mTj_WCPqE2T8jkESGa84hm9-rT372DK6LM,1938
+streamlit_chat_prompt/frontend/build/static/js/main.20e6a106.js.map,sha256=Do0VR92Ed7za_tcwzdrJlg_Yf-rPVPyMCcOsToWIfEU,2290171
+streamlit_chat_prompt-0.2.0.dist-info/LICENSE,sha256=yYhVbYKWb6iWH__ouagvBFTWREdJILxlIMKW-6IcvEI,11341
+streamlit_chat_prompt-0.2.0.dist-info/METADATA,sha256=6RzipPTJVfgxvV8kG8YnN7PD8_uMTDQVB95YG81sAFM,8288
+streamlit_chat_prompt-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+streamlit_chat_prompt-0.2.0.dist-info/top_level.txt,sha256=D21zaqWWInqB0EG_zjv-Kzk2Kw3ukleygCjCiptdbRs,22
+streamlit_chat_prompt-0.2.0.dist-info/RECORD,,
