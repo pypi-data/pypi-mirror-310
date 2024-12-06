@@ -1,0 +1,22 @@
+Biopython
+XlsxWriter
+anyconfig
+cobra
+jsonschema
+openpyxl
+pandas
+pyranges
+python-libsbml
+scipy
+sympy
+tqdm
+versioneer
+
+[:python_version <= "3.10"]
+numpy<=1.26.4
+
+[:python_version <= "3.7"]
+anyconfig<0.14.0
+
+[:python_version > "3.10"]
+numpy>=2.0.0
