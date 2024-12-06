@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: acon
+Version: 0.1.0
+Summary: Adaptive Correlation Optimization Network (ACON)
+Home-page: https://github.com/torinriley/Adaptive-Correlation-Optimization-Network-ACON
+Author: Torin Etheridge
+Author-email: torinriley220@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+
+# ACON: Adaptive Correlation Optimization Networks
+
+This is a test of the ACON package.
+
+## Installation
+
+```bash
+pip install acon
