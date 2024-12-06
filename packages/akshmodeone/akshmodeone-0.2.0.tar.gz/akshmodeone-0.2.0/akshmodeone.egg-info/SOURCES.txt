@@ -1,0 +1,7 @@
+setup.py
+akashmodone/__init__.py
+akashmodone/pythonmath.py
+akshmodeone.egg-info/PKG-INFO
+akshmodeone.egg-info/SOURCES.txt
+akshmodeone.egg-info/dependency_links.txt
+akshmodeone.egg-info/top_level.txt
