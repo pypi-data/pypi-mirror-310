@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "project-makarov-b24-505"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "project_func" },
+]
+
+
+[tool.poetry.scripts]
+project = "project_func.scripts.main_base:main"
+database = "project_func.engine:database_main"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+prompt = "^0.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
