@@ -1,0 +1,15 @@
+ckanext-transmute<2,>=1.7.0
+html2markdown<1,>=0.1.7
+geojson<3,>=2.5.0
+jsonschema<4,>=3.0.0
+
+[csw]
+OWSLib<1,>=0.31.0
+
+[dev]
+pytest-ckan
+mkdocs<1.7,>=1.6.1
+mkdocs-material<10,>=9.5.42
+mkdocs-include-markdown-plugin<7,>=6.2.2
+mkdocstrings-python<2,>=1.11.1
+mkdocs-exclude<2,>=1.0.2
