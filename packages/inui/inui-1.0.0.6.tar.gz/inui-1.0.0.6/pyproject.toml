@@ -1,0 +1,42 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "uv"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inui"
+version = "1.0.0.6"
+description = "Powerful and Highly Customizable Python Library for UI"
+readme = "README.md"
+authors = [{ name = "Mohammadreza Amani", email = "more.amani@yahoo.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = [
+    'ui',
+    'python',
+    'html',
+    'framework',
+    'frontend',
+    'css',
+    'bootstrap',
+    'tailwind',
+]
+dependencies = []
+requires-python = ">=3.5"
+
+[project.optional-dependencies]
+full = ["black", "bs4", "lxml", "watchdog", "websockets"]
+
+[project.urls]
+Homepage = "https://github.com/MohammadrezaAmani/"
+
+[tool.setuptools]
+py-modules = ['inui']
+
+[project.scripts]
+inui = "inui.__main__:main"
