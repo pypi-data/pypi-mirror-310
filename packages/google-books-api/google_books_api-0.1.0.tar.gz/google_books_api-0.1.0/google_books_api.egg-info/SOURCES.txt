@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+google_books_api/GoogleBook.py
+google_books_api/GoogleBookSearchResult.py
+google_books_api/GoogleBooksAPI.py
+google_books_api/__init__.py
+google_books_api/utils.py
+google_books_api.egg-info/PKG-INFO
+google_books_api.egg-info/SOURCES.txt
+google_books_api.egg-info/dependency_links.txt
+google_books_api.egg-info/requires.txt
+google_books_api.egg-info/top_level.txt

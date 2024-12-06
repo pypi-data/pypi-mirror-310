@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: google-books-api
+Version: 0.1.0
+Summary: A Python wrapper for the Google Books API
+Home-page: https://github.com/UltraViolet33/google-books-api
+Author: UltraViolet33
+Author-email: 93035200+UltraViolet33@users.noreply.github.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.20
