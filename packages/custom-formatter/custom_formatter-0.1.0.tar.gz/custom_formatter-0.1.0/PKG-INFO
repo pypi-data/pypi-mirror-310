@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: custom_formatter
+Version: 0.1.0
+Summary: A lightweight package for formatting and serializing messages.
+Home-page: https://github.com/manidasari27/formatter
+Author: mani
+Author-email: mani.dasari3027@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Formatter
+
+Formatter is a lightweight Python package for formatting and serializing messages. It simplifies the process of creating structured data for logging, notifications, and integrations with AWS services.
+
+## Installation
+
+```bash
+pip install formatter
+```
