@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ls-infra
+Version: 0.1.0
+Summary: Infrastructure management tools
+Requires-Python: >=3.12
+License-File: LICENSE
