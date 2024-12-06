@@ -1,0 +1,8 @@
+[console_scripts]
+filter = ft.commands.filter:Filter.main
+foldl = ft.commands.foldl:Foldl.main
+foldl1 = ft.commands.foldl1:Foldl1.main
+ft-functions = ft.commands.ft_functions:main
+map = ft.commands.map:Map.main
+sort_by = ft.commands.sort_by:SortBy.main
+take_while = ft.commands.take_while:TakeWhile.main
