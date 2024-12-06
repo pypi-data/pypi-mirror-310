@@ -1,0 +1,9 @@
+[console_scripts]
+pysails = sails.glycosylate:run_python
+sails = sails.glycosylate:run_cli
+sails-compare = sails.compare:run
+sails-find = sails.find:run
+sails-morph = sails.morph:run
+sails-snfg = sails.snfg:run
+sails-test = sails.test:run
+sails-wurcs = sails.wurcs:run
