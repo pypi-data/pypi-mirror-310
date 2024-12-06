@@ -1,0 +1,16 @@
+adios4dolfinx/__init__.py,sha256=jNVYJ1pAQjquRRenaKDLqbWuWw6sdtuTuin7Px7PZtA,1167
+adios4dolfinx/adios2_helpers.py,sha256=pTxUzXBMY_Y-KG4YBUKEe5t53mDCB6kcRJBYyS4LtLI,9964
+adios4dolfinx/checkpointing.py,sha256=VyuFEX1jJ9lZnmcpKDXc12uFuTvE7tjUgp1AZGWfpCo,28651
+adios4dolfinx/comm_helpers.py,sha256=rAFKvM9XTr-j6jDSe4sSTiiavNaoJhrVrfmXMeWgKDg,9744
+adios4dolfinx/legacy_readers.py,sha256=OiffZW91Gv7Yxd3kCxAJfhN3vaCsL4S4BxebY-LktiU,15063
+adios4dolfinx/original_checkpoint.py,sha256=1V4XyWhy84JfD6YFOF3-9S4mthXLELqKeg_oVUpJvxg,16243
+adios4dolfinx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adios4dolfinx/snapshot.py,sha256=wVGXUwDhCoAnZfAm3RtvF0vHIIpsObtAoPmLJR7sVto,1873
+adios4dolfinx/structures.py,sha256=eYEmp4o6OZQ4SeezTVus1V_C-8y6LEh31KYIGm_iYfE,2209
+adios4dolfinx/utils.py,sha256=9PtUK45IVdZCKLh2PD_moANLNK3zwQAX_8rjio3cmSo,5912
+adios4dolfinx/writers.py,sha256=9ylZBxqEMFhfT3niTlYPMu2FxyMjHBf5J160WQ7pxHk,6926
+adios4dolfinx-0.9.1.dist-info/LICENSE,sha256=zd9gJBeLiR1R8KCgs6EFyFHGcxzEam3Ijs1STdFuQaA,1057
+adios4dolfinx-0.9.1.dist-info/METADATA,sha256=EzUybWecN8HOC6F6Uwpr2ODGBBU0t3LlQbHDN0mS56c,9449
+adios4dolfinx-0.9.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+adios4dolfinx-0.9.1.dist-info/top_level.txt,sha256=cShs14ge-BaUMNLp4EPIsq8mwRe4ZK4peFyS3FOmQ3g,14
+adios4dolfinx-0.9.1.dist-info/RECORD,,
