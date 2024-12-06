@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tfprob
+Version: 0.0.1
+Summary: tfprob
+Home-page: http://github.com/tensorflow/probability/
+Author: Google Inc.
+Author-email: packages@tensorflow.org
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+
+tfprob: Exntension of TensorFlow Probability
+=======================
+
+
+Packages:
+
+- `tf`:   `tensorflow`
+
+- `tfk`:  `tensorflow.keras`
+
+- `tfp`:  `tensorflow_probability`
+
+- `tfb`:  `tensorflow_probability.bijectors`
+
+- `tfd`:  `tensorflow_probability.distributions`
+
+
+Note: We no longer maintain our own version of probability framework. Please use the version provided by TensorFlow instead.
+
