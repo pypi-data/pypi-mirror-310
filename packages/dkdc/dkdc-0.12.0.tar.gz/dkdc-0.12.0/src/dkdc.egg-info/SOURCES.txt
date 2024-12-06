@@ -1,0 +1,15 @@
+pyproject.toml
+readme.md
+src/dkdc/__init__.py
+src/dkdc/open.py
+src/dkdc.egg-info/PKG-INFO
+src/dkdc.egg-info/SOURCES.txt
+src/dkdc.egg-info/dependency_links.txt
+src/dkdc.egg-info/entry_points.txt
+src/dkdc.egg-info/requires.txt
+src/dkdc.egg-info/top_level.txt
+src/dkdc/ui/cli.py
+src/dkdc/ui/console.py
+src/dkdc/ui/gui/__init__.py
+src/dkdc/ui/gui/main.py
+src/dkdc/ui/gui/todos.py
