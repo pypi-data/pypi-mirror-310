@@ -1,0 +1,16 @@
+_chacha/_chacha.c,sha256=jZ5fQc-pF7yVrqrl4UAtGqZYYMtIS-w0q-huQueaF7I,359411
+_chacha/config.h,sha256=RczIdFhnA1zHyDeCYp6i5K9evo6jYgUQXllhWnaM418,6117
+_chacha/machine.h,sha256=ZWgGsA0buGikrosfExcSuPFzVPOAkaJl5y4ZGIb7lWo,1124
+_chacha/portable.h,sha256=GX_bwn2jBajJdy0loCIPd2sOfzqtcxMO_x10HUoBspE,7616
+chacha/__init__.py,sha256=n5dqY_ivAXFgyndNODaRM-Zx0bPWNfyM74McettaOis,6405
+chacha/_chacha.cp313-win32.pyd,sha256=YCmY5NDHYOEko_t29FhREKmsenhQ4_LtEL-LVKZM7UQ,46592
+chacha/decrypt/__init__.py,sha256=VicOK5qdS86hYA5AsbO6jgqtfUOxmV5TSIPAHnP8MJ4,50
+chacha/decrypt/__main__.py,sha256=aRRgSl9d-g_5VprxOI8JdeJgX8e5tS0fD8Y9PyHVNOg,45
+chacha/encrypt/__init__.py,sha256=Vf-9pb6rnPcT491WzjFNOUYcGPT1YWcsPS4OSxkF_ys,52
+chacha/encrypt/__main__.py,sha256=ZjJ-tfc55e310sQEY-MpsvxSD19Y3qMRgQqjdPDLexQ,47
+chafe-1.0.0a7.dist-info/LICENSE,sha256=8pWFj8nJqdjI37gXLMBuivQGfhyOyNzO4TmDuF41taA,1199
+chafe-1.0.0a7.dist-info/METADATA,sha256=ZJAUJY1Syzd773T5Be4DNODkMvVDIqwZUxOjt19tNcU,2775
+chafe-1.0.0a7.dist-info/WHEEL,sha256=pUXSsnGWJ09R6rv65E7mPoM8rWovBqrkySmEuK3ly_A,97
+chafe-1.0.0a7.dist-info/entry_points.txt,sha256=eOG1IIdIcjng_5ced9hWjkWQgugeR5bgmjik9yq_ybI,92
+chafe-1.0.0a7.dist-info/top_level.txt,sha256=drT_7i2cF7WR7U10ogrTDVr9zWI34yVcvA0CC_6Ha5c,15
+chafe-1.0.0a7.dist-info/RECORD,,
