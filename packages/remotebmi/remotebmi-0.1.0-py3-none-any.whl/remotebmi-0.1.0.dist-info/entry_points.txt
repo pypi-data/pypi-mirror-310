@@ -1,0 +1,2 @@
+[console_scripts]
+run-bmi-server = remotebmi.server:main
