@@ -1,0 +1,9 @@
+api/__init__.py,sha256=t9dbILNR7Tzl-eCTQgt3n-NxaAZUXkb9Q3Qi5yk4YjA,208
+api/client.py,sha256=nj_bYvwjAfSWmOF5ll9b9F3f-japPfhXMa95VosK0a8,13254
+api/constants.py,sha256=MFvlEVn9a_mVsBOJO1152I75bTVDMc0XPKqKntbvPjM,320
+api/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api/util/convert.py,sha256=fbe7Khh-d1LCHDMQ0zJ4rWpCSf-dS2LhDo5jUdFjU2E,2611
+lib_headspace-0.0.8.dist-info/METADATA,sha256=IBFI8HvLYh1SDX9QUAKxXUiyP7LomAeYwYzvsqdZXtA,2376
+lib_headspace-0.0.8.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+lib_headspace-0.0.8.dist-info/top_level.txt,sha256=0XF5TFwfelCuuPcFarhKT7zW-9WUsZmb3a790D78BZE,4
+lib_headspace-0.0.8.dist-info/RECORD,,
