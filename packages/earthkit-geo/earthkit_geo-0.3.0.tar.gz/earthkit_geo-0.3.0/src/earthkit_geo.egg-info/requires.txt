@@ -1,0 +1,7 @@
+pyproj
+cartopy
+scipy
+
+[test]
+pytest
+pytest-cov
