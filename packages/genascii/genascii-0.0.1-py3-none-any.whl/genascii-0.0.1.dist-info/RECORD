@@ -1,0 +1,13 @@
+genascii/about.py,sha256=NvaUS7wV8hI4GBT8CgWH_h-F7h5HTFhDs7nR2xdRqmo,46
+genascii/consts.py,sha256=pQWIXn_KadU4TlniVFQcsXbRpisuTU-biZO6aTRe9Rw,293
+genascii/img2img.py,sha256=DWvT6prziXjdEOW7g5iS3D3p3nZfmcdfKmzjG0I-Oa0,2933
+genascii/img2img_color.py,sha256=XvlkaKSi4RBT0xBAKafvVxGm-QRhfih09J8Pu1-ms8A,2955
+genascii/img2txt.py,sha256=LGh5aKRGeb-8QziqV6xYEdXkVhr3R1mMXPve8c9_gAY,2474
+genascii/utils.py,sha256=FWa29eIp_wbPpX0JO14O01KT6YT5FidPuuEHBuXXw4I,2623
+genascii/video2video.py,sha256=h3tTfB-93FXSUT_18AI5dfsqES-eXJhz5LbZSnPD4LU,4585
+genascii/video2video_color.py,sha256=ZaENAvOfFRf0hhpGR3L_07-OZZqQJP1nDDqA7JsIl4Q,4161
+genascii-0.0.1.dist-info/LICENSE,sha256=S62QDvq4C_WVKm3ryBPc0KhLqJZ0eswfIeWy3pq0gdc,1068
+genascii-0.0.1.dist-info/METADATA,sha256=dnT1X1n73JAqisz6Xlmp2grsxVnpA4Cg4F4H1GcCmHw,5229
+genascii-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+genascii-0.0.1.dist-info/top_level.txt,sha256=qyQdDCdJwgUYx1BYEd2USOG-BWDzzannM_LqiyuCD5s,9
+genascii-0.0.1.dist-info/RECORD,,
