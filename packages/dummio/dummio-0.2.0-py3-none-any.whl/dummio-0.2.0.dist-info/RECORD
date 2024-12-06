@@ -1,0 +1,10 @@
+dummio/__init__.py,sha256=TD0FY5IuLLGLPvkW3RuUVpeZpRAzgkSsbGT2-rNoIFk,276
+dummio/constants.py,sha256=jY7fKiHc6o6VO0vfpIiAuvI6UqXyTiv0QRlpCCrg8VE,211
+dummio/json.py,sha256=WrxKT8VNxDtEV8z7uXxaEoA0cPhs7bYdx7UqRMwSNXE,574
+dummio/text.py,sha256=VYnrsa34rVoi4Bs_klgDA35TPVtpQS8jbpuAZL0x3x0,521
+dummio/yaml.py,sha256=ao5T30ZcTIdzPBVxtY6HqnpHRMHRNQ-yLj7TdAVMbwM,598
+dummio-0.2.0.dist-info/LICENSE,sha256=ZDmTXLFP1G-SZBSpdN-oRM7KIAICDfM6OYtS1bWHJfM,1070
+dummio-0.2.0.dist-info/METADATA,sha256=inDpKvAsXlL_MBqXcviz3n_th2gT_SL2pRvv3Zid0fw,1487
+dummio-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dummio-0.2.0.dist-info/top_level.txt,sha256=pD4i9LvTjDzrJLCVgMoSecFzCbZNdMbuaHhfQGdx5rY,7
+dummio-0.2.0.dist-info/RECORD,,
