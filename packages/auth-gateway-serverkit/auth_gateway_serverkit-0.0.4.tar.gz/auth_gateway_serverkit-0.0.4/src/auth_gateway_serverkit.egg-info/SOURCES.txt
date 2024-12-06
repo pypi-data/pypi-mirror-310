@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/auth_gateway_serverkit/__init__.py
+src/auth_gateway_serverkit/main.py
+src/auth_gateway_serverkit.egg-info/PKG-INFO
+src/auth_gateway_serverkit.egg-info/SOURCES.txt
+src/auth_gateway_serverkit.egg-info/dependency_links.txt
+src/auth_gateway_serverkit.egg-info/top_level.txt
