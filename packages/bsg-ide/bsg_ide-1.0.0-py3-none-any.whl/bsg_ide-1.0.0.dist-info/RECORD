@@ -1,0 +1,9 @@
+bsg_ide/__init__.py,sha256=RVCRC0CjFEXbROiu7XH3n0zmps4wfYhYvjNu1MYCVmE,272
+bsg_ide/generator.py,sha256=VAku_IMO7934ez3ax9ozDvrmW9b2lBG_gEVLdsicqQg,52949
+bsg_ide/main.py,sha256=uihHjQbO9ryJ-WJp90EmPplohHQi7yam7gqeeidPcqc,181848
+bsg_ide-1.0.0.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+bsg_ide-1.0.0.dist-info/METADATA,sha256=SxmjmTFVMVG7yK8VzFFXXeywoSJKf0w4nKS4A75hmYc,1740
+bsg_ide-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bsg_ide-1.0.0.dist-info/entry_points.txt,sha256=NEJOfdbdI-2B8i-s_K4bjqWZkU5ON6EzzRJUmCouOo0,49
+bsg_ide-1.0.0.dist-info/top_level.txt,sha256=2vBAg11sh1HE4T69-TYdOiQ-ePvrOhhXIUU5m8qPR40,8
+bsg_ide-1.0.0.dist-info/RECORD,,
