@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+charizard_vla/__init__.py
+charizard_vla/pokedex.py
+charizard_vla/pokeegg.py
+charizard_vla.egg-info/PKG-INFO
+charizard_vla.egg-info/SOURCES.txt
+charizard_vla.egg-info/dependency_links.txt
+charizard_vla.egg-info/entry_points.txt
+charizard_vla.egg-info/top_level.txt
