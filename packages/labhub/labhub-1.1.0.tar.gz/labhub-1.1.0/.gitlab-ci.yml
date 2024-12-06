@@ -1,0 +1,25 @@
+variables:
+  GITHUB_MIRROR_URL: "/hamolicious/labhub.git"
+
+include:
+  - project: "gitlab/default-pipelines"
+    file: "/gitlab-ci/PyPi.gitlab-ci.yml"
+  - project: "gitlab/default-pipelines"
+    file: "/gitlab-ci/mirror.gitlab-ci.yml"
+
+test:
+  stage: test
+  image: python:3.12
+  before_script:
+    - export GITHUB_TOKEN=$GITHUB_TOKEN
+    - export GITLAB_TOKEN=$GITLAB_TOKEN
+    - pip install -r requirements.txt
+
+  script:
+    - pytest -vv
+
+mirror_to_github:
+  needs:
+    - publish
+    - test
+  when: on_success
