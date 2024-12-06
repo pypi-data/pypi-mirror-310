@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: listcolouring
+Version: 0.2.0
+Summary: List colouring of graphs in Python.
+License: MIT
+Author: Matthew Henderson
+Author-email: matthew.james.henderson@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/listcolouring.svg)](https://badge.fury.io/py/listcolouring)
+![python package](https://github.com/MHenderson/listcolouring/actions/workflows/python-package.yml/badge.svg)
+![python publish](https://github.com/MHenderson/listcolouring/actions/workflows/python-publish.yml/badge.svg)
+
+# listcolouring
+
+List colouring of graphs in Python.
+
+
