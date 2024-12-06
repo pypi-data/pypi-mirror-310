@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: evchargingfinderlib
+Version: 0.1.0
+Summary: A library that returns current datetime with a booking success message
+Home-page: 
+Author: Saigowtham x23337818@student.ncirl.ie
+Author-email: x23337818@student.ncirl.ie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# My Library
+
+A simple library that returns the current datetime with a booking success message.
+
+## Installation
+
+```bash
+pip install evchargingfinderlib
