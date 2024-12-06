@@ -1,0 +1,16 @@
+doudesu/__init__.py,sha256=T3SsZuXY6YNvzBAmI6UlwCUkpFJmWbVzFJsDRjb7MT0,256
+doudesu/__main__.py,sha256=dEGNmBEfSSU-_aNWueIPYqNXAg2rBimQ1r71EH885HU,3858
+doudesu/cli.py,sha256=mTRQnrkH164G2QfMXhp0-JURGWS06KM1RXjIpvQsDUc,16635
+doudesu/constants.py,sha256=tRSaRCz1QGJGDTGDM3gTLi04iZ7rdmB7S4GzaJ7be2Y,720
+doudesu/converter.py,sha256=trz64v-tKDlpiS0W3zVahU1VnbyWXvk-ugqZTw-H9Mk,4609
+doudesu/converter.py~,sha256=cffFuXqgYaG5ntpV97jjOLri-O51PPSt-jbLP5gzvGU,2201
+doudesu/doudesu.py,sha256=0WmdsP8ujBLRLjmpxCj5M5u9cRpd1_luAi9GZyCcbpM,7894
+doudesu/doudesu_flet.py,sha256=YrmfVBGMkcpovkgH67PRKpsW66HPJBlkhyuoT840yZo,50390
+doudesu/loading_animation.py,sha256=ZkZXZUVajChv0OnZc8szYSToszNZTK3tXBZl9IlA2Qg,2611
+doudesu/models.py,sha256=5IGFFmZPbk1p81IRjEVmeK1VwyYZDAcgfxIxh9GjRsk,2724
+doudesu/assets/logo.png,sha256=FTxQ5wtmIYK_wYHf7YWndviVMboEF4M8zz8ACxmolEE,21790
+doudesu-0.3.0.dist-info/METADATA,sha256=KbX3Dq0ZE2GbeA37dHxa62WnCdskajxCxWGt-xLiP1o,5905
+doudesu-0.3.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+doudesu-0.3.0.dist-info/entry_points.txt,sha256=OYTHY7c7ie7j4E1oQAYpkKkwAYot4mYRqZ-QBaUqgTQ,50
+doudesu-0.3.0.dist-info/licenses/LICENSE,sha256=hrevUivaXdCFH6iBRTvT--nUNFEXiPnu1wQ1qk6AVdw,1086
+doudesu-0.3.0.dist-info/RECORD,,
