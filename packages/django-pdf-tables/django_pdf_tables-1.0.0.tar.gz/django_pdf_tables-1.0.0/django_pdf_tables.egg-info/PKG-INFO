@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: django-pdf-tables
+Version: 1.0.0
+Summary: A Django app for processing PDF documents with tables
+Home-page: https://github.com/PragmaticMates/django-pdf-tables
+Author: Pragmatic Mates
+Author-email: info@pragmaticmates.com
+Maintainer: Pragmatic Mates
+Maintainer-email: info@pragmaticmates.com
+License: Apache2 License
+Keywords: django pdf table document export render
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 3 - Alpha
+License-File: LICENSE
+Requires-Dist: fpdf
+Requires-Dist: django>=3
+
+# django-pdf-tables
+A Django app for processing PDF documents with tables 
