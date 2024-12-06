@@ -1,0 +1,123 @@
+# Better Minecraft Remote Console
+
+This library utilizes SQLLite3 and Prompt Toolkit to improve upon the mccron package.
+Several improvements have been made to include history, word completion, and an 
+extensive database for many Minecraft console commands. 
+
+**The database is required in order to run this tool.**
+
+## Cloning the Repository
+
+You must have git installed.
+
+```
+git clone https://newgit.inuxnet.org/devel/bettermcrcon.git
+```
+
+## Installation
+
+You can install this library locally by issuing the following command. It is recommended 
+to use a python virtual environment. 
+
+### Setting up and activating the Python Virtual Environment
+
+It is recommended install within a Python Virtual Environment installed, please review 
+your specific OS instructions to install VirtualEnv on your system.
+
+From the directory of the repository:
+
+```
+python3 -m venv venv
+```
+
+Depending on your OS you may need to source different files. These are located in 
+`venv\scripts` on Windows and `venv/bin` on Unix, Linux and OSX.
+
+Windows Command Line:
+```
+venv\scripts\activate.bat
+```
+
+Windows Powershell:
+```
+. venv\scripts\activate.ps1
+```
+
+Unix, Linux, OSX:
+```
+. venv/bin/activate
+```
+
+To exit the Virtual Environment:
+
+```
+deactivate
+```
+
+### Installing using the setup.py
+
+All commands should be run from the root directory of the repository.
+```
+pip install -r requirements.txt
+python3 setup.py install
+```
+
+### Installing from [PyPi](https://pypi.org)
+
+```
+pip install mcterm
+```
+
+### Usage
+
+Installation will install `mcterm` inside the bin path and should be accessible. 
+The database must be created or installed. If the database cannot be found, 
+`mcterm` will attempt to create by locating or downloading the SQL Dump of the 
+database. If this fails, the program will not run.
+
+```
+Usage: mcterm [--host <value>] [--port <value>] [--password <value>] [--prompt <value>]
+
+    --host     - The hostname or IP of the Minecraft Server
+    --port     - The port of the Minecraft Server is listening on for Console.
+    --password - The password for the server.
+    --prompt   - Custom Prompt (Defaults to '<host>:<port> >>> ')
+```
+
+#### Non-MC Commands:
+
+```
+<host>:<port> >>> ? <command> # Launches a browser tab for online help
+<host>:<port> >>> exit        # Exits the console
+<host>:<port> >>> quit        # Exits the console
+```
+
+#### Example Usage:
+
+```
+$ mcterm
+Server Hostname or IP: 192.168.1.3
+Server Port: 11111
+Enter Password: secretpassword
+Database is valid.
+192.168.1.3:11111 >>> ? enchant
+```
+
+```
+$ mcterm --host 192.168.1.3 --port 11111
+Enter Password: secretpassword
+Database is valid.
+192.168.1.3:11111 >>> help advancement
+```
+
+```
+$ mcterm --host 192.168.1.3 --port 11111 --password 'secretpassword'
+Database is valid.
+192.168.1.3:11111 >>> give bob iron_block 64
+```
+
+```
+$ mcterm --host 192.168.1.3 --port 11111 --password 'secretpassword' --prompt 'MyServer >>> '
+Database is valid.
+MyServer >>> ? advancement
+```
