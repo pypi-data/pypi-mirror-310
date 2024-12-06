@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dbt-shuttle
+Version: 0.0.2
+Summary: A toolkit for managing DBT and data shuttle SQL transformations
+Home-page: https://github.com/mz223032/dbt-shuttle
+Author: zhuang mei
+Author-email: 1213258400@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: google-auth>=2.21.0
+Requires-Dist: google-cloud-secret-manager>=2.16.0
+
+# dbt-shuttle
+A toolkit for managing DBT and data shuttle SQL transformations
