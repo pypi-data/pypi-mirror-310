@@ -1,0 +1,4 @@
+oasys1_xoppy
+orangecontrib
+orangecontrib.xoppy
+orangecontrib.xoppy.widgets
