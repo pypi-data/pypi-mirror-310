@@ -1,0 +1,8 @@
+imagequant-1.1.3.dist-info/METADATA,sha256=0a3E8-BOpLOgMEQDXa3leNi1A-srJfE0aIu_zIbb_78,6824
+imagequant-1.1.3.dist-info/RECORD,,
+imagequant-1.1.3.dist-info/top_level.txt,sha256=9AzQ9NgvAz4fDBTQwr6nG2LtlMnV88Dm3IGIkx0ZfGo,11
+imagequant-1.1.3.dist-info/WHEEL,sha256=Kn109NXuT8KgFUFBR7C2ZbCThqiQvDDPWZsf0xScqBs,147
+imagequant-1.1.3.dist-info/LICENSE,sha256=9_cp3-2wmxCDMCF0fEfyfp5YPDccmL0a7-ej3cZrZHw,1497
+imagequant/libimagequant_build.py,sha256=GI7f4SwIhpsAdwBDcxZFYqfaYNCCnjQ4ZCXEelq7R3Y,803
+imagequant/__init__.py,sha256=h76O5LM8-mEpIcE26kEUlFde3oozezTgBepj2hZ_rKI,6905
+imagequant/_libimagequant.abi3.so,sha256=55iWtE74nYhHTWxwcXiMXKVdBgppHfCcRKXWUxosG6Q,600648
