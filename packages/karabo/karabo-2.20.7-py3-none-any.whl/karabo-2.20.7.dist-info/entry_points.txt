@@ -1,0 +1,8 @@
+[console_scripts]
+ikarabo = karabo.interactive.ikarabo:main
+karabo = karabo.interactive.karabo:main
+karabo-middlelayerserver = karabo.middlelayer.device_server:MiddleLayerDeviceServer.main
+
+[karabo.middlelayer_device]
+PropertyTestMDL = karabo.middlelayer_devices.property_test:PropertyTestMDL
+
