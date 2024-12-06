@@ -1,0 +1,3 @@
+[console_scripts]
+caiman=caiman.run:main
+
