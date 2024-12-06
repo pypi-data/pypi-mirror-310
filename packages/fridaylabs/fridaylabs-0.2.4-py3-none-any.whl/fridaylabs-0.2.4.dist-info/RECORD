@@ -1,0 +1,15 @@
+fridaylabs/__init__.py,sha256=4ovzGQYV93KetMwxjf0ALCa6BcPcsT4GExDxAYksr-4,138
+fridaylabs/client.py,sha256=VoRHmeCRC9a9BiJU57Qe64Gsye6tRADTq_0jOdNIaDA,3763
+fridaylabs/endpoints/__init__.py,sha256=IBGbnnERVdB-Jizn1MLyePlSnI9AXBthP2FOUw17Rgw,80
+fridaylabs/endpoints/chat.py,sha256=fIg7dsy_hJeCFrKaijVbmD-NThX27XC8yA-lWAYTjPk,3531
+fridaylabs/endpoints/other_endpoint.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fridaylabs/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fridaylabs/utils/colors.py,sha256=exb4PdkAD0wbZcFfg-u71Mm6AeVOj3DGqZihQ_3yfeI,300
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_chat.py,sha256=PwEowMKFxexEEIUUaAk-_TL2BZnhdyflNqZDVNn90ZY,940
+tests/test_client.py,sha256=MxokbhmJZDP0cULAKW15hiv-YIqUm4dTqqX39VBBiX8,1431
+fridaylabs-0.2.4.dist-info/LICENSE,sha256=IMeiNxoITbPy7IMimBJ4HYi-rGHSfH7cEUyzvGwsrDQ,1091
+fridaylabs-0.2.4.dist-info/METADATA,sha256=z5UROLFO4YZ2RiL4cdJS3LlWM4fSA3jTubTJcUrezXU,1847
+fridaylabs-0.2.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fridaylabs-0.2.4.dist-info/top_level.txt,sha256=PNos8OLeXZOyF6k6khGZ3GG_CvW43bPGwiuxY6s4usA,17
+fridaylabs-0.2.4.dist-info/RECORD,,
