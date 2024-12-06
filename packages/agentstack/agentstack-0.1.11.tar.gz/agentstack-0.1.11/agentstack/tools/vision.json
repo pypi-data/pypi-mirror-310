@@ -1,0 +1,6 @@
+{
+  "name": "vision",
+  "packages": [],
+  "env": "",
+  "tools": ["vision_tool"]
+}
