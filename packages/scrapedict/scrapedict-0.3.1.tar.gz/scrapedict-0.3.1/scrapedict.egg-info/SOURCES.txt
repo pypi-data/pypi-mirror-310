@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+scrapedict/__init__.py
+scrapedict.egg-info/PKG-INFO
+scrapedict.egg-info/SOURCES.txt
+scrapedict.egg-info/dependency_links.txt
+scrapedict.egg-info/requires.txt
+scrapedict.egg-info/top_level.txt
+tests/test_scrapedict.py

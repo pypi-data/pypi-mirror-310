@@ -1,0 +1,4 @@
+beautifulsoup4<5.0,>=4.4
+parse<2.0,>=1.18
+ftfy<7.0.0,>=6.1.1
+normality<3.0.0,>=2.5.0
