@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: hrcl_jobs
+Version: 1.8.1
+Summary: Runs python functions on worker threads with main thread communicating with sql/postgresql db
+Author-email: "Austin M. Wallace" <awallace43@gatech.edu>
+Project-URL: Homepage, https://github.com/Awallace3/hierarchical_python_jobs
+Project-URL: Bug Tracker, https://github.com/Awallace3/hierarchical_python_jobs/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: qm-tools-aw
+Requires-Dist: numpy >=1.20.0
+Requires-Dist: pandas >=1.4.3
+Provides-Extra: ad4_vina_calculations
+Requires-Dist: autodock-vina ; extra == 'ad4_vina_calculations'
+Provides-Extra: openmm_calculations
+Requires-Dist: openmm ; extra == 'openmm_calculations'
+Provides-Extra: psi4_calculations
+Requires-Dist: psi4 >=1.7 ; extra == 'psi4_calculations'
+
+# Hierarchical Python Jobs (hrcl_jobs)
+
+# Installation
+```bash 
+pip install hrcl-jobs
+```
+**NOTE** if you are using macos, you might need to do the following to install with pip
+```bash 
+brew install mpich
+sudo find / -name mpicc
+```
+And then run the pip install with the path to your mpicc
+```bash
+env MPICC=/yourpath/mpicc pip3 install hrcl-jobs
+```
+
+## Features To Add
+### QCElemental + BSExchange for NBF
+```
+I think the demo I cooked up for the qcsk talk might be handy here:
+import json
+import qcelemental as qcel
+import basis_set_exchange as bse
+
+mol = qcel.models.Molecule.from_data("""
+C 0 0 0
+O 0 0 1.2
+H 0 -1.0 -0.3
+H 0  1.0 -0.3
+""")
+print(mol)
+#> Molecule(name='CH2O', formula='CH2O', hash='2af8547')
+
+# get all elements from BSE
+sbas = bse.get_basis("cc-pvdz", elements=mol.symbols.tolist(), fmt="qcschema")
+# prepare schema specialized for molecule
+bas = qcel.models.BasisSet(**json.loads(sbas), 
+          atom_map=["c_cc-pVDZ", "o_cc-pVDZ", "h_cc-pVDZ", "h_cc-pVDZ"])
+print(f"{bas.name=} {bas.nbf=}")
+#> bas.name='cc-pVDZ' bas.nbf=26
+the above gets nbf applied to a molecule and https://github.com/MolSSI/QCElemental/blob/master/qcelemental/models/molecule.py#L1181 mol.nelectrons gets occupancy, and from those you can get nocc/nvir
+molecule.py
+    def nelectrons(self, ifr: int = None) -> int:
+```
