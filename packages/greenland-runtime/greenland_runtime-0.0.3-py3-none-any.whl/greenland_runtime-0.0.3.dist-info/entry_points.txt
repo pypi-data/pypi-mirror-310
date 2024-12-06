@@ -1,0 +1,2 @@
+[console_scripts]
+greenland-debug = greenland.runtime.bin.greenland_debug:main
