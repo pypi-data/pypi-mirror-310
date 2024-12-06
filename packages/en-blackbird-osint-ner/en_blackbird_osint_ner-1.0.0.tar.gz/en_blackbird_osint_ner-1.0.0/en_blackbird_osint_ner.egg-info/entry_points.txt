@@ -1,0 +1,2 @@
+[spacy_models]
+en_blackbird_osint_ner = en_blackbird_osint_ner
