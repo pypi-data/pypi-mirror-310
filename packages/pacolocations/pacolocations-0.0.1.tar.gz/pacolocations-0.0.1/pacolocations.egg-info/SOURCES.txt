@@ -1,0 +1,7 @@
+setup.py
+pacolocations.egg-info/PKG-INFO
+pacolocations.egg-info/SOURCES.txt
+pacolocations.egg-info/dependency_links.txt
+pacolocations.egg-info/entry_points.txt
+pacolocations.egg-info/requires.txt
+pacolocations.egg-info/top_level.txt
