@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: openblacklist
+Version: 1.0.5
+Summary: Official client for openblacklist API
+Home-page: https://openbl.clarty.org/
+License: MIT
+Author: Awakno
+Author-email: contact@awakno.fr
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Requires-Dist: fastapi (>=0.115.5,<0.116.0)
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: uvicorn (==0.32.1)
+Project-URL: Repository, https://github.com/Awakno/OpenBlacklist-py
+Description-Content-Type: text/markdown
+
+```sh
+pip install openblacklist
+```
+
+# OpenBlacklist
+
+Official client for the OpenBlacklist API.
+
+## Description
+
+OpenBlacklist is a Python client library for interacting with the OpenBlacklist API. It allows you to check if a user is blacklisted, handle webhooks, and trigger specific events based on webhook data.
+
+## Installation
+
+You can install the library using Poetry:
+
+```sh
+poetry add openblacklist
+```
+
+Or
+
+````sh
+pip install openblacklist
+```
+
+## Usage
+
+```py
+from openblacklist import OpenBlacklistClient
+
+api_key = "your_api_key"
+client = OpenBlacklistClient(api_key)
+```
+
+### Check if user is blacklisted
+
+```py
+import asyncio
+
+async def check_user():
+    user_id = 12345
+    user_blacklist = await client.check_user(user_id)
+    print(user_blacklist)
+
+asyncio.run(check_user())
+```
+
+### Handling Webhooks
+To handle webhooks, you need to set up an endpoint and define event handlers.
+
+```py
+@client.event("add")
+async def handle_add_event(event):
+    print(f"User added: {event.user}")
+
+@client.event("remove")
+async def handle_remove_event(event):
+    print(f"User removed: {event.user}")
+
+client.listen()
+```
+
+### Running the server
+
+```py
+client.listen(host="0.0.0.0", port=5000)
+```
+
+### Configuration
+```py
+client = OpenBlacklistClient(api_key, url="https://openbl.clarty.org/api/v1/", webhook_url="your_webhook_url")
+```
+
+## License
+
+This project is licensed under the MIT License.
+
