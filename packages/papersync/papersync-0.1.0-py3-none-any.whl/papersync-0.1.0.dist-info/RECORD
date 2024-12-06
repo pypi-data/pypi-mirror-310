@@ -1,0 +1,11 @@
+papersync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papersync/cli.py,sha256=ZGaL6RfRjP0RCVdASUIT1d1uNRtIr1U51C1e2WFysqM,4643
+papersync/utils.py,sha256=BD5A8MDIg5hw__VEq4aTIoF-IzCi0xmXxz3Xamn0l-4,5660
+papersync/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papersync/data/papersync.yaml,sha256=JbovagGIDR5aSWQ3-yb7w5ykz2C_4nHFSZSnEZ-ML-E,505
+papersync-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+papersync-0.1.0.dist-info/METADATA,sha256=jebuSigRfEyKbN08MuHQ-uWTs33IMicNshxw1nw4uyI,6170
+papersync-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+papersync-0.1.0.dist-info/entry_points.txt,sha256=gHksKcB_oTKwmLVmFz4snTfxft0Pa0J-snVFwWSxpaE,48
+papersync-0.1.0.dist-info/top_level.txt,sha256=bLujcR00NHp_8URSoDDg4v59ylzG4JwC5nP6tl6tzBE,10
+papersync-0.1.0.dist-info/RECORD,,
