@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: cbar-rates
+Version: 1.0.0
+Summary: Python library to work with AZN (Azerbaijani manat) official rates
+Author-email: Tahir Jalilov <tahir.jalilov@gmail.com>
+Project-URL: homepage, https://github.com/TahirJalilov/cbar-rates/
+Project-URL: repository, https://github.com/TahirJalilov/cbar-rates/
+Keywords: cbar-rates
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: typing_extensions>=4.7.0; python_version < "3.9"
+Requires-Dist: requests>=2.20.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.4; extra == "dev"
+
+# CBAR Rates
+Python library to work with AZN (Azerbaijani manat) official rates based on [CBAR](https://cbar.az/currency/rates?language=en) (The Central Bank of the Republic of Azerbaijan)
+
+## Installation
+
+```bash
+$ pip install cbar-rates --upgrade
+```
+## Example
+
+```python
+from datetime import date
+import cbar
+
+rates_date = date.today()
+currencies = ["USD"]
+
+rates = cbar.get_rates(rates_date, currencies)
+
+print(rates)
+
+>>> {'date': '11.11.2024', 'currencies': {'USD': {'nominal': '1', 'value': 1.7}}}
+```
+All available currency codes can be found on the [CBAR website](https://www.cbar.az/currency/rates?language=en)
