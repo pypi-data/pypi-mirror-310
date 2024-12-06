@@ -1,0 +1,9 @@
+fonts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geoimage_heic/__init__.py,sha256=stHGptE2cMHPk-T2RNBtbE6wlLDJKmGMzZ_OOUHfv9o,146
+geoimage_heic/main.py,sha256=r43QguVsWIXFbAsqhx-vql3i1mvBbjLb6RsfijWqbmE,4097
+geoimage_heic-1.0.dist-info/LICENSE,sha256=cKAkruGzDedb_3EyRMXo9XSXxZkSNtLU4YkRK-M71UA,1065
+geoimage_heic-1.0.dist-info/METADATA,sha256=tU-LNRKUnSutqvfkWpI9eX57JHumfwsfdw7OENK4jKA,574
+geoimage_heic-1.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+geoimage_heic-1.0.dist-info/entry_points.txt,sha256=BeOjCNQKSp5JVFXIx_vc6eRRnpB9ZTPWJxygRLiEj1g,53
+geoimage_heic-1.0.dist-info/top_level.txt,sha256=PYiVl089_DBV59nV7boMpy3i_Rz1IG2Jve9OaPNA3Gg,20
+geoimage_heic-1.0.dist-info/RECORD,,
