@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: listdisk
+Version: 0.1.0
+Summary: List Disks/Volumes/Models on windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32>=308
+Requires-Dist: winsys>=1.2
+Provides-Extra: dev
+Requires-Dist: pywin32-stubs>=1.0.7; extra == "dev"
+
+# ListDisk
+
+Find disk, model, drive-letters relation on Windows.
+
+## Install
+
+```bash
+python -m pip install .
+```
+
+## Development
+
+```bash
+python -m pip install -e .[dev]
+```
