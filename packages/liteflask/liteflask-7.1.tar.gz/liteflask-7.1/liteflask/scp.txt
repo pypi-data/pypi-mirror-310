@@ -1,0 +1,13 @@
+Create a file called data.txt and put some content in it
+touch script.sh
+
+#script.sh
+scp -r data.txt pglab@192.168.1.5:/home/
+
+Save and exit
+
+Open terminal and type
+./script.sh
+
+If permission error, “chmod +x script.sh”
+
