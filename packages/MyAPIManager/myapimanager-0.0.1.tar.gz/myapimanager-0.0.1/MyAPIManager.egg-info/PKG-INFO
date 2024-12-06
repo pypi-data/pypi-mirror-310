@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: MyAPIManager
+Version: 0.0.1
+Summary: APIを自作する際の便利クラス
+Home-page: https://github.com/lupin-oomura/MyAPIManager.git
+Author: Shin Oomura
+Author-email: shin.oomura@gmail.com
+Requires-Dist: Flask
+Requires-Dist: cryptography

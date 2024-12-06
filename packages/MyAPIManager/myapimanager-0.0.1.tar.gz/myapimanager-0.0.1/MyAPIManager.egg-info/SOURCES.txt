@@ -1,0 +1,9 @@
+README.md
+setup.py
+MyAPIManager/MyAPIManager.py
+MyAPIManager/__init__.py
+MyAPIManager.egg-info/PKG-INFO
+MyAPIManager.egg-info/SOURCES.txt
+MyAPIManager.egg-info/dependency_links.txt
+MyAPIManager.egg-info/requires.txt
+MyAPIManager.egg-info/top_level.txt
