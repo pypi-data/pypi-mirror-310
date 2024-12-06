@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+NLP_NLTK/__init__.py
+NLP_NLTK/main.py
+NLP_NLTK.egg-info/PKG-INFO
+NLP_NLTK.egg-info/SOURCES.txt
+NLP_NLTK.egg-info/dependency_links.txt
+NLP_NLTK.egg-info/requires.txt
+NLP_NLTK.egg-info/top_level.txt
