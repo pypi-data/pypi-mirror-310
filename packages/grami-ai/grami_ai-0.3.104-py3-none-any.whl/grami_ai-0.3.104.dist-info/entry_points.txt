@@ -1,0 +1,2 @@
+[console_scripts]
+grami-ai = grami_ai.cli:main
