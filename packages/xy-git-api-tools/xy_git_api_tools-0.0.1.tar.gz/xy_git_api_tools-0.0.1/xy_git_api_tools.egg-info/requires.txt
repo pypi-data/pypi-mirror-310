@@ -1,0 +1,6 @@
+importlib_resources
+requests
+xy_string
+xy_console
+xy_argparse
+xy_settings
