@@ -1,0 +1,12 @@
+astropy>=5.1
+astroquery==0.4.7
+matplotlib
+numpy
+oauthlib
+requests
+scipy
+threadpoolctl
+tqdm
+wheel
+wotan
+seaborn
