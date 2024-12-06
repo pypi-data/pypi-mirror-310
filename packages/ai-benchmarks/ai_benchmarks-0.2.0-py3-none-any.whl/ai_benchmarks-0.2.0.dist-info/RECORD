@@ -1,0 +1,14 @@
+inference/.gitattributes,sha256=_vtSGFj9TG2VV6H2QAMNkkZ1mlJQIIEILlSW11d9Q2A,136
+inference/app.py,sha256=K3jvtVpzley0Zp9p4VBKQ8P9b4yG6JPL9vtQ-AVHKtE,4425
+inference/benchmark.py,sha256=wuK9tEK3wt1Sry-3EazKDvvEGQAl24ma3WPgJESlJ9A,42832
+inference/config.ini,sha256=kd6CBBh6zZIe9am4nNuCt6UaIw8xb4JLhYNALammYNA,1855
+inference/draw.ipynb,sha256=Xmh_jeEuZVW1AuJa5G3C4zH4FVcHTMLaByRCP5wiUf0,604
+inference/report/report_2024-10-31_11-53-34.html,sha256=-w4JoUK2spCZbBlGxByXOoa9Ok_LrMPGoKA20sfEudU,9699
+inference/report/report_2024-10-31_13-03-08.html,sha256=eFKDyGIu7rh0jffWX-vrztzavkQiMPxrZhCwy2WKWfw,9638
+inference/report/report_2024-10-31_13-59-19.html,sha256=Q-t5FnNFepANHagoe4ZRRFH-7FzGdI-Lgy2-K-dYRcc,9637
+inference/report/report_2024-10-31_14-07-18.html,sha256=BANZ18KlaVtROQ7j3RxO_67ei91CV8T9w2Urw4tOM3Y,9702
+inference/util.py,sha256=xl4b6EWZQoURmLlNqNtoRyI4FZed-yw_JB-z10zXNm0,895
+ai_benchmarks-0.2.0.dist-info/entry_points.txt,sha256=30FRHcBnIzgV-IiW5WZ6TAxYGQfWfP9R_r6VczkqT7U,97
+ai_benchmarks-0.2.0.dist-info/METADATA,sha256=BtTTN0DkmcurBwwopU30ItfLXUE7C-lFrA_RLpo0w10,3122
+ai_benchmarks-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ai_benchmarks-0.2.0.dist-info/RECORD,,

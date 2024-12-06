@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: ai-benchmarks
+Version: 0.2.0
+Summary: HS-QA
+Author: wangyue
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiofiles
+Requires-Dist: fastapi
+Requires-Dist: openai
+Requires-Dist: orjson
+Requires-Dist: paramiko
+Requires-Dist: prettytable
+Requires-Dist: requests
+Requires-Dist: starlette
+Requires-Dist: uvicorn
+Description-Content-Type: text/markdown
+
+# LLM 推理服务吞吐测试
+
+本仓库包含了测试常见推理服务吞吐的代码以及相关的测试结果。
+
+## 安装说明
+
+### 基础环境
+
+- Python 3.9 或以上版本
+- Poetry
+
+请使用以下命令安装 Poetry：
+```bash
+pip install poetry
+```
+
+## 运行方式
+
+### [通过 pip 安装运行]
+
+1. **构建包或以其他方式获取：**
+    ```bash
+    poetry build
+    ```
+
+2. **安装包：**
+    ```bash
+    pip install ai_benchmarks-0.2.0.tar.gz
+    ```
+
+3. **启动接口压测：**
+   - 启动后可访问 [127.0.0.1:8012/docs](http://127.0.0.1:8012/docs) 查看接口文档。
+    ```bash
+    run-app
+    ```
+
+4. **直接运行压测,-h查看帮助，默认执行配置文件端点：**
+    ```bash
+    run-benchmark -h
+    ```
+
+### [通过代码运行]
+
+1. **安装依赖：**
+    ```bash
+    cd ai-benchmarks
+    poetry lock && poetry install
+    ```
+
+2. **`benchmark.py`** 是主要的压测脚本，采用 asyncio、AsyncOpenAI 和 ProcessPoolExecutor 实现压测框架。
+
+3. **直接运行压测：**
+    ```bash
+    poetry run python -m inference.benchmark
+    ```
+
+4. **启动接口压测：**
+   - 启动后可访问 [127.0.0.1:8012/docs](http://127.0.0.1:8012/docs) 查看接口文档。
+    ```bash
+    poetry run python -m main
+    ```
+
+5. **测试报告和结果：**
+   - 测试报告输出到 `inference/report` 文件夹。
+   - 原始测试结果数据输出到 `inference/results` 文件夹，可使用 `draw.ipynb` 进行绘图。
+
+## 配置文件说明
+
+```yaml
+endpoint:                  # *必须提供一个有效的 endpoint
+concurrent_requests:       # 同时并发的请求数
+batch:                     # 执行批次
+duration_enabled:          # 启用持续请求的时间限制（开启后不执行 concurrent_requests）
+duration_request:          # 请求持续时间，默认为 1 秒
+duration_batch:            # 请求持续时间内每次并发数量，默认为 10
+model:                     # 自动获取，可手动添加
+owned_by:                  # 自动获取，可手动添加
+debug:                     # 日志调试
+ip:                        # 用户查询机器资源占用
+username:                  # 用户名
+password:                  # 密码
+timeout:                   # 超时时间，默认 60 秒
+max_retries:               # 最大重试次数，默认 1
+max_connections:           # 最大连接数
+max_keepalive_connections: # 最大保持活动连接数
+
+
+

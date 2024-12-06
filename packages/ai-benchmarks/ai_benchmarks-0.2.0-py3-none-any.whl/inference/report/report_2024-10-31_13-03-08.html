@@ -1,0 +1,341 @@
+
+    <!DOCTYPE html>
+    <html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 4px;
+                text-align: left;
+                font-size: 14px; /* 调整字体大小，例如 14px */
+            }
+            th {
+                background-color: #f2f2f2;
+                font-size: 14px; /* 标题行字体大小，例如 16px */
+            }
+        </style>
+    </head>
+    <body>
+        <h4>端点配置 | 2024.10.31 13:03:08</h1>
+        <table>
+    <thead>
+        <tr>
+            <th>Section</th>
+            <th>Endpoint</th>
+            <th>Concurrent Requests</th>
+            <th>Batch</th>
+            <th>Duration Enabled</th>
+            <th>Request Duration</th>
+            <th>Model</th>
+            <th>Owned By</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>http://127.0.0.1:8011/v1</td>
+            <td>http://127.0.0.1:8011/v1</td>
+            <td>5</td>
+            <td>1</td>
+            <td>False</td>
+            <td>11</td>
+            <td>auto</td>
+            <td>auto</td>
+        </tr>
+    </tbody>
+</table>   
+    </body>
+    </html>
+    
+    <!DOCTYPE html>
+    <html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 4px;
+                text-align: left;
+                font-size: 14px; /* 调整字体大小，例如 14px */
+            }
+            th {
+                background-color: #f2f2f2;
+                font-size: 14px; /* 标题行字体大小，例如 16px */
+            }
+        </style>
+    </head>
+    <body>
+        <h4>任务报告 | 2024.10.31 13:03:08</h1>
+        <table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Batch ID</th>
+            <th>PID</th>
+            <th>TaskID</th>
+            <th>PromptID</th>
+            <th>请求状态</th>
+            <th>耗时(s)</th>
+            <th>总Tokens数</th>
+            <th>生成Tokens</th>
+            <th>提示Tokens</th>
+            <th>TPS(tokens/s)</th>
+            <th>Max CPU</th>
+            <th>Max Memory</th>
+            <th>Max GPU Util</th>
+            <th>Max GPU Memory Usage</th>
+            <th>ENDPOINT</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>llama3.1:8b</td>
+            <td>1</td>
+            <td>20512</td>
+            <td>Task-4</td>
+            <td>4</td>
+            <td>success</td>
+            <td>16.500000</td>
+            <td>34</td>
+            <td>14</td>
+            <td>20</td>
+            <td>0.848485</td>
+            <td>0.00</td>
+            <td>0/0MB(0.00%)</td>
+            <td></td>
+            <td></td>
+            <td>http://127.0.0.1:8011/v1</td>
+        </tr>
+        <tr>
+            <td>llama3.1:8b</td>
+            <td>1</td>
+            <td>20512</td>
+            <td>Task-3</td>
+            <td>5</td>
+            <td>success</td>
+            <td>34.640000</td>
+            <td>82</td>
+            <td>57</td>
+            <td>25</td>
+            <td>1.645497</td>
+            <td>0.00</td>
+            <td>0/0MB(0.00%)</td>
+            <td></td>
+            <td></td>
+            <td>http://127.0.0.1:8011/v1</td>
+        </tr>
+        <tr>
+            <td>llama3.1:8b</td>
+            <td>1</td>
+            <td>20512</td>
+            <td>Task-6</td>
+            <td>1</td>
+            <td>success</td>
+            <td>86.578000</td>
+            <td>229</td>
+            <td>211</td>
+            <td>18</td>
+            <td>2.437109</td>
+            <td>0.00</td>
+            <td>0/0MB(0.00%)</td>
+            <td></td>
+            <td></td>
+            <td>http://127.0.0.1:8011/v1</td>
+        </tr>
+        <tr>
+            <td>llama3.1:8b</td>
+            <td>1</td>
+            <td>20512</td>
+            <td>Task-7</td>
+            <td>3</td>
+            <td>success</td>
+            <td>118.782000</td>
+            <td>380</td>
+            <td>361</td>
+            <td>19</td>
+            <td>3.039181</td>
+            <td>0.00</td>
+            <td>0/0MB(0.00%)</td>
+            <td></td>
+            <td></td>
+            <td>http://127.0.0.1:8011/v1</td>
+        </tr>
+        <tr>
+            <td>llama3.1:8b</td>
+            <td>1</td>
+            <td>20512</td>
+            <td>Task-5</td>
+            <td>2</td>
+            <td>failed: [APITimeoutError]Request timed out.</td>
+            <td>120.016000</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0.000000</td>
+            <td>0.00</td>
+            <td>0/0MB(0.00%)</td>
+            <td></td>
+            <td></td>
+            <td>http://127.0.0.1:8011/v1</td>
+        </tr>
+    </tbody>
+</table>   
+    </body>
+    </html>
+    
+    <!DOCTYPE html>
+    <html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 4px;
+                text-align: left;
+                font-size: 14px; /* 调整字体大小，例如 14px */
+            }
+            th {
+                background-color: #f2f2f2;
+                font-size: 14px; /* 标题行字体大小，例如 16px */
+            }
+        </style>
+    </head>
+    <body>
+        <h4>统计报告 | 2024.10.31 13:03:08</h1>
+        <table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Batch</th>
+            <th>成功请求数/耗时</th>
+            <th>失败请求数/耗时</th>
+            <th>总请求数/耗时(s)</th>
+            <th>成功平均耗时(s)</th>
+            <th>总Tokens数</th>
+            <th>总生成Tokens数</th>
+            <th>总提示Tokens数</th>
+            <th>TPS(tokens/s)</th>
+            <th>单次最大TPS(tokens/s)</th>
+            <th>单次最小TPS(tokens/s)</th>
+            <th>最小响应时间(s)</th>
+            <th>最大响应时间(s)</th>
+            <th>中位响应时间(s)</th>
+            <th>平均响应时间(s)</th>
+            <th>Max CPU</th>
+            <th>Max Memory</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>llama3.1:8b</td>
+            <td>1</td>
+            <td>4/256.500000</td>
+            <td>1/120.016000</td>
+            <td>5/376.516000</td>
+            <td>64.125000</td>
+            <td>725</td>
+            <td>643</td>
+            <td>82</td>
+            <td>10.027290</td>
+            <td>3.039181</td>
+            <td>0.000000</td>
+            <td>16.500000</td>
+            <td>120.016000</td>
+            <td>86.578000</td>
+            <td>75.303200</td>
+            <td>0.00%</td>
+            <td>0.000000/0.000000MB(0.00%)</td>
+        </tr>
+    </tbody>
+</table>   
+    </body>
+    </html>
+    
+    <!DOCTYPE html>
+    <html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 4px;
+                text-align: left;
+                font-size: 14px; /* 调整字体大小，例如 14px */
+            }
+            th {
+                background-color: #f2f2f2;
+                font-size: 14px; /* 标题行字体大小，例如 16px */
+            }
+        </style>
+    </head>
+    <body>
+        <h4>Prompts Data | 2024.10.31 13:03:08</h1>
+        <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>PROMPTS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Output from 1 to 100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>List the top 10 most important people in history.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Define the term &#x27;artificial intelligence&#x27;.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Count the number of words in this sentence.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Translate the following sentence into French: &#x27;Hello, how are you?&#x27;</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Detail the process of photosynthesis.</td>
+        </tr>
+    </tbody>
+</table>   
+    </body>
+    </html>
+    
