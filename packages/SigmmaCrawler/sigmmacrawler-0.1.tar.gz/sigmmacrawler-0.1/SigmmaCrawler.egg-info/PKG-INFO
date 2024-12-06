@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: SigmmaCrawler
+Version: 0.1
+Summary: Este proyecto permite obtener datos del SIGMAA, el sistema educativo de la Universidad del Caribe. Facilita la obtención de información del estudiante, calificaciones, cárdex, oferta académica, información de pagos de estudiantes, entre otros.
+Home-page: https://github.com/tu_usuario/mi_biblioteca
+Author: Kenneth Díaz
+Author-email: kennethdiazgonzalez@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
