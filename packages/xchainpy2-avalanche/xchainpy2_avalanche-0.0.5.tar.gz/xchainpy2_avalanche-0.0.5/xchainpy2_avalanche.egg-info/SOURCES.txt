@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+xchainpy2_avalanche/__init__.py
+xchainpy2_avalanche/avax_client.py
+xchainpy2_avalanche/const.py
+xchainpy2_avalanche.egg-info/PKG-INFO
+xchainpy2_avalanche.egg-info/SOURCES.txt
+xchainpy2_avalanche.egg-info/dependency_links.txt
+xchainpy2_avalanche.egg-info/requires.txt
+xchainpy2_avalanche.egg-info/top_level.txt
+xchainpy2_avalanche/data/avax_mainnet_latest.json
