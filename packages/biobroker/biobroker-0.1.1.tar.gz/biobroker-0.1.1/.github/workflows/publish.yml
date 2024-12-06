@@ -1,0 +1,39 @@
+name: Upload Biobroker Package to PyPI when a Release is Created
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  pypi-publish:
+    name: Publish release to PyPI
+    runs-on: ubuntu-latest
+    env:
+      WEBIN_PASSWORD: ${{ secrets.WEBIN_PASSWORD }}
+      WEBIN_USERNAME: ${{ secrets.WEBIN_USERNAME }}
+    environment:
+      name: pypi
+      url: https://pypi.org/p/biobroker
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install setuptools wheel
+          pip install --upgrade build # Compatibility things
+          pip install -r requirements-dev.txt
+      - name: Build package
+        run: |
+          python -m build
+      - name: Test before publication
+        run: |
+          cd tests/features
+          behave
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
