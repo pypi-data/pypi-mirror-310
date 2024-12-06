@@ -1,0 +1,3 @@
+[console_scripts]
+trenchview=trenchview.cli:cli
+
