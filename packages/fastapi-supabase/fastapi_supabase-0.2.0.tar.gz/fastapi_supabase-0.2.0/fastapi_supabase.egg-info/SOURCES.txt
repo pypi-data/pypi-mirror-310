@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+fastapi_supabase/__init__.py
+fastapi_supabase/dependencies.py
+fastapi_supabase/lifespan.py
+fastapi_supabase/py.typed
+fastapi_supabase.egg-info/PKG-INFO
+fastapi_supabase.egg-info/SOURCES.txt
+fastapi_supabase.egg-info/dependency_links.txt
+fastapi_supabase.egg-info/requires.txt
+fastapi_supabase.egg-info/top_level.txt
