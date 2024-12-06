@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ctxseg
+Version: 0.1.0
+Summary: Official package for Segmentation by Context (CTX-SEG)
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: mne
+
+# ctxseg
+Official repository for Segmentation by Context (CTX-SEG)
+
+## C vs NumPy backend
+
+Below is a performance comparison between segmenting a 6 minute signal on Apple M2 Max. [[Source](/tests/test_ctxseg.py)]
+
+```
+C engine took: 0.195 secs
+NumPy engine took: 3.108 secs
+```
+
