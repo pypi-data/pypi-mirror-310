@@ -1,0 +1,14 @@
+{
+    "requirements": [
+        "KeyisBLogging",
+        "httpx",
+        "KeyisBClient-httpx",
+        "KeyisBClient-mmbp"
+    ],
+    "package_data": {
+        "KeyisBClient": [
+            "KeyisBClient/gw_certs/*",
+            "KeyisBClient/KeyisBClient/gw_certs/*"
+        ]
+    }
+}
