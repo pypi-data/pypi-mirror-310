@@ -1,0 +1,2 @@
+chatollama
+sentence-transformers
