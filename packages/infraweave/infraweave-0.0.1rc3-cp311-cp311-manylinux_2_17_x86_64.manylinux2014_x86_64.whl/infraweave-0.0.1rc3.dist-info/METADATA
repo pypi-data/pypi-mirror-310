@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: infraweave
+Version: 0.0.1rc3
+Summary: Implement InfraWeave in Python
+Author-email: InfraWeave Team <opensource@infraweave.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# InfraWeave
+
+This enables deploying modules and stacks in InfraWeave
+
+> Note: this is a preview version
+
