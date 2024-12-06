@@ -1,0 +1,9 @@
+panel_copy_paste/__init__.py,sha256=Nz6S2xXyvATrrbMwOpbRySo_6x0P6CtKCcCZa5LgdfA,624
+panel_copy_paste/_copy_button.py,sha256=6z7qHMlhi_a04G0P1tjvGEZq5hNqUTsiEmM8KrWfaCA,3580
+panel_copy_paste/_paste_button.py,sha256=RyXYudrDnttK7FPv8jM7q6aAG3kQWF6HrC8VBlje-Kk,4519
+panel_copy_paste/main.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+panel_copy_paste/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+panel_copy_paste-0.0.2.dist-info/METADATA,sha256=KqxQGM_XTkS0f7SJnmpqvwrV781rtUKHf-J9mU_LrFE,5473
+panel_copy_paste-0.0.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+panel_copy_paste-0.0.2.dist-info/licenses/LICENSE.txt,sha256=Jqbh7noYJKpAY0CUXf5UeMNtew5vLlLHmRbBrIo6XrE,1515
+panel_copy_paste-0.0.2.dist-info/RECORD,,
