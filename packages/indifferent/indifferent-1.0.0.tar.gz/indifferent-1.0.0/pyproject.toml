@@ -1,0 +1,38 @@
+[tool.pytest.ini_options]
+    pythonpath = "src"
+    addopts = [
+        "--import-mode=importlib",
+    ]
+
+[build-system]
+    requires = ["setuptools>=64", "setuptools_scm>=8"]
+
+[project]
+    name = "indifferent"
+    description = "Compare two strings, calculate the match, and display the difference"
+    readme = {file = "README.md", content-type = "text/markdown"}
+    maintainers = [{name = "Brian Warner", email = "brian@bdwarner.com"}]
+
+    dynamic = ["version"]
+    requires-python = ">= 3.10"
+    dependencies = [
+        "rich",
+        "talkgooder",
+    ]
+
+    classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Developers",
+        "Topic :: Text Processing :: Linguistic",
+        "License :: OSI Approved :: MIT License",
+    ]
+
+[project.urls]
+    Homepage = "https://brianwarner.github.io/indifferent/"
+    Documentation = "https://brianwarner.github.io/indifferent/"
+    Repository = "https://github.com/brianwarner/indifferent"
+    Issues = "https://github.com/brianwarner/indifferent/issues"
+
+[tool.setuptools_scm]
+    version_scheme = "no-guess-dev"
+    version_file = "_version.py"

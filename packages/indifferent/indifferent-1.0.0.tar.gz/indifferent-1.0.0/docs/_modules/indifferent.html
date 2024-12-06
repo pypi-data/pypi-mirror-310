@@ -1,0 +1,1604 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>indifferent &mdash; indifferent 0.0.post1.dev1+g2549980 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=835259e7"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+<link href="../ _static/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            indifferent
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"></div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">indifferent</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Module code</a></li>
+      <li class="breadcrumb-item active">indifferent</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for indifferent</h1><div class="highlight"><pre>
+<span></span><span class="c1"># SPDX-License-Identifier: MIT</span>
+
+
+<span class="kn">import</span> <span class="nn">sys</span>  <span class="c1"># noqa E401</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>  <span class="c1"># noqa E401</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">talkgooder</span> <span class="kn">import</span> <span class="n">plural</span>
+<span class="kn">from</span> <span class="nn">rich.console</span> <span class="kn">import</span> <span class="n">Console</span>
+<span class="kn">from</span> <span class="nn">rich.table</span> <span class="kn">import</span> <span class="n">Table</span>
+<span class="kn">from</span> <span class="nn">string</span> <span class="kn">import</span> <span class="n">Template</span>
+<span class="kn">from</span> <span class="nn">html</span> <span class="kn">import</span> <span class="n">escape</span>
+
+<span class="n">regex</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;\s\[\]</span><span class="si">{}</span><span class="s2">\(\)&lt;&gt;,.:;!\?&#39;</span><span class="se">\&quot;</span><span class="s2">`</span><span class="se">\\</span><span class="s2">/\|\-_\+=%\*&quot;</span>
+
+
+<div class="viewcode-block" id="compare">
+<a class="viewcode-back" href="../index.html#indifferent.compare">[docs]</a>
+<span class="k">def</span> <span class="nf">compare</span><span class="p">(</span>
+    <span class="n">base</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">revision</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">base_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">revision_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">results</span><span class="o">=</span><span class="s2">&quot;stats&quot;</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span> <span class="o">|</span> <span class="nb">str</span> <span class="o">|</span> <span class="nb">list</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Compare a base text against a revision to create a score and report</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        base (str):</span>
+<span class="sd">            The base text.</span>
+<span class="sd">        revision (str):</span>
+<span class="sd">            The revision text.</span>
+<span class="sd">        base_name (str):</span>
+<span class="sd">            Optional, the name of the base text.</span>
+<span class="sd">        revision_name (str):</span>
+<span class="sd">            Optional, the name of the revision text.</span>
+<span class="sd">        results (str):</span>
+<span class="sd">            Optional, alternate formats for results:</span>
+
+<span class="sd">                &quot;stats&quot;: Raw stats without formatting, default (dict)</span>
+<span class="sd">                &quot;formatted_stats&quot;: Stats with descriptions (dict)</span>
+<span class="sd">                &quot;bbcode&quot;: Formatted stats with bbcode decorations (dict)</span>
+<span class="sd">                &quot;table&quot;: Formatted stats in a Rich table (str)</span>
+<span class="sd">                &quot;raw_table&quot;: A Rich table object (table)</span>
+<span class="sd">                &quot;html&quot;: A block of HTML and corresponding CSS (dict)</span>
+<span class="sd">                &quot;html_inline&quot;: A block of HTML with inline styles (dict)</span>
+<span class="sd">                &quot;html_page&quot;: A full page of HTMl with corresponding CSS (dict)</span>
+<span class="sd">                &quot;html_page_internal&quot;: A full page of HTML with styles in the head (dict)</span>
+<span class="sd">                &quot;html_page_inline&quot;: A full page of HTML with inline styles (dict)</span>
+<span class="sd">                &quot;raw&quot;: The raw analysis of the match (list)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        (dict | str | list)</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: Not a valid format: `results`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">base_split</span> <span class="o">=</span> <span class="n">_split_text</span><span class="p">(</span>
+        <span class="n">text</span><span class="o">=</span><span class="n">base</span><span class="p">,</span>
+        <span class="n">regex</span><span class="o">=</span><span class="n">regex</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">revision_split</span> <span class="o">=</span> <span class="n">_split_text</span><span class="p">(</span>
+        <span class="n">text</span><span class="o">=</span><span class="n">revision</span><span class="p">,</span>
+        <span class="n">regex</span><span class="o">=</span><span class="n">regex</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">comparison_split</span> <span class="o">=</span> <span class="n">_base_revision_comparison</span><span class="p">(</span>
+        <span class="n">base_split</span><span class="o">=</span><span class="n">base_split</span><span class="p">,</span>
+        <span class="n">revision_split</span><span class="o">=</span><span class="n">revision_split</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="c1"># pprint(comparison_split)</span>
+
+    <span class="k">if</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;stats&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_stats</span><span class="p">(</span><span class="n">comparison_split</span><span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;formatted_stats&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_stats</span><span class="p">(</span><span class="n">_stats</span><span class="p">(</span><span class="n">comparison_split</span><span class="p">))</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;bbcode&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_bbcode</span><span class="p">(</span><span class="n">comparison_split</span><span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;table&quot;</span><span class="p">:</span>
+        <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="k">with</span> <span class="n">console</span><span class="o">.</span><span class="n">capture</span><span class="p">()</span> <span class="k">as</span> <span class="n">capture</span><span class="p">:</span>
+            <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+                <span class="n">_format_table</span><span class="p">(</span>
+                    <span class="n">comparison_split</span><span class="o">=</span><span class="n">comparison_split</span><span class="p">,</span>
+                    <span class="n">base_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span>
+                    <span class="n">revision_name</span><span class="o">=</span><span class="n">revision_name</span><span class="p">,</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">capture</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;raw_table&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_table</span><span class="p">(</span>
+            <span class="n">comparison_split</span><span class="o">=</span><span class="n">comparison_split</span><span class="p">,</span>
+            <span class="n">base_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span>
+            <span class="n">revision_name</span><span class="o">=</span><span class="n">revision_name</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;html&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_html</span><span class="p">(</span>
+            <span class="n">comparison_split</span><span class="o">=</span><span class="n">comparison_split</span><span class="p">,</span>
+            <span class="n">base_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span>
+            <span class="n">revision_name</span><span class="o">=</span><span class="n">revision_name</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;html_inline&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_html</span><span class="p">(</span>
+            <span class="n">comparison_split</span><span class="o">=</span><span class="n">comparison_split</span><span class="p">,</span>
+            <span class="n">inline</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">base_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span>
+            <span class="n">revision_name</span><span class="o">=</span><span class="n">revision_name</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;html_page&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_html</span><span class="p">(</span>
+            <span class="n">comparison_split</span><span class="o">=</span><span class="n">comparison_split</span><span class="p">,</span>
+            <span class="n">page</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">base_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span>
+            <span class="n">revision_name</span><span class="o">=</span><span class="n">revision_name</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;html_page_internal&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_html</span><span class="p">(</span>
+            <span class="n">comparison_split</span><span class="o">=</span><span class="n">comparison_split</span><span class="p">,</span>
+            <span class="n">page</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">internal</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">base_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span>
+            <span class="n">revision_name</span><span class="o">=</span><span class="n">revision_name</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;html_page_inline&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_format_html</span><span class="p">(</span>
+            <span class="n">comparison_split</span><span class="o">=</span><span class="n">comparison_split</span><span class="p">,</span>
+            <span class="n">page</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">inline</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">base_name</span><span class="o">=</span><span class="n">base_name</span><span class="p">,</span>
+            <span class="n">revision_name</span><span class="o">=</span><span class="n">revision_name</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">elif</span> <span class="n">results</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;raw&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">comparison_split</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Not a valid format: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">results</span><span class="p">)</span></div>
+
+
+
+<span class="k">def</span> <span class="nf">_split_text</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">text</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="nb">int</span> <span class="o">|</span> <span class="nb">float</span><span class="p">,</span>
+    <span class="n">regex</span><span class="o">=</span><span class="n">regex</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Split text using the provided regex to identify separators between content.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        text (string):</span>
+<span class="sd">            The text to be split.</span>
+<span class="sd">        regex (string):</span>
+<span class="sd">            Optional, a replacement regex to identify separators between content.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        list ([{&quot;value&quot;: string, &quot;content&quot;: boolean}, ...]):</span>
+<span class="sd">            Values from the text and whether they are content.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        TypeError: Text must be a string, int, or float.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Check the type</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">)):</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;text must be a string, int, or float&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Return a content string if the text is an int or float</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">)):</span>
+        <span class="k">return</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">),</span>
+                <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="p">}</span>
+        <span class="p">]</span>
+
+    <span class="c1"># Return an empty list if there&#39;s no text</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="n">separator_pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^[</span><span class="si">%s</span><span class="s2">]&quot;</span> <span class="o">%</span> <span class="n">regex</span><span class="p">)</span>
+    <span class="n">content_pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^[^</span><span class="si">%s</span><span class="s2">]+&quot;</span> <span class="o">%</span> <span class="n">regex</span><span class="p">)</span>
+    <span class="n">split_text</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Nibble away at the text one chunk at a time</span>
+    <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+
+        <span class="n">separator_found</span> <span class="o">=</span> <span class="n">separator_pattern</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">content_found</span> <span class="o">=</span> <span class="n">content_pattern</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">separator_found</span><span class="p">):</span>
+            <span class="c1"># A separator was found</span>
+            <span class="n">split_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">separator_found</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+                <span class="p">}</span>
+            <span class="p">)</span>
+
+            <span class="c1"># Trim the separator from the start of text</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">separator_found</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="p">:]</span>  <span class="c1"># noqa E203</span>
+
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">content_found</span><span class="p">):</span>
+            <span class="c1"># Content was found</span>
+            <span class="n">split_text</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">content_found</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                <span class="p">}</span>
+            <span class="p">)</span>
+
+            <span class="c1"># Trim the content from the start of text</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">content_found</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="p">:]</span>  <span class="c1"># noqa E203</span>
+
+    <span class="k">return</span> <span class="n">split_text</span>
+
+
+<span class="k">def</span> <span class="nf">_get_match</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">base_item</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">revision_split</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+    <span class="n">revision_index</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Find the index of the next content match, if any.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        base_item (str):</span>
+<span class="sd">            A string containing a base item value.</span>
+<span class="sd">        revision_split (list):</span>
+<span class="sd">            A list containing the split revision string.</span>
+<span class="sd">        revision_index (int):</span>
+<span class="sd">            Index of revision list to begin search.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        return (int | None):</span>
+<span class="sd">            Index of next match, if it exists.</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        ValueError: Revision index is out of range.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># If there&#39;s no revision, there&#39;s nothing to match</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="k">if</span> <span class="n">revision_index</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">)</span> <span class="ow">or</span> <span class="n">revision_index</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+            <span class="s2">&quot;Revision index is out of range (index: </span><span class="si">%s</span><span class="s2">, length: </span><span class="si">%s</span><span class="s2">)&quot;</span>
+            <span class="o">%</span> <span class="p">(</span><span class="n">revision_index</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">)),</span>
+        <span class="p">)</span>
+
+    <span class="c1"># Find the next matching instance, if there is one</span>
+    <span class="n">next_match</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span>
+        <span class="p">(</span>
+            <span class="n">i</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">revision_split</span><span class="p">[</span><span class="n">revision_index</span><span class="p">:])</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">base_item</span>
+        <span class="p">),</span>
+        <span class="kc">None</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">next_match</span><span class="p">:</span>
+        <span class="c1"># If a match was found, return the absolute index of the revision item</span>
+        <span class="k">return</span> <span class="n">next_match</span> <span class="o">+</span> <span class="n">revision_index</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">next_match</span>
+
+
+<span class="k">def</span> <span class="nf">_backfill</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">base_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+    <span class="n">revision_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+    <span class="n">base_last_match</span><span class="p">:</span> <span class="nb">int</span> <span class="o">|</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">base_index</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+    <span class="n">revision_last_match</span><span class="p">:</span> <span class="nb">int</span> <span class="o">|</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">revision_index</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Backfill any unmatched base and revision items.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        base_split (list):</span>
+<span class="sd">            A list containing the split base string.</span>
+<span class="sd">        revision_split (list):</span>
+<span class="sd">            A list containing the split revision string.</span>
+<span class="sd">        base_last_match (int):</span>
+<span class="sd">            The index of the last matching content in the base, if it exists.</span>
+<span class="sd">        base_index (int):</span>
+<span class="sd">            The index of the current matching content in the base.</span>
+<span class="sd">        revision_last_match (int | None):</span>
+<span class="sd">            The index of the last matching content in the revision, if it exists.</span>
+<span class="sd">        revision_index (int):</span>
+<span class="sd">            The index of the current matching content in the revision.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        list [{&quot;base&quot;: int, &quot;content&quot;: boolean, &quot;revision&quot;: int, &quot;value&quot;: str,} ...]</span>
+<span class="sd">    &quot;&quot;&quot;</span>  <span class="c1"># noqa E501</span>
+
+    <span class="n">backfill</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">backfill_index</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">if</span> <span class="n">base_last_match</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">base_start</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">elif</span> <span class="n">base_last_match</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">base_start</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">base_start</span> <span class="o">=</span> <span class="n">base_last_match</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="k">if</span> <span class="n">revision_last_match</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">revision_start</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">elif</span> <span class="n">revision_last_match</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">revision_start</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">revision_start</span> <span class="o">=</span> <span class="n">revision_last_match</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="c1"># Extract the backfill lists</span>
+    <span class="n">backfill_base</span> <span class="o">=</span> <span class="n">base_split</span><span class="p">[</span><span class="n">base_start</span><span class="p">:</span><span class="n">base_index</span><span class="p">]</span>
+    <span class="n">backfill_revision</span> <span class="o">=</span> <span class="n">revision_split</span><span class="p">[</span><span class="n">revision_start</span><span class="p">:</span><span class="n">revision_index</span><span class="p">]</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_revision</span><span class="p">):</span>
+        <span class="c1"># If this is the first item in both lists there&#39;s nothing to backfill</span>
+        <span class="k">return</span> <span class="n">backfill</span>
+
+    <span class="k">elif</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">):</span>
+
+        <span class="c1"># If there&#39;s no base to backfill, add all of the revision backfill items</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">backfill_revision</span><span class="p">:</span>
+            <span class="n">backfill</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+                    <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="n">revision_start</span> <span class="o">+</span> <span class="n">backfill_index</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">)</span>
+            <span class="n">backfill_index</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">backfill</span>
+
+    <span class="k">elif</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_revision</span><span class="p">):</span>
+        <span class="c1"># If there&#39;s no revision to backfill, add all of the base backfill items</span>
+
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">backfill_base</span><span class="p">:</span>
+            <span class="n">backfill</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="n">base_start</span> <span class="o">+</span> <span class="n">backfill_index</span><span class="p">,</span>
+                    <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">)</span>
+
+            <span class="n">backfill_index</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">backfill</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># If there&#39;s something in both, look for common separators at the start, then look at the</span>
+        <span class="c1"># end, then handle anything left over as an addition or removal.</span>
+
+        <span class="c1"># First, count any separators that match at the start</span>
+        <span class="n">matches_start</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">min</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_revision</span><span class="p">))):</span>
+
+            <span class="k">if</span> <span class="n">backfill_base</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">==</span> <span class="n">backfill_revision</span><span class="p">[</span><span class="n">index</span><span class="p">]:</span>
+
+                <span class="c1"># Add the matching item to the backfill</span>
+                <span class="n">backfill</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">backfill_base</span><span class="p">[</span><span class="n">index</span><span class="p">][</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                        <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">backfill_base</span><span class="p">[</span><span class="n">index</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                        <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="n">base_start</span> <span class="o">+</span> <span class="n">index</span><span class="p">,</span>
+                        <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="n">revision_start</span> <span class="o">+</span> <span class="n">index</span><span class="p">,</span>
+                    <span class="p">},</span>
+                <span class="p">)</span>
+
+                <span class="c1"># Record how many start items match</span>
+                <span class="n">matches_start</span> <span class="o">+=</span> <span class="mi">1</span>
+
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># Stop checking if there&#39;s no match</span>
+                <span class="k">break</span>
+
+        <span class="c1"># Check if anything was uncounted after matching the start</span>
+        <span class="n">possible_matches_end_base</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">)</span> <span class="o">-</span> <span class="n">matches_start</span>
+        <span class="n">possible_matches_end_revision</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_revision</span><span class="p">)</span> <span class="o">-</span> <span class="n">matches_start</span>
+
+        <span class="n">backfill_end</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="c1"># If uncounted items remain in both, count any separators that match at the end</span>
+        <span class="n">matches_end</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">possible_matches_end_base</span> <span class="ow">and</span> <span class="n">possible_matches_end_revision</span><span class="p">:</span>
+
+            <span class="c1"># Check if there are any common</span>
+            <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span>
+                <span class="mi">0</span><span class="p">,</span> <span class="nb">min</span><span class="p">(</span><span class="n">possible_matches_end_base</span><span class="p">,</span> <span class="n">possible_matches_end_revision</span><span class="p">)</span>
+            <span class="p">):</span>
+
+                <span class="c1"># Walk backwards from the end of each list of backfills</span>
+                <span class="k">if</span> <span class="p">(</span>
+                    <span class="n">backfill_base</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">)</span> <span class="o">-</span> <span class="n">index</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+                    <span class="o">==</span> <span class="n">backfill_revision</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">backfill_revision</span><span class="p">)</span> <span class="o">-</span> <span class="n">index</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+                <span class="p">):</span>
+
+                    <span class="c1"># Stash the ending items separately</span>
+                    <span class="n">backfill_end</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span>
+                        <span class="mi">0</span><span class="p">,</span>
+                        <span class="p">{</span>
+                            <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">backfill_base</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">index</span><span class="p">][</span>
+                                <span class="s2">&quot;value&quot;</span>
+                            <span class="p">],</span>
+                            <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">backfill_base</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">index</span><span class="p">][</span>
+                                <span class="s2">&quot;content&quot;</span>
+                            <span class="p">],</span>
+                            <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="n">base_start</span> <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">index</span><span class="p">,</span>
+                            <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="n">revision_start</span>
+                            <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_revision</span><span class="p">)</span>
+                            <span class="o">-</span> <span class="mi">1</span>
+                            <span class="o">-</span> <span class="n">index</span><span class="p">,</span>
+                        <span class="p">},</span>
+                    <span class="p">)</span>
+
+                    <span class="c1"># Record how many end items match</span>
+                    <span class="n">matches_end</span> <span class="o">+=</span> <span class="mi">1</span>
+
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="c1"># Stop checking if there&#39;s no match</span>
+                    <span class="k">break</span>
+
+        <span class="c1"># Assemble the backfill, starting with removed items</span>
+        <span class="n">backfill_base_index</span> <span class="o">=</span> <span class="mi">0</span>
+
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">backfill_base</span><span class="p">[</span><span class="n">matches_start</span> <span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_base</span><span class="p">)</span> <span class="o">-</span> <span class="n">matches_end</span><span class="p">]:</span>
+            <span class="n">backfill</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="n">base_start</span> <span class="o">+</span> <span class="n">matches_start</span> <span class="o">+</span> <span class="n">backfill_base_index</span><span class="p">,</span>
+                    <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">)</span>
+
+            <span class="n">backfill_base_index</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="c1"># Next the added items</span>
+        <span class="n">backfill_revision_index</span> <span class="o">=</span> <span class="mi">0</span>
+
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">backfill_revision</span><span class="p">[</span>
+            <span class="n">matches_start</span> <span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">backfill_revision</span><span class="p">)</span> <span class="o">-</span> <span class="n">matches_end</span>
+        <span class="p">]:</span>
+
+            <span class="n">backfill</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+                    <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="n">revision_start</span>
+                    <span class="o">+</span> <span class="n">matches_start</span>
+                    <span class="o">+</span> <span class="n">backfill_revision_index</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">)</span>
+
+            <span class="n">backfill_revision_index</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="c1"># Finally combine it all together</span>
+        <span class="k">return</span> <span class="n">backfill</span> <span class="o">+</span> <span class="n">backfill_end</span>
+
+
+<span class="k">def</span> <span class="nf">_forward_fill</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">base_split</span><span class="p">,</span>
+    <span class="n">revision_split</span><span class="p">,</span>
+    <span class="n">base_last_match</span><span class="p">,</span>
+    <span class="n">revision_last_match</span><span class="p">,</span>
+<span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Fill any unmatched separators after the last match</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        base_split (list):</span>
+<span class="sd">            A list containing the split base string.</span>
+<span class="sd">        revision_split (list):</span>
+<span class="sd">            A list containing the split revision string.</span>
+<span class="sd">        base_last_match (int):</span>
+<span class="sd">            The index of the last matching content in the base, if it exists.</span>
+<span class="sd">        revision_last_match (int | None):</span>
+<span class="sd">            The index of the last matching content in the revision, if it exists.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        list [{&quot;base&quot;: int, &quot;content&quot;: boolean, &quot;revision&quot;: int, &quot;value&quot;: str,} ...]</span>
+<span class="sd">    &quot;&quot;&quot;</span>  <span class="c1"># noqa E501</span>
+
+    <span class="n">leader</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">fill</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">terminator</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Determine if any base items remain</span>
+    <span class="k">if</span> <span class="n">base_last_match</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">base_fill_start</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">base_fill_start</span> <span class="o">=</span> <span class="n">base_last_match</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="n">base_terminal_index</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">base_split</span><span class="p">)</span>
+
+    <span class="c1"># Determine if any revision items remain</span>
+    <span class="k">if</span> <span class="n">revision_last_match</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">revision_fill_start</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">revision_fill_start</span> <span class="o">=</span> <span class="n">revision_last_match</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="n">revision_terminal_index</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">)</span>
+
+    <span class="c1"># Walk forward from the beginning looking for separator matches</span>
+    <span class="k">for</span> <span class="n">terminal_index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span>
+        <span class="mi">0</span><span class="p">,</span>
+        <span class="nb">min</span><span class="p">(</span>
+            <span class="n">base_terminal_index</span> <span class="o">-</span> <span class="n">base_fill_start</span><span class="p">,</span>
+            <span class="n">revision_terminal_index</span> <span class="o">-</span> <span class="n">revision_fill_start</span><span class="p">,</span>
+        <span class="p">),</span>
+    <span class="p">):</span>
+
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="n">base_split</span><span class="p">[</span><span class="n">base_fill_start</span> <span class="o">+</span> <span class="n">terminal_index</span><span class="p">]</span>
+            <span class="o">==</span> <span class="n">revision_split</span><span class="p">[</span><span class="n">revision_fill_start</span> <span class="o">+</span> <span class="n">terminal_index</span><span class="p">]</span>
+        <span class="p">):</span>
+
+            <span class="n">leader</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="n">base_fill_start</span> <span class="o">+</span> <span class="n">terminal_index</span><span class="p">][</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="n">base_fill_start</span> <span class="o">+</span> <span class="n">terminal_index</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="n">base_fill_start</span> <span class="o">+</span> <span class="n">terminal_index</span><span class="p">,</span>
+                    <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="n">revision_fill_start</span> <span class="o">+</span> <span class="n">terminal_index</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">)</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">break</span>
+
+    <span class="c1"># Offset starts by amount of leading matches found</span>
+    <span class="n">base_fill_start</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">leader</span><span class="p">)</span>
+    <span class="n">revision_fill_start</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">leader</span><span class="p">)</span>
+
+    <span class="c1"># Walk backwards from the end looking for separator matches</span>
+    <span class="k">for</span> <span class="n">terminal_index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span>
+        <span class="mi">0</span><span class="p">,</span>
+        <span class="nb">min</span><span class="p">(</span>
+            <span class="n">base_terminal_index</span> <span class="o">-</span> <span class="n">base_fill_start</span><span class="p">,</span>
+            <span class="n">revision_terminal_index</span> <span class="o">-</span> <span class="n">revision_fill_start</span><span class="p">,</span>
+        <span class="p">),</span>
+    <span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="n">base_split</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">base_split</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">terminal_index</span><span class="p">]</span>
+            <span class="o">==</span> <span class="n">revision_split</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">terminal_index</span><span class="p">]</span>
+        <span class="p">):</span>
+
+            <span class="n">terminator</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span>
+                <span class="mi">0</span><span class="p">,</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">base_split</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">terminal_index</span><span class="p">][</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">base_split</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">terminal_index</span><span class="p">][</span>
+                        <span class="s2">&quot;content&quot;</span>
+                    <span class="p">],</span>
+                    <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">base_split</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">terminal_index</span><span class="p">,</span>
+                    <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">terminal_index</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">)</span>
+
+            <span class="n">base_terminal_index</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="n">revision_terminal_index</span> <span class="o">-=</span> <span class="mi">1</span>
+
+    <span class="c1"># Any remaining bases are removals</span>
+    <span class="k">for</span> <span class="n">base_fill_index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">base_fill_start</span><span class="p">,</span> <span class="n">base_terminal_index</span><span class="p">):</span>
+
+        <span class="n">fill</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="n">base_fill_index</span><span class="p">][</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="n">base_fill_index</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="n">base_fill_index</span><span class="p">,</span>
+                <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+            <span class="p">},</span>
+        <span class="p">)</span>
+
+    <span class="c1"># Any remaining revisions are additions</span>
+    <span class="k">for</span> <span class="n">revision_fill_index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">revision_fill_start</span><span class="p">,</span> <span class="n">revision_terminal_index</span><span class="p">):</span>
+        <span class="n">fill</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">revision_split</span><span class="p">[</span><span class="n">revision_fill_index</span><span class="p">][</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">revision_split</span><span class="p">[</span><span class="n">revision_fill_index</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+                <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="n">revision_fill_index</span><span class="p">,</span>
+            <span class="p">},</span>
+        <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">leader</span> <span class="o">+</span> <span class="n">fill</span> <span class="o">+</span> <span class="n">terminator</span>
+
+
+<span class="k">def</span> <span class="nf">_base_revision_comparison</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">base_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+    <span class="n">revision_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Compare the base against the revision.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        base_split (list):</span>
+<span class="sd">            A list containing the split base string.</span>
+<span class="sd">        revision_split (list):</span>
+<span class="sd">            A list containing the split revision string.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        list [{&quot;base&quot;: int, &quot;revision&quot;: int, &quot;content&quot;: bool, &quot;value&quot;: &quot;str&quot;}, ...]</span>
+<span class="sd">    &quot;&quot;&quot;</span>  <span class="c1"># noqa E501</span>
+
+    <span class="n">match</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">base_index</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">base_last_match</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">revision_index</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">revision_last_match</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">for</span> <span class="n">base_item</span> <span class="ow">in</span> <span class="n">base_split</span><span class="p">:</span>
+
+        <span class="c1"># If there&#39;s nothing in the revision, skip any comparisons</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">):</span>
+            <span class="k">break</span>
+
+        <span class="c1"># If there&#39;s base content only compare content, separators will be backfilled</span>
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="kc">True</span> <span class="ow">in</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">base_split</span><span class="p">]</span>
+            <span class="ow">and</span> <span class="ow">not</span> <span class="n">base_item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span>
+        <span class="p">):</span>
+            <span class="n">base_index</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">continue</span>
+
+        <span class="c1"># Set an addressable value for last match, if it hasn&#39;t been matched yet</span>
+        <span class="k">if</span> <span class="n">revision_last_match</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">revision_index_start</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># Check if any revision items remain</span>
+            <span class="k">if</span> <span class="n">revision_last_match</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">revision_split</span><span class="p">):</span>
+                <span class="c1"># Start at the next revision index</span>
+                <span class="n">revision_index_start</span> <span class="o">=</span> <span class="n">revision_last_match</span> <span class="o">+</span> <span class="mi">1</span>
+
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># No revision items remain, move to the end</span>
+                <span class="n">base_index</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">break</span>
+
+        <span class="c1"># Find the next item in the revision that matches the base</span>
+        <span class="n">revision_index</span> <span class="o">=</span> <span class="n">_get_match</span><span class="p">(</span>
+            <span class="n">base_item</span><span class="o">=</span><span class="n">base_item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+            <span class="n">revision_split</span><span class="o">=</span><span class="n">revision_split</span><span class="p">,</span>
+            <span class="n">revision_index</span><span class="o">=</span><span class="n">revision_index_start</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="c1"># If there&#39;s no match, continue</span>
+        <span class="k">if</span> <span class="n">revision_index</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">base_index</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">continue</span>
+
+        <span class="c1"># Check if anything needs to be backfilled</span>
+        <span class="k">match</span> <span class="o">+=</span> <span class="n">_backfill</span><span class="p">(</span>
+            <span class="n">base_split</span><span class="o">=</span><span class="n">base_split</span><span class="p">,</span>
+            <span class="n">revision_split</span><span class="o">=</span><span class="n">revision_split</span><span class="p">,</span>
+            <span class="n">base_index</span><span class="o">=</span><span class="n">base_index</span><span class="p">,</span>
+            <span class="n">base_last_match</span><span class="o">=</span><span class="n">base_last_match</span><span class="p">,</span>
+            <span class="n">revision_index</span><span class="o">=</span><span class="n">revision_index</span><span class="p">,</span>
+            <span class="n">revision_last_match</span><span class="o">=</span><span class="n">revision_last_match</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="k">match</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="n">base_index</span><span class="p">][</span><span class="s2">&quot;value&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">base_split</span><span class="p">[</span><span class="n">base_index</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="n">base_index</span><span class="p">,</span>
+                <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="n">revision_index</span><span class="p">,</span>
+            <span class="p">}</span>
+        <span class="p">)</span>
+
+        <span class="n">base_last_match</span> <span class="o">=</span> <span class="n">base_index</span>
+        <span class="n">revision_last_match</span> <span class="o">=</span> <span class="n">revision_index</span>
+
+        <span class="n">base_index</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="c1"># Forward fill any remaining items</span>
+    <span class="n">fill</span> <span class="o">=</span> <span class="n">_forward_fill</span><span class="p">(</span>
+        <span class="n">base_split</span><span class="o">=</span><span class="n">base_split</span><span class="p">,</span>
+        <span class="n">revision_split</span><span class="o">=</span><span class="n">revision_split</span><span class="p">,</span>
+        <span class="n">base_last_match</span><span class="o">=</span><span class="n">base_last_match</span><span class="p">,</span>
+        <span class="n">revision_last_match</span><span class="o">=</span><span class="n">revision_last_match</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">match</span> <span class="o">+</span> <span class="n">fill</span>
+
+
+<span class="k">def</span> <span class="nf">_stats</span><span class="p">(</span>
+    <span class="n">comparison_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Calculate statistics of the match</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        comparison (list):</span>
+<span class="sd">            A list of dicts with the analysis results</span>
+
+<span class="sd">    returns:</span>
+<span class="sd">        dict:</span>
+<span class="sd">            Stats in raw form</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">added_length_content</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">added_length_total</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">removed_length_content</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">removed_length_total</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">base_length_content</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">base_length_total</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span><span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span> <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">revision_length_content</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">revision_length_total</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span><span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span> <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">match_length_content</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+            <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+            <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="n">match_length_total</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">item</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+            <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+        <span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;inputs&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;length&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">base_length_content</span><span class="p">,</span>
+                    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="n">base_length_total</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;length&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">revision_length_content</span><span class="p">,</span>
+                    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="n">revision_length_total</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">},</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;results&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;added&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;length&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">added_length_content</span><span class="p">,</span>
+                    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="n">added_length_total</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;removed&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;length&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">removed_length_content</span><span class="p">,</span>
+                    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="n">removed_length_total</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;matched&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;length&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">match_length_content</span><span class="p">,</span>
+                    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="n">match_length_total</span><span class="p">,</span>
+                <span class="p">},</span>
+                <span class="s2">&quot;base_preserved&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="p">(</span><span class="n">base_length_total</span><span class="p">)</span>
+                    <span class="ow">and</span> <span class="p">((</span><span class="n">match_length_total</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">base_length_total</span><span class="p">))</span>
+                    <span class="ow">or</span> <span class="mi">0</span><span class="p">,</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">base_length_content</span>
+                    <span class="ow">and</span> <span class="p">(</span><span class="n">match_length_content</span> <span class="o">/</span> <span class="n">base_length_content</span><span class="p">)</span>
+                    <span class="ow">or</span> <span class="mi">0</span><span class="p">,</span>
+                <span class="p">},</span>
+                <span class="s2">&quot;revision_matched&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="p">(</span><span class="n">revision_length_total</span><span class="p">)</span>
+                    <span class="ow">and</span> <span class="p">((</span><span class="n">match_length_total</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">revision_length_total</span><span class="p">))</span>
+                    <span class="ow">or</span> <span class="mi">0</span><span class="p">,</span>
+                    <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">revision_length_content</span>
+                    <span class="ow">and</span> <span class="p">(</span><span class="n">match_length_content</span> <span class="o">/</span> <span class="n">revision_length_content</span><span class="p">)</span>
+                    <span class="ow">or</span> <span class="mi">0</span><span class="p">,</span>
+                <span class="p">},</span>
+            <span class="p">},</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;score&quot;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1"># Score is (match) / (match + difference)</span>
+            <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="p">(</span>
+                <span class="p">(</span><span class="n">match_length_total</span> <span class="o">+</span> <span class="n">removed_length_total</span> <span class="o">+</span> <span class="n">added_length_total</span><span class="p">)</span>
+                <span class="ow">and</span> <span class="p">(</span><span class="n">match_length_total</span><span class="p">)</span>
+                <span class="o">/</span> <span class="p">(</span><span class="n">match_length_total</span> <span class="o">+</span> <span class="n">removed_length_total</span> <span class="o">+</span> <span class="n">added_length_total</span><span class="p">)</span>
+                <span class="ow">or</span> <span class="mi">0</span>
+            <span class="p">),</span>
+            <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="p">(</span>
+                <span class="p">(</span><span class="n">match_length_content</span> <span class="o">+</span> <span class="n">removed_length_content</span> <span class="o">+</span> <span class="n">added_length_content</span><span class="p">)</span>
+                <span class="ow">and</span> <span class="n">match_length_content</span>
+                <span class="o">/</span> <span class="p">(</span><span class="n">match_length_content</span> <span class="o">+</span> <span class="n">removed_length_content</span> <span class="o">+</span> <span class="n">added_length_content</span><span class="p">)</span>
+                <span class="ow">or</span> <span class="mi">0</span>
+            <span class="p">),</span>
+        <span class="p">},</span>
+    <span class="p">}</span>
+
+
+<span class="k">def</span> <span class="nf">_format_stats</span><span class="p">(</span>
+    <span class="n">stats</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Explain the results in a format more conducive to humans</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        stats (dict):</span>
+<span class="sd">            A dict with the output of the _stats function.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        dict:</span>
+<span class="sd">            Stats in human-readable formats, with explanations</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;summary&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s%%</span><span class="s2"> match&quot;</span> <span class="o">%</span> <span class="nb">round</span><span class="p">(</span><span class="n">stats</span><span class="p">[</span><span class="s2">&quot;score&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">100</span><span class="p">),</span>
+        <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Base length&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> and </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> total)&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span><span class="s2">&quot;word&quot;</span><span class="p">,</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                    <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span>
+                        <span class="s2">&quot;separator&quot;</span><span class="p">,</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                        <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="p">),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">],</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Words also in the revision&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> of </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s%%</span><span class="s2">)&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="nb">round</span><span class="p">(</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;base_preserved&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">100</span>
+                    <span class="p">),</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Similarity&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s%%</span><span class="s2"> identical to the revision&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="nb">round</span><span class="p">(</span><span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;base_preserved&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">100</span><span class="p">),</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Revision length&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> and </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> total)&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span><span class="s2">&quot;word&quot;</span><span class="p">,</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                    <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span>
+                        <span class="s2">&quot;separator&quot;</span><span class="p">,</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                        <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="p">),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">],</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Words also in the base&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> of </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s%%</span><span class="s2">)&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;inputs&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="nb">round</span><span class="p">(</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;revision_matched&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">100</span>
+                    <span class="p">),</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Similarity&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s%%</span><span class="s2"> identical to the base&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="nb">round</span><span class="p">(</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;revision_matched&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">100</span>
+                    <span class="p">),</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;matched&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Identical in base and revision&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> and </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> total)&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span><span class="s2">&quot;word&quot;</span><span class="p">,</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                    <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span>
+                        <span class="s2">&quot;separator&quot;</span><span class="p">,</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                        <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="p">),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">],</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Removed from the base&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> and </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> total)&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;removed&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span><span class="s2">&quot;word&quot;</span><span class="p">,</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;removed&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;removed&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                    <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;removed&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span>
+                        <span class="s2">&quot;separator&quot;</span><span class="p">,</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;removed&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                        <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;removed&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="p">),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;removed&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">],</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Added by the revision&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> and </span><span class="si">%s</span><span class="s2"> </span><span class="si">%s</span><span class="s2"> (</span><span class="si">%s</span><span class="s2"> total)&quot;</span>
+                <span class="o">%</span> <span class="p">(</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;added&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span><span class="s2">&quot;word&quot;</span><span class="p">,</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;added&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">]),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;added&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                    <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;added&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="n">plural</span><span class="p">(</span>
+                        <span class="s2">&quot;separator&quot;</span><span class="p">,</span>
+                        <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;added&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">]</span>
+                        <span class="o">-</span> <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;added&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;content&quot;</span><span class="p">],</span>
+                    <span class="p">),</span>
+                    <span class="n">stats</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">][</span><span class="s2">&quot;added&quot;</span><span class="p">][</span><span class="s2">&quot;length&quot;</span><span class="p">][</span><span class="s2">&quot;total&quot;</span><span class="p">],</span>
+                <span class="p">),</span>
+            <span class="p">},</span>
+        <span class="p">],</span>
+    <span class="p">}</span>
+
+
+<span class="k">def</span> <span class="nf">_format_bbcode</span><span class="p">(</span>
+    <span class="n">comparison_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Format the matched results using BBCode</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        comparison_split (list):</span>
+<span class="sd">            The results of the analysis</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        dict:</span>
+<span class="sd">            Analysis results reformatted as BBCode</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">formatted_stats</span> <span class="o">=</span> <span class="n">_format_stats</span><span class="p">(</span><span class="n">_stats</span><span class="p">(</span><span class="n">comparison_split</span><span class="p">))</span>
+
+    <span class="c1"># Assemble the text of matching words and separators</span>
+    <span class="n">matched</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span><span class="p">:</span>
+
+        <span class="c1"># Reveal invisible characters</span>
+        <span class="n">reveal</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">:</span>
+            <span class="n">reveal</span> <span class="o">=</span> <span class="s2">&quot;   ⇥&quot;</span>
+        <span class="k">elif</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">:</span>
+            <span class="n">reveal</span> <span class="o">=</span> <span class="s2">&quot;↲</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+        <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">reveal</span><span class="p">:</span>
+                <span class="n">reveal</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span>
+
+            <span class="n">matched</span> <span class="o">+=</span> <span class="s2">&quot;[s red]</span><span class="si">%s</span><span class="s2">[/s red]&quot;</span> <span class="o">%</span> <span class="n">reveal</span>
+
+        <span class="k">elif</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">reveal</span><span class="p">:</span>
+                <span class="n">reveal</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span>
+
+            <span class="n">matched</span> <span class="o">+=</span> <span class="s2">&quot;[u green]</span><span class="si">%s</span><span class="s2">[/u green]&quot;</span> <span class="o">%</span> <span class="n">reveal</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">matched</span> <span class="o">+=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;summary&quot;</span><span class="p">:</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;summary&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;matched&quot;</span><span class="p">:</span> <span class="n">matched</span><span class="p">,</span>
+        <span class="s2">&quot;analysis&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;base&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+                <span class="p">[</span>
+                    <span class="s2">&quot;[b]</span><span class="si">%s</span><span class="s2">:[/b]</span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">],</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+                    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span>
+                <span class="p">]</span>
+            <span class="p">),</span>
+            <span class="s2">&quot;matched&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+                <span class="p">[</span>
+                    <span class="s2">&quot;[b]</span><span class="si">%s</span><span class="s2">:[/b]</span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">],</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+                    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;matched&quot;</span><span class="p">]</span>
+                <span class="p">]</span>
+            <span class="p">),</span>
+            <span class="s2">&quot;revision&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+                <span class="p">[</span>
+                    <span class="s2">&quot;[b]</span><span class="si">%s</span><span class="s2">:[/b]</span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">],</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+                    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span>
+                <span class="p">]</span>
+            <span class="p">),</span>
+        <span class="p">},</span>
+    <span class="p">}</span>
+
+
+<span class="k">def</span> <span class="nf">_format_table</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">comparison_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+    <span class="n">base_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">revision_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Create summary tables that can be printed to the console</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        comparison_split (list):</span>
+<span class="sd">            The results of the analysis</span>
+<span class="sd">        base_name (str):</span>
+<span class="sd">            Optional name for the base text</span>
+<span class="sd">        revision_name (str):</span>
+<span class="sd">            Optional name for the revision text</span>
+
+<span class="sd">    return:</span>
+<span class="sd">        table:</span>
+<span class="sd">            rich.table.Table object with a formatted table</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Get BBCode-formatted results</span>
+    <span class="n">bbcode_results</span> <span class="o">=</span> <span class="n">_format_bbcode</span><span class="p">(</span><span class="n">comparison_split</span><span class="p">)</span>
+
+    <span class="c1"># Create the diff table</span>
+    <span class="n">diff_table</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span>
+        <span class="n">show_header</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="n">header_style</span><span class="o">=</span><span class="s2">&quot;bold cyan&quot;</span><span class="p">,</span>
+        <span class="n">show_lines</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="c1"># Add titles to base and revision</span>
+    <span class="n">base_title</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">base_name</span><span class="p">:</span>
+        <span class="n">base_title</span> <span class="o">=</span> <span class="s2">&quot;: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">base_name</span>
+
+    <span class="n">revision_title</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">revision_name</span><span class="p">:</span>
+        <span class="n">revision_title</span> <span class="o">=</span> <span class="s2">&quot;: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">revision_name</span>
+
+    <span class="n">diff_table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">&quot;Base</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">base_title</span><span class="p">,</span> <span class="n">ratio</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">min_width</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">vertical</span><span class="o">=</span><span class="s2">&quot;top&quot;</span><span class="p">)</span>
+    <span class="n">diff_table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span>
+        <span class="s2">&quot;Revision</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">revision_title</span><span class="p">,</span> <span class="n">ratio</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">min_width</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">vertical</span><span class="o">=</span><span class="s2">&quot;top&quot;</span>
+    <span class="p">)</span>
+    <span class="n">diff_table</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span>
+        <span class="s2">&quot;Comparison: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">bbcode_results</span><span class="p">[</span><span class="s2">&quot;summary&quot;</span><span class="p">],</span>
+        <span class="n">ratio</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+        <span class="n">min_width</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+        <span class="n">vertical</span><span class="o">=</span><span class="s2">&quot;top&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">diff_table</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+            <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span> <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+            <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span> <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
+        <span class="p">),</span>
+        <span class="n">bbcode_results</span><span class="p">[</span><span class="s2">&quot;matched&quot;</span><span class="p">],</span>
+    <span class="p">)</span>
+
+    <span class="n">diff_table</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="n">bbcode_results</span><span class="p">[</span><span class="s2">&quot;analysis&quot;</span><span class="p">][</span><span class="s2">&quot;base&quot;</span><span class="p">],</span>
+        <span class="n">bbcode_results</span><span class="p">[</span><span class="s2">&quot;analysis&quot;</span><span class="p">][</span><span class="s2">&quot;revision&quot;</span><span class="p">],</span>
+        <span class="n">bbcode_results</span><span class="p">[</span><span class="s2">&quot;analysis&quot;</span><span class="p">][</span><span class="s2">&quot;matched&quot;</span><span class="p">],</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">diff_table</span>
+
+
+<span class="k">def</span> <span class="nf">_safe_html</span><span class="p">(</span>
+    <span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Shake some of the gremlins out of text so it renders properly</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        text (str):</span>
+<span class="sd">            Text to be escaped</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        str:</span>
+<span class="sd">            Escaped text that will render safely in HTML</span>
+
+<span class="sd">    Raises:</span>
+<span class="sd">        TypeError: Text must be a string.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Check the type</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;text must be a string&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Escape existing characters with special meaning in HTML</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">escape</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+
+    <span class="c1"># Convert line breaks to HTML breaks</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&lt;br /&gt;&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Convert tabs to explicit spaces</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">text</span>
+
+
+<span class="k">def</span> <span class="nf">_format_html</span><span class="p">(</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">comparison_split</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span>
+    <span class="n">page</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">inline</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">internal</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">heading_level</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+    <span class="n">base_name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="n">revision_name</span><span class="o">=</span><span class="s2">&quot;Revision&quot;</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Create an HTML-formatted report</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        comparison_split (list):</span>
+<span class="sd">            The result of the initial analysis.</span>
+<span class="sd">        page (bool):</span>
+<span class="sd">            If True, return a full page instead of a snippet.</span>
+<span class="sd">        inline (bool):</span>
+<span class="sd">            If True, render styles directly inline in the document.</span>
+<span class="sd">        internal (bool):</span>
+<span class="sd">            If True, render styles in the &lt;head&gt; of the document.</span>
+<span class="sd">        heading_level (int):</span>
+<span class="sd">            The highest heading level.</span>
+<span class="sd">        base_name (str):</span>
+<span class="sd">            Optional name for the base text</span>
+<span class="sd">        revision_name (str):</span>
+<span class="sd">            Optional name for the revision text</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        dict:</span>
+<span class="sd">            HTML and CSS</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">stats</span> <span class="o">=</span> <span class="n">_stats</span><span class="p">(</span><span class="n">comparison_split</span><span class="p">)</span>
+    <span class="n">formatted_stats</span> <span class="o">=</span> <span class="n">_format_stats</span><span class="p">(</span><span class="n">stats</span><span class="p">)</span>
+
+    <span class="c1"># Add the base and revision and match reports</span>
+    <span class="n">html_output</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;summary&quot;</span><span class="p">:</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;summary&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;match_summary&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">                &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+            <span class="p">[</span>
+                <span class="s2">&quot;&lt;li&gt;&lt;strong&gt;</span><span class="si">%s</span><span class="s2">:&lt;/strong&gt; </span><span class="si">%s</span><span class="s2">&lt;/li&gt;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">],</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+                <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;matched&quot;</span><span class="p">]</span>
+            <span class="p">]</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;base_summary&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">                &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+            <span class="p">[</span>
+                <span class="s2">&quot;&lt;li&gt;&lt;strong&gt;</span><span class="si">%s</span><span class="s2">:&lt;/strong&gt; </span><span class="si">%s</span><span class="s2">&lt;/li&gt;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">],</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+                <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span>
+            <span class="p">]</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;base_detail&quot;</span><span class="p">:</span> <span class="n">_safe_html</span><span class="p">(</span>
+            <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+                <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span> <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
+            <span class="p">)</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;revision_summary&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">                &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+            <span class="p">[</span>
+                <span class="s2">&quot;&lt;li&gt;&lt;strong&gt;</span><span class="si">%s</span><span class="s2">:&lt;/strong&gt; </span><span class="si">%s</span><span class="s2">&lt;/li&gt;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">],</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+                <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">formatted_stats</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span>
+            <span class="p">]</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;revision_detail&quot;</span><span class="p">:</span> <span class="n">_safe_html</span><span class="p">(</span>
+            <span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+                <span class="p">[</span>
+                    <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span>
+                    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span>
+                    <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+                <span class="p">]</span>
+            <span class="p">)</span>
+        <span class="p">),</span>
+    <span class="p">}</span>
+
+    <span class="c1"># Set the heading levels</span>
+    <span class="k">if</span> <span class="n">page</span> <span class="ow">or</span> <span class="n">heading_level</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;heading_level&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">heading_level</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;subheading_level&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">heading_level</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># If not a page, the title should not be H1</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;heading_level&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;subheading_level&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">3</span>
+
+    <span class="c1"># Set base name and title, if they exist</span>
+    <span class="k">if</span> <span class="n">base_name</span><span class="p">:</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;base_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">base_name</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;base_title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Base: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">base_name</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;base_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;base_title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Base&quot;</span>
+
+    <span class="c1"># Set revision name and title, if they exist</span>
+    <span class="k">if</span> <span class="n">revision_name</span><span class="p">:</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;revision_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">revision_name</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;revision_title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Revision: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">revision_name</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;revision_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;revision_title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Revision&quot;</span>
+
+    <span class="n">head_template</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;&lt;!doctype html&gt;</span>
+<span class="s2">&lt;html lang=&quot;en-US&quot;&gt;</span>
+<span class="s2">&lt;head&gt;</span>
+<span class="s2">&lt;meta charset=&quot;utf-8&quot; /&gt;</span>
+<span class="s2">&lt;title&gt;Comparison of $base_name and $revision_name&lt;/title&gt;</span>
+<span class="s2">$head_css&lt;/head&gt;</span>
+<span class="s2">&lt;body class=&quot;page&quot;$style_page_inline&gt;</span>
+<span class="s2">&quot;&quot;&quot;</span>
+
+    <span class="n">body_template</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;&lt;!-- Comparison generated by Indifferent: https://github.com/brianwarner/indifferent --&gt;</span>
+<span class="s2">&lt;div class=&quot;indifferent&quot;$style_indifferent_inline&gt;</span>
+<span class="s2">    &lt;h$heading_level$style_title_inline class=&quot;title&quot;&gt;$base_name&lt;br /&gt;&lt;span class=&quot;vs&quot;$style_vs_inline&gt;vs.&lt;/span&gt;&lt;br /&gt;$revision_name&lt;/h$heading_level&gt;</span>
+<span class="s2">    &lt;h$subheading_level$style_subtitle_inline class=&quot;subtitle&quot;&gt;$summary&lt;/h$subheading_level&gt;</span>
+<span class="s2">    &lt;div class=&quot;nav-links&quot;&gt;</span>
+<span class="s2">        &lt;table$style_nav_links_table_inline&gt;</span>
+<span class="s2">            &lt;tr&gt;</span>
+<span class="s2">                &lt;td$style_nav_links_td_inline&gt;&lt;a href=&quot;#indifferent.base&quot;$style_nav_links_a_inline&gt;Base&lt;/a&gt;&lt;/td&gt;</span>
+<span class="s2">                &lt;td$style_nav_links_td_inline&gt;&lt;a href=&quot;#indifferent.revision&quot;$style_nav_links_a_inline&gt;Revision&lt;/a&gt;&lt;/td&gt;</span>
+<span class="s2">                &lt;td$style_nav_links_td_last_inline class=&quot;last&quot;&gt;&lt;a href=&quot;#indifferent.match&quot;$style_nav_links_a_inline&gt;Comparison&lt;/a&gt;&lt;/td&gt;</span>
+<span class="s2">            &lt;/tr&gt;</span>
+<span class="s2">        &lt;/table&gt;</span>
+<span class="s2">    &lt;/div&gt;</span>
+<span class="s2">    &lt;div class=&quot;section base&quot;$style_section_inline&gt;</span>
+<span class="s2">        &lt;a id=&quot;indifferent.base&quot;&gt;&lt;/a&gt;</span>
+<span class="s2">        &lt;h$subheading_level$style_subheading_inline&gt;$base_title&lt;/h$subheading_level&gt;</span>
+<span class="s2">        &lt;div class=&quot;summary&quot;&gt;</span>
+<span class="s2">            &lt;ul&gt;</span>
+<span class="s2">                $base_summary</span>
+<span class="s2">            &lt;/ul&gt;</span>
+<span class="s2">        &lt;/div&gt;</span>
+<span class="s2">        &lt;div class=&quot;detail&quot;$style_detail_inline&gt;</span>
+<span class="s2">            $base_detail</span>
+<span class="s2">        &lt;/div&gt;</span>
+<span class="s2">    &lt;/div&gt;</span>
+<span class="s2">    &lt;div class=&quot;section revision&quot;$style_section_inline&gt;</span>
+<span class="s2">        &lt;a id=&quot;indifferent.revision&quot;&gt;&lt;/a&gt;</span>
+<span class="s2">        &lt;h$subheading_level$style_subheading_inline&gt;$revision_title&lt;/h$subheading_level&gt;</span>
+<span class="s2">        &lt;div class=&quot;summary&quot;&gt;</span>
+<span class="s2">            &lt;ul&gt;</span>
+<span class="s2">                $revision_summary</span>
+<span class="s2">            &lt;/ul&gt;</span>
+<span class="s2">        &lt;/div&gt;</span>
+<span class="s2">        &lt;div class=&quot;detail&quot;$style_detail_inline&gt;</span>
+<span class="s2">            $revision_detail</span>
+<span class="s2">        &lt;/div&gt;</span>
+<span class="s2">    &lt;/div&gt;</span>
+<span class="s2">    &lt;div class=&quot;section match&quot;$style_section_inline&gt;</span>
+<span class="s2">        &lt;a id=&quot;indifferent.match&quot;&gt;&lt;/a&gt;</span>
+<span class="s2">        &lt;h$subheading_level$style_subheading_inline&gt;Comparison: $summary&lt;/h$subheading_level&gt;</span>
+<span class="s2">        &lt;div class=&quot;summary&quot;&gt;</span>
+<span class="s2">            &lt;ul&gt;</span>
+<span class="s2">                $match_summary</span>
+<span class="s2">        &lt;/div&gt;</span>
+<span class="s2">        &lt;div class=&quot;detail&quot;$style_detail_inline&gt;</span>
+<span class="s2">            $match_detail</span>
+<span class="s2">        &lt;/div&gt;</span>
+<span class="s2">    &lt;/div&gt;</span>
+<span class="s2">&lt;/div&gt;&quot;&quot;&quot;</span>  <span class="c1"># noqa E501</span>
+
+    <span class="n">tail_template</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">&lt;/body&gt;</span>
+<span class="s2">&lt;/html&gt;&quot;&quot;&quot;</span>
+
+    <span class="c1"># Only include .page if returning a page</span>
+    <span class="k">if</span> <span class="n">page</span><span class="p">:</span>
+        <span class="n">css_template</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;   .page {</span>
+<span class="s2">        $style_page</span>
+<span class="s2">    }</span>
+
+<span class="s2">&quot;&quot;&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">css_template</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+    <span class="n">css_template</span> <span class="o">+=</span> <span class="s2">&quot;&quot;&quot;    .indifferent {</span>
+<span class="s2">        $style_indifferent</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent h$heading_level.title {</span>
+<span class="s2">        $style_title</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent h$heading_level.title .vs {</span>
+<span class="s2">        $style_vs</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent h$subheading_level.subtitle {</span>
+<span class="s2">        $style_subtitle</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .nav-links table {</span>
+<span class="s2">        $style_nav_links_table</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .nav-links td {</span>
+<span class="s2">        $style_nav_links_td</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .nav-links td.last {</span>
+<span class="s2">        $style_nav_links_td_last</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .nav-links a {</span>
+<span class="s2">        $style_nav_links_a</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .section h$subheading_level {</span>
+<span class="s2">        $style_subheading</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .section {</span>
+<span class="s2">        $style_section</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .detail {</span>
+<span class="s2">        $style_detail</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .matched {</span>
+<span class="s2">        $style_matched</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .added {</span>
+<span class="s2">        $style_added</span>
+<span class="s2">    }</span>
+
+<span class="s2">    .indifferent .deleted {</span>
+<span class="s2">        $style_deleted</span>
+<span class="s2">    }</span>
+<span class="s2">&quot;&quot;&quot;</span>
+
+    <span class="c1"># Define the styles</span>
+    <span class="n">style_definitions</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;page&quot;</span><span class="p">:</span> <span class="s2">&quot;background-color: #DDD; font-family: sans-serif;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;indifferent&quot;</span><span class="p">:</span> <span class="s2">&quot;max-width: 900px; min-width: 800px; margin: 0 auto; background-color: #FFF; padding: 30px 20px; color: #333;&quot;</span><span class="p">,</span>  <span class="c1"># noqa E501</span>
+        <span class="s2">&quot;section&quot;</span><span class="p">:</span> <span class="s2">&quot;padding: 20px 0px;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;text-align: center;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;vs&quot;</span><span class="p">:</span> <span class="s2">&quot;font-size: 70%; color: #333;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subtitle&quot;</span><span class="p">:</span> <span class="s2">&quot;border-bottom: none; text-align: center; color: #555;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;nav_links_table&quot;</span><span class="p">:</span> <span class="s2">&quot;margin: 40px auto 0px;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;nav_links_td&quot;</span><span class="p">:</span> <span class="s2">&quot;border-right: 1px #888 solid;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;nav_links_td_last&quot;</span><span class="p">:</span> <span class="s2">&quot;border-right: 0px;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;nav_links_a&quot;</span><span class="p">:</span> <span class="s2">&quot;color: #333; padding: 5px 10px; text-decoration: none;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;subheading&quot;</span><span class="p">:</span> <span class="p">(</span>
+            <span class="s2">&quot;padding-bottom: 10px; margin: 20px 0px 0px; border-bottom: 1px solid grey;&quot;</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;detail&quot;</span><span class="p">:</span> <span class="p">(</span>
+            <span class="s2">&quot;margin: 10px; padding: 15px; border: 1px solid #DDD; font-family: monospace;&quot;</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;matched&quot;</span><span class="p">:</span> <span class="s2">&quot;background-color: #DEDEDE; margin: 0px 1px;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;added&quot;</span><span class="p">:</span> <span class="p">(</span>
+            <span class="s2">&quot;color: green; text-decoration: underline; font-weight: bold; margin: 0px 1px&quot;</span>
+        <span class="p">),</span>
+        <span class="s2">&quot;deleted&quot;</span><span class="p">:</span> <span class="s2">&quot;color: red; text-decoration: line-through; margin: 0px 1px;&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="c1"># Format styles for inline or internal/external</span>
+    <span class="k">for</span> <span class="n">style</span> <span class="ow">in</span> <span class="n">style_definitions</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">inline</span><span class="p">:</span>
+            <span class="c1"># Inline styles are embedded directly into tags</span>
+            <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;style_</span><span class="si">%s</span><span class="s2">_inline&quot;</span> <span class="o">%</span> <span class="n">style</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+                <span class="s1">&#39; style=&quot;</span><span class="si">%s</span><span class="s1">&quot;&#39;</span> <span class="o">%</span> <span class="n">style_definitions</span><span class="p">[</span><span class="n">style</span><span class="p">]</span>
+            <span class="p">)</span>
+            <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;style_</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">style</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># Internal/external styles are more readable when separated by line breaks</span>
+            <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;style_</span><span class="si">%s</span><span class="s2">_inline&quot;</span> <span class="o">%</span> <span class="n">style</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;style_</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">style</span><span class="p">]</span> <span class="o">=</span> <span class="n">style_definitions</span><span class="p">[</span><span class="n">style</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
+                <span class="s2">&quot;; &quot;</span><span class="p">,</span> <span class="s2">&quot;;</span><span class="se">\n</span><span class="s2">        &quot;</span>
+            <span class="p">)</span>
+
+    <span class="c1"># Assemble the match for display</span>
+    <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;match_detail&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">comparison_split</span><span class="p">:</span>
+
+        <span class="c1"># Reveal specific invisible characters, otherwise escape the item</span>
+        <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">:</span>
+            <span class="n">display</span> <span class="o">=</span> <span class="s2">&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;RightArrowBar;&quot;</span>
+
+        <span class="k">elif</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">:</span>
+            <span class="n">display</span> <span class="o">=</span> <span class="s2">&quot;&amp;ldsh;&lt;br /&gt;&quot;</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">display</span> <span class="o">=</span> <span class="n">_safe_html</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">])</span>
+
+        <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;match_detail&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span class=&quot;deleted&quot;</span><span class="si">%s</span><span class="s1">&gt;</span><span class="si">%s</span><span class="s1">&lt;/span&gt;&#39;</span> <span class="o">%</span> <span class="p">(</span>
+                <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;style_deleted_inline&quot;</span><span class="p">],</span>
+                <span class="n">display</span><span class="p">,</span>
+            <span class="p">)</span>
+
+        <span class="k">elif</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;base&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;revision&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;match_detail&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span class=&quot;added&quot;</span><span class="si">%s</span><span class="s1">&gt;</span><span class="si">%s</span><span class="s1">&lt;/span&gt;&#39;</span> <span class="o">%</span> <span class="p">(</span>
+                <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;style_added_inline&quot;</span><span class="p">],</span>
+                <span class="n">display</span><span class="p">,</span>
+            <span class="p">)</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;match_detail&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="s1">&#39;&lt;span class=&quot;matched&quot;</span><span class="si">%s</span><span class="s1">&gt;</span><span class="si">%s</span><span class="s1">&lt;/span&gt;&#39;</span> <span class="o">%</span> <span class="p">(</span>
+                <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;style_matched_inline&quot;</span><span class="p">],</span>
+                <span class="n">display</span><span class="p">,</span>
+            <span class="p">)</span>
+
+    <span class="c1"># Assemble CSS</span>
+    <span class="k">if</span> <span class="n">inline</span><span class="p">:</span>
+        <span class="c1"># Don&#39;t return CSS if using inline styles</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;head_css&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="n">external_css</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+    <span class="k">elif</span> <span class="n">internal</span><span class="p">:</span>
+        <span class="c1"># If using internal styles, add CSS to head</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;head_css&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&lt;style&gt;</span><span class="se">\n</span><span class="si">%s</span><span class="s2">&lt;/style&gt;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">Template</span><span class="p">(</span>
+            <span class="n">css_template</span>
+        <span class="p">)</span><span class="o">.</span><span class="n">substitute</span><span class="p">(</span><span class="n">html_output</span><span class="p">)</span>
+        <span class="n">external_css</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># If using external styles, return CSS</span>
+        <span class="n">html_output</span><span class="p">[</span><span class="s2">&quot;head_css&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;&lt;link rel=&quot;stylesheet&quot; href=&quot;indifferent.css&quot;&gt;</span><span class="se">\n</span><span class="s1">&#39;</span>
+        <span class="n">external_css</span> <span class="o">=</span> <span class="n">Template</span><span class="p">(</span><span class="n">css_template</span><span class="p">)</span><span class="o">.</span><span class="n">substitute</span><span class="p">(</span><span class="n">html_output</span><span class="p">)</span>
+
+    <span class="c1"># Assemble templates and return</span>
+    <span class="k">if</span> <span class="n">page</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;html&quot;</span><span class="p">:</span> <span class="n">Template</span><span class="p">(</span><span class="n">head_template</span><span class="p">)</span><span class="o">.</span><span class="n">substitute</span><span class="p">(</span><span class="n">html_output</span><span class="p">)</span>
+            <span class="o">+</span> <span class="n">Template</span><span class="p">(</span><span class="n">body_template</span><span class="p">)</span><span class="o">.</span><span class="n">substitute</span><span class="p">(</span><span class="n">html_output</span><span class="p">)</span>
+            <span class="o">+</span> <span class="n">tail_template</span><span class="p">,</span>
+            <span class="s2">&quot;css&quot;</span><span class="p">:</span> <span class="n">external_css</span><span class="p">,</span>
+        <span class="p">}</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;html&quot;</span><span class="p">:</span> <span class="n">Template</span><span class="p">(</span><span class="n">body_template</span><span class="p">)</span><span class="o">.</span><span class="n">substitute</span><span class="p">(</span><span class="n">html_output</span><span class="p">),</span>
+            <span class="s2">&quot;css&quot;</span><span class="p">:</span> <span class="n">external_css</span><span class="p">,</span>
+        <span class="p">}</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Brian Warner.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
