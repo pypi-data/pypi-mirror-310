@@ -1,0 +1,10 @@
+omikb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omikb/domekb.py,sha256=-jQFZ8qeXpWEV6f_FWnCKkNavk_wYVhq84yHhlTuN88,4915
+omikb/omikb.py,sha256=5_CAXe3ovaW1jQ9qV8qK18qckDh5-zTIRu-Isei4XQE,6410
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=ynsxoQX2O-jwYLFT-Wz3ofoW-LAcuzuSNddw4HMJ-q0,171
+omikb-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+omikb-0.0.2.dist-info/METADATA,sha256=vAuiMrvpT3UddXbCYtQquckd-Dl-0e1gJjZ6EcbWnUM,3213
+omikb-0.0.2.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+omikb-0.0.2.dist-info/top_level.txt,sha256=f7MNPYe-xGrIvDX2wz0pKIT78dpsVQ2Ot0WaGdOYNOU,11
+omikb-0.0.2.dist-info/RECORD,,
