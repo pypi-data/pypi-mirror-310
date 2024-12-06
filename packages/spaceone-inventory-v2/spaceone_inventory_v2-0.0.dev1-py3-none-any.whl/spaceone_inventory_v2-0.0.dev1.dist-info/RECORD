@@ -1,0 +1,10 @@
+spaceone/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+spaceone/inventory_v2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spaceone/inventory_v2/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spaceone/inventory_v2/conf/global_conf.py,sha256=YiVcOziyMb2iqfFOODJ689amPTTwcbBlUUMuQTB2PGA,1463
+spaceone/inventory_v2/interface/__init__.py,sha256=8LkUcO6a_2moQ84bWy2KI3v3J5KyQh76uH0lM_ciAmI,88
+spaceone/inventory_v2/interface/grpc/__init__.py,sha256=8LkUcO6a_2moQ84bWy2KI3v3J5KyQh76uH0lM_ciAmI,88
+spaceone_inventory_v2-0.0.dev1.dist-info/METADATA,sha256=2EH9vwrRCKdZ3PUwJCtpuWwFmQEku0gDgFBrtx4bqgc,322
+spaceone_inventory_v2-0.0.dev1.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+spaceone_inventory_v2-0.0.dev1.dist-info/top_level.txt,sha256=ihEDWQFt9VC1K7rt_uBlNUKrx7ixKzPRVA1agrFCIfQ,9
+spaceone_inventory_v2-0.0.dev1.dist-info/RECORD,,
