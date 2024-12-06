@@ -1,0 +1,9 @@
+README.md
+setup.py
+findhuman/__init__.py
+findhuman/detector.py
+findhuman.egg-info/PKG-INFO
+findhuman.egg-info/SOURCES.txt
+findhuman.egg-info/dependency_links.txt
+findhuman.egg-info/requires.txt
+findhuman.egg-info/top_level.txt
