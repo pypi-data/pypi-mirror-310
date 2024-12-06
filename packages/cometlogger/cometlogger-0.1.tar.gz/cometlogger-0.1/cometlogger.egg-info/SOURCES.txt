@@ -1,0 +1,17 @@
+setup.py
+cometlogger/Comet.py
+cometlogger/__init__.py
+cometlogger/main.py
+cometlogger/setup.py
+cometlogger.egg-info/PKG-INFO
+cometlogger.egg-info/SOURCES.txt
+cometlogger.egg-info/dependency_links.txt
+cometlogger.egg-info/top_level.txt
+cometlogger/Components/antidebug.py
+cometlogger/Components/injection.py
+cometlogger/Components/loader.py
+cometlogger/Components/postprocess.py
+cometlogger/Components/process.py
+cometlogger/Components/sigthief.py
+cometlogger/Components/startup.py
+cometlogger/Components/systeminfo.py
