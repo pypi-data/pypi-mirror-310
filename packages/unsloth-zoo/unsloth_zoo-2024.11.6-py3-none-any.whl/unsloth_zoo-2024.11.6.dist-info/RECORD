@@ -1,0 +1,17 @@
+unsloth_zoo/__init__.py,sha256=L_lzGmN3s77sl384sc7fH0ekvSZUCvYdQKaugZnAYOQ,1406
+unsloth_zoo/compiler.py,sha256=8x94wHrn-67XIdclMgqfioMu85pXDIx5pxxnAtru6Mc,45741
+unsloth_zoo/compiler_replacements.py,sha256=z9uvMOtw8TYnsMgaInCPQwsG7eWs578uVS04PBmUxdk,3945
+unsloth_zoo/dataset_utils.py,sha256=5qSJpGS7sSEViGFFFkn7tDINuAnZu3eIzXOZX3yqsnc,12108
+unsloth_zoo/gradient_checkpointing.py,sha256=IJ2Zg-PSEHjvqxXGW02jvly2CkKzM3dnlbYK7hdzUhs,16970
+unsloth_zoo/loss_utils.py,sha256=1cCbE0n4cwVhyj8e6Q2Gvemwyzaod2jDYSm-lQDZa3Q,6551
+unsloth_zoo/patch_torch_functions.py,sha256=EEpxpCZDSlmbq1tVLJIqr0p5F-qlOLX8MWXED8U_xvQ,7566
+unsloth_zoo/patching_utils.py,sha256=_45PaPWM8DMod50HPtU98wnqC890eVVRNlDiSZN6ASI,16397
+unsloth_zoo/peft_utils.py,sha256=U2QjF-Oi_dq1PaaoApSEzKFHLO7bXjp5lZuhnaRx8kI,12497
+unsloth_zoo/tokenizer_utils.py,sha256=L5Eu_83rN15FQXGyBbJoza3OkbUfA8qSawVwGSn0Iis,23842
+unsloth_zoo/training_utils.py,sha256=h7XDV9NHy9NbGs-eA9fiQpti1-R7Hro_zWjERX8RAAs,13294
+unsloth_zoo/vision_utils.py,sha256=DxAoq5I50tGuRyDHHjHwMTIZ4KNw0_MG7FaFvn0HQ5E,11204
+unsloth_zoo-2024.11.6.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+unsloth_zoo-2024.11.6.dist-info/METADATA,sha256=juhb4w1zMitg9WCO5Ya0f5OmAjxnpJolm0v34Y61GYw,16937
+unsloth_zoo-2024.11.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+unsloth_zoo-2024.11.6.dist-info/top_level.txt,sha256=Q-w7nsKmMo1WAuJdixIl_JbMR50kd34zrukKtYDYcRE,12
+unsloth_zoo-2024.11.6.dist-info/RECORD,,
