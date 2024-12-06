@@ -1,0 +1,7 @@
+aett-domain>=2.1.0
+aiosqlite~=0.20
+
+[dev]
+pip-tools
+pytest
+behave
