@@ -1,0 +1,5 @@
+setup.py
+codexia.egg-info/PKG-INFO
+codexia.egg-info/SOURCES.txt
+codexia.egg-info/dependency_links.txt
+codexia.egg-info/top_level.txt
