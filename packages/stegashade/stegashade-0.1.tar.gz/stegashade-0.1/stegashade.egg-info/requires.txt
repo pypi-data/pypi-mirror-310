@@ -1,0 +1,4 @@
+Pillow
+rich
+numpy
+cryptography
