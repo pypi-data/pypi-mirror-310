@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: auth_gateway_serverkit
+Version: 0.0.1
+Summary: A brief description of your package.
+Author: Echo298327
+Author-email: Echo298327 <shalomber17@gmail.com>
+Project-URL: Homepage, https://github.com/Echo298327/auth-gateway-serverkit
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# auth-gateway-serverkit
