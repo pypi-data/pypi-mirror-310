@@ -1,0 +1,2 @@
+[console_scripts]
+stacflow = theia_dumper.cli:__main__
