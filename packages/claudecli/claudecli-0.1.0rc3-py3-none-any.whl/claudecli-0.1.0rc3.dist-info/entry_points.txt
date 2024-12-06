@@ -1,0 +1,4 @@
+[console_scripts]
+claude=claudecli.cli:main
+claude_cli=claudecli.cli:main
+

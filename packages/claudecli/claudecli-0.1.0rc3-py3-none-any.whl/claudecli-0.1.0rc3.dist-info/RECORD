@@ -1,0 +1,9 @@
+claudecli/__init__.py,sha256=HmBomNQ2t2zzF9wEUVJDvCPUhL4XHRkidinDRG2yVkI,124
+claudecli/cli.py,sha256=iT5_C6ZpXg_PNMYsEZR4jE7xznX-GOs_FhyuABE_uU8,3150
+claudecli/core.py,sha256=Ndx1fM1wNzg1gCbnweLNi4R5CS7mLpv8ArYCttj-ZYg,3051
+claudecli/logger.py,sha256=Op1WxxYlOra3nw74alLZTgYbFrVnOyqLSzrPqbDrvxs,1161
+claudecli-0.1.0rc3.dist-info/LICENSE,sha256=nd-TRzKLI3OIMvosNN-eQbx5x7YOMuX2pgUvX4eACHw,1079
+claudecli-0.1.0rc3.dist-info/METADATA,sha256=YTi4DUHUTg_cBT2HpngX9MDPlr8RzGkEIozp89tdgEU,1986
+claudecli-0.1.0rc3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+claudecli-0.1.0rc3.dist-info/entry_points.txt,sha256=70rG1cdWHpCSAqjuicHjvHNOp6we9-1lDhUSVXHXcJo,75
+claudecli-0.1.0rc3.dist-info/RECORD,,
