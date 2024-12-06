@@ -1,0 +1,10 @@
+azure_activation_service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_activation_service/cli.py,sha256=lhWWnbG0QAqAkiWEyHPu1l1AaAbFMjyeXE_l6spNzuk,14112
+azure_activation_service/config.py,sha256=e4OS1RbHQ7_Z9mUi19uvu8BuF4Obe7Qp7b46ZRrE6gA,503
+azure_activation_service/pim_client.py,sha256=l7vFJamwQtU-T7eiXKDVDzvRtXV3zJNMsrqVJGkB9Ko,14371
+azure_activation_service-0.1.0.dist-info/LICENSE,sha256=w0Y3Nk4MCGVeK4421V5RnEFdoSsFH50LwlmC5DLGcLI,1060
+azure_activation_service-0.1.0.dist-info/METADATA,sha256=Te6GpMrzN4aqlFv8CjU7SoKDp_8hFeMKuC5QQWe6SS4,2240
+azure_activation_service-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+azure_activation_service-0.1.0.dist-info/entry_points.txt,sha256=EadrXoD9bq3kJmdq77HVYHX8B1mT2CleDAF4XcPltI4,109
+azure_activation_service-0.1.0.dist-info/top_level.txt,sha256=H5XUTbTUyikj6kk0mxXqL0V8eUnYjojH9Ng757bBOAM,25
+azure_activation_service-0.1.0.dist-info/RECORD,,
