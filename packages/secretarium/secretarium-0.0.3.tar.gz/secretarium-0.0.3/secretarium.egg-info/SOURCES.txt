@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+secretarium.egg-info/PKG-INFO
+secretarium.egg-info/SOURCES.txt
+secretarium.egg-info/dependency_links.txt
+secretarium.egg-info/top_level.txt
