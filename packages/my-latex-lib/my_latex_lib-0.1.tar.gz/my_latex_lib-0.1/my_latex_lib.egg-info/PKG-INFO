@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: my_latex_lib
+Version: 0.1
+Summary: A simple LaTeX generator library
+Home-page: https://github.com/yourusername/my_latex_lib
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
