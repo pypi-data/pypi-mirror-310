@@ -1,0 +1,10 @@
+miniflare/__init__.py,sha256=Zk0e9jJQYFr3kQZWcbjFWfc6wV9z5vZmoUaHKOOlp54,20
+miniflare/cloudflare_api.py,sha256=BEFwvLdl1n-hbQXwaUrCS-gpfVbxibLkydZy7L_b5jE,7757
+miniflare/config.py,sha256=4RnLrJiIUAG-tAtngilmnM1VXxJQuN8qNW-Y9aHaJDM,38
+miniflare/extension.py,sha256=4DgiVmTxRO-yoUcY9sAjOxFFEv5cSkxgi6g2h1lzGc8,5001
+localstack_extension_miniflare-0.1.3.dist-info/LICENSE,sha256=QO8A2nP6FqCZnnOoGbporD2nW_xeDilr-c3P_Cieras,1176
+localstack_extension_miniflare-0.1.3.dist-info/METADATA,sha256=-cswBRwygvXFsXLo_ksckFZINIuTzdhShMxXnao2oU0,2270
+localstack_extension_miniflare-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+localstack_extension_miniflare-0.1.3.dist-info/entry_points.txt,sha256=Dbj2c-1WrWerVXuyMulRK1B2gWeTkD0RXwDc25-7ajo,75
+localstack_extension_miniflare-0.1.3.dist-info/top_level.txt,sha256=Rwb6Arua9qnh49nyweGBFwni4oiXDhnYHWEU9ThNfus,10
+localstack_extension_miniflare-0.1.3.dist-info/RECORD,,
