@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+READMEPYPI.md
+setup.py
+logscolor/__init__.py
+logscolor/logscl.py
+logscolor.egg-info/PKG-INFO
+logscolor.egg-info/SOURCES.txt
+logscolor.egg-info/dependency_links.txt
+logscolor.egg-info/requires.txt
+logscolor.egg-info/top_level.txt
