@@ -1,0 +1,5 @@
+/.pytest_cache
+/.vscode
+/src/qspylib/__pycache__
+/dist
+/docs/build
