@@ -1,0 +1,11 @@
+polario/__init__.py,sha256=xHQl9qTP1Ma_z6Ov91tPqM_wsqIuGFhKNEQc7U2b76g,522
+polario/_version.py,sha256=9jP8Fo8egXoMs_T3DFqSuJYg4n9o9mnwYubl_hnut4k,411
+polario/delta_dataset.py,sha256=oOoWIp86OXjsu5a0kfHAenfWxvzk9jlnFoYwDHoxdwE,2099
+polario/hive_dataset.py,sha256=bSQ_0xcR5JNT6_0VrFbqPHRMbW9Dx0aKV4BRiBJ9DA8,15943
+polario/main.py,sha256=a5KmPEpcmI_GY96YF7qo8FZY45owDQVo9TPN31ekbmg,2544
+polario/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polario-0.3.2.dist-info/METADATA,sha256=f2Ghc9C3Rqum0-KIqmx-nWQWELQh0XHIQ09bnkmWyJ4,1497
+polario-0.3.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+polario-0.3.2.dist-info/entry_points.txt,sha256=SBJgtAyeDE4Nzvo3wXLBCR6MmMfHBmt9eizRFR6Nvx8,46
+polario-0.3.2.dist-info/licenses/LICENSE,sha256=usYrIZbd1gS6LZvndRImnOeF9IM_73-i8r-0clJAnfw,11357
+polario-0.3.2.dist-info/RECORD,,
