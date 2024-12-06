@@ -1,0 +1,8 @@
+include sizes/*.sizes
+recursive-include *.jar
+prune example_pic/*
+#recursive-include *.jar
+recursive-exclude HiSTra/__pycache *.pyc
+recursive-exclude HiSTra/.ipynb_checkpoints *
+graft sizes
+#prune example_pic/*
