@@ -1,0 +1,9 @@
+gitai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitai/agent.py,sha256=rx9bImTRd3zpQXv1p-4jQ4pBRJ3EGcwxrKPHYLfMRUo,4790
+gitai/main.py,sha256=GWprYsuAT6EfZ2hR4t8X8StGZl7tW0MU-Funb3q0OoA,25461
+gitai/tools.py,sha256=l_YsnSrFpsrV0QglIZLf0XzAsoi0XoQvJYxFMD-WlQ4,7525
+gitai-0.1.16.dist-info/METADATA,sha256=UKIuN4bdE08umQgCzmo6DwUfUWzrhjAJ16XlA70lCLY,209
+gitai-0.1.16.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gitai-0.1.16.dist-info/entry_points.txt,sha256=KE0x6Em_gOVW3Rk4bGW7LyZoix9G5cvrSSx9Qs8o66I,73
+gitai-0.1.16.dist-info/top_level.txt,sha256=kB6El44QH2QhSgiaNL2Ms5FFXu7DDaweiFlNhiSW0i8,6
+gitai-0.1.16.dist-info/RECORD,,
