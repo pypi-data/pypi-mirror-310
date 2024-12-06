@@ -1,0 +1,11 @@
+ecoaliface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecoaliface/simple.py,sha256=z7-JFOyIse1uq_fgt3DdNdvz8_P-N-u4TCrMEGffNZo,18553
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/async_use.py,sha256=KoKeFUsNoPgPTtEN-XXIsrxg4kpqTbetXoAuR35W9yg,1186
+examples/ecoaliface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/ecoaliface/simple.py,sha256=z7-JFOyIse1uq_fgt3DdNdvz8_P-N-u4TCrMEGffNZo,18553
+ecoaliface-0.7.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ecoaliface-0.7.0.dist-info/METADATA,sha256=n2BfEZU6EArov49H5ophejrITx3qCx2B6kG7civ24CI,1248
+ecoaliface-0.7.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ecoaliface-0.7.0.dist-info/top_level.txt,sha256=detkSjkympjM8SHncYenBwuuOrUcU9pQSwZbuHg5qUs,20
+ecoaliface-0.7.0.dist-info/RECORD,,
