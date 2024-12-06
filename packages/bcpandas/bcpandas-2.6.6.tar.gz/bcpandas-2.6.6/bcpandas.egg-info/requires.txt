@@ -1,0 +1,11 @@
+pyodbc>=5
+sqlalchemy>=1.4
+
+[:python_version < "3.9"]
+pandas<2.2,>=1.5.3
+
+[:python_version >= "3.12"]
+pandas>=2.2
+
+[:python_version >= "3.9" and python_version <= "3.11"]
+pandas<2.2,>=2.1.2

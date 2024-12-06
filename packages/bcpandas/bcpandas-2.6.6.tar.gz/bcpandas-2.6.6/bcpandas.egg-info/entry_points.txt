@@ -1,0 +1,2 @@
+[pandas.sql.engine]
+bcpandas = bcpandas.main:to_sql

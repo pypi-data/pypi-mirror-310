@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+bcpandas/__init__.py
+bcpandas/constants.py
+bcpandas/main.py
+bcpandas/utils.py
+bcpandas.egg-info/PKG-INFO
+bcpandas.egg-info/SOURCES.txt
+bcpandas.egg-info/dependency_links.txt
+bcpandas.egg-info/entry_points.txt
+bcpandas.egg-info/requires.txt
+bcpandas.egg-info/top_level.txt
+tests/test_misc.py
+tests/test_sqlcreds.py
+tests/test_to_sql.py
+tests/test_utils.py
