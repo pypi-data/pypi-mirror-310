@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: additional_lightweight_types
+Version: 0.0.3
+Summary: adds a few type derivatives
+Author: minoupower554
+Project-URL: Homepage, https://github.com/minoupower554/additional_lightweight_types
+Project-URL: Issues, https://github.com/minoupower554/additional_lightweight_types/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# additional lightweight types for python
+
+this is a small WIP module designed to add small QoL methods to common types like str and int

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "additional_lightweight_types"
+version = "0.0.3"
+authors = [
+  { name="minoupower554" },
+]
+description = "adds a few type derivatives"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/minoupower554/additional_lightweight_types"
+Issues = "https://github.com/minoupower554/additional_lightweight_types/issues"
