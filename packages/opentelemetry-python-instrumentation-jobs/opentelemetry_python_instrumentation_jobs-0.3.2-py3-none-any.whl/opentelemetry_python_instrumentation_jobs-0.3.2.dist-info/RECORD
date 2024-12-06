@@ -1,0 +1,8 @@
+opentelemetry_python_instrumentation_jobs/__init__.py,sha256=haMOWNshy-cXOnaDcuHlpWaHJUmaZTfCich50htG014,78
+opentelemetry_python_instrumentation_jobs/fake_exporters.py,sha256=qUTCvcBeDYZWfOuSOV8ddDPojzLwgacpuFDh_WT8xU8,769
+opentelemetry_python_instrumentation_jobs/log_handler.py,sha256=IW1M5hFk9H9VsdECf-ntE8SwPtWM0B-YM4Csvul8gM0,970
+opentelemetry_python_instrumentation_jobs/metrics.py,sha256=WYFvGFNfjAi5FeCDLOUKkaEyfDzKLZLgPnB8fhgfSFQ,4718
+opentelemetry_python_instrumentation_jobs-0.3.2.dist-info/LICENSE,sha256=qIbRuSnPfrKjSmK1O_PSCZGaRIoBA30IzH6_--jJhCQ,1075
+opentelemetry_python_instrumentation_jobs-0.3.2.dist-info/METADATA,sha256=qYLW6G3VrTbkObwyCc1kXgOzg38pRo-jo1IL2uKl6X8,3777
+opentelemetry_python_instrumentation_jobs-0.3.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+opentelemetry_python_instrumentation_jobs-0.3.2.dist-info/RECORD,,
