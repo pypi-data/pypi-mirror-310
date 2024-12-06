@@ -1,0 +1,12 @@
+examples/advanced_usage.py,sha256=cSKIvw6WdPZIRubADWxQoh1MdB40T8-jjgfNUeUHIn0,5
+examples/basic_usage.py,sha256=8qx_0IOdbhd0tFThiYqWPKjAvIeo4Y5ca9RapyeqGS8,2297
+memoravel/__init__.py,sha256=y7rnJOviBWMvF0lvXvx_N2Pzwp5RB99JGjY6vVe1IQ4,118
+memoravel/memoravel.py,sha256=QHfkGK2jc8JxdN8jMFPxnposPrk8HmgnQq4tRtuq2UE,12617
+source/conf.py,sha256=8_0Fjz14taneDFVvtmpZa5i8Xkj8aHeOBeXzAw_-VUU,1743
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_memoravel.py,sha256=BDtCZRFrS1VZT921bJXX1rueVBzOQGt41GXqmDK5ppc,19741
+memoravel-1.0.0.dist-info/LICENSE,sha256=LBA1EFKg5G53MGuD11woOyJNzVYHS6oyhfc9gOMSBZ0,1100
+memoravel-1.0.0.dist-info/METADATA,sha256=sd4HagAzEqkcM3PGzv3CXOShsysvHwiXQrqMAkVyYq0,6492
+memoravel-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+memoravel-1.0.0.dist-info/top_level.txt,sha256=BZlTjZaQfiCphcKmxnGHksjIn_KfkLE8ZapZi6F-qxQ,38
+memoravel-1.0.0.dist-info/RECORD,,
