@@ -1,0 +1,56 @@
+bayinf: Bayesian Inference
+=======================
+
+### Usage Examples
+
+```
+import numpy as np
+from bayinf import infer_binomial, infer_poisson, infer_normal_known_variance, infer_normal_unknown_variance
+
+# Binomial likelihood with Beta prior
+data_binomial = [1, 1, 0, 1, 0, 1, 1, 0, 1, 0]
+prior_alpha = 2
+prior_beta = 2
+print(f"Binomial Prior Alpha: {prior_alpha}")
+print(f"Binomial Prior Beta: {prior_beta}")
+posterior_alpha, posterior_beta = infer_binomial(data_binomial, prior_alpha, prior_beta)
+print(f"Binomial Posterior Alpha: {posterior_alpha}")
+print(f"Binomial Posterior Beta: {posterior_beta}")
+
+# Poisson likelihood with Gamma prior
+data_poisson = [2, 3, 1, 2, 4, 3, 2, 1, 3, 2]
+prior_alpha = 1
+prior_beta = 1
+print(f"Poisson Prior Alpha: {prior_alpha}")
+print(f"Poisson Prior Beta: {prior_beta}")
+posterior_alpha, posterior_beta = infer_poisson(data_poisson, prior_alpha, prior_beta)
+print(f"Poisson Posterior Alpha: {posterior_alpha}")
+print(f"Poisson Posterior Beta: {posterior_beta}")
+
+# Normal likelihood with known variance and Normal prior
+data_normal_known_variance = [1.5, 2.0, 1.8, 2.2, 1.9, 2.1, 1.7, 2.3, 2.0, 1.6]
+known_variance = 0.5
+prior_mean = 0
+prior_precision = 1
+print(f"Normal (Known Variance) Prior Mean: {prior_mean}")
+print(f"Normal (Known Variance) Prior Precision: {prior_precision}")
+posterior_mean, posterior_precision = infer_normal_known_variance(data_normal_known_variance, known_variance, prior_mean, prior_precision)
+print(f"Normal (Known Variance) Posterior Mean: {posterior_mean}")
+print(f"Normal (Known Variance) Posterior Precision: {posterior_precision}")
+
+# Normal likelihood with unknown variance and Normal-Gamma prior
+data_normal_unknown_variance = [1.5, 2.0, 1.8, 2.2, 1.9, 2.1, 1.7, 2.3, 2.0, 1.6]
+prior_mean = 0
+prior_precision = 1
+prior_df = 2
+prior_scale = 1
+print(f"Normal (Unknown Variance) Prior Mean: {prior_mean}")
+print(f"Normal (Unknown Variance) Prior Precision: {prior_precision}")
+print(f"Normal (Unknown Variance) Prior DF: {prior_df}")
+print(f"Normal (Unknown Variance) Prior Scale: {prior_scale}")
+posterior_mean, posterior_precision, posterior_df, posterior_scale = infer_normal_unknown_variance(data_normal_unknown_variance, prior_mean, prior_precision, prior_df, prior_scale)
+print(f"Normal (Unknown Variance) Posterior Mean: {posterior_mean}")
+print(f"Normal (Unknown Variance) Posterior Precision: {posterior_precision}")
+print(f"Normal (Unknown Variance) Posterior DF: {posterior_df}")
+print(f"Normal (Unknown Variance) Posterior Scale: {posterior_scale}")
+```
