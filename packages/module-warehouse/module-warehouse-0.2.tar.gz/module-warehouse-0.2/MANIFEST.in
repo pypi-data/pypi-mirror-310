@@ -1,0 +1,6 @@
+# MANIFEST.in
+
+include README.md
+include LICENSE
+recursive-include module_warehouse/templates *
+recursive-include module_warehouse/static *

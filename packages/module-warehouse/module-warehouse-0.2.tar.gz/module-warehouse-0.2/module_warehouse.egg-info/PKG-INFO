@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: module-warehouse
+Version: 0.2
+Summary: plugin which displays modules stored in warehouse
+Home-page: UNKNOWN
+Author: Viktor Kubec
+Author-email: Viktor.Kubec@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Module Warehouse
+
+**Module Warehouse** is a plugin for [NetBox](https://github.com/netbox-community/netbox) designed to manage and display modules stored in a virtual warehouse. This plugin simplifies the process of viewing all modules associated with a specific device representing a "warehouse" in NetBox.
+
+## Features
+
+- Displays a list of modules stored in the virtual warehouse device.
+- Alphabetically sorts the modules by their type and ID.
+- Simple setup and integration with NetBox.
+
+## Requirements
+
+- **NetBox**: Version 4.1 or higher
+- **Python**: Version 3.8 or higher
+
+## Installation
+
+### 1. Install the plugin
+Install the plugin from PyPI using `pip`:
+
+```bash
+pip install module-warehouse
+```
+### 2. Update `PLUGINS` in NetBox configuration
+Add `module_warehouse` to the `PLUGINS` list in your `netbox/netbox/configuration.py` file:
+```bash
+PLUGINS = [
+    "module_warehouse",
+]
+```
+
+## Usage
+Once the plugin is installed and configured:
+1. Navigate to the Module Warehouse section in the NetBox menu.
+2. If a device named `Sklad` (warehouse) exists:
+    - The page will display all modules associated with this device, sorted alphabetically by their type.
+3. If no device named `Sklad` exists:
+    - A message will indicate that the warehouse is not currently configured.
+
+## License
+This project is licensed under the MIT License.
+
