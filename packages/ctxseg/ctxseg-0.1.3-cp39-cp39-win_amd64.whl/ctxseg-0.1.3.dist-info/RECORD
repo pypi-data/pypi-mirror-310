@@ -1,0 +1,12 @@
+ctxgen/__init__.py,sha256=hER03eUGFJH2S4XhqzY6iWCjwtBHbw2YSQSB_Nt9Y-Y,28
+ctxgen/c.cp39-win_amd64.pyd,sha256=b2gJQu5jJ-cbVswVS-cKUFSOQai7veYyN_BF-gXPFa0,22016
+ctxgen/generate.py,sha256=V3WvHgR151OFMKljbNAnVE2LAj-_5Nbz0KO4nvse_aI,5907
+ctxseg/__init__.py,sha256=j6kc0slS7ujuAtoBEVYe0RtGzhMwy4u8zPSxShjF8Xw,48
+ctxseg/c.cp39-win_amd64.pyd,sha256=K2yjnxi7Tfs8anMTnIpoAG_NSxBhbyJEDk4btDEQY1c,152576
+ctxseg/seg_ttest.py,sha256=MqctX_7KCKHar13jY9ugOfrzp2htJ0L4BdyLUWNIu8o,1856
+ctxseg/segment.py,sha256=3V4Zk6oTmR_wZMYDl3-sspv_Ed-pZDyL5RvaIkqegyY,2538
+ctxseg-0.1.3.dist-info/LICENSE,sha256=8JJShDwBhEc7RdOVj4CwtegtIVUMIxioTbe0boVqsAU,1090
+ctxseg-0.1.3.dist-info/METADATA,sha256=ap0ojKwPsxi2x_td_FEGgPn_mj4_jjl0LEae_UUusGU,4136
+ctxseg-0.1.3.dist-info/WHEEL,sha256=EfPXSsrLwp9clrn29v9vbmPfEm-IfFzseSJd0ZtI9XA,99
+ctxseg-0.1.3.dist-info/top_level.txt,sha256=Nj2CTtIcADf61CX-3ipjpfvQLMPIsFRnkTwTqeKGRUY,14
+ctxseg-0.1.3.dist-info/RECORD,,
