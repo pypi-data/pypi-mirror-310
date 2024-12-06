@@ -1,0 +1,2 @@
+[console_scripts]
+ci-test = ci_test.cli:cli
