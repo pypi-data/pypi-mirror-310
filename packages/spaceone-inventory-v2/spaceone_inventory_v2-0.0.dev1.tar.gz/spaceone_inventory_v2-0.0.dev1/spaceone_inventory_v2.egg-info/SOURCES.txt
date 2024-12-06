@@ -1,0 +1,13 @@
+setup.py
+spaceone/__init__.py
+spaceone/inventory_v2/__init__.py
+spaceone/inventory_v2/conf/__init__.py
+spaceone/inventory_v2/conf/global_conf.py
+spaceone/inventory_v2/interface/__init__.py
+spaceone/inventory_v2/interface/grpc/__init__.py
+spaceone_inventory_v2.egg-info/PKG-INFO
+spaceone_inventory_v2.egg-info/SOURCES.txt
+spaceone_inventory_v2.egg-info/dependency_links.txt
+spaceone_inventory_v2.egg-info/not-zip-safe
+spaceone_inventory_v2.egg-info/requires.txt
+spaceone_inventory_v2.egg-info/top_level.txt
