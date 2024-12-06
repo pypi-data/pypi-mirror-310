@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "funcnodes-rdkit"
+version = "0.1.3"
+description = "rdkit for funcnodes"
+authors = ["Julian Kimmig <julian.kimmig@gmx.net>"]
+readme = "README.md"
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+rdkit = "*"
+funcnodes = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+funcnodes-module = "^0.1.19"
+pre-commit = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."funcnodes.module"]
+module = "funcnodes_rdkit"
+shelf = "funcnodes_rdkit:NODE_SHELF"
