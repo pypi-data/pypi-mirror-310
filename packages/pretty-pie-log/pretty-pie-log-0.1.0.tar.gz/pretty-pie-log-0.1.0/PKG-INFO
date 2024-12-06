@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pretty-pie-log
+Version: 0.1.0
+Summary: A feature-rich logging utility that provides colorized console output with customizable formatting
+Home-page: https://github.com/chanpreet3000/pretty-pie-log
+Author: chanpreet3000
+Author-email: chanpreet3000@gmail.com
+Project-URL: Bug Tracker, https://github.com/chanpreet3000/pretty-pie-log/issues
+Project-URL: Source Code, https://github.com/chanpreet3000/pretty-pie-log
+Keywords: logging,colorized,console,debug,formatting,pretty-print,thread-safe,timezone,structured-logging
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pretty-pie-log
