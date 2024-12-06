@@ -1,0 +1,3 @@
+[console_scripts]
+icalcheck = icalreporting._cli:icalcheck
+icalclean = icalreporting._cli:icalclean
