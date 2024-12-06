@@ -1,0 +1,3 @@
+[console_scripts]
+axtended-key=axtended_key.main:main
+
