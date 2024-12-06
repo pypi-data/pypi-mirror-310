@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+fastapiFileManager/__init__.py
+fastapiFileManager/manager.py
+fastapiFileManager/version.py
+fastapiFileManager.egg-info/PKG-INFO
+fastapiFileManager.egg-info/SOURCES.txt
+fastapiFileManager.egg-info/dependency_links.txt
+fastapiFileManager.egg-info/requires.txt
+fastapiFileManager.egg-info/top_level.txt
