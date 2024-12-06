@@ -1,0 +1,6 @@
+wattkit-0.1.0.dist-info/METADATA,sha256=rVKoIwckEWLk1vldro0loECAkFdb-nPoRg6_I-U7KSU,256
+wattkit-0.1.0.dist-info/WHEEL,sha256=G0UiGw3m33Mk_hYz-jWAoIF2nZyjCvAl7lj9uXFMSyg,104
+wattkit/__init__.py,sha256=cbMMtFDeIvHwmiazObIx6GIVaWzuVwgMRVfqI4UUi5c,29
+wattkit/__pycache__/__init__.cpython-311.pyc,sha256=peVM3-_oUtASzecMBSqtAZMF4V3T5ITqAejjLU6fxk4,219
+wattkit/_wattkit_pyo3.cpython-311-darwin.so,sha256=k3F8C91dLp0sGilc6303hO-cyE7D0kTd--kKVCLEz1Q,637640
+wattkit-0.1.0.dist-info/RECORD,,
