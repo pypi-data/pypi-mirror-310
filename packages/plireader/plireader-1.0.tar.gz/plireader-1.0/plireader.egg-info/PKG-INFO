@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: plireader
+Version: 1.0
+Summary: A simple .pli files reader for Abrio(tm) microbirefringence analysis system
+Home-page: https://github.com/SeStIv/PLIreader
+Author: SeStIv
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+plireader/__init__.py
+plireader/plireader.py
+plireader.egg-info/PKG-INFO
+plireader.egg-info/SOURCES.txt
+plireader.egg-info/dependency_links.txt
+plireader.egg-info/requires.txt
+plireader.egg-info/top_level.txt
