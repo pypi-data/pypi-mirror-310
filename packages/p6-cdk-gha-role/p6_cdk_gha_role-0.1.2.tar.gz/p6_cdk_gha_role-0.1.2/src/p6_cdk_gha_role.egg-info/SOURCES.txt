@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/p6_cdk_gha_role/__init__.py
+src/p6_cdk_gha_role/py.typed
+src/p6_cdk_gha_role.egg-info/PKG-INFO
+src/p6_cdk_gha_role.egg-info/SOURCES.txt
+src/p6_cdk_gha_role.egg-info/dependency_links.txt
+src/p6_cdk_gha_role.egg-info/requires.txt
+src/p6_cdk_gha_role.egg-info/top_level.txt
+src/p6_cdk_gha_role/_jsii/__init__.py
+src/p6_cdk_gha_role/_jsii/p6-cdk-gha-role@0.1.2.jsii.tgz
