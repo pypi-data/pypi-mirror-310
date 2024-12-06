@@ -1,0 +1,9 @@
+shell_sage/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+shell_sage/_modidx.py,sha256=1eEpD5PJLCq8k-YFFIAtY36Lm_qzujNlP-Nr7FN3m_0,605
+shell_sage/core.py,sha256=uWO3350CeUJWv3S84qqGlmS1w_LxdKjOpLyZMaisphg,5130
+shell_sage-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+shell_sage-0.0.1.dist-info/METADATA,sha256=DPCfVjKzydKqPyCc4gxg6TfH-pd_9s9ibU5wg8rp6zM,1912
+shell_sage-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+shell_sage-0.0.1.dist-info/entry_points.txt,sha256=ZEZzPU_4iSuFT6kpfVxApxOi3oBKkLf7h-JVzrqKsag,90
+shell_sage-0.0.1.dist-info/top_level.txt,sha256=35iCd0HLq4DTAs20gZ5adAqhKWIgAFVmg7km6iA0mpM,11
+shell_sage-0.0.1.dist-info/RECORD,,
