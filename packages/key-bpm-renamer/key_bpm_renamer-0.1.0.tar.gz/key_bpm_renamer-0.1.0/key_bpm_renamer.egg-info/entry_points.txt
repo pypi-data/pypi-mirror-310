@@ -1,0 +1,2 @@
+[console_scripts]
+key_bpm_renamer = key_bpm_renamer.renamer:main

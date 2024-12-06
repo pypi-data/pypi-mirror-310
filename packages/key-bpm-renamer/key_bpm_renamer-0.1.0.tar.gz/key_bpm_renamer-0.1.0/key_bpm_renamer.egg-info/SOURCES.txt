@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+key_bpm_renamer/__init__.py
+key_bpm_renamer/renamer.py
+key_bpm_renamer.egg-info/PKG-INFO
+key_bpm_renamer.egg-info/SOURCES.txt
+key_bpm_renamer.egg-info/dependency_links.txt
+key_bpm_renamer.egg-info/entry_points.txt
+key_bpm_renamer.egg-info/requires.txt
+key_bpm_renamer.egg-info/top_level.txt
