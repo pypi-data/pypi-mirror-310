@@ -1,0 +1,2 @@
+[console_scripts]
+reqs-sync = reqs_sync.cli:cli

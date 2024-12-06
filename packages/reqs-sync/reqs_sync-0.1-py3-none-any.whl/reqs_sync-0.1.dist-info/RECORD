@@ -1,0 +1,10 @@
+reqs_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reqs_sync/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+reqs_sync/cli.py,sha256=8Rs6Elt6770PYNENVjzD_ledYY06mD9zsLqr69t_YB4,811
+reqs_sync/r2toml.py,sha256=4g8atiTkiDYRPngQjJ6yCyrGAt4J_Nbc9uGCYXXDt18,3302
+reqs_sync-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+reqs_sync-0.1.dist-info/METADATA,sha256=wT_YYVixt-kaMoDlTqBxvqH2Kd4UNo7GL2JgE25-zIo,1629
+reqs_sync-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+reqs_sync-0.1.dist-info/entry_points.txt,sha256=dl1DIJEb8im6i_d12GjAmQEWY876zXC6KUfIiSDiwg8,48
+reqs_sync-0.1.dist-info/top_level.txt,sha256=OkZXeJdTsUIQCfFG7iaSp31YUFC2zJtJ51yrJyuySZU,10
+reqs_sync-0.1.dist-info/RECORD,,
