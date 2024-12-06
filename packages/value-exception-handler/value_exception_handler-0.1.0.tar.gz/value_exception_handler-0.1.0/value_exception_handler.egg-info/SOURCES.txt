@@ -1,0 +1,8 @@
+LICENCE
+setup.py
+value_exception_handler/__init__.py
+value_exception_handler/exception_handler.py
+value_exception_handler.egg-info/PKG-INFO
+value_exception_handler.egg-info/SOURCES.txt
+value_exception_handler.egg-info/dependency_links.txt
+value_exception_handler.egg-info/top_level.txt
