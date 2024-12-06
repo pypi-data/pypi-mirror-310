@@ -1,0 +1,20 @@
+# Copyright holder
+EUMETSAT
+ 
+# List of development authors
+Carlos Horn
+Ben Loveday
+Niklas Jordan
+Paulo Carmo
+Matthias Schwarz
+Eoin O'Neill
+Pramit Ghosh
+Yigit Öner Altintas
+Luisa Araujo
+Christopher Saloman - EUMETSAT
+Joaquin Rodriguez-Guerra - EUMETSAT
+Rafa de la Hoz - EUMETSAT
+
+# Support
+
+For all queries on this software package, please contact ops@eumetsat.int
