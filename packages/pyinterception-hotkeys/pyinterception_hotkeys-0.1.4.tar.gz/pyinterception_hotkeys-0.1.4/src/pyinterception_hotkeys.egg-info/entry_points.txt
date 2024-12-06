@@ -1,0 +1,2 @@
+[console_scripts]
+pyinterception-hotkeys = pyinterception_hotkeys:main
