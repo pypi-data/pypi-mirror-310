@@ -1,0 +1,12 @@
+mkdocs
+
+[dev]
+mkdocs-material~=9.5.18
+mkdocs-open-in-new-tab~=1.0.2
+pathlib~=1.0.1
+isort~=5.13.2
+pytest~=8.2.2
+pre-commit~=3.7.0
+setuptools~=70.0.0
+build~=1.2.2
+twine~=5.1.1
