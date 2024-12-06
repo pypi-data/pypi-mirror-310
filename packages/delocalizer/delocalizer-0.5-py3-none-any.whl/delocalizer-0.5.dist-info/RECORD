@@ -1,0 +1,12 @@
+delocalizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+delocalizer/delocalizer.py,sha256=tzo06TalHapNdcZ-y08dp4vIdyEE1ISdB3F92-xuApA,6359
+delocalizer/extractor.py,sha256=elER-vEtvhrYXBI6_UHo41RaflGqfFmhIRZbr5WWdxw,3249
+delocalizer/honorific.py,sha256=k9wX2hlACOx5-wxI6S6Gf_U-kBkdKJoK36Zo5J6MyXE,1927
+delocalizer/main.py,sha256=g_FArqD42Del6xNquCHcsQbkufERil3Sw55m1z6iECw,1546
+delocalizer/md_subs.py,sha256=MH3ZTtGuQWRMIwlUcwVWiLIF9mD9kQo8dDswcT1R4Ps,778
+delocalizer/utils/lambda_fetch.py,sha256=gj5-AvExYAyrDguVaKuSa8mwPH4_owedDD55YnS5nL4,899
+delocalizer-0.5.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+delocalizer-0.5.dist-info/METADATA,sha256=zL4qWbnVhSMS1o4b070ry1edM-UfiWpAyU7YKFR97SA,6488
+delocalizer-0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+delocalizer-0.5.dist-info/entry_points.txt,sha256=9Udm9bc70avVtTWWy_g14_7ejiEAQhWZ8saXYNlvIYg,128
+delocalizer-0.5.dist-info/RECORD,,
