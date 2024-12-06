@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+fsconnect_summarization.egg-info/PKG-INFO
+fsconnect_summarization.egg-info/SOURCES.txt
+fsconnect_summarization.egg-info/dependency_links.txt
+fsconnect_summarization.egg-info/entry_points.txt
+fsconnect_summarization.egg-info/requires.txt
+fsconnect_summarization.egg-info/top_level.txt

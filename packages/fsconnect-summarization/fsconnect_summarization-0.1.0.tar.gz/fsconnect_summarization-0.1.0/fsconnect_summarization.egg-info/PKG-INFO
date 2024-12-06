@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fsconnect-summarization
+Version: 0.1.0
+Summary: A text summarization API for FSConnect
+Home-page: https://github.com/losuk/fsconnect-summarization
+Author: FSConnect
+Author-email: kennlosuk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Flask>=2.0.0
+
+# FSConnect Summarization API
+
+`fsconnect-summarization` is a simple API built with Flask that provides text summarization capabilities.
+
+## Installation
+
+To install the package, use pip:
+
+```bash
+pip install fsconnect-summarization
