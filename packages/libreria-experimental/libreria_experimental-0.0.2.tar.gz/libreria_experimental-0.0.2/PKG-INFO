@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: libreria_experimental
+Version: 0.0.2
+Summary: A sample Python project
+Author-email: author@example.com
+Maintainer-email: "A. Great Maintainer" <maintainer@example.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: sympy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: statistics
+Requires-Dist: scipy
+Requires-Dist: mathematica
