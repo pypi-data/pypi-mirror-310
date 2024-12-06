@@ -1,0 +1,2 @@
+[console_scripts]
+baykeshop = baykeshop:main
