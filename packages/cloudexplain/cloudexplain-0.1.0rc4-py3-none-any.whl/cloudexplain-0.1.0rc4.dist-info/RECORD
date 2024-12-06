@@ -1,0 +1,10 @@
+cloudexplain/__init__.py,sha256=jJoavjRwBJufnHxFt5TrmqIDS_OR5iSvcB0fLSYah2o,46
+cloudexplain/create_model_metadata.py,sha256=jbGTPF-Sf7g5CpWEj3wHSCNcL2bvUe0VdFZBJ1_46R0,2502
+cloudexplain/azure/__init__.py,sha256=jJoavjRwBJufnHxFt5TrmqIDS_OR5iSvcB0fLSYah2o,46
+cloudexplain/azure/explain.py,sha256=LUJeIK3lcBgx9xS1rn6CwX8yV_xlbY36yFvoJDoOpp8,14742
+cloudexplain/azure/utils.py,sha256=gCJGudzdLpHpcmcFxyP8NXd0XL5cUDcr6gIDwItkw5I,627
+cloudexplain-0.1.0rc4.dist-info/LICENSE,sha256=oaJa2xxKlT_sBTxMBVl_EQ_jsF6MZPJGY99bk77KZu4,1073
+cloudexplain-0.1.0rc4.dist-info/METADATA,sha256=o-_88lh3m57SpOdtYG_4BFeOKEq9tFQ-LSgfMFKDShU,4982
+cloudexplain-0.1.0rc4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cloudexplain-0.1.0rc4.dist-info/top_level.txt,sha256=h3lGdJIkulwttriC_OVVtSRZp50cOOH8tjnx3s6-b3s,13
+cloudexplain-0.1.0rc4.dist-info/RECORD,,
