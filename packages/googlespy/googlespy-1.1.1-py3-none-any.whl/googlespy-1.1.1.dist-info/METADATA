@@ -1,0 +1,236 @@
+Metadata-Version: 2.1
+Name: googlespy
+Version: 1.1.1
+Summary: A Python package to search Google and retrieve filtered links.
+Home-page: https://mrfidal.in/py/package/googlespy
+Author: Fidal
+Author-email: mrfidal@proton.me
+Keywords: mrfidal,fidal palamparambil,google,search,scraping,web scraping,python,googlesearch,api,filtered links,alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# googlespy - Python Google Search Package
+
+`googlespy` is a powerful Python package that allows you to easily perform Google searches and retrieve filtered search results based on various parameters such as file type, keywords, domains, language, and more. It's designed to be flexible and easy to use, enabling developers to integrate Google search results into their Python applications with minimal setup.
+
+## Installation
+
+To install `googlespy`, simply use the following pip command:
+
+```bash
+pip install googlespy
+```
+
+This will download and install the package along with all its dependencies. After installation, you can start using it in your Python scripts.
+
+## Usage
+
+### Basic Search
+
+To perform a simple Google search, use the `search()` function with a query string. You can also limit the number of results and apply additional filters.
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=10,
+    file_type=None,
+    keyword=None,
+    domain=None
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will search Google for "Python tutorial" and display up to 10 results.
+
+### Search with File Type Filter
+
+You can filter search results by file type. For example, if you want to find only PDF files related to Python tutorials:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=10,
+    file_type="pdf"
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will only return results that are PDF files.
+
+### Search with Language Filter
+
+To filter results based on the language of the content, use the `lang` parameter. For example, to search for Python tutorials in French:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=10,
+    lang="fr"
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will return Python tutorial results in French.
+
+### Search with Proxy
+
+You can also use a proxy server for your searches by providing a `proxy` URL. This can be useful if you want to anonymize your searches or access results from a different geographical location:
+
+```python
+from googlespy import search
+
+proxy = 'http://199.36.158.100:8080/'
+
+results = search(
+    query="proxy test",
+    limit=100,
+    lang="en",
+    proxy=proxy,
+    ssl_verify=False
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will route the search requests through the specified proxy server.
+
+### Search with Interval Between Requests
+
+To avoid triggering rate limits or CAPTCHA challenges, you can specify an interval between search requests. This is especially useful if you need to perform multiple searches:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=10,
+    interval=5
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will introduce a 5-second delay between each search request.
+
+### Advanced Search
+
+For more advanced filtering, you can enable the `advanced` parameter, which will apply additional filters and return more refined search results:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=10,
+    advanced=True
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This enables advanced filtering for more precise results.
+
+### Search with Specific Limit
+
+To limit the number of results returned by the search, use the `limit` parameter. For example, to get only 20 results:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=20
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will return exactly 20 search results.
+
+### Search for Specific File Type
+
+If you want to filter search results by file type, you can use the `file_type` parameter. For example, to find only PDF files related to Python tutorials:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=10,
+    file_type="pdf"
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will return only PDF files.
+
+### Search with Skip Invalid Links
+
+If you want to skip invalid links in the search results, set the `skip_invalid` parameter to `True`:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Python tutorial",
+    limit=10,
+    skip_invalid=True
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This will filter out any invalid links that may appear in the search results.
+
+### Full Example
+
+Here’s a full example demonstrating multiple filters applied together:
+
+```python
+from googlespy import search
+
+results = search(
+    query="Google",
+    limit=10,
+    file_type="pdf",
+    lang="en",
+    interval=3,
+    proxy="http://199.36.158.100:8080",
+    advanced=True
+)
+
+for link in results:
+    print("result:", link)
+```
+
+This example performs a Google search for "Google" with several filters, including file type, keyword, domain, and more.
+
+## License
+
+MIT License. See the LICENSE file for details.
