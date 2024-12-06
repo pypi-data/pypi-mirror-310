@@ -1,0 +1,5 @@
+[django_countries.Country]
+region = django_countries_hdx:regions.country_region
+region_name = django_countries_hdx:regions.country_region_name
+subregion = django_countries_hdx:regions.country_subregion
+subregion_name = django_countries_hdx:regions.country_subregion_name
