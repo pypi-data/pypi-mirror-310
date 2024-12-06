@@ -1,0 +1,81 @@
+Metadata-Version: 2.3
+Name: py-service-object
+Version: 0.1.1
+Summary: A Python implementation of the Service Object pattern, inspired by Ruby's SimpleCommand gem
+Project-URL: Homepage, https://github.com/vitrpereira/py-service-object
+Author-email: Vitor Pereira <pvitorpereira@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Vitor Pereira
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: business-logic,design-pattern,service-object
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# py-service-object
+
+A Python implementation of the Service Object pattern, inspired by Ruby's SimpleCommand gem.
+
+## Installation
+
+```bash
+pip install py-service-object
+```
+
+## Usage
+
+```python
+from py_service_object import ServiceObject
+
+class CreateUser(ServiceObject):
+    def __init__(self, user_params):
+        self.user_params = user_params
+        super().__init__()
+
+    def call(self):
+        try:
+            user = User.create(self.user_params)
+            return user
+        except Exception as e:
+            self.errors.append({"message": str(e)})
+            return None
+```
+
+## Using the ServiceObject
+
+```python
+service = CreateUser(user_params)
+
+if service.success:
+    user = service.result
+else:
+    errors = service.errors
+```
+
+## Features
+
+- Encapsulates business logic in dedicated classes
+- Built-in error handling
+- Result caching
+- Clean and consistent interface
+- Type hints support
