@@ -1,0 +1,2 @@
+[console_scripts]
+docx2markdown = docx2markdown._terminal:command_line_interface

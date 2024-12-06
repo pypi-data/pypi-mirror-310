@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: docx2markdown
+Version: 0.1.0
+Summary: Convert simple .docx files to markdown
+Home-page: https://github.com/haesleinhuepf/docx2markdown
+Author: Robert Haase
+Author-email: robert.haase@uni-leipzig.de
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/haesleinhuepf/docx2markdown/issues
+Project-URL: Documentation, https://github.com/haesleinhuepf/docx2markdown#README.md
+Project-URL: Source Code, https://github.com/haesleinhuepf/docx2markdown
+Project-URL: User Support, https://github.com/haesleinhuepf/docx2markdown/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-docx
+Requires-Dist: lxml
+Provides-Extra: testing
+Requires-Dist: tox; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+
+# docx2md
+
+Convert _simple_ `.docx` files to markdown.
+
+## Usage: Python
+
+```
+import docx2markdown 
+
+docx2markdown.convert("test-text.docx", "test-text.md")
+```
+
+## Usage: Terminal
+
+```
+docx2markdown test-text.docx test-text.md
+```
+
+## Installation
+
+```
+pip install docx2markdown
+```
+
+## Contributing
+
+Feedback and contributions are welcome! Just open an issue and let's discuss before you send a pull request. 
+
+## Acknowledgements
+
+We acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by Sächsische Staatsministerium für Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research „Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig", project identification number: ScaDS.AI

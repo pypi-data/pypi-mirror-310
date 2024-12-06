@@ -1,0 +1,7 @@
+python-docx
+lxml
+
+[testing]
+tox
+pytest
+pytest-cov
