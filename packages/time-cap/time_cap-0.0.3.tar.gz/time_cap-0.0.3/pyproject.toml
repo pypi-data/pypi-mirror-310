@@ -1,0 +1,28 @@
+[project]
+name = "time-cap"
+version = "0.0.3"
+authors = [
+  { name="Yuvraj", email="yuvarj68@gmail.com" },
+]
+description = "A lightweight Python package to measure and log function execution times."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yuva47/time-cap.git"
+Issues = "https://github.com/yuva47/time-cap.git/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.envs.default.scripts]
+lint = "flake8 src/"
+clean = "python clean.py"
+build = "hatch run clean && python -m build"
+run = "python src/main.py"
