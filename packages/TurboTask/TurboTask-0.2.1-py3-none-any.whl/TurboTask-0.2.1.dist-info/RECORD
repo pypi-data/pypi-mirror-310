@@ -1,0 +1,11 @@
+turbotask/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turbotask/helper.py,sha256=b3voQnhmTY3zxt6iFGy40K1K_FEr43xkxFb7xj5fDmo,1222
+turbotask/main.py,sha256=dMxuXSqPzX5qCYsMt3J3oiAzyRpLT0WjHdF5LKXXjYA,3446
+turbotask/workers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turbotask/workers/basic.py,sha256=uuaVeJVEGRxJMzAVXfZ-rxuqmUlGOoHJGQhAHtj-uJk,3022
+turbotask/workers/groupFiles.py,sha256=juVhWaSXDvaO2UloVf3pZ1t4DZwarnaEmQ5pWcpvqmE,4189
+TurboTask-0.2.1.dist-info/METADATA,sha256=vtW1FRdODwrNdg3orRqBxAybU8CUUVOaVKuavl8rCKg,3824
+TurboTask-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+TurboTask-0.2.1.dist-info/entry_points.txt,sha256=ZhnGsJA8kKaOAzOj4JWsVbMOUVBHgLqm4gTO9PRb5Gc,50
+TurboTask-0.2.1.dist-info/top_level.txt,sha256=M3s5xh_t34-oZXXFEhQNa45MxMX0r-fr8LEzBATTGlw,10
+TurboTask-0.2.1.dist-info/RECORD,,
