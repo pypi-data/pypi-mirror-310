@@ -1,0 +1,11 @@
+exopie/__init__.py,sha256=okJ2X19Y7Qv79ERwFUkbHJNdxNoMOnKbbfRBH4FkbFo,286
+exopie/planet.py,sha256=NpQTA-E_XIOs1wHO7ZgMZvDdKuChXqL6U54mwMktVWs,15335
+exopie/property.py,sha256=QTJW5Z1MoxNlRTFw9q-nxbq8QSkxwoYojF_krObAKxI,11340
+exopie/tools.py,sha256=nxrv-FlCGeajeOLcbslZGGuWjlxVfbxOd6M8OpRIQyE,3324
+exopie/Data/MRdata_rocky.pkl,sha256=pEI5FawtGqx-K7WB2g69BY-LXXTAfNvZ8EfYZVjXIwU,610731
+exopie/Data/MRdata_water.pkl,sha256=5kAqMTDYIdhXDa4o2htTmPBzOTW5MUZe-fCgsC9Bowg,44158
+exopie-1.1.2.dist-info/LICENSE,sha256=O8SJCgM6HndHcLXamB-ofv8U6dlmBRImu7TK-Zwuy_0,1066
+exopie-1.1.2.dist-info/METADATA,sha256=7-I0bE9iUAAQL4MQRlQfMN_nGdNwNqkMQUEEg-usAh0,1453
+exopie-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+exopie-1.1.2.dist-info/top_level.txt,sha256=yzO-MuJGXCZpJoFpTKeKZldleycKVSwglaTzZMT3qLA,7
+exopie-1.1.2.dist-info/RECORD,,
