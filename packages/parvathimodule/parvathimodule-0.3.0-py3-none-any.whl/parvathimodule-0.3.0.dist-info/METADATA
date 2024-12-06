@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: parvathimodule
+Version: 0.3.0
+Summary: A sample Python module
+Author: Parvathi Vishnu
+Author-email: parvathi.r.vishnu@gmail.com
+Requires-Python: >=3.6
+
