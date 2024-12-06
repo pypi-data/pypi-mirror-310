@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sigmaa-crawler
+Version: 0.0.1.dev0
+Summary: Este proyecto permite obtener datos del SIGMAA, el sistema educativo de la Universidad del Caribe. Facilita la obtención de información del estudiante, calificaciones, cárdex, oferta académica, información de pagos de estudiantes, entre otros datos, a través de un SDK de Python.
+Home-page: https://github.com/unicaribe-dev/sigmaa-crawler
+Author: Kenneth Díaz
+Author-email: admin@unicaribe.dev
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# SIGMMA Crawler
+
+SIGMMA Crawler es una biblioteca para extraer datos de la plataforma SIGMMA de la Universidad del Caribe.
+
+## Características
+
+- Extracción de datos académicos.
+- Soporte para métodos.
+- Fácil de usar e integrar.
+
+## Instalación
+
+Puedes instalar la biblioteca usando pip:
+
+```bash
+pip install sigmma-crawler
+```
+
+## Uso
+
+Aquí tienes un ejemplo básico de cómo usar la biblioteca:
+
+```python
+from sigmma_crawler import SigmmaCrawler
+
+crawler = SigmmaCrawler(usuario='matricula', contraseña='contraseña')
+datos = crawler.academic_offer()
+print(datos)
+```
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## Contacto
+
+Para más información, puedes contactar a Kenneth en [kennethdiazgonzalez@hotmail.com](mailto:kennethdiazgonzalez@hotmail.com).
