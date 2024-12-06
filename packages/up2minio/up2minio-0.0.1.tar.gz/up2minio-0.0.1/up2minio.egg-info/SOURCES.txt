@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+up2minio.py
+up2minio.egg-info/PKG-INFO
+up2minio.egg-info/SOURCES.txt
+up2minio.egg-info/dependency_links.txt
+up2minio.egg-info/not-zip-safe
+up2minio.egg-info/requires.txt
+up2minio.egg-info/top_level.txt
