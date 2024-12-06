@@ -1,0 +1,4 @@
+[funcnodes.module]
+module=funcnodes_rdkit
+shelf=funcnodes_rdkit:NODE_SHELF
+

@@ -1,0 +1,11 @@
+funcnodes_rdkit/__init__.py,sha256=H4klHu0s_IJtbknxSDRko50Q2UdzV5yEwSEv-M2sppU,1597
+funcnodes_rdkit/mol.py,sha256=XYruacOkAgAUMvGKqU5T04rGzIeu0yexL2FIDUAjSZQ,2636
+funcnodes_rdkit/react_plugin/css/jquery-ui-1.11.4.css,sha256=kHV8KhIXJ5DiK4JZAyz55fddsNqc_UiX4fP656BpW_g,35135
+funcnodes_rdkit/react_plugin/js/ChemDoodleWeb.js,sha256=tqKZ5c7Su6AJPUtnRm6jpy7ZZYtnd2_VgCO8Uivobt4,1791645
+funcnodes_rdkit/react_plugin/js/main.js,sha256=7KbkupLw1XFsYu1cOEMHY4IyWo6pnwvIZsHw8V6Omt0,2040
+funcnodes_rdkit/svg.py,sha256=SRZxgmk-Qj906G4KknBDAVd3QxWoOUoEhNvi-N5P-NA,361
+funcnodes_rdkit-0.1.3.dist-info/entry_points.txt,sha256=Pww9gsOTOm4clXB4HuUFrJmjnXl5e87PuKGYpJ2a29g,76
+funcnodes_rdkit-0.1.3.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+funcnodes_rdkit-0.1.3.dist-info/METADATA,sha256=5pJCrt-n7r0dt8YplfVb3WTk3XwVZ-fvrpnZT9T9Gyk,521
+funcnodes_rdkit-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+funcnodes_rdkit-0.1.3.dist-info/RECORD,,
