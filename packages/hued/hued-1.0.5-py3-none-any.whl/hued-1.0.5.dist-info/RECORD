@@ -1,0 +1,10 @@
+hued/__init__.py,sha256=s-Hylf9Bfz_diCm9fJpRgwI6OL9lW6-fB_i3_8J6e10,678
+hued/analysis.py,sha256=CXonLaQFL7RwFbBtyiH9Nu0W1QOVYpSP_xVbXYEl0A0,7679
+hued/colors.py,sha256=wSBZ9dy5MMNlzt3sBgnr-HhXkF5Dqjs2EZCGyYcr574,76619
+hued/conversions.py,sha256=t1Lt-qQ5dSYnFjQgr_aPLV7BgNzNgisu5fGur6-6eWU,23867
+hued/palettes.py,sha256=_-pOCyA25htKhHuS8BPABut_hmbddzYVF1oW5jHGYjk,9907
+hued-1.0.5.dist-info/LICENSE,sha256=ZIftxnYzzlrappVuiyXoFI6QAiB1s2fzg9w07mxF-QI,949
+hued-1.0.5.dist-info/METADATA,sha256=nVj04gD0CKHyggG5dym1DG_-grgfAmYKKAS_9s0kZDE,6300
+hued-1.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+hued-1.0.5.dist-info/top_level.txt,sha256=01gIpSVXImGqEF-ufNBCZcFB-9-9Z-k4QjbkhoJi4iQ,5
+hued-1.0.5.dist-info/RECORD,,
