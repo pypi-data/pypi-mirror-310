@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: smartTable
+Version: 1.0.0
+Summary: Module Python pour la manipulation et la visualisation de tableaux dynamiques
+Home-page: https://github.com/NassAbd/smartTable
+Author: Abdallah Nassur
+Author-email: nassur1607@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.21
+Requires-Dist: pandas >=1.3
+Requires-Dist: matplotlib >=3.0
+
+# smartTable
+
+**smartTable** est un module Python pour la manipulation et la visualisation de tableaux dynamiques.
+
+## Features
+- CrÃ©er des tableaux 2D/3D avec une gestion automatique des dimensions.
+- Effectuer des opÃ©rations telles que la somme, la moyenne et le transposÃ©.
+- Convertir les donnÃ©es en tableaux NumPy ou en DataFrames Pandas.
+- Visualiser les donnÃ©es avec des heatmaps et des diagrammes en barres.
+
+## Installation
+```bash
+pip install smartTable
