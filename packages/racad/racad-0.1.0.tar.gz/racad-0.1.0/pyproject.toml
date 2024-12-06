@@ -1,0 +1,37 @@
+
+[project]
+name = "racad"
+version = "0.1.0"
+description = "Runtime Access for Class Attribute Docstrings"
+readme = "README.md"
+authors = [{ name = "Lucas Steinmann", email = "lucas@steinm.net" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Documentation",
+]
+
+[project.urls]
+Source = "https://github.com/Lucas-Steinmann/racad"
+Issues = "https://github.com/Lucas-Steinmann/racad/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["racad"]

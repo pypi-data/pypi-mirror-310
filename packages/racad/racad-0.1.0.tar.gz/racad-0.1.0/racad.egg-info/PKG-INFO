@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: racad
+Version: 0.1.0
+Summary: Runtime Access for Class Attribute Docstrings
+Author-email: Lucas Steinmann <lucas@steinm.net>
+License: MIT License
+        
+        Copyright (c) 2024 Lucas Steinmann
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Source, https://github.com/Lucas-Steinmann/racad
+Project-URL: Issues, https://github.com/Lucas-Steinmann/racad/issues
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RACAD
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Lucas-Steinmann/racad/unittest.yml?label=unittest)
+[![pypi](https://img.shields.io/pypi/v/racad.svg)](https://pypi.python.org/pypi/racad)
+[![versions](https://img.shields.io/pypi/pyversions/racad.svg)](https://github.com/Lucas-Steinmann/racad)
+[![license](https://img.shields.io/github/license/Lucas-Steinmann/racad.svg)](https://github.com/Lucas-Steinmann/racad/blob/main/LICENSE)
+
+RACAD stands for Runtime Access for Class Attribute Docstrings.
+This is the source code accompanying [my blogpost](https://www.steinm.net/blog/runtime_accessible_class_attribute_docstrings/) (not online yet).
+
+You can copy this code into your own project or use it as a library.
+
+## Usage
+
+Given a class defined as follows:
+
+```python
+class MyClass:
+    a: int = 5
+    """This is the docstring of a."""
+```
+
+to get the attribute docstring of one attribute of a class by its name, use:
+
+```python
+from racad import get_attribute_docstring
+
+get_attribute_docstring(MyClass, 'a')
+# Output: 'This is the docstring of a.'
+```
+
+alternatively, to get all docstrings of all attributes of a class, use:
+
+```python
+from racad import get_attribute_docstrings
+
+
+get_attribute_docstrings(MyClass)
+# Output: {'a': 'This is the docstring of a.'}
+```
+
+## Limitation
+
+Requires source code access via the `inspect` module. 
+E.g. does not work if the class has been defined in a REPL.
+
