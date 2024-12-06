@@ -1,0 +1,2 @@
+[console_scripts]
+faustdr = faustdoctor.main:main
