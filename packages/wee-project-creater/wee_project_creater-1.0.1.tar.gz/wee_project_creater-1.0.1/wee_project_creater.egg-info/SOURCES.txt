@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+wee_project_creater.egg-info/PKG-INFO
+wee_project_creater.egg-info/SOURCES.txt
+wee_project_creater.egg-info/dependency_links.txt
+wee_project_creater.egg-info/entry_points.txt
+wee_project_creater.egg-info/requires.txt
+wee_project_creater.egg-info/top_level.txt

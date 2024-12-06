@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wee_project_creater"
+version = "1.0.1"
+authors = [
+    { name="Kong Haifeng", email="konghaifeng@cmcm.com" },
+]
+description = "A Python project structure generator with logging and configuration support"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyyaml>=6.0.1",
+    "pydantic>=2.5.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "black>=23.11.0",
+    "isort>=5.12.0",
+    "pylint>=3.0.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/redknox/project_creater"
+"Bug Tracker" = "https://github.com/redknox/project_creater/issues"
+
+[project.scripts]
+create-project = "main:main"
