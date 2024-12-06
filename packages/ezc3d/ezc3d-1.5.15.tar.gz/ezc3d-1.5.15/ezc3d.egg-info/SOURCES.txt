@@ -1,0 +1,16 @@
+LICENSE
+README.md
+environment.yml
+pyproject.toml
+setup.py
+.github/workflows/publish_matlab_binaries.yml
+.github/workflows/publish_to_test_pypi.yml
+.github/workflows/run_codecoverage.yml
+.github/workflows/run_matlab_tests.yml
+.github/workflows/run_octave_tests.yml
+.github/workflows/run_tests.yml
+ezc3d.egg-info/PKG-INFO
+ezc3d.egg-info/SOURCES.txt
+ezc3d.egg-info/dependency_links.txt
+ezc3d.egg-info/requires.txt
+ezc3d.egg-info/top_level.txt
