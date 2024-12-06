@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ebo-test"
+version = "0.1.6"
+description = ""
+authors = ["Emile Bosch <emile@54hrs.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+ebo = "ebo_test.cli:ebo"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+pluggy = "^1.5.0"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
