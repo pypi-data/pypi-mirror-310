@@ -1,0 +1,13 @@
+GailBotTools/__init__.py,sha256=SOM29PkvayMfYnBAo5cFtMtV-dKMjhRKZST3cfyzf0M,667
+GailBotTools/configs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GailBotTools/configs/configData.toml,sha256=fN3nYGNoN6Hcu4d-TDnO6Uks6wcrwprgYtiAeD0zPL8,4024
+GailBotTools/configs/configs.py,sha256=r_DcHYRtB3L6QqqC5QceOWpZ_NwuV15ik3dfL6K-uZ4,6461
+GailBotTools/plugin_structures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GailBotTools/plugin_structures/data_objects.py,sha256=3F1P3JLMbJN9DLtwLgYAhtm-brEVA2MFFoGZp3NRhiA,940
+GailBotTools/plugin_structures/marker_utterance_dict.py,sha256=larBHVON2uFy7jFlv7wMsZZdzw_WVX3mGt-Rf3CHt_Y,37275
+GailBotTools/plugin_structures/structure_interact.py,sha256=JgHl7ApV2ZuEX-w8vnq9vdewkVZeytR9fgsf0P5GXlg,11608
+GailBotTools-0.0.10.dist-info/LICENSE,sha256=HiOvVMf3_vVvCFMYUFzo9__R-nru_eDkslWVEDnrTAU,1071
+GailBotTools-0.0.10.dist-info/METADATA,sha256=1blU8x_N7p2XV1YBRg4LZrKlxcThvZe6Nc99rn687EY,4531
+GailBotTools-0.0.10.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+GailBotTools-0.0.10.dist-info/top_level.txt,sha256=xCfhrBm76OHZIOWT3jfspn6helhM5xBCbmBwjbrD1_Q,13
+GailBotTools-0.0.10.dist-info/RECORD,,
