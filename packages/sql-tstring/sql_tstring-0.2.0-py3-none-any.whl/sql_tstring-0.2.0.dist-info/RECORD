@@ -1,0 +1,7 @@
+sql_tstring-0.2.0.dist-info/METADATA,sha256=6JfqWfNYBGIbUYITkVPiruycKjmZhBhNfmYdkV7M4YA,3757
+sql_tstring-0.2.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+sql_tstring-0.2.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+sql_tstring/__init__.py,sha256=kIUc6p1Ux_UUwryAKGNnGcUPCQGyHwpZILlATa9zSwI,8355
+sql_tstring/parser.py,sha256=AUPmIFYy7mE50iqBejjt1EQxRc14mZWwW-qqtnKDB-8,10425
+sql_tstring/py.typed,sha256=sow9soTwP9T_gEAQSVh7Gb8855h04Nwmhs2We-JRgZM,7
+sql_tstring-0.2.0.dist-info/RECORD,,
