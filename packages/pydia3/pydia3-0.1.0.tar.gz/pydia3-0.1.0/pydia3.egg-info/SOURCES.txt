@@ -1,0 +1,7 @@
+README.md
+setup.py
+pydia3/__init__.py
+pydia3.egg-info/PKG-INFO
+pydia3.egg-info/SOURCES.txt
+pydia3.egg-info/dependency_links.txt
+pydia3.egg-info/top_level.txt
