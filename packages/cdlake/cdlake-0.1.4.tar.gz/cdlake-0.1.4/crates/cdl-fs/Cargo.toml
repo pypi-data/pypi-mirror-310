@@ -1,0 +1,47 @@
+[package]
+name = "cdl-fs"
+
+authors = { workspace = true }
+description = { workspace = true }
+documentation = "https://docs.rs/cdl-fs"
+edition = { workspace = true }
+include = { workspace = true }
+keywords = { workspace = true }
+license = { workspace = true }
+readme = "README.md"
+rust-version = { workspace = true }
+homepage = { workspace = true }
+repository = { workspace = true }
+version = { workspace = true }
+
+[lints]
+workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = []
+serde = ["dep:serde"]
+
+# H/W
+gpu-nvidia = ["lance/tensorflow"]
+
+[dependencies]
+cdl-catalog = { path = "../cdl-catalog" }
+cdl-store = { path = "../cdl-store" }
+
+anyhow = { workspace = true }
+arrow = { workspace = true }
+chrono = { workspace = true }
+datafusion = { workspace = true }
+filetime = { workspace = true }
+futures = { workspace = true }
+glob = { workspace = true }
+itertools = { workspace = true }
+lance = { workspace = true }
+lance-encoding = { workspace = true }
+serde = { workspace = true, optional = true, features = ["derive"] }
+strum = { workspace = true }
+tokio = { workspace = true, features = ["fs"] }
+tokio-stream = { workspace = true }
+tracing = { workspace = true }

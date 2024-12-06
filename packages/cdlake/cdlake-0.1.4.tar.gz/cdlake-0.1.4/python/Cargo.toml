@@ -1,0 +1,51 @@
+[package]
+name = "cdl-python"
+
+authors = { workspace = true }
+description = { workspace = true }
+documentation = "https://docs.rs/cdl-python"
+edition = { workspace = true }
+include = { workspace = true }
+keywords = { workspace = true }
+license = { workspace = true }
+readme = { workspace = true }
+rust-version = { workspace = true }
+homepage = { workspace = true }
+repository = { workspace = true }
+version = { workspace = true }
+
+[lints]
+workspace = true
+
+[lib]
+name = "cdlake"
+crate-type = ["cdylib"]
+doc = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cdl-catalog = { path = "../crates/cdl-catalog", features = ["serde"] }
+cdl-fs = { path = "../crates/cdl-fs" }
+cdl-k8s-core = { path = "../crates/cdl-k8s-core", features = [
+    "opentelemetry-all",
+] }
+
+anyhow = { workspace = true }
+arrow = { workspace = true, features = ["pyarrow"] }
+clap = { workspace = true }
+datafusion = { workspace = true }
+futures = { workspace = true }
+pyo3 = { workspace = true, features = [
+    "abi3-py310",
+    "anyhow",
+    "chrono",
+    "chrono-tz",
+    "experimental-async",
+    "extension-module",
+    "macros",
+    # "nightly",
+    "serde",
+] }
+tokio = { workspace = true, features = ["full"] }
+tracing = { workspace = true }
