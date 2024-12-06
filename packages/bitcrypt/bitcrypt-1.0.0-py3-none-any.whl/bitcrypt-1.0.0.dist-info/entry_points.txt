@@ -1,0 +1,2 @@
+[console_scripts]
+bitcrypt = bitcrypt.__main__:main
