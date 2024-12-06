@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: AdvanceForCaesar
+Version: 2.0.0
+Summary: An advanced Caesar cipher encryption tool that supports both encryption and decryption of text using a range of shift values.
+Author: Guo Zilu,Gong Yifu,Zhang Zhichen
+Author-email: sm37kx@126.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My Package
+
+This 1.0 and 2.0 versions will be very different, and you might think that the two are not the same project at all, but in fact they are both based on Caesar's complex encryption, but the 2.0 version will be more advanced
+
+## Features
+
+We will be rolling out version 2.0
+
+## Installation
+
+To install AdvanceForCaesar, run:
+
+    pip install AdvanceForCaesar
+
+## Usage
+
+```python
+import AdvanceForCaesar
+# 使用说明
+
+AdvanceForCaesar      #package
+│- eshifts
+│- decrypt_once
+│- encrypt
+│- decrypt
