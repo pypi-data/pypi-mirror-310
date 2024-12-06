@@ -1,0 +1,14 @@
+chinus_emotions/__init__.py,sha256=OsswrYSJeLwLi3_1-Qa3saZ08IFCr3ouJcDGP0STmKA,110
+chinus_emotions/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chinus_emotions/data/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chinus_emotions/data/db/emotions.db,sha256=1IBseM2KPKiyhJsuQFEj9_N-Q1hPOERagEQjmo4JTFA,110592
+chinus_emotions/src/main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chinus_emotions/src/main/main.py,sha256=TFKvSWDaW8Pom1eKu1iXaIhfq_KF6Crzv-7lBk2XgoU,1161
+chinus_emotions/src/main/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chinus_emotions/src/main/classes/emotion.py,sha256=HDysSlR9ouwXXBA191mVt4zSaPLw2p8vpwddhJHoWWA,1506
+chinus_emotions/src/main/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chinus_emotions/src/main/db/db_connect.py,sha256=7gVuAQtVpeLKyhz0-DxcgNzOsLJgs6yNa2oPp-_lI7g,590
+chinus_emotions-3.1.1.dist-info/METADATA,sha256=wnl_jwteCPebMAIeJ9Q0lV59LU1qbLKgApVOt2lu05c,673
+chinus_emotions-3.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+chinus_emotions-3.1.1.dist-info/top_level.txt,sha256=wCjV5pNdH50bd1GK7IZutVb6Bc4gkzglkZzok6qXU6k,16
+chinus_emotions-3.1.1.dist-info/RECORD,,
