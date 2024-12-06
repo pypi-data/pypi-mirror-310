@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GeforceTempMonitor"
+version = "0.1.0"
+description = "A Python library to monitor temperatures for GeForce cards using nvidia-smi."
+readme = "README.md"
+authors = [
+    {name = "Ryan K"}
+]
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+geforce-temp-monitor = "geforce_temp_monitor.monitor:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

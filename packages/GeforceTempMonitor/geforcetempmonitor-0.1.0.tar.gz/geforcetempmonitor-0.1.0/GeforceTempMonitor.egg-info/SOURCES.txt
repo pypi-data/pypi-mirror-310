@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+GeforceTempMonitor.egg-info/PKG-INFO
+GeforceTempMonitor.egg-info/SOURCES.txt
+GeforceTempMonitor.egg-info/dependency_links.txt
+GeforceTempMonitor.egg-info/entry_points.txt
+GeforceTempMonitor.egg-info/top_level.txt
+geforce_temp_monitor/__init__.py
+geforce_temp_monitor/monitor.py
