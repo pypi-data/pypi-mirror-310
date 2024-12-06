@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+distributions/BinomialDistribution.py
+distributions/GaussianDistribution.py
+distributions/__ini__.py
+distributions_jaaf.egg-info/PKG-INFO
+distributions_jaaf.egg-info/SOURCES.txt
+distributions_jaaf.egg-info/dependency_links.txt
+distributions_jaaf.egg-info/not-zip-safe
+distributions_jaaf.egg-info/top_level.txt
