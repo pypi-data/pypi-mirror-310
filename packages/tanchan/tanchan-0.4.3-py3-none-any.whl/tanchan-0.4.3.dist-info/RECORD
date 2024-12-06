@@ -1,0 +1,14 @@
+tanchan/__init__.py,sha256=OfldTj56vcObKvlqm_Zj-iO7PJACGD3W1ihY_C_F_3Q,1738
+tanchan/doc_parse.py,sha256=_BFdRF6ycI9JNaj4EfWXBI5XKSU4IcpkSxwggpeWcks,26830
+tanchan/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tanchan/_internal/__init__.py,sha256=jdrxQW29lNM0TJ1PMIOo6ikYNqdwyoyccvt8i-P-h2w,3554
+tanchan/_internal/localisation.py,sha256=4-ABHCvdJzzGIYP2D90j5koLArPuSomVXjJd1DPXyXA,6497
+tanchan/components/__init__.py,sha256=htmaLP8hUu0PJJFffeHFY-JtLYEgd0k9OuW7VSSFanc,2057
+tanchan/components/buttons.py,sha256=Y91qC8k6d96XOSbWUx0OwmfVSOMFRmmVTGeb8l8nL8w,6185
+tanchan/components/config.py,sha256=_xjJJsg1xJQVf_sob88ZthglfrywXOJmv9ixiiACPi8,5274
+tanchan/components/eval.py,sha256=rTkPeBX6iN04s85u2wfMyYhnqC0xi-uvnVNOj9SpqQU,21343
+tanchan/components/help.py,sha256=4G3q4DecMB1HGbuILnIWBto9MsnPpbpXql4d6E42M68,28425
+tanchan-0.4.3.dist-info/LICENSE,sha256=X2xOnPxUslGFwstszlTRL2bITOy0ZSJAXGHYeiT7HFU,1520
+tanchan-0.4.3.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+tanchan-0.4.3.dist-info/METADATA,sha256=ExJ1_4wkykKqyfPGdSKLlaTbB3a3XdSKBt7H7AOLq8c,2341
+tanchan-0.4.3.dist-info/RECORD,,
