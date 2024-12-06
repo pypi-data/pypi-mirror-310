@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: vox_box
+Version: 0.0.1
+Summary: Vox box
+Author: GPUStack Authors
+Author-email: contact@gpustack.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: HyperPyYAML (==1.2.2)
+Requires-Dist: Jinja2 (==3.1.4)
+Requires-Dist: absl-py (==2.1.0)
+Requires-Dist: accelerate (==1.1.1)
+Requires-Dist: addict (==2.4.0)
+Requires-Dist: aiofiles (==23.2.1)
+Requires-Dist: aiohappyeyeballs (==2.4.3)
+Requires-Dist: aiohttp (==3.11.2)
+Requires-Dist: aiosignal (==1.3.1)
+Requires-Dist: aliyun-python-sdk-core (==2.16.0)
+Requires-Dist: aliyun-python-sdk-kms (==2.16.5)
+Requires-Dist: altair (==5.4.1)
+Requires-Dist: annotated-types (==0.7.0)
+Requires-Dist: antlr4-python3-runtime (==4.9.3)
+Requires-Dist: anyio (==4.6.2.post1)
+Requires-Dist: attrs (==24.2.0)
+Requires-Dist: audioread (==3.0.1)
+Requires-Dist: beautifulsoup4 (==4.12.3)
+Requires-Dist: black (>=24.10.0,<25.0.0)
+Requires-Dist: conformer (>=0.3.2,<0.4.0)
+Requires-Dist: cython (>=3.0.11,<4.0.0)
+Requires-Dist: diffusers (>=0.31.0,<0.32.0)
+Requires-Dist: fastapi (>=0.115.5,<0.116.0)
+Requires-Dist: faster-whisper (==1.0.3)
+Requires-Dist: flake8 (>=7.1.1,<8.0.0)
+Requires-Dist: funasr (==1.1.14)
+Requires-Dist: gdown (>=5.2.0,<6.0.0)
+Requires-Dist: grpcio (>=1.68.0,<2.0.0)
+Requires-Dist: grpcio-tools (==1.57.0)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: httpcore (==1.0.6)
+Requires-Dist: httptools (==0.6.4)
+Requires-Dist: httpx (==0.27.2)
+Requires-Dist: huggingface-hub (==0.23.5)
+Requires-Dist: humanfriendly (==10.0)
+Requires-Dist: hydra-core (==1.3.2)
+Requires-Dist: identify (==2.6.2)
+Requires-Dist: idna (==3.10)
+Requires-Dist: importlib_metadata (==8.5.0)
+Requires-Dist: importlib_resources (==6.4.5)
+Requires-Dist: inflect (==7.3.1)
+Requires-Dist: installer (==0.7.0)
+Requires-Dist: jaconv (==0.4.0)
+Requires-Dist: jamo (==0.4.1)
+Requires-Dist: jieba (==0.42.1)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: joblib (==1.4.2)
+Requires-Dist: jsonschema (==4.23.0)
+Requires-Dist: jsonschema-specifications (==2024.10.1)
+Requires-Dist: kaldiio (==2.18.0)
+Requires-Dist: keyring (==24.3.1)
+Requires-Dist: kiwisolver (==1.4.7)
+Requires-Dist: lazy_loader (==0.4)
+Requires-Dist: librosa (>=0.10.2.post1,<0.11.0)
+Requires-Dist: lightning (>=2.4.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: modelscope (>=1.20.1,<2.0.0)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: openai-whisper (>=20240930,<20240931)
+Requires-Dist: optimum (>=1.23.3,<2.0.0)
+Requires-Dist: pipx (>=1.7.1,<2.0.0)
+Requires-Dist: pyarrow (>=18.0.0,<19.0.0)
+Requires-Dist: pynini (==2.1.5) ; platform_system == "Linux"
+Requires-Dist: python-multipart (>=0.0.17,<0.0.18)
+Requires-Dist: rich (>=13.9.4,<14.0.0)
+Requires-Dist: scipy (>=1.14.1,<2.0.0)
+Requires-Dist: tn (>=0.0.4,<0.0.5)
+Requires-Dist: torch
+Requires-Dist: torchaudio (>=2.5.1,<3.0.0)
+Requires-Dist: transformers (>=4.46.3,<5.0.0)
+Requires-Dist: twine (>=5.1.1,<6.0.0)
+Requires-Dist: uvicorn (>=0.32.0,<0.33.0)
+Requires-Dist: wetextprocessing (==1.0.3) ; platform_system == "Linux"
+Requires-Dist: wget (>=3.2,<4.0)
+Description-Content-Type: text/markdown
+
+# Vox Box
+
+A text-to-speech and speech-to-text server compatible with the OpenAI API, powered by backend support from Whisper, FunASR, Bark, and CosyVoice.
+
+## Installation
+
+You can install the project using pip:
+
+```bash
+pip install vox-box
+```
+
+## Usage
+
+```
+vox-box start --model --huggingface-repo-id Systran/faster-whisper-small --data-dir ./cache/data-dir --host 0.0.0.0 --port 80
+```
+
+### Options
+- -d, --debug: Enable debug mode.
+- --host: Host to bind the server to. Default is 0.0.0.0.
+- --port: Port to bind the server to. Default is 80.
+- --model: model path.
+- --device: Binding device, e.g., cuda:0. Default is cpu.
+- --huggingface-repo-id: Huggingface repo id for the model.
+- --model-scope-model-id: Model scope model id for the model.
+- --data-dir: Directory to store downloaded model data. Default is OS specific.
+
+## Supported Backends
+
+The project supports the following backends:
+
+- FunASR
+- Faster-Whisper
+- Bark
+- CosyVoice
+
+All models supported by these backends can be deployed with this project.
+
+### Supported Models
+
+- [FunASR](https://github.com/modelscope/FunASR?tab=readme-ov-file#model-zoo)
+- [Faster-Whisper](https://huggingface.co/Systran)
+- [Bark](https://huggingface.co/suno)
+- [CosyVoice](https://modelscope.cn/collections/CosyVoice-1a4baea39a135)
+
+
