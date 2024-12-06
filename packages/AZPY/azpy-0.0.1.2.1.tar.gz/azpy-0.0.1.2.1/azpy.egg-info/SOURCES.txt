@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+core.py
+requirements.txt
+setup.py
+utils.py
+azpy.egg-info/PKG-INFO
+azpy.egg-info/SOURCES.txt
+azpy.egg-info/dependency_links.txt
+azpy.egg-info/top_level.txt
