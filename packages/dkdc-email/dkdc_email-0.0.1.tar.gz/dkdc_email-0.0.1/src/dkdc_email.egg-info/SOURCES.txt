@@ -1,0 +1,9 @@
+pyproject.toml
+readme.md
+src/dkdc_email/__init__.py
+src/dkdc_email/gmail.py
+src/dkdc_email.egg-info/PKG-INFO
+src/dkdc_email.egg-info/SOURCES.txt
+src/dkdc_email.egg-info/dependency_links.txt
+src/dkdc_email.egg-info/requires.txt
+src/dkdc_email.egg-info/top_level.txt

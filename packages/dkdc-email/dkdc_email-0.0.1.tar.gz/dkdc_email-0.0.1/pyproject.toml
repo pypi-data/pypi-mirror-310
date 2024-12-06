@@ -1,0 +1,28 @@
+[project]
+name = "dkdc-email"
+version = "0.0.1"
+authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
+description = "email utilities"
+readme = "readme.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  'rich',
+  'dkdc-util',
+  'google-api-python-client',
+  'google-auth-httplib2',
+  'google-auth-oauthlib',
+  'googlesearch-python',
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "ipython", "jupyter", "nbclient", "ipykernel"]
+test = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/dkdc-io/dkdc-email"
+"Bug Tracker" = "https://github.com/dkdc-io/dkdc-email/issues"

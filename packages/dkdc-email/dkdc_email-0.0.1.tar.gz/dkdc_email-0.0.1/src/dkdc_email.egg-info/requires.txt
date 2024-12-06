@@ -1,0 +1,16 @@
+rich
+dkdc-util
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+googlesearch-python
+
+[dev]
+ruff
+ipython
+jupyter
+nbclient
+ipykernel
+
+[test]
+pytest
