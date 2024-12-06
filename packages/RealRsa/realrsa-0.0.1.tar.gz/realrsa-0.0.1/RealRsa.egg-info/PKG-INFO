@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: RealRsa
+Version: 0.0.1
+Summary: python version of rsa
+Author: zkh
+Author-email: 404937333@qq.com
+License: MIT License
+Keywords: rsa
+Platform: Windows
+Platform: Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: cython
+
+# Python RSA加解密封装
+
+解除只能用公钥加密的限制
