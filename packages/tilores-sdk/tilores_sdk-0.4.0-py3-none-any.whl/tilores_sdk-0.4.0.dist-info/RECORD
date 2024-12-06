@@ -1,0 +1,10 @@
+tilores/__init__.py,sha256=J1EGbEyXOOWgbvKaPahchQcXOdsNBRbEym-BmTWHosE,81
+tilores/conversion.py,sha256=haPIVFOtfJSmyvmb1BfIRWxgvm4YQfBOpHA9KxBLcBc,917
+tilores/helpers.py,sha256=y_hXrAk9qa61eZfHYlFDwQ2nN3zZ34fcBUU2OhJSJNE,4223
+tilores/record_insights.py,sha256=NN_HUEx1JtXAaSVuiXJlthzAXdEJxys1lo4TGBCMHX4,3105
+tilores/tilores_api.py,sha256=lXd_IVy0BYHb9I_azJ7g8Xe8Nf6ZkxyxxfRYINew63Y,7152
+tilores_sdk-0.4.0.dist-info/LICENSE,sha256=Mhkf47wfwZBl4Pke8LE6rF11ZJY_STQXd2ZFkdXWXgU,1072
+tilores_sdk-0.4.0.dist-info/METADATA,sha256=qIkGT9sVbwdyHpzKhN5zqFzEzBGkdrYI07jkCkmtfyA,4250
+tilores_sdk-0.4.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tilores_sdk-0.4.0.dist-info/top_level.txt,sha256=mXpKKFYs8BE0NU40LezXEJi8Wy9nInuZrRnDXCBAJNw,8
+tilores_sdk-0.4.0.dist-info/RECORD,,
