@@ -1,0 +1,8 @@
+text_preprocessor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_preprocessor/preprocessing.py,sha256=8QcKJxIuG_h6Pm72brtI526jytOUJKtUb2Cfl7UHYug,2623
+text_preprocessor/setup.py,sha256=FIS5yy71MRYMs_jjGq6NcVsmdKtkOqPFJG6twnmABUo,370
+text_preprocessor/utils.py,sha256=XvAWWNQ8auHVx0PzxwfTszLy9OC50co5rhLFXvCeegc,710
+akeem_text_preprocessor-0.1.0.dist-info/METADATA,sha256=99861GR2JzvPV_hrXeBKfUIdWa0IAasMFT4P7dr4CFI,188
+akeem_text_preprocessor-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+akeem_text_preprocessor-0.1.0.dist-info/top_level.txt,sha256=SmTsCISCM-JWfikkUIeCzXvCwT-Pd8EFYj6pLnmdb0s,18
+akeem_text_preprocessor-0.1.0.dist-info/RECORD,,
