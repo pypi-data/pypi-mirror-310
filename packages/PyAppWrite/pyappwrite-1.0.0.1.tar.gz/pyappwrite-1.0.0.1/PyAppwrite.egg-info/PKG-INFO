@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PyAppwrite
+Version: 1.0.0.1
+Summary: Third Party Module with Persistent Session
+Home-page: https://appwrite.io/support
+Download-URL: 
+Author: Smit Talsaniya
+Author-email: techsmitdevloper@gmail.com
+Maintainer: Smit Talsaniya
+Maintainer-email: techsmitdevloper@gmail.com
+License: BSD-3-Clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+Third Party Module with Persistent Session
+For more information, please refer to the official [Appwrite Documentation](https://appwrite.io/docs)
