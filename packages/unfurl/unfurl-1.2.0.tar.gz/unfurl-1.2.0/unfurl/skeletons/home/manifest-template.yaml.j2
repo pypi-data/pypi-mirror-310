@@ -1,0 +1,45 @@
+#jinja2: variable_start_string: '[%', variable_end_string: '%]'
+# This Ensemble template was generated during creation of your ~/unfurl_home and models
+# the local environment Unfurl runs inside of, e.g. the client machine or container,
+# its local network, etc.
+# It is intended to be included in your ensemble.yaml manifest file
+# (by default, found at ensemble/ensemble.yaml)
+# You can use it to configure your local environment by adding your own templates
+# and deploying it like any other Ensemble.
+apiVersion: unfurl/v1alpha1
+
+spec:
+  instances:
+    # declare the existence of an instance named localhost, no deployment necessary
+    localhost:
+      template: localhost
+      readyState: ok
+
+  service_template:
+    imports:
+#      - repository: unfurl
+#        file: configurators/templates/supervisor.yaml
+      - repository: unfurl
+        file: tosca_plugins/localhost.yaml
+      - repository: unfurl
+        file: tosca_plugins/artifacts.yaml
+      - repository: unfurl
+        file: tosca_plugins/k8s.yaml
+
+    topology_template:
+      node_templates:
+        localhost:
+          type: unfurl.nodes.Localhost
+
+        # uncomment and deploy if you want to share a local supervisord instance across projects
+        # (uncomment the above import of configurators/templates/supervisor.yaml too)
+        # supervisord:
+        #   type: unfurl.nodes.Supervisor
+        #   requirements:
+        #   - host: localhost
+        #
+        # once deployed, to use, add this to your project's node_templates:
+        # supervisord:
+        #   type: unfurl.nodes.Supervisor
+        #   directives:
+        #   - select
