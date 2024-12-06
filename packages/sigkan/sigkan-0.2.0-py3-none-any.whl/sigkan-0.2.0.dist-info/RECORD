@@ -1,0 +1,6 @@
+sigkan/__init__.py,sha256=YMcnd8z57sfe9lhYwhULoaqVvs0u-FsnEoQ45YrIQDI,77
+sigkan/grns.py,sha256=Mab-_4DQRdDLtCsvAvvycmIueHVpk5Eg14gKpmi8D54,4581
+sigkan/sigkan.py,sha256=euZdr5ylOaFwwTHAK9nCZhEkT0vdDyE6MCAe-a2uxD8,2240
+sigkan-0.2.0.dist-info/METADATA,sha256=wUQzYm_wbfH5Yn1hxZk762BBHUMnjcLOhIXzFrzVq6I,3576
+sigkan-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sigkan-0.2.0.dist-info/RECORD,,
