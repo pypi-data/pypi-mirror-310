@@ -1,0 +1,8 @@
+/.vscode
+__pycache__
+/public
+/dist
+/tmp
+.env
+polario/_version.py
+constraints.txt

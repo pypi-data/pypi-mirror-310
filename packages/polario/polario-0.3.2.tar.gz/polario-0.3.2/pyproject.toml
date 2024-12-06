@@ -1,0 +1,68 @@
+[project]
+name = "polario"
+dynamic = ["version"]
+description = "Polars IO"
+authors = [{ name = "Bram Neijt", email = "bram@neijt.nl" }]
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "fsspec",
+    "polars[fsspec]>=0.16",
+    "pyarrow>11",
+]
+
+[project.urls]
+homepage = "https://bneijt.github.io/polario/"
+repository = "https://github.com/bneijt/polario"
+
+[tool.uv]
+dev-dependencies = [
+    "deltalake>=0.21.0",
+    "parquet-tools>=0.2.16",
+    "pdoc>=15.0.0",
+    "pytest>=8.3.3",
+    "s3fs>=2024.10.0",
+]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "polario/_version.py"
+
+[project.scripts]
+polario = 'polario.main:main'
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+files = "polario,tests"
+ignore_missing_imports = true
+show_error_codes = true
+
+[tool.ruff.lint]
+ignore = ["E501", "UP006", "FA100", "N803", "UP035", "UP007", "ANN101"]
+extend-select = [
+    "ANN",
+    "B",
+    "E",
+    "FA",
+    "I",
+    "INP",
+    "N",
+    "Q",
+    "RUF",
+    "SIM",
+    "UP",
+]
