@@ -1,0 +1,8 @@
+README.md
+setup.py
+cloud_inv/__init__.py
+cloud_inv/cloud_inv.py
+libraryInv.egg-info/PKG-INFO
+libraryInv.egg-info/SOURCES.txt
+libraryInv.egg-info/dependency_links.txt
+libraryInv.egg-info/top_level.txt
