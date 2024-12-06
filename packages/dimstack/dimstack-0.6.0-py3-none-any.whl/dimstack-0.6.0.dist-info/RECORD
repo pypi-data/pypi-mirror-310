@@ -1,0 +1,12 @@
+dimstack/__init__.py,sha256=tyDUMZzRi-Slzq27QEnPBvHE4JVbv-onWkiRaXaih5g,330
+dimstack/calc.py,sha256=U4oo8KM1OWJV9F26gkNUkEkJUO6KkWwlBnt4bAbZ5PA,5556
+dimstack/dim.py,sha256=z2EzT-5PgxQmZwOYiEAZ_PsqiIhLv1n0tEEdohoblOA,13992
+dimstack/display.py,sha256=Wrzf96rvxP9MRZOOEDcRSRC41X2J1Zb07c_MkNU5jlU,1558
+dimstack/dist.py,sha256=qh4e6UGOsdW-2-YjMDYcdMD4rw7d_SMXpaGEZGowoQM,4136
+dimstack/plot.py,sha256=2ngN30sQoQB2WIs7yuaxhHQq77HX0_nrH8YDbPzEt54,7191
+dimstack/stats.py,sha256=JhUMzx1T4x8f4hoL31rY3mBp0WlbqQQP9rg07VWQbOs,2527
+dimstack/tolerance.py,sha256=r8QrUGclrdCaz78wQXH7T_577FCgBQVbos77YcE-mEw,2120
+dimstack/utils.py,sha256=sJYHxnCwYOzOiX7Yqb2l4uZSWr47ah5DG4c3RLiUOAU,1252
+dimstack-0.6.0.dist-info/METADATA,sha256=GF6LBbVefsDXEYiCGnPcszOg3H64rGnRz94bQj-jIjM,14757
+dimstack-0.6.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+dimstack-0.6.0.dist-info/RECORD,,
