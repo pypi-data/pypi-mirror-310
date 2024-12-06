@@ -1,0 +1,2 @@
+[jupyterhub.custom_extensions]
+jupyterhub_editor_extension = editor_extension

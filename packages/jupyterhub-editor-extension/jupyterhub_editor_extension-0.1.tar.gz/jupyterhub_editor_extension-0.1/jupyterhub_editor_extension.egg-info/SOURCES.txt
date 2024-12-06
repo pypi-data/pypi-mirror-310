@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+editor_extension/__init__.py
+editor_extension/config.py
+editor_extension/handlers.py
+jupyterhub_editor_extension.egg-info/PKG-INFO
+jupyterhub_editor_extension.egg-info/SOURCES.txt
+jupyterhub_editor_extension.egg-info/dependency_links.txt
+jupyterhub_editor_extension.egg-info/entry_points.txt
+jupyterhub_editor_extension.egg-info/top_level.txt
