@@ -1,0 +1,10 @@
+google_books_api/GoogleBook.py,sha256=lz5uNyO_ombRfASS8HZnznRoKfYQ8LMWn0YELZGyErA,136
+google_books_api/GoogleBookSearchResult.py,sha256=R3MR36eG2se-cyK30CqvJrR3KCXWdAU4hxZNDd7Agm0,596
+google_books_api/GoogleBooksAPI.py,sha256=ceWZvm9_jcw60eLGyPSOw6GWuLuglgCiXyGRuTmM58I,981
+google_books_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_books_api/utils.py,sha256=gCDfS8lrD0tf7NHE0JiLwxlUY_BS0u8_TXB7llDPzwY,397
+google_books_api-0.1.0.dist-info/LICENSE,sha256=AHjqWFOA0zuHPwpBT18YEYTiQSY4jQmyW4JzBXeOYk4,1089
+google_books_api-0.1.0.dist-info/METADATA,sha256=n9664XVgre3T-fD4P24ALcpe9obmExIwvQFk16oaIUQ,545
+google_books_api-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+google_books_api-0.1.0.dist-info/top_level.txt,sha256=XOgpSi9thDwg6vJaL-re4GWfmZZbgWT9z_nm4eb2ruw,17
+google_books_api-0.1.0.dist-info/RECORD,,
