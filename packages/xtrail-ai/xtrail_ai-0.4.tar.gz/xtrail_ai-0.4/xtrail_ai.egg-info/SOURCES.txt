@@ -1,0 +1,10 @@
+setup.py
+xtrail_ai/__init__.py
+xtrail_ai/api.py
+xtrail_ai/machine_id.py
+xtrail_ai/utils.py
+xtrail_ai.egg-info/PKG-INFO
+xtrail_ai.egg-info/SOURCES.txt
+xtrail_ai.egg-info/dependency_links.txt
+xtrail_ai.egg-info/requires.txt
+xtrail_ai.egg-info/top_level.txt
