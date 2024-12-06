@@ -1,0 +1,6 @@
+setup.py
+fednam.egg-info/PKG-INFO
+fednam.egg-info/SOURCES.txt
+fednam.egg-info/dependency_links.txt
+fednam.egg-info/requires.txt
+fednam.egg-info/top_level.txt
