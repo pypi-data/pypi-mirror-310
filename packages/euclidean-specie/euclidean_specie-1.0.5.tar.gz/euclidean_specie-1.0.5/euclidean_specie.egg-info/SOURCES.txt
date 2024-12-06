@@ -1,0 +1,10 @@
+README.md
+setup.py
+euclidean_specie.egg-info/PKG-INFO
+euclidean_specie.egg-info/SOURCES.txt
+euclidean_specie.egg-info/dependency_links.txt
+euclidean_specie.egg-info/entry_points.txt
+euclidean_specie.egg-info/requires.txt
+euclidean_specie.egg-info/top_level.txt
+euclidean_species/__init__.py
+euclidean_species/main.py
