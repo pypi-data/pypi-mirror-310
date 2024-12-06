@@ -1,0 +1,8 @@
+opencv-python
+numpy
+PyMuPDF
+filetype
+rapidocr_onnxruntime
+
+[onnxruntime]
+rapidocr_onnxruntime

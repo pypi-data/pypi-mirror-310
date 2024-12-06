@@ -1,0 +1,2 @@
+[console_scripts]
+kvell_pdf = kvell_pdf.main:main
