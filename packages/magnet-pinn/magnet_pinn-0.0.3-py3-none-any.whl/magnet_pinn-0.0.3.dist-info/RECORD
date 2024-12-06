@@ -1,0 +1,17 @@
+magnet_pinn/__init__.py,sha256=JLXDPjFha9u8mk8s8lc9BUNJoAsbDjpOw8WtWnrAS64,132
+magnet_pinn/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magnet_pinn/data/dataset.py,sha256=AnYXpUaNCbyPZ9wPwVZRyGTnL6Dga-uMP1EDzomb2rE,10942
+magnet_pinn/models/__init__.py,sha256=SjKr0_mTkSK_rn4JFgVunEF8-DrzCN5l2bL1aI_rpGg,79
+magnet_pinn/physics/__init__.py,sha256=2UHNKSiH08jDAB_oDHV5ize-TrDQGi8lI9vyzmGpwRs,101
+magnet_pinn/preprocessing/__init__.py,sha256=yS6DA3vPyAyd13adRjpMG5jLwFXCGPssuAKBfjZdQ6M,565
+magnet_pinn/preprocessing/preprocessing.py,sha256=GAseSyxCsign4tW_g5i7gEypP7Ymse54VqUptNMI7Jo,30323
+magnet_pinn/preprocessing/reading_field.py,sha256=ZkSiwR645xbPeTAZsMTiCR2nqNVc9dDQXkyWwUtrU0s,16252
+magnet_pinn/preprocessing/reading_properties.py,sha256=tzL2Ns2TdcOachOv869aNzAiTh6cL2hzLOzcq1_ytco,2887
+magnet_pinn/preprocessing/simulation.py,sha256=zLCowq9jX0y8lHmlAAKM3d8mRP4AkZvBJSMEh9XrGpk,1079
+magnet_pinn/preprocessing/voxelizing_mesh.py,sha256=o8Zowbqpep_i4agKfcpLaOf05UsbI4WlO8f3zQST0pQ,4446
+magnet_pinn/utils/__init__.py,sha256=yeMKT68Acz6U47sPLeo6L_48YTcOqo_xguS52h1bLbE,64
+magnet_pinn/utils/_normalization.py,sha256=WwiYniLwg-IBLGeKdPiB5YjZ9OJxTIYUIYF5UiwLNUY,3420
+magnet_pinn-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+magnet_pinn-0.0.3.dist-info/METADATA,sha256=vRt0CrWtHZlGb8CTJoIBBsMPPES_t0Ww-h45MMv-UgM,1025
+magnet_pinn-0.0.3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+magnet_pinn-0.0.3.dist-info/RECORD,,
