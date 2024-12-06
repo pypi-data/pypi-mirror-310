@@ -1,0 +1,9 @@
+elasticsearch<9,>=8.12.1
+python-dotenv
+psycopg2-binary<3,>=2.9.9
+dacite==1.8.1
+Cerberus==1.3.5
+pytz<2025,>=2024.1
+requests
+pyyaml
+aiohttp
