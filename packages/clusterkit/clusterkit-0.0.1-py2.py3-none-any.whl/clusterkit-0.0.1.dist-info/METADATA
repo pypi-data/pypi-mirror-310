@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: clusterkit
+Version: 0.0.1
+Summary: A Python package for cluster analysis and visualization.
+Author-email: Malte Kuehl <malte.kuehl@clin.au.dk>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/complextissue/clusterkit/
+
+# clusterkit
+
+clusterkit is a cluster optimization metaframework.
+
