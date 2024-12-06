@@ -1,0 +1,47 @@
+# Poetry - project metadata
+[tool.poetry]
+name = "addcom"
+version = "1.0.3"
+description = "a CLI tool for adding comments to your source code files"
+authors = ["Arina Kolodeznikova <arinak1017@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/arilloid/addcom"
+packages = [{include = "app"}]
+
+# Dependencies required for running the project
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12"
+openai = "^1.46"
+rich = "^13.8"
+typing_extensions = "^4.12"
+
+# Dev dependencies (not required for run-time)
+[tool.poetry.group.dev.dependencies]
+black = "^24.10"
+ruff = "^0.7"
+pytest = "^8.3"
+pytest-mock = "^3.14"
+
+# Project's CLI commands
+[tool.poetry.scripts]
+addcom = 'app.main:app'
+
+# Black - source code formatter configurations
+[tool.black]
+line-length = 90
+# 'extend-exclude' excludes files or directories in addition to the defaults
+extend-exclude = '''
+    /examples/  # exclude sample test files
+'''
+
+# Ruff - linting configs
+[tool.ruff]
+# 'extend-exclude' excludes files or directories in addition to the defaults
+extend-exclude = ["examples"]
+
+# Build configurations
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
