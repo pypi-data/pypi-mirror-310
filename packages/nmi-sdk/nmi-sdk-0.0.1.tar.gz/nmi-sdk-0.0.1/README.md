@@ -1,0 +1,3 @@
+# NMI Python SDK
+
+VERSION: 0.0.1
