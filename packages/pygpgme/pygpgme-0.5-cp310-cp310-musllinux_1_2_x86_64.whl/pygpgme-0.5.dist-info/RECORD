@@ -1,0 +1,13 @@
+gpgme/__init__.py,sha256=TUtTAYYyDDTdunmIm1hZUuCeyzYt3jixeNdHXryRKZU,18672
+gpgme/_gpgme.cpython-310-x86_64-linux-gnu.so,sha256=zDfloXjfiKkMpzmwn2qEqp6h9mJrETihWZp0-v_tbXY,580977
+gpgme/_gpgme.pyi,sha256=tQJTB4LKE-XCEhZVB7fmeBZVQ6DfVbhEWB7KtkxFNqE,23195
+gpgme/editutil.py,sha256=jFRZruN9sq3yw__8OyP3Ii-m_IG2xu9ISmOfG_QIjNQ,5791
+gpgme/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygpgme.libs/libassuan-c382eed8.so.0.8.6,sha256=vVgrcxkIRgWKr5i1BmtKxAEYlqjmkddPVDdMIbfbOcM,80617
+pygpgme.libs/libgpgme-2ffdf054.so.11.32.1,sha256=aVTU5pHQ-JSYDPTjfRtn-4NyAZUbSz_BWROAK3y_NQ0,288673
+pygpgme.libs/libgpg-error-5e56812f.so.0.34.0,sha256=zX9TDxuKRx64PnHZZot9h367NeSes4Zf0I3cErMh2Dk,136569
+pygpgme-0.5.dist-info/top_level.txt,sha256=tWAK60Q2XKQU8O47tVAI2mwFFRrHd1vedQVG5okNr5o,6
+pygpgme-0.5.dist-info/RECORD,,
+pygpgme-0.5.dist-info/LICENSE.txt,sha256=YJXp_6d33SKDn3gBqoRbMcntB_PWv4om3F0t7IzMDvM,26432
+pygpgme-0.5.dist-info/METADATA,sha256=lRQyF2H5hz9yNWvZ1S-0GQKVxqA6nU1WnJF4GPkY6NI,32707
+pygpgme-0.5.dist-info/WHEEL,sha256=0z-dx3WjYQPNrkQK_QYzYKZwBXfy6u9GDaL6ineKHwA,112
