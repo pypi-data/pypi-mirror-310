@@ -1,0 +1,10 @@
+create_mcp_server/__init__.py,sha256=DOZRp5lrshV0fXS8oDHRK5-DmPsiQ9G0KlwqI_XuyII,10511
+create_mcp_server/__main__.py,sha256=XnpTzfJc0T-j9tHtdkA8ovTr1c139ffTewcJGhxYDaM,49
+create_mcp_server/template/README.md.jinja2,sha256=pIjnh4FKtaAZyQN5oVPLtDLzUfrbW8VyRT-tqFoVwZc,2069
+create_mcp_server/template/__init__.py.jinja2,sha256=kTuRDcmoAa4al59WMbwXx_TjJhMqmpzCMFCZ981BL1M,213
+create_mcp_server/template/server.py.jinja2,sha256=UCTpC0YZnk8EYANS4YoSe5g3q4U6Opu7jVJacmzof5c,6849
+create_mcp_server-1.0.4.dist-info/METADATA,sha256=jn8ZfbqsNUAB0EAqMLpt32uweFH7S7J0MNtmJmYGI_Y,3096
+create_mcp_server-1.0.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+create_mcp_server-1.0.4.dist-info/entry_points.txt,sha256=eLP18okSbY7jfWfivRWHx0cAk8iDlDZvkKDSJU0kiS8,61
+create_mcp_server-1.0.4.dist-info/licenses/LICENSE,sha256=XhPbvB0SD8KgPOzefJFCSuLX3hG2PVje0vRDHiYe5Q0,1071
+create_mcp_server-1.0.4.dist-info/RECORD,,
