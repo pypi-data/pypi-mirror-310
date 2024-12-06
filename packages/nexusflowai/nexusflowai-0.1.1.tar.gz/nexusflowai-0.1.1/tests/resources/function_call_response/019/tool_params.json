@@ -1,0 +1,22 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "False",
+            "description": "Get the delivery date for a customer's order. Call this whenever you need to know the delivery date, for example when a customer asks 'Where is my package'",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "from": {
+                        "type": "string",
+                        "description": "The customer's order ID."
+                    }
+                },
+                "required": [
+                    "from"
+                ],
+                "additionalProperties": false
+            }
+        }
+    }
+]

@@ -1,0 +1,4 @@
+{
+    "expected_exception": "AssertionError",
+    "match": "Missing\\ `ChatCompletionAssistantMessageParam\\.content`!\\\nA\\ ChatCompletionAssistantMessageParam\\ contains\\ the\\ following\\ tool_calls:\\ \\[\\{'id':\\ 'call_62136354',\\ 'type':\\ 'function',\\ 'function':\\ \\{'arguments':\\ '\\{\"order_id\":\\ \"order_12345\"\\}',\\ 'name':\\ 'get_delivery_date'\\}\\}\\]\\.\\\nUsing\\ tool_calls\\ with\\ a\\ ChatCompletionAssistantMessageParam\\ requires\\ a\\ non\\-empty\\ ChatCompletionAssistantMessageParam\\.content\\ field\\.\\\nPlease\\ use\\ the\\ output\\ ChatCompletionAssistantMessage\\ directly\\ as\\ the\\ input\\ ChatCompletionAssistantMessageParam!\\\nUsually\\ this\\ is\\ an\\ error\\ when\\ the\\ ChatCompletionAssistantMessageParam\\ is\\ manually\\ constructed\\ and\\ the\\ content\\ field\\ in\\ the\\ previous\\ ChatCompletion\\ is\\ not\\ copied\\ over\\ correctly\\."
+}
