@@ -1,0 +1,10 @@
+ataraxis_automation/__init__.py,sha256=H0LAG1AgN0glyK2tKElQWejM0FI1IDGP--RbPkLCn0Y,330
+ataraxis_automation/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ataraxis_automation/automation.py,sha256=VkXh_f1l-TmR89hMvI8DVYB5eMR1XUfYQucA7mbEVY8,105457
+ataraxis_automation/automation.pyi,sha256=_AOKgKwt690nEIXWeh4TSNsy1ACl59AKZC9wuAkgYNA,29132
+ataraxis_automation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ataraxis_automation-4.0.0.dist-info/METADATA,sha256=aCkh6UiZNVdcBAhlQD4l0NCGpjS4ZWKLsyRJJo_UEaI,78900
+ataraxis_automation-4.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+ataraxis_automation-4.0.0.dist-info/entry_points.txt,sha256=tYdlHSFkGFh_SVRyqRhvs3UN_vW5zMfoyW_JUjqLPA0,70
+ataraxis_automation-4.0.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ataraxis_automation-4.0.0.dist-info/RECORD,,
