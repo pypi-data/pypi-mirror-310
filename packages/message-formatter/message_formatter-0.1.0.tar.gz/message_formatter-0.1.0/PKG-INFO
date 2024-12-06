@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: message_formatter
+Version: 0.1.0
+Summary: A lightweight package for formatting and serializing messages.
+Home-page: https://github.com/manidasari27/message_formatter
+Author: mani
+Author-email: mani.dasari3027@gmail.com
+License-File: LICENSE

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+message_formatter.egg-info/PKG-INFO
+message_formatter.egg-info/SOURCES.txt
+message_formatter.egg-info/dependency_links.txt
+message_formatter.egg-info/top_level.txt
