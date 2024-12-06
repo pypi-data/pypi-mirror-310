@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+backupper/__init__.py
+backupper/backupper.py
+backupper_lf23.egg-info/PKG-INFO
+backupper_lf23.egg-info/SOURCES.txt
+backupper_lf23.egg-info/dependency_links.txt
+backupper_lf23.egg-info/entry_points.txt
+backupper_lf23.egg-info/requires.txt
+backupper_lf23.egg-info/top_level.txt
