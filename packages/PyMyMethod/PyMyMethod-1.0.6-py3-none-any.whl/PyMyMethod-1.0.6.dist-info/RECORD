@@ -1,0 +1,14 @@
+PyMyMethod/__init__.py,sha256=Cjd1DHJNevD2z4J0MqISucrSGcHHFp8izpNZnLENAVM,69
+PyMyMethod/code/__init__.py,sha256=1yYNQmhiyixdaNYqMmP16j7ZPOabZyyMsM6hMDrMZ2Y,190
+PyMyMethod/code/file_control.py,sha256=Y2jhWchmdxmNEegUAzfLve_VIsYnuKen_qFJ8GTywUA,5478
+PyMyMethod/code/mouse_control.py,sha256=jxAmzxSQz4WC5lztrsDt-FWl1LbAa3PMTWg8rWPjn-I,1279
+PyMyMethod/code/regedit.py,sha256=wgvmRixW0cqOLpMIQgASUmW4X4maiWtXMzYKILm_l1E,3400
+PyMyMethod/code/screen_control.py,sha256=ghVsNnkR29gmCPb5x5hg0tbbF12CTjC47vId3oNDXBA,1831
+PyMyMethod/code/system_control.py,sha256=LDA8btV7Hh-6YGHW9QjrMAUWd8ABQjOUKQd63Z2EX-s,4610
+PyMyMethod/code/terminal_command.py,sha256=sdNj89BW4b9ANjZVuyyJm1ISh77ar1EQWh26TfZRuCQ,1717
+PyMyMethod/doc/__init__.py,sha256=WQ4WeBgdlzo5JfJoVor-7xaq1pbNy5UTNHQiSd1yhkA,25
+PyMyMethod/doc/method_doc.py,sha256=N389lRDIbmeMEReyGYHXE0RdjNk5T2g1ZXi0OrjZCZ4,16534
+PyMyMethod-1.0.6.dist-info/METADATA,sha256=4uZrQVq_9dRMO1ZQqucpJc18lCaGdorN90MGlV2ki28,220
+PyMyMethod-1.0.6.dist-info/WHEEL,sha256=OVMc5UfuAQiSplgO0_WdW7vXVGAt9Hdd6qtN4HotdyA,91
+PyMyMethod-1.0.6.dist-info/top_level.txt,sha256=VAgE9mpTRUxkhITlL25Tob3ysIkHzKMJ_T37iaGkEN4,11
+PyMyMethod-1.0.6.dist-info/RECORD,,
