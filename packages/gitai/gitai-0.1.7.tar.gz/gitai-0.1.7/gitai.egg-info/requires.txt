@@ -1,0 +1,6 @@
+langchain
+python-dotenv
+click
+langchain-openai
+langchainhub
+asyncio
