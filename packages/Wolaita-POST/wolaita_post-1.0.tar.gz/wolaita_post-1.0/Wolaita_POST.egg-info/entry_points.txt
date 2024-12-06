@@ -1,0 +1,2 @@
+[console_scripts]
+wolaita-pos = WolaitaPOSTagger.wolaita_pos_tagger:main
