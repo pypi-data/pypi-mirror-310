@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tadaima.egg-info/PKG-INFO
+tadaima.egg-info/SOURCES.txt
+tadaima.egg-info/dependency_links.txt
+tadaima.egg-info/top_level.txt
