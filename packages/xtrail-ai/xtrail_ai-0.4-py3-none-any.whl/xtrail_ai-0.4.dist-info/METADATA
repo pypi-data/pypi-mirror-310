@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xtrail-ai
+Version: 0.4
+Summary: Retrieve machine details, monitor resources, and execute jobs dynamically.
+Home-page: https://xtrail.in
+Author: Harisha P C
+Author-email: info@xtrail.in
+Keywords: machine-id machine-learning resource-monitoring dynamic-execution
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: psutil>=5.9.0
+
