@@ -1,0 +1,13 @@
+include LICENSE
+include README.md
+include requirements.txt
+
+recursive-include aegis_framework/public *
+recursive-include examples *.py
+
+prune aegis_framework/core
+prune tests
+prune docs
+prune myenv
+prune test_env
+prune aegis_framework_dev
