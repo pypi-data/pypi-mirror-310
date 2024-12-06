@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vecspark
+Version: 0.1.0
+Summary: A PySpark-based library for vector similarity and distance computations.
+Home-page: https://github.com/Adi-ayro/vecspark
+Author: Aditya Bharadwaj, Vivek Garg
+Author-email: adityabharadwaj47@gmail.com, gargvivek2003@gmail.com
+License: VecSpark Business Developer License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pyspark>=3.0.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: tiktoken>=0.8.0
+Requires-Dist: PyPDF2>=3.0.1

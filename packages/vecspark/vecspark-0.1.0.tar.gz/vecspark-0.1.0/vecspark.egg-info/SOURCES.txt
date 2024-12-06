@@ -1,0 +1,8 @@
+setup.py
+vecspark/__init__.py
+vecspark/main.py
+vecspark.egg-info/PKG-INFO
+vecspark.egg-info/SOURCES.txt
+vecspark.egg-info/dependency_links.txt
+vecspark.egg-info/requires.txt
+vecspark.egg-info/top_level.txt
