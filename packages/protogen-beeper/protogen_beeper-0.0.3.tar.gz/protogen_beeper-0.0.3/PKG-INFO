@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: protogen_beeper
+Version: 0.0.3
+Summary: A library to test how to develop modules
+Home-page: https://github.com/Prootzel/Protogen_Test_Library
+Author: Prootzel
+Author-email: lirkel123@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A test package to learn how to publish things on pypi
+
+# Table of Contents
+
+* [protogen](#protogen)
+  * [beep](#protogen.beep)
+  * [boop](#protogen.boop)
+  * [boop\_nose](#protogen.boop_nose)
+  * [head\_pat](#protogen.head_pat)
+
+<a id="protogen"></a>
+
+# protogen
+
+<a id="protogen.beep"></a>
+
+#### beep
+
+```python
+def beep() -> None
+```
+
+Beeps
+
+<a id="protogen.boop"></a>
+
+#### boop
+
+```python
+def boop() -> None
+```
+
+Boops
+
+<a id="protogen.boop_nose"></a>
+
+#### boop\_nose
+
+```python
+def boop_nose() -> None
+```
+
+Gives noseboop
+
+<a id="protogen.head_pat"></a>
+
+#### head\_pat
+
+```python
+def head_pat() -> None
+```
+
+Headpats
+
