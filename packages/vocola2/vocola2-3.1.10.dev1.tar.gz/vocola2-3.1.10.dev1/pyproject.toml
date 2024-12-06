@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+version = '3.1.10.dev1'
+authors = [{name = "Mark Lillibridge", email = "mdl@alum.mit.edu"}]
+name = "vocola2"
+readme = "README.md"
+classifiers=[	"Development Status :: 4 - Beta",
+	"Topic :: Multimedia :: Sound/Audio :: Speech",
+	"Topic :: Scientific/Engineering :: Human Machine Interfaces"]
+
+description = "Vocola2 (for Natlink)"
+				
+requires-python = ">=3.8"
+keywords=["dragon","speech","dictation","dictation-toolbox","natlink", "dtactions"]
+
+dependencies = ["dtactions == 1.6.4.dev3",
+				"natlinkcore >= 5.4.1"]
+
+
+
+[project.urls]
+homepage = "https://vocola.net/v2/"
+repository="https://github.com/dictation-toolbox/vocola2"
+source="https://github.com/dictation-toolbox/vocola2"		
+		
