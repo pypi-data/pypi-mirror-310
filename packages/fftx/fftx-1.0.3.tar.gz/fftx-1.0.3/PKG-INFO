@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fftx
+Version: 1.0.3
+Summary: A Python front end to access the FFTX Project
+Home-page: https://github.com/spiral-software/python-package-fftx
+Author: SpiralGen Inc.
+Author-email: Patrick.Broderick@spiralgen.com, Mike.Franusich@spiralgen.com
+Maintainer: ['Patrick Broderick', 'Mike Franusich']
+Maintainer-email: Patrick.Broderick@spiralgen.com, Mike.Franusich@spiralgen.com
+License: BSD-3-Clause
+Project-URL: Source Code, https://github.com/spiral-software/python-package-fftx
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: spiralpy>=1.0.4
+
+This Python package provides NumPy/CuPy-compatible access to the high performance multi-platform code generation capabilities of the FFTX Project (https://github.com/spiral-software/fftx).  Both FFTX and this Python package originated under the Exascale Computing Project, with a focus on perforance-portable FFTs and FFT-using methods for the rapidly evolving high performance computing landscape.
