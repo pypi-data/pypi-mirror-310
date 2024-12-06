@@ -1,0 +1,6 @@
+setup.py
+calculatorinpython/__init__.py
+calculatorinpython.egg-info/PKG-INFO
+calculatorinpython.egg-info/SOURCES.txt
+calculatorinpython.egg-info/dependency_links.txt
+calculatorinpython.egg-info/top_level.txt
