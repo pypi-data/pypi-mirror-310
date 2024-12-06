@@ -1,0 +1,4 @@
+pandas<3,>=2.2
+iso8601
+textbisect
+tzdata
