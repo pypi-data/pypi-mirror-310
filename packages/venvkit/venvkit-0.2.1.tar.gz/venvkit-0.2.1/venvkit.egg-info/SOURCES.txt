@@ -1,0 +1,9 @@
+README.md
+setup.py
+venvkit/__init__.py
+venvkit/main.py
+venvkit.egg-info/PKG-INFO
+venvkit.egg-info/SOURCES.txt
+venvkit.egg-info/dependency_links.txt
+venvkit.egg-info/entry_points.txt
+venvkit.egg-info/top_level.txt
