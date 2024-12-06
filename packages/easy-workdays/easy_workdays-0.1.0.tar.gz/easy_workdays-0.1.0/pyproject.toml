@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "easy-workdays"
+version = "0.1.0"
+description = "A Python library for managing workdays and holidays in a calendar year."
+authors = ["Stas Dzasokhov <3nc0m0s12@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/kurtatter/easy-workdays"
+repository = "https://github.com/kurtatter/easy-workdays"
+keywords = ["workdays", "calendar", "holidays"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
