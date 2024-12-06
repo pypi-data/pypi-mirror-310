@@ -1,0 +1,13 @@
+capture_db_queries/__init__.py,sha256=y3rbuMOl18RHNlx6QaJMDWanHMZrqTG2JZs_2a-OZaA,96
+capture_db_queries/decorators.py,sha256=ZrW3un8C0OI7VsUZX2N0swW3Lhddcjn_BTLUO-JUBks,19261
+capture_db_queries/dtos.py,sha256=Rpf6wQOOLyiThuqZdlLgslXAA8XcgvjaUxV-fUjrgX8,873
+capture_db_queries/printers.py,sha256=yFjKnp6mbzROXRxOTb8JQF3t1Y4Q0dRtFEGox2ht7GE,6212
+capture_db_queries/timers.py,sha256=cgqYN9nnTGyecgyhfqzjWoup-YDJ7p3oqNTrvgAxNhQ,1216
+capture_db_queries/types.py,sha256=8ZthfMJtoH9Z5MJ-1rzs09c4yWATdfU6BVzXSmYbMic,450
+capture_db_queries/wrappers.py,sha256=lcGfi-tCEXDS2k_At9Pg_nkuHxuyXAv3N9-bHwMm6Ec,6109
+capture_db_queries-1.2.0.dist-info/LICENSE,sha256=9971QSIv_oNdQseTrYINAPLznhpM07j4G6xXmp4GUAo,1064
+capture_db_queries-1.2.0.dist-info/METADATA,sha256=eEqBSBQbiTTd3vIYvUyFrLjegeEsT0Zov_DMaj1W4pM,12285
+capture_db_queries-1.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+capture_db_queries-1.2.0.dist-info/entry_points.txt,sha256=ncBXswsTvXtxUT3WNOE4yHRIUyAeKmGp6m3IojBqUtY,113
+capture_db_queries-1.2.0.dist-info/top_level.txt,sha256=MZgbI6rbvN1hD6G_7ziYOf_eqJi4TwESk8BPO_Mck0Q,19
+capture_db_queries-1.2.0.dist-info/RECORD,,
