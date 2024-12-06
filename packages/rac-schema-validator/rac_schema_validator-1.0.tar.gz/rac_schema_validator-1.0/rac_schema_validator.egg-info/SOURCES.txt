@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+rac_schema_validator/__init__.py
+rac_schema_validator/exceptions.py
+rac_schema_validator.egg-info/PKG-INFO
+rac_schema_validator.egg-info/SOURCES.txt
+rac_schema_validator.egg-info/dependency_links.txt
+rac_schema_validator.egg-info/not-zip-safe
+rac_schema_validator.egg-info/requires.txt
+rac_schema_validator.egg-info/top_level.txt
+tests/test_schema_validator.py
