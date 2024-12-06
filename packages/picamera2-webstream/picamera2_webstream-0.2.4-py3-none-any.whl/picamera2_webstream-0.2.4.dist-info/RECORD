@@ -1,0 +1,8 @@
+picamera2_webstream/__init__.py,sha256=i4T8uNgn6Nrcf899VP7QKMsesoHqYByZrf4ne08ME24,258
+picamera2_webstream/stream_ffmpeg.py,sha256=uvGHHn2xRJ3xMw9u5AlJ_cB35DGQuE1vqcoFXRwyfTc,5066
+picamera2_webstream/stream_picamera.py,sha256=XP45yCrz7NaX3uz3UXqe44oSKeyHA7X_AiSlptKQJLc,6023
+picamera2_webstream-0.2.4.dist-info/LICENSE,sha256=4sTQVb8sx8jeXlYsLi68GZitGzFHtNLWydIeN--mY4k,1073
+picamera2_webstream-0.2.4.dist-info/METADATA,sha256=lGiou_kLmBgGhMf3wzCS7IAhFJ2oOQCKugcIQ0VczGw,8943
+picamera2_webstream-0.2.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+picamera2_webstream-0.2.4.dist-info/top_level.txt,sha256=Ccuml8O__7s4bm7yc3sWsFy-e0jo7oul_xrZhAG0UR8,20
+picamera2_webstream-0.2.4.dist-info/RECORD,,
