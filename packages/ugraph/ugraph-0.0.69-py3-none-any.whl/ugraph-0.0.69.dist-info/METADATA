@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ugraph
+Version: 0.0.69
+Summary: 
+Author: flfuchs
+Author-email: flfuchs@student.ethz.ch
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: igraph (>=0.11.8,<0.12.0)
+Requires-Dist: pycairo (==1.21.0)
+Description-Content-Type: text/markdown
+
+# ugraph
+
+Extending igraph such that one can define classes for links and nodes in a graph.
+
+_Because your graphs aren't just for you_
+
+## Installation
+
+```bash
+pip install ugraph
+```
+
+
