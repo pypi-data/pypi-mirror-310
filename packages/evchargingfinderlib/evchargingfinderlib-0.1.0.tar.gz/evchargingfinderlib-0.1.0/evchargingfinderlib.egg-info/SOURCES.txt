@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+evchargingfinderlib/__init__.py
+evchargingfinderlib/booking.py
+evchargingfinderlib.egg-info/PKG-INFO
+evchargingfinderlib.egg-info/SOURCES.txt
+evchargingfinderlib.egg-info/dependency_links.txt
+evchargingfinderlib.egg-info/top_level.txt
