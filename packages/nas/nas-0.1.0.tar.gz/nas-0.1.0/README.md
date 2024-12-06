@@ -1,0 +1,24 @@
+nas: a package of Network Architecture Search
+=======================
+
+This package implements the most commonly used Network Architecture Search (NAS) algorithms.
+
+### Usage Example
+
+```
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+import torch
+
+# Generate synthetic dataset
+x, y = make_classification(n_samples=1000, n_features=10, n_classes=2)
+train_features, validate_features, train_targets, validate_targets = train_test_split(x, y, test_size=0.2)
+scaler = StandardScaler()
+train_features = scaler.fit_transform(train_features)
+validate_features = scaler.transform(validate_features)
+
+# Search
+evolutionary_searcher = EvolutionarySearcher(input_dim=10, output_dim=2, population_size=10, mutation_rate=0.1, crossover_rate=0.7, generations=10)
+best_architecture = evolutionary_searcher.search(train_features, train_targets, validate_features, validate_targets, verbose=True)
+```
