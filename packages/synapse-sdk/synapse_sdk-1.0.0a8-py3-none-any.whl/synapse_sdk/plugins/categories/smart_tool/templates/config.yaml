@@ -1,0 +1,6 @@
+actions:
+  auto_label:
+    category: interactive_segmentation
+    entrypoint: plugin.auto_label.MyAutoLabel
+    model:
+      neural_nets: [sam2]
