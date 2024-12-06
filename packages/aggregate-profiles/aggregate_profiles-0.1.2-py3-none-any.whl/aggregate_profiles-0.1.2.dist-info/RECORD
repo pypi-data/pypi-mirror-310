@@ -1,0 +1,11 @@
+aggregate_profiles/__init__.py,sha256=RkYzKDiTW4F1tpqzHBN-4Roi4L8a9fKZI1RsNLB79bg,72
+aggregate_profiles/aggregate_profiles.py,sha256=P5bisjpYFup7m0hIIz91JoAzmPiq6WjKmapQiS2vtBY,8634
+aggregate_profiles/multiprocess.py,sha256=4tCNsks_kDwNkW_8Rw4fHo6Lb5qrPfGzGn0sqTn8QsU,1277
+aggregate_profiles/read_and_write.py,sha256=fFAioxr9kE8syUxIea2DhQeH4DeYp_sl0qR2_9mNhec,1180
+aggregate_profiles/temp_testing.py,sha256=h6GwZTQxMXhDJrN89TggsOy9S-n-Qj-BLVAAjYjdNn0,394
+aggregate_profiles/utils.py,sha256=S4xlKaBfpcMo0xQA_-ydDaZvnRkLp1R4xORV9TQfQeU,9968
+aggregate_profiles-0.1.2.dist-info/METADATA,sha256=W07aqcnJ9bnqGNcRqFVCfJSdJJ0QkttYPZMZ2Lc_Av8,518
+aggregate_profiles-0.1.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aggregate_profiles-0.1.2.dist-info/entry_points.txt,sha256=k2hakxvNyCVItWMWx6Q8XcavPehNHcA3EIKhZIKdgq8,93
+aggregate_profiles-0.1.2.dist-info/top_level.txt,sha256=dsSxMp8aGvKTuRj1I0VDHgSzWQCtgWniSgH632Gbz4s,19
+aggregate_profiles-0.1.2.dist-info/RECORD,,
