@@ -1,0 +1,7 @@
+numpy
+
+[nice_text]
+rich
+
+[status]
+progress
