@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: skullTo3d
+Version: 0.0.4.3
+Summary: Pipeline for skull extraction for macaque/marmoset
+Author: macatools team
+License: BSD 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: macapype
+Provides-Extra: test
+Requires-Dist: codecov; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Provides-Extra: doc
+Requires-Dist: flake8; extra == "doc"
+Requires-Dist: codecov; extra == "doc"
+Requires-Dist: pytest; extra == "doc"
+Requires-Dist: pytest-cov; extra == "doc"
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-gallery; extra == "doc"
+Requires-Dist: sphinx_bootstrap_theme; extra == "doc"
+Requires-Dist: numpydoc; extra == "doc"
+Requires-Dist: sphinxcontrib-fulltoc; extra == "doc"
+Requires-Dist: matplotlib; extra == "doc"
+
+# skullTo3d
+skullTo3d
