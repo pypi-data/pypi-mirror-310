@@ -1,0 +1,10 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/api.py,sha256=Cj88euUsa7vTjzjqvsurW9wHGQV2pYO5-izpJIRGZSQ,3895
+app/callbacks.py,sha256=euiMXDao3nwrK-8pb3fqJ0ZbLYoNRQdLNpRW4KVxhz8,567
+app/file_operations.py,sha256=LdjKNW5ftRBe53DnG1p1kJQqlWKsw4Tw2OsWN5HK4PU,1879
+app/main.py,sha256=laao7G2W6u3jDVP8zsuTIwDtRIC7FG2YSU7Q_oHtBNY,3254
+addcom-1.0.3.dist-info/entry_points.txt,sha256=wBD1CcsVdlmE7jeO4YQ_CyVQNXaj3O-CvcLUXXwH9RI,39
+addcom-1.0.3.dist-info/LICENSE,sha256=3uPzWusVqCMWyj7Lh4eGJ5bwm_z1yRyFFPqwwKaDHnc,1067
+addcom-1.0.3.dist-info/METADATA,sha256=Zik738o8bxIbIsHuJdtbLeLbNXB40ZcHquaN8gKeDA0,5749
+addcom-1.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+addcom-1.0.3.dist-info/RECORD,,
