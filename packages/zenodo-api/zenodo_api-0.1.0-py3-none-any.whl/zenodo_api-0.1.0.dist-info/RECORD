@@ -1,0 +1,10 @@
+zenodo_api/__init__.py,sha256=G0Y5UlrajRpqym4HDrxl2IT_sSFGgtYG6t9v9ixAvw0,187
+zenodo_api/cli.py,sha256=Q1oJ6IVgisRoM8UgfmdgPLIWXFXP-Zr96WAzku6sNqk,307
+zenodo_api/retrieve.py,sha256=KGOj0cu6PQ8eKyjX33JGJ9iOeacmxQUP6xoFXbVr-oQ,2077
+zenodo_api/upload_files.py,sha256=_lebi-iZ1p4gt2R_YBbIGDbGO5_KsMJQy35EmMVS8Yk,1764
+zenodo_api/url_selector.py,sha256=5yaQ-94bcIiwOtXR1b2FEig34KoKEbsT6I95HvPOiX8,130
+zenodo_api-0.1.0.dist-info/entry_points.txt,sha256=dUlgkvIo1LB2Zm-9gyp2ClX5ogy9h5o7qEcg8QYhf6E,50
+zenodo_api-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+zenodo_api-0.1.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+zenodo_api-0.1.0.dist-info/METADATA,sha256=DjE7RW4i6_M-hNi2eirIjAO2uJ7ktUXg0PGNzyCJzRo,1922
+zenodo_api-0.1.0.dist-info/RECORD,,
