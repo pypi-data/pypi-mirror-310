@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: greenland-runtime
+Version: 0.0.2
+Summary: A common runtime for greenland projects
+Project-URL: Homepage, https://codeberg.org/m-e-leypold/greenland-runtime
+Project-URL: Documentation, https://codeberg.org/m-e-leypold/greenland-runtime#readme
+Project-URL: Issues, https://codeberg.org/m-e-leypold/greenland-runtime/issues
+Project-URL: Source, https://codeberg.org/m-e-leypold/greenland-runtime
+Author: M E Leypold
+Author-email: M E Leypold <pythonista-4sda212@m-e-leypold.de>
+License: GPL-3.0-or-later
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: docopt-ng
+Requires-Dist: greenland-base
+Requires-Dist: packaging
+Description-Content-Type: text/markdown
+
+# greenland-runtime
+
+[![PyPI - Version](https://img.shields.io/pypi/v/greenland-runtime.svg)](https://pypi.org/project/greenland-runtime)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/greenland-runtime.svg)](https://pypi.org/project/greenland-runtime)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install greenland-runtime
+```
+
+## License
+
+`greenland-runtime` is distributed under the terms of the [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later.html) license.
