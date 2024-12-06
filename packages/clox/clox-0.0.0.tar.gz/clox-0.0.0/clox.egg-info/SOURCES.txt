@@ -1,0 +1,6 @@
+clox_setup.py
+clox/__init__.py
+clox.egg-info/PKG-INFO
+clox.egg-info/SOURCES.txt
+clox.egg-info/dependency_links.txt
+clox.egg-info/top_level.txt
