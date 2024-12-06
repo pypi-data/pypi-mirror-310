@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: drool
+Version: 0.0.3
+Summary: 
+Author: dm
+Author-email: git@defend.sh
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.10.1,<3.0.0)
