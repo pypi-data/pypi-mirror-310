@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spiralpy
+Version: 1.0.4
+Summary: A Python front end to specify high-level numerical computations
+Home-page: https://github.com/spiral-software/python-package-spiralpy
+Author: SpiralGen Inc.
+Author-email: Patrick.Broderick@spiralgen.com, Mike.Franusich@spiralgen.com
+Maintainer: ['Patrick Broderick', 'Mike Franusich']
+Maintainer-email: Patrick.Broderick@spiralgen.com, Mike.Franusich@spiralgen.com
+License: BSD-2-Clause
+Project-URL: Source Code, https://github.com/spiral-software/python-package-spiralpy
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Python front end for the SPIRAL project's Spiralpy system, which compiles high-level specifications of numerical computations into hardware-specific optimized code.  It supports a variety of CPU's as well as Nvidia and AMD GPU's on systems running Linux, Windows, or MacOS.
