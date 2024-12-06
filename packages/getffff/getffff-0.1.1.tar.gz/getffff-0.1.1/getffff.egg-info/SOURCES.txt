@@ -1,0 +1,9 @@
+README.md
+setup.py
+getffff/__init__.py
+getffff/main.py
+getffff.egg-info/PKG-INFO
+getffff.egg-info/SOURCES.txt
+getffff.egg-info/dependency_links.txt
+getffff.egg-info/entry_points.txt
+getffff.egg-info/top_level.txt
