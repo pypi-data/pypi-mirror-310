@@ -1,0 +1,11 @@
+ovos_messagebus/__init__.py,sha256=X7Dz3E-LcFWqv7gS9DgKOj886f0Ae68ZrTtpVG8aPfE,643
+ovos_messagebus/__main__.py,sha256=IB017dn5rOj55NsHH7v3knQf7fcG8RULWSTcjw6PoYA,1908
+ovos_messagebus/event_handler.py,sha256=4ATXE0fVGzsTW5ltUTyluLqhIGl_NKacDKWL29_yoGc,3442
+ovos_messagebus/load_config.py,sha256=0YQ8b4r3ZGaGlhHp-oBG95cHJ-X9x9BZGVl7jmOJngM,1893
+ovos_messagebus/version.py,sha256=xS1payBK_-zG-TgSgZ-w2RirfeEarZGsVCGMlG24Zxs,114
+ovos_messagebus-0.0.8a1.dist-info/LICENSE.md,sha256=HP46TQN2uSd_OW1lJPi1TJ-SVSgLJXixGmY9C16CQJQ,11423
+ovos_messagebus-0.0.8a1.dist-info/METADATA,sha256=Wr7QQ4H4ZZ8J_5W_PnnHQVrpXyBDqvXskiXzP2GA4yQ,1574
+ovos_messagebus-0.0.8a1.dist-info/WHEEL,sha256=bFJAMchF8aTQGUgMZzHJyDDMPTO3ToJ7x23SLJa1SVo,92
+ovos_messagebus-0.0.8a1.dist-info/entry_points.txt,sha256=r_WfZHgwj7HQG_AOXPDTI8b2TqpZBxr9qexnfuXhMxg,67
+ovos_messagebus-0.0.8a1.dist-info/top_level.txt,sha256=QzXTgzW0E9vhTAIrLHa8AskkcKBEhniCDp7vbULf2Dc,16
+ovos_messagebus-0.0.8a1.dist-info/RECORD,,
