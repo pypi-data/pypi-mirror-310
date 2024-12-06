@@ -1,0 +1,17 @@
+[project]
+name = "chamgo"
+description = "Get LLM to review your commit"
+version = "0.1.6"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "langchain-openai>=0.2.9",
+  "python-dotenv>=1.0.1",
+  "rich>=13.9.4",
+]
+
+[dependency-groups]
+dev = ["build>=1.2.2.post1", "python-dotenv>=1.0.1", "twine>=5.1.1"]
+
+[project.scripts]
+chamgo = "chamgo:main"
