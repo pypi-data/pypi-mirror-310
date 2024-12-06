@@ -1,0 +1,47 @@
+# Hidden files and directories (always ignore)
+.*
+
+# Override ignore rules for specific files and directories
+!.gitignore
+!.bumpversion.cfg
+!.pre-commit-config.yaml
+!.github
+
+# Python bytecode (compiled files)
+*.pyc
+__pycache__/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg/
+
+# Virtual environments
+venv/
+env/
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Test coverage reports
+htmlcov/
+
+# Documentation
+docs/build/
+
+# Compiled files
+*.pyd
+*.pyo
+*.dll
+*.so
+*.exe
+*.out
+
+# Miscellaneous
+Thumbs.db
