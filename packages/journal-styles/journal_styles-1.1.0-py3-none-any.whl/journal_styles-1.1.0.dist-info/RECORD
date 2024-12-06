@@ -1,0 +1,15 @@
+journal_styles/__init__.py,sha256=hUnUUAtDlDXC-DtstKsLUuR3DzfvNiuREBgx30twUQ8,432
+journal_styles/__main__.py,sha256=JPDPlutL5BBLXPkafHx1DAMyRaWsjXJ-JMq4yv7_6jQ,4691
+journal_styles/constants.py,sha256=lWa-Kylyv5ZHI_rpoRHEPYrUf6wvbeUCBQQ8sCoUlOQ,230
+journal_styles/figures.py,sha256=8LPp2zDc4RniAdjOF2aHmlbV8NEnMr_RVtHm8RDxWGo,4210
+journal_styles/parameters.py,sha256=gkPQBQTiXTFSlDlLON3wT4szGzYEM2xV_sIsrKK2_sQ,2322
+journal_styles/styles/Nature.mplstyle,sha256=3ekgEQUhTIhlpm3lxjQVnc0FX44bKWzv9t_-S9EBkG0,218
+journal_styles/styles/Nature_Comm.mplstyle,sha256=iFkHzFH78wxrzS9dxE1sX_pqrIX4vDZhDO_ezgacNUE,218
+journal_styles/styles/PR.mplstyle,sha256=ies1M7_V3_zK91VQGl6h76qoRI77DnF_1CkM4NQcDXA,213
+journal_styles/styles/Science.mplstyle,sha256=3Ux-EnXDVQeK9l2ZPy4yntM2N2CT6itcHcmQ6FIhTo4,220
+journal_styles/styles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+journal_styles/styles/matplotlibrc,sha256=d6LAj20XMU0AclfgEWpabsEh8PtRei78LwL-8lE2fL0,39641
+journal_styles-1.1.0.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+journal_styles-1.1.0.dist-info/METADATA,sha256=MyC0L82rkO6Trbo_8GUyXzg9MlTE8rn-2Wn44mfvmCI,2434
+journal_styles-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+journal_styles-1.1.0.dist-info/RECORD,,
