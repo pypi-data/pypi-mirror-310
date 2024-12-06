@@ -1,0 +1,6 @@
+numpy
+tensorflow>=2.0
+python-crfsuite
+sentencepiece
+matplotlib
+GitPython
