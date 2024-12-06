@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: rustmath
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
