@@ -1,0 +1,2 @@
+[console_scripts]
+generate-indian-name = src.cli:main

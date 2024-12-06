@@ -1,0 +1,11 @@
+__init__.py,sha256=2F9bkUxuAvDxp-JWTn7EILRG7YVHSoVA_XZAkfLne8c,92
+cli.py,sha256=pqAEiCXccKQBt6fixQ42DVr1305jsDNwozIul4aGxd4,987
+name_generator.py,sha256=x1O4KW2vmHHyHj1h4Hue3IwXNoepI-Nx_qf3uIvS6w4,2346
+data/first_names.csv,sha256=Fy5iQC4D4GClIfWRAwiAhXSHxVkIQUMgwu35-TAs3Q4,11455
+data/last_names.csv,sha256=visHMsyMPdpfG2Zn_iJi-5AvUj91mk0yc47vxGg4xc4,5795
+indian_name_maker-0.1.1.dist-info/LICENSE,sha256=NHIMgKU04DHMVXeBzjWPwIWB39MFZOEPfqE3UCGPB00,1416
+indian_name_maker-0.1.1.dist-info/METADATA,sha256=0tpWPBfrrCNk56k9K8n1o64LPuOXcSrrmRZwMticOxg,3361
+indian_name_maker-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+indian_name_maker-0.1.1.dist-info/entry_points.txt,sha256=QfLsTCslDLMEyu5SKkdgbwwWJfYU8Aku3OvuyAaV33o,54
+indian_name_maker-0.1.1.dist-info/top_level.txt,sha256=zhI9Vc7Wo_XRlpl-vxAQMhPc4OcXIytzHFqD_FvBiek,33
+indian_name_maker-0.1.1.dist-info/RECORD,,
