@@ -1,0 +1,10 @@
+README.md
+setup.py
+xvs/__init__.py
+xvs/vs.py
+xvs.egg-info/PKG-INFO
+xvs.egg-info/SOURCES.txt
+xvs.egg-info/dependency_links.txt
+xvs.egg-info/entry_points.txt
+xvs.egg-info/requires.txt
+xvs.egg-info/top_level.txt
