@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ARFlappy
+Version: 0.1.0
+Summary: Classic Flappy Game with Augmented Reality
+Home-page: https://github.com/itabhijitb/augmented-flappy-python
+Author: Aditya Bhattacharjee
+Author-email: email.adityab@gmail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Games/Entertainment
+Requires-Dist: mediapipe
+Requires-Dist: pygame
+Requires-Dist: pyglet
+Requires-Dist: screeninfo
+Requires-Dist: opencv-python
+Requires-Dist: openpyxl
+Requires-Dist: pandas
