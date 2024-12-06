@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "funcnodes-weather"
+version = "0.1.1"
+description = ""
+authors = ["Julian Kimmig <julian.kimmig@gmx.net>"]
+readme = "README.md"
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+funcnodes = "*"
+funcnodes-pandas = "*"
+funcnodes-plotly = "*"
+geocoder = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+ipykernel = "*"
+pre-commit = "*"
+funcnodes-module = "^0.1.19"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."funcnodes.module"]
+module = "funcnodes_weather"
+shelf = "funcnodes_weather:NODE_SHELF"
