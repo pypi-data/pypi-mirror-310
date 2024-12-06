@@ -1,0 +1,7 @@
+[project]
+name = "ocpiupdater"
+version = "0.1.0"
+description = "An updater for OpenCPI Projects"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
