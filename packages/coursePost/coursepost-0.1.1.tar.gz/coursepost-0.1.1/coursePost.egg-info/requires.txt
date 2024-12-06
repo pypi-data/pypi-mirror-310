@@ -1,0 +1,7 @@
+pyfiglet
+selenium
+pymysql
+tqdm
+bs4
+redis
+loguru
