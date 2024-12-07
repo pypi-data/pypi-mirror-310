@@ -1,0 +1,3 @@
+[console_scripts]
+odatse-LEED=odatse.extra.LEED._main:main
+
