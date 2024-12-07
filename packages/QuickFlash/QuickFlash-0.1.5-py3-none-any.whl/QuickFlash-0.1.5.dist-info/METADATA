@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: QuickFlash
+Version: 0.1.5
+Summary: Flash is a lightweight Python web framework inspired by Express.js. It enables developers to build scalable and efficient web applications with minimal setup, featuring an intuitive syntax, middleware support, and flexible routing. Designed for simplicity and productivity, Flash is perfect for developers looking to create robust back-end solutions in Python.
+Home-page: https://github.com/07ReuelBodhak/QuickFlash.git
+Author: Reuel Bodhak
+Author-email: reuelbodhak07@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Flash Library
+
+A Simple python library for web development
+
+## Installation
+
+```bash
+pip install Flash
+```
+
+
