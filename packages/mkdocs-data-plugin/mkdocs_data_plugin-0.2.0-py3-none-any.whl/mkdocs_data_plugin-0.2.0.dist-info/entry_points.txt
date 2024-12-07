@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+data = mkdocs_data_plugin.plugin:DataPlugin
