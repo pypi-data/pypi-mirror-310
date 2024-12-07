@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+ufactory_sila2_server.egg-info/PKG-INFO
+ufactory_sila2_server.egg-info/SOURCES.txt
+ufactory_sila2_server.egg-info/dependency_links.txt
+ufactory_sila2_server.egg-info/requires.txt
+ufactory_sila2_server.egg-info/top_level.txt
