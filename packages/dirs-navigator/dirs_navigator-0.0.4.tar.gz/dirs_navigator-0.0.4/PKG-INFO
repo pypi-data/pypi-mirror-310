@@ -1,0 +1,41 @@
+Metadata-Version: 2.2
+Name: dirs-navigator
+Version: 0.0.4
+Project-URL: Documentation, https://github.com/jdev-ops/dirs-navigator#readme
+Author-email: José Albert Cruz Almaguer <jalbertcruz@gmail.com>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: cattrs~=23.2.3
+Requires-Dist: python-decouple~=3.8
+Requires-Dist: pyyaml~=6.0.1
+Requires-Dist: typer~=0.9.0
+Description-Content-Type: text/markdown
+
+# dirs-navigator
+
+[![PyPI - Version](https://img.shields.io/pypi/v/dirs-navigator.svg)](https://pypi.org/project/dirs-navigator)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dirs-navigator.svg)](https://pypi.org/project/dirs-navigator)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install dirs-navigator
+```
+
+## License
+
+`dirs-navigator` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
