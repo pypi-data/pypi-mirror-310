@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+_version.py
+setup.cfg
+setup.py
+versioneer.py
+swiglpk/__init__.py
+swiglpk/glpk.i
+swiglpk.egg-info/PKG-INFO
+swiglpk.egg-info/SOURCES.txt
+swiglpk.egg-info/dependency_links.txt
+swiglpk.egg-info/top_level.txt
