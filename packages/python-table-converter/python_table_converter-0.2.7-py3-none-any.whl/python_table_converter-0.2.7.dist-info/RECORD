@@ -1,0 +1,15 @@
+table_converter/__init__.py,sha256=SLb61XorOudvmaWt55Q08QoztDikRByjEl0f1FMYhJc,52
+table_converter/cli.py,sha256=1FgsLhNklZ5zqpID9biSv1usb_4EQyt6sIIFe8Aqa-0,1435
+table_converter/commands/convert_tables.py,sha256=CaetweEy8EEpHzJi7VSlvoheeAgiNTGqqY4ab1KxrVg,1795
+table_converter/core/config.py,sha256=7CwaMnip0Zhigh1GAifhJsCEICRQrP9MoQxaamKtQM0,4214
+table_converter/core/constants.py,sha256=7oJ53ue4dHiDoSxSlFQK7dnrG6fSbJIAqCStv1Vf9J8,80
+table_converter/core/convert.py,sha256=u2jlKGnIo31RmdeGLndhvcUKXwVHoBoi-2J-YgYJ4Hk,8852
+table_converter/core/functions/assign_id.py,sha256=pdd5YxXjwd7cowD6YFeGSJsTx_A0DZsqUf2t0wBTl-k,3287
+table_converter/core/functions/get_field_value.py,sha256=zKTnj5GEC0YuOd5rtn6GuzxCXn2k-Apwv6P5jSKTh6Y,379
+table_converter/core/functions/search_column_value.py,sha256=QjKbhjbHbB0k1QCYzCpdiVe6fyRXIuMASUMAuM411-E,1052
+table_converter/core/functions/set_field_value.py,sha256=mw9C6meIwvK0weswIJFCqAPNyKVgJ4nDJYEj8oQXQF0,395
+python_table_converter-0.2.7.dist-info/LICENSE,sha256=1_Gn0I1neLPxDLfLiHEyxjDg-pbAra1p2iHEqutGS_c,1068
+python_table_converter-0.2.7.dist-info/METADATA,sha256=7FpwpTKzeIXCZj6gxmNe4OGykERSWg02RcWWvY1MFN0,1055
+python_table_converter-0.2.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+python_table_converter-0.2.7.dist-info/entry_points.txt,sha256=VL9tNIWL31AGIvJnHetcJGH7G1i_WNcOknDpYq6JRac,117
+python_table_converter-0.2.7.dist-info/RECORD,,
