@@ -1,0 +1,12 @@
+mantas_j_mod1_atsiskaitymas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mantas_j_mod1_atsiskaitymas/crawler.py,sha256=bdHYilHXu39JabM8G6Y3xDnUkv5iIyXqKMK_Nq8Fc08,3364
+mantas_j_mod1_atsiskaitymas/data_parser.py,sha256=k1CcXkb-FM154j5yTVTKWO8_ptPLr3GPU-0to5neh_k,1221
+mantas_j_mod1_atsiskaitymas/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mantas_j_mod1_atsiskaitymas/web_crawler.py,sha256=I7un6CwAqJR7vRPJLhQeOe-IJ0FiayY_IJic_b2Yphc,349
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_crawler.py,sha256=GR4dYIoIewGFe221a082D0SO-b_noTKW28aWU20am_A,2962
+tests/test_data_parser.py,sha256=lKOBi0GlfG55CUMYCR6A4v8bjDjMtsThDLBRBNsDVYA,1254
+mantas_j_mod1_atsiskaitymas-0.4.0.dist-info/METADATA,sha256=1rvYcr7dIxpXuamo_CqOWFUxrBE_J0axMr_tgCzsSFI,238
+mantas_j_mod1_atsiskaitymas-0.4.0.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+mantas_j_mod1_atsiskaitymas-0.4.0.dist-info/top_level.txt,sha256=wjwLmFBMPJseNiWthv2q9IiqZfChLisb7iZQ0Hvi1gM,28
+mantas_j_mod1_atsiskaitymas-0.4.0.dist-info/RECORD,,
