@@ -1,0 +1,9 @@
+azaux/__init__.py,sha256=YsIbb-WwPWrVNIL5aAclb3gCx-NT49o2wlZZkbdl9-c,246
+azaux/container_manager.py,sha256=rMwC18amVU0HBYxGk84XKjoRDvFXqQExf2TzdHI50zc,5330
+azaux/queue_manager.py,sha256=d8KGi45iJnNth7wM2aeAbriFA5MflCnqrlOjcY3eX0A,2159
+azaux/storage_resource.py,sha256=UbNV5jAJAE3tam06H27pNvf5rgL2k-tva4NCT8LRRDA,1892
+azaux/table_manager.py,sha256=n-gNhBWYZAoRnXtjk_onNModSosU2HGt3CGQ0XPupt8,2727
+azaux-0.1.6.dist-info/LICENSE,sha256=PRuaxuJ3AciS0RnvljnKVu4iE_RHvI5N1fLnwB7XcBw,1070
+azaux-0.1.6.dist-info/METADATA,sha256=H6zF68Ax_09srsFMvueH_FbDaTsn9xXRsM0HDMYDSks,700
+azaux-0.1.6.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+azaux-0.1.6.dist-info/RECORD,,
