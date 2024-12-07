@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: martinlab-utils
+Version: 0.1.14
+Summary: Code and utilities used by Martin Lab members for teaching and research.
+Home-page: https://github.com/MartinLabScience/MartinLab-Utils
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MartinLab-Utils
+Code and utilities used by Martin Lab members for teaching and research.
+
+## Features
+- **Camunda Client**: Simplified connection to Camunda workflows.
+- **Rate Limiter**: Tools for rate-limiting operations.
+
+## Installation
+```bash
+pip install martinlab-utils
