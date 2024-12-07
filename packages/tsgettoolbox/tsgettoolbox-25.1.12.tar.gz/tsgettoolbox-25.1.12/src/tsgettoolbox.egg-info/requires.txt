@@ -1,0 +1,29 @@
+async_retriever
+beautifulsoup4
+cftime
+cltoolbox
+dapclient
+dateparser
+geojson
+haversine
+httpretty
+isodate
+lxml
+mechanize
+packaging
+pandas[excel]
+pint-pandas
+pydantic
+pydaymet
+python-dateutil
+requests
+scipy
+siphon
+suds-community
+tabulate
+
+[:python_version < "3.9"]
+pint!=0.21.*,<0.22
+
+[:python_version <= "3.9"]
+numpy<2.0,>=1.20
