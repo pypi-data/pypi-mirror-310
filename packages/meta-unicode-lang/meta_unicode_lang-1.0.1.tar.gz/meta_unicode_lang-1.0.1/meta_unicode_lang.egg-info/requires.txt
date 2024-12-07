@@ -1,0 +1,3 @@
+fusepy
+pyqt5
+pygls

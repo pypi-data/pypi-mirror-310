@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+meta_unicode_lang/__init__.py
+meta_unicode_lang/some_module.py
+meta_unicode_lang.egg-info/PKG-INFO
+meta_unicode_lang.egg-info/SOURCES.txt
+meta_unicode_lang.egg-info/dependency_links.txt
+meta_unicode_lang.egg-info/requires.txt
+meta_unicode_lang.egg-info/top_level.txt
+tests/test_placeholder.py
+tests/__pycache__/test_placeholder.cpython-310-pytest-7.4.0.pyc
