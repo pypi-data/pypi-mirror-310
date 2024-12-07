@@ -1,0 +1,2 @@
+[console_scripts]
+cosmonaut-config = cosmonaut.cli.core:config
