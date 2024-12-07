@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: shipment-optimizer
+Version: 1.0.0
+Summary: Optimize shipment assignments in logistics projects.
+Home-page: https://github.com/yourusername/shipment-optimizer
+Author: Your Name
+Author-email: your_email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+         ___        ______     ____ _                 _  ___  
+        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
+       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
+      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
+     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
+ ----------------------------------------------------------------- 
+
+
+Hi there! Welcome to AWS Cloud9!
+
+To get started, create some files, play with the terminal,
+or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+
+Happy coding!
+
+
