@@ -1,0 +1,11 @@
+multiples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multiples/is_multiple_of_five.py,sha256=5zp7rciEooCUMCe6vqb8V-pBKow2wWS_9kk98LfqPTQ,112
+multiples/is_multiple_of_two.py,sha256=mED6D49GFzhca_uDY02wIxvlNdB2F18J82jBgoAAAXQ,111
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_is_multiple_of_five.py,sha256=-o9HX6ds3LAgvta2pInT9YtS2xchbQ9KRXKWYx7nk6k,371
+tests/test_is_multiple_of_two.py,sha256=InEGD_2iUKZI1KRVHGTbs8t1NMIbs11QTnaidhH8ddI,365
+multiplespacolibrary-0.1.0.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multiplespacolibrary-0.1.0.dist-info/METADATA,sha256=3ZQbOpvDbh-UTfmPnM9lEncF-W0wcpv1G4qeVgbaXbQ,433
+multiplespacolibrary-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+multiplespacolibrary-0.1.0.dist-info/top_level.txt,sha256=bC7FwPuuXzV_ygoG_1vS78YJm0Q1SvhTNSHBgWVaneM,16
+multiplespacolibrary-0.1.0.dist-info/RECORD,,
