@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: guajillo
+Version: 0.2.0
+Summary: a new salt-api cli interface
+Author-Email: Thomas Phipps <oldtiredbastard@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/whytewolf/guajillo
+Project-URL: Issues, https://github.com/whytewolf/guajillo/issues
+Project-URL: Repository, https://github.com/whytewolf/guajillo
+Requires-Python: >=3.12
+Requires-Dist: rich>=13.9.2
+Requires-Dist: httpx[brotli]>=0.27.2
+Requires-Dist: httpx[zstd]>=0.27.2
+Requires-Dist: httpx[http2]>=0.27.2
+Requires-Dist: tomli>=2.0.2
+Requires-Dist: httpx-sse>=0.4.0
+Requires-Dist: PyYAML>=6.0.2
+Description-Content-Type: text/markdown
+
+# guajillo
+
+![Image of guajillo running](images/demo.gif)
+
+This is a project in motion currently.
+
+the aim is to be an alternative CLI interface to salt utalizing salt-api
+
+this is not a pepper replacment.
