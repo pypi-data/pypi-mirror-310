@@ -1,0 +1,10 @@
+kill_this_port/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kill_this_port/core.py,sha256=lhY-puypVZ8RL4Eb8mRI60Rkn_0Lm0bgDHJkbYdDm4Y,2668
+kill_this_port/helpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kill_this_port/post_install.py,sha256=KwfIRqNey13xkwSIqDJpUVWtwWAvRPgjuLBiWiTRl6w,112
+kill_this_port-1.0.1.dist-info/LICENSE.txt,sha256=Kf508FG2w3G00diKzIgSFpwO0zvQd-AdWyVRZvAJwYI,1072
+kill_this_port-1.0.1.dist-info/METADATA,sha256=V00fXFnCfde4u5ob4aBn4v3_X5S0xq_pDm__Csw12dc,1619
+kill_this_port-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+kill_this_port-1.0.1.dist-info/entry_points.txt,sha256=CceKz7hm8RjO3v09APZOmCaTS3bKlB6EMv9Cyjf9hts,97
+kill_this_port-1.0.1.dist-info/top_level.txt,sha256=Scdv4LdXSTZ_ENClitNX5_ANEVpZi5XxmXyX1UX3Q0U,15
+kill_this_port-1.0.1.dist-info/RECORD,,
