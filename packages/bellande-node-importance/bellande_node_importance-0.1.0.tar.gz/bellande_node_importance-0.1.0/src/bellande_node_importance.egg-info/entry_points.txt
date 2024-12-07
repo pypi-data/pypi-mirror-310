@@ -1,0 +1,3 @@
+[console_scripts]
+bellande_node_importance_api = bellande_node_importance.bellande_node_importance_api:main
+bellande_node_importance_executable = bellande_node_importance.bellande_node_importance_executable:main
