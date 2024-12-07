@@ -1,0 +1,14 @@
+texfont/__init__.py,sha256=qjmEZ7z_uaKpK_zxZAAn_sI6HSom6aSH6467FWlF-Bk,127
+texfont/cli.py,sha256=d52DVqaob9sI6YjkPvKQeNR0HSJ-0KRqS2FSW7gJk20,1329
+texfont/font/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texfont/font/install.py,sha256=q4nMClX7r3zklUMa-Ay5cKYwWyTnJrpaYYMK_Mwcn9w,2563
+texfont/font/list.py,sha256=1aPDDfShpzTiGolzcpCxg4Gh6fFfswiNdp1dqfgarBM,1009
+texfont/font_list.json,sha256=lIiYFmaRIEKK83Etg95IDz_7zT7Zxvz3x4fqQB52wak,467
+texfont/texfont.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+texfont/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texfont/utils/font_data.py,sha256=sJGOFZ-UT9zo4jKvRiBsp5-BM2C7-7_BFhCjhcnYtAo,3893
+texfont/utils/test.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texfont-0.1.9.dist-info/METADATA,sha256=GsJHq3qqta83JwUy7j9tDBdwYQMtFXCRjYLXC8OgH9c,583
+texfont-0.1.9.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+texfont-0.1.9.dist-info/entry_points.txt,sha256=g6Vay5nTPN9ESQn8-El7HygX2aT0chJBEf2NYy_V-ig,43
+texfont-0.1.9.dist-info/RECORD,,
