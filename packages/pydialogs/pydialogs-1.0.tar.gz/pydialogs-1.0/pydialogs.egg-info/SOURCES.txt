@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pydialogs/__init__.py
+pydialogs/dialogs.py
+pydialogs.egg-info/PKG-INFO
+pydialogs.egg-info/SOURCES.txt
+pydialogs.egg-info/dependency_links.txt
+pydialogs.egg-info/entry_points.txt
+pydialogs.egg-info/top_level.txt
