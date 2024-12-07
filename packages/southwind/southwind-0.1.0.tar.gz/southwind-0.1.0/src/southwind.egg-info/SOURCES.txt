@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/southwind/__init__.py
+src/southwind/main.py
+src/southwind.egg-info/PKG-INFO
+src/southwind.egg-info/SOURCES.txt
+src/southwind.egg-info/dependency_links.txt
+src/southwind.egg-info/top_level.txt
