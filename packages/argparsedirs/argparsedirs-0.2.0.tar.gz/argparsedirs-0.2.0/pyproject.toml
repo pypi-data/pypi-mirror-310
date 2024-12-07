@@ -1,0 +1,18 @@
+[project.urls]
+"Homepage" = "https://github.com/sesquideus/argparsedirs"
+
+[tool.poetry]
+name = "argparsedirs"
+version = "0.2.0"
+description = "A simple extension for argparse to allow readable/writeable dir types"
+authors = ["Martin Baláž <martin.balaz@trojsten.sk>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
