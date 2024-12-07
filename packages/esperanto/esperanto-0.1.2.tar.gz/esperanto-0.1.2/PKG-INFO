@@ -1,0 +1,180 @@
+Metadata-Version: 2.1
+Name: esperanto
+Version: 0.1.2
+Summary: A unified interface for various AI model providers
+Home-page: https://github.com/lfnovo/esperanto
+License: MIT
+Keywords: ai,llm,text-to-speech,speech-to-text,openai,anthropic,google,elevenlabs
+Author: Luis Novo
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: all
+Provides-Extra: anthropic
+Provides-Extra: elevenlabs
+Provides-Extra: google
+Provides-Extra: groq
+Provides-Extra: langchain
+Provides-Extra: litellm
+Provides-Extra: ollama
+Provides-Extra: openai
+Requires-Dist: anthropic (>=0.39.0,<0.40.0) ; extra == "anthropic" or extra == "all"
+Requires-Dist: elevenlabs (>=1.13.0,<2.0.0) ; extra == "elevenlabs" or extra == "all"
+Requires-Dist: google-cloud-speech (>=2.28.1,<3.0.0) ; extra == "google" or extra == "all"
+Requires-Dist: google-cloud-texttospeech (>=2.21.1,<3.0.0) ; extra == "google" or extra == "all"
+Requires-Dist: groq (>=0.12.0,<0.13.0) ; extra == "groq" or extra == "all"
+Requires-Dist: langchain (>=0.3.3,<0.4.0) ; extra == "langchain" or extra == "openai" or extra == "anthropic" or extra == "ollama" or extra == "google" or extra == "groq" or extra == "litellm" or extra == "all"
+Requires-Dist: langchain-anthropic (>=0.2.3,<0.3.0) ; extra == "anthropic" or extra == "all"
+Requires-Dist: langchain-community (>=0.3.7,<0.4.0) ; extra == "langchain" or extra == "openai" or extra == "anthropic" or extra == "ollama" or extra == "google" or extra == "groq" or extra == "litellm" or extra == "all"
+Requires-Dist: langchain-google-genai (>=2.0.1,<3.0.0) ; extra == "google" or extra == "all"
+Requires-Dist: langchain-google-vertexai (>=2.0.5,<3.0.0) ; extra == "google" or extra == "all"
+Requires-Dist: langchain-groq (>=0.2.1,<0.3.0) ; extra == "groq" or extra == "all"
+Requires-Dist: langchain-ollama (>=0.2.0,<0.3.0) ; extra == "ollama" or extra == "all"
+Requires-Dist: langchain-openai (>=0.2.3,<0.3.0) ; extra == "openai" or extra == "all"
+Requires-Dist: litellm (>=1.50.1,<2.0.0) ; extra == "litellm" or extra == "all"
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: ollama (>=0.4.0,<0.5.0) ; extra == "ollama" or extra == "all"
+Requires-Dist: openai (>=1.52.0,<2.0.0) ; extra == "openai" or extra == "all"
+Requires-Dist: pydantic (<2.10)
+Project-URL: Documentation, https://github.com/lfnovo/esperanto#readme
+Project-URL: Repository, https://github.com/lfnovo/esperanto
+Description-Content-Type: text/markdown
+
+# Esperanto 🌍
+
+A powerful, unified interface for AI services that simplifies working with multiple providers. Esperanto provides a consistent API for Language Models (LLMs), Speech-to-Text, Text-to-Speech, and Embedding services, making it easy to switch between providers or use them in combination.
+
+## 🌟 Key Features
+
+- **Unified Interface**: Write once, use anywhere - switch providers without changing your code
+- **Extensive Provider Support**:
+  - **LLMs**: OpenAI, Anthropic, Google (Vertex AI & Gemini), Groq, Ollama, and more
+  - **Speech-to-Text**: OpenAI Whisper, Google Cloud Speech
+  - **Text-to-Speech**: ElevenLabs, OpenAI TTS, Google Cloud TTS
+  - **Embeddings**: Various providers through a consistent interface
+- **Provider-Specific Features**: Access unique capabilities of each provider while maintaining a consistent API
+- **LangChain Integration**: Seamlessly convert models to LangChain format for advanced workflows
+- **Async Support**: Built for modern, high-performance applications
+- **Type Safety**: Full type hints and Pydantic models for better development experience
+
+## 📚 Documentation
+
+For detailed documentation on each component, please refer to the [GitHub repository](https://github.com/lfnovo/esperanto#readme).
+
+## 🚀 Quick Start
+
+```bash
+# Install using poetry (minimal installation)
+poetry add esperanto
+
+# Install all providers using poetry
+poetry add "esperanto[all]"
+
+# Or using pip (minimal installation)
+pip install esperanto
+
+# Install all providers using pip
+pip install "esperanto[all]"
+```
+
+## 💡 Usage Examples
+
+### Language Models (LLMs)
+
+```python
+from esperanto.factory import AIFactory
+
+# OpenAI
+llm = AIFactory.create_llm(
+    provider="openai",
+    model_name="gpt-4",
+    config={"temperature": 0.7}
+)
+response = await llm.complete("What's the weather like?")
+
+# Anthropic
+llm = AIFactory.create_llm(
+    provider="anthropic",
+    model_name="claude-3-opus-20240229",
+    config={"max_tokens": 1000}
+)
+response = await llm.complete("Explain quantum computing")
+
+# Google Gemini
+llm = AIFactory.create_llm(
+    provider="gemini",
+    model_name="gemini-pro",
+    config={"temperature": 0.9}
+)
+response = await llm.complete("Translate to French")
+```
+
+### Speech Services
+
+```python
+# Speech to Text
+stt = AIFactory.create_stt(
+    provider="openai",
+    model_name="whisper-1"
+)
+text = await stt.transcribe("audio.mp3")
+
+# Text to Speech
+tts = AIFactory.create_tts(
+    provider="elevenlabs",
+    config={"voice": "Adam"}
+)
+audio = await tts.synthesize("Hello, world!")
+```
+
+### Easy Provider Switching
+
+One of the key benefits of using the factory is how easy it is to switch between providers:
+
+```python
+# Using OpenAI
+llm = AIFactory.create_llm("openai", "gpt-4")
+response = await llm.complete("Explain AI")
+
+# Switch to Anthropic by just changing the provider
+llm = AIFactory.create_llm("anthropic", "claude-3-opus-20240229")
+response = await llm.complete("Explain AI")  # Same code, different provider
+```
+
+## 🛠️ Configuration
+
+Esperanto supports configuration through environment variables or direct configuration in code:
+
+```python
+# Environment variables
+export OPENAI_API_KEY="your-key"
+export ANTHROPIC_API_KEY="your-key"
+export ELEVENLABS_API_KEY="your-key"
+
+# Or in code
+model = AIFactory.create_llm(
+    provider="openai",
+    model_name="gpt-4",
+    config={
+        "api_key": "your-key",
+        "temperature": 0.7,
+        "max_tokens": 500
+    }
+)
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please check our [Contributing Guidelines](https://github.com/lfnovo/esperanto/blob/main/CONTRIBUTING.md) for details on how to get started.
+
+## 📄 License
+
+MIT License - see the [LICENSE](https://github.com/lfnovo/esperanto/blob/main/LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+Special thanks to all the AI providers and the open-source community that make this project possible.
+
