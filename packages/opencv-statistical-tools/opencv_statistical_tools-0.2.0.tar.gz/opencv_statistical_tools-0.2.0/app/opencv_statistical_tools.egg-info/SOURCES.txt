@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+app/opencv_statistical_tools.egg-info/PKG-INFO
+app/opencv_statistical_tools.egg-info/SOURCES.txt
+app/opencv_statistical_tools.egg-info/dependency_links.txt
+app/opencv_statistical_tools.egg-info/requires.txt
+app/opencv_statistical_tools.egg-info/top_level.txt
+app/utils/__init__.py
+app/utils/src/__init__.py
+app/utils/src/compute.py
