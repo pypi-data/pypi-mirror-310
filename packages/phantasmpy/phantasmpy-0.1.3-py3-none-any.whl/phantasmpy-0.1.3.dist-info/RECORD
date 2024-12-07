@@ -1,0 +1,10 @@
+phantasmpy/__init__.py,sha256=vLhdq40ni7zRPbltwaKvN3rbWiHDJT7oYCOLJ_Pndik,107
+phantasmpy/client.py,sha256=kyVnlM3nhrX7gvdmlyVOwGzty-Nwh8qaMnPoZ09quJ8,3908
+phantasmpy/stubs/__init__.py,sha256=RXeE7kZTTLVeHSFmZ-cm8GqbKKhjB9AFJ0CbRMDDe60,297
+phantasmpy/stubs/receiver_pb2.py,sha256=NG4jNWJNxiO7O-8Y7JAJEUyV6bQi8snBP_jQiqWHY84,2194
+phantasmpy/stubs/receiver_pb2_grpc.py,sha256=v4SU-yov9L-skxw2GqJom15JXI5PXNfSFvv4i1o5MMc,5680
+phantasmpy/types.py,sha256=BZ5JKrwbnG9WULY5gLDTW_kaj-HcNNIYpFngUA4Zcpo,831
+phantasmpy-0.1.3.dist-info/METADATA,sha256=bFZpx3ulULr-4DA-g25uK57THT6CqzxEIeAaPJVZPwY,3581
+phantasmpy-0.1.3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+phantasmpy-0.1.3.dist-info/entry_points.txt,sha256=qAnn89ToYLWBbb0kNc0jKdLPKIO8sPzcUzkdjkjCpUM,73
+phantasmpy-0.1.3.dist-info/RECORD,,
