@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+mk1pass/CHECKSUM-SHA3-256.py
+mk1pass/__init__.py
+mk1pass/__main__.py
+mk1pass/mk1pass.py
+mk1pass/printdv.py
+mk1pass.egg-info/PKG-INFO
+mk1pass.egg-info/SOURCES.txt
+mk1pass.egg-info/dependency_links.txt
+mk1pass.egg-info/entry_points.txt
+mk1pass.egg-info/requires.txt
+mk1pass.egg-info/top_level.txt
