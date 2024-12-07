@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/TaiwanID.egg-info/PKG-INFO
+src/TaiwanID.egg-info/SOURCES.txt
+src/TaiwanID.egg-info/dependency_links.txt
+src/TaiwanID.egg-info/top_level.txt
+src/taiwanid/__init__.py
+src/taiwanid/taiwanid.py
+tests/test_taiwanid.py
