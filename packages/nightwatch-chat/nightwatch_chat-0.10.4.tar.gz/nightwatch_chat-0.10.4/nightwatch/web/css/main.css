@@ -1,0 +1,173 @@
+/* Copyright (c) 2024 iiPython */
+
+/* Font handling */
+@font-face {
+    font-family: "Fira Code";
+    src: url("/fonts/fira.woff2") format("woff2");
+}
+
+/* Baselining */
+* {
+    margin: 0px;
+    color: white;
+    font-family: "Fira Code";
+}
+html, body {
+    height: 100%;
+    background-color: black;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Handle content */
+main {
+    width: 500px;
+    padding: 20px;
+
+    /* Alignment */
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+    /* Aesthetics */
+    border: 1px solid white;
+}
+main > button {
+    width: 100px;
+    align-self: flex-end;
+}
+main.loading {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Random ass theming */
+button {
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+    transition: border-color .5s ease;
+    background-color: transparent;
+    white-space: nowrap;
+}
+button:hover {
+    border-color: #bbbbbb;
+}
+input {
+    border: 1px solid white;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    transition: border-color .5s ease;
+}
+input:hover {
+    border-color: #bbbbbb;
+}
+
+/* Spinner */
+.loader {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Messages */
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.message-content {
+    display: flex;
+    border-left: 1px solid white;
+    padding-left: 10px;
+    overflow-x: hidden;
+    max-width: calc(100% - 80px);
+}
+.message-content.has-image {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.message-content > img {
+    max-width: 640px;
+}
+.timestamp {
+    margin-left: auto;
+}
+
+/* Handle setup wizard */
+.tabs {
+    gap: 5px;
+    display: flex;
+}
+button[data-item] {
+    flex: 1;
+}
+
+/* Whuh?!?!?!? */
+main.full-layout {
+    height: calc(100% - 72px);
+    width: calc(100% - 72px);
+    flex-direction: row;
+}
+div.chat-input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+div.chat {
+    padding: 10px;
+    height: calc(100% - 40px);
+    overflow-y: scroll;
+}
+div.input-box {
+    height: 40px;
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+#actual-input {
+    width: 100%;
+}
+
+/* Handle sidebar */
+div.sidebar {
+    gap: 15px;
+    width: 20%;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid white;
+}
+div.sidebar > * {
+    display: flex;
+    flex-direction: column;
+}
+div.member-list {
+    flex: 1;
+}
+div.member-list > span {
+    margin-left: 10px;
+}
+div.server-data {
+    gap: 10px;
+}
+div.user-data, #server-name {
+    text-align: center;
+}
