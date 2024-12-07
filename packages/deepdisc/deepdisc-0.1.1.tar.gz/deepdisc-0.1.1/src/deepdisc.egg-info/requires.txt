@@ -1,0 +1,15 @@
+
+[dev]
+pytest
+pytest-cov
+pre-commit
+sphinx
+sphinx-rtd-theme
+sphinx-autoapi
+pylint
+nbconvert
+nbsphinx
+ipython
+matplotlib
+numpy
+sep
