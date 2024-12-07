@@ -1,0 +1,7 @@
+otmorris/_otmorris.so,sha256=UwHip3uUb54v-hX0O1HP-yLu5VndBRrb2b0jR24EmdI=,700736
+otmorris/__init__.py,sha256=Ym7TevBiC0AEajHLmk7na-06sSorwpyY9DHhjle0mSU=,380
+otmorris/otmorris.py,sha256=HDT2t7QY0u9xnZfsFK6BXfOOh4zJ8HvjzAGFt9R9JlM=,20046
+otmorris/.dylibs/libotmorris.0.dylib,sha256=bIM08d6nw1DOOxpTuZsNZse8AqVG0IoWJWwz7Gny3Tc=,184544
+otmorris-0.17.post1.dist-info/RECORD,,
+otmorris-0.17.post1.dist-info/WHEEL,sha256=UWDNi6VUHT2kp3LR38jon7xfl4M43rBIoojGmxzqP_A=,94
+otmorris-0.17.post1.dist-info/METADATA,sha256=33pHvESch8H4qlRMBb7nxg-y5IkQzrNA7dV7Z4nqu6A=,666
