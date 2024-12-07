@@ -1,0 +1,13 @@
+bsddb3==6.2.7
+flup6
+gunicorn==19.9.0
+progressbar2
+requests
+six
+
+[server]
+gevent==22.10.2
+greenlet==2.0.2
+
+[tests]
+pytest
