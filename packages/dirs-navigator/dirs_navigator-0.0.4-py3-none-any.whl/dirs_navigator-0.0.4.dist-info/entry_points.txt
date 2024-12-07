@@ -1,0 +1,5 @@
+[console_scripts]
+_choose-destination = dirs_navigator.navigator:choose_destination
+_vim-translator = fzf_utilities._vim_translator:main
+senv = dirs_navigator.navigator:sel_env
+senv2 = dirs_navigator.navigator:sel_env2
