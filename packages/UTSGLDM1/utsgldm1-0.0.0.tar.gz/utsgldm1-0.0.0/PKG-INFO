@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: UTSGLDM1
+Version: 0.0.0
+Summary: Library in Python for Modelling univariate time series using GLDM (Generalized Least Deviation Method). UTSGLDM1 is (Univariate Time Series Using Generalized Least Deviation Method First order) 
+Author: Mostafa Abotaleb
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
