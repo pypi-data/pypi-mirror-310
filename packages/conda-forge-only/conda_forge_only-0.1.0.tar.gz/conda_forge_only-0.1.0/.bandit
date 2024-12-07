@@ -1,0 +1,2 @@
+[bandit]
+exclude: conda_forge_only/tests

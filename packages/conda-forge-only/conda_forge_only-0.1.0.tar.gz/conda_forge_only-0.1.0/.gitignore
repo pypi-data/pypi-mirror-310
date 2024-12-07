@@ -1,0 +1,3 @@
+conda_forge_only/version.py
+__pycache__
+conda_forge_only.egg-info/

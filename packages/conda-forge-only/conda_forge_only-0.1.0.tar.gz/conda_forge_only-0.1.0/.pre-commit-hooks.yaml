@@ -1,0 +1,5 @@
+- id: conda-forge-only
+  name: conda-forge-only
+  entry: conda-forge-only
+  language: python
+  types: [file, yaml]
