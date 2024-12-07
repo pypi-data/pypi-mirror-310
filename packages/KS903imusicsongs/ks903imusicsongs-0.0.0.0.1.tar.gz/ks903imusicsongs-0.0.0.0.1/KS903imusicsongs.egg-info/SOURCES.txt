@@ -1,0 +1,8 @@
+README.md
+setup.py
+KS903imusicsongs.egg-info/PKG-INFO
+KS903imusicsongs.egg-info/SOURCES.txt
+KS903imusicsongs.egg-info/dependency_links.txt
+KS903imusicsongs.egg-info/entry_points.txt
+KS903imusicsongs.egg-info/requires.txt
+KS903imusicsongs.egg-info/top_level.txt
