@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: latex_functions
+Version: 0.0.1
+Summary: A package for some latex functions.
+Requires-Dist: attrs
