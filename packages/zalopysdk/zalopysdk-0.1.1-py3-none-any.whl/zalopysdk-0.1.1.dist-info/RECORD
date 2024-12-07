@@ -1,0 +1,10 @@
+zalosdk/__init__.py,sha256=Cwt7V6m7pjEP5ZYTXUbzPfxFe4fAHo3uvaHvo6ZhVWk,357
+zalosdk/client.py,sha256=HjJkD0IJ1n1Czf1hE576AiojiJeiIEye8n0UI7xAuOs,8431
+zalosdk/endpoint.py,sha256=9TjeJ-bB3nWQQ3_Ts0YLEBd_-BZ2rMo4O-Kjjvc-Z1U,1879
+zalosdk/error_code.py,sha256=1a33JAZALlk02sCEMcdo3bVzHlDH2XigxR4CXMIeFGQ,2879
+zalosdk/message.py,sha256=QfoeVD_ZXp39LCeOJ07Y7-B7OhOYN4dM7fBhkyDz-9M,261
+zalosdk/template.py,sha256=xCn_VxZ2TDikNmmVQejDEv7S5zi7GUCUXgDPOPmwnAA,1859
+zalopysdk-0.1.1.dist-info/METADATA,sha256=9mRl0zYWoxfkkPJpi7xakKQxVVMD1onj-aTEaHOv_KI,1008
+zalopysdk-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+zalopysdk-0.1.1.dist-info/top_level.txt,sha256=A9ztBBz5pNTCJegrGZUMZm6Y0C5mFYKP9aUhHrbXHP8,8
+zalopysdk-0.1.1.dist-info/RECORD,,
