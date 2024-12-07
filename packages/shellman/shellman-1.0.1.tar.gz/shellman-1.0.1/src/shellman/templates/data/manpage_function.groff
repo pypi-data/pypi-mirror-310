@@ -1,0 +1,58 @@
+.IP "{{ function.prototype|groffautoescape|groffstrong }}" {{ indent }}
+{{ function.brief }}
+
+{% if function.description %}
+{{ function.description }}
+
+{% endif %}
+{% if function.arguments %}
+.I Arguments
+{% with longest = function.arguments|map('firstword')|map('length')|max %}
+{% for argument in function.arguments %}
+{{ indent_str }}{{ "{a:{w}}"|format(a=argument|firstword, w=longest)|groffstrong }} - {{ argument|body }}
+{% endfor %}
+{% endwith %}
+
+{% endif %}
+{% if function.return_codes %}
+.I Return codes
+{% for return_code in function.return_codes %}
+{{ indent_str }}{{ return_code|firstword|groffstrong }} - {{ return_code|body }}
+{% endfor %}
+
+{% endif %}
+{% if function.preconditions %}
+.I Pre\-conditions
+{% for precondition in function.preconditions %}
+{{ indent_str }}{{ precondition }}
+{% endfor %}
+
+{% endif %}
+{% if function.seealso %}
+.I See also
+{% for seealso in function.seealso %}
+{{ indent_str }}{{ seealso }}
+{% endfor %}
+
+{% endif %}
+{% if function.stdin %}
+.I Standard input
+{% for stdin in function.stdin %}
+{{ indent_str }}{{ stdin }}
+{% endfor %}
+
+{% endif %}
+{% if function.stdout %}
+.I Standard output
+{% for stdout in function.stdout %}
+{{ indent_str }}{{ stdout }}
+{% endfor %}
+
+{% endif %}
+{% if function.stderr %}
+.I Standard error
+{% for stderr in function.stderr %}
+{{ indent_str }}{{ stderr }}
+{% endfor %}
+
+{% endif %}
