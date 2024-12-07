@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: Younger
+Version: 0.0.1a2
+Summary: A Younger Project for Artificial Intelligence: Datasets, Benchmarks, and Applications.
+Author-email: Jason-Young-AI <AI.Jason.Young@outlook.com>
+Maintainer-email: Jason-Young-AI <AI.Jason.Young@outlook.com>
+License: Apache Software License
+Project-URL: Homepage, https://github.com/YangsCloud/Younger.git
+Project-URL: Issues, https://github.com/YangsCloud/Younger.git/issues
+Project-URL: Source, https://github.com/YangsCloud/Younger.git
+Project-URL: Repository, https://github.com/YangsCloud/Younger.git
+Keywords: Younger,Benchmark,Artificial Intelligence
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: psutil
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: python-semantic-release
+Provides-Extra: datasets-onnx
+Requires-Dist: onnx; extra == "datasets-onnx"
+Provides-Extra: datasets-torchvision
+Requires-Dist: onnx; extra == "datasets-torchvision"
+Requires-Dist: torch; extra == "datasets-torchvision"
+Requires-Dist: torchvision; extra == "datasets-torchvision"
+Provides-Extra: datasets-huggingface-optimum
+Requires-Dist: onnx; extra == "datasets-huggingface-optimum"
+Requires-Dist: isocodes; extra == "datasets-huggingface-optimum"
+Requires-Dist: huggingface-hub; extra == "datasets-huggingface-optimum"
+Requires-Dist: optimum[exporters]; extra == "datasets-huggingface-optimum"
+Provides-Extra: datasets-huggingface-onnx
+Requires-Dist: onnx; extra == "datasets-huggingface-onnx"
+Requires-Dist: isocodes; extra == "datasets-huggingface-onnx"
+Requires-Dist: huggingface-hub; extra == "datasets-huggingface-onnx"
+Provides-Extra: datasets-huggingface-keras
+Requires-Dist: onnx; extra == "datasets-huggingface-keras"
+Requires-Dist: isocodes; extra == "datasets-huggingface-keras"
+Requires-Dist: huggingface-hub; extra == "datasets-huggingface-keras"
+Requires-Dist: tensorflow<=2.15,>=2.9; extra == "datasets-huggingface-keras"
+Requires-Dist: tf2onnx; extra == "datasets-huggingface-keras"
+Provides-Extra: datasets-huggingface-tflite
+Requires-Dist: onnx; extra == "datasets-huggingface-tflite"
+Requires-Dist: isocodes; extra == "datasets-huggingface-tflite"
+Requires-Dist: huggingface-hub; extra == "datasets-huggingface-tflite"
+Requires-Dist: tensorflow<=2.15,>=2.9; extra == "datasets-huggingface-tflite"
+Requires-Dist: tf2onnx; extra == "datasets-huggingface-tflite"
+Provides-Extra: datasets-official
+Requires-Dist: onnx; extra == "datasets-official"
+Provides-Extra: benchmarks
+Provides-Extra: applications
+Requires-Dist: torch-geometric; extra == "applications"
+
+# Younger
+
+This repository maintains all code related to using the Younger dataset and its related applications.
+
+Go to the website "[Datasets - Yangs Cloud](https://datasets.yangs.cloud/)" for [Detailed Documentation]([./README.ZH.md](https://datasets.yangs.cloud/younger/)) of Younger's Applications.
+
+Due to ongoing updates to this branch, the code may not match the initial version presented in the paper. Therefore, if you need the version that corresponds to what is mentioned in the paper, please switch to the `paper` [branch](https://github.com/YangsCloud/Younger/tree/paper) for reference.
+
+## Datasets
+Browse and download the datasets at [here](https://datasets.yangs.cloud/younger/dataset_series).
+
+## Citation
+If you need to use our code or dataset, please cite the following paper:
+
+1. Yang, Z., Gao, W., Peng, L., Huang, Y., Tang, F., & Zhan, J. (2024). Younger: The First Dataset for Artificial Intelligence-Generated Neural Network Architecture. [arXiv](https://arxiv.org/abs/2406.15132)
+```bibtex
+@misc{yang2024youngerdatasetartificialintelligencegenerated,
+      title={Younger: The First Dataset for Artificial Intelligence-Generated Neural Network Architecture}, 
+      author={Zhengxin Yang and Wanling Gao and Luzhou Peng and Yunyou Huang and Fei Tang and Jianfeng Zhan},
+      year={2024},
+      eprint={2406.15132},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2406.15132}, 
+}
+```
