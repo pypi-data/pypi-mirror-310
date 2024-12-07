@@ -1,0 +1,2 @@
+[napari.manifest]
+Napari-VASCilia = napari_vascilia:napari.yaml
