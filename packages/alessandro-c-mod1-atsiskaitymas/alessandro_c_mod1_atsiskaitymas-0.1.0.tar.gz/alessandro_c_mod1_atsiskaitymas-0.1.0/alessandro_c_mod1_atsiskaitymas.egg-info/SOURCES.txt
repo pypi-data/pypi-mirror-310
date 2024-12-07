@@ -1,0 +1,11 @@
+README.md
+setup.py
+alessandro_c_mod1_atsiskaitymas/__init__.py
+alessandro_c_mod1_atsiskaitymas/web_crawler.py
+alessandro_c_mod1_atsiskaitymas.egg-info/PKG-INFO
+alessandro_c_mod1_atsiskaitymas.egg-info/SOURCES.txt
+alessandro_c_mod1_atsiskaitymas.egg-info/dependency_links.txt
+alessandro_c_mod1_atsiskaitymas.egg-info/requires.txt
+alessandro_c_mod1_atsiskaitymas.egg-info/top_level.txt
+tests/__init__.py
+tests/test_web_crawler.py

@@ -1,0 +1,11 @@
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+lxml==5.3.0
+pip==23.2.1
+requests==2.32.3
+setuptools==75.5.0
+soupsieve==2.6
+urllib3==2.2.3
+wheel==0.45.1
+twine==5.1.1
