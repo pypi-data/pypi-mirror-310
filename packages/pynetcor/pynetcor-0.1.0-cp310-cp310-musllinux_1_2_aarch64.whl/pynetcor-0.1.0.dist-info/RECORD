@@ -1,0 +1,15 @@
+pynetcor/cor.py,sha256=7gFEpgj42Nuad363oClK-nBOy7XtmaYKvOdn-RManHU,17795
+pynetcor/__init__.py,sha256=QLnlVxL39xgkF2LQQjM--iq2A2IY7zByI7jqbDhmzrk,96
+pynetcor/libnetcor.so,sha256=EyuomhiEuU84BRORlKQ0e7GP0-FZWjX2EVLu2sVYiS4,612601
+pynetcor/cluster.py,sha256=otbZ38VNRfU87ukfh-bZhOnj6n57g2a4ao4HMzN-B9E,4959
+pynetcor/_core.cpython-310-aarch64-linux-gnu.so,sha256=ouKAB2qzOUAxoHv8s6oAo1sg_jXiC4gZ9WbWaZ2XUps,410385
+pynetcor-0.1.0.dist-info/RECORD,,
+pynetcor-0.1.0.dist-info/METADATA,sha256=FZP3qDQYimWx0OMcsIn5TnGNX3JIK8ri-YSOaGn2tPE,5342
+pynetcor-0.1.0.dist-info/WHEEL,sha256=-JJzIHGJlZgcJg_NiL6Zgh0Ki0Y7EYTSjix5t4z1wp4,114
+pynetcor-0.1.0.dist-info/top_level.txt,sha256=Wtb8XaxcZJ81eg48RXoxQ3WlD2Cx9NX1xuADdH3OwQ0,9
+pynetcor.libs/libgfortran-eb933d8e.so.5.0.0,sha256=ALp5iW1oJB9JOYIGHbsm5CGSBrLlsE7hBI5GVLO8DPk,1736233
+pynetcor.libs/libstdc++-1b614e01.so.6.0.32,sha256=XXJsmg9XChAumTluQnKaKPw0aZHT_olzaylk-ZtJWcY,3586193
+pynetcor.libs/libgcc_s-7393e603.so.1,sha256=7G--_FjUcXaygGLbopN7bg1zXff52EmI7Bsc2D2TXbk,201017
+pynetcor.libs/libgomp-f05f18dc.so.1.0.0,sha256=DqBC8YkZbLySK8vX_gbBK3sDjEZgDbohMhfbx1U1qQk,410497
+pynetcor.libs/libnetcor-392e63ee.so,sha256=CAkOIIlIISJ9x2TANT39QB_AjeZ8JzzT97DTdCsoiiA,677553
+pynetcor.libs/libopenblas-ccb706bc.so.0.3,sha256=rzdA16UhI9NXUXJx8hvCcfjGsCFoDY5H6UuzQjQz07c,12871633
