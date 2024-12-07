@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demetriocalc"
+version = "0.1.0"
+description = "Uma calculadora simples em Python."
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }  # Ou outra licença que preferir
+authors = [
+    { name = "Demetrio", email = "demetrio.luna@academico.edu.ifpb.br" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+

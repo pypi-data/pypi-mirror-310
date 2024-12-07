@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+demetriocalc/__init__.py
+demetriocalc/demetriocalc.py
+demetriocalc.egg-info/PKG-INFO
+demetriocalc.egg-info/SOURCES.txt
+demetriocalc.egg-info/dependency_links.txt
+demetriocalc.egg-info/top_level.txt
