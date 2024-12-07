@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+CleverPIP.egg-info/PKG-INFO
+CleverPIP.egg-info/SOURCES.txt
+CleverPIP.egg-info/dependency_links.txt
+CleverPIP.egg-info/entry_points.txt
+CleverPIP.egg-info/requires.txt
+CleverPIP.egg-info/top_level.txt
+src/__init__.py
+src/main.py

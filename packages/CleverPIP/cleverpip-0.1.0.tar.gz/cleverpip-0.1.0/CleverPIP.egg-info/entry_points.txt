@@ -1,0 +1,2 @@
+[console_scripts]
+smartpip = src.main:cli
