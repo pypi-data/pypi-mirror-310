@@ -1,0 +1,9 @@
+omnicrawls/__init__.py,sha256=l7X8QTeBNj5fbGRwlS1bmlRUY1hnZ217SdrZxClXVtI,133
+omnicrawls/github_crawler.py,sha256=vajhRtVVtvhIu8Xn8Ce0SNEI5Q5cMi7AiuJpBHerBuw,1285
+omnicrawls/linkedin_crawler.py,sha256=yRNNs3InL8KG_f86WrV1T9XjWMc-ZH-CEYbwaY9MbZw,5730
+omnicrawls/website_crawler.py,sha256=WoK2zBZZ0jsl8Djbv5gJbk7Wvrg7I0F7S4ELVPFdHxY,855
+omnicrawls-2.1.dist-info/LICENSE,sha256=XMkYqf1l3v-ZNLwqpx8XSsGdm2RpPqFU1RmqjQgOto0,1472
+omnicrawls-2.1.dist-info/METADATA,sha256=Cp2Cyv9In7uPhd7Y2Lwg7F4mxUNG5ToyWwFvXUEW5ww,5080
+omnicrawls-2.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+omnicrawls-2.1.dist-info/top_level.txt,sha256=ogzP2sqeusmcMO1nOyof31Loe10Jh3jip3pHVqEnveQ,11
+omnicrawls-2.1.dist-info/RECORD,,
