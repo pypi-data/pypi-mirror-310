@@ -1,0 +1,14 @@
+# Foreign
+/foreign/
+
+# OpenCPI
+/opencpi/
+
+# Python
+/dist/
+/src/*.egg-info
+*.lock
+__pycache__/
+
+# Other
+.token
