@@ -1,0 +1,9 @@
+dbxdriverack>=0.0.3
+prompt_toolkit
+Click
+
+[dev]
+black
+
+[validate]
+mypy
