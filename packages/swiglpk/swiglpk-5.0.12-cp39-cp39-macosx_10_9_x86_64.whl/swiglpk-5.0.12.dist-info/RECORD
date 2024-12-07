@@ -1,0 +1,11 @@
+swiglpk-5.0.12.dist-info/RECORD,,
+swiglpk-5.0.12.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+swiglpk-5.0.12.dist-info/WHEEL,sha256=wEvD9HODgqXG21zAA07x3Gh0qpNEHOQ7qzjMqXvopac,109
+swiglpk-5.0.12.dist-info/top_level.txt,sha256=n12gVJhzQcaqqxYVshejLOHVrwTDnFpG2y1ySFXGlno,8
+swiglpk-5.0.12.dist-info/METADATA,sha256=Lzegf504wN3JobsZjFRptlNwhzQQ3D_yJDIdaHp_u90,5533
+swiglpk/swiglpk.py,sha256=sn7HuvRD-v3MjM6zXLn1Dfs00D2etTL2gEKXj28-gfI,37195
+swiglpk/_swiglpk.cpython-39-darwin.so,sha256=9moxZgD4IU49lxG6cmfitnxKbyn1cpD80tgWsbPosX8,382944
+swiglpk/glpk.i,sha256=QuUCK17WSQqSM65dGtDSEPhuCl4L48Os7LVB0MpZSnM,7511
+swiglpk/__init__.py,sha256=LFptBGmxPxxLcPSfi3jPU845D0qWnsHDX4Hp_KeE8KE,23
+swiglpk/.dylibs/libglpk.40.dylib,sha256=FrCN3QooctjwVCQnLF-FYrklQJWLD8WntZyJsCNVtP0,1260624
+swiglpk/.dylibs/libgmp.10.dylib,sha256=ypZEWNXSGm2ZO2G51TfILuQRNmbxupGqm9CXc4HPIhQ,708016
