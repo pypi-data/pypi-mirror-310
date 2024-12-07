@@ -1,0 +1,10 @@
+README.md
+setup.py
+Sarunas_K_mod1_atsiskaitymas.egg-info/PKG-INFO
+Sarunas_K_mod1_atsiskaitymas.egg-info/SOURCES.txt
+Sarunas_K_mod1_atsiskaitymas.egg-info/dependency_links.txt
+Sarunas_K_mod1_atsiskaitymas.egg-info/requires.txt
+Sarunas_K_mod1_atsiskaitymas.egg-info/top_level.txt
+sarunas_k_mod1_atsiskaitymas/__init__.py
+sarunas_k_mod1_atsiskaitymas/web_read.py
+tests/test_web_read.py
