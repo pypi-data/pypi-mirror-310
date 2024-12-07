@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "setuptools >= 61.2",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stpsf"
+version = "0.0.1"
+description = "Creates simulated point spread functions Space Telescopes"
+authors = [
+    { name = "Association of Universities for Research in Astronomy", email = "help@stsci.edu" },
+]
+readme = { file = "README.rst", content-type = "text/x-rst" }
+requires-python = ">=3.10"

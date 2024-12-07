@@ -1,0 +1,6 @@
+README.rst
+pyproject.toml
+stpsf.egg-info/PKG-INFO
+stpsf.egg-info/SOURCES.txt
+stpsf.egg-info/dependency_links.txt
+stpsf.egg-info/top_level.txt
