@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: mydebug
+Version: 0.1.1
+Summary: A simple debugging tool for Python
+Home-page: UNKNOWN
+Author: p4ylex
+License: UNKNOWN
+Description: # DebugMode
+        
+        ## Overview
+        DebugMode is a class that provides functionality for debugging, logging, and printing messages with different colors.
+        
+        ## Methods
+        
+        ### `__init__(self, debugMode=True, logFile=None)`
+        Initializes the DebugMode instance.
+        - **Args:**
+          - `debugMode` (bool): A flag to enable or disable debug mode. Default is True.
+          - `logFile` (str): The path to a log file. If provided, logs will be written to this file. Default is None.
+        
+        ### `setDebugMode(self, debugMode)`
+        Sets the debug mode.
+        - **Args:**
+          - `debugMode` (bool): A flag to enable or disable debug mode.
+        
+        ### `getDebugMode(self)`
+        Returns the current debug mode.
+        - **Returns:**
+          - `bool`: The current debug mode.
+        
+        ### `debugPrint(self, message=None, fonction=None)`
+        Prints a debug message or executes a function if provided.
+        - **Args:**
+          - `message` (str): The message to print. Default is None.
+          - `fonction` (callable): A function to execute. Default is None.
+        
+        ### `warningPrint(self, message)`
+        Prints a warning message.
+        - **Args:**
+          - `message` (str): The warning message to print.
+        
+        ### `logPrint(self, message)`
+        Logs a message to the log file if it is open.
+        - **Args:**
+          - `message` (str): The message to log.
+        - **Raises:**
+          - `ValueError`: If the log file is not open.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
