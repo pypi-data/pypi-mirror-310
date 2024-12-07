@@ -1,0 +1,2 @@
+[console_scripts]
+younger = younger.commands.main:main

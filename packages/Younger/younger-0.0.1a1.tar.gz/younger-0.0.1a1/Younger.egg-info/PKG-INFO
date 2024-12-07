@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: Younger
+Version: 0.0.1a1
+Summary: A Younger Evaluation Project for Artificial Intelligence: Datasets, Benchmarks, and Applications.
+Home-page: https://github.com/Jason-Young-AI/Younger.git
+Author: Jason-Young-AI
+Author-email: AI.Jason.Young@outlook.com
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: psutil
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: python-semantic-release
+Provides-Extra: dataset-onnx
+Requires-Dist: onnx; extra == "dataset-onnx"
+Provides-Extra: dataset-torchvision
+Requires-Dist: onnx; extra == "dataset-torchvision"
+Requires-Dist: torchvision; extra == "dataset-torchvision"
+Requires-Dist: torch; extra == "dataset-torchvision"
+Provides-Extra: dataset-huggingface-optimum
+Requires-Dist: isocodes; extra == "dataset-huggingface-optimum"
+Requires-Dist: huggingface-hub; extra == "dataset-huggingface-optimum"
+Requires-Dist: onnx; extra == "dataset-huggingface-optimum"
+Requires-Dist: optimum[exporters]; extra == "dataset-huggingface-optimum"
+Provides-Extra: dataset-huggingface-onnx
+Requires-Dist: isocodes; extra == "dataset-huggingface-onnx"
+Requires-Dist: huggingface-hub; extra == "dataset-huggingface-onnx"
+Requires-Dist: onnx; extra == "dataset-huggingface-onnx"
+Provides-Extra: dataset-huggingface-keras
+Requires-Dist: tensorflow<=2.15,>=2.9; extra == "dataset-huggingface-keras"
+Requires-Dist: huggingface-hub; extra == "dataset-huggingface-keras"
+Requires-Dist: tf2onnx; extra == "dataset-huggingface-keras"
+Requires-Dist: isocodes; extra == "dataset-huggingface-keras"
+Requires-Dist: onnx; extra == "dataset-huggingface-keras"
+Provides-Extra: dataset-huggingface-tflite
+Requires-Dist: tensorflow<=2.15,>=2.9; extra == "dataset-huggingface-tflite"
+Requires-Dist: huggingface-hub; extra == "dataset-huggingface-tflite"
+Requires-Dist: tf2onnx; extra == "dataset-huggingface-tflite"
+Requires-Dist: isocodes; extra == "dataset-huggingface-tflite"
+Requires-Dist: onnx; extra == "dataset-huggingface-tflite"
+Provides-Extra: dataset-official
+Requires-Dist: onnx; extra == "dataset-official"
+Provides-Extra: benchmark
+Provides-Extra: application
+Requires-Dist: torch-geometric; extra == "application"
+
+
+# Younger
+
+This repository maintains all code related to using the Younger dataset and its related applications.
+
+Go to the website "[Datasets - Yangs Cloud](https://datasets.yangs.cloud/)" for [Detailed Documentation]([./README.ZH.md](https://datasets.yangs.cloud/younger/)) of Younger's Applications.
+
+Due to ongoing updates to this branch, the code may not match the initial version presented in the paper. Therefore, if you need the version that corresponds to what is mentioned in the paper, please switch to the `paper` [branch](https://github.com/YangsCloud/Younger/tree/paper) for reference.
+
+## Datasets
+Browse and download the datasets at [here](https://datasets.yangs.cloud/younger/dataset_series).
+
+## Citation
+If you need to use our code or dataset, please cite the following paper:
+
+1. Yang, Z., Gao, W., Peng, L., Huang, Y., Tang, F., & Zhan, J. (2024). Younger: The First Dataset for Artificial Intelligence-Generated Neural Network Architecture. [arXiv](https://arxiv.org/abs/2406.15132)
+```bibtex
+@misc{yang2024youngerdatasetartificialintelligencegenerated,
+      title={Younger: The First Dataset for Artificial Intelligence-Generated Neural Network Architecture}, 
+      author={Zhengxin Yang and Wanling Gao and Luzhou Peng and Yunyou Huang and Fei Tang and Jianfeng Zhan},
+      year={2024},
+      eprint={2406.15132},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2406.15132}, 
+}
+```
