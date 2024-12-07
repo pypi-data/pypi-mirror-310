@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: grn_analysis_tools
+Version: 0.0.1
+Summary: A package with helper functions for analyzing gene regulatory network inference methods
+Project-URL: Homepage, https://github.com/Luminarada80/grn_analysis_tools
+Project-URL: Issues, https://github.com/Luminarada80/grn_analysis_tools/issues
+Author-email: Eric Moeller <luminarada80@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
