@@ -1,0 +1,4 @@
+sentence-transformers
+tqdm
+numpy
+requests

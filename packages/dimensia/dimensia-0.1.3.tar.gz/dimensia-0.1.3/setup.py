@@ -1,0 +1,40 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="dimensia",
+    version="0.1.3",
+    author="Aniruddha Salve",
+    author_email="salveaniruddha180@gmail.com",
+    description="Dimensia is a Python library for managing document embeddings and performing efficient similarity-based searches using various distance metrics.",
+    long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/aniruddhasalve/dimensia",
+    project_urls={
+        "Homepage": "https://github.com/aniruddhasalve/dimensia",
+        "Bug Tracker": "https://github.com/aniruddhasalve/dimensia/issues",
+        "Source Code": "https://github.com/aniruddhasalve/dimensia",
+    },
+    packages=find_packages(),
+    install_requires=[
+        'sentence-transformers',
+        'tqdm',
+        'numpy',
+        'requests',
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+    ],
+    python_requires='>=3.6',
+    include_package_data=True,
+    zip_safe=False,
+    license="MIT License",
+    keywords="vector, database, embeddings, NLP, AI, search",
+)
