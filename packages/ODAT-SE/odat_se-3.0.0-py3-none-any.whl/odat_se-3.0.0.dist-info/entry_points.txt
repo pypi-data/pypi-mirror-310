@@ -1,0 +1,4 @@
+[console_scripts]
+odatse=odatse:main
+odatse_neighborlist=odatse.util.neighborlist:main
+
