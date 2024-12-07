@@ -1,0 +1,2 @@
+class CrispError(Exception):
+    pass
