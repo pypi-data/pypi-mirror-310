@@ -1,0 +1,10 @@
+spdx3merge/__init__.py,sha256=WnsIZV9hUt6HjYChs26x7VdJXinH2WMu8-wRgpEuWMc,80
+spdx3merge/__main__.py,sha256=xWmYOo4S8cDiXgIQFhBg1fdHi1ANIbviMSrbx4LXOAw,173
+spdx3merge/main.py,sha256=2GlPgsvtT9A0i6C9TYLq_qPjZtzSQBUyWldbFDPyMYw,6062
+spdx3merge/spdx3.py,sha256=CgUhJ_xfUgDltYhOLWMMC_PLFMPFp6HkcTudfIQXt-o,263742
+spdx3merge/version.py,sha256=QqMXHVJs6Mh0abjyoct_OcIt77Rz1dSmEAy-kWDxGc8,18
+spdx3merge-0.0.3.dist-info/METADATA,sha256=k7X00LbFi7F6qIJUQLLpZgs5WUs0J35xmw88mxREbNU,2455
+spdx3merge-0.0.3.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+spdx3merge-0.0.3.dist-info/entry_points.txt,sha256=Ywc93fyARP63GalQ5wIgYdqY8i6YnhWxEoNpc3NkImU,47
+spdx3merge-0.0.3.dist-info/licenses/LICENSE,sha256=npUT32k_O0lU4UHJ8ZZ2_Ti0GR1oSbNGRzID9lSWkxs,1068
+spdx3merge-0.0.3.dist-info/RECORD,,
