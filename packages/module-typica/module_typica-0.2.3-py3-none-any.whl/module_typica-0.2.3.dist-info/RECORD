@@ -1,0 +1,15 @@
+typica/__init__.py,sha256=vzdnhKeUul8ChMPhzOg9sftMxQu6DylYZUVWZXX1m5Y,90
+typica/base.py,sha256=qyHadRT3FfqDOxIqkRa4aad0MMd-78I_QOZ2ec1PTPk,2603
+typica/connection.py,sha256=AGcTZwEL27OKWFw7gXehec43sHcpnz5_9xN72qT4_b0,5537
+typica/metadata.py,sha256=l8ga_XwdUQC7LcPzXAxbYZOCmBv_rpP5mgmt2AECK9U,3191
+typica/modules/cclickhouse.py,sha256=fWq-RGuzbYGjE6A8lEJ1OUi6e8WkSwbcneqoL6v57WY,2000
+typica/modules/pmongo.py,sha256=0pBv3N2UsFVCPN4cRBB5DqyECvnxGMgiP2ZKIPihqVM,2174
+typica/modules/psycopg.py,sha256=DTNN4LK0Hu-us0of34Ve8ePS9b3tL_1BfipjWywmX4I,2305
+typica/modules/psycopg_alchemy.py,sha256=QyISgRwTJKMZ0eCZcPiWoCAy1XJ8rmnewVWuot6I5mI,2529
+typica/modules/redis.py,sha256=mOqCbt7fHjsHUoaF1FzjrYhmxGXfDdhcfebxmUY9dVs,5056
+typica/response.py,sha256=oI0bZ7QDgAnj6tsxEQyhv3TuGw3S-k8tFZM-Wx4Nfqk,9671
+typica/utils/__init__.py,sha256=4tXromir9E7pWB4ilY-ZicQkfii_xQEM17KrqCUWS1M,21
+typica/utils/enums.py,sha256=EJalxjRlyMS64YZMP2KAl73Vj50Y7IC-SGkaxs31_yk,2515
+module_typica-0.2.3.dist-info/METADATA,sha256=Y3fkOetJGzaaZHk0qYmyYzpK70uwX2jCfZAYf7vUuZk,1315
+module_typica-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+module_typica-0.2.3.dist-info/RECORD,,
