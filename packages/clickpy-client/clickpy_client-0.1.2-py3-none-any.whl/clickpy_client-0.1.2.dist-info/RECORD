@@ -1,0 +1,13 @@
+clickpy/__init__.py,sha256=dHP1qdlsVWu5PdfJWvnNSUbs-2CPD4IaQpXlTzr8s0g,246
+clickpy/client.py,sha256=ofYdzn9QI8oExU3KdUxdRA4MCNxlS1zcALDVR6RL1Xk,3306
+clickpy/settings.py,sha256=uWj76in7L3xD205vC_XnVGFGQ0SFhyYW4ltmxc1rMew,400
+clickpy/queries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickpy/queries/base.py,sha256=YPt3_CzclUXQusuj3CMjmZujRzgH4PmcXzjUV3sozOE,501
+clickpy/queries/keywords_by_releases_query.py,sha256=t1ni9p7Y7_CAr_J6lVAo2AgPsJMkqiCTRnjG9FT-1Lg,774
+clickpy/queries/package_downloads_resume_query.py,sha256=Ov1JpHomXwqGukOYz-9VuU-fLaz9GKdF7WBJB58MnZc,721
+clickpy/queries/package_releases_resume_query.py,sha256=TEQP5m2YwKs9u1O4BxcwUaOhLGdgeOa6ASJRcWY0IeI,789
+clickpy/queries/tables_query.py,sha256=xSl6Dy_uaWwBgjGNObMY-auJoTTrxwEptTd-QDVqvFU,1345
+clickpy_client-0.1.2.dist-info/METADATA,sha256=JtP0dj3iGnESf3psVwwd_H2T22yyoQuJV8lcod0A2mc,3144
+clickpy_client-0.1.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+clickpy_client-0.1.2.dist-info/top_level.txt,sha256=d25MZWN3VfWJAcA8Avy1VMcFBjNRt1ClndMxJOIkYH4,8
+clickpy_client-0.1.2.dist-info/RECORD,,
