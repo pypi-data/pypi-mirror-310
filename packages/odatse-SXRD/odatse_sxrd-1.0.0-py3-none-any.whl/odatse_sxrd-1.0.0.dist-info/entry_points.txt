@@ -1,0 +1,3 @@
+[console_scripts]
+odatse-SXRD=odatse.extra.SXRD._main:main
+
