@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+instagram_api1/__init__.py
+instagram_api1/rest_instagram.py
+instagram_api1.egg-info/PKG-INFO
+instagram_api1.egg-info/SOURCES.txt
+instagram_api1.egg-info/dependency_links.txt
+instagram_api1.egg-info/requires.txt
+instagram_api1.egg-info/top_level.txt
