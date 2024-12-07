@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gixpy.egg-info/PKG-INFO
+gixpy.egg-info/SOURCES.txt
+gixpy.egg-info/dependency_links.txt
+gixpy.egg-info/entry_points.txt
+gixpy.egg-info/requires.txt
+gixpy.egg-info/top_level.txt
+source/__init__.py
+source/gixpy.c
+source/gixpy.py
+source/poni.py
+source/programs.py
