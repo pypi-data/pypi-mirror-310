@@ -1,0 +1,12 @@
+graph_sign_and_verify_c4gai/__init__.py,sha256=HWVXboy9jnjyYodIHenmcsXGPzFqelO356HZAJoBwFg,34
+graph_sign_and_verify_c4gai/example.py,sha256=zQN0yAgqevOsEkRRqtqIE8sGjBxOdrmPbwjkGVjg7pY,169
+graph_sign_and_verify_c4gai/graphsignature.py,sha256=q5eSy_xRK-pjCy_5HECIOoiLS-iw_a66XV9ZL0EPgVg,3698
+graph_sign_and_verify_c4gai/order-1.nt.sha,sha256=MJZE8fbXrmG5-ZRnew7FR5013WCtXNguLzid5wsdZpA,1618
+graph_sign_and_verify_c4gai/rdf_canonicalization.py,sha256=tNVoCt_mJrQ1zxqhbiYoUJNOxN8XvTQjX-YawxWqjOU,6213
+graph_sign_and_verify_c4gai/sign.py,sha256=w-SZcQCsX2X_HTdz5fsY0GijVKq1l6_NZbsXXSH1dLc,722
+graph_sign_and_verify_c4gai/tmp/normalized_nt-sort.nt,sha256=05oGaeBQnMEWifiblsJHBeUKEwcpc8cIU-tDBRyoDvw,1970
+graph_sign_and_verify_c4gai/tmp/normalized_nt.nt,sha256=VcUI9CXV08-B42IBv15Alc6Ufo8tXlMvDl8Qav3n3hs,1970
+graph_sign_and_verify_c4gai-0.0.1.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+graph_sign_and_verify_c4gai-0.0.1.dist-info/METADATA,sha256=fXwZLTWph8B22U17GwL0-PYw8WgnCMQuP5CWKa9ljnc,1503
+graph_sign_and_verify_c4gai-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+graph_sign_and_verify_c4gai-0.0.1.dist-info/RECORD,,
