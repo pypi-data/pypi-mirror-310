@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: empfin
+Version: 0.1
+Summary: Empirical Finance Tools
+Author: Gustavo Amarante
+Maintainer: Gustavo Amarante
+Maintainer-email: developer@dsgepy.com
+Keywords: asset pricing,empirical asset pricing,factor models,risk premia
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# empfin
+Empirical Finance package under development
