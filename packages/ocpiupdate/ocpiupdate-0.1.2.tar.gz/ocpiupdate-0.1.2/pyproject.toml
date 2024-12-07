@@ -1,0 +1,17 @@
+[project]
+name = "ocpiupdate"
+version = "0.1.2"
+description = "An updater for OpenCPI Projects"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+ocpiupdate = "ocpiupdate.v2_4_7_updater:try_main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ocpiupdate"]
