@@ -1,0 +1,12 @@
+v2dl_lite/__init__.py,sha256=jFl0VgZdb45c3tFiWLaWKFBsV0mfAw-DNZeqsGkHkXY,6300
+v2dl_lite/__main__.py,sha256=q1RbDaXfdF8hVceTWY-sKe-x-sZSFAedUQ3W1euAa5g,84
+v2dl_lite/_types.py,sha256=TYJjYFSKItxCt6gFpKIcyNk-vZInqTbyBZdoY2MaNrA,652
+v2dl_lite/constant.py,sha256=qwaMD1uAH4ZEu8dy_ydF98GF2bRTRNOTprHW9Ilp38w,310
+v2dl_lite/options.py,sha256=82xBoMCZ3G3dZUsEScF4LSIfD70sjFidduFzIvQxedI,1708
+v2dl_lite/utils.py,sha256=8k67wDac45tvePB57ihuQCfRkgTVivgews_wMi2D-0E,6455
+v2dl_lite/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+v2dl_lite-0.1.1.dist-info/METADATA,sha256=fdwUVncedH3vWQP3Ivhek356S3yDNygiNgzMMtQiTzo,1493
+v2dl_lite-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+v2dl_lite-0.1.1.dist-info/entry_points.txt,sha256=-SAlEULOIcJP8R7C21Dns91Aenkflp9JtUlRrVUrFXc,45
+v2dl_lite-0.1.1.dist-info/licenses/LICENSE,sha256=VaNdcTqVhnflANKKDJbgrkI7cWuZvl2cPPnATz-Pays,1069
+v2dl_lite-0.1.1.dist-info/RECORD,,
