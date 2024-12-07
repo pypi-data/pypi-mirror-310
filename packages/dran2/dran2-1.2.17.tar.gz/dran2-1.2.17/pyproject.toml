@@ -1,0 +1,83 @@
+# Project package management
+# Pfesi van Zyl - pfesi24@gmail.com
+# =================================================================
+
+# Semantic versioning
+# The idea of semantic versioning (or SemVer) is to use 3-part version numbers, major.minor.patch, where the project author increments:
+
+# major when they make incompatible API changes,
+# minor when they add functionality in a backwards-compatible manner, and
+# patch, when they make backwards-compatible bug fixes.
+
+
+# Examples:
+# 1.0.0 - First stable release
+# 1.1.0 - New functionality added, but backwards-compatible
+# 1.1.1 - Fixed a bug in the new functionality
+# 1.2.0 - Backwards-compatible API changes made, new functionality added
+# 2.0.0 - Backwards-incompatible API changes made, new functionality added
+
+# Versioning
+# ==================
+# A simple version (final release): 1.2.0
+# A development release: 1.2.0.dev1
+# An alpha release: 1.2.0a1
+# A beta release: 1.2.0b1
+# A release candidate: 1.2.0rc1
+# A post-release: 1.2.0.post1
+# A post-release of an alpha release (possible, but discouraged): 1.2.0a1.post1
+# A version with an epoch: 1!1.0
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dran2"
+authors = [{ name="Pfesesani van Zyl", email="pfesi24@gmail.com" },]
+maintainers = [{ name="Pfesesani van Zyl", email="pfesi24@gmail.com" },]
+description = "Data reduction and analysis of HartRAO 26m telescope drift scans"
+version="1.2.17"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">= 3.10"
+dynamic = ["dependencies"]
+# dynamic = ["version"]
+license = {text = "MIT License"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    'Intended Audience :: End Users/Desktop',
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Operating System :: OS Independent"
+]
+keywords = ["dran", 'single-dish', 'hartrao', 'sarao']
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["reqs2.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["","*","_auto.py","_gui.py","_cli.py","_docs.py","src._auto.py","src/_auto.py"]
+# exclude = ["src.test*"]
+
+[tool.setuptools.package-data]
+"*"=["*.txt", "*.rst", ".png",'*.py','*.md']
+
+[project.scripts]
+dran = "_cli:main"
+dran-auto = "_auto:main"
+dran-docs = "_docs:main"
+
+[project.gui-scripts]
+dran-gui = "_gui:main"
+
+[project.urls]
+Documentation = "https://dran2.readthedocs.io/en/latest/"
+Changelog= "https://dran2.readthedocs.io/en/latest/extras/changelog.html"
+Issues = "https://github.com/Pfesi/dran2/issues"
+Repository = "https://github.com/Pfesi/dran2"
