@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: opencv_statistical_tools
+Version: 0.3.0
+Summary: An OpenCV utility package for additional utility functions for probability and statistical operations.
+Home-page: https://github.com/ArjanCodes/2023-package
+Author: Stephen Hudson
+Author-email: arjan@arjancodes.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# OpenCV Utility Utility
+This Python library provides a simplified and powerful interface for working with Utility transformations using OpenCV. It is designed for tasks like perspective transformations, image stitching, planar mapping, and object alignment. The library abstracts complex OpenCV functionality into user-friendly methods for developers and researchers.
+
+Features
+
+Compute Utility matrix from corresponding points.
+Apply perspective transformations to images.
+Visualize transformed images with overlays.
+Error calculation and optimization for Utility accuracy.
+Export and import Utility matrices for reuse.
+
