@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: superlinked-server
+Version: 0.2.0
+Summary: Superlinked server enables fast and scalable vector search and storage
+License: Apache-2.0
+Author: Superlinked Release
+Author-email: release@superlinked.com
+Requires-Python: >=3.10.3,<=3.12.3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asgi-correlation-id (>=4.3.3,<5.0.0)
+Requires-Dist: fastapi (>=0.115.0,<0.116.0)
+Requires-Dist: fastapi-restful (>=0.6.0,<0.7.0)
+Requires-Dist: inject (>=5.2.0,<6.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pydantic (>=2.6.3,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.5.2,<3.0.0)
+Requires-Dist: python-json-logger (>=2.0.7,<3.0.0)
+Requires-Dist: superlinked[mongo,pub-sub,redis,storage] (>=14.4.1,<15.0.0)
+Requires-Dist: typing-inspect (>=0.9.0,<0.10.0)
+Requires-Dist: uvicorn (>=0.32.0,<0.33.0)
+Description-Content-Type: text/markdown
+
+# Superlinked Server
+
