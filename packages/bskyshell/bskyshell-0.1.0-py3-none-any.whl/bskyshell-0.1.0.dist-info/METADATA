@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: bskyshell
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Requires-Dist: atproto>=0.0.55
+Requires-Dist: getch>=1.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: rich>=13.9.4
+Requires-Dist: typer>=0.13.1
+Description-Content-Type: text/markdown
+
+# BlueSky Shell
+
+A python CLI to BlueSky.
+
+Never leave your shell! Check-in on BlueSky or automate using BlueSky Shell.
+
+## Installation
+
+- `pip install bskyshell`
+- `pipx install bskyshell`
+
+## Usage
+
+- `bsky` to open application.
+- `bsky post` to post.
