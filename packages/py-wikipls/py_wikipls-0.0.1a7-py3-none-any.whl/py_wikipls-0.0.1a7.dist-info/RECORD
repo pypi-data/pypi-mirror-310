@@ -1,0 +1,13 @@
+wikipls/__init__.py,sha256=-aLPzKz3pSOSJ25wzheB5Z6xAMtnAHVhdbbhWLTqHX0,116
+wikipls/consts.py,sha256=FwOK85-RAE_e0lTlkWR70v7NuarYCryU8dYTD3DPJlM,579
+wikipls/type_obj.py,sha256=9fXpdcve5ffh6N77JaHIQRqHSAQ2GZp6Rmlm6QwCJ6c,538
+wikipls/wiki_obj.py,sha256=dd2OGnlcyjhryPeZCkat0FHLk5wcXpi-ChPe9ojLkj4,11279
+wikipls/func/__init__.py,sha256=3iPc6x9iPHwsYdGvMXK559ym5X8FOPvWOXjLobEeDhs,61
+wikipls/func/data.py,sha256=mpraCogS9GAqXSZGEo5mkoG0q2b5ncNkvZ7lkOOaqeI,6847
+wikipls/func/get.py,sha256=Z8kTAfpDN-TblIS6k_Ed-M9jDMCtBEkG62AUl4UY68Q,7833
+wikipls/func/utils.py,sha256=EtXGsllJoahO2WkTc-pZY6bLL3YH4NjJcg4tL2c5YkU,6385
+py_wikipls-0.0.1a7.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+py_wikipls-0.0.1a7.dist-info/METADATA,sha256=BMQW-X_qIyWEuibLrFGxxwzl0szr1zfpTulKffoog_Y,47523
+py_wikipls-0.0.1a7.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+py_wikipls-0.0.1a7.dist-info/top_level.txt,sha256=oNRy7KN6JqGmQTHixywZRarEgDpf-tM6X5Cnl6WTVLk,8
+py_wikipls-0.0.1a7.dist-info/RECORD,,
