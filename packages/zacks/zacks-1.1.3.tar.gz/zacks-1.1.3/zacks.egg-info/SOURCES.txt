@@ -1,0 +1,10 @@
+setup.py
+zacks/__init__.py
+zacks/__main__.py
+zacks/downloader.py
+zacks.egg-info/PKG-INFO
+zacks.egg-info/SOURCES.txt
+zacks.egg-info/dependency_links.txt
+zacks.egg-info/entry_points.txt
+zacks.egg-info/requires.txt
+zacks.egg-info/top_level.txt

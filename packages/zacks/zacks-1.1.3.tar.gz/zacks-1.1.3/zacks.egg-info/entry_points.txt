@@ -1,0 +1,2 @@
+[console_scripts]
+zacks = zacks.__main__:main
