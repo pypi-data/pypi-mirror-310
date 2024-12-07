@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+WhatsSched/__init__.py
+WhatsSched/main.py
+WhatsSched.egg-info/PKG-INFO
+WhatsSched.egg-info/SOURCES.txt
+WhatsSched.egg-info/dependency_links.txt
+WhatsSched.egg-info/requires.txt
+WhatsSched.egg-info/top_level.txt
