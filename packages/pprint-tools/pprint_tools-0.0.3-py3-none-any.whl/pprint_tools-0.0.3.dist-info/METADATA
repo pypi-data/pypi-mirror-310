@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pprint-tools
+Version: 0.0.3
+Summary: decorators cli tools
+License: GPL
+Keywords: logger,logrich,rich
+Author: Dmitry Mavlin
+Author-email: mavlind@list.ru
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anyio (>=3.6.1,<4.0.0)
+Requires-Dist: logrich (>=1.0.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+### Фабрика декораторов
+включает два декоратора, один для вывода времени выполнения, второй для вывода аргументов в консоль
+
+#### Использование
+
+смотри [тесты](tests/) 
+
+#### Как развернуть:
+
+```shell
+git clone 
+poetry shell
+poetry install
+```
+
+#### Запустить тест(ы):
+
+```shell
+pytest
+# монитор тестов
+ptw
+```
+
