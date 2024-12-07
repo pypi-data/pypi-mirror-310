@@ -1,0 +1,2 @@
+[console_scripts]
+dran = _auto:main
