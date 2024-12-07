@@ -1,0 +1,12 @@
+grpcio
+protobuf==5.28.2
+googleapis-common-protos
+
+[dev]
+grpcio-tools
+types-protobuf
+black
+darglint
+mypy
+pytest
+ruff
