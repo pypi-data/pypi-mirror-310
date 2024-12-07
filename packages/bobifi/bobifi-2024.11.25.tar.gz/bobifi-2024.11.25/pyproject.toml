@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "bobifi"
+version = "2024.11.25"
+description = "BoB Metadata Keys and URLs"
+authors = ["Jakob Schlyter <jakob@kirei.se>"]
+license = "BSD-2-Clause"
+repository = "https://github.com/bobcat-ticketing/python-bobifi'"
+readme = "README.md"
+include = ["bobifi/data/*.json"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pytest-ruff = "^0.3.2"
+cryptojwt = "^1.8.3"
+httpx = "^0.24.1"
+ruff = ">=0.4.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = ["E501", "I001", "SIM102"]
+exclude = ["examples/*"]
+
+[tool.ruff.lint.isort]
+force-sort-within-sections = false
+combine-as-imports = true
+split-on-trailing-comma = false
+known-first-party = [
+    "bobfi",
+]
