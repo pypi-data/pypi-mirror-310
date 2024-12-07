@@ -1,0 +1,2 @@
+[console_scripts]
+shpkg = shpkg.__main__:main
