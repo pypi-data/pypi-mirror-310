@@ -1,0 +1,9 @@
+pynetcor-0.1.0.dist-info/RECORD,,
+pynetcor-0.1.0.dist-info/WHEEL,sha256=oyFzUrqF0wbOxqe6HZyVDEFxJQ-tm5crSar8LZK6A8g,109
+pynetcor-0.1.0.dist-info/top_level.txt,sha256=Wtb8XaxcZJ81eg48RXoxQ3WlD2Cx9NX1xuADdH3OwQ0,9
+pynetcor-0.1.0.dist-info/METADATA,sha256=FZP3qDQYimWx0OMcsIn5TnGNX3JIK8ri-YSOaGn2tPE,5342
+pynetcor/libnetcor.a,sha256=QFNQcCo4tbvLTLcd_IcI82VXGdluqMRCiWVA38whAvs,4118800
+pynetcor/cor.py,sha256=DOvQMmSVl5NP-t4cVl73boff5dkVTrRaYpIjMoFPXUw,17306
+pynetcor/__init__.py,sha256=ynCh_Bv2lHzYucfTKescD6D8_lOFER_WYHJzfkxT1Kw,78
+pynetcor/cluster.py,sha256=kMLLzbagc0KPNFaYph_IR0mfNp3K72L6UpX5voTx1yM,4814
+pynetcor/_core.cpython-38-darwin.so,sha256=doqiOVeq5TcLn0GjUi35hOHSyeJ-2sYTgDNYsdnOBD0,52563968
