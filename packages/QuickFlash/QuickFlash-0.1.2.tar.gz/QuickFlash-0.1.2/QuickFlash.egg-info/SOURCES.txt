@@ -1,0 +1,8 @@
+README.md
+setup.py
+QuickFlash/__init__.py
+QuickFlash/module.py
+QuickFlash.egg-info/PKG-INFO
+QuickFlash.egg-info/SOURCES.txt
+QuickFlash.egg-info/dependency_links.txt
+QuickFlash.egg-info/top_level.txt
