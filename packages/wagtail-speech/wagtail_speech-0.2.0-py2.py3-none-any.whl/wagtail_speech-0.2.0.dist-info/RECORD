@@ -1,0 +1,13 @@
+wagtailspeech/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailspeech/admin.py,sha256=VU26ivxGkMnlIwJQt2Plx_QvnE9hFsfgwYA6fFwPUnc,278
+wagtailspeech/models.py,sha256=D5De1vHxGm1B48g6YHE9JTbd5c5BADfgvhBSM6Av0v8,950
+wagtailspeech/urls.py,sha256=g5jZ0FyKTO4il4lz1AySUCPiCWzHpMnReAzRRy04j-0,268
+wagtailspeech/utils.py,sha256=OQ8YWI-RtTpNkiK1wjg5z8b6ZAhhJ-mM8mTqW1qxhOY,2207
+wagtailspeech/views.py,sha256=3oUNZGfH81lmjQPMzSYXkiFf-cNzhCCEQecCU86Ar7E,1859
+wagtailspeech/wagtail_hooks.py,sha256=Ml1YDB_JU1MnQnDXxcAsPakusqmbPsSukwgery_uVHQ,110
+wagtailspeech/migrations/0001_initial.py,sha256=94xHjzQF055UlDFbxUgbmiZyr7rRPYjfFk6lYr561tE,1480
+wagtailspeech/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_speech-0.2.0.dist-info/METADATA,sha256=Dj-0A0C926xZswFYE9MxgYRQkOJf3eg-3zcUGvk4CvA,742
+wagtail_speech-0.2.0.dist-info/WHEEL,sha256=0VNUDWQJzfRahYI3neAhz2UVbRCtztpN5dPHAGvmGXc,109
+wagtail_speech-0.2.0.dist-info/top_level.txt,sha256=TVPW7RLSkNvUaKUqMx8gf3u5gSERy3AGox8S2aSwgOY,14
+wagtail_speech-0.2.0.dist-info/RECORD,,
