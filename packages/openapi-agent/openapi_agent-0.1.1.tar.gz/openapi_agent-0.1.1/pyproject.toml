@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "openapi-agent"
+version = "0.1.1"
+description = "An OpenAPI agent that can execute operations based on natural language descriptions"
+authors = [
+    "Jordi Montes Sanabria <jordi@fewsats.com>",
+    "Pol Avec <pol@fewsats.com>"
+]
+readme = "README.md"
+packages = [{include = "openapi_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyyaml = "*"
+jsonref = "*"
+pydantic = "*"
+openai = "*"
+openapi-spec-validator = "*"
+docker = "*"
+python-dotenv = "*"
+fastapi = "*"
+uvicorn = "*"
+langsmith = "*"
+cachetools = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
