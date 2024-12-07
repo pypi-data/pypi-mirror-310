@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="create-server-app",
+    version="1.0.0",
+    description="A CLI tool to create a server app project.",
+    packages=find_packages(),
+    entry_points={
+        "console_scripts": [
+            "create-server-app=create_server_app.cli:main",
+        ],
+    },
+    author='Michael',
+    install_requires=[
+        'flask',
+        'pytest',
+        'pytest-cov',
+        'pymongo',
+    ],
+)
