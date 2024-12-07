@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: exn-booking-sdk
+Version: 0.1.2
+Summary: SDK for interacting with Booking Service
+Author: Ryan
+Author-email: ryan@exnodes.vn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: requests
