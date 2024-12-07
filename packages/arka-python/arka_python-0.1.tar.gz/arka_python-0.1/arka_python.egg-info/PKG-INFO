@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: arka_python
+Version: 0.1
+Summary: A Python package to interact with the Arka blockchain network
+Author: Python
+Author-email: chandini@vitwit.com
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: tqdm
