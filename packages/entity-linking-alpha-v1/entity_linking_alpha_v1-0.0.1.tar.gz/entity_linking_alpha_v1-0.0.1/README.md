@@ -1,0 +1,37 @@
+Lightweight entity linking solution.
+
+**Please consider citing our works if you use code from this repository.**
+
+## Main dependencies
+* python>=3.10
+* numpy==1.26.4
+* SPARQLWrapper==2.0.0
+* sentence_transformers==3.1.1
+* aiohttp==3.9.5
+* openai==1.54.2
+* beautifulsoup4==4.12.2
+* fake-useragent==1.5.1
+
+## Examples & Usage
+
+```
+from main import navia
+
+# Your API token which can be found here (https://github.com/marketplace/models/azure-openai/gpt-4o)
+api_token = "YOUR_API_TOKEN"
+
+EL(api_token=api_token, sentence="We used PCA and FA for our experiments.", mention="PCA", single="No", combination="No", disambiguation="No", embedding_model="Lajavaness/bilingual-embedding-large")
+```
+
+```
+Wikipedia: https://en.wikipedia.org/wiki/Principal_component_analysis
+
+Wikidata: https://www.wikidata.org/wiki/Q2873
+
+DBpedia: http://dbpedia.org/resource/Principal_component_analysis
+
+Execution Time: 00:00:18
+```
+
+## Licence
+This library is licensed under the CC-BY-NC 4.0 license.
