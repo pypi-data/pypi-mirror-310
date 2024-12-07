@@ -1,0 +1,14 @@
+pynetcor/cor.py,sha256=7gFEpgj42Nuad363oClK-nBOy7XtmaYKvOdn-RManHU,17795
+pynetcor/__init__.py,sha256=QLnlVxL39xgkF2LQQjM--iq2A2IY7zByI7jqbDhmzrk,96
+pynetcor/libnetcor.so,sha256=kOTShhW4EDP9ToY0zzDkBxbBtGDTaIDqni-SzmV2TBQ,548385
+pynetcor/cluster.py,sha256=otbZ38VNRfU87ukfh-bZhOnj6n57g2a4ao4HMzN-B9E,4959
+pynetcor/_core.cpython-38-i386-linux-gnu.so,sha256=yS16fpgdiXRHLUAH1YsyMuYWSaURbUf5qO0kLJO9NX0,340529
+pynetcor-0.1.0.dist-info/RECORD,,
+pynetcor-0.1.0.dist-info/METADATA,sha256=FZP3qDQYimWx0OMcsIn5TnGNX3JIK8ri-YSOaGn2tPE,5342
+pynetcor-0.1.0.dist-info/WHEEL,sha256=Wk1k0AK4EC5m6NvsCYdxoQpCcEMiN-4zP759f5x-81A,144
+pynetcor-0.1.0.dist-info/top_level.txt,sha256=Wtb8XaxcZJ81eg48RXoxQ3WlD2Cx9NX1xuADdH3OwQ0,9
+pynetcor.libs/libnetcor-66f66190.so,sha256=4hzDhB54D31Mx_zTnMPubQ7TIn1jHJlgfN3VyIa9siM,584957
+pynetcor.libs/libgfortran-a8535147.so.5.0.0,sha256=Q2DWESDD9Zo_A8duz8t6a0c2x-UZkTMzR_ThvJVtG7k,2491809
+pynetcor.libs/libquadmath-e2ac3af2.so.0.0.0,sha256=jfMFeZZPrFzTE93qT655xOMT-94XAlANEB1aTfOvv18,362301
+pynetcor.libs/libgomp-65f46eca.so.1.0.0,sha256=Zagab9rFQS08rPfVDR82oGJr9kuKwgrJok-GGlFBdCo,172293
+pynetcor.libs/libopenblas-979ec5ba.so.0.3,sha256=sUf-VHLE82VIu-5izhlpY3P8ZosFH_FoRsCIcflzJ5Q,15952777
