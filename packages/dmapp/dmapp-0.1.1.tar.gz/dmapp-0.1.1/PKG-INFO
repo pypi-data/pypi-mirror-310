@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dmapp
+Version: 0.1.1
+Summary: Data Minning Application
+Home-page: https://github.com/jianbinl/dmapp
+Author: Joey Lee
+Author-email: kooglee2@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# DMApp
+
+A package for fast **D**ata **M**ining **App**lication with Python
+
+- Source Code: [https://github.com/jianbinl/dmapp](https://github.com/jianbinl/dmapp)
+
+## Main features
+
+1. Fast data preprocess, contains:
+   - drop features are unchanged.
+   - drop features/samples contain null value.
+   - get categories/numeric features
+
