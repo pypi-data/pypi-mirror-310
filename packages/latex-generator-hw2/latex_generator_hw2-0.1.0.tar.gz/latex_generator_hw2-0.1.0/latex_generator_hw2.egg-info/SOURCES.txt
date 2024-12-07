@@ -1,0 +1,13 @@
+LICENSE.txt
+pyproject.toml
+setup.py
+latex_generator_hw2.egg-info/PKG-INFO
+latex_generator_hw2.egg-info/SOURCES.txt
+latex_generator_hw2.egg-info/dependency_links.txt
+latex_generator_hw2.egg-info/tmp44qvcn4d
+latex_generator_hw2.egg-info/tmpjmgj7akn
+latex_generator_hw2.egg-info/tmpmkh4prsd
+latex_generator_hw2.egg-info/top_level.txt
+src/__init__.py
+src/example.py
+src/latex_generator.py
