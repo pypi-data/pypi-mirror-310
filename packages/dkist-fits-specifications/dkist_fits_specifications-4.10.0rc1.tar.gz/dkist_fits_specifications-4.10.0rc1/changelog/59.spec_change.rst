@@ -1,0 +1,1 @@
+CNAME<n> was previously CNAME<d> in the headers, but was being expanded with one too many axes for VBI causing an error in dkist-inventory. This change updates to CNAME<n>, so that the header is now expanded correctly.
