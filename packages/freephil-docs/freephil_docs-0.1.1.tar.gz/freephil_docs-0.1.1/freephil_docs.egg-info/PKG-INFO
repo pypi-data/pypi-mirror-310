@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: freephil-docs
+Version: 0.1.1
+Summary: Tool to create nice documentation of PHIL parameters
+Author-email: Jan Stránský <jan.stransky@ibt.cas.cz>
+License: GNU GPL 3
+Keywords: phil,freephil
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: freephil
+
+# FreePHIL docs
+
+This package helps with creating nice documentation pages for projects, which use [(Free)PHIL](https://freephil.readthedocs.io/) to handle complex input parameters.
+
+Currently, it can convert PHIL scope into a Markdown page. The function `phil_to_markdown` returns a string in Makdown format, it is up to user to save it where desired.
+
+## Example
+
+An example usage is in `test_markdown.py`.
