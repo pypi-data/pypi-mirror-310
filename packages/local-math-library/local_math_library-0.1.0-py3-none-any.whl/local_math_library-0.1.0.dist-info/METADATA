@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: local_math_library
+Version: 0.1.0
+Summary: An example of a custom library
+Home-page: https://github.com/shamim-hossen-razu/core_python
+Author: Anup Ghosh
+Author-email: anup.ghosh@bjitacademy.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# MyConverter Package
+
+A simple package for converting units between centimeters and meters, and meters and centimeters.
+
+## Installation
+
+You can install the package using `pip`:
+
+```bash
+pip install myconverter
