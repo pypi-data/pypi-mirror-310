@@ -1,0 +1,10 @@
+otfftw/libotfftw.dll,sha256=gBp_E4lmAhFcuIceFsERxM2JEZ2VsrSU0imz_IxG8TM=,43055
+otfftw/otfftw.py,sha256=DZ5uJZK4sd_hB8zBMFFnpmC1vFFQnIO718siadVJJwI=,6222
+otfftw/__init__.py,sha256=N5T7Atwg8U4rjegkBrKYl2zYhZqToIivJ4N68a-Nnmo=,309
+otfftw/_otfftw.pyd,sha256=mHh4cP93p_mYlTftxhDUpecRAwDTg1TjHYck-LKQxBA=,365286
+otfftw/libfftw3l-3.dll,sha256=O_4NaGnEgUdCSNDyYiDJVjUoIeLC_w_LnnZ2NiKdyN8=,888216
+otfftw/libfftw3f-3.dll,sha256=ZwGuXnNQomZPKcQdvpXJBEkWvFDfEOHw7xuOLNO78pA=,1040792
+otfftw/libfftw3-3.dll,sha256=pTnNsmTPSrUTuINN_wqTs5sFrh05nWNtQNiz_oToRPk=,1076632
+otfftw-0.16.post1.dist-info/RECORD,,
+otfftw-0.16.post1.dist-info/METADATA,sha256=uTwQrlYZVaxfiPWssGrtGAjiXTTYglvgwt9REfbaq3E=,659
+otfftw-0.16.post1.dist-info/WHEEL,sha256=BMraOaMe_VaVqUbhxgZ6LABQPl0iQ1n5hRY4Ab8wbZc=,85
