@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+grafmon.egg-info/PKG-INFO
+grafmon.egg-info/SOURCES.txt
+grafmon.egg-info/dependency_links.txt
+grafmon.egg-info/entry_points.txt
+grafmon.egg-info/requires.txt
+grafmon.egg-info/top_level.txt
