@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: htmldiff2
+Version: 0.2.2
+Summary: Diffs arbitrary HTML inline.
+License: Some rights reserved.
+        
+        Redistribution and use in source and binary forms of the software as well
+        as documentation, with or without modification, are permitted provided
+        that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        
+        * The names of the contributors may not be used to endorse or
+          promote products derived from this software without specific
+          prior written permission.
+        
+        THIS SOFTWARE AND DOCUMENTATION IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+        CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+        NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+        A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+        OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+        EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+        PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+        PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+        LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+        NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE AND DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+        DAMAGE.
+        
+        Copyright for this project is held by its contributors, including:
+        
+        Armin Ronacher <armin.ronacher@active-4.com>
+        Ed Summers <ehs@pobox.com>
+        Hugo van Kemenade <https://github.com/hugovk>
+        
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: genshi
+Requires-Dist: html5lib
+
+# htmldiff2
+
+[![Tests](https://github.com/edsu/htmldiff2/actions/workflows/test.yml/badge.svg)](https://github.com/edsu/htmldiff2/actions/workflows/test.yml)
+
+htmldiff2 is a library that uses [difflib], [genshi] and [html5lib] to diff
+arbitrary fragments of HTML inline. htmldiff2 is a friendly fork of Armin
+Ronacher's [htmldiff](https://github.com/mitsuhiko/htmldiff) which needed to be
+upgraded for the [diffengine](https://github.com/docnow/diffengine) project. See
+[this issue](https://github.com/mitsuhiko/htmldiff/issues/7) for context.
+
+```python
+>>> from htmldiff2 import render_html_diff
+>>> render_html_diff('Foo <b>bar</b> baz', 'Foo <i>bar</i> baz')
+u'<div class="diff">Foo <i class="tagdiff_replaced">bar</i> baz</div>'
+>>> render_html_diff('Foo bar baz', 'Foo baz')
+u'<div class="diff">Foo <del>bar</del> baz</div>'
+>>> render_html_diff('Foo baz', 'Foo blah baz')
+u'<div class="diff">Foo <ins>blah</ins> baz</div>'
+```
+
+## Develop
+
+```
+python -mvenv .venv
+source .venv/bin/activate
+python -m pip install -e .
+python test.py
+```
+
+## Publish
+
+```
+python -m pip install setuptools build twine
+python -m build
+python -m twine upload dist/*
+```
+
+[genshi]: https://genshi.edgewall.org/
+[html5lib]: https://github.com/html5lib/html5lib-python
+[difflib]: https://docs.python.org/3/library/difflib.html

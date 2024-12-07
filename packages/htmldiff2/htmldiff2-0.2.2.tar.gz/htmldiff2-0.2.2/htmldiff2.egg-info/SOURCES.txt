@@ -1,0 +1,9 @@
+LICENSE
+README.md
+htmldiff2.py
+pyproject.toml
+htmldiff2.egg-info/PKG-INFO
+htmldiff2.egg-info/SOURCES.txt
+htmldiff2.egg-info/dependency_links.txt
+htmldiff2.egg-info/requires.txt
+htmldiff2.egg-info/top_level.txt
