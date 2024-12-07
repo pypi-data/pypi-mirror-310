@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: helpme_kratik
+Version: 0.2.0
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/KratikJain10/helpme-kratik.git
+Author: Kratik Jain
+Author-email: Kratik Jain <kratikjain1520@gmail.com>
+Maintainer-email: Kratik Jain <kratikjain1520@gmail.com>
+License: MIT license
+Project-URL: bugs, https://github.com/KratikJain10/helpme_kratik/issues
+Project-URL: changelog, https://github.com/KratikJain10/helpme_kratik/blob/master/changelog.md
+Project-URL: homepage, https://github.com/KratikJain10/helpme_kratik
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Provides-Extra: dev
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+=============
+helpme_Kratik
+=============
+
+
+.. image:: https://img.shields.io/pypi/v/helpme_kratik.svg
+        :target: https://pypi.python.org/pypi/helpme_kratik
+
+.. image:: https://img.shields.io/travis/KratikJain10/helpme_kratik.svg
+        :target: https://travis-ci.com/KratikJain10/helpme_kratik
+
+.. image:: https://readthedocs.org/projects/helpme-kratik/badge/?version=latest
+        :target: https://helpme-kratik.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Python Boilerplate contains all the boilerplate you need to create a Python package.
+
+
+* Free software: MIT license
+* Documentation: https://helpme-kratik.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
