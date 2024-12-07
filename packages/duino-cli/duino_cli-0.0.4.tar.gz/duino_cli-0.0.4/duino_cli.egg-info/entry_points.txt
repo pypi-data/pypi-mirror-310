@@ -1,0 +1,6 @@
+[console_scripts]
+cli = duino_cli.duino_cli:main
+
+[duino_cli.plugin]
+core = duino_cli.core_plugin:CorePlugin
+
