@@ -1,0 +1,12 @@
+socialgroupdetection/__init__.py,sha256=Mq6nK_ZxHRkB4DY_q2gMFkElcS_avu-741iq0QEPZoE,65
+socialgroupdetection/dictionary.py,sha256=1x-c3lzo8UmF2Ls08CFsOvBOdKYfQ99T7sKLDNTEAyg,3063
+socialgroupdetection/embeddings.py,sha256=Cfw9ZbFHpupCOuFSZD684bdYCMgIupYnmeJCegcqZU4,1331
+socialgroupdetection/filtering.py,sha256=ObEoajKy9Ied1ModXta-wiHJC2XLWln0lm8-R6AKlgs,2155
+socialgroupdetection/main.py,sha256=0yg8tI9KTTEfP1WHp0wU4f_TSdYvZz8NpP5Nf2e1e14,10546
+socialgroupdetection/system_prompt.py,sha256=zJLCqB-7qHSe_ia4jze85gxiQ2kEuedKnD0TL6DU2Jo,7094
+socialgroupdetection-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+socialgroupdetection-0.0.1.dist-info/METADATA,sha256=fRjJTBEzpzEu11N6x1vxR1EoVDOYCuXNoLOs11Zvdfc,1406
+socialgroupdetection-0.0.1.dist-info/NOTICE.txt,sha256=laldHEtIVeJrNZSnnLjur_YYvhj2CMnJYFNpQFTJI5w,258
+socialgroupdetection-0.0.1.dist-info/WHEEL,sha256=-Dn6BGn92y7Vt2sgNw19WpHEM9l6anhrkIDyS2x_lUI,91
+socialgroupdetection-0.0.1.dist-info/top_level.txt,sha256=2iYXBXDFGCNlyDq9lnKU4wUR74_4w-iZ1wCZtp4a-0Q,21
+socialgroupdetection-0.0.1.dist-info/RECORD,,
