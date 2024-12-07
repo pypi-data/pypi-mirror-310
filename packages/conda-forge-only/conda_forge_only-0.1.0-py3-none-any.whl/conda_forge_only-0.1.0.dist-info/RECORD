@@ -1,0 +1,11 @@
+conda_forge_only/__init__.py,sha256=KlUOdClZX1M_Pp1kfDLRly8jVy4UcnGHYfK58C_I_Og,357
+conda_forge_only/check.py,sha256=eZBzbccDE3FL_RB1aRhC_BnkqHXiTeE1IRM-dhLTRkE,2171
+conda_forge_only/cli.py,sha256=X--6mNG7_NwC3VbR7dRGcLBcMJyKBhBhQdIQADAQv0M,323
+conda_forge_only/version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+conda_forge_only/tests/__init__.py,sha256=O4BUQ3LHM8Ma8YU8yIvA9ZLa1NVbkQf4frD9M38nsZY,25
+conda_forge_only/tests/test_check.py,sha256=035Fnxi-EqzmKZXjZZuvaW22FphHmjOxAG3Tw0BpOdM,3712
+conda_forge_only-0.1.0.dist-info/METADATA,sha256=grDgqH1bLRlCESiNNAvNCixxZvH4hHdBvBPL8mQSAS4,1000
+conda_forge_only-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+conda_forge_only-0.1.0.dist-info/entry_points.txt,sha256=MAI9l6JwibX1moP3S_fOo6YTkhw1Vs9B7Iwa6B6Uz1s,62
+conda_forge_only-0.1.0.dist-info/licenses/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+conda_forge_only-0.1.0.dist-info/RECORD,,
