@@ -1,0 +1,16 @@
+httpx
+pandas
+pydantic
+python-dotenv
+pyyaml
+questionary
+
+[all]
+cosmonaut[dev,examples]
+
+[dev]
+pytest
+
+[examples]
+pyspark
+duckdb

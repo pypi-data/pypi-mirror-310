@@ -1,0 +1,6 @@
+httpx
+pandas
+pydantic
+python-dotenv
+pyyaml
+questionary
