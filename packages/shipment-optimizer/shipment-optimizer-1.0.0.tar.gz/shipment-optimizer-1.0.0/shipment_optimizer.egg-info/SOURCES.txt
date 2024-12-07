@@ -1,0 +1,8 @@
+README.md
+setup.py
+shipment_optimizer/__init__.py
+shipment_optimizer/optimizer.py
+shipment_optimizer.egg-info/PKG-INFO
+shipment_optimizer.egg-info/SOURCES.txt
+shipment_optimizer.egg-info/dependency_links.txt
+shipment_optimizer.egg-info/top_level.txt
