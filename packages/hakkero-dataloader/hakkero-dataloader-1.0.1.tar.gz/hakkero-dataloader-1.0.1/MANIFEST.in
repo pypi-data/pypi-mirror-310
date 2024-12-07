@@ -1,0 +1,4 @@
+include *.txt
+include *.cfg
+recursive-include requirements.txt
+recursive-include hakkero/lib
