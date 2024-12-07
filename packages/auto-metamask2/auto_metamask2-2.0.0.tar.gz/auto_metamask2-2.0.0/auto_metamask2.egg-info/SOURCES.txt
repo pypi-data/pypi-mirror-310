@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+auto_metamask2/__init__.py
+auto_metamask2/__version__.py
+auto_metamask2/core.py
+auto_metamask2.egg-info/PKG-INFO
+auto_metamask2.egg-info/SOURCES.txt
+auto_metamask2.egg-info/dependency_links.txt
+auto_metamask2.egg-info/requires.txt
+auto_metamask2.egg-info/top_level.txt
