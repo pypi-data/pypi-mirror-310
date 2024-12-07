@@ -1,0 +1,191 @@
+[build-system]
+requires = ["maturin>=1.4,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "iamai"
+dynamic = ["version"]
+description = "Comprehensive AI Toolkit for Multimodal Learning and Cross-Platform Robotics."
+authors = [{ name = "HsiangNianian", email = "i@jyunko.cn" }]
+license = { text = "MIT" }
+readme.content-type = "text/x-rst"
+readme.file = "README.rst"
+requires-python = ">=3.9"
+keywords = [
+    "bot",
+    "red",
+    "kook",
+    "onebot11",
+    "gensokyo",
+    "dingtalk",
+    "console",
+    "apscheduler",
+    "bilibili",
+    "bilibili-live",
+    "rust",
+    "pyo3",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: AsyncIO",
+    "Framework :: Robot Framework",
+    "Framework :: Robot Framework :: Library",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Chat",
+]
+dependencies = [
+    "aiohttp>=3.11.7",
+    "click>=8.1.7",
+    "loguru>=0.7.2",
+    "polib>=1.2.0",
+    "pydantic>=2.10.1",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
+    "typing-extensions>=4.12.2",
+]
+
+[project.urls]
+Homepage = "https://iamai.is-a.dev"
+Documentation = "https://iamai.is-a.dev"
+Repository = "https://github.com/retrofor/iamai"
+Changelog = "https://iamai.is-a.dev/en/latest/changelog.html#"
+
+[project.scripts]
+iamai = "iamai.__main__:main"
+
+[project.optional-dependencies]
+cqhttp = ["iamai-adapter-cqhttp"]
+bililive = ["iamai-adapter-bililive"]
+console = ["iamai-adapter-console"]
+apscheduler = ["iamai-adapter-apscheduler"]
+dingtalk = ["iamai-adapter-dingtalk"]
+gensokyo = ["iamai-adapter-gensokyo"]
+kook = ["iamai-adapter-kook"]
+red = ["iamai-adapter-red"]
+watchfiles = ["watchfiles>=1.0.0"]
+all = [
+    "iamai-adapter-apscheduler",
+    "iamai-adapter-bililive",
+    "iamai-adapter-console",
+    "iamai-adapter-cqhttp",
+    "iamai-adapter-dingtalk",
+    "iamai-adapter-gensokyo",
+    "iamai-adapter-kook",
+    "iamai-adapter-red",
+    "watchfiles>=1.0.0",
+]
+
+[tool.uv]
+dev-dependencies = ["maturin>=1.7.4", "nox>=2024.10.9"]
+
+[tool.black]
+target-version = ["py39", "py310", "py311"]
+
+[dependency-groups]
+lint = [
+    "black>=24.10.0",
+    "mypy>=1.13.0",
+    "pylint>=3.3.1",
+    "pylint-pydantic>=0.3.2",
+    "ruff>=0.8.0",
+]
+docs = [
+    "furo>=2024.8.6",
+    "sphinx-autobuild>=2024.10.3",
+    "sphinx>=7.4.7",
+    "myst-parser>=3.0.1",
+    "sphinx-design>=0.6.1",
+    "sphinx-intl>=2.3.0",
+    "sphinx-last-updated-by-git>=0.3.8",
+]
+test = [
+    "pytest>=8.3.3",
+    "pytest-asyncio>=0.24.0",
+    "pytest-cov>=6.0.0",
+    "pytest-xdist>=3.6.1",
+]
+
+[tool.uv.workspace]
+members = ["packages/*", "Test/example-ext"]
+
+[tool.uv.sources]
+iamai-adapter-cqhttp = { workspace = true }
+iamai-adapter-apscheduler = { workspace = true }
+iamai-adapter-bililive = { workspace = true }
+iamai-adapter-console = { workspace = true }
+iamai-adapter-dingtalk = { workspace = true }
+iamai-adapter-gensokyo = { workspace = true }
+iamai-adapter-kook = { workspace = true }
+iamai-adapter-red = { workspace = true }
+
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "iamai._core"
+# include = [{ path = "iamai/**/*", format = "sdist" }, "README.rst"]
+
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+# Assume Python 3.10
+target-version = "py39"
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+select = ["E4", "E7", "E9", "F"]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
