@@ -1,0 +1,9 @@
+README.md
+setup.py
+zero1tech/__init__.py
+zero1tech/google_docs.py
+zero1tech.egg-info/PKG-INFO
+zero1tech.egg-info/SOURCES.txt
+zero1tech.egg-info/dependency_links.txt
+zero1tech.egg-info/requires.txt
+zero1tech.egg-info/top_level.txt
