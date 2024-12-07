@@ -1,0 +1,11 @@
+cn_workdays/README.md,sha256=gtimOI0TlR15On1SgFquG-KuFXz7_dib3h1xsMUQweo,2548
+cn_workdays/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cn_workdays/cli.py,sha256=F50_gADV82CsliNtKsgTvwrbJu7Lzty7WnYRzUjJw7A,2709
+cn_workdays/config.json,sha256=3k6PK7P33cgni0oPGOxz3X94-9Du8Rajs0aMcllwcSQ,3610
+cn_workdays/holiparse/holiparse_marimo.py,sha256=GTbRHsuZdIwPtw0T0hAKX33TrSZde0Zwt8uoQ08nf04,2269
+cn_workdays/holiparse/parser.py,sha256=5L3dzQufEci5g_RYGbB7kPFNPvXyGiebgIsg1PkH2FM,8178
+cn_workdays/workcalc/workcalc_marimo.py,sha256=9yZHBg4VFJvctl1byQ7cEoD90axfUv4t2IKwa_Hd-Kg,6243
+cnworkdays-2025.0.dist-info/METADATA,sha256=QRmyPN1ptdl5FsDj0rEMoKBTlRP7WLFGRQgOupp8fGg,3072
+cnworkdays-2025.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+cnworkdays-2025.0.dist-info/entry_points.txt,sha256=Xdj2XE0581bP7sFiVYmrDBU4TEHtZKgXtkP2PMIEtgg,68
+cnworkdays-2025.0.dist-info/RECORD,,
