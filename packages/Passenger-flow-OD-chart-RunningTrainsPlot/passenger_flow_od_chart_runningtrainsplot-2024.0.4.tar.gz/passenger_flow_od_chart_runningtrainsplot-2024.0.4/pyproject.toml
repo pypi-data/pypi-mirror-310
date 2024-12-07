@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Passenger_flow_OD_chart_RunningTrainsPlot"
+version = "2024.0.4"
+authors = [
+  { name = "ZeyuShen", email = "sc22zs2@leeds.ac.uk" },
+]
+description = "An open-source library for visualizing transportation data"
+readme = "README.md"
+keywords = ["Running_TrainsPlot", "visualizing transportation data"]
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "matplotlib>=3.0.0",
+    "pandas>=1.0.0",
+    "numpy>=1.19.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,5 @@
+# Example Package
+
+Given this background and current research and development status, we believe that it is necessary to develop an open-source library for visualizing data in rail transit organization, covering the vast majority of operational data visualization functions in the field of rail transit organization. This will further address the growing volume of transportation data and information, improve transportation research efficiency, and meet standardization requirements This open-source library will not only provide data based drawing functions for rail transit researchers, but also provide more comprehensive and convenient scheduling and planning visualization support for railway industry practitioners based on the needs and application scenarios of the rail transit transportation sector, promoting the digital transformation and innovative development of the rail transit fieldYou can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
