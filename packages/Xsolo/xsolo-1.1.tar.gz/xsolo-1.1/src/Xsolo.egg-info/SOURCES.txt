@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/Xsolo/__init__.py
+src/Xsolo/solo.py
+src/Xsolo.egg-info/PKG-INFO
+src/Xsolo.egg-info/SOURCES.txt
+src/Xsolo.egg-info/dependency_links.txt
+src/Xsolo.egg-info/top_level.txt
