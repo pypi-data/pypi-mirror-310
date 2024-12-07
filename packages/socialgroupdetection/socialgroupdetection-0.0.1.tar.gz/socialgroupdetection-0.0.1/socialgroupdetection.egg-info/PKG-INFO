@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: socialgroupdetection
+Version: 0.0.1
+Summary: a python library to detect social groups mentioned in political texts
+Home-page: https://github.com/juliandehne/socialgroupdetection
+Author: Julian Dehne
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9, <3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE.txt
+Requires-Dist: numpy==1.22.3
+Requires-Dist: pandas~=1.5.3
+Requires-Dist: tqdm
+Requires-Dist: jupyter
+Requires-Dist: scikit-learn
+Requires-Dist: transformers
+Requires-Dist: torch
+
+# socialgroupdetection
+
+# Example usage
+
+```python
+from socialgroupdetection import SGA
+
+# make sure you have BEARER_KEY set as an environment variable or you use bearer_key in constructor
+
+sga = SGA(gwdg_server=True, bearer_key=None) # set bearer key to your gwdg/chatgpt key
+response = sga.get_completion(prompt="The teleworker brings only his or her work tools offices are generally equipped and pays for access to the office?")
+```
+
+Returns:
+
+ ```json
+{
+  "explizit": [
+    "teleworker"
+  ],
+  "implizit": [],
+  "sonstige": [
+    "work tools",
+    "offices"
+  ]
+}
+```

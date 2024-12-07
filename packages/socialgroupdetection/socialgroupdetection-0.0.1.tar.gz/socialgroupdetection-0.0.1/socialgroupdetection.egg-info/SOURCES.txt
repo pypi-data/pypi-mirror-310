@@ -1,0 +1,15 @@
+LICENSE
+NOTICE.txt
+README.md
+setup.py
+socialgroupdetection/__init__.py
+socialgroupdetection/dictionary.py
+socialgroupdetection/embeddings.py
+socialgroupdetection/filtering.py
+socialgroupdetection/main.py
+socialgroupdetection/system_prompt.py
+socialgroupdetection.egg-info/PKG-INFO
+socialgroupdetection.egg-info/SOURCES.txt
+socialgroupdetection.egg-info/dependency_links.txt
+socialgroupdetection.egg-info/requires.txt
+socialgroupdetection.egg-info/top_level.txt
