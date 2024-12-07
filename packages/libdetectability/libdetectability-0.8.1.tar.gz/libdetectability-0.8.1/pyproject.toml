@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libdetectability"
+version = "0.8.1"
+description = "A library for detectability calculations"
+authors = [
+    {name = "Niels de Koeijer", email = "null"}
+]
+license = {text = "Specify your license here"}
+dependencies = [
+    "pytest",
+    "numpy",
+    "scipy",
+    "torch",
+    "libsegmenter",
+]
+
+[project.optional-dependencies]
+tensorflow = ["tensorflow>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["libdetectability"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+
