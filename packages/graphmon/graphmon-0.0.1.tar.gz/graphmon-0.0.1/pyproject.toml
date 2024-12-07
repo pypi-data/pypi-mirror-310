@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphmon"
+version = "0.0.1"
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "PyQt6",
+]
+requires-python = ">= 3.6"
+authors = [
+  {name = "Pragmatic Software", email = "pragma78@gmail.com" },
+]
+description = "Monitor metrics in a nice graph (a-la perfmon.exe)"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+  "graph", "perfmon", "perfmon.exe", "matplotlib", "metrics",
+  "perf", "performance", "cpu", "process", "memory", "ram"
+]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Programming Language :: Python :: 3",
+  "Environment :: X11 Applications",
+  "Environment :: X11 Applications :: Qt",
+  "Framework :: Matplotlib",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX",
+  "Topic :: System :: Monitoring",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/pragma-/graphmon"
+Repository = "https://github.com/pragma-/graphmon.git"
+Iusses = "https://github.com/pragma-/graphmon/issues"
+
+[project.gui-scripts]
+graphmon = "graphmon:main"
