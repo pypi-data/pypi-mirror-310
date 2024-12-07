@@ -1,0 +1,10 @@
+cxx_image_io/__init__.py,sha256=bibMe2owZfRGohO8c-ywh_lTlseLZPWQOkkO63Wug2c,683
+cxx_image_io/cxx_image.cp311-win_amd64.pyd,sha256=3pDdxsjnVpy_bIIYD6yKQno7v_IdRThYOaGKrkPbpqA,5527040
+cxx_image_io/io.py,sha256=g0Dx8mnqSPNx5utYSs4RYL5gUvHRC7TPj7bmFuRkr-I,6760
+cxx_image_io/libexif.dll,sha256=Q0i9wOtQ1NR8riuLndVgzKKh4wjKH2njfEShN4aSYj4,512242
+cxx_image_io/utils.py,sha256=JfATgISQoNu-GUewSOhSFFY64_mps-31ExRmk6FK38E,12586
+cxx_image_io-1.0.4.dist-info/LICENSE.md,sha256=A286ivtKXdoa55Xi4yxe-SHBDHJUTp_RDQoUh2kP4y4,1083
+cxx_image_io-1.0.4.dist-info/METADATA,sha256=xOGMejq52qpIb0Xbh59dNOzXHeKUOHD9hVTwqp7MrD8,12243
+cxx_image_io-1.0.4.dist-info/WHEEL,sha256=nkBcd8Ko0v5sEcSagm2-x_RVrb8gBSkTa8VFFZ0Mr1o,101
+cxx_image_io-1.0.4.dist-info/top_level.txt,sha256=qfJHhjlSV-6njNwlUODGXv8V6CNBhvGOjZQShPnbsBQ,23
+cxx_image_io-1.0.4.dist-info/RECORD,,
