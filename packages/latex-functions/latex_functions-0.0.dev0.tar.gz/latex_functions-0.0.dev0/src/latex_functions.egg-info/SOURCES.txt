@@ -1,0 +1,8 @@
+setup.py
+src/latex_functions/__init__.py
+src/latex_functions/latex_functions.py
+src/latex_functions.egg-info/PKG-INFO
+src/latex_functions.egg-info/SOURCES.txt
+src/latex_functions.egg-info/dependency_links.txt
+src/latex_functions.egg-info/requires.txt
+src/latex_functions.egg-info/top_level.txt
