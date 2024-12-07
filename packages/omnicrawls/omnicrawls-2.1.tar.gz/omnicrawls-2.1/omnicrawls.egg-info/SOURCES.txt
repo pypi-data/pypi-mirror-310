@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+omnicrawls/__init__.py
+omnicrawls/github_crawler.py
+omnicrawls/linkedin_crawler.py
+omnicrawls/website_crawler.py
+omnicrawls.egg-info/PKG-INFO
+omnicrawls.egg-info/SOURCES.txt
+omnicrawls.egg-info/dependency_links.txt
+omnicrawls.egg-info/requires.txt
+omnicrawls.egg-info/top_level.txt

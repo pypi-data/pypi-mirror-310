@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: omnicrawls
+Version: 2.1
+Summary: A Python library for crawling LinkedIn data and GitHub repos and scrap websites.
+Author: Vinayak Pratap Rana
+Author-email: perrcroshado@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# omnicrawls
+
+omnicrawls is a Python library designed to simplify the extraction of data from various online platforms, including LinkedIn, GitHub repositories, and general websites. With this library, you can easily crawl and collect posts from LinkedIn, repository data from GitHub, and content from any website.
+
+NOTE=Set your linkedin email and password in .env file in root directory of your project for first time login after that linkedin_cookies.pkl will be created in root directory of your project and that is use for further login.
+Like this:
+EMAIL=your_email_here
+PASSWORD=your_password_here
+
+
+## Features
+
+- **LinkedIn Crawler**: Extracts Data from LinkedIn profiles.
+- **GitHub Crawler**: Retrieves file data from GitHub repositories.
+- **Website Scraper**: Scrapes and retrieves content from specified websites.
+
+### Output Formats
+
+- **LinkedIn**: Returns a data of the profile`.
+- **GitHub**: Returns a dictionary of filenames and their respective data in the format `{"filename": "data", "filename2": "data", ...}`.
+- **Website**: Returns simple scraped data in a string format `data......`.
+
+## Installation
+
+You can install the crawls library via pip:
+
+```bash
+pip install omnicrawls
+```
+
+## Usage
+
+Hereâ€™s a quick example demonstrating how to use the library to extract data from GitHub, LinkedIn, and general websites.
+
+```python
+from omnicrawls import GithubCrawler
+from omnicrawls import LinkedInCrawler
+from omnicrawls import WebsiteScraper
+
+# Extract data from GitHub repository
+def githubtest():
+    github = GithubCrawler()  # Initialize the GitHub Crawler
+    link = input("Enter your GitHub repo link: ")
+    output = github.extract(link)  # Extract data using the main method
+    print(output)
+
+# Extract data from a website
+def websitetest():
+    website = WebsiteScraper()  # Initialize the Website Scraper
+    link = input("Enter website link: ")
+    output = website.extract(link)  # Extract data from the website
+    print(output)
+
+
+# Extract data from LinkedIn profile
+def linkedintest():
+    from dotenv import load_dotenv
+    load_dotenv()
+    link = input("define your linkedin profile url: ") # or just set url without input
+    data_types = ["Posts"]  #["Posts","Experience","Education","Basic Profile","all"] you can enter one or more of these types and if want all then use "all"
+    linkedin = LinkedInCrawler()
+    output = linkedin.extract(link, data_types)
+    print(output)
+    
+    #Set your linkedin email and password in .env file in root directory of your project for first time login after that linkedin_cookies.pkl will be created in root directory of your project and that is use for further login.
+#    Like this:
+#    EMAIL=your_email_here
+#    PASSWORD=your_password_here
+
+
+if __name__ == "__main__":
+    print("1. Test GitHub")
+    githubtest()
+    print("2. Test LinkedIn")
+    linkedintest()
+    print("3. Test Website")
+    websitetest()
+```
+
+### Class and Method Descriptions
+
+```python
+# GitHubCrawler:
+  Initializes a new instance of the GithubCrawler().
+  extract(link): This method takes a GitHub repository link and retrieves file data from it.
+
+# LinkedInCrawler:
+  Initializes a new instance of the LinkedInCrawler(email, password).
+  LinkedInCrawler.extract(link,data_types): This method takes a LinkedIn profile link and extracts posts, basic profile, experience, education from that profile.
+  NOTE=Set your linkedin email and password in .env file in root directory of your project for first time login after that linkedin_cookies.pkl will be created in root directory of your project and that is use for further login.
+
+# WebsiteScraper:
+  Initializes a new instance of the WebsiteScraper().
+  extract(link): This method takes a website link and scrapes content from that page.
+```
+
+### Example Outputs
+
+- **LinkedIn Output**:
+    ```python
+    {'Posts':["post1", "post2", "post3"..]}
+    ```
+
+- **GitHub Output**:
+    ```python
+    {"filename": "data", "filename2": "data"}
+    ```
+
+- **Website Output**:
+    ```
+    data......
+    ```
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to create an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+For any inquiries, please reach out to [Vinayak Pratap Rana](perrcroshado@gmail.com).
+```
