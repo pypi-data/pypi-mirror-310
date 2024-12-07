@@ -1,0 +1,2 @@
+[console_scripts]
+run_beamformer = spear_ai_beamformer.beamformer_main:run_beamformer
