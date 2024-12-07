@@ -1,0 +1,13 @@
+README.md
+setup.py
+zalopysdk.egg-info/PKG-INFO
+zalopysdk.egg-info/SOURCES.txt
+zalopysdk.egg-info/dependency_links.txt
+zalopysdk.egg-info/requires.txt
+zalopysdk.egg-info/top_level.txt
+zalosdk/__init__.py
+zalosdk/client.py
+zalosdk/endpoint.py
+zalosdk/error_code.py
+zalosdk/message.py
+zalosdk/template.py
