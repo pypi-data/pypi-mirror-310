@@ -1,0 +1,10 @@
+cachebox-4.3.2.dist-info/METADATA,sha256=U62X2IXoxWl7338qFzC-yWm3PRqck5aP2wv98FMyRgY,21727
+cachebox-4.3.2.dist-info/WHEEL,sha256=N-gxmsfzlKUgqtQB_6JL-PfbhPTqx4TtL5_KRc8m3xY,107
+cachebox-4.3.2.dist-info/licenses/LICENSE,sha256=4oH8nU-rNZ9h5tbh6MoPVPFgtYDqsPXlAr2QnhnxQ4Q,1064
+cachebox.libs/libgcc_s-5b5488a6.so.1,sha256=HGKUsVmTeNAxEdSy7Ua5Vh_I9FN3RCbPWzvZ7H_TrwE,2749061
+cachebox/utils.py,sha256=ndO5fECmQ6rF7XnJLqb1KFBTUuLiGHUKMGHVJu4bBi8,12110
+cachebox/_cachebox.pyi,sha256=ezaRUDGkUGYnEUcMDCw9e2mogqJK-FlJYPdTMv5nqUs,39320
+cachebox/__init__.py,sha256=WJUWNONUjNxXnMazd0kekkAJpiOj9ZKelpZYOi0JOzI,1141
+cachebox/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cachebox/_cachebox.cpython-312-arm-linux-musleabihf.so,sha256=YcYRV_ypxrEQP1vB7FqxyYCW1FC7MJj35Lcy61qTLI4,842429
+cachebox-4.3.2.dist-info/RECORD,,
