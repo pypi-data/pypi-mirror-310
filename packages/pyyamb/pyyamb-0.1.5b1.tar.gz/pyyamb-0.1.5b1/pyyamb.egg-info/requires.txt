@@ -1,0 +1,9 @@
+biopython
+pandas
+seaborn
+pysam
+matplotlib
+numpy
+scikit-learn>=1.3
+pycoverm
+regex
