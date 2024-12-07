@@ -1,0 +1,14 @@
+smiths_svg/SmithsSvg.py,sha256=yFaQPGQNs1fVBVRdgB8OfiCRI1BO3278-UqPOW_KiIs,1550
+smiths_svg/__init__.py,sha256=i55sO8jX1PWuZUxlnzFkWtAAbUAZrxDPIK27ctqVwWc,2348
+smiths_svg/_imports_.py,sha256=WgYr7X2QMUdnzeIhfnjpAI_Of6yP_qyWZUT1is2WwK8,20
+smiths_svg/async-SmithsSvg.js,sha256=OXPOmxTwUnwtwrl5Gmr2qX0ekp2D1PMi91IMpKykZE4,2594
+smiths_svg/async-SmithsSvg.js.map,sha256=we960Qu5-kR0WUAPRbMtxGJGgpyGjcQeI7CQuC981Ss,2958
+smiths_svg/metadata.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+smiths_svg/package-info.json,sha256=FAyQbokI5-AoDEUagmxsnUYoSCdlGLZfvPU0_cpzopo,1793
+smiths_svg/smiths_svg.min.js,sha256=AsdGaSbhjwuMPEnE-qxCY6prpgrU75oEjNhaWXWOOzw,14090
+smiths_svg/smiths_svg.min.js.map,sha256=BiZnZ_1ulzksj9oHYjhoYjniVwiWwZzRJEjiX0c0X50,27836
+smiths_svg-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smiths_svg-0.0.1.dist-info/METADATA,sha256=FiDHVoq-cHYVfPawnFmW4_HhYHkSlPwwNI9nUGhN800,3986
+smiths_svg-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+smiths_svg-0.0.1.dist-info/top_level.txt,sha256=G3gt1UFtKglVTrKkKMp-InQIZhsyJnQ2db8IEU27Ils,11
+smiths_svg-0.0.1.dist-info/RECORD,,
