@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "texfont"
+version = "0.1.9"
+description = ""
+authors = ["desonglll <lindesong666@163.com>"]
+readme = "README.md"
+include = ["texfont/font_list.json"]
+packages = [
+    { include = "texfont" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.13.1"
+requests = "^2.32.3"
+tqdm = "^4.67.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+texfont = "texfont.cli:app"
