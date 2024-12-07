@@ -1,0 +1,11 @@
+mk1pass/CHECKSUM-SHA3-256.py,sha256=ix4IjwGqa0oVTyYVljq0MLB15JzhJW4NQwiaHP3sYeE,684
+mk1pass/__init__.py,sha256=czS1mMvpvbepeTORsAjdvV4DOENW5oi0fCgcHRSX9ho,955
+mk1pass/__main__.py,sha256=DWhb8tZ4DEPlQa6mjJNiPwinC74qqaUAeGUgIMPW66E,942
+mk1pass/mk1pass.py,sha256=KJsiwibnHl2tcuW7X8m7qmwLYobs8QHFiJ9VF_yRAR0,14550
+mk1pass/printdv.py,sha256=gUW-nOv-rQwFFjDxTRWIIcegwIJ6Y8YkEqMkzw0mX1E,2466
+mk1pass-0.0.4.dist-info/LICENSE,sha256=tuyaNjCbHa3jyTqoFMstr7FlwOMsOv15tbdB5msGAhM,4698
+mk1pass-0.0.4.dist-info/METADATA,sha256=UQvAYUqCz2Z0oGaFttOdbeIghk_d9fHaBEYrAo6K_8s,8375
+mk1pass-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mk1pass-0.0.4.dist-info/entry_points.txt,sha256=-Izm4YLlE6ooxjDZZj2y9SxMxLGLNA6E4lrw6pigvlY,49
+mk1pass-0.0.4.dist-info/top_level.txt,sha256=ubndDr8WufBH67gOzNzk96Dz05z-f8xowxlWiR7nHj0,8
+mk1pass-0.0.4.dist-info/RECORD,,
