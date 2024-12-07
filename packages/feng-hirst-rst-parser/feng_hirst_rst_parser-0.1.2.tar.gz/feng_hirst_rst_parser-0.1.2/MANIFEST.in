@@ -1,0 +1,3 @@
+include LICENSE
+include README.md
+recursive-include feng_hirst_parser *
