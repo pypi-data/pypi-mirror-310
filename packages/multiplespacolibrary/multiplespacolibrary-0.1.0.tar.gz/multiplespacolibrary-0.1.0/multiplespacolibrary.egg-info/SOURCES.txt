@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+multiples/__init__.py
+multiples/is_multiple_of_five.py
+multiples/is_multiple_of_two.py
+multiplespacolibrary.egg-info/PKG-INFO
+multiplespacolibrary.egg-info/SOURCES.txt
+multiplespacolibrary.egg-info/dependency_links.txt
+multiplespacolibrary.egg-info/top_level.txt
+tests/__init__.py
+tests/test_is_multiple_of_five.py
+tests/test_is_multiple_of_two.py
