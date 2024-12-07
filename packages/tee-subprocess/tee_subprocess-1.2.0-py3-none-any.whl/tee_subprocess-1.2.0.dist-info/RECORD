@@ -1,0 +1,8 @@
+tee_subprocess-1.2.0.dist-info/METADATA,sha256=yCwmUFKNPs4i5QcFKzuY4TB6w27rs93a432mlDaqkyc,3212
+tee_subprocess-1.2.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+tee_subprocess-1.2.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+tee_subprocess-1.2.0.dist-info/licenses/LICENSE,sha256=-oRX1sF1RcNTLVZg6fYiWpSDRbXgJlM0PcgET5hDFfE,1070
+tee_subprocess/__init__.py,sha256=XwzSgJw4jfqU35P_EGyHm3l7lH0ZTnINo3IF5LItcKE,47
+tee_subprocess/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tee_subprocess/subprocess.py,sha256=TsCRLsLpOgzv5QEKE4KDwiI1YTAFVXDxWWumQV5wfhk,11821
+tee_subprocess-1.2.0.dist-info/RECORD,,
