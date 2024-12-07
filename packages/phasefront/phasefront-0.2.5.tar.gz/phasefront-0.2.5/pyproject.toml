@@ -1,0 +1,72 @@
+[build-system]
+requires = [
+    "setuptools>=66.0",
+    "mkdocs>=1.5",
+    "mkdocs-material>=9.0",
+    "mkdocs-with-pdf>=0.9",
+    "PyYAML>=6.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phasefront"
+dynamic = ["version"]
+description = "PQ strEEm Exploratory Data Analysis tool"
+authors = [
+    {name = "Kevin Davies", email = "kdavies@phasefront.io"},
+]
+license = {text = "Copyright 2024 PhaseFront and Renewable Edge LLC"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "iso8601>=2.1",
+    "matplotlib>=3.8",
+    "numpy>=1.24",
+    "paramiko>=3.3",
+    "pyarrow>=14.0",
+    "tomli>=2.0",
+    "tqdm>=4.65.0",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.scripts]
+pmon-list = "phasefront.pmon.list:main"
+pmon-fetch = "phasefront.pmon.fetch:main"
+pmon-plot = "phasefront.pmon.plot:main"
+wave-list = "phasefront.wave.list:main"
+wave-fetch = "phasefront.wave.fetch:main"
+wave-plot = "phasefront.wave.plot:main"
+phasefront-docs = "phasefront.docs:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "tools.build.get_and_write_version_and_docs"}
+
+[tool.setuptools]
+packages = [
+    "phasefront",
+    "phasefront.pmon",
+    "phasefront.wave",
+    "phasefront.docs",
+]
+package-dir = {"" = "."}
+include-package-data = false
+
+[tool.setuptools.package-data]
+phasefront = [
+    "docs/site/**/*",  # Only include generated site files
+    "docs/*.pdf"       # Include PDF documentation
+]
+
+[tool.setuptools.exclude-package-data]
+"*" = [
+    "docs/src/*",      # Exclude source files
+    "docs/assets/*"    # Exclude source assets
+]

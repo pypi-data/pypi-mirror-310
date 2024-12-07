@@ -1,0 +1,8 @@
+[console_scripts]
+phasefront-docs = phasefront.docs:main
+pmon-fetch = phasefront.pmon.fetch:main
+pmon-list = phasefront.pmon.list:main
+pmon-plot = phasefront.pmon.plot:main
+wave-fetch = phasefront.wave.fetch:main
+wave-list = phasefront.wave.list:main
+wave-plot = phasefront.wave.plot:main
