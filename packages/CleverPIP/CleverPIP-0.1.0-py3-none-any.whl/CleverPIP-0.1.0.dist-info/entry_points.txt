@@ -1,0 +1,2 @@
+[console_scripts]
+cleverpip = src.main:cli
