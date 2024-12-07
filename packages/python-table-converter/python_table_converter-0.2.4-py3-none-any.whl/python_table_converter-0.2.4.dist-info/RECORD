@@ -1,0 +1,10 @@
+table_converter/__init__.py,sha256=M2U39jtqvvKMIzP7JcLQfIpEiLg2puDJhm3sC7ZahL8,52
+table_converter/cli.py,sha256=PjlOiOFjUTEzjpVZzpRIZLfAPqseU1r2tIKQf9sg514,1348
+table_converter/commands/convert_tables.py,sha256=5OcOrv2AK19ZavAQFLUi0jfiw4dvSF2l53t7MMliSqY,1882
+table_converter/core/config.py,sha256=8U6-Z9JRYquwoRNjR62e2uwuT6hCKwYhmJo7pfwlVbs,2362
+table_converter/core/convert.py,sha256=NAcm4RucPVPx69nkkOv3iueBBU1NuTqTGgqA2OGcBwM,10618
+python_table_converter-0.2.4.dist-info/LICENSE,sha256=1_Gn0I1neLPxDLfLiHEyxjDg-pbAra1p2iHEqutGS_c,1068
+python_table_converter-0.2.4.dist-info/METADATA,sha256=g5vzDShJsaHwwjAeM_Ia-fePFYNHB3-uE2e2VLgNWC4,1055
+python_table_converter-0.2.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+python_table_converter-0.2.4.dist-info/entry_points.txt,sha256=VL9tNIWL31AGIvJnHetcJGH7G1i_WNcOknDpYq6JRac,117
+python_table_converter-0.2.4.dist-info/RECORD,,
