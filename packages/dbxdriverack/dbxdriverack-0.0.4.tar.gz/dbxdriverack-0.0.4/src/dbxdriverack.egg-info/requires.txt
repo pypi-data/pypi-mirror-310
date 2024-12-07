@@ -1,0 +1,12 @@
+tssplit
+
+[dev]
+black
+
+[docs]
+sphinx
+sphinxcontrib-napoleon
+sphinx-rtd-theme
+
+[validate]
+mypy
