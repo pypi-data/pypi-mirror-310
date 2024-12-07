@@ -1,0 +1,5 @@
+# ninja log v5
+3	72	7542516703244638	CMakeFiles/lh2.dir/lh2.c.obj	b9338ff3d85bdcbb
+73	136	7542516703871730	lh2.dll	d3efec3cd28c1a0d
+73	136	7542516703871730	liblh2.dll.a	d3efec3cd28c1a0d
+136	166	0	CMakeFiles/install.util	eb8c842a3df3dc5e
