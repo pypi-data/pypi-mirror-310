@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: voxec
+Version: 0.4.0
+Summary: Python bindings for the voxelization toolkit
+Author-email: Thomas Krijnen <thomas@aecgeeks.com>
+Project-URL: Bug Tracker, https://github.com/opensourceBIM/voxelization_toolkit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: <3.14,>=3.9
