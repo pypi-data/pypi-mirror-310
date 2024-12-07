@@ -1,0 +1,7 @@
+README.md
+setup.py
+fsconnectapi.egg-info/PKG-INFO
+fsconnectapi.egg-info/SOURCES.txt
+fsconnectapi.egg-info/dependency_links.txt
+fsconnectapi.egg-info/requires.txt
+fsconnectapi.egg-info/top_level.txt

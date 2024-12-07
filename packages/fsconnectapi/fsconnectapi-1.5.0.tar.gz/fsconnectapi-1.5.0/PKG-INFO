@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fsconnectapi
+Version: 1.5.0
+Summary: A simple Python API for key management and summarization
+Author: FSConnect
+Author-email: logtkenn@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Flask>=2.0.0
+
+# Fsconnect
+
+A simple Flask-based API for API key management and text summarization.
+
+## Installation
+
+```bash
+pip install fsconnect
