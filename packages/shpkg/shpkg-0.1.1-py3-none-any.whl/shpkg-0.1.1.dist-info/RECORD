@@ -1,0 +1,12 @@
+shpkg/__main__.py,sha256=izwDJZOF6c5sUakT6Jupx3tus42QCv5tq2W02SPS1SQ,999
+shpkg/install.py,sha256=BLBaP8U4bItltVStUzcVxHUn-rGATcbyIHMSrLQy74M,1753
+shpkg/list_pkg.py,sha256=4jUYzem-MNq2Ks5LwozO1cMz7OwR_vU2p4agp1Z_FVY,548
+shpkg/remove.py,sha256=tE5QrdEiU96SiWKzOkLQ5U19Fqp4KHN7sStdD_rN1lc,1744
+shpkg/update.py,sha256=h_PGFcXcfJwKMmWSu5BQ8Y9IwixMQxVwRD7uvI-riQI,1224
+shpkg/update_all.py,sha256=Kmc42r6t8mXb8hf9Z-fV_pOzMLjJSwVHsoca7QcfE_k,930
+shpkg-0.1.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+shpkg-0.1.1.dist-info/METADATA,sha256=8vpLlxwWlwp3O_Ejaz1ResM3tVT1eE5EEM1vQRWvdZo,1797
+shpkg-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+shpkg-0.1.1.dist-info/entry_points.txt,sha256=MV-ftlxujdPDaKFvjFaJ3kQEv0Mmr88iyTPIcbUpipE,46
+shpkg-0.1.1.dist-info/top_level.txt,sha256=fm33qUbRNa_PeTTnu_FxvkP2SoBPbPJOcjr6wyWKN-E,6
+shpkg-0.1.1.dist-info/RECORD,,
