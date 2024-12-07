@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+title 创建虚拟环境中...
+python -m venv venv
+
+title 激活虚拟环境中...
+. venv/Scripts/activate
+
+title 安装依赖中...
+pip install -r requirements.txt
+
+title 启动UI界面中...
+python convert_ui.py
