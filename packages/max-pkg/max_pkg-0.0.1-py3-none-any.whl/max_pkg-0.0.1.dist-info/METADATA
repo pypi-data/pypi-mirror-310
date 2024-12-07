@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: max_pkg
+Version: 0.0.1
+Summary: A small package for eeg process
+Home-page: https://gitcode.com/LuPIGGY/max_pkg/tree/main/max_pkg
+Author: maxluuu
+Author-email: maxluuu@126.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# max_pkg
+
