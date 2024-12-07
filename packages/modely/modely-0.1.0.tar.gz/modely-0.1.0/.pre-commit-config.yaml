@@ -1,0 +1,38 @@
+ci:
+  autoupdate_schedule: monthly
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: 'v0.7.2'
+  hooks:
+    # Run the formatter.
+    - id: ruff-format
+    # Run the linter.
+    - id: ruff
+      args: [--fix]
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: 'v1.13.0'
+  hooks:
+    - id: mypy
+      additional_dependencies: ['types-PyYAML==6.0.12.20240917', 'pytest==8.3.2']
+      files: ^(src/modely|tests)/
+- repo: https://github.com/codespell-project/codespell
+  rev: 'v2.3.0'
+  hooks:
+    - id: codespell
+      files: \.(py|rst|md)$
+      args: [--ignore-words-list=ser]
+-   repo: https://github.com/pycqa/flake8
+    rev: '7.1.1'  # todo: remove once https://github.com/astral-sh/ruff/issues/458 is addressed
+    hooks:
+    -   id: flake8
+        additional_dependencies: [darglint==1.8.1, Flake8-pyproject]
+        entry: flake8 --select DAR --ignore DAR101,DAR402,DAR401,DAR201
+        exclude: |
+            (?x)^(
+                tests/.*
+            )$
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+  -   id: name-tests-test
