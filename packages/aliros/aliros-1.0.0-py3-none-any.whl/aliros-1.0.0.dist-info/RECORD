@@ -1,0 +1,12 @@
+aliros/__cli__.py,sha256=Tp2IFHOO6mE8Ma1EpdSd9AGYE0haAsg7iu5zYhZ3ylU,1846
+aliros/__init__.py,sha256=U6Ho_7vFMdiiBquRggafa1FmhtmhG1rL8pYNa4EkPsI,78
+aliros/__main__.py,sha256=oYaa3weanT0ufjWL074yg2CyRo6FxaMEyhdOY0u-mJE,116
+aliros/commands/__init__.py,sha256=XybQnwLNVBQZ_XSrx4ZiuSiAPaW5wRexoNbhYXlNGnI,87
+aliros/commands/list_regions.py,sha256=HO0WYu_Pb4AAwU2CIo7O_9i7HUtsN9-_35T79qLKaag,374
+aliros/request.py,sha256=6mkTU_lggnXdCeJmSqP-XfDmjVU8IPjbXY-xUuWUz4U,645
+aliros/template.py,sha256=-pWyW3UyGVIjw77WNjFu-2NoPO7S48bf_EnVulRyxqc,2335
+aliros-1.0.0.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+aliros-1.0.0.dist-info/METADATA,sha256=VTJZmC4dOLJlDPvCsRZxqIxC19dxTn9rGIn5CGc7YJg,1614
+aliros-1.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+aliros-1.0.0.dist-info/entry_points.txt,sha256=WzusKUpuN-fvk32WQ7r18jHhbmJJurVRax0TdzAGmAw,47
+aliros-1.0.0.dist-info/RECORD,,
