@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: RAISING
+Version: 1.0.0
+Summary: RAISING: A supervised deep learning framework for hyperparameter tuning and feature selection
+Author: Devashish Tripathi
+Author-email: devashishtripathi697@gmail.com
+License: GPL-3.0-or-later
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.5.2
+Requires-Dist: numpy>=1.23.5
+Requires-Dist: tensorflow<2.16.0
+Requires-Dist: keras>=2.11.0
+Requires-Dist: scikit-learn>=1.0.2
+Requires-Dist: keras-tuner>=1.1.3
+Requires-Dist: pysnptools>=0.5.10
+Requires-Dist: tensorflow_addons>=0.18.0
+Requires-Dist: imbalanced-learn>=0.11.0
+Requires-Dist: shap>=0.41.0
+Requires-Dist: statsmodels>=0.14.0
+Requires-Dist: matplotlib>=3.6.2
+
+# RAISING
+
+This repository contains the source code, simulation data, and documentation for the **RAISING**, a two-stage neural network(NN) implementation framework that first performs hyperparameter tuning to devise the best NN architecture and then performs training on the entire data to estimate the feature importance. The method has been published in Nucleic Acids Research (<https://doi.org/10.1093/nar/gkae1027>).
+
+## RAISING installation
+
+Create a conda environment to install the RAISING
+
+```
+conda create -n RAISING_env python=3.9
+conda activate RAISING_env
+```
+
+Install the package through a github repository
+
+```
+pip install git+https://github.com/Devashish13/RAISING.git
+```
+
+## RAISING implementation 
+Please visit the following link for detailed description of RAISING documentation and tutorials
+
+<https://devashish13.github.io/RAISING/>
+
+## Simulated data generated for detecting polygenic adaptation
+Simulated data generated in this study for detecting polygenic selection can be accessed from zenodo repository(<https://zenodo.org/records/12752105>)
