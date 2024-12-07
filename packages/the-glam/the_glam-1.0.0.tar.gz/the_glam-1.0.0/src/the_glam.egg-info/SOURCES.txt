@@ -1,0 +1,9 @@
+pyproject.toml
+src/glam/__init__.py
+src/glam/_lib.py
+src/the_glam.egg-info/PKG-INFO
+src/the_glam.egg-info/SOURCES.txt
+src/the_glam.egg-info/dependency_links.txt
+src/the_glam.egg-info/requires.txt
+src/the_glam.egg-info/top_level.txt
+tests/test.py
