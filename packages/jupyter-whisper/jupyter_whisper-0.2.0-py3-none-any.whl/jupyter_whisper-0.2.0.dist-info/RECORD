@@ -1,0 +1,16 @@
+jupyter_whisper/__init__.py,sha256=QC8Vtp3e-Jr0iNK8phvOt63VxEJLhY8XJdgCkVo3SFg,43860
+jupyter_whisper/__version__.py,sha256=9g29VaGN8c1oFn2UXPIydxi65FMXnf7OBioImrTt_Qo,160
+jupyter_whisper/cell_outputs copy.py,sha256=sxHYHHC0x7CB1a02SNP9cF3a39YKBt3P5A5RsHE8Viw,17695
+jupyter_whisper/cell_outputs.py,sha256=DmT9KTq4-e38LFwkb6237Cz9efMuhHaywSZuZiuvEmE,14683
+jupyter_whisper/config.py,sha256=Jb2TaGPWBovztpX7p8GEzi38_4iqV4rWe7aS92le68U,41556
+jupyter_whisper/search.py,sha256=gc6lL0Rm30a2NJ4jUeCdzVW3kiXP-DYehEv2gskQy4Y,1389
+jupyter_whisper/server.py,sha256=AIK7XPnnoiCVWGCAxhQFT7JDPLoAt-QaIxBpWzrwrUQ,16791
+jupyter_whisper/static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_whisper/static/main.js,sha256=S5hX-e9ouYZty3PogvqZuIQs_GIMAKz0pguNOXKqLS4,5733
+jupyter_whisper/static/voicerecorder.js,sha256=bQEWq6vMXGxkyv9QeE0lhJj4jZ53Gnsvw6H8ocEEjb4,6087
+jupyter_whisper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_whisper-0.2.0.dist-info/LICENSE,sha256=YXFH5brwHzQ-Wgl_T4Q40xV4W2S6kTALjWhPn-sNJm4,1063
+jupyter_whisper-0.2.0.dist-info/METADATA,sha256=k2FAVqibo1K-SOiinwGCNkXOUHkaUyPOXKLDkbBpykA,7258
+jupyter_whisper-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+jupyter_whisper-0.2.0.dist-info/top_level.txt,sha256=vo8XNY8COQfK3FZ7oR19lMvxWwXGx97pvcsFtJ5zuFM,16
+jupyter_whisper-0.2.0.dist-info/RECORD,,
