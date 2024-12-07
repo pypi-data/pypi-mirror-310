@@ -1,0 +1,10 @@
+setup.py
+buzx/__init__.py
+buzx/__main__.py
+buzx/downloader.py
+buzx.egg-info/PKG-INFO
+buzx.egg-info/SOURCES.txt
+buzx.egg-info/dependency_links.txt
+buzx.egg-info/entry_points.txt
+buzx.egg-info/requires.txt
+buzx.egg-info/top_level.txt
