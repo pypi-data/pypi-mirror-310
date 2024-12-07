@@ -1,0 +1,9 @@
+mjsqltool/__init__.py,sha256=h9FOSgiPmiSGIXhgRqj2gw5gXz6BwRbjNSWCVZtVHfQ,190
+mjsqltool/connectdb.py,sha256=YOKVPORtTePywWRR-HAy77ObXEgtZrJyfj6BDjSjPt0,2589
+mjsqltool/package.py,sha256=qf4unh0eHFec63-DDB9gc97p6ra2zLSgnwcEmF37EOE,14183
+mjsqltool/pgsql.py,sha256=eoqDvQWSlo76GPb14hg8R_cxiNshzAoB9wYgBHtLf_E,5232
+mjsqltool-2.0.1.dist-info/LICENSE,sha256=YyauYN14yFsfL2_zCO8WFf-TkyMnDYOOjrqyD13hqMU,9719
+mjsqltool-2.0.1.dist-info/METADATA,sha256=1hZEwPqoAQ6ApznY9oS0cMP3abcbveTzTKZqWaQNEHY,2933
+mjsqltool-2.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mjsqltool-2.0.1.dist-info/top_level.txt,sha256=ahn4AJBhkJEUlMutx0Ef3xJmXsMGaLfzDt3HlUisqUg,10
+mjsqltool-2.0.1.dist-info/RECORD,,
