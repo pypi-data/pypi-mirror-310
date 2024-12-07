@@ -1,0 +1,189 @@
+Metadata-Version: 2.3
+Name: spear-ai-beamformer
+Version: 0.4.0
+Summary: A conventional beamformer
+Project-URL: Changelog, https://github.com/spear-ai/beamform/tree/main/packages/beamformer/CHANGELOG.md
+Project-URL: Documentation, https://github.com/spear-ai/beamform/tree/main/packages/beamformer
+Project-URL: Releases, https://github.com/spear-ai/beamform/releases
+Project-URL: Repository, https://github.com/spear-ai/beamform
+Author-email: Spear AI <org@spear.ai>
+Keywords: beamforming,processing,signal
+Requires-Python: >=3.11
+Requires-Dist: matplotlib<3.10,>=3.9.2
+Requires-Dist: numpy<1.27,>=1.26.2
+Requires-Dist: pandas<2.1,>=2.0.3
+Requires-Dist: scipy<1.15,>=1.14.1
+Requires-Dist: soundfile<0.13,>=0.12.1
+Requires-Dist: tqdm<4.67,>=4.66.6
+Description-Content-Type: text/markdown
+
+# SpearAI Beamforming Module
+
+This beamformer module provides the following core capabilities:
+
+- An array can be loaded by adding individual elements, indicating
+  their X,Y,Z coordinates
+- The sampling rate and NFFT can be configured to set the effective
+  frequency resolution
+- After setting the sampling rate and NFFT, the frequency bins can
+  be constrained to reduce computations and output size
+- The resulting beampattern can be generated for a given set of
+  steering angles
+- CSV files with acoustic data can be processed independently
+- CSV files with pose data can be processed alongside the acoustic
+  data, to produce the beamformer response in a globally aligned
+  coordinate system
+
+# Installation
+
+The module can be installed using the conventional `pip` calls from the
+top of the repo:
+
+- `pip install .` for a regular installation
+- `pip install -e .` for an editable-mode installation
+
+# Usage
+
+## Example scripts
+
+Sample scripts are provided in the `examples` directory, which illustrate
+the module usage. Relevant sample data is available in the `data` directory.
+
+## CLI entrypoint
+
+The entrypoint `run_beamformer` is also available via CLI, for convenience.
+This call will process all data in the target files and write an NPZ file with
+the results.
+
+`run_beamformer --config_file data/beamformer_config.json --aco_file data/sample_data_22_noise.csv --pose_file data/sample_pose.csv --outdir ~/ --outfile demo_output`
+
+## Instance configuration
+
+### Instance configuration from scratch
+
+The `Beamformer` class provides the core functionality of the module.
+An instance can be configured from scratch as shown:
+
+```python
+bf = Beamformer()
+bf.set_NFFT(1024)
+
+# Frequency in Hz
+bf.set_sample_rate_hz(10000)
+bf.set_target_freq(start_freq_hz=1000, end_freq_hz=5000)
+
+# Speed of sound in meters per second
+bf.set_sound_speed_mps(1500)
+
+# Coordinates in meters
+bf.add_element(x_m=0,y_m=0,z_m=0)
+bf.add_element(x_m=1)
+bf.add_element(y_m=1)
+bf.add_element(z_m=1)
+
+# Set the desired steering angles, in radians
+# Defaults:
+# > elevation: [-30:30] deg, in 10 deg steps
+# > bearings: [-180:180) deg, in 4 deg steps
+bf.elevation_rad = np.array([0])
+bf.bearing_rad = np.linspace(-np.pi, np.pi, 360 * 2 + 1)
+
+# To save the current configuration (JSON):
+bf.save_config('./') # use default filename
+bf.save_config('./','custom_beamformer_config.json')
+
+# To review the element coordinate matrix, print bf.P.T
+print(bf.P.T)
+```
+
+The array coordinate matrix P can be accessed for verification or plotting
+purposes; but should **NOT** be set directly. The `bf.add_element()` calls
+ensure consistency between the reference coordinate matrix, which is kept
+in array-local coordinates, and an internal copy used by the beamformer to
+account for array pose updates.
+
+### Instance configuration from file
+
+A JSON file with an array configuration, such as the one generated via
+`bf.save_config()`, can be used to instantiate the Beamformer class:
+
+```python
+# As used in examples/run_process_file*.py
+bf = Beamformer.from_config_json("../data/beamformer_config.json")
+```
+
+## Beampattern generation
+
+The module provides easy access to the array's beampattern, for a reference
+arrival from a given set of steering angles.
+
+```python
+bf.get_beampattern(bearing_rad=0, elevation_rad=0)
+```
+
+## Data processing
+
+The module provides two calls for data processing, depending on whether pose processing
+is required. If the `process_file_with_pose()` function is called without a pose file,
+the system will default to the `process_file()` call.
+
+```python
+# As used in examples/run_process_file.py
+for b_sig in bf.process_file(
+    f"../data/sample_data_22_noise.csv"
+):
+    b_sig = np.squeeze(b_sig)
+
+# As used in examples/run_process_file_with_pose.py
+for b_sig in bf.process_file_with_pose(
+    f"../data/sample_data_22_noise.csv",
+    "../data/sample_pose.csv",
+):
+    b_sig = np.squeeze(b_sig)
+```
+
+### CSV file conventions
+
+The acoustic data is assumed to contain a header line indicating a time reference
+`timestamp_ns` followed by channel labels. The `timestamp_ns` is used for aligning
+with the pose data, when given; it is otherwise dropped for FFT computations. The
+channel labels are ignored; the data is assumed to contain the same number of
+channels as configured for the beamformer, and the columns are mapped to the array
+channels sequentially. A sample header from the files in `data/sample_data_*.csv` is
+shown below:
+
+```
+timestamp_ns,ch0,ch1,ch2,ch3,ch4,ch5,ch6,ch7,ch8,ch9
+```
+
+Note that the time data is not used to infer the sampling rate, nor to verify the data
+integrity. The user is responsible for identifying and setting the data sample rate
+via `bf.set_sample_rate_hz()` and account for any gaps in the data prior to processing.
+Unless otherwise configured, the sampling rate will be assumed to be 1 Hz (normalized
+frequency).
+
+The pose data is assumed to contain a header line indicating a time reference
+`timestamp_ns` followed by columns matching `roll`, `pitch`, and `yaw`. The `timestamp_ns`
+is used for aligning with the acoustic data, such that the appropriate rotations are applied
+to the array prior to computing the beamformer response. A sample header from
+`data/sample_pose.csv` is shown below:
+
+```
+timestamp_ns,roll,pitch,yaw
+```
+
+# Development
+
+## Testing
+
+`uv run pytest` will run the `pytest` module in an isolated `venv` with just the project dependencies and dev-dependencies.
+
+## Static Type Checking
+
+`uv run mypy ./src` will scan the project workspace with the `mypy` static type checker and report any errors.
+
+## Linting and Formatting
+
+`uv run ruff check ./src` will check linting and formatting.
+
+`uv run ruff format ./src` will format the python files according to the `ruff` formatting rules.
