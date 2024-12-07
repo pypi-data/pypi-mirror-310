@@ -1,0 +1,9 @@
+gradio_magicquill/__init__.py,sha256=LjvWve-M2DIzOnM_Hs2BIy1nUxNpwMrP7yVB4TzYXno,62
+gradio_magicquill/magicquill.py,sha256=bIkcJQShGWeYeHRrBYcaD4_YOGA5mq0sIZpmsvU8bVs,1426
+gradio_magicquill/magicquill.pyi,sha256=p-OlGuxDeOFaEq4zRDMZ7cbOF2R9cuVNxt0uzFOA3FM,2991
+gradio_magicquill/templates/component/index.js,sha256=4Gca0QYodg4ihWLG3AYR3wuPu10xaHxLf7qeIMvS55Y,900565
+gradio_magicquill/templates/component/style.css,sha256=5wJc4pTpcLXw36mMYeVdNjku3mQnYcjM8nQvj1iL3FA,13075
+gradio_magicquill/templates/example/index.js,sha256=y1-3P1_0RUCLW1Je0bjbiR5znnlyOrWFRLRcmJs4HC8,2291
+gradio_magicquill-0.0.1.dist-info/METADATA,sha256=0Ql5UFsv8jJ99P1e6VQ6DtzfBuJgSKCQppxErs8KbcY,9631
+gradio_magicquill-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+gradio_magicquill-0.0.1.dist-info/RECORD,,
