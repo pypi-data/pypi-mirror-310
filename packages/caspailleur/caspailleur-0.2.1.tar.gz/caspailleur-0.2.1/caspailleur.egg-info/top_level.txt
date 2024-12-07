@@ -1,0 +1,7 @@
+build
+caspailleur
+dist
+logo
+notebooks
+tests
+venv
