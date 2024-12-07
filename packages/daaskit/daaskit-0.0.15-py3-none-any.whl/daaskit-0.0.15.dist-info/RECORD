@@ -1,0 +1,13 @@
+daaskit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daaskit/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daaskit/sdk/mq.py,sha256=0Zyc8Ld0RlllNu7Ma8qdY4NehI07-4Ce14XhbrmlyNU,2474
+daaskit/sdk/sql.py,sha256=IcTpp5Q4O9y4U0vOvnjKPBdiTTWdFE-vsW4wH3ETrH8,655
+daaskit/sdk/sqlhelper.py,sha256=DG02yMMn8-UbORT8GdFPwVzIpggSbKR8Ld-f-5aUsR0,2890
+daaskit/sdk/sqlplus.py,sha256=qlcGHbKcpdCptk-44dKTTo1mvVFFSOtdfgpj3Re0IqM,182
+daaskit/sdk/tsdb.py,sha256=HqwN4xL6Vxhz-gPOvU_5aGtyEgB2RiZUwgvK0zOn49M,6103
+daaskit/sdk/util.py,sha256=01mge1QxdT0NWLfHjySgbAQ3mh6z5YiwMuVJJOYtNOY,2870
+daaskit-0.0.15.dist-info/LICENSE,sha256=wuJc6SkaE_G-4alxueHO8BhgWRmEJAlJaPkoFuI9kqk,1070
+daaskit-0.0.15.dist-info/METADATA,sha256=KG3l3-jLvPlFZyJ9LU5acsgxLbwTPM8uTur6Yt8xSlw,540
+daaskit-0.0.15.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+daaskit-0.0.15.dist-info/top_level.txt,sha256=11U7foSY_j0CG12hf9wTQr2uWeeLALn465UWrOEXVVY,8
+daaskit-0.0.15.dist-info/RECORD,,
