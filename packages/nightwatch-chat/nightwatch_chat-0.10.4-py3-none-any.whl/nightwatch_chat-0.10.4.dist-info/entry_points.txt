@@ -1,0 +1,2 @@
+[console_scripts]
+nightwatch = nightwatch.client.__main__:main
