@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ConfigFramework"
+dynamic = ["version"]
+readme = "README.md"
+authors = [
+    {name = "Rud356", email = "rud356github@gmail.com"},
+]
+description = "A small framework to build your flexible project configurations"
+requires-python = ">=3.7.0"
+keywords = ["config", "configuration", "config managment", "configuration managment"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+dependencies = [
+    "pyyaml>=6.0.0",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "config_framework.__init__.__version__"}
+
+
+[tool.setuptools.packages.find]
+where = ["./"]
+include = ["config_framework*"]
+exclude = ["tests", "examples"]
+
+[project.optional-dependencies]
+mypy = ["mypy", "types-PyYAML", "types-toml"]
+toml = ["toml"]
+dev = ["sphinx~=5.0.2", "sphinx-rtd-theme~=1.0.0", "Pygments~=2.12.0"]
