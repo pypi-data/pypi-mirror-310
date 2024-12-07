@@ -1,0 +1,2 @@
+glycowork>=1.4.0
+pyteomics>=4.7.5
