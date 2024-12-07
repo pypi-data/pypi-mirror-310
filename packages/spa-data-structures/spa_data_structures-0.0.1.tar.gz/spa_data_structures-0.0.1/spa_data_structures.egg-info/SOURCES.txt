@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+spa_data_structures/__init__.py
+spa_data_structures/pyCRed.py
+spa_data_structures/pyJPListe.py
+spa_data_structures/pyJPRed.py
+spa_data_structures/pyJPStek.py
+spa_data_structures/pyNizListe.py
+spa_data_structures/pyNizStek.py
+spa_data_structures.egg-info/PKG-INFO
+spa_data_structures.egg-info/SOURCES.txt
+spa_data_structures.egg-info/dependency_links.txt
+spa_data_structures.egg-info/top_level.txt
