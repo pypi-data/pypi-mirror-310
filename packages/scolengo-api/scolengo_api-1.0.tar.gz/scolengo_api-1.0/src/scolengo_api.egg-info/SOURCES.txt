@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/scolengo_api/__init__.py
+src/scolengo_api/errors.py
+src/scolengo_api/main.py
+src/scolengo_api.egg-info/PKG-INFO
+src/scolengo_api.egg-info/SOURCES.txt
+src/scolengo_api.egg-info/dependency_links.txt
+src/scolengo_api.egg-info/requires.txt
+src/scolengo_api.egg-info/top_level.txt
