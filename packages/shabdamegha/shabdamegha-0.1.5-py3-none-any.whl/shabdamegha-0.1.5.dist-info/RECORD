@@ -1,0 +1,9 @@
+shabdamegha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shabdamegha/shabdamegha.py,sha256=FuWyMqHw12z0LtcG3LufLmxH1vIDrKVskmf5UCb_s9I,15129
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_shabdamegha.py,sha256=ikzFWiDsvqnoSMCUSMdhUDfvDFCKiSpbs43_QuO4NRg,2712
+shabdamegha-0.1.5.dist-info/LICENSE,sha256=Ea6VWLXbAbI3jyikz4-CqwOXLgPK-z3_uiS2BQhlKVc,1114
+shabdamegha-0.1.5.dist-info/METADATA,sha256=O2TZWdn3qRCR6zgho6NKhSRZa9WAKsbWlPmIqrCIsYY,4321
+shabdamegha-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shabdamegha-0.1.5.dist-info/top_level.txt,sha256=IPPun4TGZzotlC1E4AihfqEqH8waHgJP7fX_0HvyW_c,18
+shabdamegha-0.1.5.dist-info/RECORD,,
