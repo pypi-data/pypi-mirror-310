@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Sarunas_K_mod1_atsiskaitymas
+Version: 0.2
+Summary: Crawler Duino.lt/Skonis_ir_kvapas.lt
+Author: Sarunas K
+Requires-Python: >=3.10
+Requires-Dist: requests==2.32.3
+Requires-Dist: lxml>=5.3.0
+Requires-Dist: datetime>=5.5
