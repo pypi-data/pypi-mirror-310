@@ -1,0 +1,4 @@
+[console_scripts]
+outdated = source:lod
+update = source:ud
+
