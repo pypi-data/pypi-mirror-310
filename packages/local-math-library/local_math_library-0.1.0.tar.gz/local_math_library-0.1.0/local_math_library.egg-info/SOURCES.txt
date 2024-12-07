@@ -1,0 +1,9 @@
+README.md
+setup.py
+local_math_library.egg-info/PKG-INFO
+local_math_library.egg-info/SOURCES.txt
+local_math_library.egg-info/dependency_links.txt
+local_math_library.egg-info/top_level.txt
+myconverter/__init__.py
+myconverter/cmtom.py
+myconverter/mtocm.py
