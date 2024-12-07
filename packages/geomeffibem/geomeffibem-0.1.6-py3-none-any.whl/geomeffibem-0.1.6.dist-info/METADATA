@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: geomeffibem
+Version: 0.1.6
+Summary: A small library to facilitate some building energy modeling geometry operations with OpenStudio and EnergyPlus in mind.
+Home-page: https://github.com/jmarrec/geomeffibem
+License: MIT
+Author: Julien Marrec
+Author-email: contact@effibem.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (>=24.10.0,<25.0.0) ; extra == "test"
+Requires-Dist: bump2version (>=1.0.1,<2.0.0) ; extra == "dev"
+Requires-Dist: flake8 (>=7.1.1,<8.0.0) ; extra == "test"
+Requires-Dist: flake8-docstrings (>=1.7.0,<2.0.0) ; extra == "test"
+Requires-Dist: isort (>=5.13.2,<6.0.0) ; extra == "test"
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0) ; python_version < "3.10"
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0) ; python_version > "3.10"
+Requires-Dist: mkdocs (>=1.6.1,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=1.2.0,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=7.1.1,<8.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material (>=9.5.46,<10.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.3.1,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.27.0,<0.28.0) ; extra == "doc"
+Requires-Dist: mkdocstrings-python (>=1.12.2,<2.0.0) ; extra == "doc"
+Requires-Dist: mypy (>=1.13.0,<2.0.0) ; extra == "test"
+Requires-Dist: numpy (>=1.22.4,<2.0.0) ; python_version < "3.10"
+Requires-Dist: numpy (>=2.1.3,<3.0.0) ; python_version > "3.10"
+Requires-Dist: openstudio (>=3.4,<4.0)
+Requires-Dist: pandas (>=1.4.2,<2.0.0) ; python_version < "3.10"
+Requires-Dist: pandas (>=2.2.3,<3.0.0) ; python_version > "3.10"
+Requires-Dist: pre-commit (>=4.0.1,<5.0.0) ; extra == "dev"
+Requires-Dist: pytest (>=8.3.3,<9.0.0) ; extra == "test"
+Requires-Dist: pytest-cov (>=6.0.0,<7.0.0) ; extra == "test"
+Requires-Dist: toml (>=0.10.2,<0.11.0) ; extra == "dev"
+Requires-Dist: tox (>=4.23.2,<5.0.0) ; extra == "dev"
+Requires-Dist: twine (>=5.1.1,<6.0.0) ; extra == "dev"
+Requires-Dist: virtualenv (>=20.27.1,<21.0.0) ; extra == "dev"
+Description-Content-Type: text/markdown
+
+# GeomEffiBEM
+
+
+[![pypi](https://img.shields.io/pypi/v/geomeffibem.svg)](https://pypi.org/project/geomeffibem/)
+[![python](https://img.shields.io/pypi/pyversions/geomeffibem.svg)](https://pypi.org/project/geomeffibem/)
+[![Build Status](https://github.com/jmarrec/geomeffibem/actions/workflows/dev.yml/badge.svg)](https://github.com/jmarrec/geomeffibem/actions/workflows/dev.yml)
+[![codecov](https://codecov.io/gh/jmarrec/geomeffibem/branch/main/graphs/badge.svg)](https://codecov.io/github/jmarrec/geomeffibem)
+
+
+A small library to facilitate some building energy modeling geometry operations with [OpenStudio](https://github.com/NREL/OpenStudio) and [EnergyPlus](https://github.com/NREL/EnergyPlus) in mind. This started as a test bed while I was implementing source code changes to both aforementioned projects and I realized this had value in creating geometry in an efficient manner as well as being able to visualize simple geometry in 2D via matplotlib.
+
+A Jupyter Notebook [GeomEffiBEM_Demonstration.ipynb](GeomEffiBEM_Demonstration.ipynb) can serve as a small demonstration of the features.
+
+
+* Documentation: <https://jmarrec.github.io/geomeffibem>
+* GitHub: <https://github.com/jmarrec/geomeffibem>
+* PyPI: <https://pypi.org/project/geomeffibem/>
+
+
+This is free software (MIT License) contributed by [EffiBEM](https://www.effibem.com).
+
+Leveraging software, [EffiBEM](https://www.effibem.com) specializes in providing new ways to streamline your workflows and create new tools that work with limited inputs for your specific applications. We also offer support and training services on BEM simulation engines (OpenStudio and EnergyPlus).
+
