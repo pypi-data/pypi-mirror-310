@@ -1,0 +1,3 @@
+[console_scripts]
+canvasrobot = main:run
+urltransform = urltransform:run
