@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+d3d4.pyavg.egg-info/PKG-INFO
+d3d4.pyavg.egg-info/SOURCES.txt
+d3d4.pyavg.egg-info/dependency_links.txt
+d3d4.pyavg.egg-info/top_level.txt
+d3d4/pyavg/__init__.py
+d3d4/pyavg/bi_avg.py
+d3d4/pyavg/cumulative.py
+d3d4/pyavg/exp_smooth.py
+d3d4/pyavg/pid.py
+d3d4/pyavg/ring_buff.py
+d3d4/pyavg/smooth.py
