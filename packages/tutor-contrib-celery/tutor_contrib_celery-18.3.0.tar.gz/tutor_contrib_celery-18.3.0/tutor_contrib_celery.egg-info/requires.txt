@@ -1,0 +1,6 @@
+tutor<19.0.0,>=18.0.0
+
+[dev]
+python-semantic-release
+pylint
+black

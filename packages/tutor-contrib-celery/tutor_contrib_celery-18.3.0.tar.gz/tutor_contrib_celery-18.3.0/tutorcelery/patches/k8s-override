@@ -1,0 +1,26 @@
+{% for service in ["lms", "cms"] %}
+{% set exclude = "lms" if service == "cms" else "cms" %}
+{% set service_variants = iter_celery_workers_config().get(service) %}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{service}}-worker
+spec:
+  template:
+    spec:
+      containers:
+        - name: {{service}}-worker
+          args:
+            - "celery"
+            - "--app={{service}}.celery"
+            - "worker"
+            - "--loglevel=info"
+            - "--hostname=edx.{{service}}.core.default.%%h"
+            - "--max-tasks-per-child=100"
+            {% if is_celery_multiqueue(service) -%}
+            - "--queues=edx.{{service}}.core.default"
+            {% else -%}
+            - "--exclude-queues=edx.{{exclude}}.core.default"
+            {% endif -%}
+{% endfor %}
