@@ -1,0 +1,4 @@
+EXTEND scratch
+
+INGEST ./data/sample.csv sample
+INGEST ./data/sample_2.csv sample2

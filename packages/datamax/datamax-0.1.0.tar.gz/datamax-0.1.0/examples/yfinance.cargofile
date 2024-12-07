@@ -1,0 +1,3 @@
+EXTEND scratch
+
+RUN rye run python ./scripts/yfinance_sample.py
