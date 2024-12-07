@@ -1,0 +1,13 @@
+congrads/__init__.py,sha256=6d2_3fjj0R7r7jS76WRbOuzHlahPHhUvyqHHYG6lTMc,444
+congrads/constraints.py,sha256=ppdVZNm6x8D8ggT-fhupaq5irWlKqZaGSH2Yp8Gl4f8,21787
+congrads/core.py,sha256=guqMQuGZd-HtQkQ94IuFHSB371hmlnoQ_Jwf9d4Gra8,8714
+congrads/datasets.py,sha256=epvAvi_2a5yeASkZyNY0rGGttA58vd-40f6anVHJtsk,29661
+congrads/descriptor.py,sha256=Zfd42036OpD5Ts2pDGR0TZEChGLsnlGyLi-NrwaYaaU,2618
+congrads/learners.py,sha256=-1uhQbWmtpI8xpz9P1KBSrgQRZQ8dURJJFcjsnyy__s,7740
+congrads/metrics.py,sha256=FIhK-HElTlt6DxEojjU3pcnoBfcLQw7UFeL_qxOkP3s,2533
+congrads/networks.py,sha256=LOLK7oVBP7hrBNcF6g0mx53lE2KySDX9l7LPXYR0kGo,3288
+congrads-0.1.0.dist-info/LICENSE,sha256=ibijcrj5FKNWxQCp0P3ZKFAjKgs4G5rexUXSl9n5o88,2012
+congrads-0.1.0.dist-info/METADATA,sha256=AC4YWubXlpJXuATzfZBJdqgi7N_KBdCsoYR7bVKlSiE,8767
+congrads-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+congrads-0.1.0.dist-info/top_level.txt,sha256=B8M9NmtHbmzp-3APHe4C0oo7aRIWRHWoba9FIy9XeYM,9
+congrads-0.1.0.dist-info/RECORD,,
