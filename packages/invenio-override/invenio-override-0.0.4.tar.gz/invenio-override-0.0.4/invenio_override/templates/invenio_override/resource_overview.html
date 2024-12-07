@@ -1,0 +1,56 @@
+{#
+  This file contains the resource overview block content.
+#}
+
+<div class="ui container">
+  <div class="ui divider hidden"></div>
+  <div class="sixteen wide column random-records-frontpage">
+    <div class="center aligned ui equal height stretched grid">
+      <div class="left aligned column">
+        <div class="ui segment image">
+          <h2>{{ _("Research Results") }}</h2>
+          <div>
+            {{ _("Frontpage: Description for research results") }}
+          </div>
+          <ul>
+            <li>
+              <a href="{{ url_for('invenio_search_ui.search') }}">{{ _("Search for research results") }}</a>
+            </li>
+            <li>
+              <a href="me/uploads">{{ _("Upload research results") }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="left aligned column">
+        <div class="ui segment image">
+          <h2>{{ _("Publications") }}</h2>
+          <div>
+            {{ _("Frontpage: Description for publications") }}
+          </div>
+          <ul>
+            <li>
+              <a href="{{ url_for('invenio_search_ui.search') }}">{{ _("Search for publications") }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="left aligned column">
+        <div class="ui segment image">
+          <h2>{{ _("Educational Resources") }}</h2>
+          <div>
+            {{ _("Frontpage: Description for open educational resources") }}
+          </div>
+          <ul>
+            <li>
+              <a href="{{ url_for('invenio_search_ui.search') }}">{{ _("Search for educational resources") }}</a>
+            </li>
+            <li>
+              <a href="{{ url_for('invenio_search_ui.search') }}"">{{ _("Upload educational resources") }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

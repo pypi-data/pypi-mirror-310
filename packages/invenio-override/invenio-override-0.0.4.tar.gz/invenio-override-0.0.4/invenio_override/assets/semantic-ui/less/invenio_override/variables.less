@@ -1,0 +1,86 @@
+/*
+ *   copyright (c) 2020-2023 graz university of technology.
+ *   copyright (c) 2024 shared rdm.
+ *
+ * invenio-override is free software; you can redistribute it and/or modify it
+ * under the terms of the mit license; see license file for more details.
+ */
+
+/* badge colors, accessibility */
+@accessRight             : #e9711c;
+@accessRightOpen         : @accessRight;
+@accessRightRestricted   : #ff7f45;
+@accessRightEmbargoed    : #db2828;
+@accessRightClosed       : @accessRightEmbargoed;
+@accessRightMetadata     : #ff7f45;
+
+/* primary colors */
+@overridePrimary         : #007934;
+@overrideSecondary       : #34b233;
+@ocerridePlabels         : #ffffff;
+@overridePrimaryBt       : #dbdce0; /* override primary button - e.g. create community */
+
+/* general */
+@primaryBackground       : #fff;
+@primaryText             : #000;
+
+/* mug palette */
+@mugSearch               : @overridePrimary;
+@outlineRecord           : @accessRightMetadata;
+@recordText              : #6b6d74;
+@hoverOverridePrimaryBt  : #bfc0c2;
+@recordLightText         : #94959a;
+
+/* accent colors */
+@greyDark                : #393b41;
+@greyLight               : #e0e1e2;
+@labelKeywordBackground  : #e8e8e8;
+
+/* ui message colors */
+@uiMsgBc                 : #fcfff5;
+@uiMsgGc                 : @overridePrimary;
+
+/* link and button colors */
+@primaryLinkInverted           : @primaryText;
+@primaryLinkBackgroundInverted : @primaryBackground;
+@primaryLink                   : @primaryBackground;
+@primaryLinkHoverBackground    : @primaryText;
+@primaryButton                 : @primaryBackground;
+@primaryButtonHoverBackground  : @primaryText;
+@primaryButtonInverted         : @primaryText;
+
+/* account-specific (signin, signup) */
+@primaryFormAccounts           : @primaryBackground;
+@formAccountsInputPlaceholder  : silver;
+@fieldInputSelectionBackground : #a7dabc;
+@signInBackground              : #6b6d74;
+
+/* footer specific */
+@footerGrey                    : #5e5e5e;
+@footerBottomBackground        : #f2f2f2;
+
+/* record specific */
+@recordVersionBackground       : #f2f2f2;
+@randomRecordsFrontpageArticle : rgba(34, 36, 38, 0.15);
+
+/* input styling */
+@outlineColor                  : #a7dabc;
+
+/* notification styling */
+@notificationBackground        : #fffaf3;
+@notificationBorder            : #e2d5c2;
+
+/* home stroke */
+.home-stroke {
+   stroke: @overridePrimary;
+   stroke-linecap: square;
+   stroke-width: 4;
+   fill: none;
+}
+
+/* hyperlink hover color */
+a:focus,
+a:hover {
+  color: @recordText;
+  text-decoration: underline;
+}
