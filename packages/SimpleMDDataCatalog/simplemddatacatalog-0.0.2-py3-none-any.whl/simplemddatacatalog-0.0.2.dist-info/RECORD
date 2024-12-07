@@ -1,0 +1,11 @@
+SimpleMDDataCatalog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleMDDataCatalog/analysis_functions.py,sha256=7NvhuGAbeCacPfbtxJ4CAsk2iu-Ahb8nXYnXI5GwQmE,4907
+SimpleMDDataCatalog/dcat_model.py,sha256=frZ-cxCuESd1vC0XkDvXjf6Z1Ywho7t-tsrBrUZqEbU,704
+SimpleMDDataCatalog/generate_catalog.py,sha256=aDnI1gXizEFC3Cqbkaim2oULXjjmTs5LIcu8Rhh4ajM,1593
+SimpleMDDataCatalog/import_catalog.py,sha256=-pB4B4jCiDXRYpV2jhuJe7ksizlR7PeEKSmNPbZQzjs,19662
+SimpleMDDataCatalog/spreadsheet_to_ld.py,sha256=MknkqBZ9Qo0V6TQX44SD7zeqiDSZ_9X39mJS8f6lCBY,20634
+SimpleMDDataCatalog/uri_handling.py,sha256=LUlFJZBNLCTUlcoKEW6MS9K0yIefXrASIjfp4Cxl01M,1808
+simplemddatacatalog-0.0.2.dist-info/METADATA,sha256=q6_148nIiJ2wvXiYw-c1DeiMOOdmjOr_uVUYITZMeyg,18969
+simplemddatacatalog-0.0.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+simplemddatacatalog-0.0.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simplemddatacatalog-0.0.2.dist-info/RECORD,,
