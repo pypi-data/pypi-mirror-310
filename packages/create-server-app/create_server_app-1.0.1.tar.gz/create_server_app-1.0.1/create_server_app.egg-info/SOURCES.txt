@@ -1,0 +1,10 @@
+setup.py
+create-server-app/__init__.py
+create-server-app/cli.py
+create-server-app/create_server.py
+create_server_app.egg-info/PKG-INFO
+create_server_app.egg-info/SOURCES.txt
+create_server_app.egg-info/dependency_links.txt
+create_server_app.egg-info/entry_points.txt
+create_server_app.egg-info/requires.txt
+create_server_app.egg-info/top_level.txt
