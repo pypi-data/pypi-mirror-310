@@ -1,0 +1,10 @@
+teable_nocodb/__about__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+teable_nocodb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teable_nocodb/data_type.py,sha256=K4E8xlxPpkDEUH8VtVwalC6e5qcyg2p0DAXnXeS8bpA,2194
+teable_nocodb/nocodb.py,sha256=QCGCW4IR6ya-6ZgRMbwUWPBot88hJoUDhzkzHtHpZjc,3674
+teable_nocodb/teable.py,sha256=LsHPvznauEny7hPvBD2Q1UJmli6-RGilD3OfU9Hm5-Q,4804
+teable_nocodb/utils.py,sha256=q0Z0xkieJnFhxo_r_8PsbxVLKg70Vrr9XH3HT5P5-g8,1167
+teable_nocodb-0.0.2.dist-info/METADATA,sha256=W5AcxABj0461J1YoG76VI4IzS9Bif2K5nLmxosmoazM,646
+teable_nocodb-0.0.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+teable_nocodb-0.0.2.dist-info/licenses/LICENSE.txt,sha256=b5WOl3a6Gti3d3gAPHP7TybGNScqVDGytjXwwzLIauU,1064
+teable_nocodb-0.0.2.dist-info/RECORD,,
