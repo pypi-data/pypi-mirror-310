@@ -1,0 +1,3 @@
+[console_scripts]
+spice=spice._cli:run_cli
+

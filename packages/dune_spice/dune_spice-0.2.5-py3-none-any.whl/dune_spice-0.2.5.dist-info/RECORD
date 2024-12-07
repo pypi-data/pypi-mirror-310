@@ -1,0 +1,15 @@
+spice/__init__.py,sha256=FDuEBaQlgvrPoKdVmeA4HkDPXY5QYXqfqTTpGhrnSDM,209
+spice/__main__.py,sha256=omF-Hpn5LShQVcAHHl48tB-yELLfulqSbS0-zAnEjuw,72
+spice/_cache.py,sha256=KgO9TsBTNsiw_F35B4bO6W9cjh5FhEnhFpPiACmnSPY,5226
+spice/_cli.py,sha256=zzheXV09-3TNtTWE3yJOHY2GP70k0RG2Tf0p1ch4H3Q,14020
+spice/_extract.py,sha256=Bk3shUO1unbJH1dvg_DMROBpVVhH8LL2oyq1qlNEBZs,47453
+spice/_types.py,sha256=-9sWiF2_JmZbqkYhGZkmPGDyFjHiFE0Ggh_agkbxeRo,1178
+spice/_urls.py,sha256=ymnTQvQ-JeWuWQsaB91hJJ5_6z035f-WorhJ92iWAUc,3261
+spice/helpers.py,sha256=75h_zE1h1Tk2Yfa3yddA5RU8tugJ5oV37iq7WGAy5zQ,226
+spice/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dune_spice-0.2.5.dist-info/entry_points.txt,sha256=6C6gvIGyIWXacpXIN2maFV2-aewADygvFlELxmgKjSw,44
+dune_spice-0.2.5.dist-info/LICENSE-APACHE,sha256=pg7qgXUUUxZo1-AHZXMUSf4U0FnTJJ4LyTs23kX3WfI,10847
+dune_spice-0.2.5.dist-info/LICENSE-MIT,sha256=8-76W1uxkHowfyz1m2aksY_eC1LeV1oICZ8e8cWBCEw,1085
+dune_spice-0.2.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+dune_spice-0.2.5.dist-info/METADATA,sha256=lvFIXDCI6-wKm2KajWVk2FA1ScX0G_zGxIiOGD2CNbQ,8414
+dune_spice-0.2.5.dist-info/RECORD,,
