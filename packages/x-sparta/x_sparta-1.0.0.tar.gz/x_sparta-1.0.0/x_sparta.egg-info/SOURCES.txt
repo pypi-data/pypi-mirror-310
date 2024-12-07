@@ -1,0 +1,10 @@
+README.md
+setup.py
+x-sparta/__init__.py
+x-sparta/downloader.py
+x_sparta.egg-info/PKG-INFO
+x_sparta.egg-info/SOURCES.txt
+x_sparta.egg-info/dependency_links.txt
+x_sparta.egg-info/entry_points.txt
+x_sparta.egg-info/requires.txt
+x_sparta.egg-info/top_level.txt

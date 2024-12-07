@@ -1,0 +1,2 @@
+[console_scripts]
+secure-downloader = secure_downloader.downloader:download_file
