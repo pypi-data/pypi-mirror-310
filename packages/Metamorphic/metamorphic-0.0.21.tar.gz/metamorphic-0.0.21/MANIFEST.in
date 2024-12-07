@@ -1,0 +1,7 @@
+# MANIFEST.in
+recursive-include MetaMorphic *.pxd *.c *.h *.pyd
+exclude MetaMorphic/*.py
+exclude MetaMorphic/*.pyx
+include Metamorphic/data/*
+
+
