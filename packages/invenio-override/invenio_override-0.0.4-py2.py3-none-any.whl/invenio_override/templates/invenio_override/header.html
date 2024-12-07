@@ -1,0 +1,84 @@
+{#
+    Copyright (C) 2020-2023 Graz University of Technology.
+    Copyright (C) 2024 Shared RDM.
+
+    invenio-override is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+#}
+
+{% if not config.OVERRIDE_PRODUCTION %}
+<div class="ui sticky test-instance">
+  <h4>{{_ ("Test Instance") }}</h4>
+  <p>{{_ ("This is the test instance of the Repository.") }}</p>
+</div>
+{% endif %}
+
+<div>
+  <header>
+    {%- block navbar %}
+    <nav>
+      {%- block navbar_header %}
+      {%- include "invenio_override/navbar.html" %}
+      {%- endblock navbar_header %}
+
+      <div class="ui container">
+        <div class="ui grid stackable container">
+          <div class="three column row centered" style="padding-bottom: 0;">
+            <div class="two wide column main-menu-entry">
+              <div class="ui secondary menu">
+                <a href="/" title="Home" class="ui item no-decoration">
+                  <span class="home-inline">
+                    <i class="home icon"></i>
+                    {{_ ("Home")}}
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            {%- for item in current_menu.submenu('main').children|sort(attribute='order') if item.visible recursive %}
+            <div class="two wide column main-menu-entry">
+              <div class="ui secondary menu">
+                <a class="ui item no-decoration" href="{{ item.url }}">{{ item.text|safe }}</a>
+              </div>
+            </div>
+            {% endfor %}
+
+            {% for item in current_menu.submenu('actions').children|sort(attribute='order') if item.visible recursive %}
+            <div class="two wide column main-menu-entry">
+              <div class="ui secondary menu">
+                <a class="ui item no-decoration" href="{{ item.url }}">{{ item.text|safe }}</a>
+              </div>
+            </div>
+            {% endfor %}
+
+            {%- for l in current_i18n.get_locales() %}
+            {%- if current_i18n.language != l.language %}
+            <div class="two wide column main-menu-entry">
+              <div class="ui secondary menu">
+            <a class="ui item no-decoration"
+              href="{{ url_for('invenio_i18n.set_lang', lang_code=l.language) }}">{{ l.get_display_name().upper() [0:2]}}</a>
+            </div>
+          </div>
+            {%- endif %}
+            {%- endfor %}
+          </div>
+          </div>
+        </div>
+        <div id="margin-divider" class="ui divider main-menu-underline-line"></div>
+        <div class="spacer"></div>
+    </nav>
+    {%- endblock navbar %}
+
+    {%- block flashmessages %}
+    {%- from "invenio_theme/macros/messages.html" import flashed_messages with context -%}
+    {{ flashed_messages() }}
+    {%- endblock %}
+  </header>
+
+  {#
+  {%- block breadcrumbs %}
+  {%- include "invenio_theme/breadcrumbs.html" %}
+  {%- endblock breadcrumbs %}
+  #}
+</div>

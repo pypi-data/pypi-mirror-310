@@ -1,0 +1,38 @@
+{#
+    Copyright (C) 2020-2023 Graz University of Technology.
+    Copyright (C) 2024 Shared RDM.
+  
+    invenio-override is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+  
+    Here we have overriden grid_section from original:
+    https://github.com/inveniosoftware/invenio-app-rdm/blob/master/invenio_app_rdm/theme/templates/semantic-ui/invenio_app_rdm/header_frontpage.html
+  #}
+
+  
+{%- extends "invenio_app_rdm/header_frontpage.html" %}
+
+
+{%- block frontpage_search %}
+<div id="frontpage-search-bar" class="ui container fluid frontpage-header">
+    <div class="ui container grid rel-mt-2">
+        {%- block frontpage_form %}
+        <div class="row">
+            <div class="sixteen wide mobile four wide computer column"></div>
+            <div class="sixteen wide mobile eight wide computer column center aligned">
+              <form action="{{ url_for('invenio_search_ui.search') }}" class="ui form" role="search">
+                <div class="ui fluid big action input">
+                  <input type="text" name="q" class="form-control" aria-label="{{ _('Search') }}" placeholder="{{ _('Search') }}">
+                  <button type="submit" class="ui icon search button" aria-label="{{ _('Search') }}">
+                    <i class="search icon"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="ui divider hidden"></div>
+          {%- endblock frontpage_form %}
+    </div>
+  </div>
+{%- endblock frontpage_search %}
