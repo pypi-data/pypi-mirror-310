@@ -1,0 +1,33 @@
+[project]
+name = "is_subset"
+version = "0.1.1"
+description = "check if a given dictionary is subset of provided predicate"
+readme = "README.md"
+authors = [
+    { name = "WajahatAliAbid", email = "17341777+WajahatAliAbid@users.noreply.github.com" }
+]
+requires-python = ">=3.8"
+dependencies = []
+classifiers=[
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+]
+keywords=["python", "is-subset", "subset"]
+
+[project.urls]
+Repository= "https://github.com/WajahatAliAbid/is-subset"
+Changelog= "https://github.com/WajahatAliAbid/is-subset/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "hatch>=1.13.0",
+    "pytest>=8.3.3",
+]
