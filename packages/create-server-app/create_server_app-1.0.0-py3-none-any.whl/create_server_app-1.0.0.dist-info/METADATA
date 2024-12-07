@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: create-server-app
+Version: 1.0.0
+Summary: A CLI tool to create a server app project.
+Author: Michael
+Requires-Dist: flask
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pymongo
+
