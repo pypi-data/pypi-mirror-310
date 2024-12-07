@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "pprint-tools"
+version = "0.0.3"
+description = "decorators cli tools"
+authors = ["Dmitry Mavlin <mavlind@list.ru>"]
+license = "GPL"
+readme = "README.md"
+keywords = ["logger", "logrich", "rich"]
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+
+
+[project.urls]
+"Homepage" = "https://github.com/MavlinD/pprint-tools"
+"Bug Tracker" = "https://github.com/MavlinD/pprint-tools/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+logrich = "^1.0.3"
+anyio = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "6.2.4"
+pytest-picked = "0.4.6"
+pytest-testmon = "1.1.1"
+pytest-watch = "4.2.0"
+black = "^22.1.0"
+mypy = "^0.961"
+watchdog = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+include = '\.pyi?$'
+quiet = true
+fast = true
+
+[tool.mypy]
+strict = false
+ignore_missing_imports = true
+allow_subclassing_any = true
+allow_untyped_calls = true
+pretty = true
+show_error_codes = true
+implicit_reexport = true
+allow_untyped_decorators = true
+warn_unused_ignores = false
+warn_return_any = false
+namespace_packages = true
