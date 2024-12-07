@@ -1,0 +1,763 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="phasefront Python package">
+      
+      
+      
+      
+      
+        <link rel="next" href="development.html">
+      
+      
+      <link rel="icon" href="assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.45">
+    
+    
+      
+        <title>PQ strEEm Data Analysis</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="custom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#phasefront" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="PQ strEEm Data Analysis" class="md-header__button md-logo" aria-label="PQ strEEm Data Analysis" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PQ strEEm Data Analysis
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="PQ strEEm Data Analysis" class="md-nav__button md-logo" aria-label="PQ strEEm Data Analysis" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    PQ strEEm Data Analysis
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="index.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Commands
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-powershell-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows PowerShell Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remote-file-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remote File Patterns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipeline-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plot Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Plot Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wave-plot-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wave Plot Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-monitoring-plot-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Monitoring Plot Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-slicing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time Slicing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Handling
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exit-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exit Codes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="development.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Commands
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-powershell-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Windows PowerShell Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remote-file-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remote File Patterns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipeline-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plot Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Plot Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wave-plot-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wave Plot Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-monitoring-plot-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Monitoring Plot Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-slicing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time Slicing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Handling
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exit-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exit Codes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="phasefront">PhaseFront</h1>
+<p>PQ strEEm Exploratory Data Analysis tool</p>
+<h2 id="installation">Installation</h2>
+<p>Use pip to automatically download and install the <code>phasefront</code> package <a href="https://pypi.org/project/phasefront/">from its hosted location on PyPI</a>.</p>
+<pre><code class="language-bash">pip install phasefront
+</code></pre>
+<h2 id="configuration">Configuration</h2>
+<p>Configuration is through a TOML file named <code>phasefront.toml</code> and placed in an accessible location. The software will check the following locations in priority order:
+1. Path specified by <code>--config</code> argument
+2. Path in <code>PHASEFRONT_CONFIG</code> environment variable
+3. <code>./phasefront.toml</code> (current directory)
+4. <code>~/.config/phasefront.toml</code>
+5. <code>/etc/phasefront.toml</code></p>
+<p>If you do not have <code>phasefront.toml</code> file, you can create one in a text editor using the following entries:</p>
+<pre><code class="language-toml">[host]
+address = &quot;192.168.1.2&quot;
+username = &quot;admin&quot;
+password = &quot;secret&quot;
+</code></pre>
+<h2 id="connection">Connection</h2>
+<p>The</p>
+<p>with your host credentials.  Typically the host is a PQ strEEm gateway but it can be any computer that supports SSH access and hosts PQ strEEM waveform and power monitor files 'wave' and 'pmon' folders respectively.</p>
+<p>with SSH acc that possible hosts include but are not limited to PQ strEEm gateways.</p>
+<h2 id="usage">Usage</h2>
+<h3 id="basic-commands">Basic Commands</h3>
+<p>List remote files:</p>
+<pre><code class="language-bash">wave-list --config phasefront.toml '*.parquet'
+</code></pre>
+<p>Download files:</p>
+<pre><code class="language-bash">wave-fetch --config phasefront.toml '202411*.parquet'
+</code></pre>
+<p>Create plots:</p>
+<pre><code class="language-bash">wave-plot data.parquet
+</code></pre>
+<h3 id="windows-powershell-usage">Windows PowerShell Usage</h3>
+<p>When using patterns on Windows PowerShell, be sure to wrap them in single quotes to prevent glob expansion:</p>
+<pre><code class="language-bash">wave-list '*.parquet'
+wave-list '20241113_*.parquet'
+</code></pre>
+<h3 id="remote-file-patterns">Remote File Patterns</h3>
+<p>The <code>wave-list</code> command supports flexible file matching patterns:</p>
+<pre><code class="language-bash"># List all Parquet files in a directory
+wave-list '*.parquet'
+# List files for a specific date
+wave-list '20241113_*.parquet'
+# List files for a specific hour
+wave-list '20241113_12*.parquet'
+# List files within a time range
+wave-list '20241113_{12,13,14}*.parquet'
+</code></pre>
+<p>The pattern matching uses Python's <code>Path.match()</code> function, which supports:
+- <code>*</code>: Matches any number of characters except slashes
+- <code>?</code>: Matches any single character except slashes
+- <code>[seq]</code>: Matches any character in seq
+- <code>[!seq]</code>: Matches any character not in seq
+- <code>{a,b,c}</code>: Matches any of the comma-separated alternatives</p>
+<h3 id="pipeline-usage">Pipeline Usage</h3>
+<p>Chain commands together:</p>
+<pre><code class="language-bash">wave-list '24111*.parquet' | wave-fetch | wave-plot
+</code></pre>
+<h3 id="plot-options">Plot Options</h3>
+<h4 id="wave-plot-options">Wave Plot Options</h4>
+<p>Wave Plot supports multiple plot types that can be combined</p>
+<pre><code class="language-bash"># All plots (default)
+wave-plot data.parquet
+
+# Combine any plot types
+wave-plot --wave --vhist data.parquet # Show waveforms and voltage histograms
+wave-plot --vhist --ihist data.parquet # Show both histogram types
+wave-plot --vderiv --ideriv data.parquet # Show both derivative plots
+
+# Available plot types:
+--wave # Voltage and current waveforms
+--vhist # Voltage histograms
+--ihist # Current histograms
+--vderiv # Voltage derivative histograms
+--ideriv # Current derivative histograms
+
+# Show metadata for each file
+wave-plot --verbose data.parquet
+</code></pre>
+<h4 id="power-monitoring-plot-options">Power Monitoring Plot Options</h4>
+<p>Power monitoring plots support different metrics that can be combined:</p>
+<pre><code class="language-bash"># All plots (default)
+pmon-plot data.parquet
+
+# Combine any metrics
+pmon-plot --freq --voltage data.parquet # Show frequency and voltage
+pmon-plot --current --power data.parquet # Show current and power
+
+# Available metrics:
+--freq Frequency over time
+--voltage RMS voltage
+--current RMS current
+--power Active and reactive power
+
+# Show metadata for each file
+pmon-plot --verbose data.parquet
+</code></pre>
+<h3 id="time-slicing">Time Slicing</h3>
+<pre><code class="language-bash"># First 100ms (default for wave plots)
+wave-plot data.parquet
+
+# Start at 2.0 seconds, show 500ms
+wave-plot --start 2.0 --duration-millis 500 data.parquet
+
+# Show 2 hours of power monitoring data starting at 14:00 UTC
+pmon-plot --start 14:00 --duration-hrs 2 data.parquet
+</code></pre>
+<h3 id="file-handling">File Handling</h3>
+<p>When downloading files that already exist:
+- <code>wave-fetch</code> will prompt for action:
+  - <code>[s]kip once</code>: Skip this file
+  - <code>[S]kip all</code>: Skip all existing files
+  - <code>[f]orce once</code>: Overwrite this file
+  - <code>[F]orce all</code>: Overwrite all existing files
+- Use <code>-f</code> or <code>--force</code> to always overwrite without prompting</p>
+<h2 id="exit-codes">Exit Codes</h2>
+<p>All commands:
+- <code>0</code>: Success
+- <code>1</code>: Complete failure
+- <code>2</code>: Partial success (some files processed)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2024 PhaseFront and Renewable Edge LLC
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.sections", "navigation.expand"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
