@@ -1,0 +1,15 @@
+nonebot_plugin_dialectlist/__init__.py,sha256=rw7ZFsXUiYIUCp2oRjsS9yeIK69HPun_uHQdKYcrfOg,11239
+nonebot_plugin_dialectlist/config.py,sha256=8PSOxw4l4Buu4cFcwQdE3EiPsIz_PBCLxx13w8AAv0o,1210
+nonebot_plugin_dialectlist/model.py,sha256=9mKxPIWf_7u30tDqtzhc2FIangVX2RfyuCf1DMriq1Y,681
+nonebot_plugin_dialectlist/storage.py,sha256=uSPaVh37MT-A__UorciUOFLh8P08917ktCuoX2T3OaQ,4875
+nonebot_plugin_dialectlist/time.py,sha256=oE9V4EWTukDzY3T202XfVDJ-ffelFSJMtZspLLisxk4,2561
+nonebot_plugin_dialectlist/usage.py,sha256=Fkp4FJwrfs8YpFK5WKw3nLlrbdG3su6t-H0iAqjoAe0,1686
+nonebot_plugin_dialectlist/utils.py,sha256=n5w-n_NdcyntypnZbm_4tYVG-Q5OqDLATrBr5D1P7dc,8704
+nonebot_plugin_dialectlist/template/rank_template.j2,sha256=ZoAnZ683yQ8NLww4Ajh6cSgi5PTvCSQYoPS7siZ47D0,1749
+nonebot_plugin_dialectlist/template/avatar/default.jpg,sha256=RLqZqVdemMSbJXrIVFIqlbA4LVJ6y1vW751HAD1HRPI,7124
+nonebot_plugin_dialectlist/template/css/style.css,sha256=-eOIA47cGu_iA81adIz_IJFf-abcjz-moDGA4rUU1Jo,3240
+nonebot_plugin_dialectlist-2.6.0.dist-info/LICENSE,sha256=saUf-1Z8LC_pOcMFdYlQLFKvkQXE8MHvlNhZ8eIZmu8,1066
+nonebot_plugin_dialectlist-2.6.0.dist-info/METADATA,sha256=AxhV2DO9WUI-qfWHbEr63VnF9PinKNQnMeLWAg2oMr8,8380
+nonebot_plugin_dialectlist-2.6.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+nonebot_plugin_dialectlist-2.6.0.dist-info/top_level.txt,sha256=M9CUbtGOXZGGzqgpux36SnQJ5t1aA3V4FCZ_wEK1g2I,27
+nonebot_plugin_dialectlist-2.6.0.dist-info/RECORD,,
