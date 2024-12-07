@@ -1,0 +1,6 @@
+pytket_qirpass/__init__.py,sha256=jKH2qMk94Dan1W5hJv0SoUDaCqSxWfwqVUGP_Q9u5sM,111
+pytket_qirpass/apply_qirpass.py,sha256=gF-qx3NSFZv_mBVVaNctas-0hkVPrDytjcFyezCCR3o,10900
+pytket_qirpass-0.8.0.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+pytket_qirpass-0.8.0.dist-info/WHEEL,sha256=ssQ84EZ5gH1pCOujd3iW7HClo_O_aDaClUbX4B8bjKY,100
+pytket_qirpass-0.8.0.dist-info/METADATA,sha256=j8hJ91v9l5A_okEDI-60iKRBLSIQoPwfRwuz-ZVrcPA,1493
+pytket_qirpass-0.8.0.dist-info/RECORD,,
