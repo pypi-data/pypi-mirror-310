@@ -1,0 +1,5 @@
+digitalhub
+dist
+scripts
+spec_exporter
+test
