@@ -1,0 +1,11 @@
+setup.py
+tests/test_cli_module.py
+tests/test_statemachine.py
+uccli/__init__.py
+uccli/agent_communication.py
+uccli/main.py
+uccli.egg-info/PKG-INFO
+uccli.egg-info/SOURCES.txt
+uccli.egg-info/dependency_links.txt
+uccli.egg-info/requires.txt
+uccli.egg-info/top_level.txt
