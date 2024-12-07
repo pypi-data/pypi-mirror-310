@@ -1,0 +1,10 @@
+flatten_nested/__init__.py,sha256=sP1rR8jiYcLHn41LlE52j1veB1dO_fevpZqbL7cRPjs,166
+flatten_nested/exceptions.py,sha256=VQkCrt1JW-UXuKkKXdyWiOPbN7hSIGngebKS5LUHJ5A,221
+flatten_nested/flattener.py,sha256=MXN-RYYEav1ZnDCw-O3c5bST8ZK7mwtIPFymMl5P-6k,2153
+flatten_nested/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flatten_nested/tests/test_flattener.py,sha256=FX1n1f3aKMNO8dy1DlJnwbxJxFaY1PeLHIE43Da1ReQ,1306
+flatten_nested/utils.py,sha256=c7iq4Uh8uOiFbnR2FWAYvJi-29S9zohZ3SG1ZlpdhL8,425
+flatten_nested-0.1.0.dist-info/LICENSE,sha256=90YEniKcCs2J1BkgPc_q0MK5UKFjBY2qZCtmHHUlkPs,1093
+flatten_nested-0.1.0.dist-info/METADATA,sha256=Rs-UF9bH2bh-Deb0kPEMN5h8jk6ygjhvgm4jrMK9X74,2115
+flatten_nested-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+flatten_nested-0.1.0.dist-info/RECORD,,

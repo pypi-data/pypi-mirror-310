@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: flatten-nested
+Version: 0.1.0
+Summary: A Python package to flatten nested data structures
+Home-page: https://github.com/sathishpatel415/flatten-nested
+License: MIT
+Keywords: flatten,nested,list,dict,tuple,set
+Author: Sathish Kumar K
+Author-email: sathishpatel415@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Documentation, https://github.com/sathishpatel415/flatten-nested#readme
+Project-URL: Repository, https://github.com/sathishpatel415/flatten-nested
+Description-Content-Type: text/markdown
+
+# Flatten Nested
+
+A Python package for flattening nested data structures including lists, tuples, dictionaries, and sets.
+
+## Installation
+
+```bash
+pip install flatten-nested
+```
+
+## Usage
+
+```python
+from flatten_nested import flatten
+
+# Flatten a nested list
+nested_list = [1, [2, 3, [4, 5]], 6]
+flattened = flatten(nested_list)
+print(flattened)  # [1, 2, 3, 4, 5, 6]
+
+# Flatten a nested dictionary
+nested_dict = {'a': 1, 'b': {'c': 2, 'd': {'e': 3}}}
+flattened = flatten(nested_dict)
+print(flattened)  # [('a', 1), ('b.c', 2), ('b.d.e', 3)]
+
+# Flatten with depth limit
+nested = [1, [2, [3, [4]]]]
+flattened = flatten(nested, depth=1)
+print(flattened)  # [1, 2, [3, [4]]]
+```
+
+## Features
+
+- Supports lists, tuples, dictionaries, and sets
+- Optional depth limit for partial flattening
+- Customizable dictionary key handling
+- Configurable separator for nested dictionary keys
+- Type hints for better IDE support
+- Comprehensive test suite
+- Exception handling for unsupported types
+
+## License
+
+This project is licensed under the MIT License.
