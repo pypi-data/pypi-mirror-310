@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: google-fonts
+Version: 0.1.1
+Summary: 
+Author: desonglll
+Author-email: lindesong666@163.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: tqdm (>=4.67.1,<5.0.0)
+Requires-Dist: typer (>=0.13.1,<0.14.0)
+Description-Content-Type: text/markdown
+
+## google_fonts
+
+```shell
+poetry config pypi-token.pypi
+```
