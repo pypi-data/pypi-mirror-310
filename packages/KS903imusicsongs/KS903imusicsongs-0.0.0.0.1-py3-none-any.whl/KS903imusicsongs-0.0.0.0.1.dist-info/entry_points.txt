@@ -1,0 +1,2 @@
+[console_scripts]
+ks903imusicsongs = ks903imusicsongs.cli:main
