@@ -1,0 +1,3 @@
+[console_scripts]
+odatse-STR=odatse.extra.STR._main:main
+
