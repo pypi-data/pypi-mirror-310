@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyBinaryClust
+Version: 0.0.2
+Summary: BinaryClust Python
+Author: Desmond Choy
+Author-email: <desmondchoy@cantab.net>
+Keywords: python,BinaryClust,CyTOF,bioinformatics,cytometry
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+Python Reimplementation of the R package BinaryClust
