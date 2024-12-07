@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: xenvironment
+Version: 0.0.4
+Summary: Environments for any project
+Home-page: https://github.com/rmonico/xenv
+Author: Rafael Monico
+Author-email: rmonico1@gmail.com
+License: GPL3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse_decorations==0.0.8
+Requires-Dist: PyYaml==6.0.2
+
+# XEnvironment
+
+Environments for any project, with any tools
+
+## How to use
+
+Run `eval "$(xenv launch-zsh)"` from a zsh shell.
+
+`xenv list` list the available environments
+
+`xenv load <environment>` load a environment
