@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisk Report</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header bar -->
+    <header>
+        Brisk Report - {{ timestamp }}
+    </header>
+
+    <!-- Summary Table -->
+    <div class="summary-container">
+        {{ summary_table|safe }}
+     </div>
+
+    <!-- Experiment Containers -->
+    <div class="section-container">
+        {% for group in groups %}
+            {% for dataset in group.datasets %}
+            <section class="experiment-section">
+                <div class="section-header">
+                    <h2>{{ group.name }}</h2>
+                    <h3>{{ dataset.name }}</h3>
+                </div>
+                <div class="experiment-list">
+                    <h4>Experiments:</h4>
+                    <ul>
+                        {% for experiment in dataset.experiments %}
+                        <li>
+                            <a href="{{ dataset.name }}_{{ experiment }}.html">
+                                {{ experiment }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="dataset-link">
+                        <a href="{{ group.name }}_{{ dataset.name }}.html">View Data Split Analysis</a>
+                    </div>
+                </div>
+            </section>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</body>
+</html>
