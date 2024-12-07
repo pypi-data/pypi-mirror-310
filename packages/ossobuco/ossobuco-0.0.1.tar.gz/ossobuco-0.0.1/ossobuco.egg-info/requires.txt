@@ -1,0 +1,4 @@
+numpy
+bamboost
+matplotlib
+scipy

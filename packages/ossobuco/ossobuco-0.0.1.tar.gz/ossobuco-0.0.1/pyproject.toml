@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ossobuco"
+version = "0.0.1"
+description = "surface growth simulations for structural build-up investigations"
+authors = [
+    { name = "Luca Michel", email = "micheluc@ethz.ch" },
+    { name = "Flavio Lorez", email = "florez@ethz.ch" },
+    { name = "Antoine Sanner", email = "asanner@ethz.ch" },
+    { name = "David Kammer", email = "dkammer@ethz.ch" }
+]
+readme = { file = "README.md", content-type="text/markdown" }
+license = { text = "GNU Lesser General Public License v3 (LGPLv3)" }
+dependencies = ["numpy",
+"bamboost",
+"matplotlib",
+"scipy",
+]
+
+[tool.setuptools.packages.find]
+include = ["ossobuco"]

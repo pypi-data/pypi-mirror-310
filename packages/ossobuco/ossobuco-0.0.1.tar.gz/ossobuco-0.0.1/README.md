@@ -1,0 +1,92 @@
+# ossobuco
+
+**Ossobuco** is a python library to simulate the growth of products in the gap between two arbitrary surfaces.
+It was developed to study the strengthening of contact points between two cement grains as occurs during early-age structural build-up in fresh cement pastes ([Michel et al. 2024](https://www.sciencedirect.com/science/article/pii/S0008884624002461)).
+
+![Demo](assets/gif.gif)
+
+## License
+
+Copyright &copy; 2024 ETH Zurich (Luca Michel)
+
+**Ossobuco** is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+**Ossobuco** is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along with **Ossobuco**.  If not, see <https://www.gnu.org/licenses/>.
+
+### Usage/installation
+
+The dependencies required for ossobuco are given in `requirements.txt`. These can be installed by running
+
+```bash
+pip install -r requirements.txt
+```
+
+To create a virtual environment
+
+```bash
+python -m venv name_of_venv
+
+source name_of_venv/bin/activate
+```
+
+## Basic Usage
+
+### Structure
+- gap.py generates a gap, fills it with products and stores the output in a bamboost database (www.bamboost.ch)
+- displayer.py takes a bamboost Simulation object and allows to visualize the simulation at a given timestep and generate GIFs of the simulations
+- postprocess.py takes a bamboost Simulation object and allows to postprocess the raw n_particles-interaction output from gap.py for further analysis
+
+### Algorithm
+We define two discretized surfaces (upper and lower), $h_{up}$ and $h_{low}$.
+
+The gap is then defined as $D(x) = h_{up}(x) - h_{low}(x)$. 
+
+We then grow products between the surfaces by reducing $D(x)$ by $\delta$:
+
+$$ D_i(x)_{new} = D_i(x)_{current} - \delta$$
+
+for randomly picked $x$.
+
+We increment the interaction by 1 unit whenever $D_i = 0$, untill the gap is filled.
+
+### Example usage
+Further examples can be found in the examples directory.
+
+```python
+from gap import Gap
+import matplotlib.pyplot as plt
+
+parameters = {
+'xmax' : 3,
+'xaxis_resolution' : 1,
+
+'phi_low' : 0,
+'amplitude_low' : 0,
+'alt_low' : 0,
+
+'phi_up' : 0,
+'amplitude_up' : 0,
+'alt_up' : 1,
+
+'h_prod' : 0.5,
+'interaction_touch' : 1,
+
+'fct':'sin',
+'seed' : 10
+}
+
+fig, axes = plt.subplots(1, 2, figsize=(6,3))
+ax1, ax2 = axes[0], axes[1]
+
+gap = Gap(parameters)
+gap.display_geometry(ax=ax1)
+gap.fill()
+gap.plot_output(ax=ax2, fit=False)
+
+npart, gapinteraction = gap.extract_results()
+
+plt.tight_layout()
+plt.show()
+```
