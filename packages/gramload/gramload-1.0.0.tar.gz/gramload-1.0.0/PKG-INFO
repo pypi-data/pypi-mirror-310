@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gramload
+Version: 1.0.0
+Summary: A simple tool for downloading entire Instagram profiles.
+Home-page: https://nova.mkultra.monster
+License: Attribution-NonCommercial-ShareAlike 4.0 International
+Platform: GNU/Linux
+
+This package contains the gramload tool, which you can use to specify an Instagram profile over a GUI, and then download everything contained within. This includes images, videos, and stories. GramLoad is designed to be simple to use, and can be run from the command line. Each image is downloaded between intervals in order to avoid rate-limiting. It's written in Python, and derived from the instaloader project.
+
+Check out more random projects on my github: https://github.com/cmdr-nova
+
+
