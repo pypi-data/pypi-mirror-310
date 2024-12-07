@@ -1,0 +1,3 @@
+ignore-sigpipe
+ignore-write-errors
+disable-write-exception
