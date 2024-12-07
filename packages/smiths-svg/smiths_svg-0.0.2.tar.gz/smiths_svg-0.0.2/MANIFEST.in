@@ -1,0 +1,11 @@
+include smiths_svg/smiths_svg.min.js
+include smiths_svg/smiths_svg.min.js.map
+include smiths_svg/async-*.js
+include smiths_svg/async-*.js.map
+include smiths_svg/*-shared.js
+include smiths_svg/*-shared.js.map
+include smiths_svg/metadata.json
+include smiths_svg/package-info.json
+include README.md
+include LICENSE
+include package.json
