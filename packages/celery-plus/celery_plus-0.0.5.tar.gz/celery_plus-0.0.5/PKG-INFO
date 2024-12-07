@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: celery-plus
+Version: 0.0.5
+Summary: Celery 增强工具
+License: MIT
+Author: seehar
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Celery Plus
+
+> Celery 增强工具
+
+### 安装
+
+```shell
+pip install celery-plus
+```
+
