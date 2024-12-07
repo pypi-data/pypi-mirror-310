@@ -1,0 +1,4 @@
+[console_scripts]
+opd = opd.daemon:main
+opdctl = opd.__main__:wrapped
+opds = opd.service:wrapped
