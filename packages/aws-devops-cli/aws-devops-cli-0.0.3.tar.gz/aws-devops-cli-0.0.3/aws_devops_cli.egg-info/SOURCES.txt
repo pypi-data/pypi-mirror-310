@@ -1,0 +1,12 @@
+README.md
+setup.py
+aws_devops_cli.egg-info/PKG-INFO
+aws_devops_cli.egg-info/SOURCES.txt
+aws_devops_cli.egg-info/dependency_links.txt
+aws_devops_cli.egg-info/entry_points.txt
+aws_devops_cli.egg-info/requires.txt
+aws_devops_cli.egg-info/top_level.txt
+src/AWS_utils.py
+src/__init__.py
+src/entrypoint.py
+src/instance_connect.py

@@ -1,0 +1,2 @@
+[console_scripts]
+aws-devops-cli = src.entrypoint:main
