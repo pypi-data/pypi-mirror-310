@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+DadilipTrainer/DadilipTrainer.py
+DadilipTrainer/__init__.py
+DadilipTrainer.egg-info/PKG-INFO
+DadilipTrainer.egg-info/SOURCES.txt
+DadilipTrainer.egg-info/dependency_links.txt
+DadilipTrainer.egg-info/requires.txt
+DadilipTrainer.egg-info/top_level.txt
