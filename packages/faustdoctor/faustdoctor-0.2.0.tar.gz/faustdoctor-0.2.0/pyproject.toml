@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "faustdoctor"
+dynamic = ["version"]
+description = "A post-processor for faust giving more flexibility at source generation"
+author = [
+  { name="Jean Pierre Cimalando" },
+  { name="Christopher Arndt", email="info@chrisarndt.de" },
+]
+maintainer = [
+  { name="Christopher Arndt", email="info@chrisarndt.de" },
+]
+readme = "README.md"
+license = "BSL-1.0"
+dependencies = [
+    "Jinja2",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/SpotlightKid/faustdoctor"
+"Documentation" = "https://spotlightkid.github.io/faustdoctor"
+"Bug Tracker" = "https://github.com/SpotlightKid/faustdoctor/issues"
+
+[project.scripts]
+faustdr = "faustdoctor.main:main"
+
+[tool.hatch.version]
+path = "faustdoctor/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "docs",
+    "examples",
+    "faustdoctor",
+    "thirdparty",
+    "CHANGELOG.md"
+]

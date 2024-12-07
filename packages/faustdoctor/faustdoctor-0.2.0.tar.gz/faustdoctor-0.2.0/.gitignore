@@ -1,0 +1,7 @@
+/trash/
+bin/
+build/
+/.cache/
+__pycache__/
+/dist/
+*.egg-info/
