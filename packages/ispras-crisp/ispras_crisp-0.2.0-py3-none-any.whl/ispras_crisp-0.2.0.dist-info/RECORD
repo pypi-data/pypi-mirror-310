@@ -1,0 +1,17 @@
+crisp/__init__.py,sha256=BTYl1e--vI9EaHdynkKWlPGV4KApJZYIehnWr3BMFTs,70
+crisp/cache.py,sha256=pct_FI-TfKsf5Rfgj_wU9s5jQzJ2Lgv1R6LydRfGa8I,2875
+crisp/cli.py,sha256=30fV99CA2CqYAtlQb39ftvtcD0hTRrT2PEuxXJCODZ0,2931
+crisp/config.py,sha256=6JP4wmZlQeJU2IXSeSIVJdT7v322jORR-keaW2VptFM,6181
+crisp/core.py,sha256=CnBIOekXzJKlQNlNXK61ANNicYvG_5x47rM2i3Jn3B4,8166
+crisp/exceptions.py,sha256=AwLp6wscYza3a6ncIAu_ZYwnxjLJ3yMFxx0l5RWk8XQ,38
+crisp/file_selection.py,sha256=niHO_iJoEe8u8uAKsvrseGym2ZByWS2_dEDy9mZDYqU,5154
+crisp/parsing.py,sha256=Zo1t-Qj0bzIF2GtTkGtiPvHXA38MiQ27rEHPO7X30CA,1028
+crisp/pre_commit.py,sha256=vpeFUlm2gAVrMNDZX-_GOprMPYM6qewm91V0rTj4aYA,123
+crisp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crisp/pycodestyle.py,sha256=c29FwIBiAiMJFF4zUir4cYGuua4Be_jfd39MN9Tdb9w,953
+crisp/reporting.py,sha256=VLCHPX-otTGL6PtssvbQHzFqQ9HCwZbVUHpkk5jV70M,1146
+crisp/structures.py,sha256=o1g9kkXN6DoBw5vnNSdSLVx0FDxAC9xva7pG0l8viJc,629
+ispras_crisp-0.2.0.dist-info/METADATA,sha256=T9p8PuZxd-33JfSryfWoohkTU-eQnx7WxXWJ4gnV0rU,1491
+ispras_crisp-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ispras_crisp-0.2.0.dist-info/entry_points.txt,sha256=LMYngHSTFo1VGa2LBddj94pg36KA2es8EcxdRMMBq30,40
+ispras_crisp-0.2.0.dist-info/RECORD,,
