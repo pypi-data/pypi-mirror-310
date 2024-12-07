@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_package/__init__.py
+simple_package/string_utils.py
+simple_package_yeonjin.egg-info/PKG-INFO
+simple_package_yeonjin.egg-info/SOURCES.txt
+simple_package_yeonjin.egg-info/dependency_links.txt
+simple_package_yeonjin.egg-info/top_level.txt
