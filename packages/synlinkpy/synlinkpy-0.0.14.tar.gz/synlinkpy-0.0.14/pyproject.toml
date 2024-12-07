@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "synlinkpy"
+version = "0.0.14"
+description = "HTTP Python Wrapper for Synaccess SynLink PDU HTTP API."
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "requests >= 2.2.1",
+    "requests-toolbelt >= 0.9.1"
+]
+authors = [
+    { name="Kevin Han", email="kevin.han@synaccess.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["synlink", "pdu", "api", "client"]
+
+[project.urls]
+"Homepage" = "https://github.com/synaccess/synlink-py"
+"Bug Tracker" = "https://github.com/synaccess/synlink-py/issues"
