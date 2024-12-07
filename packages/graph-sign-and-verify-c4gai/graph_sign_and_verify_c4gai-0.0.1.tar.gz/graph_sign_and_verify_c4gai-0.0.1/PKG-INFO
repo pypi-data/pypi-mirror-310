@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: graph-sign-and-verify-c4gai
+Version: 0.0.1
+Summary: Sign and verify your awesome Knowledge Graphs with eccenca Corporate Memory :-)
+License: Apache-2.0
+Author: eccenca GmbH
+Author-email: magnus.knuth@eccenca.com
+Requires-Python: >=3.11,<4
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cryptography (>=43.0.3,<44.0.0)
+Description-Content-Type: text/markdown
+
+# graph-sign-and-verify-c4gai
+
+Sign and verify your awesome Knowledge Graphs with eccenca Corporate Memory :-)
+
+
+  
+[![poetry][poetry-shield]][poetry-link] [![ruff][ruff-shield]][ruff-link] [![mypy][mypy-shield]][mypy-link] [![copier][copier-shield]][copier] 
+
+
+[poetry-link]: https://python-poetry.org/
+[poetry-shield]: https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json
+[ruff-link]: https://docs.astral.sh/ruff/
+[ruff-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json&label=Code%20Style
+[mypy-link]: https://mypy-lang.org/
+[mypy-shield]: https://www.mypy-lang.org/static/mypy_badge.svg
+[copier]: https://copier.readthedocs.io/
+[copier-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-purple.json
+
+
