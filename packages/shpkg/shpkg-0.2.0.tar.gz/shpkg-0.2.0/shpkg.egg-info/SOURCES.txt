@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+shpkg/__main__.py
+shpkg/install.py
+shpkg/list_pkg.py
+shpkg/remove.py
+shpkg/update.py
+shpkg/update_all.py
+shpkg.egg-info/PKG-INFO
+shpkg.egg-info/SOURCES.txt
+shpkg.egg-info/dependency_links.txt
+shpkg.egg-info/entry_points.txt
+shpkg.egg-info/requires.txt
+shpkg.egg-info/top_level.txt
