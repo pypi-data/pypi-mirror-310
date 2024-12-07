@@ -1,0 +1,10 @@
+aifn/__init__.py,sha256=oR95fk8_CXVaD_3PaU_MG-Qm0nSBdFzhnkvltfAGyIM,75
+aifn/client.py,sha256=G9U_PmOmEX80DUDvSxWv6bDkaJcwYFZ0H4xLYcrmky0,29661
+aifn/constants.py,sha256=-FGnGZgwipIlVP55W6dcYpskoxNg8bL5txD-JU7jWM8,248
+aifn/function.py,sha256=6F_V2xoW6jlyYAih5utxcPUcXlRz0fOebOgMUGzN2nc,10942
+aifn/utils.py,sha256=UUSw6ocqWdlSmIXVcH66DAL4NuLU2rFOyviD8aTWsv0,4371
+aifn-0.2.0.dist-info/LICENSE,sha256=NvpxfBuSajszAczWBGKxhHe4gsvil1H63zmu8xXZdL0,1064
+aifn-0.2.0.dist-info/METADATA,sha256=GSObbUcrupTz11SUMRjqeSwwcQjqtv93WW_NWQnXcfs,5919
+aifn-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aifn-0.2.0.dist-info/top_level.txt,sha256=aYVp4p0Hpv_3P9XnpeldcBQ0BFYB3vFjni9xEI_X2GA,5
+aifn-0.2.0.dist-info/RECORD,,
