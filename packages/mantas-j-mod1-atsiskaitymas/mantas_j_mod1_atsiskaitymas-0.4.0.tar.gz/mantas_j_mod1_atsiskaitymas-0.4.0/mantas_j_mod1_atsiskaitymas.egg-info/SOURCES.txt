@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+mantas_j_mod1_atsiskaitymas/__init__.py
+mantas_j_mod1_atsiskaitymas/crawler.py
+mantas_j_mod1_atsiskaitymas/data_parser.py
+mantas_j_mod1_atsiskaitymas/web_crawler.py
+mantas_j_mod1_atsiskaitymas.egg-info/PKG-INFO
+mantas_j_mod1_atsiskaitymas.egg-info/SOURCES.txt
+mantas_j_mod1_atsiskaitymas.egg-info/dependency_links.txt
+mantas_j_mod1_atsiskaitymas.egg-info/requires.txt
+mantas_j_mod1_atsiskaitymas.egg-info/top_level.txt

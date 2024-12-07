@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mantas_j_mod1_atsiskaitymas
+Version: 0.4.0
+Author: Meskenaz
+Requires-Python: >=3.10
+Requires-Dist: lxml~=5.3.0
+Requires-Dist: selenium~=4.26.1
+Requires-Dist: pytest==8.3.3
+Requires-Dist: pytest-cov==6.0.0
