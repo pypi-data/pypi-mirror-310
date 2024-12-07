@@ -1,0 +1,2 @@
+[console_scripts]
+pymol_remote = pymol_remote:launch_pymol_with_rpc

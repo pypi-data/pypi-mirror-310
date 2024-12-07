@@ -1,0 +1,10 @@
+pymol_remote/__init__.py,sha256=7b83ftQMcr7fjRYef7gknAZg9-731o3c2ntfuORGZ0k,1434
+pymol_remote/client.py,sha256=M8ugBaD3-iGfbNslfefcbwWSwedkirasyh66s4ZWyhI,7716
+pymol_remote/common.py,sha256=PNkoQp3mbveNB_vA6t2l1rCnGhZNMeqQKB48Ggemxq0,609
+pymol_remote/server.py,sha256=8HVcM47inZOPxcuFezrPYYAgvVx4liM5IxEgkFBVDgw,13172
+pymol_remote/version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+pymol_remote-0.1.0.dist-info/METADATA,sha256=0O-Bi6C0M-V8HYZznoS4gBrq0VAVDmVu9kUfAz9bMRI,6945
+pymol_remote-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+pymol_remote-0.1.0.dist-info/entry_points.txt,sha256=AssNBm7s_HnYBz9rYFi9yFoK025_Q67RM2WGzd7sWhc,68
+pymol_remote-0.1.0.dist-info/licenses/LICENSE,sha256=NNVDzKe2ZCBFs9FM0iPmZfS0NjdPW1_wgwI10Irbyko,2615
+pymol_remote-0.1.0.dist-info/RECORD,,
