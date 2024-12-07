@@ -1,0 +1,7 @@
+README.md
+setup.py
+kAuth/__init__.py
+kauth.egg-info/PKG-INFO
+kauth.egg-info/SOURCES.txt
+kauth.egg-info/dependency_links.txt
+kauth.egg-info/top_level.txt
