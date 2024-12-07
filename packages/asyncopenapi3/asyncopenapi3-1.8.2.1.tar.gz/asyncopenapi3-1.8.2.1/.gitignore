@@ -1,0 +1,10 @@
+openapi.yaml
+openapi.json
+*.swp
+*.pyc
+asyncopenapi3.egg-info/*
+build/*
+dist/*
+.idea
+/.pybuild/
+env
