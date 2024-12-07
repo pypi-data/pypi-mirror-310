@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: torbox-api
+Version: 1.0.3
+Summary: You can view the full documentation at https://api-docs.torbox.app.
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
