@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Elasticipy
+Version: 2.0.0
+Summary: Collection of tools to work on strain, stress and stiffness tensors, with plotting features
+Home-page: https://elasticipy.readthedocs.io/
+Author: Dorian Depriester
+Author-email: dorian.depriester@ensam.eu
+License: MIT Licence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: numpy
+
+# Elasticipy 
+![PyPI - Version](https://img.shields.io/pypi/v/Elasticipy?link=https%3A%2F%2Fpypi.org%2Fproject%2FElasticipy%2F)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/Elasticipy?link=https%3A%2F%2Fpypi.org%2Fproject%2FElasticipy%2F)
+![PyPI - License](https://img.shields.io/pypi/l/Elasticipy)
+![ReadTheDoc](https://readthedocs.org/projects/elasticipy/badge/?version=latest)
+
+A python toolkit to manipulate elastic constants of materials. 
+This package also provides a collection of easy-to-use and very fast tools to work on stress and strain tensors.
+
+## Installation
+Elasticipy can be installed with PIP:
+````
+pip install Elasticipy
+````
+
+## Documentation
+The full documentation is available on [ReadTheDoc](https://elasticipy.readthedocs.io/).
+
+## Sources
+The source code is available on [GitHub](https://github.com/DorianDepriester/Elasticipy).
