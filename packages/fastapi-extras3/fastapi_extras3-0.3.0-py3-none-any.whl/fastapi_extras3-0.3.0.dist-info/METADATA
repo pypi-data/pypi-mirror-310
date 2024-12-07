@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: fastapi_extras3
+Version: 0.3.0
+Summary: Utilities to make using fastapi a little easier.
+Author-email: Andrew Scott <imgurbot12@gmail.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2024 Andrew C Scott
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: homepage, https://github.com/imgurbot12/fastapi-extras
+Keywords: fastapi,utils,session,sync,dataclass
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi >=0.115.5
+
+fastapi-extras
+---------------
+
+A series of extras and utilities that make using
+[fastapi](https://github.com/tiangolo/fastapi) a little bit easier
+
+### Features
+
+- Modular and Configurable Session Management
+- Synchronous Request Getter Utilities using Depends
+- Helpers for using [pyderive dataclasses](https://github.com/imgurbot12/pyderive)
+
+### Examples
+
+Session Middleware
+
+```python3
+from fastapi import FastAPI
+from fastapi_extras.session import SessionMiddleware
+
+# drop in replacement for starlette SessionMiddleware
+app = FastAPI()
+app.add_middleware(SessionMiddleware)
+
+# customizable and configurable storage interface
+from fastapi_extras.session.fs import FileStore
+
+app = FastAPI()
+app.add_middleware(SessionMiddleware, store=FileStore())
+```
+
+Synchronous Getters
+
+```python3
+from fastapi import FastAPI, Request
+from fastapi_extras.getters import form
+
+app = FastAPI()
+
+@app.post('/async')
+async def async_form(request: Request):
+    """collect form object using async function call"""
+    form = await request.form()
+    return form
+
+@app.post('/sync')
+def sync_form(request: Request, form = form()):
+    """collect async form resource without async using dependency"""
+    return form
+```
+
+Pyderive Helpers
+
+```python3
+from fastapi import FastAPI, Request
+from fastapi_extras.session import SessionMiddleware
+from fastapi_extras.getters import as_session
+from pyderive.extensions.validate import BaseModel, IPv4
+
+class Session(BaseModel):
+    ip: IPv4
+
+app = FastAPI()
+app.add_middleware(SessionMiddleware)
+
+@app.get('/start')
+def start(request: Request) -> str:
+    host = request.client.host if request.client else '127.0.0.1'
+    request.session['ip'] = host
+    return 'Session Started'
+
+@app.get('/check')
+def check(session: Session = as_session(Session)):
+    return f'Your IPAddress is {session.ip!r}'
+```
