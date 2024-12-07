@@ -1,0 +1,10 @@
+MANIFEST.in
+src/wagtailspeech/__init__.py
+src/wagtailspeech/admin.py
+src/wagtailspeech/models.py
+src/wagtailspeech/urls.py
+src/wagtailspeech/utils.py
+src/wagtailspeech/views.py
+src/wagtailspeech/wagtail_hooks.py
+src/wagtailspeech/migrations/0001_initial.py
+src/wagtailspeech/migrations/__init__.py
