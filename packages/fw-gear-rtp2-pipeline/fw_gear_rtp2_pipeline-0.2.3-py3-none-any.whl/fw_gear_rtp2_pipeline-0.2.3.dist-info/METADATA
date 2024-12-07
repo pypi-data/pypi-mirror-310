@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: fw-gear-rtp2-pipeline
+Version: 0.2.3
+Summary: Tract and metrics generation for  Diffusion MRI
+Home-page: https://gitlab.com/flywheel-io/scientific-solutions/gears/rtp2-pipeline
+License: MIT
+Keywords: Flywheel,Gears
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Requires-Dist: backoff (>=2.1.2,<3.0.0)
+Requires-Dist: flywheel-gear-toolkit (>=0.6,<0.7)
+Requires-Dist: flywheel-sdk (>=16.10.12,<17.0.0)
+Requires-Dist: nibabel (>=5.1.0,<6.0.0)
+Requires-Dist: packaging (>=24.1,<25.0)
+Requires-Dist: pandas (>=2.0.1,<3.0.0)
+Project-URL: Repository, https://gitlab.com/flywheel-io/scientific-solutions/gears/rtp2-pipeline
+Description-Content-Type: text/markdown
+
+# rtp2-pipeline
+
+rtp2-pipeline is a Flywheel Gear that contains a multi-step pipeline designed to run
+MRtrix3, LiFE and SIFT, ET, and obtains tracts and metrics. Necessary ROIs are created
+in the freesurferator gear and the DWI preprocessing is done in rtp2-preproc.
+MRTrix3 + Ensemble Tractography + LiFE generate a connectome which is then run
+through a MRtrix3 based tracking system. Then tract profiles of tissue properties
+for major fiber tracts in the brain are generated. It is possible to create ROI2ROI
+tracts as well. Required inputs are (1) DWI NIfTI image, (2) BVEC file, (3) BVAL file,
+(4) Anatomical NIfTI file, (5) fs.zip with the ROIs in the individual space generated
+by the freesurferator gear, and (6) tractparams.csv, a comma-separated file specifying
+the details of all the fasciculus to be tracked. If no tractparams is passed, it
+will provide DTI metrics per ROI. If a qMAP file is passed, it will provide metrics
+at the ROI and/or tract level as well.
+
+## Documentation
+
+The documentation of the gear can be found
+[here](https://flywheel-io.gitlab.io/scientific-solutions/gears/rtp2-pipeline/index.html).
+
+## Contributing
+
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for information on how to
+contribute to the gear.
+
