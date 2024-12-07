@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+setup.py
+flickpay.egg-info/PKG-INFO
+flickpay.egg-info/SOURCES.txt
+flickpay.egg-info/dependency_links.txt
+flickpay.egg-info/top_level.txt
+sdk/__init__.py
+sdk/flickpay.py
+sdk/py.typed
+sdk/types.py
