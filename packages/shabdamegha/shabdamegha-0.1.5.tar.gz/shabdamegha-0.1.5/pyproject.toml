@@ -1,0 +1,10 @@
+[project]
+name = "shabdamegha"
+version = "0.1.5"
+
+[project.urls]
+Documentation = "https://sbissoyi.github.io/shabdamegha/docs"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
