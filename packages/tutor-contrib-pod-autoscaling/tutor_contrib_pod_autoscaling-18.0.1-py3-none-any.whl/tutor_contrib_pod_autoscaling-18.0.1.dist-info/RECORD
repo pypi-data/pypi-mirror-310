@@ -1,0 +1,17 @@
+tutorpod_autoscaling/__about__.py,sha256=1KLQOuSrHr7NQqq6CHXeQXGvF8jNMEHghFRWw5z2UMM,23
+tutorpod_autoscaling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutorpod_autoscaling/hooks.py,sha256=DRtCjm8lsh4MlhzGR9VTz4mXNBXW92Kw9Mt-zAI44MY,630
+tutorpod_autoscaling/plugin.py,sha256=ohf5rGmQKLgikzO-bbjz_tM1bd36dhkMFqfoAYZ5lu8,4947
+tutorpod_autoscaling/patches/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutorpod_autoscaling/patches/k8s-override,sha256=aTJGXixHPBKMkyGvyBkgs8TvY5d-aIfE6z3gu-_NQCc,802
+tutorpod_autoscaling/patches/kustomization-resources,sha256=aLQ_XQYbqFNImrOuq4Ra7qxxqmpOs9qzItd_IvpPn70,76
+tutorpod_autoscaling/templates/pod-autoscaling/apps/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutorpod_autoscaling/templates/pod-autoscaling/build/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutorpod_autoscaling/templates/pod-autoscaling/k8s/hpa.yml,sha256=8HfMimS675Rp6TomniIayi3D9I2JUl5wG1liomaupQ0,968
+tutorpod_autoscaling/templates/pod-autoscaling/k8s/vpa.yml,sha256=wy8Xv6AGd9aIiU5oUl_8ZjloGpv771h_t4my0_2Phhc,462
+tutor_contrib_pod_autoscaling-18.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+tutor_contrib_pod_autoscaling-18.0.1.dist-info/METADATA,sha256=B0H_rb6oPW09pMnC7N9fT2SjmhbqmlR4vwBjze1X-UY,9366
+tutor_contrib_pod_autoscaling-18.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tutor_contrib_pod_autoscaling-18.0.1.dist-info/entry_points.txt,sha256=lGnHEEFY3e7a6F3OUsl_rgm2j3eyL_WmzjSCibz6VQc,64
+tutor_contrib_pod_autoscaling-18.0.1.dist-info/top_level.txt,sha256=_B3q0X2edCw2HIUiV7RTdOOB6aLEGzqqufFTZzUflHI,26
+tutor_contrib_pod_autoscaling-18.0.1.dist-info/RECORD,,
