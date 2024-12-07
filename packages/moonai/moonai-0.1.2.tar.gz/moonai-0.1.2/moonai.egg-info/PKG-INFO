@@ -1,0 +1,214 @@
+Metadata-Version: 2.1
+Name: moonai
+Version: 0.1.2
+Summary: Framework to create teams of AI agents with organized missions and flows.
+Home-page: https://github.com/brunobracaioli/moonai
+Author: Bruno Bracaioli
+Author-email: bruno@bracaiolitech.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/brunobracaioli/moonai/issues
+Project-URL: Documentation, https://github.com/brunobracaioli/moonai#readme
+Project-URL: Source Code, https://github.com/brunobracaioli/moonai
+Keywords: AI agents framework missions squad tools
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: openai>=1.0.0
+Requires-Dist: python-dotenv>=0.19.0
+Requires-Dist: requests>=2.26.0
+Requires-Dist: beautifulsoup4>=4.9.3
+Requires-Dist: colorama>=0.4.4
+Requires-Dist: anthropic>=0.0.0
+Requires-Dist: pydantic>=1.0.0
+Requires-Dist: facebook-business>=17.0.0
+Requires-Dist: urllib3>=2.0.0
+Requires-Dist: lxml>=4.9.0
+Requires-Dist: html5lib>=1.1
+
+# Moon AI Framework
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python Versions](https://img.shields.io/pypi/pyversions/moonai)
+
+A powerful framework for creating and managing teams of AI agents with specific missions.
+
+## Index
+
+- [Characteristics](#characteristics)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Quick Usage Example](#quick-usage-example)
+- [Internal Documentation](#internal-documentation)
+- [Support](#support)
+- [License](#license)
+
+## Features
+
+- **Customizable Agents:** Create AI agents with specific roles, objectives and backgrounds.
+- **Structured Missions:** Define clear missions and expectations for each agent.
+- **Sequential and Hierarchical Processes:** Manage the execution of missions in a linear or organized manner by a process manager.
+- **Integrated Tools:** Use tools such as reading/writing files, website scraping and integration with Facebook Ads.
+- **Messaging System:** Facilitates communication between agents for delegation and coordination of tasks.
+- **Cache and Rate Limiting:** Control API usage and optimize performance with integrated caching.
+
+## Installation
+
+Make sure you have Python 3.8 or higher installed. You can install the **Moon AI Framework** via `pip`:
+
+```bash
+pip install moonai
+
+## Exemplo rápido de uso
+
+```# código de teste:
+
+from moonai import Agent, Mission, Squad, ProcessType
+from moonai.tools import FileReadTool, FileWriteTool, ScrapeWebsiteTool
+# import subprocess
+from dotenv import load_dotenv
+
+# Referenciando as tools
+read_tool = FileReadTool()
+write_tool = FileWriteTool()
+# scrape_tool = ScrapeWebsiteTool()
+# scraping_one = scrape_tool.execute("https://bracaiolitech.com/mastermind/")
+
+# Carrega as variáveis de ambiente do arquivo .env
+# crie um arquivo .env se não tiver ainda
+dotenv_path = 'C:/caminho/para/o/arquivo/.env'
+load_dotenv(dotenv_path)
+
+# Crie os arquivos vazios abaixo:
+arquivo = "C:/caminho/para/o/arquivo/arquivo.txt"
+texto = "C:/caminho/para/o/arquivo/texto.txt"
+copy = "C:/caminho/para/o/arquivo/copy.txt"
+
+
+
+
+# Criar agentes com roles únicos e objetivos que permitem comunicação
+gerente_de_marketing = Agent(
+    role="Gerente de Marketing",
+    goal=f'Acessar o arquivo {arquivo} para descobrir qual é a frase chave e, em seguida, passar para o estagiário de Marketing.',
+    backstory="Especialista em acessar arquivos",
+    llm="gpt-4o-mini",
+    max_iter=3,
+    cache=True,
+    verbose=True,
+    tools=[read_tool]
+)
+
+estagiario_de_marketing = Agent(
+    role="Estagiário de marketing",
+    goal= f'Obter a frase chave do gerente e salvar a frase chave no arquivo {texto}. O gerente pode apenas te falar a frase chave. Ao obtê-la, escreva apenas a frase no local {texto}.',
+    backstory="Especialista em acessar arquivos e em cumprir missões",
+    llm="gpt-4o-mini",
+    verbose=True,
+    cache=True,
+    tools=[read_tool,write_tool]
+)
+
+copywriter = Agent(
+    role="Copywriter",
+    goal= f'Escrever um texto motivacional baseado na frase localizada no {texto}. A frase chave se refere a uma empresa.',
+    backstory="Especialista em criar textos motivacionais",
+    llm="gpt-4o-mini", # claude-3-5-sonnet-20241022 / gpt-4o-mini
+    verbose=True,
+    cache=True,
+    temperature=0.7,
+    tools=[read_tool, write_tool]
+)
+
+
+
+# Criar missões associadas a cada agente
+identificar_frase = Mission(
+    description=f'Acessar o arquivo {arquivo} para descobrir qual é a frase chave e, em seguida, passar para o estagiário de marketing.',
+    expected_output="A frase chave descoberta",
+    agent=gerente_de_marketing,
+    tools=[read_tool]
+)
+
+salvar_frase_no_lugar_indicado = Mission(
+    description=f'Obter a frase chave do gerente e salvar a frase chave no arquivo {texto}. O gerente pode apenas te falar a frase chave. Ao obtê-la, escreva apenas a frase no local {texto}.',
+    expected_output= "a frase chave enviada pelo gerente de marketing",
+    agent=estagiario_de_marketing,
+    output_file = f'{texto}',
+    context=[identificar_frase],
+    tools=[read_tool,write_tool]
+)
+
+gerar_copy = Mission(
+    description= f'Escrever um texto motivacional baseado na frase localizada no {texto}. A frase chave se refere a uma empresa. Salve apenas texto motivacional no {copy}. Sempre salve apenas texto motivacional no {copy}.',
+    expected_output="Um texto motivacional.",
+    agent=copywriter,
+    tools=[read_tool, write_tool],
+    output_file = f'{copy}',
+    human_input=True
+)
+
+# Criar um Squad com os agentes e missões
+squad = Squad(
+    agents=[gerente_de_marketing, estagiario_de_marketing, copywriter],
+    missions=[identificar_frase, salvar_frase_no_lugar_indicado, gerar_copy],
+    verbose=True,
+    language="pt",
+    output_log_file="squad_logs.txt",
+#    process=ProcessType.HIERARCHICAL,
+#    manager_llm="gpt-4o"
+)
+
+# Iniciar o Squad e rodar as missões
+results = squad.kickoff()
+
+# Exibir os resultados
+print(results)
+
+# python test.py
+```
+
+## Prerequisites
+Environment Variables: The framework uses API keys for different LLM providers. Create a .env file in the root of your project with the following variables:
+
+OPENAI_API_KEY=your_openai_api_key
+ANTHROPIC_API_KEY=your_anthropic_api_key
+GEMINI_API_KEY=your_gemini_api_key
+
+# to use the "MetaMetricsToolLasts7Days" tool you will also need the credentials below:
+
+my_app_id=your_my_app_id
+my_app_secret=your_app_secret
+my_access_token=your_access_token
+ad_account_id=your_account_id
+business_id=your_business_id 
+
+Replace your_openai_api_key, your_anthropic_api_key, your_gemini_api_key, etc., with your respective API keys.
+
+## Settings
+
+In addition to environment variables, you can configure other parameters directly in the code or via configuration files according to your project's needs.
+
+## Documentation
+
+For more information, visit [https://github.com/brunobracaioli/moonai](https://github.com/brunobracaioli/moonai)
+
+## Contributing
+
+Contributions are welcome! Please read our contributing guide.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+"""
